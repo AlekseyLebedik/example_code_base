@@ -1,0 +1,15 @@
+.add-task-rule-form .justify {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.add-task-rule-form .allow-checkbox {
+  width: auto !important;
+  margin-right: -16px;
+}
+
+.add-task-rule-form label {
+  color: rgba(0, 0, 0, 0.3);
+}

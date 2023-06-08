@@ -1,0 +1,7 @@
+.gridContainer {
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: calc(-270px + 100vh);
+  padding: 0 20px;
+}

@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTestForm reducer should handle ADD_CONFIG_SUCCESS 1`] = `
+Object {
+  "cohortUsers": Object {},
+  "cohorts": Array [],
+  "configs": Object {
+    "1:dev": Array [
+      Object {
+        "configID": "3511476886449203568",
+        "name": "testcfg1",
+      },
+      Object {
+        "configID": "3511476886449203876",
+        "created": NaN,
+        "modifiers": "{\\"second_campaign_value\\": 2}",
+        "name": "testcfg2",
+        "serviceID": "ae",
+        "updated": NaN,
+      },
+    ],
+  },
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {},
+}
+`;
+
+exports[`ABTestForm reducer should handle DELETE_SEGMENTS_SUCCESS 1`] = `
+Object {
+  "segments": Object {
+    "1:dev": Array [
+      Object {
+        "name": "cert-sgm",
+        "segmentID": "3005367293471685760",
+      },
+    ],
+  },
+}
+`;
+
+exports[`ABTestForm reducer should handle FETCH_CATEGORIES_SUCCESS 1`] = `
+Object {
+  "cohortUsers": Object {},
+  "cohorts": Array [],
+  "configs": Object {},
+  "contexts": Object {
+    "undefined": Object {
+      "categories": Array [
+        "Category1",
+        "Category2",
+        "Other",
+      ],
+    },
+  },
+  "saving": false,
+  "segments": Object {},
+}
+`;
+
+exports[`ABTestForm reducer should handle FETCH_CONFIGS 1`] = `
+Object {
+  "cohortUsers": Object {},
+  "cohorts": Array [],
+  "configs": Object {
+    "1:dev": null,
+  },
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {},
+}
+`;
+
+exports[`ABTestForm reducer should handle FETCH_CONFIGS_FAILED 1`] = `
+Object {
+  "cohortUsers": Object {},
+  "cohorts": Array [],
+  "configs": Object {
+    "1:dev": Array [],
+  },
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {},
+}
+`;
+
+exports[`ABTestForm reducer should handle FETCH_CONFIGS_SUCCESS 1`] = `
+Object {
+  "cohortUsers": Object {},
+  "cohorts": Array [],
+  "configs": Object {
+    "1:dev": Array [
+      Object {
+        "configID": "3511476886449203876",
+        "context": "game1",
+        "created": "1542123131",
+        "immutable": false,
+        "modifiers": "{\\"second_campaign_value\\": 2}",
+        "name": "testcfg1",
+        "serviceID": "ae",
+        "updated": "1542123287",
+      },
+    ],
+  },
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {},
+}
+`;
+
+exports[`ABTestForm reducer should handle FETCH_SEGMENTS 1`] = `
+Object {
+  "cohortUsers": Object {},
+  "cohorts": Array [],
+  "configs": Object {},
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {
+    "1:dev": null,
+  },
+}
+`;
+
+exports[`ABTestForm reducer should handle FETCH_SEGMENTS_FAILED 1`] = `
+Object {
+  "cohortUsers": Object {},
+  "cohorts": Array [],
+  "configs": Object {},
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {
+    "1:dev": Array [],
+  },
+}
+`;
+
+exports[`ABTestForm reducer should handle FETCH_SEGMENTS_SUCCESS 1`] = `
+Object {
+  "cohortUsers": Object {},
+  "cohorts": Array [],
+  "configs": Object {},
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {
+    "1:dev": Array [
+      Object {
+        "context": "5682",
+        "name": "testseg5682",
+        "segmentID": "5210984693501455903",
+      },
+    ],
+  },
+}
+`;
+
+exports[`ABTestForm reducer should handle UPDATE_CONFIG_SUCCESS 1`] = `
+Object {
+  "cohortUsers": Object {},
+  "cohorts": Array [],
+  "configs": Object {
+    "1:dev": Array [
+      Object {
+        "configID": "3511476886449203568",
+        "name": "testcfg1",
+      },
+      Object {
+        "configID": "3511476886449203876",
+        "modifiers": "{\\"second_campaign_value\\": 3}",
+        "name": "testcfg2Updated",
+        "serviceID": "ae",
+      },
+    ],
+  },
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {},
+}
+`;
+
+exports[`ABTestForm reducer should handle fetchCohortUsers 1`] = `
+Object {
+  "cohortUsers": Object {
+    "7212643006045657787": null,
+  },
+  "cohorts": Array [],
+  "configs": Object {},
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {},
+}
+`;
+
+exports[`ABTestForm reducer should handle fetchCohortUsersFailed 1`] = `
+Object {
+  "cohortUsers": Object {
+    "7212643006045657787": Array [],
+  },
+  "cohorts": Array [],
+  "configs": Object {},
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {},
+}
+`;
+
+exports[`ABTestForm reducer should handle fetchCohortUsersSuccess 1`] = `
+Object {
+  "cohortUsers": Object {
+    "7212643006045657787": Array [
+      Object {
+        "accountType": "psn",
+        "context": "game2",
+        "dwid": "12334567",
+      },
+      Object {
+        "accountType": "steam",
+        "context": "game2",
+        "dwid": "2317174234108935",
+      },
+    ],
+  },
+  "cohorts": Array [],
+  "configs": Object {},
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {},
+}
+`;
+
+exports[`ABTestForm reducer should return the initial state 1`] = `
+Object {
+  "cohortUsers": Object {},
+  "cohorts": Array [],
+  "configs": Object {},
+  "contexts": Object {},
+  "saving": false,
+  "segments": Object {},
+}
+`;

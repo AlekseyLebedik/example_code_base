@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PyScripts Textbox renders the container component correctly 1`] = `
+<TextboxStateless
+  data={
+    Object {
+      "id": "double_xp",
+      "inputs": Array [
+        Object {
+          "key": "attachments",
+          "value": Array [
+            "old",
+          ],
+        },
+      ],
+    }
+  }
+  deletable={false}
+  disabled={false}
+  error={false}
+  errorMessage=""
+  handleChange={[MockFunction]}
+  handleDelete={[MockFunction]}
+  label="test"
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  onSubmit={[Function]}
+  properties={Object {}}
+  uniqueItems={true}
+  value="old"
+/>
+`;

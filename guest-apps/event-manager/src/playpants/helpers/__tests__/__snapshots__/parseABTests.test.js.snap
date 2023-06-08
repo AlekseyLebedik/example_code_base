@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseABTests() successfully parses AB test data 1`] = `
+Array [
+  Object {
+    "allDay": true,
+    "assignmentAlgorithm": "sha256",
+    "assignmentSeed": "afdsfadsfsadfsadfds",
+    "catchEnd": "1543641600",
+    "catchStart": "1541157600",
+    "categories": Array [],
+    "cohorts": Array [
+      Object {
+        "cohortID": "5594634547316897624",
+        "isControl": true,
+        "name": "Cohort 1",
+        "source": Object {
+          "maxMembers": "1000",
+          "percent": "50",
+          "type": "global",
+        },
+        "treatments": Array [
+          Object {
+            "configs": Array [
+              "1587158772831630686",
+            ],
+            "end": "1540635720",
+            "service_id": "ae",
+            "start": "1540462920",
+          },
+        ],
+      },
+      Object {
+        "cohortID": "7371160746155987318",
+        "isControl": false,
+        "name": "Cohort 2",
+        "source": Object {
+          "maxMembers": "1000",
+          "percent": "50",
+          "type": "global",
+        },
+        "treatments": Array [
+          Object {
+            "configs": Array [
+              "7970163228696734137",
+            ],
+            "end": "1540441440",
+            "service_id": "ae",
+            "start": "1540463040",
+          },
+        ],
+      },
+    ],
+    "comments": null,
+    "context": "5681",
+    "created": "1540376773",
+    "creator": "gpowley@demonware.net",
+    "data_scientist": "gpowley@demonware.net",
+    "end": "Dec 01, 2018 05:20 am UTC",
+    "environment": "cert",
+    "id": "148959614994188569",
+    "name": "Test 1- GP",
+    "organisation": "Demonware",
+    "purpose": "Test 1",
+    "source": Array [
+      "global",
+      "global",
+    ],
+    "stakeholders": Array [],
+    "start": "Oct 25, 2018 10:22 am UTC",
+    "status": "killed",
+    "testID": "148959614994188569",
+    "testPeriodEnd": 1543641600,
+    "testPeriodFrom": "1541157600",
+    "testPeriodStart": 1540462920,
+    "testPeriodTo": "1543641600",
+    "title": "Test 1- GP",
+    "titleID": 5681,
+    "type": "abTesting",
+    "updated": "1540376773",
+  },
+  Object {
+    "allDay": false,
+    "assignmentAlgorithm": "sha256",
+    "assignmentSeed": "Test",
+    "catchEnd": "1540641900",
+    "catchStart": "1540649100",
+    "categories": Array [],
+    "cohorts": Array [
+      Object {
+        "cohortID": "2970927096226116193",
+        "isControl": false,
+        "name": "Test",
+        "source": Object {
+          "type": "manual",
+        },
+        "treatments": Array [
+          Object {
+            "configs": Array [
+              "1587158772831630686",
+            ],
+            "end": "1540641960",
+            "service_id": "ae",
+            "start": "1540649160",
+          },
+        ],
+      },
+    ],
+    "comments": null,
+    "context": "5681",
+    "created": "1540476421",
+    "creator": "pedro.pereira@demonware.com",
+    "data_scientist": null,
+    "end": "Oct 27, 2018 12:06 pm UTC",
+    "environment": "dev",
+    "id": "459951878572224942",
+    "name": "Test",
+    "organisation": null,
+    "purpose": "Purpose",
+    "source": Array [
+      "manual",
+    ],
+    "stakeholders": Array [],
+    "start": "Oct 27, 2018 02:05 pm UTC",
+    "status": "killed",
+    "testID": "459951878572224942",
+    "testPeriodEnd": 1540641960,
+    "testPeriodFrom": "1540649100",
+    "testPeriodStart": 1540649100,
+    "testPeriodTo": "1540641900",
+    "title": "Test",
+    "titleID": 5681,
+    "type": "abTesting",
+    "updated": "1540476421",
+  },
+]
+`;

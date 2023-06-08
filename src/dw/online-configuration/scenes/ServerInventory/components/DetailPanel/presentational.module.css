@@ -1,0 +1,23 @@
+.grow {
+  flex-grow: 1;
+}
+
+.indicator {
+  background-color: #5f5f60;
+}
+
+.selectedTab {
+  color: black;
+}
+
+.detailsContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.tabLabel {
+  padding: 0;
+}
+.detailsText {
+  height: calc(100% - 57px);
+}

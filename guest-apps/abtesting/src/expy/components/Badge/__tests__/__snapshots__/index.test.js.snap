@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting Design - Badge renders design badge snapshot 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "palette": Object {
+        "statuses": Object {
+          "live": Object {
+            "main": "#000",
+          },
+        },
+      },
+      Symbol(mui.nested): false,
+    }
+  }
+>
+  <Badge
+    className=""
+    color="live"
+    withBullet={false}
+  >
+    Badge
+  </Badge>
+</ContextProvider>
+`;

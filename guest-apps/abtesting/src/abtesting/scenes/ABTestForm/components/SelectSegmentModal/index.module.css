@@ -1,0 +1,22 @@
+.table {
+  composes: ag-theme-material from global;
+  width: 100%;
+  height: calc(80vh - 190px);
+}
+
+.searchContainer {
+  display: flex;
+}
+
+.searchInput {
+  width: 100%;
+}
+
+.deleteContainer {
+  width: 47px;
+}
+
+.deleteButton {
+  position: relative;
+  top: 14px;
+}

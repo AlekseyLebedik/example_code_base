@@ -1,0 +1,19 @@
+.expansionPanel {
+  background-color: inherit;
+  box-shadow: none;
+  width: 100%;
+}
+
+.expansionLabel {
+  text-transform: uppercase;
+  padding: 0;
+}
+
+.primaryHeading {
+  flex-basis: 50%;
+  flex-shrink: 0;
+}
+
+.secondaryHeading {
+  color: rgba(0, 0, 0, 0.54);
+}

@@ -1,0 +1,14 @@
+.tabContainer {
+  position: relative;
+  height: 100%;
+}
+
+.disableLinkStyle {
+  text-decoration: inherit !important;
+  color: inherit !important;
+  overflow: inherit;
+}
+
+.tabBadge {
+  right: -10px;
+}

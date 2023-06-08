@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadButton renders default props UploadButton 1`] = `
+<Fragment>
+  <WithStyles(WrappedIcon)
+    className="uploadButton"
+    color="primary"
+    disabled={false}
+    htmlFor="upload"
+    icon="cloud_upload"
+    iconProps={
+      Object {
+        "style": Object {
+          "fontSize": 35,
+        },
+      }
+    }
+    onClick={[Function]}
+    tooltip="Upload File"
+  />
+  <input
+    className="uploadButtonDisplay"
+    data-cy="fileInput"
+    multiple={false}
+    onChange={[MockFunction]}
+    onClick={[Function]}
+    type="file"
+  />
+</Fragment>
+`;
+
+exports[`UploadButton renders disabled upload button 1`] = `
+<Fragment>
+  <WithStyles(WrappedIcon)
+    className="uploadButton"
+    color="primary"
+    disabled={true}
+    htmlFor="upload"
+    icon="cloud_upload"
+    iconProps={
+      Object {
+        "style": Object {
+          "fontSize": 35,
+        },
+      }
+    }
+    onClick={[Function]}
+    tooltip="Upload File"
+  />
+  <input
+    className="uploadButtonDisplay"
+    data-cy="fileInput"
+    multiple={false}
+    onChange={[MockFunction]}
+    onClick={[Function]}
+    type="file"
+  />
+</Fragment>
+`;

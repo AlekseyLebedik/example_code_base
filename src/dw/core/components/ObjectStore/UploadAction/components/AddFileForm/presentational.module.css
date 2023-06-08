@@ -1,0 +1,20 @@
+.form {
+  margin-top: -8px;
+}
+
+.form > div {
+  margin-top: 8px;
+}
+
+.confirmOverwrite {
+  margin-top: -6px !important;
+  margin-bottom: 12px;
+}
+
+.fileUpload {
+  margin-top: 20px;
+}
+
+.browserFileButton {
+  background-color: #50c1ef;
+}

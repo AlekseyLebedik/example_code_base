@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting component AddCohort renders component 1`] = `
+<div
+  className="cohortContainer"
+>
+  <WithStyles(ForwardRef(Typography))
+    hidden={false}
+    variant="h4"
+  >
+    Cohorts & Treatments
+  </WithStyles(ForwardRef(Typography))>
+  <AddAssignmentAlgorithm
+    disabled={false}
+    visible={true}
+  />
+  <FieldArray
+    component={[Function]}
+    name="cohorts"
+    props={
+      Object {
+        "cohortOverridesContainer": undefined,
+        "disabled": false,
+        "displayCohortOverrides": false,
+        "formMode": "NEW",
+        "groupsList": Array [],
+        "handleFromTreatmentDates": null,
+        "handleToTreatmentDates": null,
+        "hasCohortOverridesPermission": false,
+        "selectedCatchEnd": null,
+        "selectedCatchStart": null,
+      }
+    }
+  />
+</div>
+`;

@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatelessItem renders MOTD stateless item correctly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Card))
+    classes={
+      Object {
+        "root": "card",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(CardHeader))
+      action={
+        <React.Fragment>
+          <WithStyles(ForwardRef(Fab))
+            color="primary"
+            disabled={false}
+            mini={true}
+            onClick={[MockFunction]}
+          >
+            <WithStyles(ForwardRef(Icon))>
+              edit
+            </WithStyles(ForwardRef(Icon))>
+          </WithStyles(ForwardRef(Fab))>
+          <WithStyles(ForwardRef(Fab))
+            color="secondary"
+            disabled={false}
+            mini={true}
+            onClick={[MockFunction]}
+          >
+            <WithStyles(ForwardRef(Icon))>
+              delete
+            </WithStyles(ForwardRef(Icon))>
+          </WithStyles(ForwardRef(Fab))>
+        </React.Fragment>
+      }
+      classes={
+        Object {
+          "title": "cardTitle",
+        }
+      }
+      title="English (UK)"
+    />
+    <WithStyles(ForwardRef(Divider)) />
+    <WithStyles(ForwardRef(CardContent)) />
+  </WithStyles(ForwardRef(Card))>
+</Fragment>
+`;
+
+exports[`StatelessItem renders editable MOTD stateless item correctly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Card))
+    classes={
+      Object {
+        "root": "card",
+      }
+    }
+  >
+    <WithStyles(ForwardRef(CardHeader))
+      action={
+        <React.Fragment>
+          <WithStyles(ForwardRef(Fab))
+            color="primary"
+            mini={true}
+            onClick={[MockFunction]}
+          >
+            <WithStyles(ForwardRef(Icon))>
+              done
+            </WithStyles(ForwardRef(Icon))>
+          </WithStyles(ForwardRef(Fab))>
+          <WithStyles(ForwardRef(Fab))
+            mini={true}
+            onClick={[MockFunction]}
+          >
+            <WithStyles(ForwardRef(Icon))>
+              clear
+            </WithStyles(ForwardRef(Icon))>
+          </WithStyles(ForwardRef(Fab))>
+        </React.Fragment>
+      }
+      classes={
+        Object {
+          "title": "cardTitle",
+        }
+      }
+      title={
+        <WithStyles(ForwardRef(FormControl))
+          error={null}
+        >
+          <WithStyles(ForwardRef(InputLabel))>
+            Language
+          </WithStyles(ForwardRef(InputLabel))>
+          <WithStyles(ForwardRef(Select))
+            className="select"
+            onChange={[MockFunction]}
+            value="en-uk"
+          >
+            <WithStyles(ForwardRef(MenuItem))
+              value="en-us"
+            >
+              English (US)
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              value="en-uk"
+            >
+              English (UK)
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              value="fr"
+            >
+              French
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              value="it"
+            >
+              Italian
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              value="de"
+            >
+              German
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              value="sp"
+            >
+              Spanish
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              value="ru"
+            >
+              Russian
+            </WithStyles(ForwardRef(MenuItem))>
+            <WithStyles(ForwardRef(MenuItem))
+              value="zh"
+            >
+              Chinese
+            </WithStyles(ForwardRef(MenuItem))>
+          </WithStyles(ForwardRef(Select))>
+        </WithStyles(ForwardRef(FormControl))>
+      }
+    />
+    <WithStyles(ForwardRef(Divider)) />
+    <WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(TextField))
+        defaultValue=""
+        fullWidth={true}
+        label="Message of the Day"
+        onChange={[MockFunction]}
+        onKeyDown={[Function]}
+      />
+    </WithStyles(ForwardRef(CardContent))>
+  </WithStyles(ForwardRef(Card))>
+</Fragment>
+`;

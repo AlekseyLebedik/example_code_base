@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlobalProgress Reducer handles GLOBAL_PROGRESS_DONE 1`] = `
+Object {
+  "loading": 0,
+}
+`;
+
+exports[`GlobalProgress Reducer handles GLOBAL_PROGRESS_DONE 2`] = `
+Object {
+  "loading": 0,
+}
+`;
+
+exports[`GlobalProgress Reducer handles GLOBAL_PROGRESS_RESET 1`] = `
+Object {
+  "loading": 0,
+}
+`;
+
+exports[`GlobalProgress Reducer handles GLOBAL_PROGRESS_RESET 2`] = `
+Object {
+  "loading": 0,
+}
+`;
+
+exports[`GlobalProgress Reducer handles GLOBAL_PROGRESS_START 1`] = `
+Object {
+  "loading": 1,
+}
+`;
+
+exports[`GlobalProgress Reducer handles multiple GLOBAL_PROGRESS_START 1`] = `
+Object {
+  "loading": 2,
+}
+`;
+
+exports[`GlobalProgress Reducer returns initial state 1`] = `
+Object {
+  "loading": 0,
+}
+`;

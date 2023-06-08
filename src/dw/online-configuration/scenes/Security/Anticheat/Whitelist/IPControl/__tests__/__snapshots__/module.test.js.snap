@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - Anticheat - Whitelist - IPControl Action Creators addIPNote action 1`] = `
+Object {
+  "type": "security/IP_CONTROL_NOTE_ADD",
+  "values": "test",
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Action Creators deleteIPNote action 1`] = `
+Object {
+  "type": "security/IP_CONTROL_NOTE_DELETE",
+  "values": "test",
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Action Creators fetchIPGroups action 1`] = `
+Object {
+  "append": "test",
+  "params": "test",
+  "type": "security/IP_CONTROL_FETCH_GROUPS",
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Action Creators fetchIPGroupsSuccess action 1`] = `
+Object {
+  "append": "test",
+  "payload": "test",
+  "type": "security/IP_CONTROL_FETCH_GROUPS_SUCCESS",
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Action Creators fetchIPNotes action 1`] = `
+Object {
+  "append": "test",
+  "params": "test",
+  "type": "security/IP_CONTROL_FETCH_NOTES",
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Action Creators fetchIPNotesSuccess action 1`] = `
+Object {
+  "append": "test",
+  "payload": "test",
+  "type": "security/IP_CONTROL_FETCH_NOTES_SUCCESS",
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Action Creators updateIPNote action 1`] = `
+Object {
+  "type": "security/IP_CONTROL_NOTE_UPDATE",
+  "values": "test",
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer Test append = false 1`] = `
+Object {
+  "ipControl": Array [
+    Object {
+      "ipInt": 3,
+    },
+    Object {
+      "ipInt": 4,
+    },
+  ],
+  "nextPageToken": undefined,
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer Test append = true 1`] = `
+Object {
+  "ipControl": Array [
+    Object {
+      "ipInt": 1,
+    },
+    Object {
+      "ipInt": 2,
+    },
+    Object {
+      "ipInt": 3,
+    },
+    Object {
+      "ipInt": 4,
+    },
+  ],
+  "nextPageToken": undefined,
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer handle IP_CONTROL_ADD 1`] = `
+Object {
+  "addModalSubmitting": true,
+  "addModalVisible": false,
+  "ipControl": null,
+  "nextPageToken": null,
+  "q": undefined,
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer handle IP_CONTROL_ADD_FAILED 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "ipControl": null,
+  "nextPageToken": null,
+  "q": undefined,
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer handle IP_CONTROL_ADD_MODAL_CLOSE 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "ipControl": null,
+  "nextPageToken": null,
+  "q": undefined,
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer handle IP_CONTROL_ADD_MODAL_OPEN 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": true,
+  "ipControl": null,
+  "nextPageToken": null,
+  "q": undefined,
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer handle IP_CONTROL_ADD_SUCCESS 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "ipControl": Array [
+    Object {
+      "ipAddr": "127.0.0.1",
+      "ipInt": 2130706433,
+      "ipRange": 5,
+    },
+  ],
+  "nextPageToken": null,
+  "q": undefined,
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer handle IP_CONTROL_DELETE_SUCCESS 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "ipControl": Array [
+    Object {
+      "creatorNote": "",
+      "group": "Unassigned Group",
+      "groupID": 0,
+      "ipAddr": "0.80.164.230",
+      "ipInt": 5285094,
+      "ipRange": 32,
+      "note": "Click to add note",
+      "type": "IP/Ranges",
+      "updatedAt": "N/A",
+    },
+  ],
+  "nextPageToken": "CAE",
+  "q": undefined,
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer handle IP_CONTROL_FETCH_SUCCESS: empty results 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "ipControl": Array [],
+  "nextPageToken": undefined,
+  "q": undefined,
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer handle IP_CONTROL_FETCH_SUCCESS: ipControl and nextPagetoken assignation 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "ipControl": Array [
+    Object {
+      "creatorNote": "",
+      "group": "Unassigned Group",
+      "groupID": 0,
+      "ipAddr": "0.4.118.179",
+      "ipInt": 292531,
+      "ipRange": 41,
+      "note": "Click to add note",
+      "type": "IP/Ranges",
+      "updatedAt": "N/A",
+    },
+    Object {
+      "creatorNote": "",
+      "group": "Unassigned Group",
+      "groupID": 0,
+      "ipAddr": "0.80.164.230",
+      "ipInt": 5285094,
+      "ipRange": 32,
+      "note": "Click to add note",
+      "type": "IP/Ranges",
+      "updatedAt": "N/A",
+    },
+  ],
+  "nextPageToken": "CAE",
+  "q": undefined,
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer handle IP_CONTROL_SEARCH 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "ipControl": null,
+  "nextPageToken": null,
+  "q": "blah",
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - IPControl Reducer return the initial state 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "ipControl": null,
+  "nextPageToken": null,
+  "q": undefined,
+}
+`;

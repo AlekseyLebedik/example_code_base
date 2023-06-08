@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PyScript Toggle renders the Switch correctly 1`] = `
+<WithStyles(ForwardRef(FormControlLabel))
+  className="toggle"
+  control={
+    <WithStyles(ForwardRef(Switch))
+      checked={true}
+      color="primary"
+      disabled={false}
+      name="test"
+      onChange={[MockFunction]}
+      value={true}
+    />
+  }
+  label="ON"
+/>
+`;

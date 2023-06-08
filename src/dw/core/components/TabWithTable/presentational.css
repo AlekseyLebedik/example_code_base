@@ -1,0 +1,20 @@
+.tab-with-table .NextPageButton {
+  position: initial !important;
+}
+
+.tab-with-table .common__search {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tab-with-table .empty {
+  color: #bdc3c7;
+
+  text-align: center;
+  margin-top: 12%;
+}
+
+.tab-with-table .tab-loading {
+  margin-top: 10% !important;
+  margin-left: 47% !important;
+}

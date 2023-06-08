@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueVIPListSkeleton display skeleton 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="agGridHeaderSkeleton"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="agGridRowSkeleton"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="agGridRowSkeleton"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="agGridRowSkeleton"
+    variant="rect"
+  />
+</Fragment>
+`;

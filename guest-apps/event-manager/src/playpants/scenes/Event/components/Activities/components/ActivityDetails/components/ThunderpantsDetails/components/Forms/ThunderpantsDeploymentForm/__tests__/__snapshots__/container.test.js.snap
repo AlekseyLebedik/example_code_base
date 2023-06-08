@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTitleComponent renders default 1`] = `
+<ThunderpantsDeploymentFormStateless
+  activityBuildList={Array []}
+  formState={
+    Object {
+      "buildData": Object {},
+      "build_uid": undefined,
+      "deploymentType": undefined,
+      "target": Object {
+        "error": false,
+        "value": Object {},
+      },
+      "type": "",
+      "uid": undefined,
+      "userParams": Object {},
+    }
+  }
+  isFormDeploymentType={true}
+  onSubmit={[MockFunction]}
+  schema={Array []}
+  setFormState={[Function]}
+  summaryData={Object {}}
+  targets={Array []}
+/>
+`;

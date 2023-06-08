@@ -1,0 +1,21 @@
+.context-account-type__container {
+  width: 100%;
+  padding: 0 10px;
+  margin-top: -10px;
+}
+
+.context-account-type__container .context {
+  width: 120px !important;
+  float: left;
+}
+
+.context-account-type__container .account-type {
+  width: 120px !important;
+  float: right;
+}
+
+.context-account-type__container .account-type button,
+.context-account-type__container .context button {
+  padding-right: 0 !important;
+  width: 32px !important;
+}

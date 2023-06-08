@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_ADD_SUCCESS appends the entry to the list if it is a new one 1`] = `
+Object {
+  "addedListItems": Array [
+    200,
+  ],
+  "entries": Array [
+    1,
+    2,
+    3,
+    200,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "1",
+    },
+    Object {
+      "userID": "2",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_ADD_SUCCESS does nothing if the added entry already exists 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "1",
+    },
+    Object {
+      "userID": "2",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_CLOSE_ADD_MEMBERS_MODAL sets the modal state to closed 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "1",
+    },
+    Object {
+      "userID": "2",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_CLOSE_ADD_MODAL sets the modal state to closed 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "1",
+    },
+    Object {
+      "userID": "2",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_DELETE_SUCCESS does nothing if groupId is different from the selected item 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "1",
+    },
+    Object {
+      "userID": "2",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_DELETE_SUCCESS removes user from group details 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "1",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_FETCH_GROUP_DETAILS_SUCCESS sets the selected details from data when the action has the same ID as the selected 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "100",
+    },
+    Object {
+      "userID": "200",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_FETCH_GROUP_DETAILS_SUCCESS sets the selected details from the current state when the fetched item has different id 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "1",
+    },
+    Object {
+      "userID": "2",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_FETCH_SUCCESS combines both entry lists when \`append\` is true, and update list metadata 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+    100,
+    200,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "YYZ",
+  "q": undefined,
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "1",
+    },
+    Object {
+      "userID": "2",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_FETCH_SUCCESS replaces the entries with new ones when \`append\` is false, and update list metadata 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    100,
+    200,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "YYZ",
+  "q": undefined,
+  "selectedListItem": null,
+  "selectedListItemDetails": null,
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_LIST_ITEM_ONCLICK sets the selected entry 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 2,
+  "selectedListItemDetails": null,
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_OPEN_ADD_MEMBERS_MODAL sets the modal state to opened 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+  ],
+  "isAddMembersModalOpen": true,
+  "isAddModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "1",
+    },
+    Object {
+      "userID": "2",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer STORAGE_GROUP_MEMBERS_OPEN_ADD_MODAL sets the modal state to opened 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": true,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "1",
+    },
+    Object {
+      "userID": "2",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer copies the current state on STORAGE_GROUP_MEMBERS_FETCH 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    1,
+    2,
+    3,
+  ],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": 1,
+  "selectedListItemDetails": Array [
+    Object {
+      "userID": "1",
+    },
+    Object {
+      "userID": "2",
+    },
+  ],
+}
+`;
+
+exports[`GroupMembers Reducer returns default state 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [],
+  "isAddMembersModalOpen": false,
+  "isAddModalOpen": false,
+  "nextPageToken": null,
+  "q": null,
+  "selectedListItem": null,
+  "selectedListItemDetails": null,
+}
+`;

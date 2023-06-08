@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NamespaceStatelessBase renders stateless namespace correctly with a selected namespace 1`] = `""`;
+
+exports[`NamespaceStatelessBase renders stateless namespace correctly with no selected namespace 1`] = `""`;

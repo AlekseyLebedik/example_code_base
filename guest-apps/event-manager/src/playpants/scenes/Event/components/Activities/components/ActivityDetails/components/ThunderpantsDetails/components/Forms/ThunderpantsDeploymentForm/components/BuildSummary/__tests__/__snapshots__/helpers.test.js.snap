@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuildSummary helpers formatBuild() properly formats build 1`] = `
+Array [
+  Object {
+    "key": "Source",
+    "value": "iw8-rebuildds",
+  },
+  Object {
+    "key": "Folder",
+    "value": "autobuild:submission_7431811_sub_tu13_ccs_2",
+  },
+  Object {
+    "key": "Version",
+    "value": "7431811@1302",
+  },
+  Object {
+    "key": "OS",
+    "value": "linux",
+  },
+  Object {
+    "key": "Flavor",
+    "value": "test",
+  },
+  Object {
+    "key": "DW-Flavor",
+    "value": "vanilla",
+  },
+  Object {
+    "key": "Timestamp",
+    "value": 1581459817,
+  },
+]
+`;

@@ -1,0 +1,480 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AgGridComponent renders AgGrid with row data 1`] = `
+<AgGridReact
+  columnDefs={
+    Array [
+      Object {
+        "field": "testStatus",
+        "hide": true,
+        "rowGroup": true,
+        "width": 220,
+      },
+      Object {
+        "cellStyle": Object {
+          "fontWeight": "bold",
+        },
+        "field": "id",
+        "headerName": "ID",
+        "width": 250,
+      },
+      Object {
+        "autoHeight": true,
+        "cellRenderer": "testNameRenderer",
+        "cellStyle": Object {
+          "white-space": "normal",
+          "word-wrap": "break-word",
+        },
+        "field": "name",
+        "headerName": "Test Name",
+        "width": 250,
+      },
+      Object {
+        "field": "title",
+        "headerName": "Title",
+        "width": 150,
+      },
+      Object {
+        "autoHeight": true,
+        "cellStyle": Object {
+          "white-space": "normal",
+          "word-wrap": "break-word",
+        },
+        "field": "platform",
+        "headerName": "Platform",
+        "width": 140,
+      },
+      Object {
+        "cellStyle": [Function],
+        "field": "environment",
+        "headerName": "Env",
+        "width": 100,
+      },
+      Object {
+        "autoHeight": true,
+        "cellStyle": Object {
+          "white-space": "normal",
+          "word-wrap": "break-word",
+        },
+        "field": "source",
+        "headerName": "Source",
+        "maxWidth": 160,
+      },
+      Object {
+        "autoHeight": true,
+        "cellStyle": Object {
+          "white-space": "normal",
+          "word-wrap": "break-word",
+        },
+        "field": "target",
+        "headerName": "Target",
+        "width": 130,
+      },
+      Object {
+        "autoHeight": true,
+        "cellStyle": Object {
+          "white-space": "normal",
+          "word-wrap": "break-word",
+        },
+        "field": "category",
+        "headerName": "Category",
+        "width": 160,
+      },
+      Object {
+        "autoHeight": true,
+        "cellRenderer": "statusTableFieldRenderer",
+        "cellStyle": Object {
+          "white-space": "normal",
+          "word-wrap": "break-word",
+        },
+        "field": "status",
+        "headerName": "Status",
+        "width": 170,
+      },
+      Object {
+        "field": "testPeriodStart",
+        "headerName": "Test Period From",
+        "valueFormatter": [Function],
+        "width": 220,
+      },
+      Object {
+        "autoHeight": true,
+        "cellStyle": Object {
+          "white-space": "normal",
+          "word-wrap": "break-word",
+        },
+        "field": "testPeriodEnd",
+        "headerName": "Test Period To",
+        "valueFormatter": [Function],
+        "width": 200,
+      },
+      Object {
+        "cellRenderer": "actionsRenderer",
+        "field": "action",
+        "headerName": "Actions",
+        "pinned": "right",
+        "width": 300,
+      },
+    ]
+  }
+  components={
+    Object {
+      "actionsRenderer": [Function],
+      "statusTableFieldRenderer": [Function],
+      "testNameRenderer": [Function],
+    }
+  }
+  defaultColDef={
+    Object {
+      "enablePivot": true,
+      "enableRowGroup": true,
+      "filter": true,
+      "resizable": true,
+      "sortable": true,
+    }
+  }
+  enableCellTextSelection={true}
+  getRowStyle={[Function]}
+  gridOptions={
+    Object {
+      "context": Object {
+        "events": Object {
+          "approveHandler": [Function],
+          "archiveHandler": [Function],
+          "deleteHandler": [Function],
+          "killHandler": [Function],
+        },
+        "formatDate": null,
+      },
+    }
+  }
+  groupDefaultExpanded={-1}
+  groupDisplayType="groupRows"
+  onGridReady={[Function]}
+  reactNext={true}
+  rowData={
+    Array [
+      Object {
+        "category": "",
+        "environment": "dev",
+        "id": "1234",
+        "name": "bar",
+        "platform": "PSN
+XBL",
+        "project": Object {
+          "contentTypeId": 57,
+          "id": 22,
+        },
+        "source": "",
+        "status": "config",
+        "target": "",
+        "testPeriodEnd": 1607531860,
+        "testPeriodFrom": "1573231060",
+        "testPeriodStart": 1573231060,
+        "testPeriodTo": "1607531860",
+        "testStatus": "Upcoming",
+        "title": "test_1",
+        "titleID": 5682,
+      },
+      Object {
+        "category": "",
+        "environment": "live",
+        "id": "5678",
+        "name": "foo",
+        "platform": "PSN
+XBL",
+        "project": Object {
+          "contentTypeId": 57,
+          "id": 22,
+        },
+        "source": "",
+        "status": "config",
+        "target": "",
+        "testPeriodEnd": 1606581954,
+        "testPeriodFrom": "1573231554",
+        "testPeriodStart": 1573231554,
+        "testPeriodTo": "1606581954",
+        "testStatus": "Upcoming",
+        "title": "test_2",
+        "titleID": 5682,
+      },
+    ]
+  }
+  rowGroupPanelShow="always"
+  sideBar={
+    Object {
+      "hiddenByDefault": false,
+      "toolPanels": Array [
+        Object {
+          "iconKey": "columns",
+          "id": "columns",
+          "labelDefault": "Columns",
+          "labelKey": "columns",
+          "toolPanel": "agColumnsToolPanel",
+        },
+      ],
+    }
+  }
+  statusBar={
+    Object {
+      "statusPanels": Array [
+        Object {
+          "align": "left",
+          "statusPanel": "agTotalRowCountComponent",
+        },
+      ],
+    }
+  }
+  suppressContextMenu={true}
+  suppressDragLeaveHidesColumns={true}
+/>
+`;
+
+exports[`AgGridComponent renders AgGridComponent 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TextField))
+    className="partialSearch"
+    onChange={[Function]}
+    placeholder="Search within the rows below"
+    style={
+      Object {
+        "marginLeft": "20px",
+        "overflow": "hidden",
+        "width": "100%",
+      }
+    }
+    value=""
+  />
+  <div
+    className="table"
+  >
+    <AgGridReact
+      columnDefs={
+        Array [
+          Object {
+            "field": "testStatus",
+            "hide": true,
+            "rowGroup": true,
+            "width": 220,
+          },
+          Object {
+            "cellStyle": Object {
+              "fontWeight": "bold",
+            },
+            "field": "id",
+            "headerName": "ID",
+            "width": 250,
+          },
+          Object {
+            "autoHeight": true,
+            "cellRenderer": "testNameRenderer",
+            "cellStyle": Object {
+              "white-space": "normal",
+              "word-wrap": "break-word",
+            },
+            "field": "name",
+            "headerName": "Test Name",
+            "width": 250,
+          },
+          Object {
+            "field": "title",
+            "headerName": "Title",
+            "width": 150,
+          },
+          Object {
+            "autoHeight": true,
+            "cellStyle": Object {
+              "white-space": "normal",
+              "word-wrap": "break-word",
+            },
+            "field": "platform",
+            "headerName": "Platform",
+            "width": 140,
+          },
+          Object {
+            "cellStyle": [Function],
+            "field": "environment",
+            "headerName": "Env",
+            "width": 100,
+          },
+          Object {
+            "autoHeight": true,
+            "cellStyle": Object {
+              "white-space": "normal",
+              "word-wrap": "break-word",
+            },
+            "field": "source",
+            "headerName": "Source",
+            "maxWidth": 160,
+          },
+          Object {
+            "autoHeight": true,
+            "cellStyle": Object {
+              "white-space": "normal",
+              "word-wrap": "break-word",
+            },
+            "field": "target",
+            "headerName": "Target",
+            "width": 130,
+          },
+          Object {
+            "autoHeight": true,
+            "cellStyle": Object {
+              "white-space": "normal",
+              "word-wrap": "break-word",
+            },
+            "field": "category",
+            "headerName": "Category",
+            "width": 160,
+          },
+          Object {
+            "autoHeight": true,
+            "cellRenderer": "statusTableFieldRenderer",
+            "cellStyle": Object {
+              "white-space": "normal",
+              "word-wrap": "break-word",
+            },
+            "field": "status",
+            "headerName": "Status",
+            "width": 170,
+          },
+          Object {
+            "field": "testPeriodStart",
+            "headerName": "Test Period From",
+            "valueFormatter": [Function],
+            "width": 220,
+          },
+          Object {
+            "autoHeight": true,
+            "cellStyle": Object {
+              "white-space": "normal",
+              "word-wrap": "break-word",
+            },
+            "field": "testPeriodEnd",
+            "headerName": "Test Period To",
+            "valueFormatter": [Function],
+            "width": 200,
+          },
+          Object {
+            "cellRenderer": "actionsRenderer",
+            "field": "action",
+            "headerName": "Actions",
+            "pinned": "right",
+            "width": 300,
+          },
+        ]
+      }
+      components={
+        Object {
+          "actionsRenderer": [Function],
+          "statusTableFieldRenderer": [Function],
+          "testNameRenderer": [Function],
+        }
+      }
+      defaultColDef={
+        Object {
+          "enablePivot": true,
+          "enableRowGroup": true,
+          "filter": true,
+          "resizable": true,
+          "sortable": true,
+        }
+      }
+      enableCellTextSelection={true}
+      getRowStyle={[Function]}
+      gridOptions={
+        Object {
+          "context": Object {
+            "events": Object {
+              "approveHandler": [Function],
+              "archiveHandler": [Function],
+              "deleteHandler": [Function],
+              "killHandler": [Function],
+            },
+            "formatDate": null,
+          },
+        }
+      }
+      groupDefaultExpanded={-1}
+      groupDisplayType="groupRows"
+      onGridReady={[Function]}
+      reactNext={true}
+      rowData={
+        Array [
+          Object {
+            "category": "",
+            "environment": "dev",
+            "id": "1234",
+            "name": "bar",
+            "platform": "PSN
+XBL",
+            "project": Object {
+              "contentTypeId": 57,
+              "id": 22,
+            },
+            "source": "",
+            "status": "config",
+            "target": "",
+            "testPeriodEnd": 1607531860,
+            "testPeriodFrom": "1573231060",
+            "testPeriodStart": 1573231060,
+            "testPeriodTo": "1607531860",
+            "testStatus": "Upcoming",
+            "title": "test_1",
+            "titleID": 5682,
+          },
+          Object {
+            "category": "",
+            "environment": "live",
+            "id": "5678",
+            "name": "foo",
+            "platform": "PSN
+XBL",
+            "project": Object {
+              "contentTypeId": 57,
+              "id": 22,
+            },
+            "source": "",
+            "status": "config",
+            "target": "",
+            "testPeriodEnd": 1606581954,
+            "testPeriodFrom": "1573231554",
+            "testPeriodStart": 1573231554,
+            "testPeriodTo": "1606581954",
+            "testStatus": "Upcoming",
+            "title": "test_2",
+            "titleID": 5682,
+          },
+        ]
+      }
+      rowGroupPanelShow="always"
+      sideBar={
+        Object {
+          "hiddenByDefault": false,
+          "toolPanels": Array [
+            Object {
+              "iconKey": "columns",
+              "id": "columns",
+              "labelDefault": "Columns",
+              "labelKey": "columns",
+              "toolPanel": "agColumnsToolPanel",
+            },
+          ],
+        }
+      }
+      statusBar={
+        Object {
+          "statusPanels": Array [
+            Object {
+              "align": "left",
+              "statusPanel": "agTotalRowCountComponent",
+            },
+          ],
+        }
+      }
+      suppressContextMenu={true}
+      suppressDragLeaveHidesColumns={true}
+    />
+  </div>
+</Fragment>
+`;

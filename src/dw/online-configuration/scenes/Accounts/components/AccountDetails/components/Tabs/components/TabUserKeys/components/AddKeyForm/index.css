@@ -1,0 +1,11 @@
+.account-details__tabs__user-keys__add-key-form .ant-row {
+  height: 45px;
+}
+
+.account-details__tabs__user-keys__add-key-form .ant-row.buttons-row {
+  height: 20px;
+}
+
+.account-details__tabs__user-keys__add-key-form .save-button {
+  margin-left: 5px;
+}

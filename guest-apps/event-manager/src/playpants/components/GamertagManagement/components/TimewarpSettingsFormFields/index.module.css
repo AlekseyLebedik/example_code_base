@@ -1,0 +1,33 @@
+.container {
+  padding: 20px;
+  margin: 10px;
+}
+
+.titleContent {
+  text-transform: capitalize;
+
+  font-weight: bold;
+}
+
+.formContainer {
+  padding: 20px 50px 0px 50px;
+}
+
+.formContainer > div {
+  margin-bottom: 8px;
+}
+
+.durationForm {
+  margin: 0 -8px;
+  max-width: 110%;
+}
+
+.dateTimePicker {
+  margin-bottom: 16px;
+}
+
+.durationGrid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  align-items: center;
+}

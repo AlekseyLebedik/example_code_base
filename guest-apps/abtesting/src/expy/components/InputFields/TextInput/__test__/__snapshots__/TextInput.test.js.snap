@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expy - Test Graduation - TextInput renders snapshot 1`] = `
+<div
+  className="makeStyles-editContainer-1"
+>
+  <a
+    allowEdit={true}
+    attributes={Object {}}
+    buttonsPosition="after"
+    cancelButtonLabel="Cancel"
+    cancelButtonStyle="makeStyles-cancelBtn-4"
+    cancelOnBlur={false}
+    cssClassPrefix=""
+    deleteButtonLabel="Delete"
+    deleteButtonStyle={null}
+    disableAutoCancel={false}
+    disableAutoSubmit={true}
+    displayComponent={
+      <CustomTextDisplay
+        error={false}
+        errorMsg={null}
+        value={null}
+      />
+    }
+    editComponent={
+      <CustomTextInput
+        setParentValue={[Function]}
+        value={null}
+      />
+    }
+    editMode={false}
+    fullWidth={true}
+    hideCancelButton={false}
+    hideDeleteButton={true}
+    hideSaveButton={false}
+    instructions={null}
+    onBlur={[Function]}
+    onCancel={[Function]}
+    onDelete={[Function]}
+    onHoverCssClass="makeStyles-textHoverClass-2"
+    onSave={[Function]}
+    onValidate={[Function]}
+    onfocus={[Function]}
+    placeholder="None"
+    placeholderComponent={null}
+    saveButtonLabel="Save"
+    saveButtonStyle="makeStyles-saveBtn-3"
+    saveOnBlur={false}
+    type="text"
+    validationMessage="Please provide a valid value"
+    value="value"
+    viewAttributes={Object {}}
+  />
+</div>
+`;

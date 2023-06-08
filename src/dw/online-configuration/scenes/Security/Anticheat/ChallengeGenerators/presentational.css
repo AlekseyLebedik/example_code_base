@@ -1,0 +1,5 @@
+.main-container.challenge-generators .CodeMirror {
+  background-color: transparent;
+  height: 100%;
+  overflow: hidden;
+}

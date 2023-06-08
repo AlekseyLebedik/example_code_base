@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuildCellRenderer renders default 1`] = `
+<Fragment>
+  <div
+    className="ag-theme-material"
+    data-cy="buildCellTable"
+  >
+    <AgGridReact
+      columnDefs={
+        Array [
+          Object {
+            "cellRenderer": "buildOptionsCellRenderer",
+            "cellRendererParams": Object {
+              "buildData": Object {
+                "base": Object {
+                  "identifier": "game_dh_server_linux.out",
+                  "relative_folder": "autobuild/versions/submission_7431811_sub_tu13_ccs_2/linux/dedicated",
+                },
+                "properties": Object {
+                  "branch": "submission",
+                  "ccs_version": "1302",
+                  "dw_flavor": "vanilla",
+                  "flavor": "test",
+                  "os": "linux",
+                  "platform": "all",
+                  "title": "iw8",
+                  "version": "7431811",
+                },
+                "source_name": "iw8-rebuildds",
+                "timestamp": 1581459817,
+                "ui_properties": Object {
+                  "folder": "autobuild:submission_7431811_sub_tu13_ccs_2",
+                  "version": "7431811@1302",
+                },
+                "uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+              },
+              "disabled": false,
+              "handleConfirmAction": [MockFunction],
+              "handleModify": [MockFunction],
+              "handleModifyLock": [MockFunction],
+            },
+            "field": "options",
+            "headerName": "Options",
+            "width": 150,
+          },
+          Object {
+            "field": "target_name",
+            "headerName": "Target Name",
+            "valueGetter": [Function],
+          },
+          Object {
+            "field": "status",
+            "headerName": "Status",
+            "valueGetter": [Function],
+          },
+          Object {
+            "field": "max_instances_per_machine",
+            "headerName": "Max Instances Per Machine",
+            "valueGetter": [Function],
+          },
+          Object {
+            "field": "extra_cmdline_args",
+            "headerName": "Extra Cmdline Args",
+            "valueGetter": [Function],
+          },
+        ]
+      }
+      components={
+        Object {
+          "buildOptionsCellRenderer": [Function],
+        }
+      }
+      defaultColDef={
+        Object {
+          "resizable": true,
+        }
+      }
+      getRowClass={[Function]}
+      getRowId={[Function]}
+      onGridReady={[Function]}
+      onGridSizeChanged={[Function]}
+      suppressCellFocus={true}
+      suppressRowSelection={true}
+    />
+  </div>
+  <div>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      data-cy="addDeploymentBtn"
+      disabled={false}
+      onClick={[Function]}
+      size="small"
+      variant="contained"
+    >
+      Add Deployment
+    </WithStyles(ForwardRef(Button))>
+  </div>
+</Fragment>
+`;

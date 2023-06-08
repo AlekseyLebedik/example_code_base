@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting CloneForm renders default values 1`] = `
+<withRouter(Connect(UpdateTestForm))
+  disableFormContext={false}
+  mode="CLONE"
+/>
+`;

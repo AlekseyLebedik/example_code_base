@@ -1,0 +1,23 @@
+.details__container.account .user-friends .empty {
+  color: #bdc3c7;
+
+  text-align: center;
+  margin-top: 12%;
+}
+
+.details__container.account .user-friends .NextPageButton {
+  position: initial !important;
+}
+
+.details__container.account .user-friends .common__search {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.details__container.account
+  .user-friends
+  .common__table-hydrated
+  .table-operations
+  > button {
+  top: -127px;
+}

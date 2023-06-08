@@ -1,0 +1,12 @@
+.container {
+  padding: 0 6px;
+  margin-top: 15px;
+}
+
+.select {
+  padding: 10px !important;
+}
+
+.label {
+  background-color: #f0f0f0;
+}

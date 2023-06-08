@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskListItem renders default props 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))
+    button={true}
+    onClick={[Function]}
+    selected={false}
+  >
+    <WithStyles(ForwardRef(ListItemText))
+      primary="undefined (undefined)"
+    />
+  </WithStyles(ForwardRef(ListItem))>
+  <WithStyles(ForwardRef(Collapse))
+    in={false}
+    timeout="auto"
+    unmountOnExit={true}
+  >
+    <WithStyles(ForwardRef(List))
+      component="div"
+      disablePadding={true}
+    />
+  </WithStyles(ForwardRef(Collapse))>
+</Fragment>
+`;

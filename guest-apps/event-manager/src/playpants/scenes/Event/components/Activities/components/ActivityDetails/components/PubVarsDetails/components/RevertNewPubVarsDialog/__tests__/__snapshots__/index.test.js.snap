@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RevertNewPubVarsDialog renders revert dialog closed 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  fullWidth={true}
+  maxWidth="md"
+  onClose={[Function]}
+  open={false}
+>
+  <WithStyles(ForwardRef(DialogTitle))>
+    Confirm Revert Values
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(Typography))
+      variant="body1"
+    >
+      If you wish for the values of new variables to default to a different value when the event ends, change the value under Revert Values and confirm your changes.
+    </WithStyles(ForwardRef(Typography))>
+    <div
+      className="ag-theme-material"
+    >
+      <AgGridReact
+        columnDefs={
+          Array [
+            Object {
+              "field": "variable",
+              "filter": "agTextColumnFilter",
+              "headerName": "Variable",
+            },
+            Object {
+              "field": "context",
+              "filter": "agTextColumnFilter",
+              "headerName": "Context",
+            },
+            Object {
+              "field": "groupId",
+              "filter": "agTextColumnFilter",
+              "headerName": "Group ID",
+            },
+            Object {
+              "field": "namespace",
+              "filter": "agTextColumnFilter",
+              "headerName": "Namespace",
+            },
+            Object {
+              "field": "value",
+              "filter": "agTextColumnFilter",
+              "headerName": "Value",
+            },
+            Object {
+              "editable": true,
+              "field": "revertValue",
+              "filter": "agTextColumnFilter",
+              "headerName": "Revert Value",
+            },
+          ]
+        }
+        defaultColDef={
+          Object {
+            "editable": false,
+            "filter": true,
+            "menuTabs": Array [
+              "filterMenuTab",
+            ],
+            "resizable": true,
+            "singleClickEdit": true,
+            "sortable": true,
+          }
+        }
+        onCellValueChanged={[Function]}
+        onGridReady={[Function]}
+        onGridSizeChanged={[Function]}
+        rowData={
+          Array [
+            Object {
+              "context": "2",
+              "groupId": "1",
+              "namespace": "test",
+              "revertValue": "1",
+              "value": "newval",
+              "variable": "newvar",
+            },
+            Object {
+              "context": "2",
+              "groupId": "1",
+              "namespace": "test",
+              "revertValue": "2",
+              "value": "newval2",
+              "variable": "newvar2",
+            },
+            Object {
+              "context": "2",
+              "groupId": "1",
+              "namespace": "test",
+              "revertValue": "testtttt",
+              "value": "testtttt",
+              "variable": "testttt",
+            },
+          ]
+        }
+        statusBar={
+          Object {
+            "statusPanels": Array [
+              Object {
+                "align": "left",
+                "statusPanel": "agTotalRowCountComponent",
+              },
+            ],
+          }
+        }
+        stopEditingWhenGridLosesFocus={true}
+        suppressCellFocus={true}
+        suppressNoRowsOverlay={true}
+        suppressRowClickSelection={true}
+      />
+    </div>
+  </WithStyles(ForwardRef(DialogContent))>
+  <WithStyles(ForwardRef(DialogActions))>
+    <WithStyles(ForwardRef(Button))
+      color="secondary"
+      onClick={[Function]}
+    >
+      Cancel Changes
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      onClick={[Function]}
+      type="submit"
+    >
+      Confirm Revert Values
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(DialogActions))>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`RevertNewPubVarsDialog renders revert dialog open 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  fullWidth={true}
+  maxWidth="md"
+  onClose={[Function]}
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))>
+    Confirm Revert Values
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(Typography))
+      variant="body1"
+    >
+      If you wish for the values of new variables to default to a different value when the event ends, change the value under Revert Values and confirm your changes.
+    </WithStyles(ForwardRef(Typography))>
+    <div
+      className="ag-theme-material"
+    >
+      <AgGridReact
+        columnDefs={
+          Array [
+            Object {
+              "field": "variable",
+              "filter": "agTextColumnFilter",
+              "headerName": "Variable",
+            },
+            Object {
+              "field": "context",
+              "filter": "agTextColumnFilter",
+              "headerName": "Context",
+            },
+            Object {
+              "field": "groupId",
+              "filter": "agTextColumnFilter",
+              "headerName": "Group ID",
+            },
+            Object {
+              "field": "namespace",
+              "filter": "agTextColumnFilter",
+              "headerName": "Namespace",
+            },
+            Object {
+              "field": "value",
+              "filter": "agTextColumnFilter",
+              "headerName": "Value",
+            },
+            Object {
+              "editable": true,
+              "field": "revertValue",
+              "filter": "agTextColumnFilter",
+              "headerName": "Revert Value",
+            },
+          ]
+        }
+        defaultColDef={
+          Object {
+            "editable": false,
+            "filter": true,
+            "menuTabs": Array [
+              "filterMenuTab",
+            ],
+            "resizable": true,
+            "singleClickEdit": true,
+            "sortable": true,
+          }
+        }
+        onCellValueChanged={[Function]}
+        onGridReady={[Function]}
+        onGridSizeChanged={[Function]}
+        rowData={
+          Array [
+            Object {
+              "context": "2",
+              "groupId": "1",
+              "namespace": "test",
+              "revertValue": "1",
+              "value": "newval",
+              "variable": "newvar",
+            },
+            Object {
+              "context": "2",
+              "groupId": "1",
+              "namespace": "test",
+              "revertValue": "2",
+              "value": "newval2",
+              "variable": "newvar2",
+            },
+            Object {
+              "context": "2",
+              "groupId": "1",
+              "namespace": "test",
+              "revertValue": "testtttt",
+              "value": "testtttt",
+              "variable": "testttt",
+            },
+          ]
+        }
+        statusBar={
+          Object {
+            "statusPanels": Array [
+              Object {
+                "align": "left",
+                "statusPanel": "agTotalRowCountComponent",
+              },
+            ],
+          }
+        }
+        stopEditingWhenGridLosesFocus={true}
+        suppressCellFocus={true}
+        suppressNoRowsOverlay={true}
+        suppressRowClickSelection={true}
+      />
+    </div>
+  </WithStyles(ForwardRef(DialogContent))>
+  <WithStyles(ForwardRef(DialogActions))>
+    <WithStyles(ForwardRef(Button))
+      color="secondary"
+      onClick={[Function]}
+    >
+      Cancel Changes
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      onClick={[Function]}
+      type="submit"
+    >
+      Confirm Revert Values
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(DialogActions))>
+</WithStyles(ForwardRef(Dialog))>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecentLoginAccordion RecentLoginAccordion renders default values 1`] = `null`;
+
+exports[`RecentLoginAccordion formatTitleLogins returns correct number of logins 1`] = `
+Array [
+  Object {
+    "Country/IP": "IE/185.34.107.111",
+    "Last authentication attempt": "Apr 06, 2021 03:44 pm PDT",
+    "Platform": "STUDIO",
+    "titleID": 5862,
+    "titleName": "BO5-CrossPlay-Reveal-Dev",
+  },
+]
+`;

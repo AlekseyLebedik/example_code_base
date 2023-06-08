@@ -1,0 +1,11 @@
+.listItem {
+  padding-right: 0;
+}
+
+.listItemText {
+  margin-right: 64px;
+}
+
+.formControlLabel {
+  margin: 0;
+}

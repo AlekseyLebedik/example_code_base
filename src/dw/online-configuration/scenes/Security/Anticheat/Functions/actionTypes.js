@@ -1,0 +1,9 @@
+export const FUNCTIONS_FETCH = 'security/FUNCTIONS_FETCH';
+export const FUNCTIONS_FETCH_SUCCESS = 'security/FUNCTIONS_FETCH_SUCCESS';
+
+export const FUNCTION_ADD = 'security/FUNCTION_ADD';
+export const FUNCTION_ADD_SUCCESS = 'security/FUNCTION_ADD_SUCCESS';
+export const FUNCTION_ADD_FAILED = 'security/FUNCTION_ADD_FAILED';
+
+export const FUNCTION_DELETE = 'security/FUNCTION_DELETE';
+export const FUNCTION_DELETE_SUCCESS = 'security/FUNCTION_DELETE_SUCCESS';

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleEnvField renders the TitleEnvField correctly 1`] = `
+<Field
+  SelectProps={
+    Object {
+      "endAdornment": <WithStyles(ForwardRef(InputAdornment)) />,
+    }
+  }
+  component={[Function]}
+  disabled={false}
+  fullWidth={true}
+  label="Title Environment"
+  name="title_env"
+  placeholder="Title Environment"
+  required={true}
+  validate={
+    Array [
+      [Function],
+    ]
+  }
+/>
+`;

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting ViewForm renders default values 1`] = `
+<withRouter(Connect(UpdateTestForm))
+  disableFormContext={true}
+  mode="VIEW"
+  showActionsPanel={true}
+  viewOnly={true}
+/>
+`;

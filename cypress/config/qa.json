@@ -1,0 +1,29 @@
+{
+  "baseUrl": "https://devzone-studio-qa.demonware.net/",
+  "env": {
+    "backendUrl": "https://devzone-api-gateway-qa.demonware.net",
+    "authUrl": "https://devzone-qa.demonware.net/login/external",
+    "dzBackendUrl": "https://devzone-qa.demonware.net/",
+    "testEnvironment": "qa",
+    "titleEnv": "dev",
+    "titleId": "5817",
+    "titleEnvId": "308",
+    "titleIdOtherPublisherObjects": "5369",
+    "titleEnvOtherPublisherObjects": "dev",
+    "titleIdABTesting": "5817",
+    "otherTitleEnv": "dev",
+    "otherTitleId": "5682",
+    "otherTitleEnvId": "130",
+    "projectId": "22",
+    "emUsername": "em",
+    "emPassword": "password",
+    "testUsername": "dz-automated-testing",
+    "testPassword": "gs5ZS-22@cD4KrWH"
+  },
+  "video": false,
+  "chromeWebSecurity": false,
+  "modifyObstructiveCode": false,
+  "viewportWidth": 1680,
+  "viewportHeight": 1050,
+  "requestTimeout": 40000
+}

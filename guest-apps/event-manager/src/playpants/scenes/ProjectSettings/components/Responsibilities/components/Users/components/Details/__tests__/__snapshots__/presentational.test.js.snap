@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User Details renders correctly 1`] = `
+<div
+  className="details"
+>
+  <WithStyles(TabsComponent)
+    indicatorColor="default"
+    onChange={[MockFunction]}
+    value="Groups"
+  >
+    <WithStyles(WithStyles(ForwardRef(Tab)))
+      label="Groups"
+      value="Groups"
+    />
+    <WithStyles(WithStyles(ForwardRef(Tab)))
+      label="Advanced"
+      value="Advanced"
+    />
+  </WithStyles(TabsComponent)>
+  <WithStyles(ResponsibilityUserGroups)
+    addUserToGroup={[MockFunction]}
+    assignedGroups={Array []}
+    baseUrl=""
+    fetchAssignedGroups={[MockFunction]}
+    form="project-settings__create-responsibility-groups-form"
+    groups={Array []}
+    initialValues={Object {}}
+    project={1}
+    userID={4}
+  />
+</div>
+`;

@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SourceSelectStateless renders dataSource as "userName | userID" 1`] = `
+<div
+  className="source-select source-select-reworked"
+>
+  <AutoComplete
+    choiceTransitionName="zoom"
+    dataSource={
+      Array [
+        "rockstar_user | 1234567890",
+      ]
+    }
+    filterOption={false}
+    onChange={[MockFunction]}
+    onSearch={[MockFunction]}
+    onSelect={[MockFunction]}
+    optionLabelProp="children"
+    placeholder=""
+    showSearch={false}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    transitionName="slide-up"
+    value=""
+  >
+    <Input
+      onFocus={[MockFunction]}
+      placeholder=""
+      prefix={
+        <WithStyles(ForwardRef(Icon))
+          fontSize="small"
+        >
+          search
+        </WithStyles(ForwardRef(Icon))>
+      }
+      type="text"
+    />
+  </AutoComplete>
+</div>
+`;
+
+exports[`SourceSelectStateless renders default values 1`] = `
+<div
+  className="source-select source-select-reworked"
+>
+  <AutoComplete
+    choiceTransitionName="zoom"
+    dataSource={Array []}
+    filterOption={false}
+    onChange={[MockFunction]}
+    onSearch={[MockFunction]}
+    onSelect={[MockFunction]}
+    optionLabelProp="children"
+    placeholder=""
+    showSearch={false}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    transitionName="slide-up"
+    value=""
+  >
+    <Input
+      onFocus={[MockFunction]}
+      placeholder=""
+      prefix={
+        <WithStyles(ForwardRef(Icon))
+          fontSize="small"
+        >
+          search
+        </WithStyles(ForwardRef(Icon))>
+      }
+      type="text"
+    />
+  </AutoComplete>
+</div>
+`;
+
+exports[`SourceSelectStateless renders with custom placeholder 1`] = `
+<div
+  className="source-select source-select-reworked"
+>
+  <AutoComplete
+    choiceTransitionName="zoom"
+    dataSource={Array []}
+    filterOption={false}
+    onChange={[MockFunction]}
+    onSearch={[MockFunction]}
+    onSelect={[MockFunction]}
+    optionLabelProp="children"
+    placeholder="Custom Placeholder"
+    showSearch={false}
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+    transitionName="slide-up"
+    value=""
+  >
+    <Input
+      onFocus={[MockFunction]}
+      placeholder="Custom Placeholder"
+      type="text"
+    />
+  </AutoComplete>
+</div>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabConvsersionRules Reducer ACTIVE_STORE_TAB_CONVERSION_RULES_FETCH_SUCCESS replaces the list of conversion rules 1`] = `
+Object {
+  "conversionRules": Array [
+    Object {
+      "id": 1,
+    },
+    Object {
+      "id": 2,
+    },
+  ],
+}
+`;
+
+exports[`TabConvsersionRules Reducer default action returns default state 1`] = `
+Object {
+  "conversionRules": Array [],
+}
+`;

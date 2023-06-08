@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GraphContainer renders GraphContainerStateless 1`] = `
+<GraphContainerStateless
+  chartRef={[Function]}
+  printGraphs={[Function]}
+  series={
+    Array [
+      Object {
+        "color": "red",
+        "id": 1,
+        "name": "My cool project",
+        "short": "mcp",
+        "visible": true,
+      },
+      Object {
+        "color": "#5F82A2",
+        "id": 2,
+        "name": "ghosts",
+        "short": "ghosts",
+        "visible": true,
+      },
+      Object {
+        "color": "#AA4643",
+        "id": "total",
+        "name": "Total",
+        "short": "Total",
+        "visible": true,
+      },
+    ]
+  }
+  source=""
+  stats={
+    Array [
+      "users-online",
+      "unique-users",
+    ]
+  }
+  toggleSeries={[Function]}
+/>
+`;

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - ACL - LeaderboardRanges Reducer handle LEADERBOARD_RANGE_DELETE_SUCCESS 1`] = `
+Object {
+  "leaderboardRanges": Array [
+    Object {
+      "clientType": "1",
+      "id": "Y2xpZW50X3R5cGU9MTttYXhfaWQ9MzttaW5faWQ9Mg==",
+      "maxId": 3,
+      "minId": 2,
+    },
+  ],
+}
+`;
+
+exports[`Security - ACL - LeaderboardRanges Reducer handle LEADERBOARD_RANGES_FETCH_SUCCESS 1`] = `
+Object {
+  "leaderboardRanges": Array [
+    Object {
+      "clientType": "1",
+      "id": "Y2xpZW50X3R5cGU9MTttYXhfaWQ9MjttaW5faWQ9MQ==",
+      "maxId": 2,
+      "minId": 1,
+    },
+    Object {
+      "clientType": "1",
+      "id": "Y2xpZW50X3R5cGU9MTttYXhfaWQ9MzttaW5faWQ9Mg==",
+      "maxId": 3,
+      "minId": 2,
+    },
+  ],
+}
+`;
+
+exports[`Security - ACL - LeaderboardRanges Reducer return the initial state 1`] = `
+Object {
+  "leaderboardRanges": Array [],
+}
+`;

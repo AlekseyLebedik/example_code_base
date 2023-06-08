@@ -1,0 +1,109 @@
+.container {
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -webkit-align-content: stretch;
+  align-content: stretch;
+  overflow: hidden;
+}
+
+.panel {
+  flex-direction: column;
+  flex-flow: column nowrap;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+}
+
+.itemContainer {
+  display: grid;
+  grid-template-columns: 1fr 50px 50px;
+  width: 100%;
+}
+
+.headers {
+  margin: 10px 20px;
+  color: #5f5f60;
+  height: 35px;
+  align-items: center;
+
+  text-transform: uppercase;
+  width: auto;
+}
+
+.buildNamePanel .headers {
+  color: #979797;
+}
+
+.headerDivider {
+  margin: 0px 20px;
+  background-color: #979797;
+}
+
+.contextPanel {
+  -webkit-flex: 0 0 200px;
+  flex: 0 0 200px;
+  background-color: #191f28;
+}
+
+.contextTitle {
+  position: relative;
+  top: 10px;
+}
+
+.buildNamePanel {
+  -webkit-flex: 0.4;
+  flex: 0.4;
+  background-color: #616161;
+  min-width: 300px;
+}
+
+.DCPanel {
+  -webkit-flex: 0.2;
+  flex: 0.2;
+  background-color: #d8d8d8;
+  min-width: 400px;
+}
+
+.detailListPanel {
+  -webkit-flex: 0.5;
+  flex: 0.4;
+  background-color: #fdfdfd;
+}
+
+.countColumn {
+  margin-right: 20px;
+}
+
+.contextListItem {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contextListItem:hover {
+  background: #4ac0f1;
+  color: white !important;
+}
+
+.buildListItem {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.buildListItem:hover {
+  background: #4ac0f1;
+  color: white !important;
+}
+
+.dcListItem {
+  color: rgba(0, 0, 0, 0.6);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.dcListItem:hover {
+  background: #4ac0f1;
+  color: white !important;
+}

@@ -1,0 +1,9 @@
+.printable {
+}
+
+@media print {
+  .printable {
+    height: auto;
+    overflow: visible;
+  }
+}

@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuildTable renders default 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TextField))
+    disabled={false}
+    helperText="Search table"
+    label="Enter a search string"
+    onChange={[Function]}
+  />
+  <div
+    className="ag-theme-material"
+  >
+    <AgGridReact
+      cacheQuickFilter={true}
+      columnDefs={
+        Array [
+          Object {
+            "cellRenderer": "agGroupCellRenderer",
+            "cellRendererParams": Object {
+              "classes": Object {},
+              "innerRendererFramework": [Function],
+            },
+            "comparator": [Function],
+            "field": "badges",
+            "headerName": "Info",
+          },
+        ]
+      }
+      components={
+        Object {
+          "detailCellRenderer": [Function],
+        }
+      }
+      context={
+        Object {
+          "targetList": Array [],
+        }
+      }
+      defaultColDef={
+        Object {
+          "resizable": true,
+          "sortable": true,
+        }
+      }
+      detailCellRenderer="detailCellRenderer"
+      detailCellRendererParams={
+        Object {
+          "buildOptionProps": Object {
+            "buildList": Array [
+              Object {
+                "base": Object {
+                  "identifier": "game_dh_server_linux.out",
+                  "relative_folder": "autobuild/versions/submission_7431811_sub_tu13_ccs_2/linux/dedicated",
+                },
+                "properties": Object {
+                  "branch": "submission",
+                  "ccs_version": "1302",
+                  "dw_flavor": "vanilla",
+                  "flavor": "test",
+                  "os": "linux",
+                  "platform": "all",
+                  "title": "iw8",
+                  "version": "7431811",
+                },
+                "source_name": "iw8-rebuildds",
+                "timestamp": 1581459817,
+                "ui_properties": Object {
+                  "folder": "autobuild:submission_7431811_sub_tu13_ccs_2",
+                  "version": "7431811@1302",
+                },
+                "uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+              },
+            ],
+            "unlockedDeployments": Object {},
+            "userParamsSchema": Array [],
+          },
+          "classes": Object {},
+          "disabled": false,
+          "handleDeploy": [MockFunction],
+          "refreshStrategy": "rows",
+          "userParamsSchema": Array [],
+        }
+      }
+      getRowId={[Function]}
+      masterDetail={true}
+      onComponentStateChanged={[Function]}
+      onGridReady={[Function]}
+      onGridSizeChanged={[Function]}
+      overlayLoadingTemplate="<span class=\\"ag-overlay-loading-center\\">Please wait while your rows are loading</span>"
+      pagination={true}
+      rowData={Array []}
+      suppressCellFocus={true}
+      suppressColumnVirtualisation={true}
+    />
+  </div>
+</Fragment>
+`;

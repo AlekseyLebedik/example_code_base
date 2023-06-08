@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueSettings selects first queue 1`] = `
+<div
+  className="loginQueueSettings"
+>
+  <QueueSelector
+    queues={
+      Array [
+        Object {
+          "current_wait_time": 0,
+          "error_code": 30001,
+          "login_rate": 12,
+          "open": true,
+          "queue_id": 0,
+          "queue_length": 0,
+        },
+        Object {
+          "current_wait_time": 0,
+          "error_code": 8911,
+          "login_rate": 12,
+          "open": true,
+          "queue_id": 1,
+          "queue_length": 0,
+        },
+      ]
+    }
+    selectedQueue={0}
+    setSelectedQueue={[Function]}
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="loginQueueDivider"
+  />
+  <LoginQueueLabel
+    label="QUEUE 0"
+  />
+  <QueueSettings
+    editLoginQueueSettings={[Function]}
+    queues={
+      Array [
+        Object {
+          "current_wait_time": 0,
+          "error_code": 30001,
+          "login_rate": 12,
+          "open": true,
+          "queue_id": 0,
+          "queue_length": 0,
+        },
+        Object {
+          "current_wait_time": 0,
+          "error_code": 8911,
+          "login_rate": 12,
+          "open": true,
+          "queue_id": 1,
+          "queue_length": 0,
+        },
+      ]
+    }
+    selectedQueue={0}
+    setSubmitting={[Function]}
+    submitting={false}
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="loginQueueDivider"
+  />
+  <LoginQueueLabel
+    label="ALL QUEUES FOR TITLE 5830"
+  />
+  <LoginQueueSettings
+    currentTitleId={5830}
+    editLoginQueueTitleSettings={[Function]}
+    setSubmitting={[Function]}
+    submitting={false}
+    targetOnlineUsers={300000}
+  />
+</div>
+`;
+
+exports[`LoginQueueSettings selects second queue 1`] = `
+<div
+  className="loginQueueSettings"
+>
+  <QueueSelector
+    queues={
+      Array [
+        Object {
+          "current_wait_time": 0,
+          "error_code": 30001,
+          "login_rate": 12,
+          "open": true,
+          "queue_id": 0,
+          "queue_length": 0,
+        },
+        Object {
+          "current_wait_time": 0,
+          "error_code": 8911,
+          "login_rate": 12,
+          "open": true,
+          "queue_id": 1,
+          "queue_length": 0,
+        },
+      ]
+    }
+    selectedQueue={1}
+    setSelectedQueue={[Function]}
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="loginQueueDivider"
+  />
+  <LoginQueueLabel
+    label="QUEUE 1"
+  />
+  <QueueSettings
+    editLoginQueueSettings={[Function]}
+    queues={
+      Array [
+        Object {
+          "current_wait_time": 0,
+          "error_code": 30001,
+          "login_rate": 12,
+          "open": true,
+          "queue_id": 0,
+          "queue_length": 0,
+        },
+        Object {
+          "current_wait_time": 0,
+          "error_code": 8911,
+          "login_rate": 12,
+          "open": true,
+          "queue_id": 1,
+          "queue_length": 0,
+        },
+      ]
+    }
+    selectedQueue={1}
+    setSubmitting={[Function]}
+    submitting={false}
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="loginQueueDivider"
+  />
+  <LoginQueueLabel
+    label="ALL QUEUES FOR TITLE 5830"
+  />
+  <LoginQueueSettings
+    currentTitleId={5830}
+    editLoginQueueTitleSettings={[Function]}
+    setSubmitting={[Function]}
+    submitting={false}
+    targetOnlineUsers={300000}
+  />
+</div>
+`;

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueTitleSettings - MaxCCU display title setting's MaxCCU 1`] = `
+<div
+  className="loginQueueFormItem"
+  key="maxCCU"
+>
+  <WithStyles(ForwardRef(InputLabel))
+    className="loginQueueFormLabelWithTooltip"
+    id="maxCCULabel"
+  >
+    Max CCU
+    <WithStyles(ForwardRef(Tooltip))
+      placement="bottom-end"
+      title="Value for all Queues across the title"
+    >
+      <WithStyles(ForwardRef(Icon))
+        className="helpIcon"
+      >
+        help_outline
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(Tooltip))>
+  </WithStyles(ForwardRef(InputLabel))>
+  <WithStyles(WithStyles(ForwardRef(TextField)))
+    InputProps={
+      Object {
+        "inputComponent": [Function],
+      }
+    }
+    className="loginQueueFormInput"
+    disabled={true}
+    error={false}
+    helperText=""
+    key="maxCCU"
+    name="maxCCU"
+    onChange={[Function]}
+    value={300000}
+  />
+</div>
+`;

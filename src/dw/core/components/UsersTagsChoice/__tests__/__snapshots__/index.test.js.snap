@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserTagsChoice renders correctly with default props 1`] = `
+<div
+  className="root userTagEntryContainer"
+>
+  <UserTagEntryModal
+    dialogOpen={false}
+    onGetValidTags={[Function]}
+    onPooledObjectSearch={[Function]}
+    setDialogOpen={[Function]}
+    setPooledObjectsQuery={[Function]}
+    setTags={[Function]}
+    setTagsOperator={[Function]}
+    setUsers={[Function]}
+    setUsersOperator={[Function]}
+    tags={Array []}
+    tagsOperator="and"
+    userId={null}
+    users={Array []}
+    usersOperator="and"
+    validTags={Array []}
+  />
+  <WithStyles(UserTagSearchErrorModal)
+    errorDialogOpen={false}
+    setErrorDialogOpen={[Function]}
+  />
+  <WithStyles(WrappedIcon)
+    color="inherit"
+    dataCy="pooledObjectsSearch"
+    icon="search"
+    onClick={[Function]}
+    tooltip="Search"
+  />
+  <WithStyles(WrappedIcon)
+    color="inherit"
+    dataCy="userTagEntryModalButtom"
+    icon="playlist_add"
+    onClick={[Function]}
+    tooltip="Add User or Tag to Search Query"
+  />
+  <div
+    className="renderedTags"
+  >
+    <div
+      className="usersTagsContainer"
+    >
+      <span
+        className="usersTagsLabel"
+      >
+        Users 
+      </span>
+      <WithStyles(ForwardRef(Select))
+        className="operatorSelect"
+        disableUnderline={true}
+        onChange={[Function]}
+        value="and"
+      >
+        <WithStyles(ForwardRef(MenuItem))
+          value="and"
+        >
+          Match ALL
+        </WithStyles(ForwardRef(MenuItem))>
+        <WithStyles(ForwardRef(MenuItem))
+          value="or"
+        >
+          Match ANY
+        </WithStyles(ForwardRef(MenuItem))>
+      </WithStyles(ForwardRef(Select))>
+      <div
+        className="chipContainer"
+      >
+        <UsersRenderer
+          onDeleteUser={[Function]}
+          users={Array []}
+        />
+      </div>
+    </div>
+    <div
+      className="usersTagsContainer"
+    >
+      <span
+        className="usersTagsLabel"
+      >
+        Tags 
+      </span>
+      <WithStyles(ForwardRef(Select))
+        className="operatorSelect"
+        disableUnderline={true}
+        onChange={[Function]}
+        value="and"
+      >
+        <WithStyles(ForwardRef(MenuItem))
+          value="and"
+        >
+          Match ALL
+        </WithStyles(ForwardRef(MenuItem))>
+        <WithStyles(ForwardRef(MenuItem))
+          value="or"
+        >
+          Match ANY
+        </WithStyles(ForwardRef(MenuItem))>
+      </WithStyles(ForwardRef(Select))>
+      <div
+        className="chipContainer"
+      >
+        <TagsRenderer
+          onDeleteTag={[Function]}
+          tags={Array []}
+          validTags={Array []}
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

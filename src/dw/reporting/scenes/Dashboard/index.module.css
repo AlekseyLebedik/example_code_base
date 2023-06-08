@@ -1,0 +1,19 @@
+.container {
+  padding: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.container a {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.container :global(.hoverable) {
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0;
+  }
+}

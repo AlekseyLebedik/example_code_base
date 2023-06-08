@@ -1,0 +1,8 @@
+.list-item.pooled-file .update-time {
+  text-align: right;
+  max-width: 30%;
+}
+
+.word-break {
+  word-break: break-all;
+}

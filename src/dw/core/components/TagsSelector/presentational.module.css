@@ -1,0 +1,9 @@
+.tags {
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+
+.tag {
+  margin: 3px 3px;
+  height: 24px;
+}

@@ -1,0 +1,16 @@
+.pooledObjects .source-select {
+  width: 380px;
+}
+
+.pooledObjects .action-buttons__container {
+  flex: 1;
+
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.pooledObjects .extra-content-wrapper-pooled {
+  display: flex;
+  flex: 1;
+  margin-top: 10px;
+}

@@ -1,0 +1,438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarDatePicker component renders correctly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={Object {}}
+    InputProps={
+      Object {
+        "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="end"
+        >
+          <WithStyles(ForwardRef(IconButton))
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(Icon))
+              fontSize="small"
+            >
+              clear
+            </WithStyles(ForwardRef(Icon))>
+          </WithStyles(ForwardRef(IconButton))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    disabled={false}
+    error={false}
+    fullWidth={false}
+    label="Start Date"
+    onClick={[Function]}
+    value="November 1, 2019"
+    variant="standard"
+  />
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={Object {}}
+    InputProps={
+      Object {
+        "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="end"
+        >
+          <WithStyles(ForwardRef(IconButton))
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(Icon))
+              fontSize="small"
+            >
+              clear
+            </WithStyles(ForwardRef(Icon))>
+          </WithStyles(ForwardRef(IconButton))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    disabled={false}
+    error={false}
+    fullWidth={false}
+    label="End Date"
+    onClick={[Function]}
+    value="November 10, 2019"
+    variant="standard"
+  />
+  <WithStyles(ForwardRef(Dialog))
+    fullWidth={true}
+    maxWidth="xl"
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(ForwardRef(DialogContent))
+      className="calendarDatePickerWrapper"
+    >
+      <EventsCalendar
+        availableViews={
+          Array [
+            "month",
+          ]
+        }
+        createDisabled={true}
+        datePickerInfo={
+          Object {
+            "disableDateSelection": [Function],
+            "endDate": 1573344000,
+            "hoverDate": null,
+            "onHoverDateChange": [Function],
+            "project": null,
+            "setEndDate": [MockFunction],
+            "setStartDate": [MockFunction],
+            "startDate": 1572566400,
+          }
+        }
+        disabledFilters={Object {}}
+        eventGroups={Array []}
+        eventsCalendarSettings={Object {}}
+        gamertagGroups={Array []}
+        onDropHeaderGroup={[Function]}
+        onFetchEvents={[MockFunction]}
+        onSelectSlot={[Function]}
+        platforms={
+          Array [
+            "CROSSPLAY",
+            "PC",
+            "PS4",
+            "SWITCH",
+            "XB1",
+          ]
+        }
+        projectId=""
+        sidebar={true}
+      />
+    </WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(DialogActions))>
+      <WithStyles(ForwardRef(Button))
+        color="secondary"
+        onClick={[Function]}
+      >
+        Cancel Date Selection
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Choose Dates
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(DialogActions))>
+  </WithStyles(ForwardRef(Dialog))>
+</Fragment>
+`;
+
+exports[`CalendarDatePicker component renders correctly with just end date 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={Object {}}
+    InputProps={
+      Object {
+        "endAdornment": null,
+      }
+    }
+    disabled={false}
+    error={false}
+    fullWidth={false}
+    label="Start Date"
+    onClick={[Function]}
+    value=""
+    variant="standard"
+  />
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={Object {}}
+    InputProps={
+      Object {
+        "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="end"
+        >
+          <WithStyles(ForwardRef(IconButton))
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(Icon))
+              fontSize="small"
+            >
+              clear
+            </WithStyles(ForwardRef(Icon))>
+          </WithStyles(ForwardRef(IconButton))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    disabled={false}
+    error={false}
+    fullWidth={false}
+    label="End Date"
+    onClick={[Function]}
+    value="November 10, 2019"
+    variant="standard"
+  />
+  <WithStyles(ForwardRef(Dialog))
+    fullWidth={true}
+    maxWidth="xl"
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(ForwardRef(DialogContent))
+      className="calendarDatePickerWrapper"
+    >
+      <EventsCalendar
+        availableViews={
+          Array [
+            "month",
+          ]
+        }
+        createDisabled={true}
+        datePickerInfo={
+          Object {
+            "disableDateSelection": [Function],
+            "endDate": 1573344000,
+            "hoverDate": null,
+            "onHoverDateChange": [Function],
+            "project": null,
+            "setEndDate": [MockFunction],
+            "setStartDate": [MockFunction],
+            "startDate": null,
+          }
+        }
+        disabledFilters={Object {}}
+        eventGroups={Array []}
+        eventsCalendarSettings={Object {}}
+        gamertagGroups={Array []}
+        onDropHeaderGroup={[Function]}
+        onFetchEvents={[MockFunction]}
+        onSelectSlot={[Function]}
+        platforms={
+          Array [
+            "CROSSPLAY",
+            "PC",
+            "PS4",
+            "SWITCH",
+            "XB1",
+          ]
+        }
+        projectId=""
+        sidebar={true}
+      />
+    </WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(DialogActions))>
+      <WithStyles(ForwardRef(Button))
+        color="secondary"
+        onClick={[Function]}
+      >
+        Cancel Date Selection
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Choose Dates
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(DialogActions))>
+  </WithStyles(ForwardRef(Dialog))>
+</Fragment>
+`;
+
+exports[`CalendarDatePicker component renders correctly with just start date 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={Object {}}
+    InputProps={
+      Object {
+        "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="end"
+        >
+          <WithStyles(ForwardRef(IconButton))
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(Icon))
+              fontSize="small"
+            >
+              clear
+            </WithStyles(ForwardRef(Icon))>
+          </WithStyles(ForwardRef(IconButton))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    disabled={false}
+    error={false}
+    fullWidth={false}
+    label="Start Date"
+    onClick={[Function]}
+    value="November 1, 2019"
+    variant="standard"
+  />
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={Object {}}
+    InputProps={
+      Object {
+        "endAdornment": null,
+      }
+    }
+    disabled={false}
+    error={false}
+    fullWidth={false}
+    label="End Date"
+    onClick={[Function]}
+    value=""
+    variant="standard"
+  />
+  <WithStyles(ForwardRef(Dialog))
+    fullWidth={true}
+    maxWidth="xl"
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(ForwardRef(DialogContent))
+      className="calendarDatePickerWrapper"
+    >
+      <EventsCalendar
+        availableViews={
+          Array [
+            "month",
+          ]
+        }
+        createDisabled={true}
+        datePickerInfo={
+          Object {
+            "disableDateSelection": [Function],
+            "endDate": null,
+            "hoverDate": null,
+            "onHoverDateChange": [Function],
+            "project": null,
+            "setEndDate": [MockFunction],
+            "setStartDate": [MockFunction],
+            "startDate": 1572566400,
+          }
+        }
+        disabledFilters={Object {}}
+        eventGroups={Array []}
+        eventsCalendarSettings={Object {}}
+        gamertagGroups={Array []}
+        onDropHeaderGroup={[Function]}
+        onFetchEvents={[MockFunction]}
+        onSelectSlot={[Function]}
+        platforms={
+          Array [
+            "CROSSPLAY",
+            "PC",
+            "PS4",
+            "SWITCH",
+            "XB1",
+          ]
+        }
+        projectId=""
+        sidebar={true}
+      />
+    </WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(DialogActions))>
+      <WithStyles(ForwardRef(Button))
+        color="secondary"
+        onClick={[Function]}
+      >
+        Cancel Date Selection
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Choose Dates
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(DialogActions))>
+  </WithStyles(ForwardRef(Dialog))>
+</Fragment>
+`;
+
+exports[`CalendarDatePicker component renders correctly with no start and end date 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={Object {}}
+    InputProps={
+      Object {
+        "endAdornment": null,
+      }
+    }
+    disabled={false}
+    error={false}
+    fullWidth={false}
+    label="Start Date"
+    onClick={[Function]}
+    value=""
+    variant="standard"
+  />
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={Object {}}
+    InputProps={
+      Object {
+        "endAdornment": null,
+      }
+    }
+    disabled={false}
+    error={false}
+    fullWidth={false}
+    label="End Date"
+    onClick={[Function]}
+    value=""
+    variant="standard"
+  />
+  <WithStyles(ForwardRef(Dialog))
+    fullWidth={true}
+    maxWidth="xl"
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(ForwardRef(DialogContent))
+      className="calendarDatePickerWrapper"
+    >
+      <EventsCalendar
+        availableViews={
+          Array [
+            "month",
+          ]
+        }
+        createDisabled={true}
+        datePickerInfo={
+          Object {
+            "disableDateSelection": [Function],
+            "endDate": null,
+            "hoverDate": null,
+            "onHoverDateChange": [Function],
+            "project": null,
+            "setEndDate": [MockFunction],
+            "setStartDate": [MockFunction],
+            "startDate": null,
+          }
+        }
+        disabledFilters={Object {}}
+        eventGroups={Array []}
+        eventsCalendarSettings={Object {}}
+        gamertagGroups={Array []}
+        onDropHeaderGroup={[Function]}
+        onFetchEvents={[MockFunction]}
+        onSelectSlot={[Function]}
+        platforms={
+          Array [
+            "CROSSPLAY",
+            "PC",
+            "PS4",
+            "SWITCH",
+            "XB1",
+          ]
+        }
+        projectId=""
+        sidebar={true}
+      />
+    </WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(DialogActions))>
+      <WithStyles(ForwardRef(Button))
+        color="secondary"
+        onClick={[Function]}
+      >
+        Cancel Date Selection
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(DialogActions))>
+  </WithStyles(ForwardRef(Dialog))>
+</Fragment>
+`;

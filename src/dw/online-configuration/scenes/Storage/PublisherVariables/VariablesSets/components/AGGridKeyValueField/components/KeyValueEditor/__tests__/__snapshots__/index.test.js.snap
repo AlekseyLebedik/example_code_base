@@ -1,0 +1,203 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KeyValueEditor render add new key / value 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="left"
+    title="Add a new key / value pair"
+  >
+    <WithStyles(ForwardRef(Fab))
+      className="makeStyles-addButton-1"
+      color="primary"
+      onClick={[Function]}
+      size="small"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        playlist_add
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(Fab))>
+  </WithStyles(ForwardRef(Tooltip))>
+</Fragment>
+`;
+
+exports[`KeyValueEditor render add new key / value 2`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="left"
+    title="Add a new key / value pair"
+  >
+    <WithStyles(ForwardRef(Fab))
+      className="makeStyles-addButton-1"
+      color="primary"
+      onClick={[Function]}
+      size="small"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        playlist_add
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(Fab))>
+  </WithStyles(ForwardRef(Tooltip))>
+  <DialogComponent
+    actions={
+      Array [
+        <WithStyles(ForwardRef(Button))
+          onClick={[Function]}
+        >
+          Cancel
+        </WithStyles(ForwardRef(Button))>,
+        <WithStyles(ForwardRef(Button))
+          color="primary"
+          onClick={[Function]}
+        >
+          Save
+        </WithStyles(ForwardRef(Button))>,
+      ]
+    }
+    cancelOnBackdropClick={false}
+    classes={Object {}}
+    contentStyle={Object {}}
+    fullWidth={true}
+    maxWidth="sm"
+    modal={true}
+    onRequestClose={[Function]}
+    open={true}
+    title="Add new Key / Value pair"
+  >
+    <div
+      className="flex flex-col"
+    >
+      <WithStyles(ForwardRef(TextField))
+        InputLabelProps={
+          Object {
+            "shrink": true,
+          }
+        }
+        autoFocus={true}
+        error={false}
+        fullWidth={true}
+        label="Key"
+        name="key"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        value=""
+      />
+      <WithStyles(ForwardRef(TextField))
+        InputLabelProps={
+          Object {
+            "shrink": true,
+          }
+        }
+        fullWidth={true}
+        inputRef={
+          Object {
+            "current": undefined,
+          }
+        }
+        label="Value"
+        name="value"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        value=""
+      />
+    </div>
+  </DialogComponent>
+</Fragment>
+`;
+
+exports[`KeyValueEditor render edit key / value 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="left"
+    title="Edit key / value pair"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        edit
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(Tooltip))>
+</Fragment>
+`;
+
+exports[`KeyValueEditor render edit key / value 2`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="left"
+    title="Edit key / value pair"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        edit
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(Tooltip))>
+  <DialogComponent
+    actions={
+      Array [
+        <WithStyles(ForwardRef(Button))
+          onClick={[Function]}
+        >
+          Cancel
+        </WithStyles(ForwardRef(Button))>,
+        <WithStyles(ForwardRef(Button))
+          color="primary"
+          onClick={[Function]}
+        >
+          Save
+        </WithStyles(ForwardRef(Button))>,
+      ]
+    }
+    cancelOnBackdropClick={false}
+    classes={Object {}}
+    contentStyle={Object {}}
+    fullWidth={true}
+    maxWidth="sm"
+    modal={true}
+    onRequestClose={[Function]}
+    open={true}
+    title="Edit Key / Value pair"
+  >
+    <div
+      className="flex flex-col"
+    >
+      <WithStyles(ForwardRef(TextField))
+        InputLabelProps={
+          Object {
+            "shrink": true,
+          }
+        }
+        autoFocus={true}
+        error={false}
+        fullWidth={true}
+        label="Key"
+        name="key"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        value={1}
+      />
+      <WithStyles(ForwardRef(TextField))
+        InputLabelProps={
+          Object {
+            "shrink": true,
+          }
+        }
+        fullWidth={true}
+        inputRef={
+          Object {
+            "current": undefined,
+          }
+        }
+        label="Value"
+        name="value"
+        onChange={[Function]}
+        onKeyPress={[Function]}
+        value={1}
+      />
+    </div>
+  </DialogComponent>
+</Fragment>
+`;

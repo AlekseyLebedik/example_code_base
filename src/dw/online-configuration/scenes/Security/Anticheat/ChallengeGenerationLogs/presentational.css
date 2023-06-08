@@ -1,0 +1,17 @@
+.NextPageButton {
+  position: initial !important;
+}
+
+.main-container.challenge-generation-logs .filter-options {
+  display: flex;
+  flex-grow: 1;
+}
+
+.main-container.challenge-generation-logs .filter-options .common__search {
+  flex-grow: 1;
+}
+
+.main-container.challenge-generation-logs .filter-options .order {
+  width: 182px !important;
+  margin-left: 10px;
+}

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TooltipWithTable renders default values 1`] = `
+<div
+  className="tooltip-with-table__main-container"
+>
+  <WithStyles(ForwardRef(Tooltip))
+    classes={
+      Object {
+        "tooltip": "tooltip-with-table__tooltip",
+      }
+    }
+    title={
+      <withStore(Table)
+        className="tooltip-table"
+        columns={
+          Array [
+            Object {
+              "dataIndex": "userID",
+              "key": "userID",
+              "title": "User ID",
+            },
+          ]
+        }
+        dataSource={
+          Array [
+            Object {
+              "userID": "33853876575912758",
+            },
+          ]
+        }
+        fontSize="small"
+        pagination={false}
+        size="small"
+      />
+    }
+  >
+    <span
+      className="tooltip-with-table__label"
+    >
+      blah
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;

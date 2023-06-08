@@ -1,0 +1,13 @@
+.serviceSelectRoot {
+  margin-bottom: 0;
+  margin-bottom: -2px;
+  max-width: 95px;
+}
+
+.serviceSelectRoot svg {
+  color: white;
+}
+
+.serviceSelect {
+  color: white;
+}

@@ -1,0 +1,35 @@
+.suite {
+  display: inline;
+}
+
+.suiteContent {
+  column-count: 4;
+}
+
+.favoritesMegaMenu {
+  margin-top: 20px;
+}
+
+.columnsContainer {
+  display: flex;
+}
+
+.searchInput {
+  line-height: 1.7em;
+  padding: 0 15px;
+
+  width: 100%;
+  margin: 20px 0;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.searchInput::placeholder {
+  line-height: 1.7em;
+  opacity: 0.6;
+}
+
+.searchSection {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,22 @@
+.variables-sets .form-key-value-field {
+  padding: 0 20px;
+}
+
+.variables-sets .form-input__container {
+  padding: 3px 20px 7px 0;
+}
+
+.variables-sets .form-input,
+.variables-sets .form-row {
+  height: 41px !important;
+}
+
+.variables-sets .form-input input {
+  margin-top: 0 !important;
+}
+
+.variables-sets .form-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

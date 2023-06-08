@@ -1,0 +1,14 @@
+.UnitLayout__container {
+  padding-top: 100px;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+@media print {
+  .UnitLayout__container {
+    height: auto;
+    overflow: visible;
+  }
+}

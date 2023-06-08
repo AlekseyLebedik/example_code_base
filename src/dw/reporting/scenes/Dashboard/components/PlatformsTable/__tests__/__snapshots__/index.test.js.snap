@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlatformsTable renders projects and related platforms 1`] = `
+Array [
+  "PS4",
+  null,
+  "PC-BNet",
+  null,
+]
+`;
+
+exports[`PlatformsTable renders projects and related platforms 2`] = `
+Array [
+  "PS4",
+  "Xbox One",
+  "PC-Steam",
+  "Wii",
+]
+`;

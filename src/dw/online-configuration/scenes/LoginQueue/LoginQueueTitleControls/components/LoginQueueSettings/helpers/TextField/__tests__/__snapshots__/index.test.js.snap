@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueSettings - TextField Text field check 1`] = `
+<WithStyles(ForwardRef(TextField))
+  InputProps={
+    Object {
+      "inputComponent": [Function],
+    }
+  }
+  className="loginQueueFormInput"
+  classes={
+    Object {
+      "root": "WithStyles(ForwardRef(TextField))-root-1",
+    }
+  }
+  disabled={false}
+  name="maxCCU"
+  onChange={[Function]}
+  value={300000}
+/>
+`;

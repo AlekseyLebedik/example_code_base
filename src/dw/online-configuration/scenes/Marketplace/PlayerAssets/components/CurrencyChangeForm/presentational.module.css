@@ -1,0 +1,7 @@
+.actionsPanel {
+  display: flex;
+}
+
+.currenciesInput {
+  height: 2rem !important;
+}

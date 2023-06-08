@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DescriptionField renders the DescriptionField correctly 1`] = `
+<Field
+  component={[Function]}
+  fullWidth={true}
+  label="Description"
+  name="description"
+  onBlur={[MockFunction]}
+  onKeyDown={[Function]}
+/>
+`;

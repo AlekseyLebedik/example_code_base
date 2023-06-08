@@ -1,0 +1,1601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FiltersTable renders List view EventsCalendarSidebar with all choices selected 1`] = `
+<div
+  className="sidebarFilters"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "disableUnderline": true,
+        "endAdornment": "",
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <WithStyles(ForwardRef(Icon))>
+            search
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    className="search"
+    onChange={[Function]}
+    placeholder="Search filter options"
+    value=""
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="divider"
+    variant="middle"
+  />
+  <div
+    className="calendarOptionsSources calendarOptionsExpanded ag-theme-material"
+  >
+    <AgGridReact
+      animateRows={true}
+      autoGroupColumnDef={
+        Object {
+          "cellRenderer": "filtersTableCell",
+          "field": "filterType",
+          "lockPosition": true,
+          "width": 275,
+        }
+      }
+      columnDefs={
+        Array [
+          Object {
+            "field": "filterPath",
+            "hide": true,
+          },
+        ]
+      }
+      components={
+        Object {
+          "filtersTableCell": [Function],
+        }
+      }
+      context={
+        Object {
+          "classes": Object {},
+          "eventGroups": Array [
+            Object {
+              "EventDetails": [Function],
+              "GroupLink": [Function],
+              "classes": Object {
+                "applied": "applied-style",
+                "approved": "approved-style",
+                "cancelled": "cancelled-style",
+                "expired": "expired-style",
+                "pending": "pending-style",
+                "rejected": "rejected-style",
+                "scheduled": "scheduled-style",
+                "test-failed": "test-failed-style",
+                "testing": "testing-style",
+              },
+              "customEventStyles": [Function],
+              "eventDragDrop": [MockFunction],
+              "eventTypes": Object {
+                "eventManager": Object {
+                  "children": Object {
+                    "checkedByMe": Object {
+                      "children": null,
+                      "name": "Checked By Me",
+                      "selectedByDefault": false,
+                    },
+                    "status": Object {
+                      "children": Object {
+                        "applied": Object {
+                          "children": null,
+                          "name": "Applied",
+                          "selectedByDefault": true,
+                        },
+                        "approved": Object {
+                          "children": null,
+                          "name": "Approved",
+                          "selectedByDefault": true,
+                        },
+                        "cancelled": Object {
+                          "children": null,
+                          "name": "Cancelled",
+                          "selectedByDefault": true,
+                        },
+                        "expired": Object {
+                          "children": null,
+                          "name": "Expired",
+                          "selectedByDefault": true,
+                        },
+                        "pending": Object {
+                          "children": null,
+                          "name": "Pending",
+                          "selectedByDefault": true,
+                        },
+                        "rejected": Object {
+                          "children": null,
+                          "name": "Rejected",
+                          "selectedByDefault": true,
+                        },
+                        "scheduled": Object {
+                          "children": null,
+                          "name": "Scheduled",
+                          "selectedByDefault": true,
+                        },
+                        "test-failed": Object {
+                          "children": null,
+                          "name": "Test Failed",
+                          "selectedByDefault": true,
+                        },
+                        "testing": Object {
+                          "children": null,
+                          "name": "Testing",
+                          "selectedByDefault": true,
+                        },
+                      },
+                      "name": "Status",
+                    },
+                  },
+                  "name": "Event Manager",
+                  "selectedByDefault": true,
+                },
+              },
+              "events": Array [
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "approved",
+                  "title": "test",
+                  "type": "eventManager",
+                },
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "pending",
+                  "title": "test 2",
+                  "type": "eventManager",
+                },
+              ],
+              "loading": Object {
+                "error": null,
+                "isLoading": false,
+              },
+              "modifyEvent": [MockFunction],
+              "type": "eventManager",
+              "wrapper": [MockFunction],
+            },
+          ],
+          "onFetchEvents": [MockFunction],
+          "setCalendarSettings": [MockFunction],
+          "setExpandedStyle": [Function],
+        }
+      }
+      defaultColDef={
+        Object {
+          "filter": true,
+          "sortable": true,
+        }
+      }
+      domLayout="autoHeight"
+      getDataPath={[Function]}
+      groupDefaultExpanded={0}
+      headerHeight={0}
+      onGridReady={[Function]}
+      rowClass="calendarEventStatus"
+      rowHeight={35}
+      rowSelection="multiple"
+      sideBar={false}
+      suppressRowClickSelection={true}
+      treeData={true}
+    />
+  </div>
+  <TagFilters
+    classes={Object {}}
+    setCalendarSettings={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`FiltersTable renders List view EventsCalendarSidebar with no choices selected 1`] = `
+<div
+  className="sidebarFilters"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "disableUnderline": true,
+        "endAdornment": "",
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <WithStyles(ForwardRef(Icon))>
+            search
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    className="search"
+    onChange={[Function]}
+    placeholder="Search filter options"
+    value=""
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="divider"
+    variant="middle"
+  />
+  <div
+    className="calendarOptionsSources calendarOptionsExpanded ag-theme-material"
+  >
+    <AgGridReact
+      animateRows={true}
+      autoGroupColumnDef={
+        Object {
+          "cellRenderer": "filtersTableCell",
+          "field": "filterType",
+          "lockPosition": true,
+          "width": 275,
+        }
+      }
+      columnDefs={
+        Array [
+          Object {
+            "field": "filterPath",
+            "hide": true,
+          },
+        ]
+      }
+      components={
+        Object {
+          "filtersTableCell": [Function],
+        }
+      }
+      context={
+        Object {
+          "classes": Object {},
+          "eventGroups": Array [
+            Object {
+              "EventDetails": [Function],
+              "GroupLink": [Function],
+              "classes": Object {
+                "applied": "applied-style",
+                "approved": "approved-style",
+                "cancelled": "cancelled-style",
+                "expired": "expired-style",
+                "pending": "pending-style",
+                "rejected": "rejected-style",
+                "scheduled": "scheduled-style",
+                "test-failed": "test-failed-style",
+                "testing": "testing-style",
+              },
+              "customEventStyles": [Function],
+              "eventDragDrop": [MockFunction],
+              "eventTypes": Object {
+                "eventManager": Object {
+                  "children": Object {
+                    "checkedByMe": Object {
+                      "children": null,
+                      "name": "Checked By Me",
+                      "selectedByDefault": false,
+                    },
+                    "status": Object {
+                      "children": Object {
+                        "applied": Object {
+                          "children": null,
+                          "name": "Applied",
+                          "selectedByDefault": true,
+                        },
+                        "approved": Object {
+                          "children": null,
+                          "name": "Approved",
+                          "selectedByDefault": true,
+                        },
+                        "cancelled": Object {
+                          "children": null,
+                          "name": "Cancelled",
+                          "selectedByDefault": true,
+                        },
+                        "expired": Object {
+                          "children": null,
+                          "name": "Expired",
+                          "selectedByDefault": true,
+                        },
+                        "pending": Object {
+                          "children": null,
+                          "name": "Pending",
+                          "selectedByDefault": true,
+                        },
+                        "rejected": Object {
+                          "children": null,
+                          "name": "Rejected",
+                          "selectedByDefault": true,
+                        },
+                        "scheduled": Object {
+                          "children": null,
+                          "name": "Scheduled",
+                          "selectedByDefault": true,
+                        },
+                        "test-failed": Object {
+                          "children": null,
+                          "name": "Test Failed",
+                          "selectedByDefault": true,
+                        },
+                        "testing": Object {
+                          "children": null,
+                          "name": "Testing",
+                          "selectedByDefault": true,
+                        },
+                      },
+                      "name": "Status",
+                    },
+                  },
+                  "name": "Event Manager",
+                  "selectedByDefault": true,
+                },
+              },
+              "events": Array [
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "approved",
+                  "title": "test",
+                  "type": "eventManager",
+                },
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "pending",
+                  "title": "test 2",
+                  "type": "eventManager",
+                },
+              ],
+              "loading": Object {
+                "error": null,
+                "isLoading": false,
+              },
+              "modifyEvent": [MockFunction],
+              "type": "eventManager",
+              "wrapper": [MockFunction],
+            },
+          ],
+          "onFetchEvents": [MockFunction],
+          "setCalendarSettings": [MockFunction],
+          "setExpandedStyle": [Function],
+        }
+      }
+      defaultColDef={
+        Object {
+          "filter": true,
+          "sortable": true,
+        }
+      }
+      domLayout="autoHeight"
+      getDataPath={[Function]}
+      groupDefaultExpanded={0}
+      headerHeight={0}
+      onGridReady={[Function]}
+      rowClass="calendarEventStatus"
+      rowHeight={35}
+      rowSelection="multiple"
+      sideBar={false}
+      suppressRowClickSelection={true}
+      treeData={true}
+    />
+  </div>
+  <TagFilters
+    classes={Object {}}
+    setCalendarSettings={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`FiltersTable renders List view EventsCalendarSidebar with tagText contents 1`] = `
+<div
+  className="sidebarFilters"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "disableUnderline": true,
+        "endAdornment": "",
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <WithStyles(ForwardRef(Icon))>
+            search
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    className="search"
+    onChange={[Function]}
+    placeholder="Search filter options"
+    value=""
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="divider"
+    variant="middle"
+  />
+  <div
+    className="calendarOptionsSources calendarOptionsExpanded ag-theme-material"
+  >
+    <AgGridReact
+      animateRows={true}
+      autoGroupColumnDef={
+        Object {
+          "cellRenderer": "filtersTableCell",
+          "field": "filterType",
+          "lockPosition": true,
+          "width": 275,
+        }
+      }
+      columnDefs={
+        Array [
+          Object {
+            "field": "filterPath",
+            "hide": true,
+          },
+        ]
+      }
+      components={
+        Object {
+          "filtersTableCell": [Function],
+        }
+      }
+      context={
+        Object {
+          "classes": Object {},
+          "eventGroups": Array [
+            Object {
+              "EventDetails": [Function],
+              "GroupLink": [Function],
+              "classes": Object {
+                "applied": "applied-style",
+                "approved": "approved-style",
+                "cancelled": "cancelled-style",
+                "expired": "expired-style",
+                "pending": "pending-style",
+                "rejected": "rejected-style",
+                "scheduled": "scheduled-style",
+                "test-failed": "test-failed-style",
+                "testing": "testing-style",
+              },
+              "customEventStyles": [Function],
+              "eventDragDrop": [MockFunction],
+              "eventTypes": Object {
+                "eventManager": Object {
+                  "children": Object {
+                    "checkedByMe": Object {
+                      "children": null,
+                      "name": "Checked By Me",
+                      "selectedByDefault": false,
+                    },
+                    "status": Object {
+                      "children": Object {
+                        "applied": Object {
+                          "children": null,
+                          "name": "Applied",
+                          "selectedByDefault": true,
+                        },
+                        "approved": Object {
+                          "children": null,
+                          "name": "Approved",
+                          "selectedByDefault": true,
+                        },
+                        "cancelled": Object {
+                          "children": null,
+                          "name": "Cancelled",
+                          "selectedByDefault": true,
+                        },
+                        "expired": Object {
+                          "children": null,
+                          "name": "Expired",
+                          "selectedByDefault": true,
+                        },
+                        "pending": Object {
+                          "children": null,
+                          "name": "Pending",
+                          "selectedByDefault": true,
+                        },
+                        "rejected": Object {
+                          "children": null,
+                          "name": "Rejected",
+                          "selectedByDefault": true,
+                        },
+                        "scheduled": Object {
+                          "children": null,
+                          "name": "Scheduled",
+                          "selectedByDefault": true,
+                        },
+                        "test-failed": Object {
+                          "children": null,
+                          "name": "Test Failed",
+                          "selectedByDefault": true,
+                        },
+                        "testing": Object {
+                          "children": null,
+                          "name": "Testing",
+                          "selectedByDefault": true,
+                        },
+                      },
+                      "name": "Status",
+                    },
+                  },
+                  "name": "Event Manager",
+                  "selectedByDefault": true,
+                },
+              },
+              "events": Array [
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "approved",
+                  "title": "test",
+                  "type": "eventManager",
+                },
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "pending",
+                  "title": "test 2",
+                  "type": "eventManager",
+                },
+              ],
+              "loading": Object {
+                "error": null,
+                "isLoading": false,
+              },
+              "modifyEvent": [MockFunction],
+              "type": "eventManager",
+              "wrapper": [MockFunction],
+            },
+          ],
+          "onFetchEvents": [MockFunction],
+          "setCalendarSettings": [MockFunction],
+          "setExpandedStyle": [Function],
+        }
+      }
+      defaultColDef={
+        Object {
+          "filter": true,
+          "sortable": true,
+        }
+      }
+      domLayout="autoHeight"
+      getDataPath={[Function]}
+      groupDefaultExpanded={0}
+      headerHeight={0}
+      onGridReady={[Function]}
+      rowClass="calendarEventStatus"
+      rowHeight={35}
+      rowSelection="multiple"
+      sideBar={false}
+      suppressRowClickSelection={true}
+      treeData={true}
+    />
+  </div>
+  <TagFilters
+    classes={Object {}}
+    setCalendarSettings={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`FiltersTable renders default EventsCalendarSidebar with all filters.sources unselected 1`] = `
+<div
+  className="sidebarFilters"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "disableUnderline": true,
+        "endAdornment": "",
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <WithStyles(ForwardRef(Icon))>
+            search
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    className="search"
+    onChange={[Function]}
+    placeholder="Search filter options"
+    value=""
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="divider"
+    variant="middle"
+  />
+  <div
+    className="calendarOptionsSources calendarOptionsExpanded ag-theme-material"
+  >
+    <AgGridReact
+      animateRows={true}
+      autoGroupColumnDef={
+        Object {
+          "cellRenderer": "filtersTableCell",
+          "field": "filterType",
+          "lockPosition": true,
+          "width": 275,
+        }
+      }
+      columnDefs={
+        Array [
+          Object {
+            "field": "filterPath",
+            "hide": true,
+          },
+        ]
+      }
+      components={
+        Object {
+          "filtersTableCell": [Function],
+        }
+      }
+      context={
+        Object {
+          "classes": Object {},
+          "eventGroups": Array [
+            Object {
+              "EventDetails": [Function],
+              "GroupLink": [Function],
+              "classes": Object {
+                "applied": "applied-style",
+                "approved": "approved-style",
+                "cancelled": "cancelled-style",
+                "expired": "expired-style",
+                "pending": "pending-style",
+                "rejected": "rejected-style",
+                "scheduled": "scheduled-style",
+                "test-failed": "test-failed-style",
+                "testing": "testing-style",
+              },
+              "customEventStyles": [Function],
+              "eventDragDrop": [MockFunction],
+              "eventTypes": Object {
+                "eventManager": Object {
+                  "children": Object {
+                    "checkedByMe": Object {
+                      "children": null,
+                      "name": "Checked By Me",
+                      "selectedByDefault": false,
+                    },
+                    "status": Object {
+                      "children": Object {
+                        "applied": Object {
+                          "children": null,
+                          "name": "Applied",
+                          "selectedByDefault": true,
+                        },
+                        "approved": Object {
+                          "children": null,
+                          "name": "Approved",
+                          "selectedByDefault": true,
+                        },
+                        "cancelled": Object {
+                          "children": null,
+                          "name": "Cancelled",
+                          "selectedByDefault": true,
+                        },
+                        "expired": Object {
+                          "children": null,
+                          "name": "Expired",
+                          "selectedByDefault": true,
+                        },
+                        "pending": Object {
+                          "children": null,
+                          "name": "Pending",
+                          "selectedByDefault": true,
+                        },
+                        "rejected": Object {
+                          "children": null,
+                          "name": "Rejected",
+                          "selectedByDefault": true,
+                        },
+                        "scheduled": Object {
+                          "children": null,
+                          "name": "Scheduled",
+                          "selectedByDefault": true,
+                        },
+                        "test-failed": Object {
+                          "children": null,
+                          "name": "Test Failed",
+                          "selectedByDefault": true,
+                        },
+                        "testing": Object {
+                          "children": null,
+                          "name": "Testing",
+                          "selectedByDefault": true,
+                        },
+                      },
+                      "name": "Status",
+                    },
+                  },
+                  "name": "Event Manager",
+                  "selectedByDefault": true,
+                },
+              },
+              "events": Array [
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "approved",
+                  "title": "test",
+                  "type": "eventManager",
+                },
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "pending",
+                  "title": "test 2",
+                  "type": "eventManager",
+                },
+              ],
+              "loading": Object {
+                "error": null,
+                "isLoading": false,
+              },
+              "modifyEvent": [MockFunction],
+              "type": "eventManager",
+              "wrapper": [MockFunction],
+            },
+          ],
+          "onFetchEvents": [MockFunction],
+          "setCalendarSettings": [MockFunction],
+          "setExpandedStyle": [Function],
+        }
+      }
+      defaultColDef={
+        Object {
+          "filter": true,
+          "sortable": true,
+        }
+      }
+      domLayout="autoHeight"
+      getDataPath={[Function]}
+      groupDefaultExpanded={0}
+      headerHeight={0}
+      onGridReady={[Function]}
+      rowClass="calendarEventStatus"
+      rowHeight={35}
+      rowSelection="multiple"
+      sideBar={false}
+      suppressRowClickSelection={true}
+      treeData={true}
+    />
+  </div>
+  <TagFilters
+    classes={Object {}}
+    setCalendarSettings={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`FiltersTable renders default EventsCalendarSidebar with event tags 1`] = `
+<div
+  className="sidebarFilters"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "disableUnderline": true,
+        "endAdornment": "",
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <WithStyles(ForwardRef(Icon))>
+            search
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    className="search"
+    onChange={[Function]}
+    placeholder="Search filter options"
+    value=""
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="divider"
+    variant="middle"
+  />
+  <div
+    className="calendarOptionsSources calendarOptionsExpanded ag-theme-material"
+  >
+    <AgGridReact
+      animateRows={true}
+      autoGroupColumnDef={
+        Object {
+          "cellRenderer": "filtersTableCell",
+          "field": "filterType",
+          "lockPosition": true,
+          "width": 275,
+        }
+      }
+      columnDefs={
+        Array [
+          Object {
+            "field": "filterPath",
+            "hide": true,
+          },
+        ]
+      }
+      components={
+        Object {
+          "filtersTableCell": [Function],
+        }
+      }
+      context={
+        Object {
+          "classes": Object {},
+          "eventGroups": Array [
+            Object {
+              "EventDetails": [Function],
+              "GroupLink": [Function],
+              "classes": Object {
+                "applied": "applied-style",
+                "approved": "approved-style",
+                "cancelled": "cancelled-style",
+                "expired": "expired-style",
+                "pending": "pending-style",
+                "rejected": "rejected-style",
+                "scheduled": "scheduled-style",
+                "test-failed": "test-failed-style",
+                "testing": "testing-style",
+              },
+              "customEventStyles": [Function],
+              "eventDragDrop": [MockFunction],
+              "eventTypes": Object {
+                "eventManager": Object {
+                  "children": Object {
+                    "checkedByMe": Object {
+                      "children": null,
+                      "name": "Checked By Me",
+                      "selectedByDefault": false,
+                    },
+                    "status": Object {
+                      "children": Object {
+                        "applied": Object {
+                          "children": null,
+                          "name": "Applied",
+                          "selectedByDefault": true,
+                        },
+                        "approved": Object {
+                          "children": null,
+                          "name": "Approved",
+                          "selectedByDefault": true,
+                        },
+                        "cancelled": Object {
+                          "children": null,
+                          "name": "Cancelled",
+                          "selectedByDefault": true,
+                        },
+                        "expired": Object {
+                          "children": null,
+                          "name": "Expired",
+                          "selectedByDefault": true,
+                        },
+                        "pending": Object {
+                          "children": null,
+                          "name": "Pending",
+                          "selectedByDefault": true,
+                        },
+                        "rejected": Object {
+                          "children": null,
+                          "name": "Rejected",
+                          "selectedByDefault": true,
+                        },
+                        "scheduled": Object {
+                          "children": null,
+                          "name": "Scheduled",
+                          "selectedByDefault": true,
+                        },
+                        "test-failed": Object {
+                          "children": null,
+                          "name": "Test Failed",
+                          "selectedByDefault": true,
+                        },
+                        "testing": Object {
+                          "children": null,
+                          "name": "Testing",
+                          "selectedByDefault": true,
+                        },
+                      },
+                      "name": "Status",
+                    },
+                  },
+                  "name": "Event Manager",
+                  "selectedByDefault": true,
+                },
+              },
+              "events": Array [
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "approved",
+                  "title": "test",
+                  "type": "eventManager",
+                },
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "pending",
+                  "title": "test 2",
+                  "type": "eventManager",
+                },
+              ],
+              "loading": Object {
+                "error": null,
+                "isLoading": false,
+              },
+              "modifyEvent": [MockFunction],
+              "type": "eventManager",
+              "wrapper": [MockFunction],
+            },
+          ],
+          "onFetchEvents": [MockFunction],
+          "setCalendarSettings": [MockFunction],
+          "setExpandedStyle": [Function],
+        }
+      }
+      defaultColDef={
+        Object {
+          "filter": true,
+          "sortable": true,
+        }
+      }
+      domLayout="autoHeight"
+      getDataPath={[Function]}
+      groupDefaultExpanded={0}
+      headerHeight={0}
+      onGridReady={[Function]}
+      rowClass="calendarEventStatus"
+      rowHeight={35}
+      rowSelection="multiple"
+      sideBar={false}
+      suppressRowClickSelection={true}
+      treeData={true}
+    />
+  </div>
+  <TagFilters
+    classes={Object {}}
+    setCalendarSettings={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`FiltersTable renders default EventsCalendarSidebar with tagText contents 1`] = `
+<div
+  className="sidebarFilters"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "disableUnderline": true,
+        "endAdornment": "",
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <WithStyles(ForwardRef(Icon))>
+            search
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    className="search"
+    onChange={[Function]}
+    placeholder="Search filter options"
+    value=""
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="divider"
+    variant="middle"
+  />
+  <div
+    className="calendarOptionsSources calendarOptionsExpanded ag-theme-material"
+  >
+    <AgGridReact
+      animateRows={true}
+      autoGroupColumnDef={
+        Object {
+          "cellRenderer": "filtersTableCell",
+          "field": "filterType",
+          "lockPosition": true,
+          "width": 275,
+        }
+      }
+      columnDefs={
+        Array [
+          Object {
+            "field": "filterPath",
+            "hide": true,
+          },
+        ]
+      }
+      components={
+        Object {
+          "filtersTableCell": [Function],
+        }
+      }
+      context={
+        Object {
+          "classes": Object {},
+          "eventGroups": Array [
+            Object {
+              "EventDetails": [Function],
+              "GroupLink": [Function],
+              "classes": Object {
+                "applied": "applied-style",
+                "approved": "approved-style",
+                "cancelled": "cancelled-style",
+                "expired": "expired-style",
+                "pending": "pending-style",
+                "rejected": "rejected-style",
+                "scheduled": "scheduled-style",
+                "test-failed": "test-failed-style",
+                "testing": "testing-style",
+              },
+              "customEventStyles": [Function],
+              "eventDragDrop": [MockFunction],
+              "eventTypes": Object {
+                "eventManager": Object {
+                  "children": Object {
+                    "checkedByMe": Object {
+                      "children": null,
+                      "name": "Checked By Me",
+                      "selectedByDefault": false,
+                    },
+                    "status": Object {
+                      "children": Object {
+                        "applied": Object {
+                          "children": null,
+                          "name": "Applied",
+                          "selectedByDefault": true,
+                        },
+                        "approved": Object {
+                          "children": null,
+                          "name": "Approved",
+                          "selectedByDefault": true,
+                        },
+                        "cancelled": Object {
+                          "children": null,
+                          "name": "Cancelled",
+                          "selectedByDefault": true,
+                        },
+                        "expired": Object {
+                          "children": null,
+                          "name": "Expired",
+                          "selectedByDefault": true,
+                        },
+                        "pending": Object {
+                          "children": null,
+                          "name": "Pending",
+                          "selectedByDefault": true,
+                        },
+                        "rejected": Object {
+                          "children": null,
+                          "name": "Rejected",
+                          "selectedByDefault": true,
+                        },
+                        "scheduled": Object {
+                          "children": null,
+                          "name": "Scheduled",
+                          "selectedByDefault": true,
+                        },
+                        "test-failed": Object {
+                          "children": null,
+                          "name": "Test Failed",
+                          "selectedByDefault": true,
+                        },
+                        "testing": Object {
+                          "children": null,
+                          "name": "Testing",
+                          "selectedByDefault": true,
+                        },
+                      },
+                      "name": "Status",
+                    },
+                  },
+                  "name": "Event Manager",
+                  "selectedByDefault": true,
+                },
+              },
+              "events": Array [
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "approved",
+                  "title": "test",
+                  "type": "eventManager",
+                },
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "pending",
+                  "title": "test 2",
+                  "type": "eventManager",
+                },
+              ],
+              "loading": Object {
+                "error": null,
+                "isLoading": false,
+              },
+              "modifyEvent": [MockFunction],
+              "type": "eventManager",
+              "wrapper": [MockFunction],
+            },
+          ],
+          "onFetchEvents": [MockFunction],
+          "setCalendarSettings": [MockFunction],
+          "setExpandedStyle": [Function],
+        }
+      }
+      defaultColDef={
+        Object {
+          "filter": true,
+          "sortable": true,
+        }
+      }
+      domLayout="autoHeight"
+      getDataPath={[Function]}
+      groupDefaultExpanded={0}
+      headerHeight={0}
+      onGridReady={[Function]}
+      rowClass="calendarEventStatus"
+      rowHeight={35}
+      rowSelection="multiple"
+      sideBar={false}
+      suppressRowClickSelection={true}
+      treeData={true}
+    />
+  </div>
+  <TagFilters
+    classes={Object {}}
+    setCalendarSettings={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`FiltersTable renders default FiltersTable with all filters.sources selected 1`] = `
+<div
+  className="sidebarFilters"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "disableUnderline": true,
+        "endAdornment": "",
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <WithStyles(ForwardRef(Icon))>
+            search
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    className="search"
+    onChange={[Function]}
+    placeholder="Search filter options"
+    value=""
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="divider"
+    variant="middle"
+  />
+  <div
+    className="calendarOptionsSources calendarOptionsExpanded ag-theme-material"
+  >
+    <AgGridReact
+      animateRows={true}
+      autoGroupColumnDef={
+        Object {
+          "cellRenderer": "filtersTableCell",
+          "field": "filterType",
+          "lockPosition": true,
+          "width": 275,
+        }
+      }
+      columnDefs={
+        Array [
+          Object {
+            "field": "filterPath",
+            "hide": true,
+          },
+        ]
+      }
+      components={
+        Object {
+          "filtersTableCell": [Function],
+        }
+      }
+      context={
+        Object {
+          "classes": Object {},
+          "eventGroups": Array [
+            Object {
+              "EventDetails": [Function],
+              "GroupLink": [Function],
+              "classes": Object {
+                "applied": "applied-style",
+                "approved": "approved-style",
+                "cancelled": "cancelled-style",
+                "expired": "expired-style",
+                "pending": "pending-style",
+                "rejected": "rejected-style",
+                "scheduled": "scheduled-style",
+                "test-failed": "test-failed-style",
+                "testing": "testing-style",
+              },
+              "customEventStyles": [Function],
+              "eventDragDrop": [MockFunction],
+              "eventTypes": Object {
+                "eventManager": Object {
+                  "children": Object {
+                    "checkedByMe": Object {
+                      "children": null,
+                      "name": "Checked By Me",
+                      "selectedByDefault": false,
+                    },
+                    "status": Object {
+                      "children": Object {
+                        "applied": Object {
+                          "children": null,
+                          "name": "Applied",
+                          "selectedByDefault": true,
+                        },
+                        "approved": Object {
+                          "children": null,
+                          "name": "Approved",
+                          "selectedByDefault": true,
+                        },
+                        "cancelled": Object {
+                          "children": null,
+                          "name": "Cancelled",
+                          "selectedByDefault": true,
+                        },
+                        "expired": Object {
+                          "children": null,
+                          "name": "Expired",
+                          "selectedByDefault": true,
+                        },
+                        "pending": Object {
+                          "children": null,
+                          "name": "Pending",
+                          "selectedByDefault": true,
+                        },
+                        "rejected": Object {
+                          "children": null,
+                          "name": "Rejected",
+                          "selectedByDefault": true,
+                        },
+                        "scheduled": Object {
+                          "children": null,
+                          "name": "Scheduled",
+                          "selectedByDefault": true,
+                        },
+                        "test-failed": Object {
+                          "children": null,
+                          "name": "Test Failed",
+                          "selectedByDefault": true,
+                        },
+                        "testing": Object {
+                          "children": null,
+                          "name": "Testing",
+                          "selectedByDefault": true,
+                        },
+                      },
+                      "name": "Status",
+                    },
+                  },
+                  "name": "Event Manager",
+                  "selectedByDefault": true,
+                },
+              },
+              "events": Array [
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "approved",
+                  "title": "test",
+                  "type": "eventManager",
+                },
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "pending",
+                  "title": "test 2",
+                  "type": "eventManager",
+                },
+              ],
+              "loading": Object {
+                "error": null,
+                "isLoading": false,
+              },
+              "modifyEvent": [MockFunction],
+              "type": "eventManager",
+              "wrapper": [MockFunction],
+            },
+          ],
+          "onFetchEvents": [MockFunction],
+          "setCalendarSettings": [MockFunction],
+          "setExpandedStyle": [Function],
+        }
+      }
+      defaultColDef={
+        Object {
+          "filter": true,
+          "sortable": true,
+        }
+      }
+      domLayout="autoHeight"
+      getDataPath={[Function]}
+      groupDefaultExpanded={0}
+      headerHeight={0}
+      onGridReady={[Function]}
+      rowClass="calendarEventStatus"
+      rowHeight={35}
+      rowSelection="multiple"
+      sideBar={false}
+      suppressRowClickSelection={true}
+      treeData={true}
+    />
+  </div>
+  <TagFilters
+    classes={Object {}}
+    setCalendarSettings={[MockFunction]}
+  />
+</div>
+`;
+
+exports[`FiltersTable renders default FiltersTable with no choices selected 1`] = `
+<div
+  className="sidebarFilters"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "disableUnderline": true,
+        "endAdornment": "",
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <WithStyles(ForwardRef(Icon))>
+            search
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    className="search"
+    onChange={[Function]}
+    placeholder="Search filter options"
+    value=""
+  />
+  <WithStyles(ForwardRef(Divider))
+    className="divider"
+    variant="middle"
+  />
+  <div
+    className="calendarOptionsSources calendarOptionsExpanded ag-theme-material"
+  >
+    <AgGridReact
+      animateRows={true}
+      autoGroupColumnDef={
+        Object {
+          "cellRenderer": "filtersTableCell",
+          "field": "filterType",
+          "lockPosition": true,
+          "width": 275,
+        }
+      }
+      columnDefs={
+        Array [
+          Object {
+            "field": "filterPath",
+            "hide": true,
+          },
+        ]
+      }
+      components={
+        Object {
+          "filtersTableCell": [Function],
+        }
+      }
+      context={
+        Object {
+          "classes": Object {},
+          "eventGroups": Array [
+            Object {
+              "EventDetails": [Function],
+              "GroupLink": [Function],
+              "classes": Object {
+                "applied": "applied-style",
+                "approved": "approved-style",
+                "cancelled": "cancelled-style",
+                "expired": "expired-style",
+                "pending": "pending-style",
+                "rejected": "rejected-style",
+                "scheduled": "scheduled-style",
+                "test-failed": "test-failed-style",
+                "testing": "testing-style",
+              },
+              "customEventStyles": [Function],
+              "eventDragDrop": [MockFunction],
+              "eventTypes": Object {
+                "eventManager": Object {
+                  "children": Object {
+                    "checkedByMe": Object {
+                      "children": null,
+                      "name": "Checked By Me",
+                      "selectedByDefault": false,
+                    },
+                    "status": Object {
+                      "children": Object {
+                        "applied": Object {
+                          "children": null,
+                          "name": "Applied",
+                          "selectedByDefault": true,
+                        },
+                        "approved": Object {
+                          "children": null,
+                          "name": "Approved",
+                          "selectedByDefault": true,
+                        },
+                        "cancelled": Object {
+                          "children": null,
+                          "name": "Cancelled",
+                          "selectedByDefault": true,
+                        },
+                        "expired": Object {
+                          "children": null,
+                          "name": "Expired",
+                          "selectedByDefault": true,
+                        },
+                        "pending": Object {
+                          "children": null,
+                          "name": "Pending",
+                          "selectedByDefault": true,
+                        },
+                        "rejected": Object {
+                          "children": null,
+                          "name": "Rejected",
+                          "selectedByDefault": true,
+                        },
+                        "scheduled": Object {
+                          "children": null,
+                          "name": "Scheduled",
+                          "selectedByDefault": true,
+                        },
+                        "test-failed": Object {
+                          "children": null,
+                          "name": "Test Failed",
+                          "selectedByDefault": true,
+                        },
+                        "testing": Object {
+                          "children": null,
+                          "name": "Testing",
+                          "selectedByDefault": true,
+                        },
+                      },
+                      "name": "Status",
+                    },
+                  },
+                  "name": "Event Manager",
+                  "selectedByDefault": true,
+                },
+              },
+              "events": Array [
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "approved",
+                  "title": "test",
+                  "type": "eventManager",
+                },
+                Object {
+                  "allDay": false,
+                  "end": 1555460772,
+                  "id": 1,
+                  "publish_at": 1555460772,
+                  "start": 1555460772,
+                  "status": "pending",
+                  "title": "test 2",
+                  "type": "eventManager",
+                },
+              ],
+              "loading": Object {
+                "error": null,
+                "isLoading": false,
+              },
+              "modifyEvent": [MockFunction],
+              "type": "eventManager",
+              "wrapper": [MockFunction],
+            },
+          ],
+          "onFetchEvents": [MockFunction],
+          "setCalendarSettings": [MockFunction],
+          "setExpandedStyle": [Function],
+        }
+      }
+      defaultColDef={
+        Object {
+          "filter": true,
+          "sortable": true,
+        }
+      }
+      domLayout="autoHeight"
+      getDataPath={[Function]}
+      groupDefaultExpanded={0}
+      headerHeight={0}
+      onGridReady={[Function]}
+      rowClass="calendarEventStatus"
+      rowHeight={35}
+      rowSelection="multiple"
+      sideBar={false}
+      suppressRowClickSelection={true}
+      treeData={true}
+    />
+  </div>
+  <TagFilters
+    classes={Object {}}
+    setCalendarSettings={[MockFunction]}
+  />
+</div>
+`;

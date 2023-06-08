@@ -1,0 +1,107 @@
+.usersContainer {
+  height: 90vh;
+  margin: 0 auto;
+  overflow: auto;
+  display: flex;
+}
+
+.image {
+  width: 70%;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.section {
+  margin-top: 50px;
+}
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+.toc {
+  height: calc(100vh - 70px);
+  position: absolute;
+  width: 390px;
+  z-index: 1;
+  left: 0;
+  overflow: auto;
+  padding-top: 20px;
+  border-right: 1px solid #eee;
+}
+.content {
+  padding: 25px;
+  position: absolute;
+  right: 0px;
+  width: calc(100% - 390px);
+  overflow: auto;
+  height: calc(100vh - 70px);
+  scroll-behavior: smooth;
+}
+
+.heading {
+}
+
+.heading:first-child {
+  margin-top: 30px;
+}
+
+.toc > ul {
+  padding-left: 20px;
+  list-style: none;
+}
+
+.pre {
+  background: #f6f8fa;
+  padding: 5px 5px;
+  width: 70%;
+}
+
+.code {
+  background: #f6f8fa;
+  padding: 2px 2px;
+}
+
+a {
+  color: black;
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.innerContent {
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.innerContent:last-child {
+  border: none;
+}
+
+.innerList {
+  list-style: none;
+}
+
+.headerList {
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}

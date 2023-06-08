@@ -1,0 +1,9 @@
+.table {
+  height: calc(100% - 130px);
+  width: 100%;
+}
+
+.search {
+  max-width: 250px;
+  margin-left: 10px;
+}

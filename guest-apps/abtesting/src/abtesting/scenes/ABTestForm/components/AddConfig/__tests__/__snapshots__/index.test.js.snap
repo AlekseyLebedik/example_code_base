@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting component AddConfig renders component 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(IconButton))
+    className="button"
+    disabled={true}
+  >
+    <WithStyles(ForwardRef(Icon))>
+      list
+    </WithStyles(ForwardRef(Icon))>
+  </WithStyles(ForwardRef(IconButton))>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Add Config"
+  >
+    <div>
+      <WithStyles(ForwardRef(IconButton))
+        className="button"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(Icon))>
+          playlist_add
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </div>
+  </WithStyles(ForwardRef(Tooltip))>
+  <Connect(ConfigForm)
+    formName="abtesting__config-form-undefined"
+    onAdd={[MockFunction]}
+  />
+</Fragment>
+`;

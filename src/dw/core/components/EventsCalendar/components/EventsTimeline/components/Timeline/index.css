@@ -1,0 +1,29 @@
+@import '~react-calendar-timeline/lib/Timeline.css';
+
+.react-calendar-timeline {
+  background-color: #f5f5f5;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.rct-dateHeader.rct-dateHeader-primary span {
+  position: sticky;
+  left: 10px;
+  right: 10px;
+}
+
+.react-calendar-timeline .rct-outer {
+  background-color: white;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+}
+
+.rct-sidebar-row-odd,
+.rct-hl-odd {
+  background-color: transparent !important;
+}
+
+.rct-day-6,
+.rct-day-0 {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}

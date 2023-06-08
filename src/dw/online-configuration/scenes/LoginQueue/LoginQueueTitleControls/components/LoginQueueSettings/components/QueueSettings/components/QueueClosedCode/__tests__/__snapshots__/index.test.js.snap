@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueSettings - Queue display queue closed code 1`] = `
+<div
+  className="loginQueueFormItem"
+  key="ClosedCode"
+>
+  <WithStyles(ForwardRef(InputLabel))
+    className="loginQueueFormLabelWithTooltip"
+    id="queueClosedCodeLabel"
+  >
+    Queue Closed Code
+    <WithStyles(ForwardRef(Tooltip))
+      placement="bottom-end"
+      title="When the queue is closed, this code will be returned to the client"
+    >
+      <WithStyles(ForwardRef(Icon))
+        className="helpIcon"
+      >
+        help_outline
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(Tooltip))>
+  </WithStyles(ForwardRef(InputLabel))>
+  <WithStyles(WithStyles(ForwardRef(TextField)))
+    InputProps={
+      Object {
+        "inputComponent": [Function],
+        "inputProps": Object {
+          "thousandSeparator": false,
+        },
+      }
+    }
+    className="loginQueueFormInput"
+    disabled={true}
+    error={true}
+    helperText=""
+    key="queueClosedCode"
+    name="queueClosedCode"
+    onChange={[Function]}
+    value={8911}
+  />
+</div>
+`;

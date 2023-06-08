@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Clans - ClansMemberTable cellRenderers ActionsRenderer renders action column with add action for pinned rows 1`] = `
+<WithStyles(WrappedIcon)
+  color="primary"
+  disabled={false}
+  icon="add"
+  onClick={[Function]}
+  tooltip="Add Clan Member"
+/>
+`;
+
+exports[`Clans - ClansMemberTable cellRenderers ActionsRenderer renders action column with edit and delete actions 1`] = `
+<div>
+  <WithStyles(WrappedIcon)
+    color="primary"
+    icon="edit"
+    onClick={[Function]}
+    tooltip="Edit Clan Member"
+  />
+  <WithStyles(WrappedIcon)
+    color="secondary"
+    icon="delete"
+    onClick={[Function]}
+    tooltip="Remove Clan Member"
+  />
+</div>
+`;
+
+exports[`Clans - ClansMemberTable cellRenderers PinnedRowPlayerRenderer renders player uno selector 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "accountsServiceConfigId": 19,
+    }
+  }
+>
+  <PinnedRowPlayerRenderer
+    colDef={
+      Object {
+        "classes": Object {},
+        "setPinnedRow": [MockFunction],
+      }
+    }
+    value={
+      Object {
+        "accountType": "uno",
+        "userID": "5151811586893775373",
+        "username": "test-owner",
+      }
+    }
+  />
+</ContextProvider>
+`;
+
+exports[`Clans - ClansMemberTable cellRenderers PinnedRowRoleRenderer renders role select 1`] = `
+<span>
+  <WithStyles(ForwardRef(Select))
+    fullWidth={true}
+    name="role"
+    onChange={[Function]}
+    value="OWNER"
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      disabled={false}
+      key="NORMAL"
+      value="NORMAL"
+    >
+      NORMAL
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      disabled={false}
+      key="ADMIN"
+      value="ADMIN"
+    >
+      ADMIN
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      disabled={false}
+      key="SUPERADMIN"
+      value="SUPERADMIN"
+    >
+      SUPERADMIN
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      disabled={false}
+      key="OWNER"
+      value="OWNER"
+    >
+      OWNER
+    </WithStyles(ForwardRef(MenuItem))>
+  </WithStyles(ForwardRef(Select))>
+</span>
+`;
+
+exports[`Clans - ClansMemberTable cellRenderers PlayerCellRenderer renders player view link 1`] = `
+<PlayerViewLink
+  accountsServiceConfigId="12"
+  text="test-owner | 5151811586893775373"
+  user={
+    Object {
+      "accountType": "uno",
+      "userID": "5151811586893775373",
+      "username": "test-owner",
+    }
+  }
+/>
+`;

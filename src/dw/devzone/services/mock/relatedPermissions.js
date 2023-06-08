@@ -1,0 +1,70 @@
+const relatedPermissions = {
+  data: {
+    nextPageToken: null,
+    data: [
+      {
+        objectPK: 2,
+        contentTypeId: 12,
+        userId: 2,
+        userEmail: 'abc@demonware.net',
+        companyId: null,
+        companyName: null,
+        companyGroupId: null,
+        companyGroupName: null,
+      },
+      {
+        objectPK: 2,
+        contentTypeId: 12,
+        userId: 3,
+        userEmail: 'def@demonware.net',
+        companyId: null,
+        companyName: null,
+        companyGroupId: null,
+        companyGroupName: null,
+      },
+      {
+        objectPK: 2,
+        contentTypeId: 11,
+        userId: null,
+        userEmail: null,
+        companyId: 1,
+        companyName: 'Raven',
+        companyGroupId: null,
+        companyGroupName: null,
+      },
+      {
+        objectPK: 2,
+        contentTypeId: 11,
+        userId: null,
+        userEmail: null,
+        companyId: 2,
+        companyName: 'Infinity Ward',
+        companyGroupId: null,
+        companyGroupName: null,
+      },
+      {
+        objectPK: 2,
+        contentTypeId: 11,
+        userId: null,
+        userEmail: null,
+        companyId: 3,
+        companyName: 'Treyarch',
+        companyGroupId: null,
+        companyGroupName: null,
+      },
+      {
+        objectPK: 2,
+        contentTypeId: 10,
+        userId: null,
+        userEmail: null,
+        companyId: null,
+        companyName: null,
+        companyGroupId: 1,
+        companyGroupName: 'Raven - QA',
+      },
+    ],
+  },
+};
+
+export const getRelatedPermissions = () =>
+  new Promise(resolve => setTimeout(() => resolve(relatedPermissions), 1));

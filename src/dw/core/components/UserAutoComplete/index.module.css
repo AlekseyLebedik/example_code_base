@@ -1,0 +1,12 @@
+.userAutocompleteLabelContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userAutocompleteLabelContainerLabel {
+  width: 90%;
+  overflow: hidden;
+}

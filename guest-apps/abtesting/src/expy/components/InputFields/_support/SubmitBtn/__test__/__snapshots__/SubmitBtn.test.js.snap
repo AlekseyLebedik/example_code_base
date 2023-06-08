@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expy - Test Graduation - SubmitBtn renders snapshot 1`] = `
+<button
+  className="makeStyles-button-1"
+  disabled={false}
+  onClick={[Function]}
+  type="submit"
+>
+  Cancel
+</button>
+`;

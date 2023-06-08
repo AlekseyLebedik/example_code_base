@@ -1,0 +1,72 @@
+.form {
+  margin: 25px;
+}
+
+.formWidth {
+  width: 500px;
+}
+.topOfOrder {
+  order: 1;
+}
+
+.defaultOrder {
+  order: 2;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.listSubheader {
+  background-color: #fff;
+}
+.fieldTemplateColumn {
+  width: 500px;
+  padding: 0 16px;
+}
+.nested {
+  padding-left: 10%;
+}
+
+.widget,
+.baseInput {
+  text-align: center;
+}
+
+.widget {
+  width: 50%;
+}
+
+.expandAll {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 2% 3% 5%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.affiliatedProjectsControl {
+  width: 100%;
+}
+
+.removeButton {
+  opacity: 0.4;
+  margin-top: -5px;
+  font-size: 19px;
+}
+
+.removeButton:hover {
+  opacity: 0.8;
+}
+
+.listItemContainer {
+  list-style-type: none;
+  min-height: 32px;
+}
+
+.disabled {
+  color: rgba(0, 0, 0, 0.35);
+}

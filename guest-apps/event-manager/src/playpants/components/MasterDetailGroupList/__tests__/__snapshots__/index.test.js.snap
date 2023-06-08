@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupList SearchableList should always render 1`] = `
+<SearchableList
+  actions={Array []}
+  applySelectConditionFunc={[Function]}
+  getItemKey={null}
+  infiniteScroll={false}
+  initialLoading={false}
+  initialValue=""
+  items={
+    Array [
+      Object {
+        "description": "",
+        "id": 1,
+        "name": "GTR Group 1",
+        "project": 1,
+      },
+      Object {
+        "description": "",
+        "id": 6,
+        "name": "asdf",
+        "project": 1,
+      },
+      Object {
+        "description": "asdf",
+        "id": 2,
+        "name": "GTR Group",
+        "project": 1,
+      },
+      Object {
+        "description": "",
+        "id": 3,
+        "name": "New Group",
+        "project": 1,
+      },
+      Object {
+        "description": "",
+        "id": 5,
+        "name": "sanghawk group test",
+        "project": 1,
+      },
+      Object {
+        "description": "",
+        "id": 7,
+        "name": "sanghawk group testsdfgsdf",
+        "project": 1,
+      },
+    ]
+  }
+  loadingMaster={false}
+  loadingTimeout={0}
+  onSearch={[MockFunction]}
+  onShowMore={[Function]}
+  placeholder="Group Name"
+  searchEnabled={true}
+  showMore={true}
+  toRenderFunc={[Function]}
+/>
+`;
+
+exports[`GroupList renders default properly 1`] = `
+<div
+  className="flex flex-col h-full"
+>
+  <WithStyles(SectionTitle)
+    color="default"
+    shown={6}
+    title="Available Groups"
+  >
+    <Connect(ModalForm)
+      FormComponent={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "destroyOnUnmount": true,
+              "enableReinitialize": true,
+              "forceUnregisterOnUnmount": false,
+              "form": "CreateGroupForm",
+              "getFormState": [Function],
+              "keepDirtyOnReinitialize": false,
+              "persistentSubmitErrors": false,
+              "pure": true,
+              "shouldAsyncValidate": [Function],
+              "shouldError": [Function],
+              "shouldValidate": [Function],
+              "shouldWarn": [Function],
+              "submitAsSideEffect": false,
+              "touchOnBlur": true,
+              "touchOnChange": false,
+              "updateUnregisteredFields": false,
+            },
+            "displayName": "ReduxForm",
+            "render": [Function],
+          },
+          "compare": null,
+          "displayName": "Connect(ReduxForm)",
+          "type": [Function],
+        }
+      }
+      cancelOnBackdropClick={true}
+      formName="CreateGroupForm"
+      fullWidth={true}
+      loading={false}
+      maxWidth="md"
+      onCancel={[MockFunction]}
+      onFormSubmit={[MockFunction]}
+      onRemoteSubmit={[MockFunction]}
+      pristine={true}
+      visible={false}
+    />
+  </WithStyles(SectionTitle)>
+  <SearchableList
+    actions={Array []}
+    applySelectConditionFunc={[Function]}
+    getItemKey={null}
+    infiniteScroll={false}
+    initialLoading={false}
+    initialValue=""
+    items={
+      Array [
+        Object {
+          "description": "",
+          "id": 1,
+          "name": "GTR Group 1",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 6,
+          "name": "asdf",
+          "project": 1,
+        },
+        Object {
+          "description": "asdf",
+          "id": 2,
+          "name": "GTR Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 3,
+          "name": "New Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 5,
+          "name": "sanghawk group test",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 7,
+          "name": "sanghawk group testsdfgsdf",
+          "project": 1,
+        },
+      ]
+    }
+    loadingMaster={false}
+    loadingTimeout={0}
+    onSearch={[MockFunction]}
+    onShowMore={[Function]}
+    placeholder="Group Name"
+    searchEnabled={true}
+    showMore={true}
+    toRenderFunc={[Function]}
+  />
+</div>
+`;

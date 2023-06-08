@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTitleComponent renders default 1`] = `
+<form
+  id="ThunderpantsParamsForm"
+  onSubmit={[Function]}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={4}
+    >
+      <TargetCheckboxes
+        formState={Object {}}
+        setFormState={[MockFunction]}
+        targets={Array []}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={8}
+    >
+      <Connect(BuildSummaryComponent)
+        summaryData={Object {}}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;

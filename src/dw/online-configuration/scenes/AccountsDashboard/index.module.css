@@ -1,0 +1,144 @@
+.accountsDashboardContainer {
+  margin: 10px 24px;
+  overflow: auto;
+}
+
+.accountsDashboardHeader {
+  margin-bottom: 12px;
+}
+
+.accountsDashboardTablesContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.ccpaPrivacyContainer {
+  display: flex;
+  flex-direction: row;
+  width: 990px;
+}
+
+.privacyTablesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.deletesExportsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 6px;
+}
+
+.loadingAccountsDashboard {
+  padding-top: 150px;
+  width: 100%;
+}
+
+.unoActivisionaccounts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.unoActivisionTotalAccounts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.totalAccountsOverrideStyle {
+  width: 500px;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.035);
+  padding: 8px 0px 0px;
+  height: min-content;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.unoActivisionaccountspercountryandage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lifetimeUnique {
+  margin-bottom: 6px;
+}
+
+.ccpaUniquetotalsTotalinteractions {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.accountsDashboarddate {
+}
+
+.lifetimeUniqueTableStyle {
+  width: 242px !important;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.035);
+  padding: 8px 0px 5px;
+  height: min-content;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.interactionsByTitleTableStyle {
+  width: 258px;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.035);
+  height: min-content;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+.emailsregisteredLinked {
+  margin-left: auto;
+}
+
+.ccpaTablesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.totalsContainer {
+  width: 456px;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.035);
+  padding: 8px 0px 21px 0px;
+  height: min-content;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.rtbfContainer {
+  width: 220px;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.035);
+  margin-right: 16px;
+  padding: 8px 0px 13px;
+  height: min-content;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.dprSarContainer {
+  width: 220px;
+  color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.035);
+  padding: 8px 0px 13px;
+  height: min-content;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}

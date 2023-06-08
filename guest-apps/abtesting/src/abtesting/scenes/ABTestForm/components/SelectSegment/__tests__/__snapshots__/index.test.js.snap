@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting component SelectSegmentComponent renders component with list of segments 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="end"
+        >
+          <WithStyles(ForwardRef(Tooltip))
+            placement="bottom"
+            title="Select Segment"
+          >
+            <WithStyles(ForwardRef(IconButton))>
+              <WithStyles(ForwardRef(Icon))>
+                list
+              </WithStyles(ForwardRef(Icon))>
+            </WithStyles(ForwardRef(IconButton))>
+          </WithStyles(ForwardRef(Tooltip))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    className="segmentInput"
+    disabled={false}
+    error={false}
+    helperText={false}
+    label="Select a segment"
+    onClick={[Function]}
+    value=""
+  />
+  <Connect(SelectSegmentModal)
+    modalName="SEGMENT-cohorts[0].segmentID"
+    onAdd={[Function]}
+    onClose={[Function]}
+    segmentsList={
+      Array [
+        Object {
+          "context": "5682",
+          "name": "testseg5682",
+          "segmentID": "5210984693501455903",
+        },
+        Object {
+          "context": "5683",
+          "name": "testseg5683",
+          "segmentID": "3458984693501455936",
+        },
+      ]
+    }
+    selectedContext="1:cert"
+  />
+</Fragment>
+`;
+
+exports[`ABTesting component SelectSegmentComponent renders empty component 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "endAdornment": undefined,
+      }
+    }
+    className="segmentInput"
+    disabled={true}
+    error={false}
+    helperText={false}
+    label="Select a segment"
+    onClick={[Function]}
+    value=""
+  />
+</Fragment>
+`;

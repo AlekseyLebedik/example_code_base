@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuildSummary renders default 1`] = `
+<div
+  className="table ag-theme-material"
+>
+  <AgGridReact
+    columnDefs={
+      Array [
+        Object {
+          "autoHeight": true,
+          "field": "key",
+        },
+        Object {
+          "autoHeight": true,
+          "cellStyle": Object {
+            "white-space": "normal",
+            "word-break": "break-all",
+          },
+          "field": "value",
+        },
+      ]
+    }
+    defaultColDef={
+      Object {
+        "resizable": true,
+      }
+    }
+    onColumnResized={[Function]}
+    onGridReady={[Function]}
+    onGridSizeChanged={[Function]}
+    rowData={
+      Array [
+        Object {
+          "key": "Source",
+          "value": "iw8-rebuildds",
+        },
+        Object {
+          "key": "Folder",
+          "value": "autobuild:submission_7431811_sub_tu13_ccs_2",
+        },
+        Object {
+          "key": "Version",
+          "value": "7431811@1302",
+        },
+        Object {
+          "key": "OS",
+          "value": "linux",
+        },
+        Object {
+          "key": "Flavor",
+          "value": "test",
+        },
+        Object {
+          "key": "DW-Flavor",
+          "value": "vanilla",
+        },
+        Object {
+          "key": "Timestamp",
+          "value": 1581459817,
+        },
+      ]
+    }
+    suppressCellFocus={true}
+    suppressRowSelection={true}
+  />
+</div>
+`;

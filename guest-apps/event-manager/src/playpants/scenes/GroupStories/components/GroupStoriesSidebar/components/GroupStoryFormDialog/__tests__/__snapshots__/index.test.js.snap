@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupStoryFormDialog renders default properly 1`] = `
+<Connect(ModalForm)
+  FormComponent={[Function]}
+  OpenModalComponent={[Function]}
+  formName=""
+  initialValues={Object {}}
+  maxWidth="sm"
+  onCancel={[Function]}
+  title=""
+/>
+`;

@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting Design - Metrics renders design metrics snapshot 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "palette": Object {
+        "grey": Object {
+          "300": "#000",
+        },
+        "statuses": Object {
+          "done": Object {
+            "main": "#000",
+          },
+          "live": Object {
+            "main": "#000",
+          },
+          "proposal": Object {
+            "main": "#000",
+          },
+        },
+      },
+      "spacing": [Function],
+      Symbol(mui.nested): false,
+    }
+  }
+>
+  <Metrics>
+    <div
+      className="makeStyles-wrapper-1"
+    >
+      <Metric
+        amount={0}
+        className="makeStyles-metric-2"
+        heading="Live Tests"
+        type="live"
+      >
+        <div
+          className="makeStyles-container-6 makeStyles-metric-2"
+        >
+          <div
+            className="makeStyles-dot-7 makeStyles-live-10"
+          />
+          <div
+            className="makeStyles-number-8"
+          >
+            0
+          </div>
+          <div>
+            <p
+              className="makeStyles-heading-9"
+            >
+              Live Tests
+            </p>
+            <span
+              className="makeStyles-badge-3"
+            >
+              Current
+            </span>
+          </div>
+        </div>
+      </Metric>
+      <Metric
+        amount={0}
+        className="makeStyles-metric-2"
+        heading="Proposals"
+        type="proposal"
+      >
+        <div
+          className="makeStyles-container-6 makeStyles-metric-2"
+        >
+          <div
+            className="makeStyles-dot-7 makeStyles-proposal-11"
+          />
+          <div
+            className="makeStyles-number-8"
+          >
+            0
+          </div>
+          <div>
+            <p
+              className="makeStyles-heading-9"
+            >
+              Proposals
+            </p>
+            <span
+              className="makeStyles-badge-3"
+            >
+              Current
+            </span>
+          </div>
+        </div>
+      </Metric>
+      <Metric
+        amount={0}
+        className="makeStyles-metric-2"
+        heading="Done Tests"
+        type="done"
+      >
+        <div
+          className="makeStyles-container-6 makeStyles-metric-2"
+        >
+          <div
+            className="makeStyles-dot-7 makeStyles-done-12"
+          />
+          <div
+            className="makeStyles-number-8"
+          >
+            0
+          </div>
+          <div>
+            <p
+              className="makeStyles-heading-9"
+            >
+              Done Tests
+            </p>
+            <button
+              className="makeStyles-badge-3 makeStyles-badgeClickable-4"
+              onClick={[Function]}
+              type="button"
+            >
+              2022
+            </button>
+            <button
+              className="makeStyles-badge-3 makeStyles-badgeClickable-4 makeStyles-badgeInActive-5"
+              onClick={[Function]}
+              type="button"
+            >
+              2021
+            </button>
+          </div>
+        </div>
+      </Metric>
+    </div>
+  </Metrics>
+</ThemeProvider>
+`;

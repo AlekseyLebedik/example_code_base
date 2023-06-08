@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleSearchSelectorPresentational renders testTitles 1`] = `
+<ReduxFormSelect
+  InputProps={
+    Object {
+      "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+        position="end"
+      >
+        <WithStyles(ForwardRef(Tooltip))
+          title="Clear Selection"
+        >
+          <WithStyles(ForwardRef(IconButton))
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(Icon))>
+              clear
+            </WithStyles(ForwardRef(Icon))>
+          </WithStyles(ForwardRef(IconButton))>
+        </WithStyles(ForwardRef(Tooltip))>
+      </WithStyles(ForwardRef(InputAdornment))>,
+    }
+  }
+  className="selectTitle"
+  helperText={null}
+  input={Object {}}
+  label="Filter by Title"
+  meta={Object {}}
+  onChange={[Function]}
+  value="123"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    key="bar"
+    value="bar"
+  >
+    bar
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="foo"
+    value="foo"
+  >
+    foo
+  </WithStyles(ForwardRef(MenuItem))>
+</ReduxFormSelect>
+`;

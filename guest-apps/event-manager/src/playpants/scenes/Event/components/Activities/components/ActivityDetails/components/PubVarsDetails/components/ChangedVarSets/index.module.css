@@ -1,0 +1,11 @@
+.varSetsContent {
+  padding: 16px;
+  padding-bottom: 0;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.gridContent {
+  composes: ag-theme-material from global;
+  height: 100%;
+}

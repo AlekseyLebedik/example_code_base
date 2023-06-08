@@ -1,0 +1,8 @@
+.content {
+  overflow: auto;
+  min-width: 100%;
+}
+
+.emptyGrid {
+  height: 80vh;
+}

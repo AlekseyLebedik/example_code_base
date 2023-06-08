@@ -1,0 +1,1 @@
+export const NUMBER_FRANCHISES_IN_PLACEHOLDER = 3;

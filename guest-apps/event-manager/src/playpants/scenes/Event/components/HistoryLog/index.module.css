@@ -1,0 +1,26 @@
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  height: inherit;
+  overflow-y: scroll;
+  padding-bottom: 5%;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background-color: #f5f5f5;
+  top: 0;
+  height: inherit;
+  left: 25px;
+}
+
+/* Header with column names */
+.headerGrid {
+  font-weight: bold;
+  padding-top: 10px;
+  position: relative;
+  z-index: 1;
+  background: white;
+}

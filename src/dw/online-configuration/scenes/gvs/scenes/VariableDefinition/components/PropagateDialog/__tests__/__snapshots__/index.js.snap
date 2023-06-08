@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropagateDialog renders 1`] = `
+<DialogComponent
+  actions={
+    Array [
+      <WithStyles(ForwardRef(Button))
+        disabled={false}
+        onClick={[MockFunction]}
+      >
+        Cancel
+      </WithStyles(ForwardRef(Button))>,
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        disabled={true}
+        onClick={[Function]}
+      >
+        Confirm Propagation
+      </WithStyles(ForwardRef(Button))>,
+    ]
+  }
+  cancelOnBackdropClick={false}
+  classes={Object {}}
+  contentStyle={Object {}}
+  fullWidth={true}
+  maxWidth="sm"
+  modal={true}
+  onRequestClose={[MockFunction]}
+  open={true}
+  title={null}
+>
+  <div
+    className="makeStyles-title-1"
+  >
+    Propagate to
+    <GVSTitleEnvSelect
+      className="makeStyles-env-4"
+      excludeCurrent={true}
+      includeGameBuild={false}
+      requiredPermission="gvs_edit_definitions"
+      setTargetScopeURI={[Function]}
+      targetScopeURI=""
+    />
+  </div>
+</DialogComponent>
+`;

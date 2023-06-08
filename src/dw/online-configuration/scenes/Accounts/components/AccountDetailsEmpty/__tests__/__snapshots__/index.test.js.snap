@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountDetailsEmpty renders without crashing 1`] = `
+<div
+  className="details-empty__container account"
+>
+  <EmptyComponent
+    className="empty details-empty__text account"
+    classes={Object {}}
+    emptyText="No data to display"
+  >
+    Select an Account to see more details
+  </EmptyComponent>
+</div>
+`;

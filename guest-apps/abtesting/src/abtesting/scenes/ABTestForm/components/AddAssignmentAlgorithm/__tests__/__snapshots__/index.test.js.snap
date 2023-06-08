@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting component AddAssignmentAlgorithm renders component 1`] = `
+<div
+  className="hash"
+  hidden={false}
+>
+  <div>
+    <Field
+      component={[Function]}
+      disabled={false}
+      fullWidth={true}
+      label="Algorithm"
+      name="assignmentAlgorithm"
+    >
+      <WithStyles(ForwardRef(MenuItem))
+        key="sha256"
+        value="sha256"
+      >
+        sha256
+         
+      </WithStyles(ForwardRef(MenuItem))>
+      <WithStyles(ForwardRef(MenuItem))
+        key="sha512"
+        value="sha512"
+      >
+        sha512
+         
+      </WithStyles(ForwardRef(MenuItem))>
+    </Field>
+  </div>
+  <div>
+    <Field
+      component={[Function]}
+      disabled={false}
+      fullWidth={true}
+      label="Seed - Auto-generated if not specified"
+      name="assignmentSeed"
+    />
+  </div>
+</div>
+`;

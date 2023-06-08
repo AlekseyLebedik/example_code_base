@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConflictsBase renders correctly 1`] = `
+<WithWidth(WithStyles(withRouter(MasterDetailBase)))
+  baseUrl="/event-manager/3/events/2/activities"
+  classes={
+    Object {
+      "contentShift": undefined,
+      "drawer": undefined,
+      "drawerPaper": undefined,
+      "expander": undefined,
+    }
+  }
+  detail={[Function]}
+  empty={[Function]}
+  master={[Function]}
+/>
+`;

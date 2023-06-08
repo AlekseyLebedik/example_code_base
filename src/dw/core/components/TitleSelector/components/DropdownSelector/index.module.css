@@ -1,0 +1,34 @@
+.dropdownSelector {
+  cursor: pointer;
+
+  align-items: center;
+  user-select: none;
+  border-bottom: solid 1px #ffffff;
+  height: 75%;
+  opacity: 0.84;
+}
+
+.dropdownSelector:hover {
+  opacity: 1;
+}
+
+.title_details {
+  white-space: nowrap;
+}
+
+.title_details {
+  margin-right: 32px;
+}
+
+.env {
+  text-transform: uppercase;
+  margin-left: 12px;
+}
+
+@media (max-width: 768px) {
+  .dropdownSelector {
+  }
+
+  .dropdownSelectorLegacy {
+  }
+}

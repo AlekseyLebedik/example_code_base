@@ -1,0 +1,245 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventsCalendar Reducer SET_EVENTS_CALENDAR_SETTINGS updates the passed calendarSettings 1`] = `
+Object {
+  "calendarSettingsVersion": 1,
+  "customViewOn": false,
+  "datePickerProps": null,
+  "displayView": "calendar",
+  "envTypeFilters": Object {
+    "Certification": true,
+    "Development": true,
+    "Live": true,
+  },
+  "eventTimeOffset": 0,
+  "filters": Object {
+    "customTags": Object {
+      "unspecified": true,
+      "userTags": Object {
+        "0": Object {
+          "checked": true,
+          "tags": Array [
+            "PS4",
+            "XBOX",
+          ],
+        },
+        "1": Object {
+          "checked": true,
+          "tags": Array [
+            "COD",
+            "BO4",
+          ],
+        },
+      },
+    },
+    "environments": Object {
+      "Certification": true,
+      "Cross Environment": true,
+      "Development": true,
+      "Live": true,
+    },
+    "gamertags": Object {},
+    "platforms": Object {
+      "CROSSPLAY": true,
+      "PC": true,
+      "PS4": true,
+      "SWITCH": true,
+      "Unspecified": true,
+      "XB1": true,
+    },
+    "projects": Object {
+      "Call of Duty: Modern Warfare 2": true,
+      "Cross Project": true,
+      "GTR Project": true,
+      "Permissions: Test 1": true,
+    },
+    "sources": Object {
+      "abTesting": Object {
+        "active": false,
+        "analysis": false,
+        "archived": false,
+        "config": false,
+        "killed": false,
+      },
+      "demonwareEvents": Object {
+        "criticalEvents": true,
+        "generalComments": true,
+        "incidents": true,
+        "maintenance": true,
+      },
+      "eventManager": Object {
+        "applied": false,
+        "approved": true,
+        "cancelled": false,
+        "expired": false,
+        "pending": false,
+        "rejected": false,
+        "scheduled": false,
+        "test-failed": false,
+        "testing": false,
+      },
+      "externalEvents": Object {
+        "holidays": true,
+        "pmg": Object {
+          "Other": true,
+        },
+        "sports": false,
+        "video-games": false,
+      },
+      "informationalEvents": Object {
+        "demonware": true,
+      },
+    },
+    "stories": undefined,
+  },
+  "groupLoadingStatuses": Object {
+    "abTesting": Object {
+      "error": null,
+      "isLoading": false,
+    },
+    "demonwareEvents": Object {
+      "error": null,
+      "isLoading": false,
+    },
+    "eventManager": Object {
+      "error": null,
+      "isLoading": false,
+    },
+    "externalEvents": Object {
+      "error": null,
+      "isLoading": false,
+    },
+    "informationalEvents": Object {
+      "error": null,
+      "isLoading": false,
+    },
+  },
+  "numberOfDays": 30,
+  "selectedDay": "2019-01-01T00:00:00.000Z",
+  "selectedStyle": "sources",
+  "selectedView": "day",
+  "sidebarHovering": false,
+}
+`;
+
+exports[`EventsCalendar Reducer returns default state 1`] = `
+Object {
+  "calendarSettingsVersion": 1,
+  "customViewOn": false,
+  "datePickerProps": null,
+  "displayView": "calendar",
+  "envTypeFilters": Object {
+    "Certification": true,
+    "Development": true,
+    "Live": true,
+  },
+  "eventTimeOffset": 0,
+  "filters": Object {
+    "customTags": Object {
+      "unspecified": true,
+      "userTags": Object {
+        "0": Object {
+          "checked": true,
+          "tags": Array [
+            "PS4",
+            "XBOX",
+          ],
+        },
+        "1": Object {
+          "checked": true,
+          "tags": Array [
+            "COD",
+            "BO4",
+          ],
+        },
+      },
+    },
+    "environments": Object {
+      "Certification": true,
+      "Cross Environment": true,
+      "Development": true,
+      "Live": true,
+    },
+    "gamertags": Object {},
+    "platforms": Object {
+      "CROSSPLAY": true,
+      "PC": true,
+      "PS4": true,
+      "SWITCH": true,
+      "Unspecified": true,
+      "XB1": true,
+    },
+    "projects": Object {
+      "Call of Duty: Modern Warfare 2": true,
+      "Cross Project": true,
+      "GTR Project": true,
+      "Permissions: Test 1": true,
+    },
+    "sources": Object {
+      "abTesting": Object {
+        "active": false,
+        "analysis": false,
+        "archived": false,
+        "config": false,
+        "killed": false,
+      },
+      "demonwareEvents": Object {
+        "criticalEvents": true,
+        "generalComments": true,
+        "incidents": true,
+        "maintenance": true,
+      },
+      "eventManager": Object {
+        "applied": false,
+        "approved": true,
+        "cancelled": false,
+        "expired": false,
+        "pending": false,
+        "rejected": false,
+        "scheduled": false,
+        "test-failed": false,
+        "testing": false,
+      },
+      "externalEvents": Object {
+        "holidays": true,
+        "pmg": Object {
+          "Other": true,
+        },
+        "sports": false,
+        "video-games": false,
+      },
+      "informationalEvents": Object {
+        "demonware": true,
+      },
+    },
+    "stories": undefined,
+  },
+  "groupLoadingStatuses": Object {
+    "abTesting": Object {
+      "error": null,
+      "isLoading": false,
+    },
+    "demonwareEvents": Object {
+      "error": null,
+      "isLoading": false,
+    },
+    "eventManager": Object {
+      "error": null,
+      "isLoading": false,
+    },
+    "externalEvents": Object {
+      "error": null,
+      "isLoading": false,
+    },
+    "informationalEvents": Object {
+      "error": null,
+      "isLoading": false,
+    },
+  },
+  "numberOfDays": 30,
+  "selectedDay": "2019-01-01T00:00:00.000Z",
+  "selectedStyle": "sources",
+  "selectedView": "month",
+  "sidebarHovering": false,
+}
+`;

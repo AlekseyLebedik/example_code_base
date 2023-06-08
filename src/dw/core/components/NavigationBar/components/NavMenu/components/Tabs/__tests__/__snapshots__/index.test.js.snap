@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs renders properly 1`] = `
+<div
+  className="TabsRoot"
+>
+  <div
+    className="TabsFlexContainer"
+  >
+    whatever
+  </div>
+</div>
+`;

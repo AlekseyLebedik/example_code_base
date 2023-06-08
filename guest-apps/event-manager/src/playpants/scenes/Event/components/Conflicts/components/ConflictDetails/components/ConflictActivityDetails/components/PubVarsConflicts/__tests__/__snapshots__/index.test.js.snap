@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PubVarsConflicts renders correctly with conflict details 1`] = `
+<div
+  className="ag-theme-material"
+>
+  <AgGridReact
+    columnDefs={
+      Array [
+        Object {
+          "cellClass": [Function],
+          "field": "variable",
+          "filter": "agTextColumnFilter",
+          "isConflictingColumn": true,
+          "name": "Variable",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "value",
+          "filter": "agTextColumnFilter",
+          "headerName": "Value",
+          "isConflictingColumn": true,
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "context",
+          "filter": "agTextColumnFilter",
+          "headerName": "Context",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "groupId",
+          "filter": "agTextColumnFilter",
+          "headerName": "Group ID",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "namespace",
+          "filter": "agTextColumnFilter",
+          "headerName": "Namespace",
+        },
+      ]
+    }
+    defaultColDef={
+      Object {
+        "editable": false,
+        "filter": true,
+        "menuTabs": Array [
+          "filterMenuTab",
+        ],
+        "resizable": true,
+        "sortable": true,
+      }
+    }
+    domLayout="autoHeight"
+    onGridReady={[Function]}
+    onGridSizeChanged={[Function]}
+    overlayNoRowsTemplate="<span>There are no conflicting Publisher Variables for this activity pair</span>"
+    rowData={
+      Array [
+        Object {
+          "context": "2",
+          "groupId": "1",
+          "namespace": "test",
+          "value": "this is a test",
+          "variable": "testvariable",
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`PubVarsConflicts renders correctly with no conflict details 1`] = `
+<div
+  className="ag-theme-material"
+>
+  <AgGridReact
+    columnDefs={
+      Array [
+        Object {
+          "cellClass": [Function],
+          "field": "variable",
+          "filter": "agTextColumnFilter",
+          "isConflictingColumn": true,
+          "name": "Variable",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "value",
+          "filter": "agTextColumnFilter",
+          "headerName": "Value",
+          "isConflictingColumn": true,
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "context",
+          "filter": "agTextColumnFilter",
+          "headerName": "Context",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "groupId",
+          "filter": "agTextColumnFilter",
+          "headerName": "Group ID",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "namespace",
+          "filter": "agTextColumnFilter",
+          "headerName": "Namespace",
+        },
+      ]
+    }
+    defaultColDef={
+      Object {
+        "editable": false,
+        "filter": true,
+        "menuTabs": Array [
+          "filterMenuTab",
+        ],
+        "resizable": true,
+        "sortable": true,
+      }
+    }
+    domLayout="autoHeight"
+    onGridReady={[Function]}
+    onGridSizeChanged={[Function]}
+    overlayNoRowsTemplate="<span>There are no conflicting Publisher Variables for this activity pair</span>"
+    rowData={Array []}
+  />
+</div>
+`;

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Clans - ClanView renders default values 1`] = `
+<ClanView
+  clanData={
+    Object {
+      "bans": Array [],
+      "createdTimestamp": "1624480992",
+      "id": "937017732286401048",
+      "memberCount": 1,
+      "members": Array [
+        Object {
+          "lastUpdated": "1624480992",
+          "memberSince": "1624480992",
+          "player": Object {
+            "accountType": "uno",
+            "userID": "5151811586893775373",
+            "username": "test-member",
+          },
+          "role": "OWNER",
+        },
+      ],
+      "name": "g ergwefg",
+      "owner": Object {
+        "accountType": "uno",
+        "userID": "5151811586893775373",
+        "username": "test-owner",
+      },
+      "privacyLevel": "INVITE_ONLY",
+      "proposalCount": 0,
+      "proposals": Array [],
+      "tag": "wfe w",
+      "tags": Array [],
+    }
+  }
+  clansPermissions={
+    Object {
+      "canCreateClans": true,
+      "canDisbandClans": true,
+      "canEditClans": true,
+    }
+  }
+  refetch={[MockFunction]}
+/>
+`;

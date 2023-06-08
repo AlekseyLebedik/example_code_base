@@ -1,0 +1,9 @@
+.calendarOptions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.calendarOptions * {
+  border: 0;
+}

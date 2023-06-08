@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiScopeDiff renders 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <ExpandAll
+    defaultExpanded={true}
+    expandGroup={false}
+    key="undefined-expand"
+  />
+  <GVSGrid
+    autoSizeColumns={false}
+    columnDefs={
+      Array [
+        Object {
+          "cellRenderer": "agGroupCellRenderer",
+          "field": "scopeURI",
+          "headerName": "Scope",
+          "sort": "asc",
+          "valueFormatter": [Function],
+        },
+        Object {
+          "field": "population",
+          "valueFormatter": [Function],
+        },
+      ]
+    }
+    components={Object {}}
+    detailCellRendererParams={
+      Object {
+        "detailGridOptions": Object {
+          "columnDefs": Array [
+            Object {
+              "field": "key",
+              "flex": 1,
+              "maxWidth": 600,
+              "minWidth": 250,
+            },
+            Object {
+              "field": "platform",
+              "maxWidth": 150,
+              "valueFormatter": [Function],
+            },
+            Object {
+              "cellClass": [Function],
+              "field": "source",
+              "valueFormatter": [Function],
+            },
+            Object {
+              "cellClass": [Function],
+              "field": "target",
+              "valueFormatter": [Function],
+            },
+          ],
+          "defaultColDef": Object {
+            "wrapText": false,
+          },
+        },
+        "getDetailRowData": [Function],
+      }
+    }
+    detailRowAutoHeight={true}
+    gridOptions={
+      Object {
+        "defaultColDef": Object {
+          "autoHeight": false,
+        },
+        "getRowId": [Function],
+        "rowHeight": 40,
+      }
+    }
+    masterDetail={true}
+    onColumnVisible={[Function]}
+    onGridReady={[Function]}
+    rowData={null}
+    suppressRowClickSelection={true}
+  />
+</div>
+`;

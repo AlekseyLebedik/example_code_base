@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmActionComponent renders ConfirmActionStateless component 1`] = `
+<ConfirmActionStateless
+  closeConfirm={[Function]}
+  component="IconButton"
+  confirm={null}
+  disabled={false}
+  handleConfirm={[Function]}
+  isOpen={false}
+  onClick={[Function]}
+  tooltipProps={Object {}}
+>
+  delete
+</ConfirmActionStateless>
+`;

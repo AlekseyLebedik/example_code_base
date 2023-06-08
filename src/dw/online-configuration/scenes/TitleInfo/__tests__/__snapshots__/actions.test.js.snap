@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleInfo Actions fetchTitleInfo returns TITLE_INFO_FETCH action 1`] = `
+Object {
+  "meta": Object {
+    "arg": undefined,
+    "requestId": undefined,
+    "requestStatus": "pending",
+  },
+  "payload": undefined,
+  "type": "fetchTitleInfo/pending",
+}
+`;
+
+exports[`TitleInfo Actions fetchTitleInfoSuccess returns TITLE_INFO_FETCH_SUCCESS action 1`] = `
+Object {
+  "meta": Object {
+    "arg": undefined,
+    "requestId": undefined,
+    "requestStatus": "fulfilled",
+  },
+  "payload": undefined,
+  "type": "fetchTitleInfo/fulfilled",
+}
+`;

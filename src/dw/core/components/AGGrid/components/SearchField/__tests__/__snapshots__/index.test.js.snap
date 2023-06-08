@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SeasrchField has search icon 1`] = `
+<WithStyles(ForwardRef(InputAdornment))
+  position="start"
+>
+  <WithStyles(ForwardRef(Icon))>
+    search
+  </WithStyles(ForwardRef(Icon))>
+</WithStyles(ForwardRef(InputAdornment))>
+`;
+
+exports[`SeasrchField renders clear button when has value 1`] = `
+<WithStyles(ForwardRef(InputAdornment))
+  position="end"
+>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Clear Search"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        clear
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(Tooltip))>
+</WithStyles(ForwardRef(InputAdornment))>
+`;

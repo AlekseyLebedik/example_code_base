@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TemplatesField renders default properly 1`] = `
+<Fragment>
+  <Field
+    InputProps={
+      Object {
+        "endAdornment": false,
+      }
+    }
+    component={[Function]}
+    fullWidth={true}
+    label="Template"
+    name="templates"
+    onChange={[MockFunction]}
+  />
+</Fragment>
+`;

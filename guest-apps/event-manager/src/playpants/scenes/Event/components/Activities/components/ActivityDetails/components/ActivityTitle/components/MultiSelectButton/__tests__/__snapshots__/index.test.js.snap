@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiSelectButton renders correctly when all titles are selected 1`] = `
+<WithStyles(WrappedIcon)
+  icon="backspace"
+  iconProps={
+    Object {
+      "color": "secondary",
+    }
+  }
+  onClick={[Function]}
+  tooltip="Remove All Titles"
+/>
+`;
+
+exports[`MultiSelectButton renders correctly when not all titles are selected 1`] = `
+<WithStyles(WrappedIcon)
+  icon="backspace"
+  iconProps={
+    Object {
+      "color": "secondary",
+    }
+  }
+  onClick={[Function]}
+  tooltip="Remove All Titles"
+/>
+`;

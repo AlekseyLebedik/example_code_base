@@ -1,0 +1,9 @@
+.table {
+  composes: ag-theme-material from global;
+  width: 100%;
+  height: calc(80vh - 190px);
+}
+
+.searchInput {
+  width: 100%;
+}

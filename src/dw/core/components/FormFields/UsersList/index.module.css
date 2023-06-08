@@ -1,0 +1,75 @@
+.container {
+  margin-top: 20px !important;
+}
+
+.addUser {
+  margin-top: 10px;
+  height: 28px;
+  padding: 0 16px !important;
+  border-radius: 24px !important;
+}
+
+.titleContent {
+  margin-left: 24px !important;
+}
+
+.primaryHeading {
+  font-weight: bold;
+  flex-basis: 33.33%;
+  flex-shrink: 0;
+}
+
+.secondaryHeading {
+  color: rgba(0, 0, 0, 0.35);
+  align-self: center;
+}
+
+.usersContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 48px;
+  height: 100%;
+}
+
+.usersContainer .user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.addUserContainer {
+  display: grid;
+  grid-template-columns: 1fr 133px;
+  padding-left: 74px;
+}
+
+.addUserContainer .select {
+  padding-right: 10px;
+}
+
+.expandIcon {
+  right: unset;
+  left: 0;
+  width: 48px;
+}
+
+.usersTable {
+  composes: ag-theme-material from global;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.details {
+  flex-flow: column;
+}
+
+.deleteSelectedBtn {
+  position: absolute;
+  top: -36px;
+  left: 8px;
+  z-index: 1;
+}
+
+.searchInput {
+  margin-top: 30px !important;
+}

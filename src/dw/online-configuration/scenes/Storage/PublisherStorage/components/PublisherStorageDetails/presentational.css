@@ -1,0 +1,9 @@
+.details__container.publisher-storage .file-actions {
+  text-align: right;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.details__container.publisher-storage .file-actions i {
+  margin-left: 10px;
+}

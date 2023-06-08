@@ -1,0 +1,81 @@
+.root {
+  flex-grow: 1;
+}
+
+.textField {
+  display: flex !important;
+  padding: 0;
+}
+
+.valueContainer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: 90%;
+}
+
+.valueContainerMultiple {
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.valueContainer :global(#search) {
+  opacity: 1 !important;
+}
+
+.singleValue {
+  width: 100%;
+}
+
+.singleValue + div {
+  margin-left: 0;
+}
+
+.placeholder {
+  position: absolute;
+  left: 3px;
+}
+
+.white {
+  color: #ffffff !important;
+}
+
+.slimSize {
+  height: 20px !important;
+  padding: 0px !important;
+}
+.slimFontSize {
+  line-height: 1.2em !important;
+}
+
+.normalSize {
+  height: 30px !important;
+  padding: 0px !important;
+}
+.normalFontSize {
+}
+
+.bigSize {
+  height: 40px !important;
+  padding: 0px !important;
+}
+.bigFontSize {
+}
+
+.textFieldMultiple {
+  height: auto !important;
+}
+
+.bgWhite {
+  background-color: #ffffff !important;
+}
+
+.withMargin {
+  margin-left: 8px !important;
+}
+
+.autoEllipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

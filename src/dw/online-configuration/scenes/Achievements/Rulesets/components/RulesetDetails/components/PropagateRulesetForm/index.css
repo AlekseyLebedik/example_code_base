@@ -1,0 +1,7 @@
+.rulesets__ruleset-detail__propagate-ruleset-form .environments-select,
+.rulesets__ruleset-detail__propagate-ruleset-form .label {
+  width: 100% !important;
+}
+.rulesets__ruleset-detail__warning-message {
+  color: red;
+}

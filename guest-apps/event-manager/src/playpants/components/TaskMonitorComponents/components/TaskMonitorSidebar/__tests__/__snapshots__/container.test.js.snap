@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskMonitorSidebarBase renders default props 1`] = `
+<TaskMonitorSidebarStateless
+  classes={Object {}}
+  handleOnSelectItem={[Function]}
+  handleSetSelectedTab={[Function]}
+  selectedItemId=""
+  selectedTab=""
+  tabOptions={Array []}
+  tasksData={Array []}
+/>
+`;

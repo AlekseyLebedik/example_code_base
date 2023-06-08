@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseViewProps Reducer DELETE_TEST_SUCCESS returns state without deleted tests 1`] = `
+Object {
+  "tests": Array [
+    Object {
+      "category": "Other",
+      "environment": "cert",
+      "id": 2,
+      "name": "Test 2",
+      "platform": "PS3",
+      "project": Object {
+        "contentTypeId": 17,
+        "id": 1,
+        "name": "GTR Project",
+      },
+      "source": "manual",
+      "status": "config",
+      "target": "mkt",
+      "testPeriodFrom": 1535454075,
+      "testPeriodTo": 1535455085,
+      "title": "GTR-PS3",
+      "titleID": 1,
+    },
+  ],
+}
+`;
+
+exports[`BaseViewProps Reducer FETCH_ALL_TESTS_PREFIX_FETCH_SUCCESS returns state with search 1`] = `
+Object {
+  "tests": Array [
+    Object {
+      "category": "foo
+bar",
+      "environment": "dev",
+      "id": undefined,
+      "name": "Test 1",
+      "platform": "NINTENDO
+BATTLENET",
+      "project": Object {
+        "contentTypeId": 17,
+        "id": 1,
+        "name": "GTR Project",
+      },
+      "source": "foo",
+      "status": "config",
+      "target": "123",
+      "testPeriodEnd": NaN,
+      "testPeriodFrom": undefined,
+      "testPeriodStart": NaN,
+      "testPeriodTo": undefined,
+      "title": "GTR-PS3",
+      "titleID": 1,
+    },
+    Object {
+      "categories": Array [
+        "foo",
+        "bar",
+      ],
+      "category": "Other",
+      "cohorts": Array [
+        Object {
+          "source": Object {
+            "type": "foo",
+          },
+          "treatments": Array [
+            Object {
+              "configs": Array [
+                Object {
+                  "serviceID": 123,
+                },
+              ],
+              "end": 12502020,
+              "start": 12452020,
+            },
+          ],
+        },
+      ],
+      "environment": "dev",
+      "first_parties": Array [
+        "nintendo",
+        "battlenet",
+      ],
+      "id": 1,
+      "name": "Test 1",
+      "platform": "PS3",
+      "project": Object {
+        "contentTypeId": 17,
+        "id": 1,
+        "name": "GTR Project",
+      },
+      "source": "manual",
+      "status": "config",
+      "target": "ae",
+      "testPeriodFrom": 1535454075,
+      "testPeriodTo": 1535455085,
+      "title": "GTR-PS3",
+      "titleID": 1,
+    },
+    Object {
+      "categories": Array [
+        "foo",
+        "bar",
+      ],
+      "category": "Other",
+      "cohorts": Array [
+        Object {
+          "source": Object {
+            "type": "foo",
+          },
+          "treatments": Array [
+            Object {
+              "configs": Array [
+                Object {
+                  "serviceID": 123,
+                },
+              ],
+              "end": 12502020,
+              "start": 12452020,
+            },
+          ],
+        },
+      ],
+      "environment": "cert",
+      "id": 2,
+      "name": "Test 2",
+      "platform": "PS3",
+      "project": Object {
+        "contentTypeId": 17,
+        "id": 1,
+        "name": "GTR Project",
+      },
+      "source": "manual",
+      "status": "config",
+      "target": "mkt",
+      "testPeriodFrom": 1535454075,
+      "testPeriodTo": 1535455085,
+      "title": "GTR-PS3",
+      "titleID": 1,
+    },
+  ],
+}
+`;
+
+exports[`BaseViewProps Reducer GLOBAL_SEARCH returns state with search 1`] = `
+Object {
+  "q": "test",
+  "tests": Array [],
+  "titleQuery": undefined,
+}
+`;
+
+exports[`BaseViewProps Reducer returns default state 1`] = `
+Object {
+  "q": undefined,
+  "tests": Array [],
+  "titleQuery": undefined,
+}
+`;

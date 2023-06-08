@@ -1,0 +1,12 @@
+export const CONTENT_TYPES = 'CONTENT_TYPES';
+export const OBJECT_PERMISSIONS = 'OBJECT_PERMISSIONS';
+
+export const DRAG_TYPE_DETAILS = 'DETAILS';
+export const DRAG_TYPE_OBJECT_PERM = 'OBJECT_PERM';
+
+export const COMPANIES_LIST_PREFIX = 'permission-management/companies';
+
+export const AVAILABLE_COMPANY_GROUP_USERS_LIST_PREFIX =
+  'permission-management/AVAILABLE_COMPANY_GROUP_USERS_LIST';
+export const AVAILABLE_COMPANY_GROUP_USERS_LIST_MODAL_PREFIX =
+  'permission-management/VAILABLE_COMPANY_GROUP_USERS_LIST_MODAL';

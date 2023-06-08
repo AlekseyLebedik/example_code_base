@@ -1,0 +1,55 @@
+.eventsCalendarSidebarContainer {
+  background-color: #ffffff;
+  width: 15%;
+  min-width: 300px;
+  margin: 0px 30px 0px 0px;
+}
+
+.eventsCalendarSidebarTop {
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+.buttonGroup button {
+  min-width: 55px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.leftButton {
+  border-radius: 5px 0 0 5px;
+}
+.middleButton {
+  border-radius: 0;
+}
+.rightButton {
+  border-radius: 0 5px 5px 0;
+}
+
+/* Event filters */
+.helperButtonGroup {
+  display: flex;
+  flex-wrap: none;
+  height: 25px !important;
+}
+
+.buttonGroupCompact {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+}
+.buttonGroupCompact button {
+  min-width: 30px;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 0px;
+}

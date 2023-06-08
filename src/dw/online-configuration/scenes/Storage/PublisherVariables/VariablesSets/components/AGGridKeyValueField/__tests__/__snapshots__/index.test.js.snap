@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AGGridKeyValueField render 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <div
+    className="makeStyles-actions-3"
+  >
+    <SearchField
+      autoFocus={true}
+      className="makeStyles-search-4"
+      defaultValue=""
+      delay={200}
+      placeholder="Search for Publisher Variables"
+    />
+  </div>
+  <div
+    className="ag-theme-material makeStyles-gridContainer-2"
+  >
+    <AGGrid
+      async={false}
+      asyncGridProps={Object {}}
+      autoSizeColumns={false}
+      autoSizeMaxWidth={2000}
+      columnDefs={
+        Array [
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "keyValueCellEditor",
+            "cellRenderer": "keyCellRenderer",
+            "field": "key",
+            "flex": 1,
+            "getQuickFilterText": [Function],
+            "maxWidth": 700,
+            "minWidth": 300,
+            "resizable": true,
+            "type": "keyValue",
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellEditor": "keyValueCellEditor",
+            "field": "value",
+            "flex": 1,
+            "maxWidth": 700,
+            "minWidth": 300,
+            "resizable": true,
+            "type": "keyValue",
+            "valueSetter": [Function],
+          },
+        ]
+      }
+      columnTypes={
+        Object {
+          "keyValue": Object {
+            "editable": false,
+          },
+        }
+      }
+      context={
+        Object {
+          "hasAddPermission": false,
+          "hasDeletePermission": false,
+          "onDataChanged": [Function],
+          "variableMapping": Object {},
+        }
+      }
+      defaultCsvExportParams={
+        Object {
+          "columnKeys": Array [
+            "key",
+            "value",
+          ],
+        }
+      }
+      defaultExcelExportParams={
+        Object {
+          "columnKeys": Array [
+            "key",
+            "value",
+          ],
+        }
+      }
+      enableCellChangeFlash={true}
+      gridOptions={
+        Object {
+          "components": Object {
+            "actionsCellRenderer": [Function],
+            "keyCellRenderer": [Function],
+            "keyValueCellEditor": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "defaultProps": Object {
+                "charPress": undefined,
+                "keyPress": undefined,
+                "value": "",
+              },
+              "propTypes": Object {
+                "api": [Function],
+                "charPress": [Function],
+                "column": [Function],
+                "keyPress": [Function],
+                "value": [Function],
+              },
+              "render": [Function],
+            },
+          },
+          "headerHeight": 25,
+          "onGridSizeChanged": [Function],
+        }
+      }
+      onCellClicked={[Function]}
+      onCellValueChanged={[Function]}
+      onColumnResized={[Function]}
+      onColumnVisible={[Function]}
+      onFirstDataRendered={[Function]}
+      onGridReady={[Function]}
+      onGridSizeChanged={[Function]}
+      onRowDataUpdated={[Function]}
+      onRowSelected={[Function]}
+      rowData={null}
+      rowHeight={50}
+      stopEditingWhenCellsLoseFocus={true}
+      suppressRowClickSelection={true}
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,6 @@
+.valueField {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+}

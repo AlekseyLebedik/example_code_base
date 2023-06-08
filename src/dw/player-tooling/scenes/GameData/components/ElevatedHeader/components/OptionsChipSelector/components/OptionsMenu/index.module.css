@@ -1,0 +1,19 @@
+.menuList {
+  padding-top: 24px;
+}
+
+.menuItem {
+  height: 35px;
+  min-width: 300px;
+}
+
+.groupLabel {
+  text-transform: capitalize;
+}
+
+.menuCheckbox {
+  width: 112%;
+  margin: 0 -16px;
+  padding-left: 5px;
+  color: black !important;
+}

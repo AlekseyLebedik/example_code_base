@@ -1,0 +1,15 @@
+.input {
+  margin-top: -10px;
+}
+
+.publisherObjectsPresentational {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.publisherObjectsLinearProgress {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}

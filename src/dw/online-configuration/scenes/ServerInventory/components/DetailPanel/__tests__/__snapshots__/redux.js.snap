@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServerInventory DetailPanel data serverList should store list of servers 1`] = `undefined`;
+
+exports[`ServerInventory DetailPanel data serverList should store list of servers 2`] = `
+Object {
+  "serverList": Array [
+    "Server 1",
+    "Server 2",
+  ],
+}
+`;
+
+exports[`ServerInventory DetailPanel data serverList should unset the list of servers on failure 1`] = `undefined`;
+
+exports[`ServerInventory DetailPanel data serverList should unset the list of servers on failure 2`] = `
+Object {
+  "serverList": null,
+}
+`;

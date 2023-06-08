@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GVS Configuration renders master and details components 1`] = `
+<div
+  className="makeStyles-masterDetails-1"
+>
+  <Prompt
+    message={[Function]}
+    when={false}
+  />
+  <div
+    className="makeStyles-master-2"
+  >
+    <Master
+      allEdits={Array []}
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    className="makeStyles-details-3"
+  >
+    <Details
+      currentEdits={Array []}
+      draftSelector={true}
+      editable={true}
+      edits={Array []}
+      refetchConfiguration={[MockFunction]}
+      refetchDraft={[MockFunction]}
+      reset={[Function]}
+      setEdits={[Function]}
+    />
+  </div>
+</div>
+`;

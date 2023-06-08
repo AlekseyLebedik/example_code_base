@@ -1,0 +1,36 @@
+.eventsList {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.header {
+  display: inline-grid;
+  grid-template-columns: 25px 1fr 2fr;
+  align-items: center;
+}
+
+.headerBorder {
+  border-bottom: 1px solid #eff2f747;
+  width: 100%;
+}
+
+.headerTitle {
+  padding: 0 8px;
+}
+
+.event {
+  white-space: nowrap;
+}
+
+.eventDot {
+  border-radius: 50%;
+  max-width: 5px;
+  max-height: 5px;
+  margin: 0px 10px 2px -15px;
+  background-color: #009688;
+}
+
+.eventDate {
+  font-style: italic;
+  color: #eff2f794 !important;
+}

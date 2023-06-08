@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MOTD renders MOTD correctly 1`] = `
+<Fragment>
+  <ActivityTitleBase
+    RevertDialog={null}
+    customComponent={
+      <Item
+        disabled={false}
+        id={null}
+        language=""
+        languages={
+          Array [
+            Object {
+              "language": "en-uk",
+              "text": "",
+            },
+          ]
+        }
+        onUpdate={[MockFunction]}
+        text=""
+      />
+    }
+  />
+  <div>
+    <WithStyles(ForwardRef(GridList))
+      cellHeight="auto"
+      className="motdList"
+      cols={null}
+    >
+      <Item
+        disabled={false}
+        id={0}
+        key="MOTDItem/50/en-uk"
+        language="en-uk"
+        languages={
+          Array [
+            Object {
+              "language": "en-uk",
+              "text": "",
+            },
+          ]
+        }
+        onUpdate={[MockFunction]}
+        text=""
+      />
+    </WithStyles(ForwardRef(GridList))>
+  </div>
+</Fragment>
+`;
+
+exports[`MOTD should always render ActivityTitle 1`] = `
+<ActivityTitleBase
+  RevertDialog={null}
+  customComponent={
+    <Item
+      disabled={false}
+      id={null}
+      language=""
+      languages={
+        Array [
+          Object {
+            "language": "en-uk",
+            "text": "",
+          },
+        ]
+      }
+      onUpdate={[MockFunction]}
+      text=""
+    />
+  }
+/>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BulkDeleteVIPsButton display bulk delete button 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  classes={
+    Object {
+      "tooltip": "",
+    }
+  }
+  placement="bottom"
+  title="Remove VIP Gamertags"
+>
+  <WithStyles(ForwardRef(IconButton))
+    color="inherit"
+    data-cy="deleteButton"
+    id="delete_button_lq"
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(Icon))
+      className=""
+    >
+      delete
+    </WithStyles(ForwardRef(Icon))>
+  </WithStyles(ForwardRef(IconButton))>
+</WithStyles(ForwardRef(Tooltip))>
+`;

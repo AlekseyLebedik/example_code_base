@@ -1,0 +1,8 @@
+.groupContainer {
+  border-radius: 24px;
+  width: 35px;
+}
+.groupName {
+  font-weight: bold;
+  padding-left: 3px;
+}

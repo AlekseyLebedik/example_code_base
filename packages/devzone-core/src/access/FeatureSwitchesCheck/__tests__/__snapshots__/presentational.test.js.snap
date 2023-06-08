@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeatureSwitchesCheckStateless renders children when featureSwitches=true 1`] = `
+<p>
+  Congrat! You have the right access.
+</p>
+`;
+
+exports[`FeatureSwitchesCheckStateless renders custom noAccessComponent when featureSwitches=false 1`] = `
+<p>
+  No! No! No! Go away.
+</p>
+`;
+
+exports[`FeatureSwitchesCheckStateless renders nothing when featureSwitches=false 1`] = `""`;
+
+exports[`FeatureSwitchesCheckStateless renders nothing when no props are given 1`] = `""`;
+
+exports[`FeatureSwitchesCheckStateless renders nothing when no props are given 2`] = `""`;

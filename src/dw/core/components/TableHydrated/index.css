@@ -1,0 +1,116 @@
+.common__table-hydrated .custom-filter-dropdown {
+  padding: 8px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+.common__table-hydrated .custom-filter-dropdown input {
+  width: 200px;
+  margin-right: 8px;
+}
+
+.common__table-hydrated .custom-filter-dropdown .ant-input-prefix {
+  position: relative;
+  left: 20px;
+  cursor: pointer;
+}
+
+.common__table-hydrated .table-operations {
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.common__table-hydrated .table-operations > button {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  z-index: 10;
+}
+
+.common__table-hydrated .ant-table-tbody > tr > td {
+  border-bottom: 0;
+  padding: 10px;
+}
+
+.common__table-hydrated .ant-table-small,
+.common__table-hydrated
+  .ant-table-small
+  > .ant-table-content
+  > .ant-table-body
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.common__table-hydrated
+  .ant-table-small
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-header
+  > table
+  > .ant-table-thead
+  > tr
+  > th {
+  border: 0;
+}
+
+.common__table-hydrated .ant-table-body {
+  margin-top: 5px;
+}
+
+.common__table-hydrated .ant-table-body::-webkit-scrollbar {
+  width: 15px !important;
+  cursor: pointer !important;
+}
+
+.common__table-hydrated
+  .ant-table-fixed-header
+  .ant-table-scroll
+  .ant-table-header {
+  overflow: initial;
+  height: 100%;
+}
+
+.common__table-hydrated
+  .ant-table-small
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-header {
+  border-top: 0;
+}
+
+.common__table-hydrated .ant-table-small .ant-table-content {
+}
+
+.common__table-hydrated .ant-table-xsmall .ant-table-content {
+}
+
+.common__table-hydrated .action-panel {
+  position: absolute;
+  z-index: 10;
+  margin-top: -30px;
+  margin-bottom: -15px;
+  padding-left: 7px;
+}
+
+.common__table-hydrated .ant-table-row button {
+  margin: -8px 0;
+}
+
+.with-inner-padding
+  .common__table-hydrated
+  .ant-table-small
+  > .ant-table-content
+  > .ant-table-body
+  > table {
+  padding: 0;
+}
+
+.with-inner-padding .common__table-hydrated .ant-table-row td:first-child,
+.with-inner-padding .common__table-hydrated thead tr th:first-child {
+  padding-left: 20px !important;
+}
+
+.with-inner-padding .common__table-hydrated .ant-table-row > td:last-child {
+  padding-right: 20px !important;
+}

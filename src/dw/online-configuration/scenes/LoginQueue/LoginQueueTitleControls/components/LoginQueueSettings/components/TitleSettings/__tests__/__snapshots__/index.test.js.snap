@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueTitleSettings display title setting 1`] = `
+<div
+  className="loginQueueForm"
+>
+  <MaxCCU
+    canEditMaxCCU={false}
+    error=""
+    maxCCU={300000}
+    setMaxCCU={[Function]}
+  />
+  <LoginQueueDialog
+    handleClose={[Function]}
+    handleSave={[Function]}
+    openDialog={false}
+    subText="All Queues for Title 5817"
+  >
+    <tr
+      className="dialogTableRow"
+    >
+      <td
+        className="dialogTableData"
+      >
+        Max CCU
+      </td>
+      <td
+        className="dialogTableData"
+      >
+        300,000
+      </td>
+      <td
+        className="dialogTableData"
+      >
+        300,000
+      </td>
+    </tr>
+  </LoginQueueDialog>
+</div>
+`;
+
+exports[`LoginQueueTitleSettings display title setting on submitting 1`] = `
+<div
+  className="loginQueueForm"
+>
+  <MaxCCU
+    canEditMaxCCU={false}
+    error=""
+    maxCCU={300000}
+    setMaxCCU={[Function]}
+  />
+  <LoginQueueDialog
+    handleClose={[Function]}
+    handleSave={[Function]}
+    openDialog={false}
+    subText="All Queues for Title 5817"
+  >
+    <tr
+      className="dialogTableRow"
+    >
+      <td
+        className="dialogTableData"
+      >
+        Max CCU
+      </td>
+      <td
+        className="dialogTableData"
+      >
+        300,000
+      </td>
+      <td
+        className="dialogTableData"
+      >
+        300,000
+      </td>
+    </tr>
+  </LoginQueueDialog>
+</div>
+`;

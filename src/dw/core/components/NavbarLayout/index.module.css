@@ -1,0 +1,16 @@
+.navbarLayout {
+  top: 0;
+  right: 0;
+  z-index: 1210;
+
+  background-color: white;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.navbarLayoutContainer {
+  position: relative;
+  flex: 1;
+}

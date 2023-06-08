@@ -1,0 +1,44 @@
+.config {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px 8px 5px;
+  background-color: #eeeeee;
+
+  position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 16px;
+  width: 100%;
+  max-width: 140px;
+  cursor: pointer;
+}
+
+.invalidConfig {
+  composes: config;
+  color: orange;
+  cursor: inherit;
+}
+
+.warning {
+  margin-right: 2px;
+}
+
+.config > div {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.deleteButton {
+  padding: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  position: absolute;
+  right: -7px;
+  top: -7px;
+  color: rgb(183, 28, 28) !important;
+  background-color: white !important;
+  border-radius: 7px;
+}

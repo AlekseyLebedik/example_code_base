@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GVS RevertDraftButton renders render dialog 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Revert Draft"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        restore
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(Tooltip))>
+  <DialogComponent
+    actions={
+      Array [
+        <WithStyles(ForwardRef(Button))
+          disabled={false}
+          onClick={[Function]}
+        >
+          Cancel
+        </WithStyles(ForwardRef(Button))>,
+        <WithStyles(ForwardRef(Button))
+          color="primary"
+          disabled={false}
+          onClick={[Function]}
+        >
+          Create Revert
+        </WithStyles(ForwardRef(Button))>,
+      ]
+    }
+    cancelOnBackdropClick={false}
+    classes={Object {}}
+    contentStyle={Object {}}
+    fullWidth={false}
+    maxWidth="sm"
+    modal={true}
+    onRequestClose={[Function]}
+    open={true}
+    title="Create Revert Draft"
+  >
+    <p>
+      Creating this draft will revert any changes made in the original draft.
+    </p>
+    If any changes are made to the original draft after, will not be reflected in this Revert Draft.
+    <ForwardRef
+      InputLabelProps={
+        Object {
+          "shrink": true,
+        }
+      }
+      error={false}
+      fullWidth={true}
+      initialValue="revert_test_draft"
+      label="Draft Name"
+      margin="dense"
+    />
+  </DialogComponent>
+</Fragment>
+`;
+
+exports[`GVS RevertDraftButton renders render revert button 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Revert Draft"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        restore
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(Tooltip))>
+</Fragment>
+`;

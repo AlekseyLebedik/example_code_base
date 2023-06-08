@@ -1,0 +1,6 @@
+.details-empty__container.lobbies {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expy - Test Graduation - FileDisplay renders snapshot 1`] = `
+<div
+  className="makeStyles-container-1"
+  style={
+    Object {
+      "overflow": "hidden",
+    }
+  }
+>
+  <div
+    className="makeStyles-name-3"
+  >
+    <span
+      className="makeStyles-icon-2"
+    >
+      <Memo(ForwardRef(PictureAsPdfIcon))
+        htmlColor="#D0021B"
+      />
+    </span>
+    Hello
+  </div>
+  <div
+    className="makeStyles-btnContainer-4"
+  >
+    <DownloadBtn
+      title="Hello"
+      url="http://hello.com"
+    />
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="delete"
+      onClick={[Function]}
+      size="small"
+    >
+      <Memo(ForwardRef(DeleteIcon))
+        fontSize="inherit"
+      />
+    </WithStyles(ForwardRef(IconButton))>
+  </div>
+</div>
+`;

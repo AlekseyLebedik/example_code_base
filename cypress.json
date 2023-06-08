@@ -1,0 +1,14 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "video": false,
+  "chromeWebSecurity": false,
+  "viewportWidth": 1680,
+  "viewportHeight": 1050,
+  "requestTimeout": 10000,
+  "watchForFileChanges": true,
+  "numTestsKeptInMemory": 0,
+  "env":
+  {
+    "RETRIES": 2
+  }
+}

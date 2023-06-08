@@ -1,0 +1,16 @@
+.optionRow {
+  display: flex;
+}
+
+.valueSpan {
+  display: flex;
+  margin-left: 10px;
+}
+
+.editIcon {
+  margin-left: 10px;
+}
+
+.deleteIcon {
+  margin-left: auto;
+}

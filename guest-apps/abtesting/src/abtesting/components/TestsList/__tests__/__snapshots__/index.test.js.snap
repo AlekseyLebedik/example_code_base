@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TestList renders circular progress 1`] = `
+<div
+  className="testsSection"
+  data-cy="mock-section"
+>
+  <div
+    className="mainTitle"
+  >
+    mock
+    <span
+      className="itemsShown"
+    >
+      (
+      0
+       shown)
+    </span>
+  </div>
+  <Empty
+    initialLoading={true}
+  />
+</div>
+`;
+
+exports[`TestList renders stardard user case 1`] = `
+<div
+  className="testsSection"
+  data-cy="mock-section"
+>
+  <div
+    className="mainTitle"
+  >
+    mock
+    <span
+      className="itemsShown"
+    >
+      (
+      2
+       shown)
+    </span>
+  </div>
+  <Connect(TableHydrated)
+    className="table"
+    columns={
+      Array [
+        Object {
+          "dataIndex": "id",
+          "key": "id",
+          "noFiltering": true,
+          "render": [Function],
+          "title": "ID",
+          "type": "string",
+          "width": "5%",
+        },
+        Object {
+          "dataIndex": "name",
+          "key": "name",
+          "noFiltering": true,
+          "render": [Function],
+          "title": "Test Name",
+          "type": "string",
+          "width": "14%",
+        },
+        Object {
+          "dataIndex": "title",
+          "key": "title",
+          "noFiltering": true,
+          "title": "Title",
+          "type": "string",
+          "width": "6%",
+        },
+        Object {
+          "dataIndex": "platform",
+          "key": "platform",
+          "noFiltering": true,
+          "render": [Function],
+          "title": "Platform",
+          "type": "string",
+          "width": "4%",
+        },
+        Object {
+          "dataIndex": "environment",
+          "key": "environment",
+          "noFiltering": true,
+          "title": "Env",
+          "type": "string",
+          "width": "4%",
+        },
+        Object {
+          "dataIndex": "source",
+          "key": "source",
+          "noFiltering": true,
+          "render": [Function],
+          "title": "Source",
+          "type": "string",
+          "width": "4%",
+        },
+        Object {
+          "dataIndex": "target",
+          "key": "target",
+          "noFiltering": true,
+          "render": [Function],
+          "title": "Target",
+          "type": "string",
+          "width": "4%",
+        },
+        Object {
+          "dataIndex": "category",
+          "key": "category",
+          "noFiltering": true,
+          "render": [Function],
+          "title": "Category",
+          "type": "string",
+          "width": "5%",
+        },
+        Object {
+          "dataIndex": "testPeriodStart",
+          "key": "testPeriodStart",
+          "noFiltering": true,
+          "title": "Test Period From",
+          "type": "datetime",
+          "width": "5%",
+        },
+        Object {
+          "dataIndex": "testPeriodEnd",
+          "key": "testPeriodEnd",
+          "noFiltering": true,
+          "title": "Test Period To",
+          "type": "datetime",
+          "width": "5%",
+        },
+        Object {
+          "dataIndex": "status",
+          "key": "status",
+          "noFiltering": true,
+          "render": [Function],
+          "title": "Status",
+          "type": "string",
+          "width": "6%",
+        },
+        Object {
+          "key": "action",
+          "render": [Function],
+          "title": "Actions",
+          "width": "10%",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "category": "Category1, Category2",
+          "environment": "Dev",
+          "id": 1,
+          "platform": "PS4",
+          "source": "Treyach",
+          "status": "config",
+          "target": "Marketplace",
+          "test_name": "Test 1",
+          "test_period_from": 1535454075,
+          "test_period_to": 1535455075,
+          "title": "Title test 1",
+        },
+        Object {
+          "category": "Category3, Category4",
+          "environment": "Dev",
+          "id": 2,
+          "platform": "PC",
+          "source": "Treyach",
+          "status": "approved",
+          "target": "Marketplace",
+          "test_name": "Test 2",
+          "test_period_from": 1535454075,
+          "test_period_to": 1535455075,
+          "title": "Title test 2",
+        },
+      ]
+    }
+    noClearAllButton={true}
+    rowClassName={[Function]}
+    size="small"
+    sortedInfo={
+      Object {
+        "columnKey": "testPeriodStart",
+        "order": "ascend",
+      }
+    }
+  />
+</div>
+`;

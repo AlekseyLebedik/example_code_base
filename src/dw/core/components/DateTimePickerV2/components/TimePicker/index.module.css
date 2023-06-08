@@ -1,0 +1,59 @@
+.formControl {
+  width: 100%;
+}
+
+.timeContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.checkboxForm {
+  margin: 0 !important;
+}
+
+.checkboxRoot {
+  padding: 5px 0 0 0 !important;
+  color: #009688 !important;
+}
+
+.label {
+  margin-left: 5px;
+}
+
+.timeButton {
+  min-width: 20px !important;
+  color: #009688 !important;
+}
+
+.dropdownIcon {
+  color: rgb(161 181 189) !important;
+}
+
+.errorBar {
+  background-color: red !important;
+  width: 80%;
+  margin: 0 10% !important;
+}
+
+.paper {
+  width: 65px;
+  max-height: 110px !important;
+  opacity: 0.75 !important;
+  background-color: #424242 !important;
+  color: white !important;
+}
+
+.item {
+  padding: 0px 5px 0px 5px;
+}
+
+.itemIcon {
+  margin: 5px;
+  font-weight: bold;
+}
+
+.helperText {
+  max-width: 300px;
+  margin: auto !important;
+  padding-top: 5px;
+}

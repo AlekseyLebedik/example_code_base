@@ -1,0 +1,50 @@
+.main-container.user-achievements .source-select {
+  margin: 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .main-container.user-achievements .source-select {
+    width: 450px;
+  }
+}
+
+.main-container.user-achievements .store-info {
+  margin-left: 20px;
+}
+
+.main-container.user-achievements .loading {
+  margin-top: 10% !important;
+  margin-left: 47% !important;
+}
+
+.main-container.user-achievements .common__table-hydrated .ant-table-scroll {
+  background-color: #fff;
+  margin: 20px;
+}
+
+.main-container.user-achievements
+  .common__table-hydrated
+  .ant-table-body
+  .expanded-row {
+  margin-left: 15px;
+}
+
+.main-container.user-achievements .show-more-column {
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.main-container.user-achievements
+  .common__table-hydrated
+  .table-operations
+  #hydrated-table__clear-filters {
+  top: -30px;
+  right: 20px;
+}
+
+.main-container.user-achievements .common__table-hydrated .action-panel {
+  padding-top: 10px;
+  margin-left: 20px;
+  margin-bottom: -35px;
+}

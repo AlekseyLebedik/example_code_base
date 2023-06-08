@@ -1,0 +1,24 @@
+.agGridContainer {
+  height: 100%;
+}
+
+.agGridContainer :global(.ag-details-row) {
+  padding: 20px 20px 10px 20px;
+}
+
+.agGridContainer :global(.ag-details-row .ag-status-bar) {
+  border: 0px;
+}
+
+.agGridContainer :global(.ag-header-cell) {
+  background-color: #d8d8d8;
+}
+
+.agGridContainer :global(.ag-cell-first-right-pinned) {
+  border-left: solid 1px #e2e2e2;
+}
+
+.agGridContainer :global(.ag-cell-value) {
+  height: 100%;
+  overflow-y: auto;
+}

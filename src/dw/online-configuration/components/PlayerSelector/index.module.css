@@ -1,0 +1,25 @@
+.user {
+  margin-left: 20px;
+  min-height: 38px;
+  display: flex;
+  align-items: flex-end;
+  min-width: 450px;
+}
+
+.contextAutoComplete {
+  align-items: flex-end;
+  margin: 0 20px;
+}
+
+.contextLabel {
+  padding: 0;
+}
+
+.autocompleteRoot {
+  min-width: 300px;
+}
+
+.contextSelectorContainer {
+  display: flex;
+  min-width: 400px;
+}

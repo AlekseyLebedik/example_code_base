@@ -1,0 +1,30 @@
+{
+  "baseUrl": "http://localhost:3000/",
+  "env": {
+    "backendUrl": "http://localhost:8081",
+    "authUrl": "http://localhost:8081/login",
+    "dzBackendUrl": "http://localhost:8081/",
+    "testEnvironment": "dev",
+    "client": "react-e2e-local",
+    "clientSecret": "really-secret",
+    "titleEnv": "dev",
+    "titleId": "1",
+    "titleEnvId": "1",
+    "titleIdOtherPublisherObjects": "2",
+    "titleEnvOtherPublisherObjects": "dev",
+    "titleIdABTesting": "5682",
+    "otherTitleEnv": "dev",
+    "otherTitleId": "2",
+    "otherTitleEnvId": "2",
+    "projectId": "1",
+    "emUsername": "event-manager-test",
+    "emPassword": "password",
+    "testUsername": "username",
+    "testPassword": "password"
+  },
+  "video": false,
+  "chromeWebSecurity": false,
+  "viewportWidth": 1680,
+  "viewportHeight": 1050,
+  "requestTimeout": 40000
+}

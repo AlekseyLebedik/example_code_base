@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserLink renders default values 1`] = `
+<Link
+  to="/online-configuration/1/dev/accounts/1234567890"
+>
+  <LinkAnchor
+    href="/online-configuration/1/dev/accounts/1234567890"
+    navigate={[Function]}
+  >
+    <a
+      href="/online-configuration/1/dev/accounts/1234567890"
+      onClick={[Function]}
+    >
+      1234567890
+    </a>
+  </LinkAnchor>
+</Link>
+`;
+
+exports[`UserLink renders username 1`] = `
+<Link
+  to="/online-configuration/1/dev/accounts/1234567890"
+>
+  <LinkAnchor
+    href="/online-configuration/1/dev/accounts/1234567890"
+    navigate={[Function]}
+  >
+    <a
+      href="/online-configuration/1/dev/accounts/1234567890"
+      onClick={[Function]}
+    >
+      Initial User
+    </a>
+  </LinkAnchor>
+</Link>
+`;

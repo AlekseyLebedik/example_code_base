@@ -1,0 +1,123 @@
+{
+    "account_user_details":[
+        {
+            "id": "0",
+            "name": "userName",
+            "publicProfile": [["k1","v1"],["k2","v2"]],
+            "privateProfile": [["k1","v1"],["k2","v2"]]
+        },
+        {
+            "id": "1317174234108932",
+            "name": "AnonymousHostUser",
+            "publicProfile": [["k1","v1"],["k2","v2"],["k3","v3"], ["k4","v4"]],
+            "privateProfile": [["k1","v1"],["k2","v2"],["k3","v3"],["k4","v4"],["k5","v5"],["k6","v6"],["k7","v7"]]
+        },
+        {
+            "id": "6903664316864277",
+            "name": "HostUser",
+            "publicProfile": [],
+            "privateProfile": []
+        }],
+    "account_user_teams": {
+      "data": [
+        {
+          "ownerUserID": "0",
+          "teamID": "2815248597247037961",
+          "membershipType": "0",
+          "teamName": "team-00015",
+          "privileges": "", 
+          "numTeamMembers": "12",
+          "numMembersOnline": "2"
+        },
+        {
+          "ownerUserID": "0",
+          "teamID": "6486573934006107902",
+          "membershipType": "1",
+          "teamName": "team-00077",
+          "privileges": "", 
+          "numTeamMembers": "12",
+          "numMembersOnline": "2"    
+        },
+        {
+          "ownerUserID": "1317174234108932",
+          "teamID": "2815248597247037961",
+          "membershipType": "0",
+          "teamName": "team-00015",
+          "privileges": "", 
+          "numTeamMembers": "12",
+          "numMembersOnline": "2"
+        },
+        {
+          "ownerUserID": "1317174234108932",
+          "teamID": "6486573934006107902",
+          "membershipType": "1",
+          "teamName": "team-00077",
+          "privileges": "", 
+          "numTeamMembers": "12",
+          "numMembersOnline": "2"    
+        },
+        {
+          "ownerUserID": "1317174234108932",
+          "teamID": "12213123123123123123",
+          "membershipType": "0",
+          "teamName": "team-00078",
+          "privileges": "", 
+          "numTeamMembers": "12",
+          "numMembersOnline": "2"
+        },
+        {
+          "ownerUserID": "1317174234108932",
+          "teamID": "234234234234234234",
+          "membershipType": "3",
+          "teamName": "team-00079",
+          "privileges": "", 
+          "numTeamMembers": "12",
+          "numMembersOnline": "2"
+        },
+        {
+          "ownerUserID": "1317174234108932",
+          "teamID": "34534534534534534534",
+          "membershipType": "0",
+          "teamName": "team-00072",
+          "privileges": "", 
+          "numTeamMembers": "12",
+          "numMembersOnline": "2"
+        },
+        {
+          "ownerUserID": "1317174234108932",
+          "teamID": "6756756756756756",
+          "membershipType": "0",
+          "teamName": "team-00099",
+          "privileges": "", 
+          "numTeamMembers": "12",
+          "numMembersOnline": "2"
+        },
+        {
+          "ownerUserID": "1317174234108932",
+          "teamID": "768678678678678678678",
+          "membershipType": "0",
+          "teamName": "team-00044",
+          "privileges": "", 
+          "numTeamMembers": "12",
+          "numMembersOnline": "2"
+        }
+      ]
+    },
+    "account_user_friends": {
+      "data":[
+          {
+            "updateTime": "1513264498",
+            "friendName": "AnonymousHostUser",
+            "pending": "0",
+            "friendID": "2654376160268079558"
+          },
+          {
+            "updateTime": "1513264498",
+            "friendName": "BigBen",
+            "pending": "0",
+            "friendID": "9812121819185834544"
+          }
+        ],
+      "nextPageToken": "CAE"
+      }
+}

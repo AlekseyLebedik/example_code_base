@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlobalProgressStateless allows to change the animation duration 1`] = `
+<div
+  id="global-progress"
+>
+  <div
+    className="bar"
+    style={
+      Object {
+        "opacity": "1",
+        "transform": "translate(-80%)",
+        "transition": "all 100ms ease-out",
+      }
+    }
+  >
+    <div
+      className="glow"
+    />
+  </div>
+</div>
+`;
+
+exports[`GlobalProgressStateless allows to change the animation duration 2`] = `
+<div
+  id="global-progress"
+>
+  <div
+    className="bar"
+    style={
+      Object {
+        "opacity": "1",
+        "transform": "translate(-80%)",
+        "transition": "all 200ms ease-out",
+      }
+    }
+  >
+    <div
+      className="glow"
+    />
+  </div>
+</div>
+`;
+
+exports[`GlobalProgressStateless hides the progress bar 1`] = `
+<div
+  id="global-progress"
+>
+  <div
+    className="bar"
+    style={
+      Object {
+        "opacity": "0",
+        "transform": "translate(-90%)",
+        "transition": "all 100ms ease-out",
+      }
+    }
+  >
+    <div
+      className="glow"
+    />
+  </div>
+</div>
+`;
+
+exports[`GlobalProgressStateless renders the progression 1`] = `
+<div
+  id="global-progress"
+>
+  <div
+    className="bar"
+    style={
+      Object {
+        "opacity": "1",
+        "transform": "translate(-90%)",
+        "transition": "all 100ms ease-out",
+      }
+    }
+  >
+    <div
+      className="glow"
+    />
+  </div>
+</div>
+`;
+
+exports[`GlobalProgressStateless renders the progression 2`] = `
+<div
+  id="global-progress"
+>
+  <div
+    className="bar"
+    style={
+      Object {
+        "opacity": "1",
+        "transform": "translate(-68.3%)",
+        "transition": "all 100ms ease-out",
+      }
+    }
+  >
+    <div
+      className="glow"
+    />
+  </div>
+</div>
+`;
+
+exports[`GlobalProgressStateless renders the progression 3`] = `
+<div
+  id="global-progress"
+>
+  <div
+    className="bar"
+    style={
+      Object {
+        "opacity": "1",
+        "transform": "translate(-10%)",
+        "transition": "all 100ms ease-out",
+      }
+    }
+  >
+    <div
+      className="glow"
+    />
+  </div>
+</div>
+`;
+
+exports[`GlobalProgressStateless renders the progression 4`] = `
+<div
+  id="global-progress"
+>
+  <div
+    className="bar"
+    style={
+      Object {
+        "opacity": "1",
+        "transform": "translate(-0%)",
+        "transition": "all 100ms ease-out",
+      }
+    }
+  >
+    <div
+      className="glow"
+    />
+  </div>
+</div>
+`;
+
+exports[`GlobalProgressStateless shows the progress bar 1`] = `
+<div
+  id="global-progress"
+>
+  <div
+    className="bar"
+    style={
+      Object {
+        "opacity": "1",
+        "transform": "translate(-80%)",
+        "transition": "all 100ms ease-out",
+      }
+    }
+  >
+    <div
+      className="glow"
+    />
+  </div>
+</div>
+`;

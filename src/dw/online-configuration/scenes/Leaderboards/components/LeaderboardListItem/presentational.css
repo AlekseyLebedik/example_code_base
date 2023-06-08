@@ -1,0 +1,18 @@
+.list-item.leaderboard .reset-status {
+  text-align: right;
+
+  flex: 1 1 100px;
+}
+
+.common__searchable-list .items-list .list-item.leaderboard .ant-card-body {
+  padding-left: 3px;
+}
+
+.list-item.leaderboard .left-content {
+  flex: 2 1 220px;
+}
+
+.leaderboards .MuiDrawer-paper.master__container {
+  margin-top: 70px;
+  height: calc(100% - 70px);
+}

@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expy - Test Graduation - LinkDisplay renders snapshot 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <a
+    className="makeStyles-title-3"
+    href="http://hello.com"
+    rel="noreferrer"
+    target="_blank"
+  >
+    Hello
+  </a>
+  <WithStyles(ForwardRef(IconButton))
+    aria-label="delete"
+    className="makeStyles-button-2"
+    onClick={[Function]}
+  >
+    <Memo(ForwardRef(CloseIcon)) />
+  </WithStyles(ForwardRef(IconButton))>
+</div>
+`;

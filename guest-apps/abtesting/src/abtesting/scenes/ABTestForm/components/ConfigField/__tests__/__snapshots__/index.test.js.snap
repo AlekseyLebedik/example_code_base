@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting component ConfigFieldComponent renders disabled config 1`] = `
+<div
+  className="config"
+>
+  <ViewConfig
+    config={
+      Object {
+        "configID": "15716207803415653925",
+        "name": "cfg1",
+      }
+    }
+    configName="cfg1"
+  />
+</div>
+`;
+
+exports[`ABTesting component ConfigFieldComponent renders invalid config 1`] = `
+<div
+  className="invalidConfig"
+>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Invalid config in selected context"
+  >
+    <WithStyles(ForwardRef(Icon))
+      className="warning"
+    >
+      warning
+    </WithStyles(ForwardRef(Icon))>
+  </WithStyles(ForwardRef(Tooltip))>
+  <WithStyles(ForwardRef(Tooltip))
+    title="testCfg"
+  >
+    <div>
+      testCfg
+    </div>
+  </WithStyles(ForwardRef(Tooltip))>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Delete Config"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      className="deleteButton"
+      onClick={[MockFunction]}
+    >
+      <WithStyles(ForwardRef(Icon))
+        className="deleteIcon"
+      >
+        highlight_off
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`ABTesting component ConfigFieldComponent renders valid config 1`] = `
+<div
+  className="config"
+>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Edit Config"
+  >
+    <div
+      onClick={[Function]}
+    >
+      cfg1
+    </div>
+  </WithStyles(ForwardRef(Tooltip))>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Delete Config"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      className="deleteButton"
+      onClick={[MockFunction]}
+    >
+      <WithStyles(ForwardRef(Icon))
+        className="deleteIcon"
+      >
+        highlight_off
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;

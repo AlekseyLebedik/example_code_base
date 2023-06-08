@@ -1,0 +1,12 @@
+.container {
+  flex-grow: 1;
+  margin: 0;
+}
+
+.error {
+  margin-bottom: -21px;
+}
+
+.name {
+  margin-top: -20px;
+}

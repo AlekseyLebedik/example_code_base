@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AgGrid Presentational structure 1`] = `
+<div
+  className="table"
+  data-cy="audit-logs-table"
+>
+  <AsyncAGGrid
+    autoSizeColumns={true}
+    autoSizeMaxWidth={2000}
+    columnDefs={
+      Array [
+        Object {
+          "field": "username",
+          "headerName": "Username",
+          "minWidth": 150,
+        },
+        Object {
+          "field": "userType",
+          "headerName": "User Type",
+          "minWidth": 150,
+        },
+        Object {
+          "field": "category",
+          "flex": 2,
+          "headerName": "Category",
+          "minWidth": 300,
+        },
+        Object {
+          "field": "auditContext",
+          "headerName": "Audit Context",
+        },
+        Object {
+          "field": "context",
+          "headerName": "Context",
+        },
+        Object {
+          "field": "auditTitleID",
+          "headerName": "Audit Title ID",
+        },
+        Object {
+          "field": "titleID",
+          "headerName": "Title ID",
+        },
+        Object {
+          "field": "auditEnv",
+          "headerName": "Audit Env",
+        },
+        Object {
+          "field": "env",
+          "headerName": "Env",
+        },
+        Object {
+          "field": "entityID",
+          "headerName": "Entity ID",
+        },
+        Object {
+          "field": "entityName",
+          "headerName": "Entity Name",
+        },
+        Object {
+          "field": "sourceName",
+          "headerName": "Source Name",
+        },
+        Object {
+          "cellRenderer": "jsonRenderer",
+          "cellStyle": Object {
+            "margin": "0",
+            "overflowY": "auto",
+            "padding": "5px 0",
+          },
+          "field": "extra",
+          "flex": 4,
+          "headerName": "Extra",
+          "minWidth": 500,
+          "valueFormatter": [Function],
+        },
+        Object {
+          "field": "unixtime",
+          "flex": 1,
+          "headerName": "Timestamp",
+          "minWidth": 200,
+          "valueGetter": [Function],
+        },
+      ]
+    }
+    dataFormatter={[Function]}
+    extendColumnsFromResult={false}
+    fetchWithSearch={false}
+    formatDateTime={[MockFunction]}
+    gridOptions={
+      Object {
+        "components": Object {
+          "jsonRenderer": [Function],
+        },
+        "defaultColDef": Object {
+          "autoHeight": false,
+        },
+        "processCellForClipboard": [Function],
+        "rowHeight": 100,
+        "suppressContextMenu": true,
+      }
+    }
+    key=""
+    onGridReady={[Function]}
+    onLoadData={[MockFunction]}
+    refreshKey=""
+    searchPlaceHolder="Search within the rows below"
+    useNewReusableAGGrid={false}
+    useQuickFilter={true}
+  />
+</div>
+`;

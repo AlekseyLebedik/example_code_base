@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionsPanel renders properly for each of any states 1`] = `
+<withRouter(ActionsPanel)
+  events={
+    Object {
+      "approveHandler": [Function],
+      "archiveHandler": [Function],
+      "deleteHandler": [Function],
+      "killHandler": [Function],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  record={
+    Object {
+      "id": 1,
+      "status": "config",
+    }
+  }
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`ActionsPanel renders properly for each of any states 2`] = `
+<withRouter(ActionsPanel)
+  events={
+    Object {
+      "approveHandler": [Function],
+      "archiveHandler": [Function],
+      "deleteHandler": [Function],
+      "killHandler": [Function],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  record={
+    Object {
+      "id": 1,
+      "status": "approved",
+    }
+  }
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`ActionsPanel renders properly for each of any states 3`] = `
+<withRouter(ActionsPanel)
+  events={
+    Object {
+      "approveHandler": [Function],
+      "archiveHandler": [Function],
+      "deleteHandler": [Function],
+      "killHandler": [Function],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  record={
+    Object {
+      "id": 1,
+      "status": "live",
+    }
+  }
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`ActionsPanel renders properly for each of any states 4`] = `
+<withRouter(ActionsPanel)
+  events={
+    Object {
+      "approveHandler": [Function],
+      "archiveHandler": [Function],
+      "deleteHandler": [Function],
+      "killHandler": [Function],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  record={
+    Object {
+      "id": 1,
+      "status": "active",
+    }
+  }
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`ActionsPanel renders properly for each of any states 5`] = `
+<withRouter(ActionsPanel)
+  events={
+    Object {
+      "approveHandler": [Function],
+      "archiveHandler": [Function],
+      "deleteHandler": [Function],
+      "killHandler": [Function],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  record={
+    Object {
+      "id": 1,
+      "status": "analysis",
+    }
+  }
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`ActionsPanel renders properly for each of any states 6`] = `
+<withRouter(ActionsPanel)
+  events={
+    Object {
+      "approveHandler": [Function],
+      "archiveHandler": [Function],
+      "deleteHandler": [Function],
+      "killHandler": [Function],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  record={
+    Object {
+      "id": 1,
+      "status": "killed",
+    }
+  }
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`ActionsPanel renders properly for each of any states 7`] = `
+<withRouter(ActionsPanel)
+  events={
+    Object {
+      "approveHandler": [Function],
+      "archiveHandler": [Function],
+      "deleteHandler": [Function],
+      "killHandler": [Function],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  record={
+    Object {
+      "id": 1,
+      "status": "archived",
+    }
+  }
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`ActionsPanel renders properly when is a main route 1`] = `
+<div
+  className="base"
+  data-cy="actions-panel"
+>
+  <ReportIcon />
+  <EditIcon />
+  <CloneIcon />
+  <PropagateIcon />
+  <ApproveIcon />
+  <KillIcon />
+  <DeleteIcon />
+  <ArchiveIcon />
+</div>
+`;

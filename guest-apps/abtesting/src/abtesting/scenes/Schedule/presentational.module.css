@@ -1,0 +1,17 @@
+.scheduleContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.addButtonContainer {
+  position: absolute !important;
+  bottom: 35px !important;
+  right: 35px !important;
+  z-index: 100;
+}
+
+.ag-theme-balham .live-row {
+  background-color: #cfeae7 !important;
+}

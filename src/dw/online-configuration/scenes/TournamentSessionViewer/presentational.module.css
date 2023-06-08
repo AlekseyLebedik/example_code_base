@@ -1,0 +1,94 @@
+.tournamentSessionViewerContainer {
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -webkit-align-content: stretch;
+  align-content: stretch;
+}
+
+.tournamentSessionViewerContainer .left {
+  -webkit-flex: 0.8;
+  flex: 0.8;
+  flex-direction: column;
+  background-color: #616161;
+  flex-flow: column nowrap;
+  overflow: hidden;
+  display: flex;
+  min-width: 320px;
+  position: relative;
+}
+
+.nextPage {
+  position: absolute !important;
+  bottom: 0;
+}
+
+.listContainer {
+  overflow-y: scroll;
+  position: relative;
+  margin-top: 10px;
+  border-top: 1px solid #cccccc;
+}
+.tournamentHeader {
+  color: #fff;
+  font-weight: 700;
+  padding-left: 8px;
+  line-height: 48px;
+  padding-bottom: 0;
+}
+.tournamentSessionViewerContainer .right {
+  flex: 4 0;
+  overflow-x: auto;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.ListItem {
+  padding: 8px 10px 8px 8px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+
+  font-weight: 100;
+  cursor: pointer;
+  transition: height 0.2s;
+  -webkit-transition: height 0.2s;
+  min-width: 150px;
+  min-height: 36px;
+}
+
+.leftElement {
+  flex: 1;
+}
+
+.link {
+  color: #fff;
+}
+
+.link:hover {
+  color: #cdcdcd;
+}
+
+.selected {
+  padding: 8px 10px 8px 8px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+
+  font-weight: 100;
+  cursor: pointer;
+  transition: height 0.2s;
+  -webkit-transition: height 0.2s;
+  min-width: 150px;
+  min-height: 36px;
+  background-color: #4ac0f1;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12),
+    0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nextPage {
+  position: absolute !important;
+}

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting Design - No Results renders design no results snapshot 1`] = `
+<div
+  className="makeStyles-noResults-1"
+>
+  <Svg
+    className=""
+    color="approved"
+    icon={<NoResultsIcon />}
+    size="xlarge"
+  />
+   
+  <p>
+    Check back later to view performance results.
+  </p>
+</div>
+`;

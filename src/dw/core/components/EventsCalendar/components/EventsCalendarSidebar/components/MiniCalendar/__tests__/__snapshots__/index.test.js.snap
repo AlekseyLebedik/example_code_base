@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MiniCalendar changing selected day, changes both mini and big calendar 1`] = `
+<CalendarComponent
+  autoOk={false}
+  classes={
+    Object {
+      "calendar": "calendar",
+    }
+  }
+  maxDate={null}
+  minDate={null}
+  onChange={[MockFunction]}
+  renderDay={[Function]}
+  timezone="UTC"
+  value={"2020-06-23T00:00:00.000Z"}
+/>
+`;
+
+exports[`MiniCalendar dots are properly rendered 1`] = `
+<CalendarComponent
+  autoOk={false}
+  classes={
+    Object {
+      "calendar": "calendar",
+    }
+  }
+  maxDate={null}
+  minDate={null}
+  onChange={[MockFunction]}
+  renderDay={[Function]}
+  timezone="UTC"
+  value={"2019-01-01T00:00:00.000Z"}
+/>
+`;
+
+exports[`MiniCalendar renders default MiniCalendar 1`] = `
+<CalendarComponent
+  autoOk={false}
+  classes={
+    Object {
+      "calendar": "calendar",
+    }
+  }
+  maxDate={null}
+  minDate={null}
+  onChange={[MockFunction]}
+  renderDay={[Function]}
+  timezone="UTC"
+  value={"2019-01-01T00:00:00.000Z"}
+/>
+`;

@@ -1,0 +1,7 @@
+.dateInput:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.dialog {
+  height: 0vh;
+}

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabsContainer renders 1`] = `
+<WithStyles(TabsComponent)
+  className="tabsContainer"
+  classes={
+    Object {
+      "indicatorColorDefault": "#e8e8e8",
+      "indicatorRootDefault": "indicator",
+    }
+  }
+  indicatorColor="default"
+  onChange={[MockFunction]}
+  value="second"
+>
+  <StyledTab
+    classes={
+      Object {
+        "root": "label",
+      }
+    }
+    key="one"
+    label="One"
+    value="one"
+  />
+  <StyledTab
+    classes={
+      Object {
+        "root": "label",
+      }
+    }
+    key="second"
+    label="Second"
+    value="second"
+  />
+  <StyledTab
+    classes={
+      Object {
+        "root": "label",
+      }
+    }
+    key="last"
+    label="The Last"
+    value="last"
+  />
+</WithStyles(TabsComponent)>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting Design - SlackSendButton renders slack send button snapshot 1`] = `
+<WithStyles(ForwardRef(Button))
+  className="makeStyles-button-1 makeStyles-initial-2"
+  color="primary"
+  variant="contained"
+/>
+`;

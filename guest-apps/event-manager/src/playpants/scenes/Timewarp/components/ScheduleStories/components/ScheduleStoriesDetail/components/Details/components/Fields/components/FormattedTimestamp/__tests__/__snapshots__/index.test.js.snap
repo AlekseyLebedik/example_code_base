@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormattedTimestamp renders default properly 1`] = `
+<WithStyles(ForwardRef(TextField))
+  InputProps={
+    Object {
+      "readOnly": true,
+    }
+  }
+  disabled={true}
+  fullWidth={true}
+  label=""
+  value="Jan 01, 1970 12:00 am"
+/>
+`;

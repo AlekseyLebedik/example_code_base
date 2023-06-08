@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddEditDefinition renders add definition modal 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  aria-labelledby="form-dialog-title"
+  fullWidth={true}
+  maxWidth="md"
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))
+    id="form-dialog-title"
+  >
+    Add a new
+     Variable Definition
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(DialogContent))>
+    <div
+      className="makeStyles-container-1"
+    >
+      <div>
+        <KeyField
+          isEdit={false}
+        />
+        <Select
+          id="type"
+          label="Input Type"
+          margin="dense"
+          name="type"
+          onChange={[Function]}
+          options={
+            Array [
+              Object {
+                "label": "String",
+                "value": "char",
+              },
+              Object {
+                "label": "Boolean",
+                "value": "bool",
+              },
+              Object {
+                "label": "Number",
+                "value": "int64",
+              },
+              Object {
+                "label": "Decimal",
+                "value": "float32",
+              },
+            ]
+          }
+          value="char"
+          variant="outlined"
+        />
+        <ValidationField />
+        <AutocompleteGeneral
+          allowCreateWhileLoading={true}
+          autoEllipsis={false}
+          classes={
+            Object {
+              "placeholder": "makeStyles-placeholder-2",
+            }
+          }
+          components={Object {}}
+          createOptionPosition="first"
+          error={false}
+          fontSize="slim"
+          formatCreateLabel={[Function]}
+          id="owner"
+          isClearable={true}
+          isDisabled={false}
+          isMulti={false}
+          isRerenderOnDefaultChange={false}
+          isSearchable={true}
+          key="owner"
+          label="Ower"
+          name="owner"
+          onAdd={[Function]}
+          onChange={[Function]}
+          options={Array []}
+          size={null}
+          textFieldProps={
+            Object {
+              "margin": "dense",
+              "variant": "outlined",
+            }
+          }
+          valuesOnly={true}
+          variant="default"
+        />
+        <AutocompleteGeneral
+          autoEllipsis={false}
+          classes={
+            Object {
+              "placeholder": "makeStyles-placeholder-2",
+            }
+          }
+          components={Object {}}
+          defaultValue=""
+          error={false}
+          fontSize="slim"
+          isClearable={true}
+          isDisabled={false}
+          isMulti={false}
+          isRerenderOnDefaultChange={false}
+          isSearchable={true}
+          key="category"
+          label="Category"
+          name="category"
+          onAdd={[Function]}
+          onChange={[Function]}
+          options={Array []}
+          placeholder="Select an existing category or type to add new"
+          size={null}
+          textFieldProps={
+            Object {
+              "margin": "dense",
+              "variant": "outlined",
+            }
+          }
+          value=""
+          valuesOnly={true}
+          variant="default"
+        />
+      </div>
+      <div>
+        <WithStyles(ForwardRef(TextField))
+          InputLabelProps={
+            Object {
+              "shrink": true,
+            }
+          }
+          fullWidth={true}
+          id="description"
+          label="Description"
+          margin="dense"
+          multiline={true}
+          name="description"
+          onChange={[Function]}
+          rows={10}
+          value=""
+          variant="outlined"
+        />
+      </div>
+    </div>
+  </WithStyles(ForwardRef(DialogContent))>
+  <WithStyles(ForwardRef(DialogActions))>
+    <WithStyles(ForwardRef(Button))
+      color="default"
+      onClick={[MockFunction]}
+    >
+      Cancel
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Confirm
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(DialogActions))>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`AddEditDefinition renders update definition modal 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  aria-labelledby="form-dialog-title"
+  fullWidth={true}
+  maxWidth="md"
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))
+    id="form-dialog-title"
+  >
+    Update
+     Variable Definition
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(DialogContent))>
+    <div
+      className="makeStyles-container-1"
+    >
+      <div>
+        <KeyField
+          isEdit={true}
+        />
+        <Select
+          id="type"
+          label="Input Type"
+          margin="dense"
+          name="type"
+          onChange={[Function]}
+          options={
+            Array [
+              Object {
+                "label": "String",
+                "value": "char",
+              },
+              Object {
+                "label": "Boolean",
+                "value": "bool",
+              },
+              Object {
+                "label": "Number",
+                "value": "int64",
+              },
+              Object {
+                "label": "Decimal",
+                "value": "float32",
+              },
+            ]
+          }
+          value="uint16"
+          variant="outlined"
+        />
+        <ValidationField />
+        <AutocompleteGeneral
+          allowCreateWhileLoading={true}
+          autoEllipsis={false}
+          classes={
+            Object {
+              "placeholder": "makeStyles-placeholder-2",
+            }
+          }
+          components={Object {}}
+          createOptionPosition="first"
+          defaultValue="test-user"
+          error={false}
+          fontSize="slim"
+          formatCreateLabel={[Function]}
+          id="owner"
+          isClearable={true}
+          isDisabled={false}
+          isMulti={false}
+          isRerenderOnDefaultChange={false}
+          isSearchable={true}
+          key="owner"
+          label="Ower"
+          name="owner"
+          onAdd={[Function]}
+          onChange={[Function]}
+          options={Array []}
+          size={null}
+          textFieldProps={
+            Object {
+              "margin": "dense",
+              "variant": "outlined",
+            }
+          }
+          valuesOnly={true}
+          variant="default"
+        />
+        <AutocompleteGeneral
+          autoEllipsis={false}
+          classes={
+            Object {
+              "placeholder": "makeStyles-placeholder-2",
+            }
+          }
+          components={Object {}}
+          defaultValue="TEST CATEGORY"
+          error={false}
+          fontSize="slim"
+          isClearable={true}
+          isDisabled={false}
+          isMulti={false}
+          isRerenderOnDefaultChange={false}
+          isSearchable={true}
+          key="category"
+          label="Category"
+          name="category"
+          onAdd={[Function]}
+          onChange={[Function]}
+          options={Array []}
+          placeholder="Select an existing category or type to add new"
+          size={null}
+          textFieldProps={
+            Object {
+              "margin": "dense",
+              "variant": "outlined",
+            }
+          }
+          value="TEST CATEGORY"
+          valuesOnly={true}
+          variant="default"
+        />
+      </div>
+      <div>
+        <WithStyles(ForwardRef(TextField))
+          InputLabelProps={
+            Object {
+              "shrink": true,
+            }
+          }
+          fullWidth={true}
+          id="description"
+          label="Description"
+          margin="dense"
+          multiline={true}
+          name="description"
+          onChange={[Function]}
+          rows={10}
+          value="TEST KEY DESCRIPTION"
+          variant="outlined"
+        />
+      </div>
+    </div>
+  </WithStyles(ForwardRef(DialogContent))>
+  <WithStyles(ForwardRef(DialogActions))>
+    <WithStyles(ForwardRef(Button))
+      color="default"
+      onClick={[MockFunction]}
+    >
+      Cancel
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Confirm
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(DialogActions))>
+</WithStyles(ForwardRef(Dialog))>
+`;

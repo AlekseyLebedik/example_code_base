@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container :global(.react-calendar-timeline) {
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.container :global(.rct-calendar-header) {
+  border-bottom: 0;
+}
+
+.container :global(.react-calendar-timeline) :global(.rct-header-root) {
+  background-color: #f0f0f0;
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: 0;
+  font-weight: 500;
+}
+
+.container :global(.rct-dateHeader.rct-dateHeader-primary) {
+  font-weight: 700;
+  border-bottom: 1px solid #bbb;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.container :global(.rct-dateHeader.rct-dateHeader-primary) span {
+  position: sticky;
+  left: 10px;
+  right: 10px;
+  margin: 0 10px;
+}
+
+.container :global(.rct-dateHeader) {
+  border-left-width: 1px;
+  border-bottom: 0px;
+}
+
+.container :global(.react-calendar-timeline) :global(.rct-outer) {
+  background-color: white;
+  border-left: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+}
+
+.container1 :global(.rct-sidebar-row-odd),
+.container1 :global(.rct-hl-odd) {
+  background-color: transparent !important;
+}
+
+.container :global(.rct-day-6),
+.container :global(.rct-day-0) {
+  background-color: rgba(0, 0, 0, 0.025) !important;
+}
+
+.container :global(.rct-sidebar-row) {
+  line-height: 32px !important;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.sidebar {
+  min-width: 250px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.expandableGroup {
+  min-height: 48px;
+}
+
+.container .expandableGroupRow {
+  background-color: #afafaf !important;
+}
+
+.item {
+}
+
+.item div {
+  height: 100%;
+  position: sticky;
+  left: 4px;
+  display: inline-block;
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+.editable {
+  composes: item;
+  cursor: pointer !important;
+}
+
+.readOnly {
+  composes: item;
+  cursor: default !important;
+}
+
+.subgroupHeading {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 11px;
+}
+
+.subgroupItem {
+  margin-left: 10px;
+}

@@ -1,0 +1,47 @@
+.mwContainer {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.row {
+  display: flex;
+  border: 1px solid black;
+  max-width: 900px;
+}
+
+.column {
+  flex: 55% 45%;
+  padding: 20px;
+}
+
+.moreWidth {
+  width: ;
+}
+
+.column > h4 {
+  color: #3fa9ff;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.borderLeft {
+  border-left: 1px solid black;
+}
+
+.textCenter {
+  text-align: left;
+}
+
+.styleLinks {
+  margin-bottom: 10px;
+}
+
+.extra {
+  padding-left: 20px;
+}
+
+.updatedText {
+  text-align: right;
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+.common-expandable__container {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.common-expandable__container.more_horiz {
+  max-height: 80px;
+}
+
+.common-expandable__container.expand_less {
+  height: 100%;
+  max-height: 300px;
+}
+
+.common-expandable__container .common-expandable__wrapper {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.common-expandable__container button.common-expandable__button {
+  min-height: 24px;
+  align-self: center;
+}

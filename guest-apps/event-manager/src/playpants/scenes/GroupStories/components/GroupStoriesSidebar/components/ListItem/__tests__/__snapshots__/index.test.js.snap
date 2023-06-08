@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem renders default properly 1`] = `
+<ListItem
+  className="flex flex-col"
+  onClick={[MockFunction]}
+  selected={true}
+>
+  <div
+    className="listItem"
+  >
+    <WithStyles(ForwardRef(ListItemText))
+      primaryTypographyProps={
+        Object {
+          "color": "inherit",
+        }
+      }
+    />
+    <div
+      className="listItemActionContainer"
+    >
+      <ReduxForm
+        action="patch"
+        asyncBlurFields={
+          Array [
+            "name",
+          ]
+        }
+        asyncValidate={[Function]}
+        currentProject={Object {}}
+        destroyOnUnmount={true}
+        enableReinitialize={true}
+        forceUnregisterOnUnmount={false}
+        form="GROUP_STORY_FORM-undefined"
+        getFormState={[Function]}
+        icon="edit"
+        initialValues={
+          Object {
+            "description": undefined,
+            "name": undefined,
+            "storyId": undefined,
+          }
+        }
+        keepDirtyOnReinitialize={false}
+        persistentSubmitErrors={false}
+        pure={true}
+        shouldAsyncValidate={[Function]}
+        shouldError={[Function]}
+        shouldValidate={[Function]}
+        shouldWarn={[Function]}
+        submitAsSideEffect={false}
+        submitText="Save"
+        submittingText="Saving"
+        title="Edit Story"
+        touchOnBlur={true}
+        touchOnChange={false}
+        updateUnregisteredFields={false}
+      />
+      <ConfirmActionComponent
+        actionTrigger="onClick"
+        changeCopyPermission={null}
+        className="secondaryButton"
+        component="IconButton"
+        confirm={
+          Object {
+            "confirmMsg": <Memo(Connect(DeleteStoryMessageBase)) />,
+            "destructive": true,
+            "mainButtonLabel": "Delete",
+            "title": "Confirm Story Deletion",
+          }
+        }
+        disabled={false}
+        onClick={[Function]}
+        tooltip="Delete Story"
+      >
+        delete_forever
+      </ConfirmActionComponent>
+    </div>
+  </div>
+</ListItem>
+`;

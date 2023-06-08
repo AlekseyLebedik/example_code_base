@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NameField renders the NameField correctly 1`] = `
+<Field
+  InputProps={
+    Object {
+      "endAdornment": <WithStyles(ForwardRef(InputAdornment)) />,
+    }
+  }
+  component={[Function]}
+  fullWidth={true}
+  label="Story Name"
+  name="name"
+  onBlur={[MockFunction]}
+  onKeyDown={[Function]}
+  required={true}
+  validate={
+    Array [
+      [Function],
+    ]
+  }
+/>
+`;

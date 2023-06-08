@@ -1,0 +1,12 @@
+.container {
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.active {
+  color: #87d37c;
+}

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerTabsContainer renders Player Tabs Container component 1`] = `
+<div
+  className="headerContainer"
+>
+  <PlayerTabsContainer
+    onPlayerChange={[MockFunction]}
+  />
+  <WithStyles(ForwardRef(Tabs))
+    classes={
+      Object {
+        "indicator": "tabsIndicator",
+        "root": "tabs",
+      }
+    }
+    indicatorColor="primary"
+    onChange={[Function]}
+    textColor="primary"
+    value={0}
+  >
+    <WithStyles(ForwardRef(Tab))
+      classes={
+        Object {
+          "root": "tab",
+          "selected": "selectedTab",
+          "textColorPrimary": "tabsTextColorPrimary",
+        }
+      }
+      key="player-achievements"
+      label="Achievements"
+    />
+    <WithStyles(ForwardRef(Tab))
+      classes={
+        Object {
+          "root": "tab",
+          "selected": "selectedTab",
+          "textColorPrimary": "tabsTextColorPrimary",
+        }
+      }
+      key="audit-log"
+      label="Audit"
+    />
+  </WithStyles(ForwardRef(Tabs))>
+</div>
+`;

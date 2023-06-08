@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConflictsSidebarStateless renders default correctly 1`] = `
+<div
+  className="sidebarContainer flex flex-col h-full"
+>
+  <div
+    className="conflictsContainer"
+  >
+    <span
+      className="filter"
+    >
+      <ConflictType
+        changeConflictType={[MockFunction]}
+        classes={Object {}}
+        conflictTypeFilter="all"
+      />
+    </span>
+  </div>
+  <SearchableList
+    actions={Array []}
+    applySelectConditionFunc={[Function]}
+    getItemKey={null}
+    infiniteScroll={false}
+    initialValue=""
+    items={
+      Array [
+        Object {
+          "conflicting_event": Object {
+            "activities": Array [
+              8,
+            ],
+            "end_at": 1570212969,
+            "id": 1,
+            "project": 1,
+            "publish_at": 1569870000,
+            "status": "open",
+            "title": "Overlapping Event",
+          },
+          "conflicts": Array [
+            Object {
+              "activity_type": "pubstorage",
+              "details": Array [],
+              "event_activity": Object {
+                "activity": "{\\"files\\":[4]}",
+                "id": 5,
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "pubstorage",
+              },
+              "overlapping_event_activity": Object {
+                "activity": "{\\"files\\":[4]}",
+                "id": 8,
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "pubstorage",
+              },
+              "severity": "activity-title-conflict",
+            },
+          ],
+          "severity": "activity-title-conflict",
+        },
+      ]
+    }
+    loadingMaster={false}
+    loadingTimeout={0}
+    onSearch={[Function]}
+    onShowMore={null}
+    placeholder="Event ID | Event Title | Activity Type"
+    searchEnabled={true}
+    showMore={false}
+    toRenderFunc={[Function]}
+  />
+</div>
+`;

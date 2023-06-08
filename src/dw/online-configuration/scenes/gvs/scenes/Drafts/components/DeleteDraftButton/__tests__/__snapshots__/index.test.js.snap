@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GVS DeleteDraftButton renders confirm action component 1`] = `
+<ConfirmActionComponent
+  actionTrigger="onClick"
+  changeCopyPermission={null}
+  component="IconButton"
+  confirm={
+    Object {
+      "confirmMsg": <React.Fragment>
+        <p>
+          Are you sure you want to delete the Draft?
+        </p>
+        <p>
+          It will be deleted within all the edits you have made.
+        </p>
+      </React.Fragment>,
+      "mainButtonLabel": "Delete",
+      "title": "Confirm Draft Delete",
+      "variant": "destructive",
+    }
+  }
+  disabled={false}
+  onClick={[Function]}
+  tooltip="Delete Draft"
+>
+  delete
+</ConfirmActionComponent>
+`;
+
+exports[`GVS DeleteDraftButton renders nothing if no permissions 1`] = `
+<ConfirmActionComponent
+  actionTrigger="onClick"
+  changeCopyPermission={null}
+  component="IconButton"
+  confirm={
+    Object {
+      "confirmMsg": <React.Fragment>
+        <p>
+          Are you sure you want to delete the Draft?
+        </p>
+        <p>
+          It will be deleted within all the edits you have made.
+        </p>
+      </React.Fragment>,
+      "mainButtonLabel": "Delete",
+      "title": "Confirm Draft Delete",
+      "variant": "destructive",
+    }
+  }
+  disabled={false}
+  onClick={[Function]}
+  tooltip="Delete Draft"
+>
+  delete
+</ConfirmActionComponent>
+`;

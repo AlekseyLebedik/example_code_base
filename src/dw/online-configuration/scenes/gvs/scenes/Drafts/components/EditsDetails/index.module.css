@@ -1,0 +1,60 @@
+.before {
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.beforeName {
+  composes: before;
+  padding-left: 80px !important;
+  display: flex;
+  align-items: center;
+}
+
+.beforeName:before {
+  content: 'Before';
+}
+
+.beforeName :global(.ag-cell-wrapper),
+.before :global(.ag-group-expanded) {
+  display: none !important;
+}
+
+.new:after {
+  content: 'new';
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #deab61;
+  border-radius: 10px;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 4px;
+  color: white;
+}
+
+.newVisible:after {
+  transform: scale(0.7);
+  animation: show 0.18s alternate ease-in;
+}
+
+.newHidden:after {
+  transform: scale(0);
+  animation: hide 0.3s alternate ease-in;
+}
+
+@keyframes show {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0.7);
+  }
+}
+
+@keyframes hide {
+  0% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(0);
+  }
+}

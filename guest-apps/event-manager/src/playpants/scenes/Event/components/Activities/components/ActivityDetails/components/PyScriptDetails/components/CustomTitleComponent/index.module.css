@@ -1,0 +1,7 @@
+.selectorRoot > div {
+  display: flex;
+}
+
+.version {
+  margin-left: 5%;
+}

@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuotaUsage Reducer STORAGE_QUOTA_USAGE_ADD_MODAL_CLOSE sets modal visibility to \`false\` 1`] = `
+Object {
+  "addModalVisible": false,
+  "elementsOrder": Array [
+    "userID",
+  ],
+  "entries": Array [
+    Object {
+      "userID": 1,
+    },
+    Object {
+      "userID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedListItem": Object {
+    "userID": 1,
+  },
+}
+`;
+
+exports[`QuotaUsage Reducer STORAGE_QUOTA_USAGE_ADD_MODAL_OPEN sets modal visibility to \`true\` 1`] = `
+Object {
+  "addModalVisible": true,
+  "elementsOrder": Array [
+    "userID",
+  ],
+  "entries": Array [
+    Object {
+      "userID": 1,
+    },
+    Object {
+      "userID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedListItem": Object {
+    "userID": 1,
+  },
+}
+`;
+
+exports[`QuotaUsage Reducer STORAGE_QUOTA_USAGE_ADD_SUCCESS pushes new item to the entry list 1`] = `
+Object {
+  "addModalVisible": false,
+  "elementsOrder": Array [
+    "userID",
+  ],
+  "entries": Array [
+    Object {
+      "userID": 1,
+    },
+    Object {
+      "userID": 2,
+    },
+    Object {
+      "userID": 500,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedListItem": Object {
+    "userID": 1,
+  },
+}
+`;
+
+exports[`QuotaUsage Reducer STORAGE_QUOTA_USAGE_ADD_SUCCESS replaces existent item in the entry list 1`] = `
+Object {
+  "addModalVisible": false,
+  "elementsOrder": Array [
+    "userID",
+  ],
+  "entries": Array [
+    Object {
+      "userID": 1,
+    },
+    Object {
+      "newAttribute": 1,
+      "userID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedListItem": Object {
+    "userID": 1,
+  },
+}
+`;
+
+exports[`QuotaUsage Reducer STORAGE_QUOTA_USAGE_FETCH_SUCCESS combines both entry lists when \`append\` is true, and update list metadata 1`] = `
+Object {
+  "addModalVisible": false,
+  "elementsOrder": Array [
+    "userID",
+  ],
+  "entries": Array [
+    Object {
+      "userID": 1,
+    },
+    Object {
+      "userID": 2,
+    },
+    Object {
+      "userID": 300,
+    },
+    Object {
+      "userID": 400,
+    },
+  ],
+  "nextPageToken": "YYZ",
+  "q": "search",
+  "selectedListItem": Object {
+    "userID": 1,
+  },
+}
+`;
+
+exports[`QuotaUsage Reducer STORAGE_QUOTA_USAGE_FETCH_SUCCESS replaces the entries with new ones when \`append\` is false, and update list metadata 1`] = `
+Object {
+  "addModalVisible": false,
+  "elementsOrder": Array [
+    "userID",
+  ],
+  "entries": Array [
+    Object {
+      "userID": 300,
+    },
+    Object {
+      "userID": 400,
+    },
+  ],
+  "nextPageToken": "YYZ",
+  "q": undefined,
+  "selectedListItem": undefined,
+}
+`;
+
+exports[`QuotaUsage Reducer STORAGE_QUOTA_USAGE_LIST_ITEM_ONCLICK sets the selected item 1`] = `
+Object {
+  "addModalVisible": false,
+  "elementsOrder": Array [
+    "userID",
+  ],
+  "entries": Array [
+    Object {
+      "userID": 1,
+    },
+    Object {
+      "userID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedListItem": Object {
+    "userID": 2,
+  },
+}
+`;
+
+exports[`QuotaUsage Reducer returns default state 1`] = `
+Object {
+  "addModalVisible": false,
+  "elementsOrder": Array [],
+  "entries": Array [],
+  "nextPageToken": undefined,
+  "q": undefined,
+  "selectedListItem": undefined,
+}
+`;

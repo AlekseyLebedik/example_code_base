@@ -1,0 +1,10 @@
+.form-field__container.upload-file-field .upload-file-field-label {
+  font-weight: 700;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.form-field__container.upload-file-field {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}

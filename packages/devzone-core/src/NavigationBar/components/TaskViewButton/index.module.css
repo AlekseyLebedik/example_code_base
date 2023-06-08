@@ -1,0 +1,55 @@
+.pinningButton {
+  color: inherit;
+  background-color: inherit;
+  border: 0;
+  vertical-align: middle;
+}
+
+.persistentIcon {
+  visibility: visible !important;
+}
+
+.taskCellContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.tasksList {
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.tasksListRow {
+  border-bottom-width: 0 !important;
+  border-top-width: 0 !important;
+}
+
+.noBorder {
+  border: none !important;
+  outline: none;
+}
+
+.taskProgressContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.taskProgressBar {
+  width: 80%;
+  padding-right: 10px;
+}
+
+.taskTitle {
+  padding-left: 7px;
+}
+
+.taskIcon {
+}
+
+.taskTitleIcon {
+}

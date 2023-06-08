@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PooledFiles Reducer STORAGE_POOLED_FILES_DELETE_SUCCESS removes the given files from \`entries\` and unselect it 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 2,
+      "summaryFileSize": "200",
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedFile": undefined,
+  "uploadedFiles": Array [],
+}
+`;
+
+exports[`PooledFiles Reducer STORAGE_POOLED_FILES_FETCH_SUCCESS combines both entry lists when \`append\` is true, and update list metadata 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+      "summaryFileSize": "100",
+    },
+    Object {
+      "fileID": 2,
+      "summaryFileSize": "200",
+    },
+    Object {
+      "fileID": 300,
+      "summaryFileSize": "0",
+    },
+    Object {
+      "fileID": 400,
+      "summaryFileSize": "400",
+    },
+  ],
+  "nextPageToken": "YYZ",
+  "q": undefined,
+  "selectedFile": Object {
+    "fileID": 1,
+    "summaryFileSize": "100",
+  },
+  "uploadedFiles": Array [],
+}
+`;
+
+exports[`PooledFiles Reducer STORAGE_POOLED_FILES_FETCH_SUCCESS replaces the entries with new ones when \`append\` is false, and update list metadata 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 300,
+      "summaryFileSize": "0",
+    },
+    Object {
+      "fileID": 400,
+      "summaryFileSize": "400",
+    },
+  ],
+  "nextPageToken": "YYZ",
+  "q": undefined,
+  "selectedFile": Object {
+    "fileID": 1,
+    "summaryFileSize": "100",
+  },
+  "uploadedFiles": Array [],
+}
+`;
+
+exports[`PooledFiles Reducer STORAGE_POOLED_FILES_LIST_ITEM_ONCLICK sets the selected file 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+      "summaryFileSize": "100",
+    },
+    Object {
+      "fileID": 2,
+      "summaryFileSize": "200",
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedFile": Object {
+    "fileID": 200,
+    "summaryFileSize": "200",
+  },
+  "uploadedFiles": Array [],
+}
+`;
+
+exports[`PooledFiles Reducer STORAGE_POOLED_FILES_SUMMARY_DELETE_SUCCESS sets the summary file size to zero in the given record 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+      "summaryFileSize": "0",
+    },
+    Object {
+      "fileID": 2,
+      "summaryFileSize": "200",
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedFile": Object {
+    "fileID": 1,
+    "summaryFileSize": "0",
+  },
+  "uploadedFiles": Array [],
+}
+`;
+
+exports[`PooledFiles Reducer STORAGE_POOLED_FILES_UPLOAD_SUCCESS add the new file to the entries list and select it 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+      "summaryFileSize": "100",
+    },
+    Object {
+      "fileID": 2,
+      "summaryFileSize": "200",
+    },
+    Object {
+      "fileID": 300,
+      "summaryFileSize": "0",
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedFile": Object {
+    "fileID": 300,
+    "summaryFileSize": "0",
+  },
+  "uploadedFiles": Array [
+    300,
+  ],
+}
+`;
+
+exports[`PooledFiles Reducer returns default state 1`] = `
+Object {
+  "elementsOrder": Array [],
+  "entries": Array [],
+  "nextPageToken": undefined,
+  "q": undefined,
+  "selectedFile": undefined,
+  "uploadedFiles": Array [],
+}
+`;

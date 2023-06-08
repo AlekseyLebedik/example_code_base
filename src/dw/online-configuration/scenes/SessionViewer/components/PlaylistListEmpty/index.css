@@ -1,0 +1,14 @@
+.playlist-list-empty.lobbies {
+  opacity: 0.54;
+}
+
+.playlist-list-empty.lobbies .no-elements.text,
+.playlist-list-empty.lobbies .no-elements.list {
+  background-color: #7f8c8d;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}

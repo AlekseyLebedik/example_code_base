@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropagateButton disabled if population is not global 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Global Players propagation only"
+  >
+    <span>
+      <WithStyles(ForwardRef(IconButton))
+        disabled={true}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(Icon))>
+          call_split
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>
+</Fragment>
+`;
+
+exports[`PropagateButton disabled if scope uri not in permitted environments 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="No permissions for propagation"
+  >
+    <span>
+      <WithStyles(ForwardRef(IconButton))
+        disabled={true}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(Icon))>
+          call_split
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>
+</Fragment>
+`;
+
+exports[`PropagateButton disabled if source and target are the same 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Propagate"
+  >
+    <span>
+      <WithStyles(ForwardRef(IconButton))
+        disabled={false}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(Icon))>
+          call_split
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>
+</Fragment>
+`;
+
+exports[`PropagateButton enabled 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Propagate"
+  >
+    <span>
+      <WithStyles(ForwardRef(IconButton))
+        disabled={false}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(Icon))>
+          call_split
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>
+</Fragment>
+`;
+
+exports[`PropagateButton not rendering if no environments 1`] = `""`;
+
+exports[`PropagateButton not rendering while loading 1`] = `""`;

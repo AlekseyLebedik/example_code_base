@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatelessGroupStories renders default properly 1`] = `
+<Fragment>
+  <Connect(EventSummaryDialog)
+    baseModalId="GROUP_STORIES_SIDEBAR_EVENT_DETAIL"
+    baseUrl=""
+    currentProject={Object {}}
+    event={Object {}}
+  />
+  <WithStyles(CustomResizablePanels)
+    titles={
+      Array [
+        "Stories",
+      ]
+    }
+  >
+    <Connect(GroupStoriesSidebarBase)
+      baseUrl=""
+      currentProject={Object {}}
+      eventDetailData={Object {}}
+      match={Object {}}
+      selectedGroupStory={Object {}}
+    />
+    <div>
+      <EmptyComponent
+        classes={Object {}}
+        emptyText="No data to display"
+      >
+        Select a group story to get more details
+      </EmptyComponent>
+    </div>
+  </WithStyles(CustomResizablePanels)>
+</Fragment>
+`;

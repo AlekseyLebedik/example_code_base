@@ -1,0 +1,19 @@
+.backToDefault {
+  flex: 10;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 1.9em;
+}
+
+.backToDefault a {
+  color: #aaa;
+  display: flex;
+}
+
+.backToDefault a i {
+  padding: 0 10px 0 0;
+}

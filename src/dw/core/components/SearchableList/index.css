@@ -1,0 +1,102 @@
+.common__searchable-list {
+  width: 100%;
+  position: relative;
+}
+
+.common__searchable-list .NextPageButton {
+  position: unset !important;
+}
+
+.common__searchable-list .loading__container {
+  padding-top: 0;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+}
+
+.common__searchable-list .empty-list {
+  padding-top: 60px;
+  text-align: center;
+}
+
+.common__searchable-list .items-list {
+  overflow-y: auto;
+  position: relative;
+  z-index: 10;
+  right: -4px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.common__searchable-list .list-item-container .ant-card {
+  border-radius: 0px !important;
+}
+
+.common__searchable-list .items-list .list-item .ant-card-body {
+  padding: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+/*Removed temporally box shadow until know how to fix style*/
+.common__searchable-list
+  .list-item-container
+  .ant-card.selected.ant-card-bordered
+  > .ant-card-body {
+  box-shadow: none;
+}
+
+.common__searchable-list .action-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  margin-top: -10px;
+}
+
+.common__searchable-list .action-panel .select-all-checkbox {
+  padding-left: 3px;
+}
+
+.common__searchable-list .list-item-container {
+  display: flex;
+}
+
+.common__searchable-list .select-all-checkbox .checkbox,
+.common__searchable-list .list-item .item-checkbox {
+  padding: 5px;
+}
+
+.common__searchable-list .list-item .selected .item-checkbox {
+  color: white;
+}
+
+.common__searchable-list .list-item-container .mdl-checkbox__input {
+  flex: 0;
+  margin: 5px;
+  margin-top: 18px;
+}
+
+.common__searchable-list .list-item-container > div {
+  flex: 1;
+}
+
+.common__searchable-list .items-list::-webkit-scrollbar {
+  width: 15px;
+}
+
+.common__searchable-list .action-panel .actions {
+  top: -7px;
+}
+
+.common__searchable-list .list-item-container > div.left-separator {
+  flex: 0.1;
+}
+
+.common__searchable-list .ant-card-body .ant-card-3 {
+  padding-left: 10px;
+}

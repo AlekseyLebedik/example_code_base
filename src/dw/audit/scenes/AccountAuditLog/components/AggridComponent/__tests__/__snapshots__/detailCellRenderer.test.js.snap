@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailCellRenderer DetailCellRenderer 1`] = `
+<WithStyles(ForwardRef(Table))
+  className="makeStyles-table-1"
+>
+  <WithStyles(ForwardRef(TableHead))
+    className="makeStyles-tableHead-2"
+  >
+    <WithStyles(ForwardRef(TableRow))
+      key="header_row"
+    >
+      <WithStyles(ForwardRef(TableCell))
+        colSpan={2}
+      >
+        Contact
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell))
+        colSpan={2}
+      >
+        Validation
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell))
+        colSpan={2}
+      >
+        Player Details
+      </WithStyles(ForwardRef(TableCell))>
+    </WithStyles(ForwardRef(TableRow))>
+  </WithStyles(ForwardRef(TableHead))>
+  <WithStyles(ForwardRef(TableBody))>
+    <WithStyles(ForwardRef(TableRow))
+      className="makeStyles-rowHead-3"
+      key="personal_detail_row"
+    >
+      <WithStyles(ForwardRef(TableCell))>
+        Email Unhashed
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell)) />
+      <WithStyles(ForwardRef(TableCell))>
+        Email Verified
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell)) />
+      <WithStyles(ForwardRef(TableCell))>
+        Age
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell)) />
+    </WithStyles(ForwardRef(TableRow))>
+    <WithStyles(ForwardRef(TableRow))
+      key="family_detail_row"
+    >
+      <WithStyles(ForwardRef(TableCell))>
+        Parent Email Unhashed
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell)) />
+      <WithStyles(ForwardRef(TableCell))>
+        Parent Email Verified
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell)) />
+      <WithStyles(ForwardRef(TableCell))>
+        Is Child
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell)) />
+    </WithStyles(ForwardRef(TableRow))>
+    <WithStyles(ForwardRef(TableRow))
+      key="address_detail_row"
+    >
+      <WithStyles(ForwardRef(TableCell))>
+        Phone Unhashed
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell)) />
+      <WithStyles(ForwardRef(TableCell))>
+        TFA
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell)) />
+      <WithStyles(ForwardRef(TableCell))>
+        State
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell)) />
+    </WithStyles(ForwardRef(TableRow))>
+    <WithStyles(ForwardRef(TableRow))
+      className="makeStyles-rowTail-4"
+      key="contact_detail_row"
+    >
+      <WithStyles(ForwardRef(TableCell))>
+        Mobile Phone Unhashed
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell)) />
+      <WithStyles(ForwardRef(TableCell)) />
+      <WithStyles(ForwardRef(TableCell)) />
+      <WithStyles(ForwardRef(TableCell))>
+        Country
+      </WithStyles(ForwardRef(TableCell))>
+      <WithStyles(ForwardRef(TableCell)) />
+    </WithStyles(ForwardRef(TableRow))>
+  </WithStyles(ForwardRef(TableBody))>
+</WithStyles(ForwardRef(Table))>
+`;

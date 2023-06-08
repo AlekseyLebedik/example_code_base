@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropagateVariablesSetForm renders component 1`] = `
+<Fragment>
+  <Form
+    onSubmit={[Function]}
+  >
+    <Field
+      className="environment"
+      component={[Function]}
+      displayEnvsFromCurrentProject={true}
+      label="Environment"
+      labelInValue={true}
+      name="environment"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Namespace"
+      maxLength={20}
+      name="namespace"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Context"
+      maxLength={16}
+      name="context"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Group ID"
+      max={254}
+      min={1}
+      name="groupId"
+      type="number"
+      validate={
+        Array [
+          [Function],
+          [Function],
+        ]
+      }
+    />
+    <WithStyles(ForwardRef(FormControlLabel))
+      control={
+        <WithStyles(ForwardRef(Checkbox))
+          checked={true}
+          onChange={[MockFunction]}
+        />
+      }
+      key="allowed"
+      label={
+        <span>
+          Are you sure you want to propagate this publisher variable?
+          <br />
+          Propagating a wrong pubvar can be destructive including taking a live title down.
+        </span>
+      }
+    />
+    <Field
+      component={[Function]}
+      label="Override existing Variable Set"
+      name="confirmed"
+    />
+  </Form>
+</Fragment>
+`;

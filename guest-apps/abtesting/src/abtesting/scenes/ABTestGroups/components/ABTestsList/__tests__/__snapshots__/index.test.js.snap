@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTestsList table renders custom values 1`] = `
+<WithStyles(ForwardRef(Accordion))
+  className="expanderContainer"
+  defaultExpanded={true}
+>
+  <WithStyles(ForwardRef(AccordionSummary))
+    classes={
+      Object {
+        "content": "titleContent",
+        "expandIcon": "expandIcon",
+      }
+    }
+    expandIcon={
+      <WithStyles(ForwardRef(Icon))>
+        expand_more
+      </WithStyles(ForwardRef(Icon))>
+    }
+  >
+    <div
+      className="primaryHeading"
+    >
+      Tests
+    </div>
+    <div
+      className="secondaryHeading"
+    >
+      1 Test
+    </div>
+  </WithStyles(ForwardRef(AccordionSummary))>
+  <WithStyles(ForwardRef(AccordionDetails))
+    classes={
+      Object {
+        "root": "details",
+      }
+    }
+  >
+    <div
+      className="container"
+    >
+      <WithStyles(ForwardRef(TextField))
+        className="partialSearch"
+        label="search tests"
+        onChange={[Function]}
+      />
+      <div
+        className="agGridContainer"
+      >
+        <AgGridReact
+          columnDefs={
+            Array [
+              Object {
+                "cellRenderer": "agGroupCellRenderer",
+                "cellRendererParams": Object {
+                  "innerRenderer": "nameRenderer",
+                },
+                "field": "name",
+                "filter": "agTextColumnFilter",
+                "headerName": "Name",
+                "sortable": true,
+                "suppressSizeToFit": true,
+                "width": 280,
+              },
+              Object {
+                "field": "title",
+                "headerName": "Title",
+              },
+              Object {
+                "field": "platform",
+                "headerName": "Platform",
+              },
+              Object {
+                "field": "environment",
+                "headerName": "Env",
+              },
+              Object {
+                "field": "target",
+                "headerName": "Target",
+              },
+              Object {
+                "cellRenderer": "statusRenderer",
+                "field": "status",
+                "headerName": "Status",
+                "suppressSizeToFit": true,
+                "width": 140,
+              },
+            ]
+          }
+          components={
+            Object {
+              "DetailCellRenderer": [Function],
+              "configRenderer": [Function],
+              "nameRenderer": [Function],
+              "statusRenderer": [Function],
+            }
+          }
+          detailCellRenderer="DetailCellRenderer"
+          domLayout="autoHeight"
+          getRowHeight={[MockFunction]}
+          groupDefaultExpanded={1}
+          masterDetail={true}
+          onFirstDataRendered={[MockFunction]}
+          onGridReady={[MockFunction]}
+          reactNext={true}
+          rowData={
+            Array [
+              Object {
+                "cohort": "ABR-Direct-Weapon",
+                "config": Array [
+                  Object {
+                    "configs": Object {
+                      "configID": "16404592608665160490",
+                      "modifiers": "{}",
+                      "name": "cfg",
+                      "serviceID": "t8",
+                    },
+                    "key": 0,
+                  },
+                ],
+                "dateFrom": Array [
+                  "1571734691",
+                ],
+                "dateTo": Array [
+                  "1572515891",
+                ],
+                "environment": "dev",
+                "name": "My Deals ABR Bundle",
+                "platform": "PS3",
+                "status": "config",
+                "target": Array [
+                  "t8",
+                ],
+                "title": "GTR-PS3",
+              },
+            ]
+          }
+          statusBar={
+            Object {
+              "statusPanels": Array [
+                Object {
+                  "align": "left",
+                  "statusPanel": "agTotalRowCountComponent",
+                },
+              ],
+            }
+          }
+          suppressCellFocus={true}
+          suppressMenuHide={true}
+        />
+      </div>
+    </div>
+  </WithStyles(ForwardRef(AccordionDetails))>
+</WithStyles(ForwardRef(Accordion))>
+`;

@@ -1,0 +1,11 @@
+.list-item.publisher-storage .file-name {
+  font-weight: 500;
+}
+
+.list-item.publisher-storage .update-time {
+  text-align: right;
+}
+
+.list-item.publisher-storage .ant-card-body {
+  padding-left: 3px !important;
+}

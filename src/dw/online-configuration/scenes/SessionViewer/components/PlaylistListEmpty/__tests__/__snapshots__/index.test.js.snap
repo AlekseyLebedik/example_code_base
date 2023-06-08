@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlaylistListEmpty renders without crashing 1`] = `
+<div
+  className="playlist-list-empty lobbies"
+>
+  <div
+    className="no-elements text"
+  >
+     
+    no results
+     
+  </div>
+  <div
+    className="no-elements list"
+  />
+  <div
+    className="no-elements list"
+  />
+  <div
+    className="no-elements list"
+  />
+</div>
+`;

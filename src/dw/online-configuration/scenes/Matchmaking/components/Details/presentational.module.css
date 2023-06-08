@@ -1,0 +1,35 @@
+.container {
+  background-color: white;
+  display: flex;
+  flex-flow: column;
+  padding: 0 15px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.actions {
+  min-height: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contentContainer {
+  display: flex;
+  flex-flow: row wrap;
+  flex-grow: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.summary {
+  flex: 1 3;
+}
+
+.summary p {
+}
+
+.content {
+  flex: 2 0;
+  min-width: 320px;
+  overflow-y: hidden;
+}

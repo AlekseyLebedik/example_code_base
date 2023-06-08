@@ -1,0 +1,110 @@
+.contextSelectorContainer {
+  display: flex;
+  min-width: 400px;
+  cursor: pointer;
+}
+
+.contextSelector {
+  cursor: pointer;
+
+  align-items: center;
+  user-select: none;
+  height: 77%;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.84;
+}
+
+.contextSelector:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.context_selector_details {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  flex: 1 1;
+  cursor: pointer;
+}
+
+.itemContainer {
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: none;
+  cursor: pointer;
+
+  width: 100%;
+}
+
+.is_active {
+  background-color: #4ac0f1 !important;
+  color: white !important;
+}
+
+.contextName {
+  flex-grow: 1;
+}
+
+.selectedContext {
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  flex-grow: 1;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.fontSizeSmall {
+  line-height: 14px;
+}
+
+.fontSizeNormal {
+  line-height: 20px;
+}
+
+.fontSizeBig {
+  line-height: 24px;
+}
+
+.contextDetails {
+  margin-left: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.is_active .platform .icon {
+  color: white;
+  opacity: 1 !important;
+  filter: brightness(0) invert(1);
+  position: absolute;
+  right: 24px;
+  margin-left: 10px;
+}
+
+.selectedIcon {
+  position: relative;
+  padding-right: 30px;
+}
+
+.helperText {
+  font-style: italic;
+}
+
+.selectedHelperText {
+  position: relative;
+  padding-right: 28px;
+}
+
+.colorContrast {
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  .dropdown_selector {
+  }
+}

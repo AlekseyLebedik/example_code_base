@@ -1,0 +1,69 @@
+// vim: set syntax=groovy expandtab shiftwidth=4 tabstop=4 softtabstop=4 autoindent smartindent:
+
+Boolean slackNotificationSent = false
+String teamSlackChannel = '#products-devzone-ext'
+Boolean deploymentTriggered = false
+branchesToNotifyOn = ['master']
+
+pipeline {
+    agent { label 'centos7' }
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '150'))
+        timeout(time: 30, unit: 'MINUTES')
+        timestamps()
+    }
+    environment {
+        DOCKER_TAG = sh(script:'git describe --match "[0-9]*.[0-9]*.[0-9]*"', returnStdout: true).trim()
+    }
+    stages {
+        stage('Build and publish docs') {
+            when {
+                anyOf {
+                    branch 'master'
+                }
+            }
+            stages {
+                stage('Build FE docs') {
+                    steps {
+                        sh 'make docker-developer-docs'
+                    }
+                }
+                stage('Publish FE docs') {
+                    steps {
+                        sh 'git config user.email "devzone@demonware.net" && git config user.name "Devzone Build Automation"'
+                        withCredentials([usernamePassword(credentialsId: 'devzone-token-github-userpass', usernameVariable: 'GIT_USER', passwordVariable: 'GIT_PASS')]) {
+                            sh 'make publish-docs'
+                        }
+                    }
+                }
+            }
+            post {
+                success {
+                    script {
+                        if (env.BRANCH_NAME == 'master') {
+                            currentBuild.description = """<b><i>Built and pushed docs for v${DOCKER_TAG}</i></b>"""
+                        } else {
+                            currentBuild.description = """<b><i>Failed to build/push docs for v${DOCKER_TAG}</i></b>"""
+                        }
+                    }
+                }
+                changed {
+                    slackBuildReport(teamSlackChannel, ['branches': branchesToNotifyOn])
+                    script { slackNotificationSent = true }
+                }
+                unsuccessful {
+                    script {
+                        if (!slackNotificationSent) {
+                            slackBuildReport(teamSlackChannel, ['branches': branchesToNotifyOn])
+                        }
+                    }
+                }
+            }
+        }
+    }
+    post {
+        cleanup {
+            cleanupAgent()
+        }
+    }
+}

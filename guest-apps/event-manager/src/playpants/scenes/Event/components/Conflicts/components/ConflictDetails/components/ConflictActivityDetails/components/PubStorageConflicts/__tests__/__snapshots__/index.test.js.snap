@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PubStorageConflicts renders correctly with conflict details 1`] = `
+<div
+  className="ag-theme-material"
+>
+  <AgGridReact
+    columnDefs={
+      Array [
+        Object {
+          "cellClass": [Function],
+          "field": "title",
+          "filter": "agTextColumnFilter",
+          "headerName": "Title",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "filename",
+          "filter": "agTextColumnFilter",
+          "headerName": "Filename",
+          "isConflictingColumn": true,
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "remoteFilename",
+          "filter": "agTextColumnFilter",
+          "headerName": "Remote Filename",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "context",
+          "filter": "agTextColumnFilter",
+          "headerName": "Context",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "size",
+          "filter": "agTextColumnFilter",
+          "headerName": "Size",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "comment",
+          "filter": "agTextColumnFilter",
+          "headerName": "Comment",
+        },
+      ]
+    }
+    defaultColDef={
+      Object {
+        "editable": false,
+        "filter": true,
+        "menuTabs": Array [
+          "filterMenuTab",
+        ],
+        "resizable": true,
+        "sortable": true,
+      }
+    }
+    domLayout="autoHeight"
+    onGridReady={[Function]}
+    onGridSizeChanged={[Function]}
+    overlayNoRowsTemplate="<span>There are no conflicting filenames for this activity pair</span>"
+    rowData={
+      Array [
+        Object {
+          "comment": "",
+          "context": 1,
+          "filename": "testfile",
+          "id": 4,
+          "remoteFilename": "testfile",
+          "size": "4 bytes",
+          "title": "",
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`PubStorageConflicts renders correctly with no conflict details 1`] = `
+<div
+  className="ag-theme-material"
+>
+  <AgGridReact
+    columnDefs={
+      Array [
+        Object {
+          "cellClass": [Function],
+          "field": "title",
+          "filter": "agTextColumnFilter",
+          "headerName": "Title",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "filename",
+          "filter": "agTextColumnFilter",
+          "headerName": "Filename",
+          "isConflictingColumn": true,
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "remoteFilename",
+          "filter": "agTextColumnFilter",
+          "headerName": "Remote Filename",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "context",
+          "filter": "agTextColumnFilter",
+          "headerName": "Context",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "size",
+          "filter": "agTextColumnFilter",
+          "headerName": "Size",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "comment",
+          "filter": "agTextColumnFilter",
+          "headerName": "Comment",
+        },
+      ]
+    }
+    defaultColDef={
+      Object {
+        "editable": false,
+        "filter": true,
+        "menuTabs": Array [
+          "filterMenuTab",
+        ],
+        "resizable": true,
+        "sortable": true,
+      }
+    }
+    domLayout="autoHeight"
+    onGridReady={[Function]}
+    onGridSizeChanged={[Function]}
+    overlayNoRowsTemplate="<span>There are no conflicting filenames for this activity pair</span>"
+    rowData={Array []}
+  />
+</div>
+`;

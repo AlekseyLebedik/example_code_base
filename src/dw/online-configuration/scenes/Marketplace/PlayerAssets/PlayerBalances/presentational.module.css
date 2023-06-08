@@ -1,0 +1,46 @@
+.container {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.table {
+  height: 100%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.buttonGroup {
+  display: flex;
+  text-align: left;
+  z-index: 100;
+}
+
+.inventoryFilter {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+}
+
+.redButton {
+  color: rgb(183, 28, 28);
+}
+
+.editFieldContainer {
+  display: flex;
+  align-content: center;
+  height: 40px;
+}
+
+.currenciesInput {
+  height: 2rem !important;
+}
+
+.actionButtonContainer {
+  width: 95px;
+}

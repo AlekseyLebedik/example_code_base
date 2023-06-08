@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThunderpantsDetails Helpers: constructBuildList() correctly constructs build list 1`] = `
+Array [
+  Object {
+    "badges": Object {
+      "deploy": 1,
+      "deprecated": undefined,
+      "live": 1,
+      "modify": 1,
+      "undeploy": 1,
+    },
+    "base": Object {
+      "identifier": "game_dh_server_linux.out",
+      "relative_folder": "autobuild/versions/submission_7431811_sub_tu13_ccs_2/linux/dedicated",
+    },
+    "deployments": Array [
+      Object {
+        "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+        "last_timestamp": 1581636361,
+        "status": "deployed",
+        "target_name": "uidev:dev(mp)",
+        "tp": Object {
+          "auto_tag": Object {
+            "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+            "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+            "view_name": "iw8linux",
+          },
+          "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+          "env": "uidev",
+          "stats": Object {},
+          "tags": Object {
+            "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+            "build_config_overrides": Object {
+              "deployer": Object {
+                "deploy": Object {
+                  "max": 1,
+                },
+              },
+            },
+            "dw_flavor": "vanilla",
+            "server_type": "mp",
+          },
+        },
+        "tp_client": "devdeployer",
+        "type": "live",
+        "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+        "user_params": Object {
+          "max_instances_per_machine": 1,
+        },
+        "view_name": "iw8linux",
+      },
+      Object {
+        "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+        "last_timestamp": 1581636361,
+        "status": "deployed",
+        "target_name": "uidev:dev(gw)",
+        "tp": Object {
+          "auto_tag": Object {
+            "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+            "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+            "view_name": "iw8linux",
+          },
+          "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+          "env": "uidev",
+          "stats": Object {},
+          "tags": Object {
+            "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+            "build_config_overrides": Object {
+              "deployer": Object {
+                "deploy": Object {
+                  "max": 1,
+                },
+              },
+            },
+            "dw_flavor": "vanilla",
+            "server_type": "mp",
+          },
+        },
+        "tp_client": "devdeployer",
+        "type": "undeploy",
+        "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+        "user_params": Object {
+          "max_instances_per_machine": 1,
+        },
+        "view_name": "iw8linux",
+      },
+      Object {
+        "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+        "last_timestamp": 1581636361,
+        "status": "deployed",
+        "target_name": "uidev:dev(gw)",
+        "tp": Object {
+          "auto_tag": Object {
+            "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+            "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+            "view_name": "iw8linux",
+          },
+          "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+          "env": "uidev",
+          "stats": Object {},
+          "tags": Object {
+            "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+            "build_config_overrides": Object {
+              "deployer": Object {
+                "deploy": Object {
+                  "max": 1,
+                },
+              },
+            },
+            "dw_flavor": "vanilla",
+            "server_type": "mp",
+          },
+        },
+        "tp_client": "devdeployer",
+        "type": "modify",
+        "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+        "user_params": Object {},
+        "view_name": "iw8linux",
+      },
+      Object {
+        "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+        "target_name": "uidev:dev(mp)",
+        "type": "deploy",
+        "uid": "tp_deployment_1",
+      },
+    ],
+    "properties": Object {
+      "branch": "submission",
+      "ccs_version": "1302",
+      "dw_flavor": "vanilla",
+      "flavor": "test",
+      "os": "linux",
+      "platform": "all",
+      "title": "iw8",
+      "version": "7431811",
+    },
+    "source_name": "iw8-rebuildds",
+    "timestamp": 1581459817,
+    "ui_properties": Object {
+      "folder": "autobuild:submission_7431811_sub_tu13_ccs_2",
+      "version": "7431811@1302",
+    },
+    "uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+  },
+]
+`;
+
+exports[`ThunderpantsDetails Helpers: parseDeployData() returns expected response 1`] = `Array []`;
+
+exports[`ThunderpantsDetails Helpers: parseModifyData() returns expected response 1`] = `Array []`;

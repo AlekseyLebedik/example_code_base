@@ -1,0 +1,55 @@
+.container {
+  composes: user-details from global;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.table {
+  composes: ag-theme-material from global;
+  width: 100%;
+  flex-grow: 1;
+  position: relative;
+}
+
+.profileContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.container h6 {
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+.rowPublic {
+  margin-top: 30px;
+}
+
+.deleteBtn {
+  position: absolute;
+  right: 0;
+  top: -30px;
+}
+
+.deleteProfileBtn {
+  position: fixed !important;
+  top: 75px;
+  z-index: 1300;
+  right: 10px;
+  color: white;
+}
+
+.reputationContainer {
+  margin-left: 40px;
+  margin-bottom: 15px;
+  align-items: center;
+  min-height: 32px;
+  display: flex;
+}
+
+.reputation {
+  margin-left: 16px;
+}

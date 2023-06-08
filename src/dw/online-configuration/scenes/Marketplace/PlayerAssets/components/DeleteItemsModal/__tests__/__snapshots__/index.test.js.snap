@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteItemsModal Connected Player Inventory renders default values 1`] = `
+<DialogComponent
+  actions={
+    Array [
+      <WithStyles(ForwardRef(Button))
+        onClick={[MockFunction]}
+      >
+        Cancel
+      </WithStyles(ForwardRef(Button))>,
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        focusRipple={true}
+        onClick={[Function]}
+      >
+        Delete
+      </WithStyles(ForwardRef(Button))>,
+    ]
+  }
+  cancelOnBackdropClick={false}
+  classes={
+    Object {
+      "paper": "DeleteItemsModal-paper-1",
+    }
+  }
+  contentStyle={Object {}}
+  fullWidth={false}
+  maxWidth="sm"
+  modal={true}
+  onRequestClose={[MockFunction]}
+  open={true}
+  title="Confirm Delete"
+>
+  <div>
+    <p
+      className="subtitle"
+    >
+      Are you sure you want to delete this selected item?
+    </p>
+    <p>
+      What quantity do you want to delete?
+    </p>
+    <input
+      className="inputNumber"
+      max={2}
+      min={1}
+      onChange={[Function]}
+      type="number"
+      value={2}
+    />
+    <p
+      className="warning"
+    >
+      You will not be able to undo this operation.
+    </p>
+  </div>
+</DialogComponent>
+`;

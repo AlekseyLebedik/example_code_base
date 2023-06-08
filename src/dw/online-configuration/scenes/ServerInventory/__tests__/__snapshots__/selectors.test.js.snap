@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Server Inventory selectors getBuildNames returns an array of buildNames for a empty context 1`] = `
+Array [
+  Object {
+    "allocatedCount": 40,
+    "idleCount": 100,
+    "name": "build1",
+  },
+  Object {
+    "allocatedCount": 40,
+    "name": "build2",
+  },
+]
+`;
+
+exports[`Server Inventory selectors getDataCenters returns an array of buildNames for a empty context 1`] = `
+Array [
+  Object {
+    "allocatedCount": 40,
+    "idleCount": 100,
+    "name": "gs-los-angeles",
+  },
+]
+`;

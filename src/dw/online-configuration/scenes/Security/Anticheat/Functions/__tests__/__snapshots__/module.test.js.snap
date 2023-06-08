@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - Anticheat - Functions Reducer handle FUNCTION_DELETE_SUCCESS 1`] = `
+Object {
+  "functions": Array [
+    Object {
+      "argumentNames": Array [
+        "id",
+      ],
+      "functionId": 2,
+      "functionName": "getFilesFromContext",
+    },
+  ],
+}
+`;
+
+exports[`Security - Anticheat - Functions Reducer handle FUNCTIONS_FETCH_SUCCESS 1`] = `
+Object {
+  "functions": Array [
+    Object {
+      "argumentNames": Array [
+        "id",
+        "name",
+        "order",
+      ],
+      "functionId": 1,
+      "functionName": "listFilesByOwners",
+    },
+    Object {
+      "argumentNames": Array [
+        "id",
+      ],
+      "functionId": 2,
+      "functionName": "getFilesFromContext",
+    },
+  ],
+}
+`;
+
+exports[`Security - Anticheat - Functions Reducer return the initial state 1`] = `
+Object {
+  "functions": Array [],
+}
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventTypeField renders default properly 1`] = `
+<Field
+  component={[Function]}
+  fullWidth={true}
+  label="Type"
+  name="eventType"
+  options={
+    Array [
+      Object {
+        "label": "Demonware",
+        "value": "demonware",
+      },
+      Object {
+        "label": "Event Manager",
+        "value": "event-manager",
+      },
+      Object {
+        "label": "PMG",
+        "value": "pmg",
+      },
+    ]
+  }
+  validate={
+    Array [
+      [Function],
+    ]
+  }
+/>
+`;

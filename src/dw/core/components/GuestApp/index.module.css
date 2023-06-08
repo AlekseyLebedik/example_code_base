@@ -1,0 +1,13 @@
+.toggle {
+  position: absolute !important;
+  top: 60%;
+  transform: rotate(-90deg) scale(0.8);
+  transform-origin: 0 0;
+}
+
+.container {
+  flex-grow: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}

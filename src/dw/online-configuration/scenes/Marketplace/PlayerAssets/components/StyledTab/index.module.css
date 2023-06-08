@@ -1,0 +1,17 @@
+.tab {
+  max-width: 120px;
+}
+
+.tabSelected {
+  color: black !important;
+}
+
+.tabLabelContainer {
+  padding-left: 0px;
+  padding-right: 0px;
+  text-transform: capitalize;
+}
+
+.tabSelected .tabLabel {
+  border-bottom: solid 2px;
+}

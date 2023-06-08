@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventDetailHeader renders the EventDetailHeader correctly 1`] = `
+<WithStyles(ForwardRef(ListItem))
+  className=""
+>
+  <WithStyles(ForwardRef(ListItemAvatar))>
+    <WithStyles(ForwardRef(Avatar))
+      classes={
+        Object {
+          "fallback": "avatarIcon",
+          "root": "",
+        }
+      }
+    />
+  </WithStyles(ForwardRef(ListItemAvatar))>
+  <WithStyles(ForwardRef(ListItemText))
+    primary={
+      <WithStyles(ForwardRef(Tooltip))
+        title=""
+      >
+        <WithStyles(ForwardRef(Typography))
+          className="header"
+          component="h1"
+          variant="h5"
+        >
+          
+        </WithStyles(ForwardRef(Typography))>
+      </WithStyles(ForwardRef(Tooltip))>
+    }
+    secondary=""
+    secondaryTypographyProps={
+      Object {
+        "className": "secondaryTypography",
+      }
+    }
+  />
+</WithStyles(ForwardRef(ListItem))>
+`;

@@ -1,0 +1,22 @@
+.stores__upload-store-form .ant-row {
+  height: 45px;
+}
+
+.stores__upload-store-form .ant-row.buttons-row {
+  height: 20px;
+}
+
+.stores__upload-store-form .save-button {
+  margin-left: 5px;
+}
+
+.stores__upload-store-form label {
+  float: right;
+  margin-right: 10px;
+  position: relative;
+  top: 4px;
+}
+
+.stores__upload-store-form label.dedicated-label {
+  top: 0;
+}

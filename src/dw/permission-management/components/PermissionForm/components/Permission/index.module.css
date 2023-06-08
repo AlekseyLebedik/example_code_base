@@ -1,0 +1,10 @@
+.permission {
+  display: grid;
+  grid-template-columns: 2fr 2fr 30px;
+  grid-column-gap: 10px;
+  margin-top: 24px;
+}
+
+.deletepermissions {
+  margin: auto;
+}

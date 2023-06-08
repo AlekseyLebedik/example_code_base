@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleEnvStats Reducer EVENTS_FETCH_SUCCESS append new events to its given type if append set to true 1`] = `
+Object {
+  "generalComments": Array [
+    Object {
+      "id": 5,
+    },
+    Object {
+      "id": 6,
+    },
+  ],
+  "incidents": Array [
+    Object {
+      "id": 1,
+    },
+    Object {
+      "id": 2,
+    },
+    Object {
+      "id": 100,
+    },
+    Object {
+      "id": 200,
+    },
+  ],
+  "maintenances": Array [
+    Object {
+      "id": 3,
+    },
+    Object {
+      "id": 4,
+    },
+  ],
+}
+`;
+
+exports[`TitleEnvStats Reducer EVENTS_FETCH_SUCCESS override events in its given type 1`] = `
+Object {
+  "generalComments": Array [
+    Object {
+      "id": 5,
+    },
+    Object {
+      "id": 6,
+    },
+  ],
+  "incidents": Array [
+    Object {
+      "id": 100,
+    },
+    Object {
+      "id": 200,
+    },
+  ],
+  "maintenances": Array [
+    Object {
+      "id": 3,
+    },
+    Object {
+      "id": 4,
+    },
+  ],
+}
+`;
+
+exports[`TitleEnvStats Reducer default action returns default state 1`] = `
+Object {
+  "generalComments": Array [],
+  "incidents": Array [],
+  "maintenances": Array [],
+}
+`;

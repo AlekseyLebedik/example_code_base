@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Inventory SourceSelect should always render 1`] = `null`;
+
+exports[`Inventory Tabs should show sections if user and tab is selected 1`] = `
+<InventoryComponents
+  PlayerComponent={[Function]}
+  StoreComponent={[Function]}
+  hasEditPermission={false}
+  searchInput=""
+  selectedComponent="items"
+  userId="1"
+/>
+`;
+
+exports[`Inventory renders correctly 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

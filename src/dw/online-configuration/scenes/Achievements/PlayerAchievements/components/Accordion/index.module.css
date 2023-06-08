@@ -1,0 +1,16 @@
+.summaryContent {
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.summaryExpanded {
+  min-height: unset !important;
+}
+
+.summaryExpanded.summaryContent {
+  margin: 12px 0;
+}
+
+.detailsRoot {
+  padding-bottom: 0;
+  flex-direction: column;
+}

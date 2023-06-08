@@ -1,0 +1,27 @@
+.activityTitleContainer {
+  background-color: #e5e5e6;
+  padding: 8px 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.activityStatus {
+  margin-right: auto;
+}
+
+.titleOptionsRow {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-left: auto;
+}
+
+.contextSelector {
+  padding-left: 3%;
+}
+
+.customComponent {
+  margin-left: 3%;
+}

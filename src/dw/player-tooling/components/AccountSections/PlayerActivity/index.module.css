@@ -1,0 +1,39 @@
+.statusDotContainer {
+  white-space: nowrap;
+}
+
+.statusDot {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin-right: 2px;
+}
+
+.statusOnline {
+  composes: statusDot;
+  background-color: green;
+}
+
+.statusOffline {
+  composes: statusDot;
+  background-color: red;
+}
+
+.presenceFlexContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.presenceDetail {
+  margin-left: 5px;
+}
+
+.divider {
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+
+.loading {
+  min-height: 115px;
+}

@@ -1,0 +1,13 @@
+.tooltip-table {
+  border-radius: 4px;
+}
+
+.tooltip-with-table__tooltip {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  max-width: 600px !important;
+}
+
+.tooltip-with-table__main-container .tooltip-with-table__label {
+  cursor: default;
+}

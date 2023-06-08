@@ -1,0 +1,56 @@
+{
+  "data": [
+    {
+      "contentTypeId": 57,
+      "titles": [
+        {
+          "name": "Title 1",
+          "roles": [],
+          "environments": [
+            { "type": "Development", "id": 127, "shortType": "dev" },
+            { "type": "Certification", "id": 128, "shortType": "cert" },
+            { "type": "Live", "id": 129, "shortType": "live" }
+          ],
+          "platform": "PC-Steam",
+          "external": false,
+          "id": 3001
+        },
+        {
+          "name": "Title 1",
+          "roles": [],
+          "environments": [
+            { "type": "Development", "id": 130, "shortType": "dev" },
+            { "type": "Certification", "id": 131, "shortType": "cert" },
+            { "type": "Live", "id": 132, "shortType": "live" }
+          ],
+          "platform": "PS4",
+          "external": false,
+          "id": 3002
+        }
+      ],
+      "name": "Title 1",
+      "roles": [],
+      "id": 11
+    },
+    {
+      "contentTypeId": 57,
+      "titles": [
+        {
+          "name": "Title 2",
+          "roles": [],
+          "environments": [
+            { "type": "Development", "id": 133, "shortType": "dev" },
+            { "type": "Certification", "id": 134, "shortType": "cert" },
+            { "type": "Live", "id": 135, "shortType": "live" }
+          ],
+          "platform": "PC-Steam",
+          "external": false,
+          "id": 3003
+        }
+      ],
+      "name": "Title 2",
+      "roles": [],
+      "id": 12
+    }
+  ]
+}

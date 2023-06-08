@@ -1,0 +1,129 @@
+html {
+  overflow-y: hidden;
+}
+
+.container {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.formHeader {
+  composes: flexRow;
+  padding: 7px 0;
+  justify-content: space-between;
+}
+
+.actions {
+  composes: flexRow;
+  justify-content: flex-end;
+}
+
+.formModeTitle {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.status {
+  width: 10%;
+  margin-top: -5px;
+}
+
+.centerElements {
+  align-items: center;
+  justify-content: center;
+}
+
+.enrollments {
+  display: flex;
+  width: 99%;
+}
+
+.enrollments > div {
+  flex: 1;
+}
+
+.formError > div {
+  padding-bottom: 20px;
+}
+
+.formError .error {
+  width: 97% !important;
+  vertical-align: top;
+  margin-top: 22px;
+  float: right;
+}
+
+.formError .errorContainer {
+  color: red;
+  float: right;
+  text-align: right;
+}
+
+.footer {
+  margin-top: 40px;
+  float: right;
+}
+
+.footerButton {
+  margin-left: 20px;
+}
+
+.showDetailsButtonContainer {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 22px;
+  margin: 50px 0 50px 0;
+  background-color: whitesmoke;
+  padding: 5px 0 5px 0;
+}
+
+.showDetailsButton {
+  margin-left: auto;
+  width: 100%;
+}
+
+.expanderContainer {
+  margin-top: 20px !important;
+}
+
+.titleContent {
+  margin-left: 24px !important;
+}
+
+.primaryHeading {
+  font-weight: bold;
+  flex-basis: 33.33%;
+  flex-shrink: 0;
+}
+
+.groupOverride {
+  display: table;
+  table-layout: fixed;
+  width: 80%;
+  margin-left: 24px;
+}
+
+.groupOverrideHeader {
+  text-transform: uppercase;
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.groupOverrideBox {
+  display: table-cell;
+}
+
+.expandIcon {
+  right: unset;
+  left: 0;
+  width: 48px;
+}
+
+.details {
+  flex-flow: column;
+}

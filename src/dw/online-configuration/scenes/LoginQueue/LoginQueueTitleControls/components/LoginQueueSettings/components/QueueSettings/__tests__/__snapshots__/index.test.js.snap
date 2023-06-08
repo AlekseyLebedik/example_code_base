@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueSettings - Queue display login queue settings for Queue 0 1`] = `
+<div
+  className="loginQueueForm"
+>
+  <QueueStateSelector
+    canEditQueueState={false}
+    error=""
+    queueState={true}
+    setQueueState={[Function]}
+  />
+  <MaxLoginRate
+    canEditLoginRate={false}
+    error=""
+    setTargetRateLimit={[Function]}
+    targetRateLimit={12}
+  />
+  <QueueClosedCode
+    canEditErrorCode={false}
+    error=""
+    queueClosedCode={30001}
+    setQueueClosedCode={[Function]}
+  />
+  <LoginQueueDialog
+    handleClose={[Function]}
+    handleSave={[Function]}
+    openDialog={false}
+    subText="Queue 0's Changes:"
+  />
+</div>
+`;
+
+exports[`LoginQueueSettings - Queue display login queue settings for Queue 1 1`] = `
+<div
+  className="loginQueueForm"
+>
+  <QueueStateSelector
+    canEditQueueState={false}
+    error=""
+    queueState={true}
+    setQueueState={[Function]}
+  />
+  <MaxLoginRate
+    canEditLoginRate={false}
+    error=""
+    setTargetRateLimit={[Function]}
+    targetRateLimit={0}
+  />
+  <QueueClosedCode
+    canEditErrorCode={false}
+    error=""
+    queueClosedCode={8911}
+    setQueueClosedCode={[Function]}
+  />
+  <LoginQueueDialog
+    handleClose={[Function]}
+    handleSave={[Function]}
+    openDialog={false}
+    subText="Queue 1's Changes:"
+  />
+</div>
+`;
+
+exports[`LoginQueueSettings - Queue display login queue settings on submitting 1`] = `
+<div
+  className="loginQueueForm"
+>
+  <QueueStateSelector
+    canEditQueueState={false}
+    error=""
+    queueState={true}
+    setQueueState={[Function]}
+  />
+  <MaxLoginRate
+    canEditLoginRate={false}
+    error=""
+    setTargetRateLimit={[Function]}
+    targetRateLimit={0}
+  />
+  <QueueClosedCode
+    canEditErrorCode={false}
+    error=""
+    queueClosedCode={8911}
+    setQueueClosedCode={[Function]}
+  />
+  <LoginQueueDialog
+    handleClose={[Function]}
+    handleSave={[Function]}
+    openDialog={false}
+    subText="Queue 1's Changes:"
+  />
+</div>
+`;

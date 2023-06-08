@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleEnvStats Reducer LEADERBOARD_RANGE_DELETE_SUCCESS delete a leader board range 1`] = `
+Object {
+  "leaderboardRanges": Array [],
+}
+`;
+
+exports[`TitleEnvStats Reducer LEADERBOARD_RANGES_FETCH_SUCCESS fetchs leader board ranges 1`] = `
+Object {
+  "leaderboardRanges": Array [
+    Object {
+      "id": "newId",
+    },
+  ],
+}
+`;

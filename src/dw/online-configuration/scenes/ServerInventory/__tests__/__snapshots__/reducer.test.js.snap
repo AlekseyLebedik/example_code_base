@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServerInventory Reducer SERVERS_ALLOC_FETCH returns initial state 1`] = `
+Object {
+  "lobbies": Array [
+    Object {
+      "id": 1,
+    },
+    Object {
+      "id": 2,
+    },
+  ],
+  "serverList": null,
+  "serversAllocation": Object {
+    "data": Array [],
+    "isLoading": true,
+  },
+}
+`;
+
+exports[`ServerInventory Reducer SERVERS_ALLOC_FETCH_SUCCESS append new entries and ignore existing ones 1`] = `
+Object {
+  "lobbies": Array [
+    Object {
+      "id": 1,
+    },
+    Object {
+      "id": 2,
+    },
+  ],
+  "serverList": null,
+  "serversAllocation": Object {
+    "data": undefined,
+    "isLoading": false,
+  },
+}
+`;
+
+exports[`ServerInventory Reducer returns default state 1`] = `
+Object {
+  "serverList": null,
+  "serversAllocation": Object {
+    "data": Array [],
+    "isLoading": false,
+  },
+}
+`;

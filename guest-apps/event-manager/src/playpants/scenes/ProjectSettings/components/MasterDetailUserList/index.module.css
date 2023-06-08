@@ -1,0 +1,10 @@
+.userBody {
+  position: relative;
+}
+
+.drawer {
+  margin-top: 0px;
+  position: absolute;
+  margin-left: 0;
+  height: 100%;
+}

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventNotesField renders default properly 1`] = `
+<Field
+  component={[Function]}
+  data-cy="createEventNotesField"
+  fullWidth={true}
+  label="Notes"
+  name="eventNotes"
+/>
+`;

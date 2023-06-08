@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountListItem checks if the given item is selected 1`] = `
+<div
+  className="list-item account selected"
+>
+  <Card
+    className="selected"
+    onClick={[MockFunction]}
+  >
+    <div
+      className="flex flex-col"
+    >
+      <div
+        className="flex items-baseline justify-between"
+      >
+        <div
+          className="user-name main-content"
+        >
+          Selected Username
+        </div>
+        <div
+          className="reputation"
+        >
+          Reputation: 
+          11
+        </div>
+      </div>
+      <div
+        id="userId"
+      >
+        123-selected-user-id
+      </div>
+    </div>
+  </Card>
+</div>
+`;
+
+exports[`AccountListItem renders the given item 1`] = `
+<div
+  className="list-item account "
+>
+  <Card
+    className=""
+    onClick={[MockFunction]}
+  >
+    <div
+      className="flex flex-col"
+    >
+      <div
+        className="flex items-baseline justify-between"
+      >
+        <div
+          className="user-name main-content"
+        >
+          username
+        </div>
+        <div
+          className="reputation"
+        >
+          Reputation: 
+          11
+        </div>
+      </div>
+      <div
+        id="userId"
+      >
+        123-user-id
+      </div>
+    </div>
+  </Card>
+</div>
+`;

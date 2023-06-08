@@ -1,0 +1,70 @@
+.cohortContainer {
+  position: relative;
+}
+
+.cohortForm {
+  margin-top: 15px;
+  position: relative;
+  padding-bottom: 0px;
+}
+
+.cohortProps {
+  display: flex;
+  align-items: flex-start;
+  min-height: 78px;
+  margin-top: -10px;
+}
+
+.cohortID {
+  position: absolute;
+  top: 33px;
+  right: 85px;
+}
+
+.deleteButton {
+  padding: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  position: absolute !important;
+  right: -9px;
+  top: -8px;
+  background-color: #fff !important;
+  border-radius: 50% !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.addButton {
+  position: absolute !important;
+  right: 0px;
+  top: -6px;
+}
+
+.cohortInput {
+  margin-right: 10px;
+  min-width: 72px;
+}
+
+.controlCheckbox {
+  width: auto !important;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 414px) {
+  .cohortInput {
+    width: 100% !important;
+  }
+}
+
+.groupOverrideRow {
+  display: table-row-group;
+}
+
+.groupOverrideBox {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.groupOverrideBox1 {
+  display: table-cell;
+  height: 81px;
+}

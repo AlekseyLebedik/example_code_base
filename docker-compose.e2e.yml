@@ -1,0 +1,25 @@
+version: "3.7"
+services:
+  studio:
+    image: docker.las.demonware.net/devzone/devzone-frontend
+    ports:
+      - 3000:80
+    volumes:
+      - ./cypress/app-config-local.js:/usr/local/apache2/htdocs/app-config.js
+    networks:
+      default:
+        aliases:
+          - studio.local
+  e2e:
+    build:
+      context: .
+      dockerfile: Dockerfile.test
+    volumes:
+      - /app/node_modules
+      - ./:/app
+    command: ["npm", "run", "ci:e2e:local"]
+
+networks:
+  default:
+    external:
+      name: devzone_default

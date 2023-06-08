@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagCellRenderer renders TagCellRenderer component given no value 1`] = `
+<span>
+  No tags
+</span>
+`;
+
+exports[`TagCellRenderer renders TagCellRenderer component with tags 1`] = `
+<span>
+  <KeyValueChip
+    chipKey="key_1"
+    chipValue="1"
+    color="primary"
+    key="key_1_1"
+    size="small"
+  />
+  <KeyValueChip
+    chipKey="key_2"
+    chipValue="2"
+    color="primary"
+    key="key_2_2"
+    size="small"
+  />
+</span>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventFilterGroupStateless renders default EventFilterGroupStateless empty 1`] = `
+<WithStyles(ForwardRef(List))
+  className="list"
+>
+  <div
+    className="listSubheader"
+  >
+    <WithStyles(ForwardRef(FormControlLabel))
+      checked={false}
+      classes={
+        Object {
+          "label": undefined,
+          "root": undefined,
+        }
+      }
+      control={
+        <WithStyles(ForwardRef(Tooltip))
+          disableFocusListener={true}
+          disableHoverListener={true}
+          disableTouchListener={true}
+          title="Click to retry undefined source fetch"
+        >
+          <WithStyles(ForwardRef(Checkbox))
+            classes={
+              Object {
+                "checked": undefined,
+                "root": "checkbox",
+              }
+            }
+            disableRipple={true}
+            indeterminate={false}
+            onChange={[Function]}
+          />
+        </WithStyles(ForwardRef(Tooltip))>
+      }
+      key="calendarEventSelector/undefined"
+    />
+    <WithStyles(ForwardRef(Tooltip))
+      placement="right"
+      title="Color by Event undefined"
+    >
+      <WithStyles(ForwardRef(Radio))
+        checked={false}
+        className="radioButton"
+        color="primary"
+        disableRipple={true}
+        onClick={[Function]}
+        size="small"
+      />
+    </WithStyles(ForwardRef(Tooltip))>
+  </div>
+</WithStyles(ForwardRef(List))>
+`;

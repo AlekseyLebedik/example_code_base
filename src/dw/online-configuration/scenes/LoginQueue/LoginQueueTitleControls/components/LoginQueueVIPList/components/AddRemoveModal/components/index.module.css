@@ -1,0 +1,41 @@
+.loginQueueDialogHeadHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loginQueueDialogText {
+  font-weight: 500;
+  padding: 0 6px;
+}
+
+.loginQueueDialogTextHead {
+  color: gray;
+  margin-right: 10px;
+}
+
+.loginQueueDialogTextSub {
+  color: orange;
+}
+
+.loginQueueDialogHeaderButtons {
+  width: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.loginQueueInputBox {
+  width: 95%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.loginQueueInputBoxContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.loginQueueInputBox:focus {
+  outline: none;
+}

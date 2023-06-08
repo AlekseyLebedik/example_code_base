@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabWithTableStateles renders default values 1`] = `
+<div
+  className="tab-with-table flex-rows-container blah"
+>
+  <div
+    className="scrollable-content with-inner-padding"
+  >
+    <div
+      className="empty"
+    >
+      No data to display
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TabWithTableStateles renders with custom placeholder 1`] = `
+<div
+  className="tab-with-table flex-rows-container blah"
+>
+  <SearchComponent
+    advancedSearchFields={Array []}
+    className=""
+    defaultSearchField={Object {}}
+    iconClassName=""
+    initialValue=""
+    onSearch={[Function]}
+    placeholder=""
+    searchOnChange={false}
+  />
+  <div
+    className="scrollable-content with-inner-padding"
+  >
+    <Connect(TableHydrated)
+      columns={
+        Array [
+          Object {
+            "dataIndex": "currencyID",
+            "key": "currencyID",
+            "title": "Currency ID",
+          },
+          Object {
+            "dataIndex": "currencyCode",
+            "key": "currencyCode",
+            "title": "Code",
+          },
+        ]
+      }
+      data={
+        Array [
+          Object {
+            "currencyCode": "cod_points",
+            "currencyID": 1,
+            "key": 0,
+            "paymentProviderCode": null,
+          },
+        ]
+      }
+      pagination={false}
+    />
+  </div>
+  <NextPageButton
+    isLoading={false}
+    label="Show More"
+    nextPageToken="CAE"
+    onClick={[MockFunction]}
+  />
+</div>
+`;

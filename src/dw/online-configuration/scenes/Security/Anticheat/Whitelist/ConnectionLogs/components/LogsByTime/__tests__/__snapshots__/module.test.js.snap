@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - Anticheat - Whitelist - Connectionlogs - Bytime Reducer Test append = false 1`] = `
+Object {
+  "connectionLogs": Array [
+    3,
+    4,
+  ],
+  "nextPageToken": "CAE",
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - Connectionlogs - Bytime Reducer Test append = true 1`] = `
+Object {
+  "connectionLogs": Array [
+    1,
+    2,
+    3,
+    4,
+  ],
+  "nextPageToken": "CAE",
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - Connectionlogs - Bytime Reducer handle CONNECTION_LOGS_FETCH_SUCCESS: connectionLogs and nextPagetoken assignation 1`] = `
+Object {
+  "connectionLogs": Array [
+    Object {
+      "connectionID": "521629087527720243",
+      "consoleID": "xboxone",
+      "externalAddr": "49.246.46.6",
+      "internalAddr": "1.126.246.222",
+      "success": 1,
+      "updateTime": 1531210756,
+      "userID": "1433537325841258812",
+      "username": "AnonymousHostUser",
+    },
+  ],
+  "nextPageToken": "CAE",
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - Connectionlogs - Bytime Reducer handle CONNECTION_LOGS_FETCH_SUCCESS: empty results 1`] = `
+Object {
+  "connectionLogs": Array [],
+  "nextPageToken": null,
+}
+`;
+
+exports[`Security - Anticheat - Whitelist - Connectionlogs - Bytime Reducer return the initial state 1`] = `
+Object {
+  "connectionLogs": Array [],
+  "nextPageToken": null,
+}
+`;

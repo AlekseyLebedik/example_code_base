@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Summary DetailRenderer Title Summary DetailRenderer renders props correctly 1`] = `
+<div
+  className="titleSummaryContainer"
+  data-cy="playerViewTitleSummaryDetails"
+  key="5"
+>
+  <div>
+    <div>
+      Last Played
+    </div>
+    <div
+      className="lastPlayedText"
+      key="detailLoginTimes/0/5"
+    >
+       
+    </div>
+    <div
+      className="lastPlayedText"
+      key="detailLoginTimes/1/5"
+    >
+       
+    </div>
+    <div
+      className="lastPlayedText"
+      key="detailLoginTimes/2/5"
+    >
+       
+    </div>
+    <div>
+      Rank
+    </div>
+    <div>
+      Prestige Level
+    </div>
+    <div>
+      Time Played Total
+    </div>
+    <div>
+      Score per minute
+    </div>
+    <div>
+      Score per game
+    </div>
+    <div>
+      Kill death ratio
+    </div>
+  </div>
+  <div>
+    <div
+      className="flex flex-col lastPlayedText"
+      key="detailLogin/6-xb1-1592134201"
+    >
+      6    XB1    Jun 14 11:30 am 
+    </div>
+    <div
+      className="flex flex-col lastPlayedText"
+      key="detailLogin/4-ps4-1592047801"
+    >
+      4    PS4    Jun 13 11:30 am 
+    </div>
+    <div
+      className="flex flex-col lastPlayedText"
+      key="detailLogin/1-ps4-1591961341"
+    >
+      1    PS4    Jun 12 11:29 am 
+    </div>
+    <div
+      className="flex flex-col lastPlayedText"
+      key="detailLogin/5-xb1-1591788541"
+    >
+      5    XB1    Jun 10 11:29 am 
+    </div>
+    <div
+      className="flex flex-col"
+    >
+      4
+    </div>
+    <div
+      className="flex flex-col"
+    >
+      1
+    </div>
+    <div
+      className="flex flex-col"
+    >
+      12 hours 0 minutes
+    </div>
+    <div
+      className="flex flex-col"
+    >
+      2034.34
+    </div>
+    <div
+      className="flex flex-col"
+    >
+      3034.5
+    </div>
+    <div
+      className="flex flex-col"
+    >
+      1.325
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Title Summary DetailRenderer Title Summary DetailRenderer renders undefined optional props correctly 1`] = `
+<div
+  className="titleSummaryContainer"
+  data-cy="playerViewTitleSummaryDetails"
+  key="5"
+>
+  <div>
+    <div>
+      Last Played
+    </div>
+    <div>
+      Rank
+    </div>
+    <div>
+      Prestige Level
+    </div>
+    <div>
+      Time Played Total
+    </div>
+    <div>
+      Score per minute
+    </div>
+    <div>
+      Score per game
+    </div>
+    <div>
+      Kill death ratio
+    </div>
+  </div>
+  <div>
+    -
+    <div
+      className="flex flex-col"
+    >
+      -
+    </div>
+    <div
+      className="flex flex-col"
+    >
+      -
+    </div>
+    <div
+      className="flex flex-col"
+    >
+      -
+    </div>
+    <div
+      className="flex flex-col"
+    >
+      -
+    </div>
+    <div
+      className="flex flex-col"
+    >
+      -
+    </div>
+    <div
+      className="flex flex-col"
+    >
+      -
+    </div>
+  </div>
+</div>
+`;

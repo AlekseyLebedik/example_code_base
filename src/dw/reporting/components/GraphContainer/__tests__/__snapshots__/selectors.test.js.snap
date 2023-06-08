@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GraphContainer selectors buildSeries no colors 1`] = `
+Array [
+  Object {
+    "color": undefined,
+    "id": 1,
+    "name": "My cool project",
+    "short": "mcp",
+    "visible": false,
+  },
+  Object {
+    "color": undefined,
+    "id": 2,
+    "name": "total",
+    "short": "total",
+    "visible": true,
+  },
+]
+`;
+
+exports[`GraphContainer selectors buildSeries with colors 1`] = `
+Array [
+  Object {
+    "color": "red",
+    "id": 1,
+    "name": "My cool project",
+    "short": "mcp",
+    "visible": false,
+  },
+  Object {
+    "color": "green",
+    "id": 2,
+    "name": "total",
+    "short": "total",
+    "visible": true,
+  },
+]
+`;

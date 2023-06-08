@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatelessProjectSettings Tabs should always render 1`] = `
+<WithStyles(ForwardRef(Tabs))
+  indicatorColor="primary"
+  textColor="primary"
+  value="responsibilities"
+>
+  <WithStyles(ForwardRef(Tab))
+    component={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    key="responsibilities"
+    label="Responsibilities"
+    to="/event-manager/5681/project-settings/responsibilities"
+    value="responsibilities"
+  />
+  <WithStyles(ForwardRef(Tab))
+    component={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    key="gamertag-management"
+    label="Groups"
+    to="/event-manager/5681/project-settings/gamertag-management"
+    value="gamertag-management"
+  />
+  <WithStyles(ForwardRef(Tab))
+    component={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "render": [Function],
+      }
+    }
+    key="settings"
+    label="Settings"
+    to="/event-manager/5681/project-settings/settings"
+    value="settings"
+  />
+</WithStyles(ForwardRef(Tabs))>
+`;
+
+exports[`StatelessProjectSettings renders correctly 1`] = `
+<RedirectHandler
+  list={
+    Array [
+      "responsibilities",
+      "gamertag-management",
+      "settings",
+    ]
+  }
+  matchParam="responsibilities"
+  url="/event-manager/5681/project-settings/responsibilities/groups"
+>
+  <WithStyles(ForwardRef(Tabs))
+    indicatorColor="primary"
+    textColor="primary"
+    value="responsibilities"
+  >
+    <WithStyles(ForwardRef(Tab))
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      key="responsibilities"
+      label="Responsibilities"
+      to="/event-manager/5681/project-settings/responsibilities"
+      value="responsibilities"
+    />
+    <WithStyles(ForwardRef(Tab))
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      key="gamertag-management"
+      label="Groups"
+      to="/event-manager/5681/project-settings/gamertag-management"
+      value="gamertag-management"
+    />
+    <WithStyles(ForwardRef(Tab))
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      key="settings"
+      label="Settings"
+      to="/event-manager/5681/project-settings/settings"
+      value="settings"
+    />
+  </WithStyles(ForwardRef(Tabs))>
+  <Connect(ResponsibilitiesBase)
+    Responsibilities={
+      Object {
+        "group": Object {
+          "members": Object {
+            "data": Array [
+              Object {
+                "email": "admin@test.com",
+                "id": 3,
+                "name": "Admin",
+                "username": "admin",
+              },
+              Object {
+                "email": "noreply@demonware.net",
+                "id": 1,
+                "name": "Initial User",
+                "username": "username",
+              },
+            ],
+            "loading": false,
+            "next": null,
+            "params": Object {
+              "id": "7",
+            },
+          },
+        },
+        "groups": Object {
+          "data": Array [
+            Object {
+              "description": "",
+              "id": 1,
+              "name": "GTR Group 1",
+              "project": 1,
+            },
+            Object {
+              "description": "",
+              "id": 6,
+              "name": "asdf",
+              "project": 1,
+            },
+            Object {
+              "description": "asdf",
+              "id": 2,
+              "name": "GTR Group",
+              "project": 1,
+            },
+            Object {
+              "description": "",
+              "id": 3,
+              "name": "New Group",
+              "project": 1,
+            },
+            Object {
+              "description": "",
+              "id": 5,
+              "name": "sanghawk group test",
+              "project": 1,
+            },
+            Object {
+              "description": "",
+              "id": 7,
+              "name": "sanghawk group testsdfgsdf",
+              "project": 1,
+            },
+          ],
+          "loading": false,
+          "next": null,
+          "params": Object {
+            "project": 1,
+          },
+        },
+        "responsibilityGroups": Object {
+          "data": Array [
+            Object {
+              "env_type": "Certification",
+              "group": 7,
+              "id": 25,
+              "project": 1,
+              "responsibilities": Array [
+                3,
+              ],
+              "user": null,
+            },
+            Object {
+              "env_type": "Development",
+              "group": 7,
+              "id": 26,
+              "project": 1,
+              "responsibilities": Array [],
+              "user": null,
+            },
+          ],
+          "loading": false,
+          "next": null,
+          "params": Object {
+            "group": "7",
+            "project": 1,
+          },
+        },
+        "responsibilityOptions": Object {
+          "data": Array [
+            Object {
+              "code": "authorize_pubstorage",
+              "id": 1,
+              "name": "Authorize | Publisher Storage",
+            },
+            Object {
+              "code": "authorize_motd",
+              "id": 2,
+              "name": "Authorize | MOTD",
+            },
+            Object {
+              "code": "authorize_playlist",
+              "id": 3,
+              "name": "Authorize | Playlists",
+            },
+            Object {
+              "code": "authorize_pubvars",
+              "id": 4,
+              "name": "Authorize | Publisher Variables",
+            },
+            Object {
+              "code": "authorize_pyscript",
+              "id": 5,
+              "name": "Authorize | PyScript",
+            },
+            Object {
+              "code": "authorize_publisher_objects",
+              "id": 6,
+              "name": "Authorize | Publisher Objects",
+            },
+          ],
+          "loading": false,
+          "next": null,
+        },
+        "user": Object {
+          "assignedGroups": Object {
+            "data": Array [
+              Object {
+                "description": "",
+                "id": 1,
+                "name": "Group 1",
+                "project": 1,
+              },
+            ],
+            "loading": false,
+            "next": null,
+            "params": Object {
+              "project": 1,
+              "userID": 1,
+            },
+          },
+        },
+      }
+    }
+    Schemas={
+      Object {
+        "data": Array [],
+        "loading": false,
+      }
+    }
+    Users={
+      Object {
+        "availableUsers": Object {
+          "data": Array [
+            Object {
+              "_links": Object {
+                "self": Object {
+                  "href": "http://127.0.0.1:8081/api/v2/users/3/",
+                },
+              },
+              "email": "admin@test.com",
+              "enabled": true,
+              "id": 3,
+              "isSuperuser": false,
+              "name": "Admin",
+              "username": "admin",
+            },
+            Object {
+              "_links": Object {
+                "self": Object {
+                  "href": "http://127.0.0.1:8081/api/v2/users/4/",
+                },
+              },
+              "email": "guest@test.com",
+              "enabled": true,
+              "id": 4,
+              "isSuperuser": false,
+              "name": "Guest",
+              "username": "guest",
+            },
+            Object {
+              "_links": Object {
+                "self": Object {
+                  "href": "http://127.0.0.1:8081/api/v2/users/1/",
+                },
+              },
+              "email": "noreply@demonware.net",
+              "enabled": true,
+              "id": 1,
+              "isSuperuser": true,
+              "name": "Initial User",
+              "username": "username",
+            },
+            Object {
+              "_links": Object {
+                "self": Object {
+                  "href": "http://127.0.0.1:8081/api/v2/users/2/",
+                },
+              },
+              "email": "readonly@test.com",
+              "enabled": true,
+              "id": 2,
+              "isSuperuser": false,
+              "name": "Readonly",
+              "username": "readonly",
+            },
+          ],
+          "loading": false,
+          "next": null,
+          "params": Object {
+            "sort": "name",
+          },
+        },
+        "userListFilters": Object {
+          "query": "",
+        },
+      }
+    }
+    addUserToast={[MockFunction]}
+    baseUrl="/event-manager/5681/"
+    classes={
+      Object {
+        "eventManager": "makeStyles-eventManager-1",
+        "masterDetailDrawerPaper": "makeStyles-masterDetailDrawerPaper-3",
+        "masterDetailExpander": "makeStyles-masterDetailExpander-2",
+      }
+    }
+    currentAuthSettings={
+      Array [
+        Object {
+          "env": "Certification",
+          "setting": Object {
+            "motd": Array [
+              3,
+            ],
+            "objectStore": Array [
+              3,
+            ],
+            "playlist": Array [
+              3,
+            ],
+            "pubstorage": Array [
+              3,
+            ],
+            "pubvars": Array [
+              3,
+            ],
+            "pyscript": Array [
+              3,
+            ],
+          },
+          "settingID": 4,
+          "title": 1,
+          "titleName": "PS3",
+        },
+      ]
+    }
+    currentProject={
+      Object {
+        "contentTypeId": 19,
+        "id": 1,
+        "name": "GTR Project",
+        "titles": Array [
+          Object {
+            "environments": Array [
+              Object {
+                "contentTypeId": 8,
+                "id": 2,
+                "shortType": "cert",
+                "type": "Certification",
+                "usesABTesting": true,
+                "usesAE": true,
+                "usesAsyncMMP": false,
+                "usesLegacyStore": false,
+                "usesMarketplace": true,
+                "usesObjectStore": true,
+              },
+              Object {
+                "contentTypeId": 8,
+                "id": 1,
+                "shortType": "dev",
+                "type": "Development",
+                "usesABTesting": true,
+                "usesAE": true,
+                "usesAsyncMMP": false,
+                "usesLegacyStore": false,
+                "usesMarketplace": true,
+                "usesObjectStore": true,
+              },
+            ],
+            "id": 1,
+            "name": "GTR-PS3",
+            "platform": "PS3",
+          },
+        ],
+      }
+    }
+    hasCurrentProjectSettings={true}
+    match={
+      Object {
+        "params": Object {
+          "category": "responsibilities",
+          "id": 1,
+          "subcategory": "users",
+        },
+        "path": "?category=responsibilities?subcategory=users?id=1",
+      }
+    }
+    onFetchAvailableUsers={[MockFunction]}
+    selectedSubTab="users"
+    selectedTab="users"
+    updateProjectSetting={[MockFunction]}
+  />
+</RedirectHandler>
+`;
+
+exports[`StatelessProjectSettings should always render a section title 1`] = `null`;

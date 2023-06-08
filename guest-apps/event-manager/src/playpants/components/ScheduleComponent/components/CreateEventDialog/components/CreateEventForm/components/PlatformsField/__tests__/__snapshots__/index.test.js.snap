@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventPlatformsField renders default properly 1`] = `
+<Field
+  avatarRenderer={[Function]}
+  component={[Function]}
+  fullWidth={true}
+  label="Platforms"
+  multiple={true}
+  name="eventPlatforms"
+  options={
+    Array [
+      Object {
+        "label": "CROSSPLAY",
+        "value": "CROSSPLAY",
+      },
+      Object {
+        "label": "PC",
+        "value": "PC",
+      },
+      Object {
+        "label": "PS4",
+        "value": "PS4",
+      },
+      Object {
+        "label": "SWITCH",
+        "value": "SWITCH",
+      },
+      Object {
+        "label": "XB1",
+        "value": "XB1",
+      },
+    ]
+  }
+  validate={
+    Array [
+      [Function],
+    ]
+  }
+/>
+`;

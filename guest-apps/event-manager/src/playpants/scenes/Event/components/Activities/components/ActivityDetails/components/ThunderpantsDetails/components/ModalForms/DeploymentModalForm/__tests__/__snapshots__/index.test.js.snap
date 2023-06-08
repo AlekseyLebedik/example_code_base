@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeploymentModalForm renders default 1`] = `
+<Connect(ModalForm)
+  FormComponent={
+    Object {
+      "$$typeof": Symbol(react.memo),
+      "WrappedComponent": [Function],
+      "compare": null,
+      "displayName": "Connect(ThunderpantsDeploymentForm)",
+      "type": [Function],
+    }
+  }
+  cancelOnBackdropClick={true}
+  dialogContentStyle={
+    Object {
+      "display": "grid",
+      "minHeight": "800px",
+    }
+  }
+  formName="ThunderpantsParamsForm"
+  fullWidth={true}
+  isFormDeploymentType={false}
+  onFormSubmit={[MockFunction]}
+  primaryButtonProps={
+    Object {
+      "form": "ThunderpantsParamsForm",
+      "onClick": null,
+      "type": "submit",
+    }
+  }
+  pristine={false}
+  submitText="Edit"
+  submittingText="Editing..."
+  title="Edit Build"
+/>
+`;

@@ -1,0 +1,50 @@
+._404__container {
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._404__content {
+  text-align: center;
+  margin: 24px 0;
+}
+
+._404__container .first {
+  color: #40b8ef;
+  font-size: 330px;
+  line-height: 1.25;
+  font-weight: 100;
+}
+
+._404__container .second {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 57px;
+}
+
+._404__container .third {
+  color: #000000;
+
+  line-height: 21px;
+  margin-top: 40px;
+}
+
+._404__container .actions {
+  margin-top: 35px;
+  opacity: 0.54;
+}
+
+._404__container .actions a {
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  ._404__container .first {
+    font-size: 170px;
+  }
+  ._404__container .second {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropagateDialog renders 1`] = `
+<DialogComponent
+  actions={
+    Array [
+      <WithStyles(ForwardRef(Button))
+        disabled={false}
+        onClick={[MockFunction]}
+      >
+        Cancel
+      </WithStyles(ForwardRef(Button))>,
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Confirm Propagation
+      </WithStyles(ForwardRef(Button))>,
+    ]
+  }
+  cancelOnBackdropClick={false}
+  classes={Object {}}
+  contentStyle={Object {}}
+  fullWidth={true}
+  maxWidth="md"
+  modal={true}
+  onRequestClose={[MockFunction]}
+  open={true}
+  title={
+    <div
+      className="makeStyles-title-1"
+    >
+      Propagate
+      <WithStyles(ForwardRef(FormControlLabel))
+        control={
+          <WithStyles(ForwardRef(Checkbox))
+            checked={false}
+            name="syncSource"
+            onChange={[Function]}
+          />
+        }
+        label="Additive changes only"
+      />
+      <WithStyles(ForwardRef(Tooltip))
+        title="It will not overwrite or remove any existing variables."
+      >
+        <WithStyles(ForwardRef(Icon))>
+          help
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(Tooltip))>
+    </div>
+  }
+>
+  <div
+    className="makeStyles-content-2"
+  >
+    <label>
+      (5830) BO5 CrossPlay Scratch Dev
+    </label>
+    <span>
+      to
+    </span>
+    <label>
+      (5830) BO5 CrossPlay Scratch Dev &gt; tu_01
+    </label>
+  </div>
+  <br />
+  <p>
+    The draft would be created automatically on the target environment
+  </p>
+  <ForwardRef
+    InputLabelProps={
+      Object {
+        "shrink": true,
+      }
+    }
+    autoFocus={true}
+    error={false}
+    fullWidth={true}
+    initialValue="Applied from (5830) BO5 CrossPlay Scratch Dev"
+    label="Draft Name"
+    scopeURI="cod:iw:5830:tu_01"
+  />
+  <br />
+  <br />
+  <p>
+    You have to review and release it to apply the changes.
+  </p>
+  <p>
+    Are you sure you want to continue?
+  </p>
+</DialogComponent>
+`;

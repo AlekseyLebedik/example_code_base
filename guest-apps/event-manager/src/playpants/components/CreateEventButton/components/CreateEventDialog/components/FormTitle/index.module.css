@@ -1,0 +1,20 @@
+.formTitleContainer {
+  display: flex;
+}
+
+.infoSwitch {
+  margin-left: auto;
+}
+
+.globalCheckbox {
+  margin-left: 10px;
+}
+
+.checkboxAutoMargin {
+  margin-left: auto;
+}
+
+.infoSwitch,
+.globalCheckbox {
+  margin-top: -10px;
+}

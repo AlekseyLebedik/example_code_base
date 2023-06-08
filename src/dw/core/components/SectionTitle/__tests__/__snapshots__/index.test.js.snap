@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SectionTitle renders the number of shown items 1`] = `
+<SectionTitle
+  classes={
+    Object {
+      "appBar": "SectionTitle-appBar-1",
+    }
+  }
+  color="primary"
+  extraContent={null}
+  shown={123}
+  small={false}
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [Function],
+      "subscribe": [MockFunction],
+    }
+  }
+  style={Object {}}
+  title="Test Title"
+  total={null}
+/>
+`;
+
+exports[`SectionTitle renders without crashing 1`] = `
+<SectionTitle
+  classes={
+    Object {
+      "appBar": "SectionTitle-appBar-1",
+    }
+  }
+  color="primary"
+  extraContent={null}
+  shown={null}
+  small={false}
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [Function],
+      "subscribe": [MockFunction],
+    }
+  }
+  style={Object {}}
+  title="Test Title"
+  total={null}
+/>
+`;

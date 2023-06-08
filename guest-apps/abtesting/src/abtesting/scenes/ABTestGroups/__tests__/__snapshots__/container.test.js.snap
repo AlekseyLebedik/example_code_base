@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTestingGroup container renders the presentational component 1`] = `
+<WithStyles(GroupComponent)
+  baseUrl="?id=1"
+  changeContext={[Function]}
+  fetchGroups={[Function]}
+  history={
+    Object {
+      "location": Object {
+        "search": Object {},
+      },
+      "replace": [MockFunction],
+    }
+  }
+  items={
+    Array [
+      Object {
+        "description": "G1",
+        "groupID": 1,
+        "groupName": "g1",
+      },
+      Object {
+        "description": "G2",
+        "groupID": 2,
+        "groupName": "g2",
+      },
+    ]
+  }
+  loading={false}
+  match={
+    Object {
+      "params": Object {
+        "id": 1,
+      },
+      "path": "?id=1",
+      "url": "test/blah",
+    }
+  }
+  onSearch={[Function]}
+  selectedItem={
+    Object {
+      "description": "G1",
+      "groupID": 1,
+      "groupName": "g1",
+    }
+  }
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

@@ -1,0 +1,11 @@
+.list-item.call .start-time {
+  text-align: right;
+  margin-top: 3px;
+}
+
+.list-item.call .service-name {
+  width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,21 @@
+.dropdownContainer {
+  margin-left: 5px;
+}
+
+.linkStyles {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.iconStyle {
+  color: white;
+  opacity: 0.5;
+  transition: 0.2s all ease-in;
+}
+
+.iconStyle:hover {
+  opacity: 1;
+}
+
+.label {
+  font-weight: 700;
+}

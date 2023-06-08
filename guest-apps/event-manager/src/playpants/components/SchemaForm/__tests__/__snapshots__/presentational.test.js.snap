@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SchemaFormStateless always renders AG-Grid 1`] = `<AgGridReact />`;
+
+exports[`SchemaFormStateless renders the component correctly 1`] = `
+<Fragment>
+  <div
+    className="gridContainer"
+  >
+    <div
+      className="table ag-theme-material"
+    >
+      <AgGridReact />
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`SchemaFormStateless renders the component correctly if needs update 1`] = `
+<Fragment>
+  <ConfirmActionComponent
+    actionTrigger="onClick"
+    changeCopyPermission={null}
+    className="warningButton"
+    color="secondary"
+    component="IconButton"
+    confirm={
+      Object {
+        "confirmMsg": "This schema has been updated. Please update the input settings for this activity to unlock it. Any dropped input types from the previous version will be archived.",
+        "confirmOpen": true,
+        "mainButtonLabel": "Update",
+        "title": "Confirm Version Update",
+      }
+    }
+    disabled={false}
+    onClick={[MockFunction]}
+    tooltip="Update Schema Version"
+  >
+    warning
+  </ConfirmActionComponent>
+  <div
+    className="gridContainer"
+  >
+    <div
+      className="table ag-theme-material"
+    >
+      <AgGridReact />
+    </div>
+  </div>
+</Fragment>
+`;

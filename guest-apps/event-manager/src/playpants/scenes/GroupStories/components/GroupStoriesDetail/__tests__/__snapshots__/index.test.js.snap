@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupStoriesDetail renders default properly 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "@@observable": [Function],
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <GroupStoriesDetailBase
+    currentProject={Object {}}
+    eventManagerStoryEventsData={Array []}
+    eventManagerStoryEventsError={Object {}}
+    eventManagerStoryEventsLoading={true}
+    infoTypes={Array []}
+    informationalStoryEventsData={Array []}
+    informationalStoryEventsError={Object {}}
+    informationalStoryEventsLoading={true}
+    onFetchEventManagerEvents={[MockFunction]}
+    onFetchInformationalEvents={[MockFunction]}
+    onResetGroupStoriesDetail={[MockFunction]}
+    selectedGroupStory={Object {}}
+  />
+</ContextProvider>
+`;

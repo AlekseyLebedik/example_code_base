@@ -1,0 +1,34 @@
+.inputMargin {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+.labelTag {
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.inputMargin:nth-child(1) {
+  width: 25%;
+}
+.inputMargin:nth-child(2) {
+  margin: 0 20px;
+}
+.inputMargin:nth-child(3) {
+  margin-right: 50px;
+}
+
+.inputMargin:nth-child(2),
+.inputMargin:nth-child(3) {
+  margin-bottom: 6px;
+}
+
+.inputMargin:nth-child(2) input,
+.inputMargin:nth-child(3) input {
+  height: 40px;
+  padding-bottom: 0px;
+}
+.buttonSubmitText {
+  color: white;
+}

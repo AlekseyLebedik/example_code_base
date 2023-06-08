@@ -1,0 +1,97 @@
+.sidebarFilters {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Calendar Options */
+
+.calendarOptions * {
+  border: 0 !important;
+}
+
+.calendarEventStatus,
+.calendarEventStatus:focus {
+  box-shadow: none !important;
+  background-color: #fff !important;
+}
+
+/* Calendar Group Select */
+.calendarOptionsSources {
+  composes: calendarOptions;
+  margin-top: -5px;
+}
+
+.calendarOptionsExpanded {
+  margin-bottom: 6px;
+}
+
+/* Env Platform Project */
+.calendarOptionsEnvPlatformProject {
+  composes: calendarOptions;
+  padding-bottom: 5px;
+}
+
+/* Filters Table Grid Cell */
+
+.calendarSidebarFilterGroup {
+  margin: 5px 0px 3px -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.calendarSidebarSourceGroupNoExpand {
+  margin-left: 38px;
+}
+
+.calendarSidebarFilterGroupCheckbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.filterGroupIcon {
+  padding: 1px !important;
+  margin: auto !important;
+}
+
+/* Source Cell */
+
+.calendarSidebarSourceGroup {
+  margin-left: 0px;
+}
+
+.calendarSidebarPropGroup {
+  margin-left: 25px;
+}
+
+.calendarSidebarProp {
+  margin-left: 50px;
+}
+
+.calendarSidebarSubProp {
+  margin-left: 75px;
+}
+
+.loadingSourceIcon {
+  margin: 0px 12px 0px 23px !important;
+}
+
+/* Filter Search */
+
+.search {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin: 15px 16px 0 16px !important;
+  padding: 5px 10px 2px 10px !important;
+  width: 248px;
+  transition: 1s;
+}
+.search:hover,
+.search:focus-within {
+  background-color: rgb(236, 235, 235);
+}
+
+.divider {
+  margin-bottom: 5px !important;
+}

@@ -1,0 +1,7 @@
+.list-item.online-game .left-content {
+  flex: 1 1 260px;
+}
+
+.list-item.online-game .update-time {
+  flex: 1 1 160px;
+}

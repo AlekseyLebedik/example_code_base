@@ -1,0 +1,30 @@
+.details__container.account .user-keys .empty {
+  color: #bdc3c7;
+
+  text-align: center;
+  margin-top: 12%;
+}
+
+.details__container.account .user-keys .add-user-key {
+  position: fixed !important;
+  top: 165px;
+  z-index: 1200;
+  right: 10px;
+  color: white;
+}
+
+.details__container.account .user-keys h6 {
+  margin: 0 0 0 20px;
+}
+
+.details__container.account
+  .user-keys
+  .common__table-hydrated
+  .ant-table-placeholder {
+  text-align: left;
+  padding: 0 0 0 20px;
+}
+
+.details__container.account .user-keys .second--row {
+  margin-top: 50px;
+}

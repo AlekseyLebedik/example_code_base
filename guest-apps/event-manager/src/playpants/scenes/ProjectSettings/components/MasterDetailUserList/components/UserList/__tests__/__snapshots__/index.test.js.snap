@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserList SearchableList should always render 1`] = `
+<SearchableList
+  actions={Array []}
+  applySelectConditionFunc={[Function]}
+  getItemKey={null}
+  infiniteScroll={false}
+  initialValue=""
+  items={
+    Array [
+      Object {
+        "_links": Object {
+          "self": Object {
+            "href": "http://127.0.0.1:8081/api/v2/users/3/",
+          },
+        },
+        "email": "admin@test.com",
+        "enabled": true,
+        "id": 3,
+        "isSuperuser": false,
+        "name": "Admin",
+        "username": "admin",
+      },
+      Object {
+        "_links": Object {
+          "self": Object {
+            "href": "http://127.0.0.1:8081/api/v2/users/4/",
+          },
+        },
+        "email": "guest@test.com",
+        "enabled": true,
+        "id": 4,
+        "isSuperuser": false,
+        "name": "Guest",
+        "username": "guest",
+      },
+      Object {
+        "_links": Object {
+          "self": Object {
+            "href": "http://127.0.0.1:8081/api/v2/users/1/",
+          },
+        },
+        "email": "noreply@demonware.net",
+        "enabled": true,
+        "id": 1,
+        "isSuperuser": true,
+        "name": "Initial User",
+        "username": "username",
+      },
+      Object {
+        "_links": Object {
+          "self": Object {
+            "href": "http://127.0.0.1:8081/api/v2/users/2/",
+          },
+        },
+        "email": "readonly@test.com",
+        "enabled": true,
+        "id": 2,
+        "isSuperuser": false,
+        "name": "Readonly",
+        "username": "readonly",
+      },
+    ]
+  }
+  loadingMaster={false}
+  loadingTimeout={0}
+  onSearch={[MockFunction]}
+  onShowMore={[Function]}
+  placeholder="UserID | Username"
+  searchEnabled={true}
+  showMore={true}
+  toRenderFunc={[Function]}
+/>
+`;
+
+exports[`UserList renders default properly 1`] = `
+<Fragment>
+  <WithStyles(SectionTitle)
+    color="default"
+    shown={4}
+    title="Available Users"
+  />
+  <SearchableList
+    actions={Array []}
+    applySelectConditionFunc={[Function]}
+    getItemKey={null}
+    infiniteScroll={false}
+    initialValue=""
+    items={
+      Array [
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/3/",
+            },
+          },
+          "email": "admin@test.com",
+          "enabled": true,
+          "id": 3,
+          "isSuperuser": false,
+          "name": "Admin",
+          "username": "admin",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/4/",
+            },
+          },
+          "email": "guest@test.com",
+          "enabled": true,
+          "id": 4,
+          "isSuperuser": false,
+          "name": "Guest",
+          "username": "guest",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/1/",
+            },
+          },
+          "email": "noreply@demonware.net",
+          "enabled": true,
+          "id": 1,
+          "isSuperuser": true,
+          "name": "Initial User",
+          "username": "username",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/2/",
+            },
+          },
+          "email": "readonly@test.com",
+          "enabled": true,
+          "id": 2,
+          "isSuperuser": false,
+          "name": "Readonly",
+          "username": "readonly",
+        },
+      ]
+    }
+    loadingMaster={false}
+    loadingTimeout={0}
+    onSearch={[MockFunction]}
+    onShowMore={[Function]}
+    placeholder="UserID | Username"
+    searchEnabled={true}
+    showMore={true}
+    toRenderFunc={[Function]}
+  />
+</Fragment>
+`;

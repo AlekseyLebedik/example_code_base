@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Graph Reducer action STAT_CLEAR_CHART clears graph data 1`] = `
+Object {
+  "graphs": Object {},
+}
+`;
+
+exports[`Graph Reducer action STAT_DATA_FETCH clears graph data and sets loading to true if start and end not set (initial load) 1`] = `
+Object {
+  "graphs": Object {
+    "users-online": Object {
+      "data": Array [
+        1,
+        2,
+      ],
+      "loading": false,
+      "max": 5,
+      "min": 1,
+      "navigatorData": Array [
+        1,
+        4,
+      ],
+    },
+  },
+}
+`;
+
+exports[`Graph Reducer action STAT_DATA_FETCH does not modify state if start and end set 1`] = `
+Object {
+  "graphs": Object {
+    "users-online": Object {
+      "data": Array [
+        1,
+        2,
+      ],
+      "loading": false,
+      "max": 5,
+      "min": 1,
+      "navigatorData": Array [
+        1,
+        4,
+      ],
+    },
+  },
+}
+`;
+
+exports[`Graph Reducer action STAT_DATA_FETCH_SUCCESS sets statData 1`] = `
+Object {
+  "graphs": Object {
+    "users-online": Object {
+      "data": Array [
+        1000,
+        2000,
+      ],
+      "loading": false,
+      "max": 500,
+      "min": 200,
+      "navigatorData": Array [
+        1,
+        4,
+      ],
+    },
+  },
+}
+`;
+
+exports[`Graph Reducer action STAT_DATA_INITIAL_FETCH_SUCCESS sets navigatorData 1`] = `
+Object {
+  "graphs": Object {
+    "users-online": Object {
+      "data": Array [
+        100,
+        200,
+      ],
+      "navigatorData": undefined,
+      "series": Array [],
+    },
+  },
+}
+`;
+
+exports[`Graph Reducer default action returns default state 1`] = `
+Object {
+  "graphs": Object {},
+}
+`;

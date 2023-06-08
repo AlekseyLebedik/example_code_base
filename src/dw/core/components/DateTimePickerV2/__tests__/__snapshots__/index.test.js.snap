@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateTimePicker component renders text field with clear button 1`] = `
+<React.Fragment>
+  
+  <React.Fragment>
+    <WithStyles(ForwardRef(Divider))
+      className="makeStyles-divider-6"
+      orientation="vertical"
+    />
+    <WithStyles(ForwardRef(InputAdornment))
+      position="end"
+    >
+      <IconButton
+        className="makeStyles-iconButton-4"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(Icon))
+          fontSize="small"
+        >
+          event
+        </WithStyles(ForwardRef(Icon))>
+      </IconButton>
+    </WithStyles(ForwardRef(InputAdornment))>
+  </React.Fragment>
+</React.Fragment>
+`;

@@ -1,0 +1,1 @@
+export const TEMPLATE_FORM_NAME = 'TEMPLATE_FORM_NAME';

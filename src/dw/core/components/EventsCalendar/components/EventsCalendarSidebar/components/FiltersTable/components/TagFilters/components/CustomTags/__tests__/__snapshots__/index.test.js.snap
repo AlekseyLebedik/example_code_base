@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTags renders correctly with no userTags 1`] = `
+<div
+  className="calendarOptions"
+>
+  <CustomTagCell
+    checked={true}
+    classes={Object {}}
+    filters={
+      Object {
+        "customTags": Object {
+          "unspecified": true,
+          "userTags": Object {
+            "0": Object {
+              "checked": true,
+              "tags": Array [
+                "PS4",
+                "XBOX",
+              ],
+            },
+            "1": Object {
+              "checked": true,
+              "tags": Array [
+                "COD",
+                "BO4",
+              ],
+            },
+          },
+        },
+        "environments": Object {
+          "Certification": true,
+          "Cross Environment": true,
+          "Development": true,
+          "Live": true,
+        },
+        "gamertags": Object {},
+        "platforms": Object {
+          "CROSSPLAY": true,
+          "PC": true,
+          "PS4": true,
+          "SWITCH": true,
+          "Unspecified": true,
+          "XB1": true,
+        },
+        "projects": Object {
+          "Call of Duty: Modern Warfare 2": true,
+          "Cross Project": true,
+          "GTR Project": true,
+          "Permissions: Test 1": true,
+        },
+        "sources": Object {
+          "abTesting": Object {
+            "active": false,
+            "analysis": false,
+            "archived": false,
+            "config": false,
+            "killed": false,
+          },
+          "demonwareEvents": Object {
+            "criticalEvents": true,
+            "generalComments": true,
+            "incidents": true,
+            "maintenance": true,
+          },
+          "eventManager": Object {
+            "applied": false,
+            "approved": true,
+            "cancelled": false,
+            "expired": false,
+            "pending": false,
+            "rejected": false,
+            "scheduled": false,
+            "test-failed": false,
+            "testing": false,
+          },
+          "externalEvents": Object {
+            "holidays": true,
+            "pmg": Object {
+              "Other": true,
+            },
+            "sports": false,
+            "video-games": false,
+          },
+          "informationalEvents": Object {
+            "demonware": true,
+          },
+        },
+        "stories": undefined,
+      }
+    }
+    idx="0"
+    key="customTagRow/0"
+    selectedStyle="sources"
+    setCalendarSettings={[MockFunction]}
+    tags={
+      Array [
+        "PS4",
+        "XBOX",
+      ]
+    }
+    toggleCustomTags={[MockFunction]}
+  />
+  <CustomTagCell
+    checked={true}
+    classes={Object {}}
+    filters={
+      Object {
+        "customTags": Object {
+          "unspecified": true,
+          "userTags": Object {
+            "0": Object {
+              "checked": true,
+              "tags": Array [
+                "PS4",
+                "XBOX",
+              ],
+            },
+            "1": Object {
+              "checked": true,
+              "tags": Array [
+                "COD",
+                "BO4",
+              ],
+            },
+          },
+        },
+        "environments": Object {
+          "Certification": true,
+          "Cross Environment": true,
+          "Development": true,
+          "Live": true,
+        },
+        "gamertags": Object {},
+        "platforms": Object {
+          "CROSSPLAY": true,
+          "PC": true,
+          "PS4": true,
+          "SWITCH": true,
+          "Unspecified": true,
+          "XB1": true,
+        },
+        "projects": Object {
+          "Call of Duty: Modern Warfare 2": true,
+          "Cross Project": true,
+          "GTR Project": true,
+          "Permissions: Test 1": true,
+        },
+        "sources": Object {
+          "abTesting": Object {
+            "active": false,
+            "analysis": false,
+            "archived": false,
+            "config": false,
+            "killed": false,
+          },
+          "demonwareEvents": Object {
+            "criticalEvents": true,
+            "generalComments": true,
+            "incidents": true,
+            "maintenance": true,
+          },
+          "eventManager": Object {
+            "applied": false,
+            "approved": true,
+            "cancelled": false,
+            "expired": false,
+            "pending": false,
+            "rejected": false,
+            "scheduled": false,
+            "test-failed": false,
+            "testing": false,
+          },
+          "externalEvents": Object {
+            "holidays": true,
+            "pmg": Object {
+              "Other": true,
+            },
+            "sports": false,
+            "video-games": false,
+          },
+          "informationalEvents": Object {
+            "demonware": true,
+          },
+        },
+        "stories": undefined,
+      }
+    }
+    idx="1"
+    key="customTagRow/1"
+    selectedStyle="sources"
+    setCalendarSettings={[MockFunction]}
+    tags={
+      Array [
+        "COD",
+        "BO4",
+      ]
+    }
+    toggleCustomTags={[MockFunction]}
+  />
+  <WithStyles(ForwardRef(FormControlLabel))
+    checked={true}
+    classes={
+      Object {
+        "label": undefined,
+        "root": undefined,
+      }
+    }
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        classes={
+          Object {
+            "checked": "",
+            "root": "",
+          }
+        }
+        disableRipple={true}
+        onChange={[Function]}
+      />
+    }
+    key="customTagsUnspecified"
+    label="Unspecified"
+  />
+</div>
+`;
+
+exports[`CustomTags renders default CustomTags 1`] = `
+<div
+  className="calendarOptions"
+>
+  <CustomTagCell
+    checked={true}
+    classes={Object {}}
+    filters={
+      Object {
+        "customTags": Object {
+          "unspecified": true,
+          "userTags": Object {
+            "0": Object {
+              "checked": true,
+              "tags": Array [
+                "PS4",
+                "XBOX",
+              ],
+            },
+            "1": Object {
+              "checked": true,
+              "tags": Array [
+                "COD",
+                "BO4",
+              ],
+            },
+          },
+        },
+        "environments": Object {
+          "Certification": true,
+          "Cross Environment": true,
+          "Development": true,
+          "Live": true,
+        },
+        "gamertags": Object {},
+        "platforms": Object {
+          "CROSSPLAY": true,
+          "PC": true,
+          "PS4": true,
+          "SWITCH": true,
+          "Unspecified": true,
+          "XB1": true,
+        },
+        "projects": Object {
+          "Call of Duty: Modern Warfare 2": true,
+          "Cross Project": true,
+          "GTR Project": true,
+          "Permissions: Test 1": true,
+        },
+        "sources": Object {
+          "abTesting": Object {
+            "active": false,
+            "analysis": false,
+            "archived": false,
+            "config": false,
+            "killed": false,
+          },
+          "demonwareEvents": Object {
+            "criticalEvents": true,
+            "generalComments": true,
+            "incidents": true,
+            "maintenance": true,
+          },
+          "eventManager": Object {
+            "applied": false,
+            "approved": true,
+            "cancelled": false,
+            "expired": false,
+            "pending": false,
+            "rejected": false,
+            "scheduled": false,
+            "test-failed": false,
+            "testing": false,
+          },
+          "externalEvents": Object {
+            "holidays": true,
+            "pmg": Object {
+              "Other": true,
+            },
+            "sports": false,
+            "video-games": false,
+          },
+          "informationalEvents": Object {
+            "demonware": true,
+          },
+        },
+        "stories": undefined,
+      }
+    }
+    idx="0"
+    key="customTagRow/0"
+    selectedStyle="sources"
+    setCalendarSettings={[MockFunction]}
+    tags={
+      Array [
+        "PS4",
+        "XBOX",
+      ]
+    }
+    toggleCustomTags={[MockFunction]}
+  />
+  <CustomTagCell
+    checked={true}
+    classes={Object {}}
+    filters={
+      Object {
+        "customTags": Object {
+          "unspecified": true,
+          "userTags": Object {
+            "0": Object {
+              "checked": true,
+              "tags": Array [
+                "PS4",
+                "XBOX",
+              ],
+            },
+            "1": Object {
+              "checked": true,
+              "tags": Array [
+                "COD",
+                "BO4",
+              ],
+            },
+          },
+        },
+        "environments": Object {
+          "Certification": true,
+          "Cross Environment": true,
+          "Development": true,
+          "Live": true,
+        },
+        "gamertags": Object {},
+        "platforms": Object {
+          "CROSSPLAY": true,
+          "PC": true,
+          "PS4": true,
+          "SWITCH": true,
+          "Unspecified": true,
+          "XB1": true,
+        },
+        "projects": Object {
+          "Call of Duty: Modern Warfare 2": true,
+          "Cross Project": true,
+          "GTR Project": true,
+          "Permissions: Test 1": true,
+        },
+        "sources": Object {
+          "abTesting": Object {
+            "active": false,
+            "analysis": false,
+            "archived": false,
+            "config": false,
+            "killed": false,
+          },
+          "demonwareEvents": Object {
+            "criticalEvents": true,
+            "generalComments": true,
+            "incidents": true,
+            "maintenance": true,
+          },
+          "eventManager": Object {
+            "applied": false,
+            "approved": true,
+            "cancelled": false,
+            "expired": false,
+            "pending": false,
+            "rejected": false,
+            "scheduled": false,
+            "test-failed": false,
+            "testing": false,
+          },
+          "externalEvents": Object {
+            "holidays": true,
+            "pmg": Object {
+              "Other": true,
+            },
+            "sports": false,
+            "video-games": false,
+          },
+          "informationalEvents": Object {
+            "demonware": true,
+          },
+        },
+        "stories": undefined,
+      }
+    }
+    idx="1"
+    key="customTagRow/1"
+    selectedStyle="sources"
+    setCalendarSettings={[MockFunction]}
+    tags={
+      Array [
+        "COD",
+        "BO4",
+      ]
+    }
+    toggleCustomTags={[MockFunction]}
+  />
+  <WithStyles(ForwardRef(FormControlLabel))
+    checked={true}
+    classes={
+      Object {
+        "label": undefined,
+        "root": undefined,
+      }
+    }
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        classes={
+          Object {
+            "checked": "",
+            "root": "",
+          }
+        }
+        disableRipple={true}
+        onChange={[Function]}
+      />
+    }
+    key="customTagsUnspecified"
+    label="Unspecified"
+  />
+</div>
+`;

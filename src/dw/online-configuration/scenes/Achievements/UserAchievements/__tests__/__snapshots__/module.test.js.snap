@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Achievements - UserAchievements Reducer Test append = false 1`] = `
+Object {
+  "nextPageToken": "CAE",
+  "userAchievements": Array [
+    3,
+    4,
+  ],
+}
+`;
+
+exports[`Achievements - UserAchievements Reducer Test append = true 1`] = `
+Object {
+  "nextPageToken": "CAE",
+  "userAchievements": Array [
+    1,
+    2,
+    3,
+    4,
+  ],
+}
+`;
+
+exports[`Achievements - UserAchievements Reducer handle USER_ACHIEVEMENTS_FETCH_SUCCESS: empty results 1`] = `
+Object {
+  "nextPageToken": undefined,
+  "userAchievements": Array [],
+}
+`;
+
+exports[`Achievements - UserAchievements Reducer handle USER_ACHIEVEMENTS_FETCH_SUCCESS: userAchievements and nextPagetoken assignation 1`] = `
+Object {
+  "nextPageToken": "CAE",
+  "userAchievements": Array [
+    Object {
+      "activationTimestamp": 1497886700,
+      "completionCount": 0,
+      "completionTimestamp": null,
+      "expirationTimestamp": null,
+      "kind": 1,
+      "multiProgress": Object {},
+      "name": "daily_ch_1v1_wins",
+      "progress": 0,
+      "progressTarget": 0,
+      "status": "inProgress",
+    },
+  ],
+}
+`;
+
+exports[`Achievements - UserAchievements Reducer return the initial state 1`] = `
+Object {
+  "nextPageToken": undefined,
+  "userAchievements": Array [],
+}
+`;

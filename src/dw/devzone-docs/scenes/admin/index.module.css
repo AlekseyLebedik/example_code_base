@@ -1,0 +1,79 @@
+.usersContainer {
+  height: 90vh;
+  margin: 0 auto;
+  overflow: auto;
+  display: flex;
+}
+
+.image {
+  width: 70%;
+}
+
+.heading:first-child {
+  margin-top: 30px;
+}
+
+.heading:not(:first-child) {
+  margin-top: 60px;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.toc {
+  height: calc(100vh - 70px);
+  position: absolute;
+  width: 350px;
+  z-index: 1;
+  left: 0;
+  overflow: auto;
+  padding-top: 20px;
+  border-right: 1px solid #eee;
+}
+
+.content {
+  padding: 25px;
+  position: absolute;
+  right: 0px;
+  width: calc(100% - 350px);
+  overflow: auto;
+  height: calc(100vh - 70px);
+  scroll-behavior: smooth;
+}
+
+.list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.toc > ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.links {
+  color: black;
+  opacity: 0.6;
+}
+.table td,
+.table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tr:hover {
+  background-color: #ddd;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}

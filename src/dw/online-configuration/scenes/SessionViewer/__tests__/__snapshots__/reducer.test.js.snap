@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SessionViewer Reducer SESSION_VIEWER_LOBBIES_FETCH returns initial state 1`] = `
+Object {
+  "backgroundLoading": true,
+  "loading": true,
+  "lobbies": Array [
+    Object {
+      "id": 1,
+    },
+    Object {
+      "id": 2,
+    },
+  ],
+  "pageTokens": Object {},
+  "playlists": Array [],
+}
+`;
+
+exports[`SessionViewer Reducer SESSION_VIEWER_LOBBIES_FETCH_SUCCESS append new entries and ignore existing ones 1`] = `
+Object {
+  "backgroundLoading": true,
+  "loading": false,
+  "lobbies": Array [
+    Object {
+      "id": 1,
+    },
+    Object {
+      "id": 2,
+    },
+    Object {
+      "id": 300,
+    },
+    Object {
+      "id": 400,
+    },
+  ],
+  "pageTokens": Object {},
+  "playlists": Array [],
+}
+`;
+
+exports[`SessionViewer Reducer returns default state 1`] = `
+Object {
+  "backgroundLoading": true,
+  "loading": true,
+  "lobbies": Array [],
+  "pageTokens": Object {},
+  "playlists": Array [],
+}
+`;

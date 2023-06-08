@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expy - Test Graduation - LinkInput renders snapshot 1`] = `
+<form
+  autoComplete="off"
+  noValidate={true}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={1}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(FormLabel))
+        id="form-url"
+      >
+        Url
+      </WithStyles(ForwardRef(FormLabel))>
+      <WithStyles(ForwardRef(TextField))
+        autoFocus={true}
+        error={true}
+        fullWidth={true}
+        id="form-url"
+        onChange={[Function]}
+        placeholder="https://example.com"
+        size="small"
+        type="url"
+        value=""
+        variant="outlined"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      sm={6}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(FormLabel))
+        id="form-title"
+      >
+        Title
+      </WithStyles(ForwardRef(FormLabel))>
+      <WithStyles(ForwardRef(TextField))
+        error={true}
+        fullWidth={true}
+        id="form-title"
+        onChange={[Function]}
+        placeholder="enter description"
+        size="small"
+        value=""
+        variant="outlined"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(FormHelperText))
+      error={true}
+    >
+      message
+    </WithStyles(ForwardRef(FormHelperText))>
+  </WithStyles(ForwardRef(Grid))>
+  <div
+    className="makeStyles-btnContainer-1"
+  >
+    <SubmitBtn
+      disabled={true}
+      id="submit-btn"
+      onClick={[Function]}
+    >
+      Link
+    </SubmitBtn>
+    <CancelBtn
+      id="cancel-btn"
+      onClick={[Function]}
+    >
+      Cancel
+    </CancelBtn>
+  </div>
+</form>
+`;

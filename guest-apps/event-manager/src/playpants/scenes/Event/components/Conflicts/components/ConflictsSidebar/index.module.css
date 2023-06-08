@@ -1,0 +1,12 @@
+.sidebarContainer {
+  margin: 0px;
+}
+
+.conflictsContainer {
+  display: flex;
+  margin: 20px;
+}
+
+.filter {
+  width: 100%;
+}

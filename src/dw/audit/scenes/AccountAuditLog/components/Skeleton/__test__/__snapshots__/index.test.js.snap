@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accounts Audit Log Skeleton display ag grid table skeleton 1`] = `
+<Fragment>
+  <div
+    className="text"
+  >
+    <EmptyComponent
+      classes={Object {}}
+      emptyText="Gathering the account information will take some time."
+    />
+  </div>
+  <div>
+    <Styled(MuiBox)
+      className="mainContainer"
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={3}
+      >
+        <ColumnsSkeleton />
+      </WithStyles(ForwardRef(Grid))>
+    </Styled(MuiBox)>
+    <WithStyles(ForwardRef(Divider))
+      variant="middle"
+    />
+    <Styled(MuiBox)
+      className="mainContainer"
+    >
+      <WithStyles(ForwardRef(Grid))
+        container={true}
+        spacing={3}
+      >
+        <RowsSkeleton />
+      </WithStyles(ForwardRef(Grid))>
+    </Styled(MuiBox)>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,31 @@
+.titleText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.titleTextCalendar {
+  color: white;
+}
+
+.clickableEventText {
+  line-height: 1.75;
+}
+
+.clickableEventTextAlignment {
+  display: inline-flex;
+}
+
+.titleTextNoEnd {
+  color: white;
+}
+
+.cancelledEvent {
+  text-decoration: line-through;
+}
+
+.extraPadding {
+  padding-left: 3px;
+}

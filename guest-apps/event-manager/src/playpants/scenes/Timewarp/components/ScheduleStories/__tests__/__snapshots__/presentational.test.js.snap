@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatelessScheduleStories renders default properly 1`] = `
+<WithStyles(CustomResizablePanels)
+  titles={
+    Array [
+      "Schedules",
+    ]
+  }
+>
+  <Connect(ScheduleStoriesSidebar)
+    match={Object {}}
+    selectedScheduleStory={Object {}}
+    selectedStoryId={null}
+  />
+  <div>
+    <EmptyComponent
+      classes={Object {}}
+      emptyText="No data to display"
+    >
+      Select a story to get more detail
+    </EmptyComponent>
+  </div>
+</WithStyles(CustomResizablePanels)>
+`;

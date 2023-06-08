@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Users userList reducer FETCH_ASSIGNED_GROUPS initiates fetch for users 1`] = `
+Object {
+  "assignedGroups": Object {
+    "data": Array [],
+    "loading": true,
+    "next": null,
+    "params": Object {
+      "sort": "name",
+    },
+  },
+}
+`;
+
+exports[`Users userList reducer FETCH_ASSIGNED_GROUPS_FAILED dispatches fetch error 1`] = `
+Object {
+  "assignedGroups": Object {
+    "data": Array [
+      Object {
+        "description": "",
+        "id": 1,
+        "name": "Group 1",
+        "project": 1,
+      },
+    ],
+    "error": true,
+    "loading": false,
+    "next": null,
+    "params": Object {
+      "project": 1,
+      "userID": 1,
+    },
+  },
+}
+`;
+
+exports[`Users userList reducer FETCH_ASSIGNED_GROUPS_SUCCESS sets the available user with data 1`] = `
+Object {
+  "assignedGroups": Object {
+    "data": Array [],
+    "loading": false,
+    "next": null,
+    "nextPageToken": undefined,
+    "params": Object {
+      "project": 1,
+      "userID": 1,
+    },
+  },
+}
+`;
+
+exports[`Users userList reducer returns default state 1`] = `
+Object {
+  "assignedGroups": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+}
+`;

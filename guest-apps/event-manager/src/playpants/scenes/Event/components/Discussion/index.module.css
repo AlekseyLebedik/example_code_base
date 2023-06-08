@@ -1,0 +1,35 @@
+.discussionContainer {
+  margin: 20px;
+  margin-right: 5px;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageBlock {
+  word-wrap: break-word;
+  white-space: pre;
+}
+
+.messagesContainer {
+  border: 1px solid #d9d9d9;
+  background: white;
+  padding: 20px;
+  height: 250px;
+  overflow: scroll;
+  flex: 1;
+}
+
+.textField {
+  background: white;
+}
+
+.username {
+  font-weight: 650;
+}
+
+.message {
+  margin: 5px;
+  white-space: normal;
+}

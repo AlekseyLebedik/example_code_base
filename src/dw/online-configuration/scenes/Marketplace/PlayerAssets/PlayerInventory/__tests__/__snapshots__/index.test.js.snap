@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Player Inventory Connected Player Inventory renders default values 1`] = `
+<InventoryItemsStateless
+  actionsRender={[Function]}
+  checked={false}
+  columnsDefs={
+    Array [
+      Object {
+        "field": "quantity",
+        "headerName": "Units",
+        "sortable": true,
+        "width": 150,
+      },
+    ]
+  }
+  darkMode={false}
+  formatDate={[Function]}
+  getPlayerItems={[MockFunction]}
+  hasEditPermission={false}
+  invalidItems={Array []}
+  isClan={false}
+  isLoading={false}
+  items={Array []}
+  maxQuantity={5}
+  onInventoryFilterChange={[MockFunction]}
+  onRemoveItems={null}
+  onSelectItems={[MockFunction]}
+  onSelectRarityFilter={[MockFunction]}
+  searchInput=""
+  selectedItems={Array []}
+/>
+`;

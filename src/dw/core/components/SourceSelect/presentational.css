@@ -1,0 +1,25 @@
+.ant-select-dropdown {
+  z-index: 1200;
+}
+.source-select .ant-select-auto-complete.ant-select .ant-input {
+  border-radius: 0;
+  height: 45px;
+  padding-left: 40px;
+}
+
+.ant-select-dropdown.ant-select-dropdown--single.ant-select-dropdown-placement-bottomLeft.ant-select-dropdown-hidden {
+  border-radius: 0 !important;
+}
+
+.source-select .ant-input-affix-wrapper .ant-input-prefix :not(.anticon),
+.ant-input-affix-wrapper .ant-input-suffix :not(.anticon) {
+  line-height: initial;
+}
+
+.source-select-reworked .ant-select-auto-complete.ant-select .ant-input {
+  height: 32px !important;
+}
+
+.source-select-reworked .ant-select-selection__rendered {
+  line-height: initial !important;
+}

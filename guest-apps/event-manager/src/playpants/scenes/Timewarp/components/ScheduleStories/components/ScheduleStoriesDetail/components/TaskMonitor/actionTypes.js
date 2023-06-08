@@ -1,0 +1,10 @@
+const prefix = 'playpants/SCHEDULE_STORIES_TASK_MONITOR';
+
+export const FETCH_STORY_TASKS = `${prefix}.STORY_TASKS`;
+export const FETCH_TASK_DETAILS = `${prefix}.TASK_DETAILS`;
+
+export const START_SELECTED_TASK_DETAIL_FETCH = `${prefix}.START_SELECTED_TASK_DETAIL_FETCH`;
+export const STOP_SELECTED_TASK_DETAIL_FETCH = `${prefix}.STOP_SELECTED_TASK_DETAIL_FETCH`;
+
+export const UPDATE_STORY_TASKS = `${prefix}.UPDATE_STORY_TASKS`;
+export const RESET_TASK_MONITOR = `${prefix}.RESET_TASK_MONITOR`;

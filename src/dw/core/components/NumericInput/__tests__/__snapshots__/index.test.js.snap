@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumericInput renders props 1`] = `
+<TextField
+  floatingLabelText="Text"
+  label=""
+  onBlur={[Function]}
+  onChange={[Function]}
+  placeholder="Type a numeric value"
+  value={8}
+/>
+`;

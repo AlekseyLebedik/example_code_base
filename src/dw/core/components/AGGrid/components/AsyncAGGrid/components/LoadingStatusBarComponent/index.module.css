@@ -1,0 +1,27 @@
+/* loading dots */
+.loading {
+  padding: 16px 0;
+  width: 75px;
+}
+
+.loading:after {
+  content: '';
+  animation: dots 1s steps(5, end) infinite;
+}
+
+@keyframes dots {
+  0%,
+  20% {
+    content: ' .';
+  }
+  40% {
+    content: ' ..';
+  }
+  60% {
+    content: ' ...';
+  }
+  90%,
+  100% {
+    content: '';
+  }
+}

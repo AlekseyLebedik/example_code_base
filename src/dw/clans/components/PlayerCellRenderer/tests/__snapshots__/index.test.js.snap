@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Clans - PlayerCellRenderer renders player view link 1`] = `
+<PlayerViewLink
+  accountsServiceConfigId="12"
+  text="test-owner | 5151811586893775373"
+  user={
+    Object {
+      "accountType": "uno",
+      "userID": "5151811586893775373",
+      "username": "test-owner",
+    }
+  }
+/>
+`;

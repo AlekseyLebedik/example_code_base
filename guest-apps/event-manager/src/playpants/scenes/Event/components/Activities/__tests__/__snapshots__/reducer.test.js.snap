@@ -1,0 +1,2132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Activity Reducer ACTIVITIES_SEARCH searches through the activities according to a query 1`] = `
+Object {
+  "files": Object {},
+  "query": "1",
+  "searchAvailable": true,
+  "selectedActivity": undefined,
+  "selectedActivityPublishType": "on_start",
+  "selectedActivityType": "all",
+  "uploadProgress": Object {},
+  "variableSets": Array [],
+}
+`;
+
+exports[`Activity Reducer ACTIVITY_LIST_ITEM_ONCLICK selects an activity that is clicked 1`] = `
+Object {
+  "achievements": Object {
+    "rulesetList": Object {
+      "data": Array [
+        Object {
+          "activationTimestamp": null,
+          "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+          "codeSignature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+          "codeSignatureTimestamp": 1565841879,
+          "creationTimestamp": 1565841879,
+          "isActive": true,
+          "label": "stronghold-5",
+          "lastUpdateTimestamp": 1565842668,
+        },
+      ],
+      "loading": false,
+    },
+    "selectedRuleset": Object {
+      "data": Object {
+        "activationTimestamp": null,
+        "code": "eoisduf0qe343",
+        "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+        "codeSignature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+        "codeSignatureTimestamp": 1565841879,
+        "creationTimestamp": 1565841879,
+        "isActive": false,
+        "label": "stronghold-8",
+        "lastUpdateTimestamp": 1565842668,
+      },
+      "loading": false,
+    },
+  },
+  "contexts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "envSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "filestorage": Object {
+    "contexts": Object {
+      "data": Array [
+        "1",
+        "test",
+        "another",
+      ],
+      "loading": false,
+    },
+    "files": Object {
+      "3": Object {
+        "X-Progress-ID": 1563392198,
+        "comment": "",
+        "context": "1",
+        "download": false,
+        "filename": "test.txt",
+        "id": 3,
+        "progress": 0,
+        "remoteFilename": "test.txt",
+        "size": "5 bytes",
+        "title": "",
+      },
+    },
+    "uploadProgress": Object {
+      "1563392198": Object {
+        "received": 776,
+        "size": 776,
+      },
+    },
+  },
+  "loading": false,
+  "publisherObjects": Object {
+    "categories": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "error": Object {},
+    "groups": Object {
+      "data": Array [],
+      "loading": false,
+    },
+  },
+  "pubvars": Object {
+    "selectedValues": Object {
+      "context": null,
+      "group_id": null,
+      "namespace": null,
+    },
+    "variableSets": Array [],
+  },
+  "pyscripts": Object {
+    "templates": Array [
+      Object {
+        "description": "Double XP Activity",
+        "id": "double-xp",
+        "name": "Double Xp",
+        "schema": Object {
+          "additionalProperties": false,
+          "properties": Object {
+            "icon": Object {
+              "contentEncoding": "base64",
+              "contentMediaType": "application/octet-stream",
+              "type": "string",
+            },
+            "xp_multiplier": Object {
+              "maximum": 2,
+              "minimum": 1,
+              "multipleOf": 1,
+              "type": "number",
+            },
+          },
+          "required": Array [
+            "xp_multiplier",
+          ],
+          "type": "object",
+        },
+        "version": "v1.0.1",
+      },
+      Object {
+        "description": "Weapon Drop Activity",
+        "id": "weapon-drop",
+        "name": "Weapon Drop",
+        "schema": Object {
+          "additionalProperties": false,
+          "properties": Object {
+            "attachment_icons": Object {
+              "items": Object {
+                "contentEncoding": "base64",
+                "contentMediaType": "image/png",
+                "type": "string",
+              },
+              "type": "array",
+            },
+            "attachments": Object {
+              "items": Object {
+                "maxLength": 15,
+                "type": "string",
+              },
+              "type": "array",
+              "uniqueItems": true,
+            },
+            "cost": Object {
+              "minimum": 10,
+              "multipleOf": 10,
+              "type": "number",
+            },
+            "weapon_type": Object {
+              "maxLength": 15,
+              "minLength": 3,
+              "type": "string",
+            },
+          },
+          "required": Array [
+            "weapon_type",
+            "attachments",
+            "attachment_icons",
+            "cost",
+          ],
+          "type": "object",
+        },
+        "version": "v1.0.0",
+      },
+    ],
+  },
+  "searchAvailable": true,
+  "selectedActivity": 13,
+  "selectedActivityType": "all",
+  "thunderpants": Object {
+    "buildList": Object {
+      "data": Array [
+        Object {
+          "base": Object {
+            "identifier": "game_dh_server_linux.out",
+            "relative_folder": "autobuild/versions/submission_7431811_sub_tu13_ccs_2/linux/dedicated",
+          },
+          "properties": Object {
+            "branch": "submission",
+            "ccs_version": "1302",
+            "dw_flavor": "vanilla",
+            "flavor": "test",
+            "os": "linux",
+            "platform": "all",
+            "title": "iw8",
+            "version": "7431811",
+          },
+          "source_name": "iw8-rebuildds",
+          "timestamp": 1581459817,
+          "ui_properties": Object {
+            "folder": "autobuild:submission_7431811_sub_tu13_ccs_2",
+            "version": "7431811@1302",
+          },
+          "uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "buildSchema": Object {
+      "data": Array [
+        Object {
+          "field": "source_name",
+          "name": "Source",
+        },
+        Object {
+          "field": "ui_properties.folder",
+          "name": "Folder",
+        },
+        Object {
+          "field": "ui_properties.version",
+          "name": "Version",
+        },
+        Object {
+          "field": "properties.os",
+          "name": "OS",
+        },
+        Object {
+          "field": "properties.flavor",
+          "name": "Flavor",
+        },
+        Object {
+          "field": "properties.dw_flavor",
+          "name": "DW-Flavor",
+        },
+        Object {
+          "field": "timestamp",
+          "name": "Timestamp",
+          "type": "timestamp",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "deployerList": Object {
+      "data": Array [
+        Object {
+          "base_url": "https://uidev-hq.tp.demonware.net/deployer/uidev_ng/api",
+          "environment": "Certification",
+          "id": 21,
+          "name": "Thunderpants MTP Cert Deployer 1",
+        },
+      ],
+      "success": true,
+    },
+    "deploymentList": Object {
+      "data": Array [
+        Object {
+          "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+          "last_timestamp": 1581636361,
+          "status": "deployed",
+          "target_name": "uidev:dev(mp)",
+          "tp": Object {
+            "auto_tag": Object {
+              "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+              "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+              "view_name": "iw8linux",
+            },
+            "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+            "env": "uidev",
+            "stats": Object {},
+            "tags": Object {
+              "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+              "build_config_overrides": Object {
+                "deployer": Object {
+                  "deploy": Object {
+                    "max": 1,
+                  },
+                },
+              },
+              "dw_flavor": "vanilla",
+              "server_type": "mp",
+            },
+          },
+          "tp_client": "devdeployer",
+          "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+          "user_params": Object {
+            "max_instances_per_machine": 1,
+          },
+          "view_name": "iw8linux",
+        },
+        Object {
+          "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+          "last_timestamp": 1581636361,
+          "status": "deployed",
+          "target_name": "uidev:dev(gw)",
+          "tp": Object {
+            "auto_tag": Object {
+              "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+              "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+              "view_name": "iw8linux",
+            },
+            "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+            "env": "uidev",
+            "stats": Object {},
+            "tags": Object {
+              "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+              "build_config_overrides": Object {
+                "deployer": Object {
+                  "deploy": Object {
+                    "max": 1,
+                  },
+                },
+              },
+              "dw_flavor": "vanilla",
+              "server_type": "mp",
+            },
+          },
+          "tp_client": "devdeployer",
+          "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+          "user_params": Object {
+            "max_instances_per_machine": 1,
+          },
+          "view_name": "iw8linux",
+        },
+        Object {
+          "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+          "last_timestamp": 1581636361,
+          "status": "deployed",
+          "target_name": "uidev:dev(gw)",
+          "tp": Object {
+            "auto_tag": Object {
+              "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+              "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+              "view_name": "iw8linux",
+            },
+            "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+            "env": "uidev",
+            "stats": Object {},
+            "tags": Object {
+              "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+              "build_config_overrides": Object {
+                "deployer": Object {
+                  "deploy": Object {
+                    "max": 1,
+                  },
+                },
+              },
+              "dw_flavor": "vanilla",
+              "server_type": "mp",
+            },
+          },
+          "tp_client": "devdeployer",
+          "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+          "user_params": Object {
+            "max_instances_per_machine": 1,
+          },
+          "view_name": "iw8linux",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "filterType": "default",
+    "form": Object {
+      "data": Object {},
+      "schema": Array [],
+      "summary": Object {},
+      "targets": Array [],
+      "type": "",
+    },
+    "targetList": Object {
+      "data": Array [
+        Object {
+          "name": "uidev:dev(mp)",
+        },
+        Object {
+          "name": "uidev:dev(gw)",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "unlockedDeployments": Object {},
+    "userParamsSchema": Object {
+      "data": Array [
+        Object {
+          "default": 10,
+          "description": "How many instances of the server to deploy per machine",
+          "maximum": 300,
+          "minimum": 0,
+          "name": "max_instances_per_machine",
+          "type": "integer",
+        },
+        Object {
+          "default": "",
+          "description": "Any additional commandline parameters",
+          "name": "extra_cmdline_args",
+          "type": "string",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "viewList": Object {
+      "data": Array [
+        "iw8linux",
+      ],
+      "loading": false,
+      "success": false,
+    },
+  },
+  "variableSets": Array [
+    Object {
+      "context": "1",
+      "group_id": "1",
+      "is_major_update": false,
+      "liveVariables": Object {
+        "test": "var1",
+      },
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace1",
+      "oldVariables": Object {
+        "test": "var1",
+      },
+      "variables": Object {
+        "test": "var1",
+      },
+    },
+    Object {
+      "context": "1",
+      "group_id": "2",
+      "is_major_update": false,
+      "liveVariables": Object {
+        "test": "var1",
+      },
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace2",
+      "oldVariables": Object {
+        "test": "var1",
+      },
+      "variables": Object {},
+    },
+    Object {
+      "context": "1",
+      "group_id": "1",
+      "is_major_update": false,
+      "liveVariables": Object {},
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace3",
+      "oldVariables": Object {},
+      "variables": Object {
+        "test": "var1",
+      },
+    },
+    Object {
+      "context": "1",
+      "group_id": "2",
+      "is_major_update": false,
+      "liveVariables": Object {
+        "test": "var1",
+      },
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace4",
+      "oldVariables": Object {
+        "test": "var1",
+      },
+      "variables": Object {
+        "test": "var1",
+        "test2": "var2",
+      },
+    },
+  ],
+}
+`;
+
+exports[`Activity Reducer CHANGE_ACTIVITIES_TYPE changes the activity type 1`] = `
+Object {
+  "files": Object {},
+  "searchAvailable": true,
+  "selectedActivity": undefined,
+  "selectedActivityPublishType": "on_start",
+  "selectedActivityType": "Publisher Variables",
+  "uploadProgress": Object {},
+  "variableSets": Array [],
+}
+`;
+
+exports[`Activity Reducer CREATE_ACTIVITY_FAIL fails to create an activity 1`] = `
+Object {
+  "achievements": Object {
+    "rulesetList": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "selectedRuleset": Object {
+      "data": Object {},
+      "loading": false,
+    },
+  },
+  "contexts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "envSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "files": Object {},
+  "filestorage": Object {
+    "contexts": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "files": Object {},
+    "uploadProgress": Object {},
+  },
+  "publisherObjects": Object {
+    "categories": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "error": Object {},
+    "groups": Object {
+      "data": Array [],
+      "loading": false,
+    },
+  },
+  "pubvars": Object {
+    "selectedValues": Object {
+      "context": null,
+      "group_id": null,
+      "namespace": null,
+    },
+    "variableSets": Array [],
+  },
+  "pyscripts": Object {
+    "templates": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+  },
+  "searchAvailable": true,
+  "selectedActivity": undefined,
+  "selectedActivityPublishType": "on_start",
+  "selectedActivityType": "all",
+  "thunderpants": Object {
+    "buildList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "buildSchema": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "deployerList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "deploymentList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "filterType": "default",
+    "form": Object {
+      "data": Object {},
+      "next": "",
+      "schema": Array [],
+      "summary": Object {},
+      "targets": Array [],
+      "type": "",
+    },
+    "targetList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "unlockedDeployments": Object {},
+    "userParamsSchema": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "viewList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+  },
+  "uploadProgress": Object {},
+  "variableSets": Array [],
+}
+`;
+
+exports[`Activity Reducer CREATE_ACTIVITY_SUCCESS activity is created successfully 1`] = `
+Object {
+  "achievements": Object {
+    "rulesetList": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "selectedRuleset": Object {
+      "data": Object {},
+      "loading": false,
+    },
+  },
+  "contexts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "envSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "files": Object {},
+  "filestorage": Object {
+    "contexts": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "files": Object {},
+    "uploadProgress": Object {},
+  },
+  "publisherObjects": Object {
+    "categories": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "error": Object {},
+    "groups": Object {
+      "data": Array [],
+      "loading": false,
+    },
+  },
+  "pubvars": Object {
+    "selectedValues": Object {
+      "context": null,
+      "group_id": null,
+      "namespace": null,
+    },
+    "variableSets": Array [],
+  },
+  "pyscripts": Object {
+    "templates": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+  },
+  "searchAvailable": true,
+  "selectedActivity": undefined,
+  "selectedActivityPublishType": "on_start",
+  "selectedActivityType": "all",
+  "thunderpants": Object {
+    "buildList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "buildSchema": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "deployerList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "deploymentList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "filterType": "default",
+    "form": Object {
+      "data": Object {},
+      "next": "",
+      "schema": Array [],
+      "summary": Object {},
+      "targets": Array [],
+      "type": "",
+    },
+    "targetList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "unlockedDeployments": Object {},
+    "userParamsSchema": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "viewList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+  },
+  "uploadProgress": Object {},
+  "variableSets": Array [],
+}
+`;
+
+exports[`Activity Reducer DELETE_ACTIVITY_FAIL fails to delete activity successfully 1`] = `
+Object {
+  "achievements": Object {
+    "rulesetList": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "selectedRuleset": Object {
+      "data": Object {},
+      "loading": false,
+    },
+  },
+  "contexts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "envSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "files": Object {},
+  "filestorage": Object {
+    "contexts": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "files": Object {},
+    "uploadProgress": Object {},
+  },
+  "publisherObjects": Object {
+    "categories": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "error": Object {},
+    "groups": Object {
+      "data": Array [],
+      "loading": false,
+    },
+  },
+  "pubvars": Object {
+    "selectedValues": Object {
+      "context": null,
+      "group_id": null,
+      "namespace": null,
+    },
+    "variableSets": Array [],
+  },
+  "pyscripts": Object {
+    "templates": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+  },
+  "searchAvailable": true,
+  "selectedActivity": undefined,
+  "selectedActivityPublishType": "on_start",
+  "selectedActivityType": "all",
+  "thunderpants": Object {
+    "buildList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "buildSchema": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "deployerList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "deploymentList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "filterType": "default",
+    "form": Object {
+      "data": Object {},
+      "next": "",
+      "schema": Array [],
+      "summary": Object {},
+      "targets": Array [],
+      "type": "",
+    },
+    "targetList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "unlockedDeployments": Object {},
+    "userParamsSchema": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "viewList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+  },
+  "uploadProgress": Object {},
+  "variableSets": Array [],
+}
+`;
+
+exports[`Activity Reducer DELETE_ACTIVITY_SUCCESS an activity is successfully deleted 1`] = `
+Object {
+  "achievements": Object {
+    "rulesetList": Object {
+      "data": Array [
+        Object {
+          "activationTimestamp": null,
+          "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+          "codeSignature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+          "codeSignatureTimestamp": 1565841879,
+          "creationTimestamp": 1565841879,
+          "isActive": true,
+          "label": "stronghold-5",
+          "lastUpdateTimestamp": 1565842668,
+        },
+      ],
+      "loading": false,
+    },
+    "selectedRuleset": Object {
+      "data": Object {
+        "activationTimestamp": null,
+        "code": "eoisduf0qe343",
+        "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+        "codeSignature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+        "codeSignatureTimestamp": 1565841879,
+        "creationTimestamp": 1565841879,
+        "isActive": false,
+        "label": "stronghold-8",
+        "lastUpdateTimestamp": 1565842668,
+      },
+      "loading": false,
+    },
+  },
+  "contexts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "envSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "filestorage": Object {
+    "contexts": Object {
+      "data": Array [
+        "1",
+        "test",
+        "another",
+      ],
+      "loading": false,
+    },
+    "files": Object {
+      "3": Object {
+        "X-Progress-ID": 1563392198,
+        "comment": "",
+        "context": "1",
+        "download": false,
+        "filename": "test.txt",
+        "id": 3,
+        "progress": 0,
+        "remoteFilename": "test.txt",
+        "size": "5 bytes",
+        "title": "",
+      },
+    },
+    "uploadProgress": Object {
+      "1563392198": Object {
+        "received": 776,
+        "size": 776,
+      },
+    },
+  },
+  "loading": false,
+  "publisherObjects": Object {
+    "categories": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "error": Object {},
+    "groups": Object {
+      "data": Array [],
+      "loading": false,
+    },
+  },
+  "pubvars": Object {
+    "selectedValues": Object {
+      "context": null,
+      "group_id": null,
+      "namespace": null,
+    },
+    "variableSets": Array [],
+  },
+  "pyscripts": Object {
+    "templates": Array [
+      Object {
+        "description": "Double XP Activity",
+        "id": "double-xp",
+        "name": "Double Xp",
+        "schema": Object {
+          "additionalProperties": false,
+          "properties": Object {
+            "icon": Object {
+              "contentEncoding": "base64",
+              "contentMediaType": "application/octet-stream",
+              "type": "string",
+            },
+            "xp_multiplier": Object {
+              "maximum": 2,
+              "minimum": 1,
+              "multipleOf": 1,
+              "type": "number",
+            },
+          },
+          "required": Array [
+            "xp_multiplier",
+          ],
+          "type": "object",
+        },
+        "version": "v1.0.1",
+      },
+      Object {
+        "description": "Weapon Drop Activity",
+        "id": "weapon-drop",
+        "name": "Weapon Drop",
+        "schema": Object {
+          "additionalProperties": false,
+          "properties": Object {
+            "attachment_icons": Object {
+              "items": Object {
+                "contentEncoding": "base64",
+                "contentMediaType": "image/png",
+                "type": "string",
+              },
+              "type": "array",
+            },
+            "attachments": Object {
+              "items": Object {
+                "maxLength": 15,
+                "type": "string",
+              },
+              "type": "array",
+              "uniqueItems": true,
+            },
+            "cost": Object {
+              "minimum": 10,
+              "multipleOf": 10,
+              "type": "number",
+            },
+            "weapon_type": Object {
+              "maxLength": 15,
+              "minLength": 3,
+              "type": "string",
+            },
+          },
+          "required": Array [
+            "weapon_type",
+            "attachments",
+            "attachment_icons",
+            "cost",
+          ],
+          "type": "object",
+        },
+        "version": "v1.0.0",
+      },
+    ],
+  },
+  "searchAvailable": true,
+  "selectedActivity": 13,
+  "selectedActivityType": "all",
+  "thunderpants": Object {
+    "buildList": Object {
+      "data": Array [
+        Object {
+          "base": Object {
+            "identifier": "game_dh_server_linux.out",
+            "relative_folder": "autobuild/versions/submission_7431811_sub_tu13_ccs_2/linux/dedicated",
+          },
+          "properties": Object {
+            "branch": "submission",
+            "ccs_version": "1302",
+            "dw_flavor": "vanilla",
+            "flavor": "test",
+            "os": "linux",
+            "platform": "all",
+            "title": "iw8",
+            "version": "7431811",
+          },
+          "source_name": "iw8-rebuildds",
+          "timestamp": 1581459817,
+          "ui_properties": Object {
+            "folder": "autobuild:submission_7431811_sub_tu13_ccs_2",
+            "version": "7431811@1302",
+          },
+          "uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "buildSchema": Object {
+      "data": Array [
+        Object {
+          "field": "source_name",
+          "name": "Source",
+        },
+        Object {
+          "field": "ui_properties.folder",
+          "name": "Folder",
+        },
+        Object {
+          "field": "ui_properties.version",
+          "name": "Version",
+        },
+        Object {
+          "field": "properties.os",
+          "name": "OS",
+        },
+        Object {
+          "field": "properties.flavor",
+          "name": "Flavor",
+        },
+        Object {
+          "field": "properties.dw_flavor",
+          "name": "DW-Flavor",
+        },
+        Object {
+          "field": "timestamp",
+          "name": "Timestamp",
+          "type": "timestamp",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "deployerList": Object {
+      "data": Array [
+        Object {
+          "base_url": "https://uidev-hq.tp.demonware.net/deployer/uidev_ng/api",
+          "environment": "Certification",
+          "id": 21,
+          "name": "Thunderpants MTP Cert Deployer 1",
+        },
+      ],
+      "success": true,
+    },
+    "deploymentList": Object {
+      "data": Array [
+        Object {
+          "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+          "last_timestamp": 1581636361,
+          "status": "deployed",
+          "target_name": "uidev:dev(mp)",
+          "tp": Object {
+            "auto_tag": Object {
+              "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+              "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+              "view_name": "iw8linux",
+            },
+            "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+            "env": "uidev",
+            "stats": Object {},
+            "tags": Object {
+              "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+              "build_config_overrides": Object {
+                "deployer": Object {
+                  "deploy": Object {
+                    "max": 1,
+                  },
+                },
+              },
+              "dw_flavor": "vanilla",
+              "server_type": "mp",
+            },
+          },
+          "tp_client": "devdeployer",
+          "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+          "user_params": Object {
+            "max_instances_per_machine": 1,
+          },
+          "view_name": "iw8linux",
+        },
+        Object {
+          "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+          "last_timestamp": 1581636361,
+          "status": "deployed",
+          "target_name": "uidev:dev(gw)",
+          "tp": Object {
+            "auto_tag": Object {
+              "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+              "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+              "view_name": "iw8linux",
+            },
+            "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+            "env": "uidev",
+            "stats": Object {},
+            "tags": Object {
+              "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+              "build_config_overrides": Object {
+                "deployer": Object {
+                  "deploy": Object {
+                    "max": 1,
+                  },
+                },
+              },
+              "dw_flavor": "vanilla",
+              "server_type": "mp",
+            },
+          },
+          "tp_client": "devdeployer",
+          "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+          "user_params": Object {
+            "max_instances_per_machine": 1,
+          },
+          "view_name": "iw8linux",
+        },
+        Object {
+          "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+          "last_timestamp": 1581636361,
+          "status": "deployed",
+          "target_name": "uidev:dev(gw)",
+          "tp": Object {
+            "auto_tag": Object {
+              "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+              "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+              "view_name": "iw8linux",
+            },
+            "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+            "env": "uidev",
+            "stats": Object {},
+            "tags": Object {
+              "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+              "build_config_overrides": Object {
+                "deployer": Object {
+                  "deploy": Object {
+                    "max": 1,
+                  },
+                },
+              },
+              "dw_flavor": "vanilla",
+              "server_type": "mp",
+            },
+          },
+          "tp_client": "devdeployer",
+          "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+          "user_params": Object {
+            "max_instances_per_machine": 1,
+          },
+          "view_name": "iw8linux",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "filterType": "default",
+    "form": Object {
+      "data": Object {},
+      "schema": Array [],
+      "summary": Object {},
+      "targets": Array [],
+      "type": "",
+    },
+    "targetList": Object {
+      "data": Array [
+        Object {
+          "name": "uidev:dev(mp)",
+        },
+        Object {
+          "name": "uidev:dev(gw)",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "unlockedDeployments": Object {},
+    "userParamsSchema": Object {
+      "data": Array [
+        Object {
+          "default": 10,
+          "description": "How many instances of the server to deploy per machine",
+          "maximum": 300,
+          "minimum": 0,
+          "name": "max_instances_per_machine",
+          "type": "integer",
+        },
+        Object {
+          "default": "",
+          "description": "Any additional commandline parameters",
+          "name": "extra_cmdline_args",
+          "type": "string",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "viewList": Object {
+      "data": Array [
+        "iw8linux",
+      ],
+      "loading": false,
+      "success": false,
+    },
+  },
+  "variableSets": Array [
+    Object {
+      "context": "1",
+      "group_id": "1",
+      "is_major_update": false,
+      "liveVariables": Object {
+        "test": "var1",
+      },
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace1",
+      "oldVariables": Object {
+        "test": "var1",
+      },
+      "variables": Object {
+        "test": "var1",
+      },
+    },
+    Object {
+      "context": "1",
+      "group_id": "2",
+      "is_major_update": false,
+      "liveVariables": Object {
+        "test": "var1",
+      },
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace2",
+      "oldVariables": Object {
+        "test": "var1",
+      },
+      "variables": Object {},
+    },
+    Object {
+      "context": "1",
+      "group_id": "1",
+      "is_major_update": false,
+      "liveVariables": Object {},
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace3",
+      "oldVariables": Object {},
+      "variables": Object {
+        "test": "var1",
+      },
+    },
+    Object {
+      "context": "1",
+      "group_id": "2",
+      "is_major_update": false,
+      "liveVariables": Object {
+        "test": "var1",
+      },
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace4",
+      "oldVariables": Object {
+        "test": "var1",
+      },
+      "variables": Object {
+        "test": "var1",
+        "test2": "var2",
+      },
+    },
+  ],
+}
+`;
+
+exports[`Activity Reducer UPDATE_ACTIVITY_FAIL fails to update activity successfully 1`] = `
+Object {
+  "achievements": Object {
+    "rulesetList": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "selectedRuleset": Object {
+      "data": Object {},
+      "loading": false,
+    },
+  },
+  "contexts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "envSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "files": Object {},
+  "filestorage": Object {
+    "contexts": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "files": Object {},
+    "uploadProgress": Object {},
+  },
+  "publisherObjects": Object {
+    "categories": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "error": Object {},
+    "groups": Object {
+      "data": Array [],
+      "loading": false,
+    },
+  },
+  "pubvars": Object {
+    "selectedValues": Object {
+      "context": null,
+      "group_id": null,
+      "namespace": null,
+    },
+    "variableSets": Array [],
+  },
+  "pyscripts": Object {
+    "templates": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+  },
+  "searchAvailable": true,
+  "selectedActivity": undefined,
+  "selectedActivityPublishType": "on_start",
+  "selectedActivityType": "all",
+  "thunderpants": Object {
+    "buildList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "buildSchema": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "deployerList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "deploymentList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "filterType": "default",
+    "form": Object {
+      "data": Object {},
+      "next": "",
+      "schema": Array [],
+      "summary": Object {},
+      "targets": Array [],
+      "type": "",
+    },
+    "targetList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "unlockedDeployments": Object {},
+    "userParamsSchema": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "viewList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+  },
+  "uploadProgress": Object {},
+  "variableSets": Array [],
+}
+`;
+
+exports[`Activity Reducer UPDATE_ACTIVITY_SUCCESS an activity is successfully updated 1`] = `
+Object {
+  "achievements": Object {
+    "rulesetList": Object {
+      "data": Array [
+        Object {
+          "activationTimestamp": null,
+          "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+          "codeSignature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+          "codeSignatureTimestamp": 1565841879,
+          "creationTimestamp": 1565841879,
+          "isActive": true,
+          "label": "stronghold-5",
+          "lastUpdateTimestamp": 1565842668,
+        },
+      ],
+      "loading": false,
+    },
+    "selectedRuleset": Object {
+      "data": Object {
+        "activationTimestamp": null,
+        "code": "eoisduf0qe343",
+        "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+        "codeSignature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+        "codeSignatureTimestamp": 1565841879,
+        "creationTimestamp": 1565841879,
+        "isActive": false,
+        "label": "stronghold-8",
+        "lastUpdateTimestamp": 1565842668,
+      },
+      "loading": false,
+    },
+  },
+  "contexts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "envSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "filestorage": Object {
+    "contexts": Object {
+      "data": Array [
+        "1",
+        "test",
+        "another",
+      ],
+      "loading": false,
+    },
+    "files": Object {
+      "3": Object {
+        "X-Progress-ID": 1563392198,
+        "comment": "",
+        "context": "1",
+        "download": false,
+        "filename": "test.txt",
+        "id": 3,
+        "progress": 0,
+        "remoteFilename": "test.txt",
+        "size": "5 bytes",
+        "title": "",
+      },
+    },
+    "uploadProgress": Object {
+      "1563392198": Object {
+        "received": 776,
+        "size": 776,
+      },
+    },
+  },
+  "loading": false,
+  "publisherObjects": Object {
+    "categories": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "error": Object {},
+    "groups": Object {
+      "data": Array [],
+      "loading": false,
+    },
+  },
+  "pubvars": Object {
+    "selectedValues": Object {
+      "context": null,
+      "group_id": null,
+      "namespace": null,
+    },
+    "variableSets": Array [],
+  },
+  "pyscripts": Object {
+    "templates": Array [
+      Object {
+        "description": "Double XP Activity",
+        "id": "double-xp",
+        "name": "Double Xp",
+        "schema": Object {
+          "additionalProperties": false,
+          "properties": Object {
+            "icon": Object {
+              "contentEncoding": "base64",
+              "contentMediaType": "application/octet-stream",
+              "type": "string",
+            },
+            "xp_multiplier": Object {
+              "maximum": 2,
+              "minimum": 1,
+              "multipleOf": 1,
+              "type": "number",
+            },
+          },
+          "required": Array [
+            "xp_multiplier",
+          ],
+          "type": "object",
+        },
+        "version": "v1.0.1",
+      },
+      Object {
+        "description": "Weapon Drop Activity",
+        "id": "weapon-drop",
+        "name": "Weapon Drop",
+        "schema": Object {
+          "additionalProperties": false,
+          "properties": Object {
+            "attachment_icons": Object {
+              "items": Object {
+                "contentEncoding": "base64",
+                "contentMediaType": "image/png",
+                "type": "string",
+              },
+              "type": "array",
+            },
+            "attachments": Object {
+              "items": Object {
+                "maxLength": 15,
+                "type": "string",
+              },
+              "type": "array",
+              "uniqueItems": true,
+            },
+            "cost": Object {
+              "minimum": 10,
+              "multipleOf": 10,
+              "type": "number",
+            },
+            "weapon_type": Object {
+              "maxLength": 15,
+              "minLength": 3,
+              "type": "string",
+            },
+          },
+          "required": Array [
+            "weapon_type",
+            "attachments",
+            "attachment_icons",
+            "cost",
+          ],
+          "type": "object",
+        },
+        "version": "v1.0.0",
+      },
+    ],
+  },
+  "searchAvailable": true,
+  "selectedActivity": 13,
+  "selectedActivityType": "all",
+  "thunderpants": Object {
+    "buildList": Object {
+      "data": Array [
+        Object {
+          "base": Object {
+            "identifier": "game_dh_server_linux.out",
+            "relative_folder": "autobuild/versions/submission_7431811_sub_tu13_ccs_2/linux/dedicated",
+          },
+          "properties": Object {
+            "branch": "submission",
+            "ccs_version": "1302",
+            "dw_flavor": "vanilla",
+            "flavor": "test",
+            "os": "linux",
+            "platform": "all",
+            "title": "iw8",
+            "version": "7431811",
+          },
+          "source_name": "iw8-rebuildds",
+          "timestamp": 1581459817,
+          "ui_properties": Object {
+            "folder": "autobuild:submission_7431811_sub_tu13_ccs_2",
+            "version": "7431811@1302",
+          },
+          "uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "buildSchema": Object {
+      "data": Array [
+        Object {
+          "field": "source_name",
+          "name": "Source",
+        },
+        Object {
+          "field": "ui_properties.folder",
+          "name": "Folder",
+        },
+        Object {
+          "field": "ui_properties.version",
+          "name": "Version",
+        },
+        Object {
+          "field": "properties.os",
+          "name": "OS",
+        },
+        Object {
+          "field": "properties.flavor",
+          "name": "Flavor",
+        },
+        Object {
+          "field": "properties.dw_flavor",
+          "name": "DW-Flavor",
+        },
+        Object {
+          "field": "timestamp",
+          "name": "Timestamp",
+          "type": "timestamp",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "deployerList": Object {
+      "data": Array [
+        Object {
+          "base_url": "https://uidev-hq.tp.demonware.net/deployer/uidev_ng/api",
+          "environment": "Certification",
+          "id": 21,
+          "name": "Thunderpants MTP Cert Deployer 1",
+        },
+      ],
+      "success": true,
+    },
+    "deploymentList": Object {
+      "data": Array [
+        Object {
+          "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+          "last_timestamp": 1581636361,
+          "status": "deployed",
+          "target_name": "uidev:dev(mp)",
+          "tp": Object {
+            "auto_tag": Object {
+              "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+              "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+              "view_name": "iw8linux",
+            },
+            "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+            "env": "uidev",
+            "stats": Object {},
+            "tags": Object {
+              "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+              "build_config_overrides": Object {
+                "deployer": Object {
+                  "deploy": Object {
+                    "max": 1,
+                  },
+                },
+              },
+              "dw_flavor": "vanilla",
+              "server_type": "mp",
+            },
+          },
+          "tp_client": "devdeployer",
+          "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+          "user_params": Object {
+            "max_instances_per_machine": 1,
+          },
+          "view_name": "iw8linux",
+        },
+        Object {
+          "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+          "last_timestamp": 1581636361,
+          "status": "deployed",
+          "target_name": "uidev:dev(gw)",
+          "tp": Object {
+            "auto_tag": Object {
+              "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+              "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+              "view_name": "iw8linux",
+            },
+            "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+            "env": "uidev",
+            "stats": Object {},
+            "tags": Object {
+              "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+              "build_config_overrides": Object {
+                "deployer": Object {
+                  "deploy": Object {
+                    "max": 1,
+                  },
+                },
+              },
+              "dw_flavor": "vanilla",
+              "server_type": "mp",
+            },
+          },
+          "tp_client": "devdeployer",
+          "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+          "user_params": Object {
+            "max_instances_per_machine": 1,
+          },
+          "view_name": "iw8linux",
+        },
+        Object {
+          "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+          "last_timestamp": 1581636361,
+          "status": "deployed",
+          "target_name": "uidev:dev(gw)",
+          "tp": Object {
+            "auto_tag": Object {
+              "build_uid": "fdda2dcf3a073b346b55e365ff4e4ae8c43417621f243ef6c18c5b1a7b12d03c",
+              "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa",
+              "view_name": "iw8linux",
+            },
+            "build_name": "iw8-all-test-dev-7378641-autobuild_mp:7372969_7378641@7378641@(mp)@e36fc01f-linux",
+            "env": "uidev",
+            "stats": Object {},
+            "tags": Object {
+              "__tp_auto_ng_uidev": "eJwtzMsKwjAQQNFfKVkbSGYmD/2ZknlBoHZXK4j/LgXXl3M/4ZgaHkvo5FYZMN7NPJKLRsaSopi3LADdxgi3Jbymnes+nnahefZt7sf7CnzMTdf/zVUHqDiO1JCRKpdiWIs7GQ3rQki5VcgOhOZVcpfCeTTOoAklfH+MjSyT",
+              "build_config_overrides": Object {
+                "deployer": Object {
+                  "deploy": Object {
+                    "max": 1,
+                  },
+                },
+              },
+              "dw_flavor": "vanilla",
+              "server_type": "mp",
+            },
+          },
+          "tp_client": "devdeployer",
+          "uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+          "user_params": Object {
+            "max_instances_per_machine": 1,
+          },
+          "view_name": "iw8linux",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "filterType": "default",
+    "form": Object {
+      "data": Object {},
+      "schema": Array [],
+      "summary": Object {},
+      "targets": Array [],
+      "type": "",
+    },
+    "targetList": Object {
+      "data": Array [
+        Object {
+          "name": "uidev:dev(mp)",
+        },
+        Object {
+          "name": "uidev:dev(gw)",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "unlockedDeployments": Object {},
+    "userParamsSchema": Object {
+      "data": Array [
+        Object {
+          "default": 10,
+          "description": "How many instances of the server to deploy per machine",
+          "maximum": 300,
+          "minimum": 0,
+          "name": "max_instances_per_machine",
+          "type": "integer",
+        },
+        Object {
+          "default": "",
+          "description": "Any additional commandline parameters",
+          "name": "extra_cmdline_args",
+          "type": "string",
+        },
+      ],
+      "loading": false,
+      "params": Object {
+        "view": "iw8linux",
+      },
+      "success": false,
+    },
+    "viewList": Object {
+      "data": Array [
+        "iw8linux",
+      ],
+      "loading": false,
+      "success": false,
+    },
+  },
+  "variableSets": Array [
+    Object {
+      "context": "1",
+      "group_id": "1",
+      "is_major_update": false,
+      "liveVariables": Object {
+        "test": "var1",
+      },
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace1",
+      "oldVariables": Object {
+        "test": "var1",
+      },
+      "variables": Object {
+        "test": "var1",
+      },
+    },
+    Object {
+      "context": "1",
+      "group_id": "2",
+      "is_major_update": false,
+      "liveVariables": Object {
+        "test": "var1",
+      },
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace2",
+      "oldVariables": Object {
+        "test": "var1",
+      },
+      "variables": Object {},
+    },
+    Object {
+      "context": "1",
+      "group_id": "1",
+      "is_major_update": false,
+      "liveVariables": Object {},
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace3",
+      "oldVariables": Object {},
+      "variables": Object {
+        "test": "var1",
+      },
+    },
+    Object {
+      "context": "1",
+      "group_id": "2",
+      "is_major_update": false,
+      "liveVariables": Object {
+        "test": "var1",
+      },
+      "major_version": 1,
+      "minor_version": 1,
+      "namespace": "Namespace4",
+      "oldVariables": Object {
+        "test": "var1",
+      },
+      "variables": Object {
+        "test": "var1",
+        "test2": "var2",
+      },
+    },
+  ],
+}
+`;
+
+exports[`Activity Reducer returns default state 1`] = `
+Object {
+  "achievements": Object {
+    "rulesetList": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "selectedRuleset": Object {
+      "data": Object {},
+      "loading": false,
+    },
+  },
+  "contexts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "envSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "files": Object {},
+  "filestorage": Object {
+    "contexts": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "files": Object {},
+    "uploadProgress": Object {},
+  },
+  "publisherObjects": Object {
+    "categories": Object {
+      "data": Array [],
+      "loading": false,
+    },
+    "error": Object {},
+    "groups": Object {
+      "data": Array [],
+      "loading": false,
+    },
+  },
+  "pubvars": Object {
+    "selectedValues": Object {
+      "context": null,
+      "group_id": null,
+      "namespace": null,
+    },
+    "variableSets": Array [],
+  },
+  "pyscripts": Object {
+    "templates": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+  },
+  "searchAvailable": true,
+  "selectedActivity": undefined,
+  "selectedActivityPublishType": "on_start",
+  "selectedActivityType": "all",
+  "thunderpants": Object {
+    "buildList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "buildSchema": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "deployerList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "deploymentList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "filterType": "default",
+    "form": Object {
+      "data": Object {},
+      "next": "",
+      "schema": Array [],
+      "summary": Object {},
+      "targets": Array [],
+      "type": "",
+    },
+    "targetList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "unlockedDeployments": Object {},
+    "userParamsSchema": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+    "viewList": Object {
+      "data": Array [],
+      "loading": true,
+      "success": false,
+    },
+  },
+  "uploadProgress": Object {},
+  "variableSets": Array [],
+}
+`;

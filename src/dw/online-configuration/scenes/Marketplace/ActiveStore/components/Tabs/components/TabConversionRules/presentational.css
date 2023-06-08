@@ -1,0 +1,14 @@
+.active-store__tab-conversion-rules {
+  padding: 20px;
+}
+
+.active-store__tab-conversion-rules .rules {
+  margin-top: 20px;
+}
+
+.active-store__tab-conversion-rules .rule-id {
+}
+
+.active-store__tab-conversion-rules .rule-description {
+  margin-bottom: 5px;
+}

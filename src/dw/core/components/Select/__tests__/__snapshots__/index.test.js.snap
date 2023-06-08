@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select renders custom values 1`] = `
+<WithStyles(ForwardRef(TextField))
+  SelectProps={
+    Object {
+      "MenuProps": Object {
+        "PaperProps": Object {
+          "style": Object {
+            "maxHeight": 256,
+          },
+        },
+        "anchorOrigin": Object {
+          "horizontal": "left",
+          "vertical": "bottom",
+        },
+        "getContentAnchorEl": null,
+      },
+      "classes": Object {
+        "select": "select",
+      },
+      "multiple": true,
+      "renderValue": [Function],
+    }
+  }
+  classes={Object {}}
+  disabled={false}
+  fullWidth={true}
+  input={
+    Object {
+      "onChange": [MockFunction],
+      "value": "item1",
+    }
+  }
+  items={[MockFunction]}
+  label="Blah"
+  meta={
+    Object {
+      "error": "invalid",
+      "touched": true,
+    }
+  }
+  onChange={[Function]}
+  onDrop={[Function]}
+  select={true}
+  value={Array []}
+/>
+`;
+
+exports[`Select renders default values 1`] = `
+<WithStyles(ForwardRef(TextField))
+  SelectProps={
+    Object {
+      "MenuProps": Object {
+        "PaperProps": Object {
+          "style": Object {
+            "maxHeight": 256,
+          },
+        },
+        "anchorOrigin": Object {
+          "horizontal": "left",
+          "vertical": "bottom",
+        },
+        "getContentAnchorEl": null,
+      },
+      "classes": Object {
+        "select": "select",
+      },
+      "multiple": false,
+      "renderValue": undefined,
+    }
+  }
+  classes={Object {}}
+  disabled={false}
+  input={
+    Object {
+      "value": null,
+    }
+  }
+  meta={
+    Object {
+      "error": undefined,
+      "touched": undefined,
+    }
+  }
+  onChange={[Function]}
+  onDrop={[Function]}
+  select={true}
+  value=""
+/>
+`;

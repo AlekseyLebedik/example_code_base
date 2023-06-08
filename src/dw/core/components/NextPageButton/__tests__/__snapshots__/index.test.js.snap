@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NextPageButton renders a show more button when nextPageToken is given 1`] = `
+<Button
+  className="NextPageButton"
+  disableRipple={true}
+  fullWidth={true}
+  onClick={[Function]}
+  variant="contained"
+>
+  Show More
+</Button>
+`;
+
+exports[`NextPageButton renders nothing when nextPageToken is null 1`] = `""`;

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectDraftModal loading 1`] = `""`;
+
+exports[`SelectDraftModal renders dialog 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  aria-labelledby="form-dialog-title"
+  onClose={[MockFunction]}
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))
+    id="form-dialog-title"
+  >
+    Select Draft for Edit
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(DialogContentText))>
+      You may select existing draft from a list or type a new draft name and hit create in dropdown. It will create a new empty draft.
+    </WithStyles(ForwardRef(DialogContentText))>
+    <AutocompleteGeneral
+      autoEllipsis={false}
+      components={Object {}}
+      error={false}
+      fontSize="slim"
+      helperText={null}
+      isClearable={true}
+      isDisabled={false}
+      isMulti={false}
+      isRerenderOnDefaultChange={false}
+      isSearchable={true}
+      onAdd={[Function]}
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "label": "Draft 1",
+            "value": 1,
+          },
+          Object {
+            "label": "One more draft",
+            "value": 2,
+          },
+        ]
+      }
+      size="big"
+      textFieldProps={Object {}}
+      valuesOnly={true}
+      variant="default"
+    />
+  </WithStyles(ForwardRef(DialogContent))>
+  <WithStyles(ForwardRef(DialogActions))>
+    <WithStyles(ForwardRef(Button))
+      color="default"
+      disabled={false}
+      onClick={[MockFunction]}
+    >
+      Cancel
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Apply
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(DialogActions))>
+</WithStyles(ForwardRef(Dialog))>
+`;

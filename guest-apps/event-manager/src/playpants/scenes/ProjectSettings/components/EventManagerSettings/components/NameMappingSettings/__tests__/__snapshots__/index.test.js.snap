@@ -1,0 +1,3345 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NameMappingSettings renders default values 1`] = `
+<NameMappingSettingsBase
+  activitySettings={
+    Array [
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": true,
+        "allow_revert": false,
+        "context": Object {
+          "is_enabled": false,
+          "type": "title",
+        },
+        "enabled": false,
+        "name": "Message of The Day",
+        "type": "motd",
+      },
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": true,
+        "allow_revert": false,
+        "context": Object {
+          "is_enabled": false,
+          "type": "title",
+        },
+        "enabled": false,
+        "name": "Playlists",
+        "type": "playlist",
+      },
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": false,
+        "allow_revert": true,
+        "context": Object {
+          "is_enabled": false,
+          "type": "title",
+        },
+        "enabled": true,
+        "name": "Publisher Variables",
+        "type": "pubvars",
+        "variable_mapping": Object {
+          "LKKNORQKTP": "mp_xp_mult_scale",
+          "MSTMLNKSSO": "mp_weapon_xp",
+        },
+      },
+      Object {
+        "allow_duplication": false,
+        "allow_multi_titles": false,
+        "allow_revert": true,
+        "context": Object {
+          "is_enabled": false,
+          "type": "title",
+        },
+        "enabled": true,
+        "name": "Publisher Storage",
+        "type": "pubstorage",
+      },
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": false,
+        "allow_revert": true,
+        "context": Object {
+          "is_enabled": false,
+          "type": "title",
+        },
+        "enabled": true,
+        "name": "Python Script",
+        "type": "pyscript",
+      },
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": false,
+        "allow_revert": true,
+        "context": Object {
+          "is_enabled": true,
+          "type": "title",
+        },
+        "enabled": true,
+        "name": "Achievements Engine",
+        "type": "ae",
+      },
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": false,
+        "allow_revert": true,
+        "context": Object {
+          "is_enabled": true,
+          "type": "title",
+        },
+        "enabled": true,
+        "name": "Publisher Objects",
+        "type": "publisher_objects",
+      },
+    ]
+  }
+  clearSchema={[MockFunction]}
+  fetchSchema={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "project_setting_activity_settings",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  settingSchema={
+    Object {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "description": "Project Setting - Activity Settings",
+      "items": Object {
+        "properties": Object {
+          "allow_duplication": Object {
+            "type": "boolean",
+          },
+          "allow_multi_titles": Object {
+            "type": "boolean",
+          },
+          "allow_revert": Object {
+            "type": "boolean",
+          },
+          "enabled": Object {
+            "type": "boolean",
+          },
+          "name": Object {
+            "type": "string",
+          },
+          "type": Object {
+            "enum": Array [
+              "ae",
+              "gvs",
+            ],
+          },
+        },
+        "required": Array [
+          "type",
+          "name",
+          "allow_multi_titles",
+          "allow_duplication",
+          "allow_revert",
+          "enabled",
+          "context",
+        ],
+        "type": "object",
+      },
+      "type": "array",
+      "version": 1,
+    }
+  }
+  updateProjectSetting={[MockFunction]}
+>
+  <UploadVariables
+    activitySettings={
+      Array [
+        Object {
+          "allow_duplication": true,
+          "allow_multi_titles": true,
+          "allow_revert": false,
+          "context": Object {
+            "is_enabled": false,
+            "type": "title",
+          },
+          "enabled": false,
+          "name": "Message of The Day",
+          "type": "motd",
+        },
+        Object {
+          "allow_duplication": true,
+          "allow_multi_titles": true,
+          "allow_revert": false,
+          "context": Object {
+            "is_enabled": false,
+            "type": "title",
+          },
+          "enabled": false,
+          "name": "Playlists",
+          "type": "playlist",
+        },
+        Object {
+          "allow_duplication": true,
+          "allow_multi_titles": false,
+          "allow_revert": true,
+          "context": Object {
+            "is_enabled": false,
+            "type": "title",
+          },
+          "enabled": true,
+          "name": "Publisher Variables",
+          "type": "pubvars",
+          "variable_mapping": Object {
+            "LKKNORQKTP": "mp_xp_mult_scale",
+            "MSTMLNKSSO": "mp_weapon_xp",
+          },
+        },
+        Object {
+          "allow_duplication": false,
+          "allow_multi_titles": false,
+          "allow_revert": true,
+          "context": Object {
+            "is_enabled": false,
+            "type": "title",
+          },
+          "enabled": true,
+          "name": "Publisher Storage",
+          "type": "pubstorage",
+        },
+        Object {
+          "allow_duplication": true,
+          "allow_multi_titles": false,
+          "allow_revert": true,
+          "context": Object {
+            "is_enabled": false,
+            "type": "title",
+          },
+          "enabled": true,
+          "name": "Python Script",
+          "type": "pyscript",
+        },
+        Object {
+          "allow_duplication": true,
+          "allow_multi_titles": false,
+          "allow_revert": true,
+          "context": Object {
+            "is_enabled": true,
+            "type": "title",
+          },
+          "enabled": true,
+          "name": "Achievements Engine",
+          "type": "ae",
+        },
+        Object {
+          "allow_duplication": true,
+          "allow_multi_titles": false,
+          "allow_revert": true,
+          "context": Object {
+            "is_enabled": true,
+            "type": "title",
+          },
+          "enabled": true,
+          "name": "Publisher Objects",
+          "type": "publisher_objects",
+        },
+      ]
+    }
+    hasVariables={true}
+    updateProjectSetting={[MockFunction]}
+  >
+    <div
+      className="buttonContainer"
+    >
+      <WithStyles(WrappedIcon)
+        color="primary"
+        icon="file_upload"
+        onClick={[Function]}
+        tooltip="Upload variables"
+      >
+        <WrappedIcon
+          classes={
+            Object {
+              "colorPrimary": "WrappedIcon-colorPrimary-2",
+              "colorSecondary": "WrappedIcon-colorSecondary-3",
+              "root": "WrappedIcon-root-1",
+            }
+          }
+          color="primary"
+          icon="file_upload"
+          onClick={[Function]}
+          tooltip="Upload variables"
+        >
+          <WithStyles(ForwardRef(Tooltip))
+            TransitionComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "propTypes": Object {
+                  "children": [Function],
+                  "disableStrictModeCompat": [Function],
+                  "in": [Function],
+                  "onEnter": [Function],
+                  "onEntered": [Function],
+                  "onEntering": [Function],
+                  "onExit": [Function],
+                  "onExited": [Function],
+                  "onExiting": [Function],
+                  "style": [Function],
+                  "timeout": [Function],
+                },
+                "render": [Function],
+              }
+            }
+            title="Upload variables"
+          >
+            <ForwardRef(Tooltip)
+              TransitionComponent={
+                Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "children": [Function],
+                    "disableStrictModeCompat": [Function],
+                    "in": [Function],
+                    "onEnter": [Function],
+                    "onEntered": [Function],
+                    "onEntering": [Function],
+                    "onExit": [Function],
+                    "onExited": [Function],
+                    "onExiting": [Function],
+                    "style": [Function],
+                    "timeout": [Function],
+                  },
+                  "render": [Function],
+                }
+              }
+              classes={
+                Object {
+                  "arrow": "MuiTooltip-arrow",
+                  "popper": "MuiTooltip-popper",
+                  "popperArrow": "MuiTooltip-popperArrow",
+                  "popperInteractive": "MuiTooltip-popperInteractive",
+                  "tooltip": "MuiTooltip-tooltip",
+                  "tooltipArrow": "MuiTooltip-tooltipArrow",
+                  "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                  "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                  "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                  "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                  "touch": "MuiTooltip-touch",
+                }
+              }
+              title="Upload variables"
+            >
+              <WithStyles(ForwardRef(IconButton))
+                aria-describedby={null}
+                className=""
+                classes={
+                  Object {
+                    "colorPrimary": "WrappedIcon-colorPrimary-2",
+                    "colorSecondary": "WrappedIcon-colorSecondary-3",
+                    "root": "WrappedIcon-root-1 undefined",
+                  }
+                }
+                color="primary"
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseOver={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                title="Upload variables"
+                type="button"
+              >
+                <ForwardRef(IconButton)
+                  aria-describedby={null}
+                  className=""
+                  classes={
+                    Object {
+                      "colorInherit": "MuiIconButton-colorInherit",
+                      "colorPrimary": "MuiIconButton-colorPrimary WrappedIcon-colorPrimary-2",
+                      "colorSecondary": "MuiIconButton-colorSecondary WrappedIcon-colorSecondary-3",
+                      "disabled": "Mui-disabled",
+                      "edgeEnd": "MuiIconButton-edgeEnd",
+                      "edgeStart": "MuiIconButton-edgeStart",
+                      "label": "MuiIconButton-label",
+                      "root": "MuiIconButton-root WrappedIcon-root-1 undefined",
+                      "sizeSmall": "MuiIconButton-sizeSmall",
+                    }
+                  }
+                  color="primary"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseLeave={[Function]}
+                  onMouseOver={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchStart={[Function]}
+                  title="Upload variables"
+                  type="button"
+                >
+                  <WithStyles(ForwardRef(ButtonBase))
+                    aria-describedby={null}
+                    centerRipple={true}
+                    className="MuiIconButton-root WrappedIcon-root-1 undefined MuiIconButton-colorPrimary WrappedIcon-colorPrimary-2"
+                    disabled={false}
+                    focusRipple={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseOver={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    title="Upload variables"
+                    type="button"
+                  >
+                    <ForwardRef(ButtonBase)
+                      aria-describedby={null}
+                      centerRipple={true}
+                      className="MuiIconButton-root WrappedIcon-root-1 undefined MuiIconButton-colorPrimary WrappedIcon-colorPrimary-2"
+                      classes={
+                        Object {
+                          "disabled": "Mui-disabled",
+                          "focusVisible": "Mui-focusVisible",
+                          "root": "MuiButtonBase-root",
+                        }
+                      }
+                      disabled={false}
+                      focusRipple={true}
+                      onBlur={[Function]}
+                      onClick={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseOver={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      title="Upload variables"
+                      type="button"
+                    >
+                      <button
+                        aria-describedby={null}
+                        className="MuiButtonBase-root MuiIconButton-root WrappedIcon-root-1 undefined MuiIconButton-colorPrimary WrappedIcon-colorPrimary-2"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onClick={[Function]}
+                        onDragLeave={[Function]}
+                        onFocus={[Function]}
+                        onKeyDown={[Function]}
+                        onKeyUp={[Function]}
+                        onMouseDown={[Function]}
+                        onMouseLeave={[Function]}
+                        onMouseOver={[Function]}
+                        onMouseUp={[Function]}
+                        onTouchEnd={[Function]}
+                        onTouchMove={[Function]}
+                        onTouchStart={[Function]}
+                        tabIndex={0}
+                        title="Upload variables"
+                        type="button"
+                      >
+                        <span
+                          className="MuiIconButton-label"
+                        >
+                          <WithStyles(ForwardRef(Icon))>
+                            <ForwardRef(Icon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiIcon-colorAction",
+                                  "colorDisabled": "MuiIcon-colorDisabled",
+                                  "colorError": "MuiIcon-colorError",
+                                  "colorPrimary": "MuiIcon-colorPrimary",
+                                  "colorSecondary": "MuiIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                                  "root": "MuiIcon-root",
+                                }
+                              }
+                            >
+                              <span
+                                aria-hidden={true}
+                                className="material-icons MuiIcon-root"
+                              >
+                                file_upload
+                              </span>
+                            </ForwardRef(Icon)>
+                          </WithStyles(ForwardRef(Icon))>
+                        </span>
+                        <WithStyles(memo)
+                          center={true}
+                        >
+                          <ForwardRef(TouchRipple)
+                            center={true}
+                            classes={
+                              Object {
+                                "child": "MuiTouchRipple-child",
+                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                "ripple": "MuiTouchRipple-ripple",
+                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                "root": "MuiTouchRipple-root",
+                              }
+                            }
+                          >
+                            <span
+                              className="MuiTouchRipple-root"
+                            >
+                              <TransitionGroup
+                                childFactory={[Function]}
+                                component={null}
+                                exit={true}
+                              />
+                            </span>
+                          </ForwardRef(TouchRipple)>
+                        </WithStyles(memo)>
+                      </button>
+                    </ForwardRef(ButtonBase)>
+                  </WithStyles(ForwardRef(ButtonBase))>
+                </ForwardRef(IconButton)>
+              </WithStyles(ForwardRef(IconButton))>
+              <ForwardRef(Popper)
+                anchorEl={
+                  <button
+                    class="MuiButtonBase-root MuiIconButton-root WrappedIcon-root-1 undefined MuiIconButton-colorPrimary WrappedIcon-colorPrimary-2"
+                    tabindex="0"
+                    title="Upload variables"
+                    type="button"
+                  >
+                    <span
+                      class="MuiIconButton-label"
+                    >
+                      <span
+                        aria-hidden="true"
+                        class="material-icons MuiIcon-root"
+                      >
+                        file_upload
+                      </span>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                }
+                className="MuiTooltip-popper"
+                id={null}
+                open={false}
+                placement="bottom"
+                popperOptions={
+                  Object {
+                    "modifiers": Object {
+                      "arrow": Object {
+                        "element": null,
+                        "enabled": false,
+                      },
+                    },
+                  }
+                }
+                transition={true}
+              />
+            </ForwardRef(Tooltip)>
+          </WithStyles(ForwardRef(Tooltip))>
+        </WrappedIcon>
+      </WithStyles(WrappedIcon)>
+    </div>
+    <DialogComponent
+      actions={
+        Array [
+          <WithStyles(ForwardRef(Button))
+            onClick={[Function]}
+          >
+            Cancel
+          </WithStyles(ForwardRef(Button))>,
+          <UploadField
+            buttonProps={
+              Object {
+                "color": "primary",
+              }
+            }
+            iconProps={Object {}}
+            input={
+              Object {
+                "accept": ".csv",
+                "onChange": [Function],
+                "value": "",
+              }
+            }
+            label=""
+            meta={
+              Object {
+                "touched": true,
+              }
+            }
+            type=""
+          />,
+        ]
+      }
+      cancelOnBackdropClick={true}
+      classes={
+        Object {
+          "paper": "contentCenter",
+        }
+      }
+      contentStyle={Object {}}
+      fullWidth={false}
+      maxWidth="sm"
+      modal={true}
+      onRequestClose={[Function]}
+      open={false}
+      title="Confirm Update"
+    >
+      <WithStyles(ForwardRef(Dialog))
+        PaperProps={
+          Object {
+            "style": Object {
+              "position": "initial",
+            },
+          }
+        }
+        classes={
+          Object {
+            "paper": "contentCenter",
+          }
+        }
+        disableBackdropClick={false}
+        fullWidth={false}
+        maxWidth="sm"
+        onClose={[Function]}
+        open={false}
+      >
+        <ForwardRef(Dialog)
+          PaperProps={
+            Object {
+              "style": Object {
+                "position": "initial",
+              },
+            }
+          }
+          classes={
+            Object {
+              "container": "MuiDialog-container",
+              "paper": "MuiDialog-paper contentCenter",
+              "paperFullScreen": "MuiDialog-paperFullScreen",
+              "paperFullWidth": "MuiDialog-paperFullWidth",
+              "paperScrollBody": "MuiDialog-paperScrollBody",
+              "paperScrollPaper": "MuiDialog-paperScrollPaper",
+              "paperWidthFalse": "MuiDialog-paperWidthFalse",
+              "paperWidthLg": "MuiDialog-paperWidthLg",
+              "paperWidthMd": "MuiDialog-paperWidthMd",
+              "paperWidthSm": "MuiDialog-paperWidthSm",
+              "paperWidthXl": "MuiDialog-paperWidthXl",
+              "paperWidthXs": "MuiDialog-paperWidthXs",
+              "root": "MuiDialog-root",
+              "scrollBody": "MuiDialog-scrollBody",
+              "scrollPaper": "MuiDialog-scrollPaper",
+            }
+          }
+          disableBackdropClick={false}
+          fullWidth={false}
+          maxWidth="sm"
+          onClose={[Function]}
+          open={false}
+        >
+          <ForwardRef(Modal)
+            BackdropComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "Naked": Object {
+                  "$$typeof": Symbol(react.forward_ref),
+                  "propTypes": Object {
+                    "children": [Function],
+                    "className": [Function],
+                    "classes": [Function],
+                    "invisible": [Function],
+                    "open": [Function],
+                    "transitionDuration": [Function],
+                  },
+                  "render": [Function],
+                },
+                "displayName": "WithStyles(ForwardRef(Backdrop))",
+                "options": Object {
+                  "defaultTheme": Object {
+                    "breakpoints": Object {
+                      "between": [Function],
+                      "down": [Function],
+                      "keys": Array [
+                        "xs",
+                        "sm",
+                        "md",
+                        "lg",
+                        "xl",
+                      ],
+                      "only": [Function],
+                      "up": [Function],
+                      "values": Object {
+                        "lg": 1280,
+                        "md": 960,
+                        "sm": 600,
+                        "xl": 1920,
+                        "xs": 0,
+                      },
+                      "width": [Function],
+                    },
+                    "direction": "ltr",
+                    "mixins": Object {
+                      "gutters": [Function],
+                      "toolbar": Object {
+                        "@media (min-width:0px) and (orientation: landscape)": Object {
+                          "minHeight": 48,
+                        },
+                        "@media (min-width:600px)": Object {
+                          "minHeight": 64,
+                        },
+                        "minHeight": 56,
+                      },
+                    },
+                    "overrides": Object {},
+                    "palette": Object {
+                      "action": Object {
+                        "activatedOpacity": 0.12,
+                        "active": "rgba(0, 0, 0, 0.54)",
+                        "disabled": "rgba(0, 0, 0, 0.26)",
+                        "disabledBackground": "rgba(0, 0, 0, 0.12)",
+                        "disabledOpacity": 0.38,
+                        "focus": "rgba(0, 0, 0, 0.12)",
+                        "focusOpacity": 0.12,
+                        "hover": "rgba(0, 0, 0, 0.04)",
+                        "hoverOpacity": 0.04,
+                        "selected": "rgba(0, 0, 0, 0.08)",
+                        "selectedOpacity": 0.08,
+                      },
+                      "augmentColor": [Function],
+                      "background": Object {
+                        "default": "#fafafa",
+                        "paper": "#fff",
+                      },
+                      "common": Object {
+                        "black": "#000",
+                        "white": "#fff",
+                      },
+                      "contrastThreshold": 3,
+                      "divider": "rgba(0, 0, 0, 0.12)",
+                      "error": Object {
+                        "contrastText": "#fff",
+                        "dark": "#d32f2f",
+                        "light": "#e57373",
+                        "main": "#f44336",
+                      },
+                      "getContrastText": [Function],
+                      "grey": Object {
+                        "100": "#f5f5f5",
+                        "200": "#eeeeee",
+                        "300": "#e0e0e0",
+                        "400": "#bdbdbd",
+                        "50": "#fafafa",
+                        "500": "#9e9e9e",
+                        "600": "#757575",
+                        "700": "#616161",
+                        "800": "#424242",
+                        "900": "#212121",
+                        "A100": "#d5d5d5",
+                        "A200": "#aaaaaa",
+                        "A400": "#303030",
+                        "A700": "#616161",
+                      },
+                      "info": Object {
+                        "contrastText": "#fff",
+                        "dark": "#1976d2",
+                        "light": "#64b5f6",
+                        "main": "#2196f3",
+                      },
+                      "primary": Object {
+                        "contrastText": "#fff",
+                        "dark": "#303f9f",
+                        "light": "#7986cb",
+                        "main": "#3f51b5",
+                      },
+                      "secondary": Object {
+                        "contrastText": "#fff",
+                        "dark": "#c51162",
+                        "light": "#ff4081",
+                        "main": "#f50057",
+                      },
+                      "success": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#388e3c",
+                        "light": "#81c784",
+                        "main": "#4caf50",
+                      },
+                      "text": Object {
+                        "disabled": "rgba(0, 0, 0, 0.38)",
+                        "hint": "rgba(0, 0, 0, 0.38)",
+                        "primary": "rgba(0, 0, 0, 0.87)",
+                        "secondary": "rgba(0, 0, 0, 0.54)",
+                      },
+                      "tonalOffset": 0.2,
+                      "type": "light",
+                      "warning": Object {
+                        "contrastText": "rgba(0, 0, 0, 0.87)",
+                        "dark": "#f57c00",
+                        "light": "#ffb74d",
+                        "main": "#ff9800",
+                      },
+                    },
+                    "props": Object {},
+                    "shadows": Array [
+                      "none",
+                      "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+                      "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+                      "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+                      "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+                      "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+                      "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+                      "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+                      "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+                      "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+                      "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+                      "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+                      "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+                      "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+                      "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+                      "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+                      "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+                      "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+                      "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+                      "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+                      "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+                      "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+                      "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+                      "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+                      "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+                    ],
+                    "shape": Object {
+                      "borderRadius": 4,
+                    },
+                    "spacing": [Function],
+                    "transitions": Object {
+                      "create": [Function],
+                      "duration": Object {
+                        "complex": 375,
+                        "enteringScreen": 225,
+                        "leavingScreen": 195,
+                        "short": 250,
+                        "shorter": 200,
+                        "shortest": 150,
+                        "standard": 300,
+                      },
+                      "easing": Object {
+                        "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+                        "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+                        "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+                        "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+                      },
+                      "getAutoHeightDuration": [Function],
+                    },
+                    "typography": Object {
+                      "body1": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.00938em",
+                        "lineHeight": 1.5,
+                      },
+                      "body2": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.01071em",
+                        "lineHeight": 1.43,
+                      },
+                      "button": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 500,
+                        "letterSpacing": "0.02857em",
+                        "lineHeight": 1.75,
+                        "textTransform": "uppercase",
+                      },
+                      "caption": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.75rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.03333em",
+                        "lineHeight": 1.66,
+                      },
+                      "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                      "fontSize": 14,
+                      "fontWeightBold": 700,
+                      "fontWeightLight": 300,
+                      "fontWeightMedium": 500,
+                      "fontWeightRegular": 400,
+                      "h1": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "6rem",
+                        "fontWeight": 300,
+                        "letterSpacing": "-0.01562em",
+                        "lineHeight": 1.167,
+                      },
+                      "h2": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "3.75rem",
+                        "fontWeight": 300,
+                        "letterSpacing": "-0.00833em",
+                        "lineHeight": 1.2,
+                      },
+                      "h3": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "3rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0em",
+                        "lineHeight": 1.167,
+                      },
+                      "h4": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "2.125rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.00735em",
+                        "lineHeight": 1.235,
+                      },
+                      "h5": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1.5rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0em",
+                        "lineHeight": 1.334,
+                      },
+                      "h6": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1.25rem",
+                        "fontWeight": 500,
+                        "letterSpacing": "0.0075em",
+                        "lineHeight": 1.6,
+                      },
+                      "htmlFontSize": 16,
+                      "overline": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.75rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.08333em",
+                        "lineHeight": 2.66,
+                        "textTransform": "uppercase",
+                      },
+                      "pxToRem": [Function],
+                      "round": [Function],
+                      "subtitle1": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "1rem",
+                        "fontWeight": 400,
+                        "letterSpacing": "0.00938em",
+                        "lineHeight": 1.75,
+                      },
+                      "subtitle2": Object {
+                        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+                        "fontSize": "0.875rem",
+                        "fontWeight": 500,
+                        "letterSpacing": "0.00714em",
+                        "lineHeight": 1.57,
+                      },
+                    },
+                    "zIndex": Object {
+                      "appBar": 1100,
+                      "drawer": 1200,
+                      "mobileStepper": 1000,
+                      "modal": 1300,
+                      "snackbar": 1400,
+                      "speedDial": 1050,
+                      "tooltip": 1500,
+                    },
+                  },
+                  "name": "MuiBackdrop",
+                },
+                "propTypes": Object {
+                  "classes": [Function],
+                  "innerRef": [Function],
+                },
+                "render": [Function],
+                "useStyles": [Function],
+              }
+            }
+            BackdropProps={
+              Object {
+                "transitionDuration": Object {
+                  "enter": 225,
+                  "exit": 195,
+                },
+              }
+            }
+            className="MuiDialog-root"
+            closeAfterTransition={true}
+            disableBackdropClick={false}
+            disableEscapeKeyDown={false}
+            onClose={[Function]}
+            open={false}
+          />
+        </ForwardRef(Dialog)>
+      </WithStyles(ForwardRef(Dialog))>
+    </DialogComponent>
+  </UploadVariables>
+  <SettingSchema
+    formContext={
+      Object {
+        "listFields": Array [
+          "variable_mapping",
+        ],
+        "titleFields": Array [
+          "pubvars variable mapping",
+        ],
+      }
+    }
+    formData={
+      Object {
+        "pubvars variable mapping": Object {
+          "variable_mapping": Object {
+            "LKKNORQKTP": "mp_xp_mult_scale",
+            "MSTMLNKSSO": "mp_weapon_xp",
+          },
+        },
+      }
+    }
+    handleSubmit={[Function]}
+    settingSchema={
+      Object {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "properties": Object {
+          "pubvars variable mapping": Object {
+            "properties": Object {
+              "variable_mapping": Object {
+                "properties": Object {
+                  "LKKNORQKTP": Object {
+                    "type": "string",
+                  },
+                  "MSTMLNKSSO": Object {
+                    "type": "string",
+                  },
+                },
+                "type": "object",
+              },
+            },
+            "type": "object",
+          },
+        },
+        "type": "object",
+      }
+    }
+  >
+    <StatelessSettingSchema
+      displaySubmit={false}
+      expandAll={[Function]}
+      fieldsToTop={Array []}
+      formContext={
+        Object {
+          "listFields": Array [
+            "variable_mapping",
+          ],
+          "titleFields": Array [
+            "pubvars variable mapping",
+          ],
+        }
+      }
+      formData={
+        Object {
+          "pubvars variable mapping": Object {
+            "variable_mapping": Object {
+              "LKKNORQKTP": "mp_xp_mult_scale",
+              "MSTMLNKSSO": "mp_weapon_xp",
+            },
+          },
+        }
+      }
+      formRef={[Function]}
+      handleChange={[Function]}
+      handleFormChange={[Function]}
+      handleSelection={[Function]}
+      handleSubmit={[Function]}
+      isExpanded={Object {}}
+      openKeys={Array []}
+      rootAsRow={false}
+      settingSchema={
+        Object {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "properties": Object {
+            "pubvars variable mapping": Object {
+              "properties": Object {
+                "variable_mapping": Object {
+                  "properties": Object {
+                    "LKKNORQKTP": Object {
+                      "type": "string",
+                    },
+                    "MSTMLNKSSO": Object {
+                      "type": "string",
+                    },
+                  },
+                  "type": "object",
+                },
+              },
+              "type": "object",
+            },
+          },
+          "type": "object",
+        }
+      }
+      uiSchema={Object {}}
+    >
+      <Form
+        ArrayFieldTemplate={[Function]}
+        ErrorList={[Function]}
+        FieldTemplate={[Function]}
+        ObjectFieldTemplate={[Function]}
+        className="form formWidth"
+        disabled={false}
+        formContext={
+          Object {
+            "listFields": Array [
+              "variable_mapping",
+            ],
+            "titleFields": Array [
+              "pubvars variable mapping",
+            ],
+          }
+        }
+        formData={
+          Object {
+            "pubvars variable mapping": Object {
+              "variable_mapping": Object {
+                "LKKNORQKTP": "mp_xp_mult_scale",
+                "MSTMLNKSSO": "mp_weapon_xp",
+              },
+            },
+          }
+        }
+        key=""
+        liveValidate={false}
+        noHtml5Validate={false}
+        noValidate={false}
+        omitExtraData={false}
+        onChange={[Function]}
+        onSubmit={[Function]}
+        safeRenderCompletion={false}
+        schema={
+          Object {
+            "$schema": "http://json-schema.org/draft-07/schema#",
+            "properties": Object {
+              "pubvars variable mapping": Object {
+                "properties": Object {
+                  "variable_mapping": Object {
+                    "properties": Object {
+                      "LKKNORQKTP": Object {
+                        "type": "string",
+                      },
+                      "MSTMLNKSSO": Object {
+                        "type": "string",
+                      },
+                    },
+                    "type": "object",
+                  },
+                },
+                "type": "object",
+              },
+            },
+            "type": "object",
+          }
+        }
+        uiSchema={Object {}}
+        widgets={
+          Object {
+            "BaseInput": [Function],
+            "CheckboxWidget": [Function],
+            "SelectWidget": [Function],
+          }
+        }
+      >
+        <form
+          className="form formWidth"
+          noValidate={false}
+          onSubmit={[Function]}
+        >
+          <SchemaField
+            autofocus={false}
+            disabled={false}
+            errorSchema={Object {}}
+            formContext={
+              Object {
+                "listFields": Array [
+                  "variable_mapping",
+                ],
+                "titleFields": Array [
+                  "pubvars variable mapping",
+                ],
+              }
+            }
+            formData={
+              Object {
+                "pubvars variable mapping": Object {
+                  "variable_mapping": Object {
+                    "LKKNORQKTP": "mp_xp_mult_scale",
+                    "MSTMLNKSSO": "mp_weapon_xp",
+                  },
+                },
+              }
+            }
+            idSchema={
+              Object {
+                "$id": "root",
+                "pubvars variable mapping": Object {
+                  "$id": "root_pubvars variable mapping",
+                  "variable_mapping": Object {
+                    "$id": "root_pubvars variable mapping_variable_mapping",
+                    "LKKNORQKTP": Object {
+                      "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                    },
+                    "MSTMLNKSSO": Object {
+                      "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                    },
+                  },
+                },
+              }
+            }
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            readonly={false}
+            registry={
+              Object {
+                "ArrayFieldTemplate": [Function],
+                "FieldTemplate": [Function],
+                "ObjectFieldTemplate": [Function],
+                "definitions": Object {},
+                "fields": Object {
+                  "AnyOfField": [Function],
+                  "ArrayField": [Function],
+                  "BooleanField": [Function],
+                  "DescriptionField": [Function],
+                  "NullField": [Function],
+                  "NumberField": [Function],
+                  "ObjectField": [Function],
+                  "OneOfField": [Function],
+                  "SchemaField": [Function],
+                  "StringField": [Function],
+                  "TitleField": [Function],
+                  "UnsupportedField": [Function],
+                },
+                "formContext": Object {
+                  "listFields": Array [
+                    "variable_mapping",
+                  ],
+                  "titleFields": Array [
+                    "pubvars variable mapping",
+                  ],
+                },
+                "widgets": Object {
+                  "AltDateTimeWidget": [Function],
+                  "AltDateWidget": [Function],
+                  "BaseInput": [Function],
+                  "CheckboxWidget": [Function],
+                  "CheckboxesWidget": [Function],
+                  "ColorWidget": [Function],
+                  "DateTimeWidget": [Function],
+                  "DateWidget": [Function],
+                  "EmailWidget": [Function],
+                  "FileWidget": [Function],
+                  "HiddenWidget": [Function],
+                  "PasswordWidget": [Function],
+                  "RadioWidget": [Function],
+                  "RangeWidget": [Function],
+                  "SelectWidget": [Function],
+                  "TextWidget": [Function],
+                  "TextareaWidget": [Function],
+                  "URLWidget": [Function],
+                  "UpDownWidget": [Function],
+                },
+              }
+            }
+            safeRenderCompletion={false}
+            schema={
+              Object {
+                "$schema": "http://json-schema.org/draft-07/schema#",
+                "properties": Object {
+                  "pubvars variable mapping": Object {
+                    "properties": Object {
+                      "variable_mapping": Object {
+                        "properties": Object {
+                          "LKKNORQKTP": Object {
+                            "type": "string",
+                          },
+                          "MSTMLNKSSO": Object {
+                            "type": "string",
+                          },
+                        },
+                        "type": "object",
+                      },
+                    },
+                    "type": "object",
+                  },
+                },
+                "type": "object",
+              }
+            }
+            uiSchema={Object {}}
+          >
+            <CustomFieldTemplate
+              classNames="form-group field field-object"
+              description={
+                <DescriptionField
+                  formContext={
+                    Object {
+                      "listFields": Array [
+                        "variable_mapping",
+                      ],
+                      "titleFields": Array [
+                        "pubvars variable mapping",
+                      ],
+                    }
+                  }
+                  id="root__description"
+                />
+              }
+              disabled={false}
+              displayLabel={false}
+              errors={<ErrorList />}
+              fields={
+                Object {
+                  "AnyOfField": [Function],
+                  "ArrayField": [Function],
+                  "BooleanField": [Function],
+                  "DescriptionField": [Function],
+                  "NullField": [Function],
+                  "NumberField": [Function],
+                  "ObjectField": [Function],
+                  "OneOfField": [Function],
+                  "SchemaField": [Function],
+                  "StringField": [Function],
+                  "TitleField": [Function],
+                  "UnsupportedField": [Function],
+                }
+              }
+              formContext={
+                Object {
+                  "listFields": Array [
+                    "variable_mapping",
+                  ],
+                  "titleFields": Array [
+                    "pubvars variable mapping",
+                  ],
+                }
+              }
+              help={<Help />}
+              hidden={false}
+              id="root"
+              readonly={false}
+              schema={
+                Object {
+                  "$schema": "http://json-schema.org/draft-07/schema#",
+                  "properties": Object {
+                    "pubvars variable mapping": Object {
+                      "properties": Object {
+                        "variable_mapping": Object {
+                          "properties": Object {
+                            "LKKNORQKTP": Object {
+                              "type": "string",
+                            },
+                            "MSTMLNKSSO": Object {
+                              "type": "string",
+                            },
+                          },
+                          "type": "object",
+                        },
+                      },
+                      "type": "object",
+                    },
+                  },
+                  "type": "object",
+                }
+              }
+              uiSchema={Object {}}
+            >
+              <div
+                className="form-group field field-object"
+              >
+                <ObjectField
+                  autofocus={false}
+                  disabled={false}
+                  errorSchema={Object {}}
+                  formContext={
+                    Object {
+                      "listFields": Array [
+                        "variable_mapping",
+                      ],
+                      "titleFields": Array [
+                        "pubvars variable mapping",
+                      ],
+                    }
+                  }
+                  formData={
+                    Object {
+                      "pubvars variable mapping": Object {
+                        "variable_mapping": Object {
+                          "LKKNORQKTP": "mp_xp_mult_scale",
+                          "MSTMLNKSSO": "mp_weapon_xp",
+                        },
+                      },
+                    }
+                  }
+                  idSchema={
+                    Object {
+                      "$id": "root",
+                      "pubvars variable mapping": Object {
+                        "$id": "root_pubvars variable mapping",
+                        "variable_mapping": Object {
+                          "$id": "root_pubvars variable mapping_variable_mapping",
+                          "LKKNORQKTP": Object {
+                            "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                          },
+                          "MSTMLNKSSO": Object {
+                            "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                          },
+                        },
+                      },
+                    }
+                  }
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  readonly={false}
+                  registry={
+                    Object {
+                      "ArrayFieldTemplate": [Function],
+                      "FieldTemplate": [Function],
+                      "ObjectFieldTemplate": [Function],
+                      "definitions": Object {},
+                      "fields": Object {
+                        "AnyOfField": [Function],
+                        "ArrayField": [Function],
+                        "BooleanField": [Function],
+                        "DescriptionField": [Function],
+                        "NullField": [Function],
+                        "NumberField": [Function],
+                        "ObjectField": [Function],
+                        "OneOfField": [Function],
+                        "SchemaField": [Function],
+                        "StringField": [Function],
+                        "TitleField": [Function],
+                        "UnsupportedField": [Function],
+                      },
+                      "formContext": Object {
+                        "listFields": Array [
+                          "variable_mapping",
+                        ],
+                        "titleFields": Array [
+                          "pubvars variable mapping",
+                        ],
+                      },
+                      "widgets": Object {
+                        "AltDateTimeWidget": [Function],
+                        "AltDateWidget": [Function],
+                        "BaseInput": [Function],
+                        "CheckboxWidget": [Function],
+                        "CheckboxesWidget": [Function],
+                        "ColorWidget": [Function],
+                        "DateTimeWidget": [Function],
+                        "DateWidget": [Function],
+                        "EmailWidget": [Function],
+                        "FileWidget": [Function],
+                        "HiddenWidget": [Function],
+                        "PasswordWidget": [Function],
+                        "RadioWidget": [Function],
+                        "RangeWidget": [Function],
+                        "SelectWidget": [Function],
+                        "TextWidget": [Function],
+                        "TextareaWidget": [Function],
+                        "URLWidget": [Function],
+                        "UpDownWidget": [Function],
+                      },
+                    }
+                  }
+                  required={false}
+                  safeRenderCompletion={false}
+                  schema={
+                    Object {
+                      "$schema": "http://json-schema.org/draft-07/schema#",
+                      "properties": Object {
+                        "pubvars variable mapping": Object {
+                          "properties": Object {
+                            "variable_mapping": Object {
+                              "properties": Object {
+                                "LKKNORQKTP": Object {
+                                  "type": "string",
+                                },
+                                "MSTMLNKSSO": Object {
+                                  "type": "string",
+                                },
+                              },
+                              "type": "object",
+                            },
+                          },
+                          "type": "object",
+                        },
+                      },
+                      "type": "object",
+                    }
+                  }
+                  uiSchema={
+                    Object {
+                      "classNames": undefined,
+                    }
+                  }
+                >
+                  <ObjectFieldTemplate
+                    DescriptionField={[Function]}
+                    TitleField={[Function]}
+                    disabled={false}
+                    formContext={
+                      Object {
+                        "listFields": Array [
+                          "variable_mapping",
+                        ],
+                        "titleFields": Array [
+                          "pubvars variable mapping",
+                        ],
+                      }
+                    }
+                    formData={
+                      Object {
+                        "pubvars variable mapping": Object {
+                          "variable_mapping": Object {
+                            "LKKNORQKTP": "mp_xp_mult_scale",
+                            "MSTMLNKSSO": "mp_weapon_xp",
+                          },
+                        },
+                      }
+                    }
+                    idSchema={
+                      Object {
+                        "$id": "root",
+                        "pubvars variable mapping": Object {
+                          "$id": "root_pubvars variable mapping",
+                          "variable_mapping": Object {
+                            "$id": "root_pubvars variable mapping_variable_mapping",
+                            "LKKNORQKTP": Object {
+                              "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                            },
+                            "MSTMLNKSSO": Object {
+                              "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                            },
+                          },
+                        },
+                      }
+                    }
+                    onAddClick={[Function]}
+                    properties={
+                      Array [
+                        Object {
+                          "content": <SchemaField
+                            autofocus={false}
+                            disabled={false}
+                            errorSchema={Object {}}
+                            formData={
+                              Object {
+                                "variable_mapping": Object {
+                                  "LKKNORQKTP": "mp_xp_mult_scale",
+                                  "MSTMLNKSSO": "mp_weapon_xp",
+                                },
+                              }
+                            }
+                            idSchema={
+                              Object {
+                                "$id": "root_pubvars variable mapping",
+                                "variable_mapping": Object {
+                                  "$id": "root_pubvars variable mapping_variable_mapping",
+                                  "LKKNORQKTP": Object {
+                                    "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                                  },
+                                  "MSTMLNKSSO": Object {
+                                    "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                                  },
+                                },
+                              }
+                            }
+                            name="pubvars variable mapping"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onDropPropertyClick={[Function]}
+                            onFocus={[Function]}
+                            onKeyChange={[Function]}
+                            readonly={false}
+                            registry={
+                              Object {
+                                "ArrayFieldTemplate": [Function],
+                                "FieldTemplate": [Function],
+                                "ObjectFieldTemplate": [Function],
+                                "definitions": Object {},
+                                "fields": Object {
+                                  "AnyOfField": [Function],
+                                  "ArrayField": [Function],
+                                  "BooleanField": [Function],
+                                  "DescriptionField": [Function],
+                                  "NullField": [Function],
+                                  "NumberField": [Function],
+                                  "ObjectField": [Function],
+                                  "OneOfField": [Function],
+                                  "SchemaField": [Function],
+                                  "StringField": [Function],
+                                  "TitleField": [Function],
+                                  "UnsupportedField": [Function],
+                                },
+                                "formContext": Object {
+                                  "listFields": Array [
+                                    "variable_mapping",
+                                  ],
+                                  "titleFields": Array [
+                                    "pubvars variable mapping",
+                                  ],
+                                },
+                                "widgets": Object {
+                                  "AltDateTimeWidget": [Function],
+                                  "AltDateWidget": [Function],
+                                  "BaseInput": [Function],
+                                  "CheckboxWidget": [Function],
+                                  "CheckboxesWidget": [Function],
+                                  "ColorWidget": [Function],
+                                  "DateTimeWidget": [Function],
+                                  "DateWidget": [Function],
+                                  "EmailWidget": [Function],
+                                  "FileWidget": [Function],
+                                  "HiddenWidget": [Function],
+                                  "PasswordWidget": [Function],
+                                  "RadioWidget": [Function],
+                                  "RangeWidget": [Function],
+                                  "SelectWidget": [Function],
+                                  "TextWidget": [Function],
+                                  "TextareaWidget": [Function],
+                                  "URLWidget": [Function],
+                                  "UpDownWidget": [Function],
+                                },
+                              }
+                            }
+                            required={false}
+                            schema={
+                              Object {
+                                "properties": Object {
+                                  "variable_mapping": Object {
+                                    "properties": Object {
+                                      "LKKNORQKTP": Object {
+                                        "type": "string",
+                                      },
+                                      "MSTMLNKSSO": Object {
+                                        "type": "string",
+                                      },
+                                    },
+                                    "type": "object",
+                                  },
+                                },
+                                "type": "object",
+                              }
+                            }
+                            uiSchema={Object {}}
+                            wasPropertyKeyModified={false}
+                          />,
+                          "disabled": false,
+                          "name": "pubvars variable mapping",
+                          "readonly": false,
+                          "required": false,
+                        },
+                      ]
+                    }
+                    readonly={false}
+                    required={false}
+                    schema={
+                      Object {
+                        "$schema": "http://json-schema.org/draft-07/schema#",
+                        "properties": Object {
+                          "pubvars variable mapping": Object {
+                            "properties": Object {
+                              "variable_mapping": Object {
+                                "properties": Object {
+                                  "LKKNORQKTP": Object {
+                                    "type": "string",
+                                  },
+                                  "MSTMLNKSSO": Object {
+                                    "type": "string",
+                                  },
+                                },
+                                "type": "object",
+                              },
+                            },
+                            "type": "object",
+                          },
+                        },
+                        "type": "object",
+                      }
+                    }
+                    uiSchema={
+                      Object {
+                        "classNames": undefined,
+                      }
+                    }
+                  >
+                    <div
+                      key="pubvars variable mapping"
+                    >
+                      <SchemaField
+                        autofocus={false}
+                        disabled={false}
+                        errorSchema={Object {}}
+                        formData={
+                          Object {
+                            "variable_mapping": Object {
+                              "LKKNORQKTP": "mp_xp_mult_scale",
+                              "MSTMLNKSSO": "mp_weapon_xp",
+                            },
+                          }
+                        }
+                        idSchema={
+                          Object {
+                            "$id": "root_pubvars variable mapping",
+                            "variable_mapping": Object {
+                              "$id": "root_pubvars variable mapping_variable_mapping",
+                              "LKKNORQKTP": Object {
+                                "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                              },
+                              "MSTMLNKSSO": Object {
+                                "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                              },
+                            },
+                          }
+                        }
+                        key="pubvars variable mapping"
+                        name="pubvars variable mapping"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onDropPropertyClick={[Function]}
+                        onFocus={[Function]}
+                        onKeyChange={[Function]}
+                        readonly={false}
+                        registry={
+                          Object {
+                            "ArrayFieldTemplate": [Function],
+                            "FieldTemplate": [Function],
+                            "ObjectFieldTemplate": [Function],
+                            "definitions": Object {},
+                            "fields": Object {
+                              "AnyOfField": [Function],
+                              "ArrayField": [Function],
+                              "BooleanField": [Function],
+                              "DescriptionField": [Function],
+                              "NullField": [Function],
+                              "NumberField": [Function],
+                              "ObjectField": [Function],
+                              "OneOfField": [Function],
+                              "SchemaField": [Function],
+                              "StringField": [Function],
+                              "TitleField": [Function],
+                              "UnsupportedField": [Function],
+                            },
+                            "formContext": Object {
+                              "listFields": Array [
+                                "variable_mapping",
+                              ],
+                              "titleFields": Array [
+                                "pubvars variable mapping",
+                              ],
+                            },
+                            "widgets": Object {
+                              "AltDateTimeWidget": [Function],
+                              "AltDateWidget": [Function],
+                              "BaseInput": [Function],
+                              "CheckboxWidget": [Function],
+                              "CheckboxesWidget": [Function],
+                              "ColorWidget": [Function],
+                              "DateTimeWidget": [Function],
+                              "DateWidget": [Function],
+                              "EmailWidget": [Function],
+                              "FileWidget": [Function],
+                              "HiddenWidget": [Function],
+                              "PasswordWidget": [Function],
+                              "RadioWidget": [Function],
+                              "RangeWidget": [Function],
+                              "SelectWidget": [Function],
+                              "TextWidget": [Function],
+                              "TextareaWidget": [Function],
+                              "URLWidget": [Function],
+                              "UpDownWidget": [Function],
+                            },
+                          }
+                        }
+                        required={false}
+                        schema={
+                          Object {
+                            "properties": Object {
+                              "variable_mapping": Object {
+                                "properties": Object {
+                                  "LKKNORQKTP": Object {
+                                    "type": "string",
+                                  },
+                                  "MSTMLNKSSO": Object {
+                                    "type": "string",
+                                  },
+                                },
+                                "type": "object",
+                              },
+                            },
+                            "type": "object",
+                          }
+                        }
+                        uiSchema={Object {}}
+                        wasPropertyKeyModified={false}
+                      >
+                        <CustomFieldTemplate
+                          classNames="form-group field field-object"
+                          description={
+                            <DescriptionField
+                              formContext={
+                                Object {
+                                  "listFields": Array [
+                                    "variable_mapping",
+                                  ],
+                                  "titleFields": Array [
+                                    "pubvars variable mapping",
+                                  ],
+                                }
+                              }
+                              id="root_pubvars variable mapping__description"
+                            />
+                          }
+                          disabled={false}
+                          displayLabel={false}
+                          errors={<ErrorList />}
+                          fields={
+                            Object {
+                              "AnyOfField": [Function],
+                              "ArrayField": [Function],
+                              "BooleanField": [Function],
+                              "DescriptionField": [Function],
+                              "NullField": [Function],
+                              "NumberField": [Function],
+                              "ObjectField": [Function],
+                              "OneOfField": [Function],
+                              "SchemaField": [Function],
+                              "StringField": [Function],
+                              "TitleField": [Function],
+                              "UnsupportedField": [Function],
+                            }
+                          }
+                          formContext={
+                            Object {
+                              "listFields": Array [
+                                "variable_mapping",
+                              ],
+                              "titleFields": Array [
+                                "pubvars variable mapping",
+                              ],
+                            }
+                          }
+                          help={<Help />}
+                          hidden={false}
+                          id="root_pubvars variable mapping"
+                          label="pubvars variable mapping"
+                          onDropPropertyClick={[Function]}
+                          onKeyChange={[Function]}
+                          readonly={false}
+                          required={false}
+                          schema={
+                            Object {
+                              "properties": Object {
+                                "variable_mapping": Object {
+                                  "properties": Object {
+                                    "LKKNORQKTP": Object {
+                                      "type": "string",
+                                    },
+                                    "MSTMLNKSSO": Object {
+                                      "type": "string",
+                                    },
+                                  },
+                                  "type": "object",
+                                },
+                              },
+                              "type": "object",
+                            }
+                          }
+                          uiSchema={Object {}}
+                        >
+                          <div
+                            className="form-group field field-object"
+                          >
+                            <ObjectField
+                              autofocus={false}
+                              disabled={false}
+                              errorSchema={Object {}}
+                              formContext={
+                                Object {
+                                  "listFields": Array [
+                                    "variable_mapping",
+                                  ],
+                                  "titleFields": Array [
+                                    "pubvars variable mapping",
+                                  ],
+                                }
+                              }
+                              formData={
+                                Object {
+                                  "variable_mapping": Object {
+                                    "LKKNORQKTP": "mp_xp_mult_scale",
+                                    "MSTMLNKSSO": "mp_weapon_xp",
+                                  },
+                                }
+                              }
+                              idSchema={
+                                Object {
+                                  "$id": "root_pubvars variable mapping",
+                                  "variable_mapping": Object {
+                                    "$id": "root_pubvars variable mapping_variable_mapping",
+                                    "LKKNORQKTP": Object {
+                                      "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                                    },
+                                    "MSTMLNKSSO": Object {
+                                      "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                                    },
+                                  },
+                                }
+                              }
+                              name="pubvars variable mapping"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onDropPropertyClick={[Function]}
+                              onFocus={[Function]}
+                              onKeyChange={[Function]}
+                              readonly={false}
+                              registry={
+                                Object {
+                                  "ArrayFieldTemplate": [Function],
+                                  "FieldTemplate": [Function],
+                                  "ObjectFieldTemplate": [Function],
+                                  "definitions": Object {},
+                                  "fields": Object {
+                                    "AnyOfField": [Function],
+                                    "ArrayField": [Function],
+                                    "BooleanField": [Function],
+                                    "DescriptionField": [Function],
+                                    "NullField": [Function],
+                                    "NumberField": [Function],
+                                    "ObjectField": [Function],
+                                    "OneOfField": [Function],
+                                    "SchemaField": [Function],
+                                    "StringField": [Function],
+                                    "TitleField": [Function],
+                                    "UnsupportedField": [Function],
+                                  },
+                                  "formContext": Object {
+                                    "listFields": Array [
+                                      "variable_mapping",
+                                    ],
+                                    "titleFields": Array [
+                                      "pubvars variable mapping",
+                                    ],
+                                  },
+                                  "widgets": Object {
+                                    "AltDateTimeWidget": [Function],
+                                    "AltDateWidget": [Function],
+                                    "BaseInput": [Function],
+                                    "CheckboxWidget": [Function],
+                                    "CheckboxesWidget": [Function],
+                                    "ColorWidget": [Function],
+                                    "DateTimeWidget": [Function],
+                                    "DateWidget": [Function],
+                                    "EmailWidget": [Function],
+                                    "FileWidget": [Function],
+                                    "HiddenWidget": [Function],
+                                    "PasswordWidget": [Function],
+                                    "RadioWidget": [Function],
+                                    "RangeWidget": [Function],
+                                    "SelectWidget": [Function],
+                                    "TextWidget": [Function],
+                                    "TextareaWidget": [Function],
+                                    "URLWidget": [Function],
+                                    "UpDownWidget": [Function],
+                                  },
+                                }
+                              }
+                              required={false}
+                              schema={
+                                Object {
+                                  "properties": Object {
+                                    "variable_mapping": Object {
+                                      "properties": Object {
+                                        "LKKNORQKTP": Object {
+                                          "type": "string",
+                                        },
+                                        "MSTMLNKSSO": Object {
+                                          "type": "string",
+                                        },
+                                      },
+                                      "type": "object",
+                                    },
+                                  },
+                                  "type": "object",
+                                }
+                              }
+                              uiSchema={
+                                Object {
+                                  "classNames": undefined,
+                                }
+                              }
+                              wasPropertyKeyModified={false}
+                            >
+                              <ObjectFieldTemplate
+                                DescriptionField={[Function]}
+                                TitleField={[Function]}
+                                disabled={false}
+                                formContext={
+                                  Object {
+                                    "listFields": Array [
+                                      "variable_mapping",
+                                    ],
+                                    "titleFields": Array [
+                                      "pubvars variable mapping",
+                                    ],
+                                  }
+                                }
+                                formData={
+                                  Object {
+                                    "variable_mapping": Object {
+                                      "LKKNORQKTP": "mp_xp_mult_scale",
+                                      "MSTMLNKSSO": "mp_weapon_xp",
+                                    },
+                                  }
+                                }
+                                idSchema={
+                                  Object {
+                                    "$id": "root_pubvars variable mapping",
+                                    "variable_mapping": Object {
+                                      "$id": "root_pubvars variable mapping_variable_mapping",
+                                      "LKKNORQKTP": Object {
+                                        "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                                      },
+                                      "MSTMLNKSSO": Object {
+                                        "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                                      },
+                                    },
+                                  }
+                                }
+                                onAddClick={[Function]}
+                                properties={
+                                  Array [
+                                    Object {
+                                      "content": <SchemaField
+                                        autofocus={false}
+                                        disabled={false}
+                                        errorSchema={Object {}}
+                                        formData={
+                                          Object {
+                                            "LKKNORQKTP": "mp_xp_mult_scale",
+                                            "MSTMLNKSSO": "mp_weapon_xp",
+                                          }
+                                        }
+                                        idSchema={
+                                          Object {
+                                            "$id": "root_pubvars variable mapping_variable_mapping",
+                                            "LKKNORQKTP": Object {
+                                              "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                                            },
+                                            "MSTMLNKSSO": Object {
+                                              "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                                            },
+                                          }
+                                        }
+                                        name="variable_mapping"
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onDropPropertyClick={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyChange={[Function]}
+                                        readonly={false}
+                                        registry={
+                                          Object {
+                                            "ArrayFieldTemplate": [Function],
+                                            "FieldTemplate": [Function],
+                                            "ObjectFieldTemplate": [Function],
+                                            "definitions": Object {},
+                                            "fields": Object {
+                                              "AnyOfField": [Function],
+                                              "ArrayField": [Function],
+                                              "BooleanField": [Function],
+                                              "DescriptionField": [Function],
+                                              "NullField": [Function],
+                                              "NumberField": [Function],
+                                              "ObjectField": [Function],
+                                              "OneOfField": [Function],
+                                              "SchemaField": [Function],
+                                              "StringField": [Function],
+                                              "TitleField": [Function],
+                                              "UnsupportedField": [Function],
+                                            },
+                                            "formContext": Object {
+                                              "listFields": Array [
+                                                "variable_mapping",
+                                              ],
+                                              "titleFields": Array [
+                                                "pubvars variable mapping",
+                                              ],
+                                            },
+                                            "widgets": Object {
+                                              "AltDateTimeWidget": [Function],
+                                              "AltDateWidget": [Function],
+                                              "BaseInput": [Function],
+                                              "CheckboxWidget": [Function],
+                                              "CheckboxesWidget": [Function],
+                                              "ColorWidget": [Function],
+                                              "DateTimeWidget": [Function],
+                                              "DateWidget": [Function],
+                                              "EmailWidget": [Function],
+                                              "FileWidget": [Function],
+                                              "HiddenWidget": [Function],
+                                              "PasswordWidget": [Function],
+                                              "RadioWidget": [Function],
+                                              "RangeWidget": [Function],
+                                              "SelectWidget": [Function],
+                                              "TextWidget": [Function],
+                                              "TextareaWidget": [Function],
+                                              "URLWidget": [Function],
+                                              "UpDownWidget": [Function],
+                                            },
+                                          }
+                                        }
+                                        required={false}
+                                        schema={
+                                          Object {
+                                            "properties": Object {
+                                              "LKKNORQKTP": Object {
+                                                "type": "string",
+                                              },
+                                              "MSTMLNKSSO": Object {
+                                                "type": "string",
+                                              },
+                                            },
+                                            "type": "object",
+                                          }
+                                        }
+                                        uiSchema={Object {}}
+                                        wasPropertyKeyModified={false}
+                                      />,
+                                      "disabled": false,
+                                      "name": "variable_mapping",
+                                      "readonly": false,
+                                      "required": false,
+                                    },
+                                  ]
+                                }
+                                readonly={false}
+                                required={false}
+                                schema={
+                                  Object {
+                                    "properties": Object {
+                                      "variable_mapping": Object {
+                                        "properties": Object {
+                                          "LKKNORQKTP": Object {
+                                            "type": "string",
+                                          },
+                                          "MSTMLNKSSO": Object {
+                                            "type": "string",
+                                          },
+                                        },
+                                        "type": "object",
+                                      },
+                                    },
+                                    "type": "object",
+                                  }
+                                }
+                                title="pubvars variable mapping"
+                                uiSchema={
+                                  Object {
+                                    "classNames": undefined,
+                                  }
+                                }
+                              >
+                                <WithStyles(ForwardRef(List))
+                                  classes={
+                                    Object {
+                                      "root": "",
+                                    }
+                                  }
+                                  component="nav"
+                                  subheader={
+                                    <div
+                                      className="container"
+                                    >
+                                      <WithStyles(ForwardRef(ListSubheader))
+                                        classes={
+                                          Object {
+                                            "root": "listSubheader",
+                                          }
+                                        }
+                                        component="div"
+                                      >
+                                        pubvars variable mapping
+                                      </WithStyles(ForwardRef(ListSubheader))>
+                                      <WithStyles(WrappedIcon)
+                                        className="expandAll"
+                                        color="primary"
+                                        icon="expand_more"
+                                        onClick={[Function]}
+                                        text="Expand All"
+                                        tooltip="Expand all options"
+                                        type="fab"
+                                        variant="extended"
+                                      />
+                                    </div>
+                                  }
+                                >
+                                  <ForwardRef(List)
+                                    classes={
+                                      Object {
+                                        "dense": "MuiList-dense",
+                                        "padding": "MuiList-padding",
+                                        "root": "MuiList-root",
+                                        "subheader": "MuiList-subheader",
+                                      }
+                                    }
+                                    component="nav"
+                                    subheader={
+                                      <div
+                                        className="container"
+                                      >
+                                        <WithStyles(ForwardRef(ListSubheader))
+                                          classes={
+                                            Object {
+                                              "root": "listSubheader",
+                                            }
+                                          }
+                                          component="div"
+                                        >
+                                          pubvars variable mapping
+                                        </WithStyles(ForwardRef(ListSubheader))>
+                                        <WithStyles(WrappedIcon)
+                                          className="expandAll"
+                                          color="primary"
+                                          icon="expand_more"
+                                          onClick={[Function]}
+                                          text="Expand All"
+                                          tooltip="Expand all options"
+                                          type="fab"
+                                          variant="extended"
+                                        />
+                                      </div>
+                                    }
+                                  >
+                                    <nav
+                                      className="MuiList-root MuiList-padding MuiList-subheader"
+                                    >
+                                      <div
+                                        className="container"
+                                      >
+                                        <WithStyles(ForwardRef(ListSubheader))
+                                          classes={
+                                            Object {
+                                              "root": "listSubheader",
+                                            }
+                                          }
+                                          component="div"
+                                        >
+                                          <ForwardRef(ListSubheader)
+                                            classes={
+                                              Object {
+                                                "colorInherit": "MuiListSubheader-colorInherit",
+                                                "colorPrimary": "MuiListSubheader-colorPrimary",
+                                                "gutters": "MuiListSubheader-gutters",
+                                                "inset": "MuiListSubheader-inset",
+                                                "root": "MuiListSubheader-root listSubheader",
+                                                "sticky": "MuiListSubheader-sticky",
+                                              }
+                                            }
+                                            component="div"
+                                          >
+                                            <div
+                                              className="MuiListSubheader-root listSubheader MuiListSubheader-sticky MuiListSubheader-gutters"
+                                            >
+                                              pubvars variable mapping
+                                            </div>
+                                          </ForwardRef(ListSubheader)>
+                                        </WithStyles(ForwardRef(ListSubheader))>
+                                        <WithStyles(WrappedIcon)
+                                          className="expandAll"
+                                          color="primary"
+                                          icon="expand_more"
+                                          onClick={[Function]}
+                                          text="Expand All"
+                                          tooltip="Expand all options"
+                                          type="fab"
+                                          variant="extended"
+                                        >
+                                          <WrappedIcon
+                                            className="expandAll"
+                                            classes={
+                                              Object {
+                                                "colorPrimary": "WrappedIcon-colorPrimary-2",
+                                                "colorSecondary": "WrappedIcon-colorSecondary-3",
+                                                "root": "WrappedIcon-root-1",
+                                              }
+                                            }
+                                            color="primary"
+                                            icon="expand_more"
+                                            onClick={[Function]}
+                                            text="Expand All"
+                                            tooltip="Expand all options"
+                                            type="fab"
+                                            variant="extended"
+                                          >
+                                            <WithStyles(ForwardRef(Tooltip))
+                                              TransitionComponent={
+                                                Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "propTypes": Object {
+                                                    "children": [Function],
+                                                    "disableStrictModeCompat": [Function],
+                                                    "in": [Function],
+                                                    "onEnter": [Function],
+                                                    "onEntered": [Function],
+                                                    "onEntering": [Function],
+                                                    "onExit": [Function],
+                                                    "onExited": [Function],
+                                                    "onExiting": [Function],
+                                                    "style": [Function],
+                                                    "timeout": [Function],
+                                                  },
+                                                  "render": [Function],
+                                                }
+                                              }
+                                              title="Expand all options"
+                                            >
+                                              <ForwardRef(Tooltip)
+                                                TransitionComponent={
+                                                  Object {
+                                                    "$$typeof": Symbol(react.forward_ref),
+                                                    "propTypes": Object {
+                                                      "children": [Function],
+                                                      "disableStrictModeCompat": [Function],
+                                                      "in": [Function],
+                                                      "onEnter": [Function],
+                                                      "onEntered": [Function],
+                                                      "onEntering": [Function],
+                                                      "onExit": [Function],
+                                                      "onExited": [Function],
+                                                      "onExiting": [Function],
+                                                      "style": [Function],
+                                                      "timeout": [Function],
+                                                    },
+                                                    "render": [Function],
+                                                  }
+                                                }
+                                                classes={
+                                                  Object {
+                                                    "arrow": "MuiTooltip-arrow",
+                                                    "popper": "MuiTooltip-popper",
+                                                    "popperArrow": "MuiTooltip-popperArrow",
+                                                    "popperInteractive": "MuiTooltip-popperInteractive",
+                                                    "tooltip": "MuiTooltip-tooltip",
+                                                    "tooltipArrow": "MuiTooltip-tooltipArrow",
+                                                    "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                                                    "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                                                    "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                                                    "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                                                    "touch": "MuiTooltip-touch",
+                                                  }
+                                                }
+                                                title="Expand all options"
+                                              >
+                                                <WithStyles(ForwardRef(Fab))
+                                                  aria-describedby={null}
+                                                  className="expandAll"
+                                                  color="primary"
+                                                  onBlur={[Function]}
+                                                  onClick={[Function]}
+                                                  onFocus={[Function]}
+                                                  onMouseLeave={[Function]}
+                                                  onMouseOver={[Function]}
+                                                  onTouchEnd={[Function]}
+                                                  onTouchStart={[Function]}
+                                                  title="Expand all options"
+                                                  variant="extended"
+                                                >
+                                                  <ForwardRef(Fab)
+                                                    aria-describedby={null}
+                                                    className="expandAll"
+                                                    classes={
+                                                      Object {
+                                                        "colorInherit": "MuiFab-colorInherit",
+                                                        "disabled": "Mui-disabled",
+                                                        "extended": "MuiFab-extended",
+                                                        "focusVisible": "Mui-focusVisible",
+                                                        "label": "MuiFab-label",
+                                                        "primary": "MuiFab-primary",
+                                                        "root": "MuiFab-root",
+                                                        "secondary": "MuiFab-secondary",
+                                                        "sizeMedium": "MuiFab-sizeMedium",
+                                                        "sizeSmall": "MuiFab-sizeSmall",
+                                                      }
+                                                    }
+                                                    color="primary"
+                                                    onBlur={[Function]}
+                                                    onClick={[Function]}
+                                                    onFocus={[Function]}
+                                                    onMouseLeave={[Function]}
+                                                    onMouseOver={[Function]}
+                                                    onTouchEnd={[Function]}
+                                                    onTouchStart={[Function]}
+                                                    title="Expand all options"
+                                                    variant="extended"
+                                                  >
+                                                    <WithStyles(ForwardRef(ButtonBase))
+                                                      aria-describedby={null}
+                                                      className="MuiFab-root expandAll MuiFab-extended MuiFab-primary"
+                                                      component="button"
+                                                      disabled={false}
+                                                      focusRipple={true}
+                                                      focusVisibleClassName="Mui-focusVisible"
+                                                      onBlur={[Function]}
+                                                      onClick={[Function]}
+                                                      onFocus={[Function]}
+                                                      onMouseLeave={[Function]}
+                                                      onMouseOver={[Function]}
+                                                      onTouchEnd={[Function]}
+                                                      onTouchStart={[Function]}
+                                                      title="Expand all options"
+                                                    >
+                                                      <ForwardRef(ButtonBase)
+                                                        aria-describedby={null}
+                                                        className="MuiFab-root expandAll MuiFab-extended MuiFab-primary"
+                                                        classes={
+                                                          Object {
+                                                            "disabled": "Mui-disabled",
+                                                            "focusVisible": "Mui-focusVisible",
+                                                            "root": "MuiButtonBase-root",
+                                                          }
+                                                        }
+                                                        component="button"
+                                                        disabled={false}
+                                                        focusRipple={true}
+                                                        focusVisibleClassName="Mui-focusVisible"
+                                                        onBlur={[Function]}
+                                                        onClick={[Function]}
+                                                        onFocus={[Function]}
+                                                        onMouseLeave={[Function]}
+                                                        onMouseOver={[Function]}
+                                                        onTouchEnd={[Function]}
+                                                        onTouchStart={[Function]}
+                                                        title="Expand all options"
+                                                      >
+                                                        <button
+                                                          aria-describedby={null}
+                                                          className="MuiButtonBase-root MuiFab-root expandAll MuiFab-extended MuiFab-primary"
+                                                          disabled={false}
+                                                          onBlur={[Function]}
+                                                          onClick={[Function]}
+                                                          onDragLeave={[Function]}
+                                                          onFocus={[Function]}
+                                                          onKeyDown={[Function]}
+                                                          onKeyUp={[Function]}
+                                                          onMouseDown={[Function]}
+                                                          onMouseLeave={[Function]}
+                                                          onMouseOver={[Function]}
+                                                          onMouseUp={[Function]}
+                                                          onTouchEnd={[Function]}
+                                                          onTouchMove={[Function]}
+                                                          onTouchStart={[Function]}
+                                                          tabIndex={0}
+                                                          title="Expand all options"
+                                                          type="button"
+                                                        >
+                                                          <span
+                                                            className="MuiFab-label"
+                                                          >
+                                                            <WithStyles(ForwardRef(Icon))>
+                                                              <ForwardRef(Icon)
+                                                                classes={
+                                                                  Object {
+                                                                    "colorAction": "MuiIcon-colorAction",
+                                                                    "colorDisabled": "MuiIcon-colorDisabled",
+                                                                    "colorError": "MuiIcon-colorError",
+                                                                    "colorPrimary": "MuiIcon-colorPrimary",
+                                                                    "colorSecondary": "MuiIcon-colorSecondary",
+                                                                    "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                                                                    "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                                                                    "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                                                                    "root": "MuiIcon-root",
+                                                                  }
+                                                                }
+                                                              >
+                                                                <span
+                                                                  aria-hidden={true}
+                                                                  className="material-icons MuiIcon-root"
+                                                                >
+                                                                  expand_more
+                                                                </span>
+                                                              </ForwardRef(Icon)>
+                                                            </WithStyles(ForwardRef(Icon))>
+                                                            Expand All
+                                                          </span>
+                                                          <WithStyles(memo)
+                                                            center={false}
+                                                          >
+                                                            <ForwardRef(TouchRipple)
+                                                              center={false}
+                                                              classes={
+                                                                Object {
+                                                                  "child": "MuiTouchRipple-child",
+                                                                  "childLeaving": "MuiTouchRipple-childLeaving",
+                                                                  "childPulsate": "MuiTouchRipple-childPulsate",
+                                                                  "ripple": "MuiTouchRipple-ripple",
+                                                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                                  "root": "MuiTouchRipple-root",
+                                                                }
+                                                              }
+                                                            >
+                                                              <span
+                                                                className="MuiTouchRipple-root"
+                                                              >
+                                                                <TransitionGroup
+                                                                  childFactory={[Function]}
+                                                                  component={null}
+                                                                  exit={true}
+                                                                />
+                                                              </span>
+                                                            </ForwardRef(TouchRipple)>
+                                                          </WithStyles(memo)>
+                                                        </button>
+                                                      </ForwardRef(ButtonBase)>
+                                                    </WithStyles(ForwardRef(ButtonBase))>
+                                                  </ForwardRef(Fab)>
+                                                </WithStyles(ForwardRef(Fab))>
+                                                <ForwardRef(Popper)
+                                                  anchorEl={
+                                                    <button
+                                                      class="MuiButtonBase-root MuiFab-root expandAll MuiFab-extended MuiFab-primary"
+                                                      tabindex="0"
+                                                      title="Expand all options"
+                                                      type="button"
+                                                    >
+                                                      <span
+                                                        class="MuiFab-label"
+                                                      >
+                                                        <span
+                                                          aria-hidden="true"
+                                                          class="material-icons MuiIcon-root"
+                                                        >
+                                                          expand_more
+                                                        </span>
+                                                        Expand All
+                                                      </span>
+                                                      <span
+                                                        class="MuiTouchRipple-root"
+                                                      />
+                                                    </button>
+                                                  }
+                                                  className="MuiTooltip-popper"
+                                                  id={null}
+                                                  open={false}
+                                                  placement="bottom"
+                                                  popperOptions={
+                                                    Object {
+                                                      "modifiers": Object {
+                                                        "arrow": Object {
+                                                          "element": null,
+                                                          "enabled": false,
+                                                        },
+                                                      },
+                                                    }
+                                                  }
+                                                  transition={true}
+                                                />
+                                              </ForwardRef(Tooltip)>
+                                            </WithStyles(ForwardRef(Tooltip))>
+                                          </WrappedIcon>
+                                        </WithStyles(WrappedIcon)>
+                                      </div>
+                                      <SchemaField
+                                        autofocus={false}
+                                        disabled={false}
+                                        errorSchema={Object {}}
+                                        formData={
+                                          Object {
+                                            "LKKNORQKTP": "mp_xp_mult_scale",
+                                            "MSTMLNKSSO": "mp_weapon_xp",
+                                          }
+                                        }
+                                        idSchema={
+                                          Object {
+                                            "$id": "root_pubvars variable mapping_variable_mapping",
+                                            "LKKNORQKTP": Object {
+                                              "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                                            },
+                                            "MSTMLNKSSO": Object {
+                                              "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                                            },
+                                          }
+                                        }
+                                        key="variable_mapping"
+                                        name="variable_mapping"
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onDropPropertyClick={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyChange={[Function]}
+                                        readonly={false}
+                                        registry={
+                                          Object {
+                                            "ArrayFieldTemplate": [Function],
+                                            "FieldTemplate": [Function],
+                                            "ObjectFieldTemplate": [Function],
+                                            "definitions": Object {},
+                                            "fields": Object {
+                                              "AnyOfField": [Function],
+                                              "ArrayField": [Function],
+                                              "BooleanField": [Function],
+                                              "DescriptionField": [Function],
+                                              "NullField": [Function],
+                                              "NumberField": [Function],
+                                              "ObjectField": [Function],
+                                              "OneOfField": [Function],
+                                              "SchemaField": [Function],
+                                              "StringField": [Function],
+                                              "TitleField": [Function],
+                                              "UnsupportedField": [Function],
+                                            },
+                                            "formContext": Object {
+                                              "listFields": Array [
+                                                "variable_mapping",
+                                              ],
+                                              "titleFields": Array [
+                                                "pubvars variable mapping",
+                                              ],
+                                            },
+                                            "widgets": Object {
+                                              "AltDateTimeWidget": [Function],
+                                              "AltDateWidget": [Function],
+                                              "BaseInput": [Function],
+                                              "CheckboxWidget": [Function],
+                                              "CheckboxesWidget": [Function],
+                                              "ColorWidget": [Function],
+                                              "DateTimeWidget": [Function],
+                                              "DateWidget": [Function],
+                                              "EmailWidget": [Function],
+                                              "FileWidget": [Function],
+                                              "HiddenWidget": [Function],
+                                              "PasswordWidget": [Function],
+                                              "RadioWidget": [Function],
+                                              "RangeWidget": [Function],
+                                              "SelectWidget": [Function],
+                                              "TextWidget": [Function],
+                                              "TextareaWidget": [Function],
+                                              "URLWidget": [Function],
+                                              "UpDownWidget": [Function],
+                                            },
+                                          }
+                                        }
+                                        required={false}
+                                        schema={
+                                          Object {
+                                            "properties": Object {
+                                              "LKKNORQKTP": Object {
+                                                "type": "string",
+                                              },
+                                              "MSTMLNKSSO": Object {
+                                                "type": "string",
+                                              },
+                                            },
+                                            "type": "object",
+                                          }
+                                        }
+                                        uiSchema={Object {}}
+                                        wasPropertyKeyModified={false}
+                                      >
+                                        <CustomFieldTemplate
+                                          classNames="form-group field field-object"
+                                          description={
+                                            <DescriptionField
+                                              formContext={
+                                                Object {
+                                                  "listFields": Array [
+                                                    "variable_mapping",
+                                                  ],
+                                                  "titleFields": Array [
+                                                    "pubvars variable mapping",
+                                                  ],
+                                                }
+                                              }
+                                              id="root_pubvars variable mapping_variable_mapping__description"
+                                            />
+                                          }
+                                          disabled={false}
+                                          displayLabel={false}
+                                          errors={<ErrorList />}
+                                          fields={
+                                            Object {
+                                              "AnyOfField": [Function],
+                                              "ArrayField": [Function],
+                                              "BooleanField": [Function],
+                                              "DescriptionField": [Function],
+                                              "NullField": [Function],
+                                              "NumberField": [Function],
+                                              "ObjectField": [Function],
+                                              "OneOfField": [Function],
+                                              "SchemaField": [Function],
+                                              "StringField": [Function],
+                                              "TitleField": [Function],
+                                              "UnsupportedField": [Function],
+                                            }
+                                          }
+                                          formContext={
+                                            Object {
+                                              "listFields": Array [
+                                                "variable_mapping",
+                                              ],
+                                              "titleFields": Array [
+                                                "pubvars variable mapping",
+                                              ],
+                                            }
+                                          }
+                                          help={<Help />}
+                                          hidden={false}
+                                          id="root_pubvars variable mapping_variable_mapping"
+                                          label="variable_mapping"
+                                          onDropPropertyClick={[Function]}
+                                          onKeyChange={[Function]}
+                                          readonly={false}
+                                          required={false}
+                                          schema={
+                                            Object {
+                                              "properties": Object {
+                                                "LKKNORQKTP": Object {
+                                                  "type": "string",
+                                                },
+                                                "MSTMLNKSSO": Object {
+                                                  "type": "string",
+                                                },
+                                              },
+                                              "type": "object",
+                                            }
+                                          }
+                                          uiSchema={Object {}}
+                                        >
+                                          <div
+                                            className="form-group field field-object"
+                                          >
+                                            <ObjectField
+                                              autofocus={false}
+                                              disabled={false}
+                                              errorSchema={Object {}}
+                                              formContext={
+                                                Object {
+                                                  "listFields": Array [
+                                                    "variable_mapping",
+                                                  ],
+                                                  "titleFields": Array [
+                                                    "pubvars variable mapping",
+                                                  ],
+                                                }
+                                              }
+                                              formData={
+                                                Object {
+                                                  "LKKNORQKTP": "mp_xp_mult_scale",
+                                                  "MSTMLNKSSO": "mp_weapon_xp",
+                                                }
+                                              }
+                                              idSchema={
+                                                Object {
+                                                  "$id": "root_pubvars variable mapping_variable_mapping",
+                                                  "LKKNORQKTP": Object {
+                                                    "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                                                  },
+                                                  "MSTMLNKSSO": Object {
+                                                    "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                                                  },
+                                                }
+                                              }
+                                              name="variable_mapping"
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onDropPropertyClick={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyChange={[Function]}
+                                              readonly={false}
+                                              registry={
+                                                Object {
+                                                  "ArrayFieldTemplate": [Function],
+                                                  "FieldTemplate": [Function],
+                                                  "ObjectFieldTemplate": [Function],
+                                                  "definitions": Object {},
+                                                  "fields": Object {
+                                                    "AnyOfField": [Function],
+                                                    "ArrayField": [Function],
+                                                    "BooleanField": [Function],
+                                                    "DescriptionField": [Function],
+                                                    "NullField": [Function],
+                                                    "NumberField": [Function],
+                                                    "ObjectField": [Function],
+                                                    "OneOfField": [Function],
+                                                    "SchemaField": [Function],
+                                                    "StringField": [Function],
+                                                    "TitleField": [Function],
+                                                    "UnsupportedField": [Function],
+                                                  },
+                                                  "formContext": Object {
+                                                    "listFields": Array [
+                                                      "variable_mapping",
+                                                    ],
+                                                    "titleFields": Array [
+                                                      "pubvars variable mapping",
+                                                    ],
+                                                  },
+                                                  "widgets": Object {
+                                                    "AltDateTimeWidget": [Function],
+                                                    "AltDateWidget": [Function],
+                                                    "BaseInput": [Function],
+                                                    "CheckboxWidget": [Function],
+                                                    "CheckboxesWidget": [Function],
+                                                    "ColorWidget": [Function],
+                                                    "DateTimeWidget": [Function],
+                                                    "DateWidget": [Function],
+                                                    "EmailWidget": [Function],
+                                                    "FileWidget": [Function],
+                                                    "HiddenWidget": [Function],
+                                                    "PasswordWidget": [Function],
+                                                    "RadioWidget": [Function],
+                                                    "RangeWidget": [Function],
+                                                    "SelectWidget": [Function],
+                                                    "TextWidget": [Function],
+                                                    "TextareaWidget": [Function],
+                                                    "URLWidget": [Function],
+                                                    "UpDownWidget": [Function],
+                                                  },
+                                                }
+                                              }
+                                              required={false}
+                                              schema={
+                                                Object {
+                                                  "properties": Object {
+                                                    "LKKNORQKTP": Object {
+                                                      "type": "string",
+                                                    },
+                                                    "MSTMLNKSSO": Object {
+                                                      "type": "string",
+                                                    },
+                                                  },
+                                                  "type": "object",
+                                                }
+                                              }
+                                              uiSchema={
+                                                Object {
+                                                  "classNames": undefined,
+                                                }
+                                              }
+                                              wasPropertyKeyModified={false}
+                                            >
+                                              <ObjectFieldTemplate
+                                                DescriptionField={[Function]}
+                                                TitleField={[Function]}
+                                                disabled={false}
+                                                formContext={
+                                                  Object {
+                                                    "listFields": Array [
+                                                      "variable_mapping",
+                                                    ],
+                                                    "titleFields": Array [
+                                                      "pubvars variable mapping",
+                                                    ],
+                                                  }
+                                                }
+                                                formData={
+                                                  Object {
+                                                    "LKKNORQKTP": "mp_xp_mult_scale",
+                                                    "MSTMLNKSSO": "mp_weapon_xp",
+                                                  }
+                                                }
+                                                idSchema={
+                                                  Object {
+                                                    "$id": "root_pubvars variable mapping_variable_mapping",
+                                                    "LKKNORQKTP": Object {
+                                                      "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                                                    },
+                                                    "MSTMLNKSSO": Object {
+                                                      "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                                                    },
+                                                  }
+                                                }
+                                                onAddClick={[Function]}
+                                                properties={
+                                                  Array [
+                                                    Object {
+                                                      "content": <SchemaField
+                                                        autofocus={false}
+                                                        disabled={false}
+                                                        errorSchema={Object {}}
+                                                        formData="mp_xp_mult_scale"
+                                                        idSchema={
+                                                          Object {
+                                                            "$id": "root_pubvars variable mapping_variable_mapping_LKKNORQKTP",
+                                                          }
+                                                        }
+                                                        name="LKKNORQKTP"
+                                                        onBlur={[Function]}
+                                                        onChange={[Function]}
+                                                        onDropPropertyClick={[Function]}
+                                                        onFocus={[Function]}
+                                                        onKeyChange={[Function]}
+                                                        readonly={false}
+                                                        registry={
+                                                          Object {
+                                                            "ArrayFieldTemplate": [Function],
+                                                            "FieldTemplate": [Function],
+                                                            "ObjectFieldTemplate": [Function],
+                                                            "definitions": Object {},
+                                                            "fields": Object {
+                                                              "AnyOfField": [Function],
+                                                              "ArrayField": [Function],
+                                                              "BooleanField": [Function],
+                                                              "DescriptionField": [Function],
+                                                              "NullField": [Function],
+                                                              "NumberField": [Function],
+                                                              "ObjectField": [Function],
+                                                              "OneOfField": [Function],
+                                                              "SchemaField": [Function],
+                                                              "StringField": [Function],
+                                                              "TitleField": [Function],
+                                                              "UnsupportedField": [Function],
+                                                            },
+                                                            "formContext": Object {
+                                                              "listFields": Array [
+                                                                "variable_mapping",
+                                                              ],
+                                                              "titleFields": Array [
+                                                                "pubvars variable mapping",
+                                                              ],
+                                                            },
+                                                            "widgets": Object {
+                                                              "AltDateTimeWidget": [Function],
+                                                              "AltDateWidget": [Function],
+                                                              "BaseInput": [Function],
+                                                              "CheckboxWidget": [Function],
+                                                              "CheckboxesWidget": [Function],
+                                                              "ColorWidget": [Function],
+                                                              "DateTimeWidget": [Function],
+                                                              "DateWidget": [Function],
+                                                              "EmailWidget": [Function],
+                                                              "FileWidget": [Function],
+                                                              "HiddenWidget": [Function],
+                                                              "PasswordWidget": [Function],
+                                                              "RadioWidget": [Function],
+                                                              "RangeWidget": [Function],
+                                                              "SelectWidget": [Function],
+                                                              "TextWidget": [Function],
+                                                              "TextareaWidget": [Function],
+                                                              "URLWidget": [Function],
+                                                              "UpDownWidget": [Function],
+                                                            },
+                                                          }
+                                                        }
+                                                        required={false}
+                                                        schema={
+                                                          Object {
+                                                            "type": "string",
+                                                          }
+                                                        }
+                                                        uiSchema={Object {}}
+                                                        wasPropertyKeyModified={false}
+                                                      />,
+                                                      "disabled": false,
+                                                      "name": "LKKNORQKTP",
+                                                      "readonly": false,
+                                                      "required": false,
+                                                    },
+                                                    Object {
+                                                      "content": <SchemaField
+                                                        autofocus={false}
+                                                        disabled={false}
+                                                        errorSchema={Object {}}
+                                                        formData="mp_weapon_xp"
+                                                        idSchema={
+                                                          Object {
+                                                            "$id": "root_pubvars variable mapping_variable_mapping_MSTMLNKSSO",
+                                                          }
+                                                        }
+                                                        name="MSTMLNKSSO"
+                                                        onBlur={[Function]}
+                                                        onChange={[Function]}
+                                                        onDropPropertyClick={[Function]}
+                                                        onFocus={[Function]}
+                                                        onKeyChange={[Function]}
+                                                        readonly={false}
+                                                        registry={
+                                                          Object {
+                                                            "ArrayFieldTemplate": [Function],
+                                                            "FieldTemplate": [Function],
+                                                            "ObjectFieldTemplate": [Function],
+                                                            "definitions": Object {},
+                                                            "fields": Object {
+                                                              "AnyOfField": [Function],
+                                                              "ArrayField": [Function],
+                                                              "BooleanField": [Function],
+                                                              "DescriptionField": [Function],
+                                                              "NullField": [Function],
+                                                              "NumberField": [Function],
+                                                              "ObjectField": [Function],
+                                                              "OneOfField": [Function],
+                                                              "SchemaField": [Function],
+                                                              "StringField": [Function],
+                                                              "TitleField": [Function],
+                                                              "UnsupportedField": [Function],
+                                                            },
+                                                            "formContext": Object {
+                                                              "listFields": Array [
+                                                                "variable_mapping",
+                                                              ],
+                                                              "titleFields": Array [
+                                                                "pubvars variable mapping",
+                                                              ],
+                                                            },
+                                                            "widgets": Object {
+                                                              "AltDateTimeWidget": [Function],
+                                                              "AltDateWidget": [Function],
+                                                              "BaseInput": [Function],
+                                                              "CheckboxWidget": [Function],
+                                                              "CheckboxesWidget": [Function],
+                                                              "ColorWidget": [Function],
+                                                              "DateTimeWidget": [Function],
+                                                              "DateWidget": [Function],
+                                                              "EmailWidget": [Function],
+                                                              "FileWidget": [Function],
+                                                              "HiddenWidget": [Function],
+                                                              "PasswordWidget": [Function],
+                                                              "RadioWidget": [Function],
+                                                              "RangeWidget": [Function],
+                                                              "SelectWidget": [Function],
+                                                              "TextWidget": [Function],
+                                                              "TextareaWidget": [Function],
+                                                              "URLWidget": [Function],
+                                                              "UpDownWidget": [Function],
+                                                            },
+                                                          }
+                                                        }
+                                                        required={false}
+                                                        schema={
+                                                          Object {
+                                                            "type": "string",
+                                                          }
+                                                        }
+                                                        uiSchema={Object {}}
+                                                        wasPropertyKeyModified={false}
+                                                      />,
+                                                      "disabled": false,
+                                                      "name": "MSTMLNKSSO",
+                                                      "readonly": false,
+                                                      "required": false,
+                                                    },
+                                                  ]
+                                                }
+                                                readonly={false}
+                                                required={false}
+                                                schema={
+                                                  Object {
+                                                    "properties": Object {
+                                                      "LKKNORQKTP": Object {
+                                                        "type": "string",
+                                                      },
+                                                      "MSTMLNKSSO": Object {
+                                                        "type": "string",
+                                                      },
+                                                    },
+                                                    "type": "object",
+                                                  }
+                                                }
+                                                title="variable_mapping"
+                                                uiSchema={
+                                                  Object {
+                                                    "classNames": undefined,
+                                                  }
+                                                }
+                                              >
+                                                <WithStyles(ForwardRef(ListItem))
+                                                  button={true}
+                                                  onClick={[Function]}
+                                                  selected={false}
+                                                >
+                                                  <ForwardRef(ListItem)
+                                                    button={true}
+                                                    classes={
+                                                      Object {
+                                                        "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+                                                        "button": "MuiListItem-button",
+                                                        "container": "MuiListItem-container",
+                                                        "dense": "MuiListItem-dense",
+                                                        "disabled": "Mui-disabled",
+                                                        "divider": "MuiListItem-divider",
+                                                        "focusVisible": "Mui-focusVisible",
+                                                        "gutters": "MuiListItem-gutters",
+                                                        "root": "MuiListItem-root",
+                                                        "secondaryAction": "MuiListItem-secondaryAction",
+                                                        "selected": "Mui-selected",
+                                                      }
+                                                    }
+                                                    onClick={[Function]}
+                                                    selected={false}
+                                                  >
+                                                    <WithStyles(ForwardRef(ButtonBase))
+                                                      className="MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                                                      component="div"
+                                                      disabled={false}
+                                                      focusVisibleClassName="Mui-focusVisible"
+                                                      onClick={[Function]}
+                                                    >
+                                                      <ForwardRef(ButtonBase)
+                                                        className="MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                                                        classes={
+                                                          Object {
+                                                            "disabled": "Mui-disabled",
+                                                            "focusVisible": "Mui-focusVisible",
+                                                            "root": "MuiButtonBase-root",
+                                                          }
+                                                        }
+                                                        component="div"
+                                                        disabled={false}
+                                                        focusVisibleClassName="Mui-focusVisible"
+                                                        onClick={[Function]}
+                                                      >
+                                                        <div
+                                                          aria-disabled={false}
+                                                          className="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                                                          onBlur={[Function]}
+                                                          onClick={[Function]}
+                                                          onDragLeave={[Function]}
+                                                          onFocus={[Function]}
+                                                          onKeyDown={[Function]}
+                                                          onKeyUp={[Function]}
+                                                          onMouseDown={[Function]}
+                                                          onMouseLeave={[Function]}
+                                                          onMouseUp={[Function]}
+                                                          onTouchEnd={[Function]}
+                                                          onTouchMove={[Function]}
+                                                          onTouchStart={[Function]}
+                                                          role="button"
+                                                          tabIndex={0}
+                                                        >
+                                                          <WithStyles(ForwardRef(ListItemText))
+                                                            key=".0"
+                                                            primary="variable_mapping"
+                                                          >
+                                                            <ForwardRef(ListItemText)
+                                                              classes={
+                                                                Object {
+                                                                  "dense": "MuiListItemText-dense",
+                                                                  "inset": "MuiListItemText-inset",
+                                                                  "multiline": "MuiListItemText-multiline",
+                                                                  "primary": "MuiListItemText-primary",
+                                                                  "root": "MuiListItemText-root",
+                                                                  "secondary": "MuiListItemText-secondary",
+                                                                }
+                                                              }
+                                                              primary="variable_mapping"
+                                                            >
+                                                              <div
+                                                                className="MuiListItemText-root"
+                                                              >
+                                                                <WithStyles(ForwardRef(Typography))
+                                                                  className="MuiListItemText-primary"
+                                                                  component="span"
+                                                                  display="block"
+                                                                  variant="body1"
+                                                                >
+                                                                  <ForwardRef(Typography)
+                                                                    className="MuiListItemText-primary"
+                                                                    classes={
+                                                                      Object {
+                                                                        "alignCenter": "MuiTypography-alignCenter",
+                                                                        "alignJustify": "MuiTypography-alignJustify",
+                                                                        "alignLeft": "MuiTypography-alignLeft",
+                                                                        "alignRight": "MuiTypography-alignRight",
+                                                                        "body1": "MuiTypography-body1",
+                                                                        "body2": "MuiTypography-body2",
+                                                                        "button": "MuiTypography-button",
+                                                                        "caption": "MuiTypography-caption",
+                                                                        "colorError": "MuiTypography-colorError",
+                                                                        "colorInherit": "MuiTypography-colorInherit",
+                                                                        "colorPrimary": "MuiTypography-colorPrimary",
+                                                                        "colorSecondary": "MuiTypography-colorSecondary",
+                                                                        "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                                                        "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                                                        "displayBlock": "MuiTypography-displayBlock",
+                                                                        "displayInline": "MuiTypography-displayInline",
+                                                                        "gutterBottom": "MuiTypography-gutterBottom",
+                                                                        "h1": "MuiTypography-h1",
+                                                                        "h2": "MuiTypography-h2",
+                                                                        "h3": "MuiTypography-h3",
+                                                                        "h4": "MuiTypography-h4",
+                                                                        "h5": "MuiTypography-h5",
+                                                                        "h6": "MuiTypography-h6",
+                                                                        "noWrap": "MuiTypography-noWrap",
+                                                                        "overline": "MuiTypography-overline",
+                                                                        "paragraph": "MuiTypography-paragraph",
+                                                                        "root": "MuiTypography-root",
+                                                                        "srOnly": "MuiTypography-srOnly",
+                                                                        "subtitle1": "MuiTypography-subtitle1",
+                                                                        "subtitle2": "MuiTypography-subtitle2",
+                                                                      }
+                                                                    }
+                                                                    component="span"
+                                                                    display="block"
+                                                                    variant="body1"
+                                                                  >
+                                                                    <span
+                                                                      className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+                                                                    >
+                                                                      variable_mapping
+                                                                    </span>
+                                                                  </ForwardRef(Typography)>
+                                                                </WithStyles(ForwardRef(Typography))>
+                                                              </div>
+                                                            </ForwardRef(ListItemText)>
+                                                          </WithStyles(ForwardRef(ListItemText))>
+                                                          <WithStyles(ForwardRef(Icon))
+                                                            key=".1"
+                                                          >
+                                                            <ForwardRef(Icon)
+                                                              classes={
+                                                                Object {
+                                                                  "colorAction": "MuiIcon-colorAction",
+                                                                  "colorDisabled": "MuiIcon-colorDisabled",
+                                                                  "colorError": "MuiIcon-colorError",
+                                                                  "colorPrimary": "MuiIcon-colorPrimary",
+                                                                  "colorSecondary": "MuiIcon-colorSecondary",
+                                                                  "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                                                                  "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                                                                  "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                                                                  "root": "MuiIcon-root",
+                                                                }
+                                                              }
+                                                            >
+                                                              <span
+                                                                aria-hidden={true}
+                                                                className="material-icons MuiIcon-root"
+                                                              >
+                                                                expand_more
+                                                              </span>
+                                                            </ForwardRef(Icon)>
+                                                          </WithStyles(ForwardRef(Icon))>
+                                                          <WithStyles(memo)
+                                                            center={false}
+                                                          >
+                                                            <ForwardRef(TouchRipple)
+                                                              center={false}
+                                                              classes={
+                                                                Object {
+                                                                  "child": "MuiTouchRipple-child",
+                                                                  "childLeaving": "MuiTouchRipple-childLeaving",
+                                                                  "childPulsate": "MuiTouchRipple-childPulsate",
+                                                                  "ripple": "MuiTouchRipple-ripple",
+                                                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                                  "root": "MuiTouchRipple-root",
+                                                                }
+                                                              }
+                                                            >
+                                                              <span
+                                                                className="MuiTouchRipple-root"
+                                                              >
+                                                                <TransitionGroup
+                                                                  childFactory={[Function]}
+                                                                  component={null}
+                                                                  exit={true}
+                                                                />
+                                                              </span>
+                                                            </ForwardRef(TouchRipple)>
+                                                          </WithStyles(memo)>
+                                                        </div>
+                                                      </ForwardRef(ButtonBase)>
+                                                    </WithStyles(ForwardRef(ButtonBase))>
+                                                  </ForwardRef(ListItem)>
+                                                </WithStyles(ForwardRef(ListItem))>
+                                                <WithStyles(ForwardRef(Collapse))
+                                                  in={false}
+                                                  timeout="auto"
+                                                  unmountOnExit={true}
+                                                >
+                                                  <ForwardRef(Collapse)
+                                                    classes={
+                                                      Object {
+                                                        "container": "MuiCollapse-container",
+                                                        "entered": "MuiCollapse-entered",
+                                                        "hidden": "MuiCollapse-hidden",
+                                                        "wrapper": "MuiCollapse-wrapper",
+                                                        "wrapperInner": "MuiCollapse-wrapperInner",
+                                                      }
+                                                    }
+                                                    in={false}
+                                                    timeout="auto"
+                                                    unmountOnExit={true}
+                                                  >
+                                                    <Transition
+                                                      addEndListener={[Function]}
+                                                      appear={false}
+                                                      enter={true}
+                                                      exit={true}
+                                                      in={false}
+                                                      mountOnEnter={false}
+                                                      onEnter={[Function]}
+                                                      onEntered={[Function]}
+                                                      onEntering={[Function]}
+                                                      onExit={[Function]}
+                                                      onExited={[Function]}
+                                                      onExiting={[Function]}
+                                                      timeout={null}
+                                                      unmountOnExit={true}
+                                                    />
+                                                  </ForwardRef(Collapse)>
+                                                </WithStyles(ForwardRef(Collapse))>
+                                                <WithStyles(ForwardRef(Divider))
+                                                  light={true}
+                                                >
+                                                  <ForwardRef(Divider)
+                                                    classes={
+                                                      Object {
+                                                        "absolute": "MuiDivider-absolute",
+                                                        "flexItem": "MuiDivider-flexItem",
+                                                        "inset": "MuiDivider-inset",
+                                                        "light": "MuiDivider-light",
+                                                        "middle": "MuiDivider-middle",
+                                                        "root": "MuiDivider-root",
+                                                        "vertical": "MuiDivider-vertical",
+                                                      }
+                                                    }
+                                                    light={true}
+                                                  >
+                                                    <hr
+                                                      className="MuiDivider-root MuiDivider-light"
+                                                    />
+                                                  </ForwardRef(Divider)>
+                                                </WithStyles(ForwardRef(Divider))>
+                                              </ObjectFieldTemplate>
+                                            </ObjectField>
+                                          </div>
+                                        </CustomFieldTemplate>
+                                      </SchemaField>
+                                    </nav>
+                                  </ForwardRef(List)>
+                                </WithStyles(ForwardRef(List))>
+                              </ObjectFieldTemplate>
+                            </ObjectField>
+                          </div>
+                        </CustomFieldTemplate>
+                      </SchemaField>
+                    </div>
+                  </ObjectFieldTemplate>
+                </ObjectField>
+              </div>
+            </CustomFieldTemplate>
+          </SchemaField>
+        </form>
+      </Form>
+    </StatelessSettingSchema>
+  </SettingSchema>
+</NameMappingSettingsBase>
+`;

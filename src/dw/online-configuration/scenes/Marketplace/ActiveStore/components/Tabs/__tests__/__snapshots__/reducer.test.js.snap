@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActiveStoreTabs Reducer ACTIVE_STORE_TABS_CHANGE changes the selected tab key 1`] = `
+Object {
+  "TabConversionRules": Object {
+    "conversionRules": Array [],
+  },
+  "TabCurrencies": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabEntitlements": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabExchange": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabItems": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabPawnableItems": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabProducts": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabSkus": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "selectedTab": 2,
+}
+`;
+
+exports[`ActiveStoreTabs Reducer default action returns default state 1`] = `
+Object {
+  "TabConversionRules": Object {
+    "conversionRules": Array [],
+  },
+  "TabCurrencies": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabEntitlements": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabExchange": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabItems": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabPawnableItems": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabProducts": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "TabSkus": Object {
+    "collection": Array [],
+    "loading": false,
+    "nextPageToken": undefined,
+  },
+  "selectedTab": "Currencies",
+}
+`;

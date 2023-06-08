@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Selectors when fields have a dot inside is replaced to get the correct value and returns the correct order 1`] = `
+Array [
+  Object {
+    "headers__ts": 1001.001,
+    "id": 2,
+  },
+  Object {
+    "id": 1,
+    "timestamp_sec": 1002,
+  },
+]
+`;
+
+exports[`Selectors when no fields are found, returns the same order as input 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "other_prop": "other",
+  },
+  Object {
+    "id": 2,
+    "other_prop": "other",
+  },
+]
+`;
+
+exports[`Selectors when we compare timestamp that comes in different formats, returns the correct order 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "timestamp_sec": 1001,
+  },
+  Object {
+    "id": 2,
+    "timestamp_us": "1002",
+  },
+]
+`;
+
+exports[`Selectors when we compare timestamp that comes in different formats, returns the correct order 2`] = `
+Array [
+  Object {
+    "id": 2,
+    "timestamp_us": "1001",
+  },
+  Object {
+    "id": 1,
+    "timestamp_sec": 1002,
+  },
+]
+`;
+
+exports[`Selectors when we compare timestamp that comes in milliseconds against one in microseconds, returns the correct order 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "timestamp_sec": 1001,
+  },
+  Object {
+    "id": 2,
+    "timestamp_us": "1002000",
+  },
+]
+`;
+
+exports[`Selectors when we compare timestamp that comes in milliseconds against one in microseconds, returns the correct order 2`] = `
+Array [
+  Object {
+    "id": 2,
+    "timestamp_sec": "1001000",
+  },
+  Object {
+    "id": 1,
+    "timestamp_sec": 1002,
+  },
+]
+`;
+
+exports[`Selectors when we compare timestamp that comes in number format, returns the correct order 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "timestamp_sec": 1001,
+  },
+  Object {
+    "id": 2,
+    "timestamp_sec": 1002,
+  },
+]
+`;
+
+exports[`Selectors when we compare timestamp that comes in number format, returns the correct order 2`] = `
+Array [
+  Object {
+    "id": 2,
+    "timestamp_sec": 1001,
+  },
+  Object {
+    "id": 1,
+    "timestamp_sec": 1002,
+  },
+]
+`;
+
+exports[`Selectors when we compare timestamp that comes in string format, returns the correct order 1`] = `
+Array [
+  Object {
+    "id": 1,
+    "timestamp_us": "1001",
+  },
+  Object {
+    "id": 2,
+    "timestamp_us": "1002",
+  },
+]
+`;
+
+exports[`Selectors when we compare timestamp that comes in string format, returns the correct order 2`] = `
+Array [
+  Object {
+    "id": 2,
+    "timestamp_us": "1001",
+  },
+  Object {
+    "id": 1,
+    "timestamp_us": "1002",
+  },
+]
+`;

@@ -1,0 +1,1280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConflictDetailsPresentational renders correctly 1`] = `
+<div
+  className="conflictsDetailsContainer"
+>
+  <ConflictOverview
+    conflictDetails={
+      Object {
+        "conflicting_event": Object {
+          "activities": Array [
+            8,
+          ],
+          "end_at": 1570212969,
+          "id": 1,
+          "project": 1,
+          "publish_at": 1569870000,
+          "status": "open",
+          "title": "Overlapping Event",
+        },
+        "conflicts": Array [
+          Object {
+            "activity_type": "pubstorage",
+            "details": Array [],
+            "event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 5,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "overlapping_event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 8,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "severity": "activity-title-conflict",
+          },
+        ],
+        "severity": "activity-title-conflict",
+      }
+    }
+    dateTime={[MockFunction]}
+    userTimezone="UTC"
+  />
+  <WithStyles(ForwardRef(Grid))
+    className="gridContainer"
+    container={true}
+    spacing={5}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Connect(ConflictActivityDetails)
+        activity={
+          Object {
+            "activity": "{\\"files\\":[4]}",
+            "id": 5,
+            "title_envs": Array [
+              1,
+            ],
+            "type": "pubstorage",
+          }
+        }
+        activityConflictSeverity="activity-title-conflict"
+        activitySettings={
+          Array [
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": true,
+              "allow_revert": false,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": false,
+              "name": "Message of The Day",
+              "type": "motd",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": true,
+              "allow_revert": false,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": false,
+              "name": "Playlists",
+              "type": "playlist",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Variables",
+              "type": "pubvars",
+              "variable_mapping": Object {
+                "LKKNORQKTP": "mp_xp_mult_scale",
+                "MSTMLNKSSO": "mp_weapon_xp",
+              },
+            },
+            Object {
+              "allow_duplication": false,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Storage",
+              "type": "pubstorage",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Python Script",
+              "type": "pyscript",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": true,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Achievements Engine",
+              "type": "ae",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": true,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Objects",
+              "type": "publisher_objects",
+            },
+          ]
+        }
+        allowDetachedEvents={false}
+        badgeCount={
+          Object {
+            "discussion": 2,
+            "tasks": 0,
+          }
+        }
+        baseUrl="/event-manager/3/"
+        changeConflictType={[MockFunction]}
+        changeMainTab={[MockFunction]}
+        classes={Object {}}
+        conflictActivityDetails={
+          Object {
+            "activity_type": "pubstorage",
+            "details": Array [],
+            "event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 5,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "overlapping_event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 8,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "severity": "activity-title-conflict",
+          }
+        }
+        conflictDetails={
+          Object {
+            "conflicting_event": Object {
+              "activities": Array [
+                8,
+              ],
+              "end_at": 1570212969,
+              "id": 1,
+              "project": 1,
+              "publish_at": 1569870000,
+              "status": "open",
+              "title": "Overlapping Event",
+            },
+            "conflicts": Array [
+              Object {
+                "activity_type": "pubstorage",
+                "details": Array [],
+                "event_activity": Object {
+                  "activity": "{\\"files\\":[4]}",
+                  "id": 5,
+                  "title_envs": Array [
+                    1,
+                  ],
+                  "type": "pubstorage",
+                },
+                "overlapping_event_activity": Object {
+                  "activity": "{\\"files\\":[4]}",
+                  "id": 8,
+                  "title_envs": Array [
+                    1,
+                  ],
+                  "type": "pubstorage",
+                },
+                "severity": "activity-title-conflict",
+              },
+            ],
+            "severity": "activity-title-conflict",
+          }
+        }
+        conflictTypeFilter="all"
+        conflicts={Array []}
+        currentUser={
+          Object {
+            "id": 1,
+            "name": "Initial User",
+          }
+        }
+        dateTime={[MockFunction]}
+        deleteEvent={[MockFunction]}
+        details={Array []}
+        disabled={false}
+        editAuths={[MockFunction]}
+        editEvent={[MockFunction]}
+        event={Object {}}
+        eventData={Object {}}
+        eventId={2}
+        eventUrl="/event-manager/3/events/2"
+        fileDetailsFetch={[MockFunction]}
+        getConflicts={[MockFunction]}
+        handleConflictSelection={[MockFunction]}
+        handleSetPrimaryTab={[MockFunction]}
+        handleSetSecondaryTab={[MockFunction]}
+        history={
+          Object {
+            "push": [MockFunction],
+          }
+        }
+        isEventManagerEvent={true}
+        isLoadingEventsPage={false}
+        loadDiscussion={[MockFunction]}
+        loadEvent={[MockFunction]}
+        match={
+          Object {
+            "params": Object {
+              "id": "1",
+              "tab": "conflicts",
+            },
+          }
+        }
+        onCloseRequestErrorDialog={[MockFunction]}
+        onDeleteEvent={[MockFunction]}
+        onSave={[MockFunction]}
+        onSelectItem={[MockFunction]}
+        permissions={
+          Object {
+            "achievementWritePermission": true,
+            "adminPermission": true,
+            "eventWritePermission": true,
+            "publisherObjectsWritePermission": true,
+            "pubstorageWritePermission": true,
+            "pubvarsWritePermission": true,
+            "pyscriptWritePermission": true,
+            "staffUser": true,
+            "tpDeploymentWritePermission": true,
+            "wipPermission": true,
+          }
+        }
+        primaryTab="details"
+        requestErrorDialogOpen={
+          Object {
+            "open": false,
+          }
+        }
+        saveEdit={[MockFunction]}
+        searchConflicts={[MockFunction]}
+        secondaryTab="tasks"
+        selectedItemId="1,5,8"
+        selectedTab="activities"
+        status={
+          Object {
+            "allowAuths": true,
+            "canCancel": true,
+            "canDelete": true,
+            "canOpen": false,
+            "failed": false,
+            "locked": false,
+            "name": "Open",
+            "readOnly": false,
+            "showAuths": false,
+            "showTemplates": true,
+          }
+        }
+        tabUrl="/event-manager/3/events/2/activities"
+        titles={
+          Array [
+            Object {
+              "env": Object {
+                "id": 3,
+              },
+              "environments": Array [
+                Object {
+                  "id": 3,
+                },
+              ],
+              "id": 3,
+              "name": "mw2-PS3",
+            },
+            Object {
+              "env": Object {
+                "id": 5,
+              },
+              "environments": Array [
+                Object {
+                  "id": 5,
+                },
+              ],
+              "id": 4,
+              "name": "mw2-XBOX1",
+            },
+          ]
+        }
+        updateUserProfileSetting={[MockFunction]}
+        user={
+          Object {
+            "actions": Object {
+              "createUserProfileSetting": [MockFunction],
+              "updateUserProfileSetting": [MockFunction],
+            },
+          }
+        }
+        userTimezone="UTC"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Connect(ConflictActivityDetails)
+        activity={
+          Object {
+            "activity": "{\\"files\\":[4]}",
+            "id": 8,
+            "title_envs": Array [
+              1,
+            ],
+            "type": "pubstorage",
+          }
+        }
+        activityConflictSeverity="activity-title-conflict"
+        activitySettings={
+          Array [
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": true,
+              "allow_revert": false,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": false,
+              "name": "Message of The Day",
+              "type": "motd",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": true,
+              "allow_revert": false,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": false,
+              "name": "Playlists",
+              "type": "playlist",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Variables",
+              "type": "pubvars",
+              "variable_mapping": Object {
+                "LKKNORQKTP": "mp_xp_mult_scale",
+                "MSTMLNKSSO": "mp_weapon_xp",
+              },
+            },
+            Object {
+              "allow_duplication": false,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Storage",
+              "type": "pubstorage",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Python Script",
+              "type": "pyscript",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": true,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Achievements Engine",
+              "type": "ae",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": true,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Objects",
+              "type": "publisher_objects",
+            },
+          ]
+        }
+        allowDetachedEvents={false}
+        badgeCount={
+          Object {
+            "discussion": 2,
+            "tasks": 0,
+          }
+        }
+        baseUrl="/event-manager/3/"
+        changeConflictType={[MockFunction]}
+        changeMainTab={[MockFunction]}
+        classes={Object {}}
+        conflictActivityDetails={
+          Object {
+            "activity_type": "pubstorage",
+            "details": Array [],
+            "event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 5,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "overlapping_event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 8,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "severity": "activity-title-conflict",
+          }
+        }
+        conflictDetails={
+          Object {
+            "conflicting_event": Object {
+              "activities": Array [
+                8,
+              ],
+              "end_at": 1570212969,
+              "id": 1,
+              "project": 1,
+              "publish_at": 1569870000,
+              "status": "open",
+              "title": "Overlapping Event",
+            },
+            "conflicts": Array [
+              Object {
+                "activity_type": "pubstorage",
+                "details": Array [],
+                "event_activity": Object {
+                  "activity": "{\\"files\\":[4]}",
+                  "id": 5,
+                  "title_envs": Array [
+                    1,
+                  ],
+                  "type": "pubstorage",
+                },
+                "overlapping_event_activity": Object {
+                  "activity": "{\\"files\\":[4]}",
+                  "id": 8,
+                  "title_envs": Array [
+                    1,
+                  ],
+                  "type": "pubstorage",
+                },
+                "severity": "activity-title-conflict",
+              },
+            ],
+            "severity": "activity-title-conflict",
+          }
+        }
+        conflictTypeFilter="all"
+        conflicts={Array []}
+        currentUser={
+          Object {
+            "id": 1,
+            "name": "Initial User",
+          }
+        }
+        dateTime={[MockFunction]}
+        deleteEvent={[MockFunction]}
+        details={Array []}
+        disabled={false}
+        editAuths={[MockFunction]}
+        editEvent={[MockFunction]}
+        event={
+          Object {
+            "activities": Array [
+              8,
+            ],
+            "end_at": 1570212969,
+            "id": 1,
+            "project": 1,
+            "publish_at": 1569870000,
+            "status": "open",
+            "title": "Overlapping Event",
+          }
+        }
+        eventData={Object {}}
+        eventId={2}
+        eventUrl="/event-manager/3/events/2"
+        fileDetailsFetch={[MockFunction]}
+        getConflicts={[MockFunction]}
+        handleConflictSelection={[MockFunction]}
+        handleSetPrimaryTab={[MockFunction]}
+        handleSetSecondaryTab={[MockFunction]}
+        history={
+          Object {
+            "push": [MockFunction],
+          }
+        }
+        isEventManagerEvent={true}
+        isLoadingEventsPage={false}
+        loadDiscussion={[MockFunction]}
+        loadEvent={[MockFunction]}
+        match={
+          Object {
+            "params": Object {
+              "id": "1",
+              "tab": "conflicts",
+            },
+          }
+        }
+        onCloseRequestErrorDialog={[MockFunction]}
+        onDeleteEvent={[MockFunction]}
+        onSave={[MockFunction]}
+        onSelectItem={[MockFunction]}
+        permissions={
+          Object {
+            "achievementWritePermission": true,
+            "adminPermission": true,
+            "eventWritePermission": true,
+            "publisherObjectsWritePermission": true,
+            "pubstorageWritePermission": true,
+            "pubvarsWritePermission": true,
+            "pyscriptWritePermission": true,
+            "staffUser": true,
+            "tpDeploymentWritePermission": true,
+            "wipPermission": true,
+          }
+        }
+        primaryTab="details"
+        requestErrorDialogOpen={
+          Object {
+            "open": false,
+          }
+        }
+        saveEdit={[MockFunction]}
+        searchConflicts={[MockFunction]}
+        secondaryTab="tasks"
+        selectedItemId="1,5,8"
+        selectedTab="activities"
+        status={
+          Object {
+            "allowAuths": true,
+            "canCancel": true,
+            "canDelete": true,
+            "canOpen": false,
+            "failed": false,
+            "locked": false,
+            "name": "Open",
+            "readOnly": false,
+            "showAuths": false,
+            "showTemplates": true,
+          }
+        }
+        tabUrl="/event-manager/3/events/2/activities"
+        titles={
+          Array [
+            Object {
+              "env": Object {
+                "id": 3,
+              },
+              "environments": Array [
+                Object {
+                  "id": 3,
+                },
+              ],
+              "id": 3,
+              "name": "mw2-PS3",
+            },
+            Object {
+              "env": Object {
+                "id": 5,
+              },
+              "environments": Array [
+                Object {
+                  "id": 5,
+                },
+              ],
+              "id": 4,
+              "name": "mw2-XBOX1",
+            },
+          ]
+        }
+        updateUserProfileSetting={[MockFunction]}
+        user={
+          Object {
+            "actions": Object {
+              "createUserProfileSetting": [MockFunction],
+              "updateUserProfileSetting": [MockFunction],
+            },
+          }
+        }
+        userTimezone="UTC"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;
+
+exports[`ConflictDetailsPresentational renders correctly when conflictActivityDetails is empty 1`] = `
+<div
+  className="conflictsDetailsContainer"
+>
+  <ConflictOverview
+    conflictDetails={
+      Object {
+        "conflicting_event": Object {
+          "activities": Array [
+            8,
+          ],
+          "end_at": 1570212969,
+          "id": 1,
+          "project": 1,
+          "publish_at": 1569870000,
+          "status": "open",
+          "title": "Overlapping Event",
+        },
+        "conflicts": Array [
+          Object {
+            "activity_type": "pubstorage",
+            "details": Array [],
+            "event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 5,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "overlapping_event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 8,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "severity": "activity-title-conflict",
+          },
+        ],
+        "severity": "activity-title-conflict",
+      }
+    }
+    dateTime={[MockFunction]}
+    userTimezone="UTC"
+  />
+  <WithStyles(ForwardRef(Grid))
+    className="gridContainer"
+    container={true}
+    spacing={5}
+  />
+</div>
+`;
+
+exports[`ConflictDetailsPresentational renders correctly when conflictDetails is empty 1`] = `
+<div
+  className="conflictsDetailsContainer"
+>
+  <WithStyles(ForwardRef(Grid))
+    className="gridContainer"
+    container={true}
+    spacing={5}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Connect(ConflictActivityDetails)
+        activity={
+          Object {
+            "activity": "{\\"files\\":[4]}",
+            "id": 5,
+            "title_envs": Array [
+              1,
+            ],
+            "type": "pubstorage",
+          }
+        }
+        activityConflictSeverity="activity-title-conflict"
+        activitySettings={
+          Array [
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": true,
+              "allow_revert": false,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": false,
+              "name": "Message of The Day",
+              "type": "motd",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": true,
+              "allow_revert": false,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": false,
+              "name": "Playlists",
+              "type": "playlist",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Variables",
+              "type": "pubvars",
+              "variable_mapping": Object {
+                "LKKNORQKTP": "mp_xp_mult_scale",
+                "MSTMLNKSSO": "mp_weapon_xp",
+              },
+            },
+            Object {
+              "allow_duplication": false,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Storage",
+              "type": "pubstorage",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Python Script",
+              "type": "pyscript",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": true,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Achievements Engine",
+              "type": "ae",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": true,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Objects",
+              "type": "publisher_objects",
+            },
+          ]
+        }
+        allowDetachedEvents={false}
+        badgeCount={
+          Object {
+            "discussion": 2,
+            "tasks": 0,
+          }
+        }
+        baseUrl="/event-manager/3/"
+        changeConflictType={[MockFunction]}
+        changeMainTab={[MockFunction]}
+        classes={Object {}}
+        conflictActivityDetails={
+          Object {
+            "activity_type": "pubstorage",
+            "details": Array [],
+            "event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 5,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "overlapping_event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 8,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "severity": "activity-title-conflict",
+          }
+        }
+        conflictDetails={Object {}}
+        conflictTypeFilter="all"
+        conflicts={Array []}
+        currentUser={
+          Object {
+            "id": 1,
+            "name": "Initial User",
+          }
+        }
+        dateTime={[MockFunction]}
+        deleteEvent={[MockFunction]}
+        details={Array []}
+        disabled={false}
+        editAuths={[MockFunction]}
+        editEvent={[MockFunction]}
+        event={Object {}}
+        eventData={Object {}}
+        eventId={2}
+        eventUrl="/event-manager/3/events/2"
+        fileDetailsFetch={[MockFunction]}
+        getConflicts={[MockFunction]}
+        handleConflictSelection={[MockFunction]}
+        handleSetPrimaryTab={[MockFunction]}
+        handleSetSecondaryTab={[MockFunction]}
+        history={
+          Object {
+            "push": [MockFunction],
+          }
+        }
+        isEventManagerEvent={true}
+        isLoadingEventsPage={false}
+        loadDiscussion={[MockFunction]}
+        loadEvent={[MockFunction]}
+        match={
+          Object {
+            "params": Object {
+              "id": "1",
+              "tab": "conflicts",
+            },
+          }
+        }
+        onCloseRequestErrorDialog={[MockFunction]}
+        onDeleteEvent={[MockFunction]}
+        onSave={[MockFunction]}
+        onSelectItem={[MockFunction]}
+        permissions={
+          Object {
+            "achievementWritePermission": true,
+            "adminPermission": true,
+            "eventWritePermission": true,
+            "publisherObjectsWritePermission": true,
+            "pubstorageWritePermission": true,
+            "pubvarsWritePermission": true,
+            "pyscriptWritePermission": true,
+            "staffUser": true,
+            "tpDeploymentWritePermission": true,
+            "wipPermission": true,
+          }
+        }
+        primaryTab="details"
+        requestErrorDialogOpen={
+          Object {
+            "open": false,
+          }
+        }
+        saveEdit={[MockFunction]}
+        searchConflicts={[MockFunction]}
+        secondaryTab="tasks"
+        selectedItemId="1,5,8"
+        selectedTab="activities"
+        status={
+          Object {
+            "allowAuths": true,
+            "canCancel": true,
+            "canDelete": true,
+            "canOpen": false,
+            "failed": false,
+            "locked": false,
+            "name": "Open",
+            "readOnly": false,
+            "showAuths": false,
+            "showTemplates": true,
+          }
+        }
+        tabUrl="/event-manager/3/events/2/activities"
+        titles={
+          Array [
+            Object {
+              "env": Object {
+                "id": 3,
+              },
+              "environments": Array [
+                Object {
+                  "id": 3,
+                },
+              ],
+              "id": 3,
+              "name": "mw2-PS3",
+            },
+            Object {
+              "env": Object {
+                "id": 5,
+              },
+              "environments": Array [
+                Object {
+                  "id": 5,
+                },
+              ],
+              "id": 4,
+              "name": "mw2-XBOX1",
+            },
+          ]
+        }
+        updateUserProfileSetting={[MockFunction]}
+        user={
+          Object {
+            "actions": Object {
+              "createUserProfileSetting": [MockFunction],
+              "updateUserProfileSetting": [MockFunction],
+            },
+          }
+        }
+        userTimezone="UTC"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      xs={12}
+    >
+      <Connect(ConflictActivityDetails)
+        activity={
+          Object {
+            "activity": "{\\"files\\":[4]}",
+            "id": 8,
+            "title_envs": Array [
+              1,
+            ],
+            "type": "pubstorage",
+          }
+        }
+        activityConflictSeverity="activity-title-conflict"
+        activitySettings={
+          Array [
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": true,
+              "allow_revert": false,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": false,
+              "name": "Message of The Day",
+              "type": "motd",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": true,
+              "allow_revert": false,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": false,
+              "name": "Playlists",
+              "type": "playlist",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Variables",
+              "type": "pubvars",
+              "variable_mapping": Object {
+                "LKKNORQKTP": "mp_xp_mult_scale",
+                "MSTMLNKSSO": "mp_weapon_xp",
+              },
+            },
+            Object {
+              "allow_duplication": false,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Storage",
+              "type": "pubstorage",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Python Script",
+              "type": "pyscript",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": true,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Achievements Engine",
+              "type": "ae",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": true,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Objects",
+              "type": "publisher_objects",
+            },
+          ]
+        }
+        allowDetachedEvents={false}
+        badgeCount={
+          Object {
+            "discussion": 2,
+            "tasks": 0,
+          }
+        }
+        baseUrl="/event-manager/3/"
+        changeConflictType={[MockFunction]}
+        changeMainTab={[MockFunction]}
+        classes={Object {}}
+        conflictActivityDetails={
+          Object {
+            "activity_type": "pubstorage",
+            "details": Array [],
+            "event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 5,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "overlapping_event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 8,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "severity": "activity-title-conflict",
+          }
+        }
+        conflictDetails={Object {}}
+        conflictTypeFilter="all"
+        conflicts={Array []}
+        currentUser={
+          Object {
+            "id": 1,
+            "name": "Initial User",
+          }
+        }
+        dateTime={[MockFunction]}
+        deleteEvent={[MockFunction]}
+        details={Array []}
+        disabled={false}
+        editAuths={[MockFunction]}
+        editEvent={[MockFunction]}
+        eventData={Object {}}
+        eventId={2}
+        eventUrl="/event-manager/3/events/2"
+        fileDetailsFetch={[MockFunction]}
+        getConflicts={[MockFunction]}
+        handleConflictSelection={[MockFunction]}
+        handleSetPrimaryTab={[MockFunction]}
+        handleSetSecondaryTab={[MockFunction]}
+        history={
+          Object {
+            "push": [MockFunction],
+          }
+        }
+        isEventManagerEvent={true}
+        isLoadingEventsPage={false}
+        loadDiscussion={[MockFunction]}
+        loadEvent={[MockFunction]}
+        match={
+          Object {
+            "params": Object {
+              "id": "1",
+              "tab": "conflicts",
+            },
+          }
+        }
+        onCloseRequestErrorDialog={[MockFunction]}
+        onDeleteEvent={[MockFunction]}
+        onSave={[MockFunction]}
+        onSelectItem={[MockFunction]}
+        permissions={
+          Object {
+            "achievementWritePermission": true,
+            "adminPermission": true,
+            "eventWritePermission": true,
+            "publisherObjectsWritePermission": true,
+            "pubstorageWritePermission": true,
+            "pubvarsWritePermission": true,
+            "pyscriptWritePermission": true,
+            "staffUser": true,
+            "tpDeploymentWritePermission": true,
+            "wipPermission": true,
+          }
+        }
+        primaryTab="details"
+        requestErrorDialogOpen={
+          Object {
+            "open": false,
+          }
+        }
+        saveEdit={[MockFunction]}
+        searchConflicts={[MockFunction]}
+        secondaryTab="tasks"
+        selectedItemId="1,5,8"
+        selectedTab="activities"
+        status={
+          Object {
+            "allowAuths": true,
+            "canCancel": true,
+            "canDelete": true,
+            "canOpen": false,
+            "failed": false,
+            "locked": false,
+            "name": "Open",
+            "readOnly": false,
+            "showAuths": false,
+            "showTemplates": true,
+          }
+        }
+        tabUrl="/event-manager/3/events/2/activities"
+        titles={
+          Array [
+            Object {
+              "env": Object {
+                "id": 3,
+              },
+              "environments": Array [
+                Object {
+                  "id": 3,
+                },
+              ],
+              "id": 3,
+              "name": "mw2-PS3",
+            },
+            Object {
+              "env": Object {
+                "id": 5,
+              },
+              "environments": Array [
+                Object {
+                  "id": 5,
+                },
+              ],
+              "id": 4,
+              "name": "mw2-XBOX1",
+            },
+          ]
+        }
+        updateUserProfileSetting={[MockFunction]}
+        user={
+          Object {
+            "actions": Object {
+              "createUserProfileSetting": [MockFunction],
+              "updateUserProfileSetting": [MockFunction],
+            },
+          }
+        }
+        userTimezone="UTC"
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

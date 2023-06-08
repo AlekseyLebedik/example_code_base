@@ -1,0 +1,15 @@
+.table {
+  width: unset !important;
+}
+
+.editor {
+  height: 200px;
+}
+
+.table :global(.ag-ltr .ag-row-group-indent-0) {
+  padding-left: 8px !important;
+}
+
+.table :global(.ag-ltr .ag-row-group-indent-1) {
+  padding-left: 4px !important;
+}

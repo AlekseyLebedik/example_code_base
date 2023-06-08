@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BadgeCellRenderer renders default 1`] = `
+<div>
+  <WithStyles(ForwardRef(Tooltip))
+    key="tooltip-live"
+    title="Live Builds"
+  >
+    <WithStyles(ForwardRef(Avatar))
+      className=""
+      key="avatar-live"
+    >
+      <WithStyles(ForwardRef(Typography))>
+        1
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Avatar))>
+  </WithStyles(ForwardRef(Tooltip))>
+  <WithStyles(ForwardRef(Tooltip))
+    key="tooltip-deploy"
+    title="Build Deployments"
+  >
+    <WithStyles(ForwardRef(Avatar))
+      className=""
+      key="avatar-deploy"
+    >
+      <WithStyles(ForwardRef(Typography))>
+        1
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Avatar))>
+  </WithStyles(ForwardRef(Tooltip))>
+  <WithStyles(ForwardRef(Tooltip))
+    key="tooltip-undeploy"
+    title="Build Undeployments"
+  >
+    <WithStyles(ForwardRef(Avatar))
+      className=""
+      key="avatar-undeploy"
+    >
+      <WithStyles(ForwardRef(Typography))>
+        1
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Avatar))>
+  </WithStyles(ForwardRef(Tooltip))>
+  <WithStyles(ForwardRef(Tooltip))
+    key="tooltip-modify"
+    title="Modifications"
+  >
+    <WithStyles(ForwardRef(Avatar))
+      className=""
+      key="avatar-modify"
+    >
+      <WithStyles(ForwardRef(Typography))>
+        1
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Avatar))>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;

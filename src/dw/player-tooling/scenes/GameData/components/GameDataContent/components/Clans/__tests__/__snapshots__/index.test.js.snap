@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameData Clans ClanMate renders accordion view 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <ClanMate
+    clanMate={
+      Object {
+        "lastUpdated": "1624480992",
+        "memberSince": "1624480992",
+        "player": Object {
+          "accountType": "uno",
+          "userID": "5151811586893775373",
+          "username": "test-owner",
+        },
+        "role": "OWNER",
+      }
+    }
+    expandAll={true}
+    onSelectAccount={[MockFunction]}
+  />
+</Provider>
+`;

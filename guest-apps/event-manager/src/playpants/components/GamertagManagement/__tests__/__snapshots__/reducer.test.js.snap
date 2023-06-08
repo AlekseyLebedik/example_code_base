@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Groups groupsReducer FETCH_GROUPS initiates fetch for groups 1`] = `
+Object {
+  "accounts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "groups": Object {
+    "data": Array [],
+    "error": false,
+    "loading": true,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": Object {},
+  },
+  "timewarpSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+}
+`;
+
+exports[`Groups groupsReducer FETCH_GROUPS_FAILED dispatches fetch error 1`] = `
+Object {
+  "accounts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "groups": Object {
+    "data": Array [],
+    "error": true,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "timewarpSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+}
+`;
+
+exports[`Groups groupsReducer FETCH_GROUPS_SUCCESS sets the groups with data 1`] = `
+Object {
+  "accounts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "groups": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": null,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "timewarpSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+}
+`;
+
+exports[`Groups groupsReducer returns default state 1`] = `
+Object {
+  "accounts": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "groups": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "timewarpSettings": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+}
+`;

@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConflictType renders correctly with "All" filter 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  fullWidth={true}
+>
+  <WithStyles(ForwardRef(InputLabel))>
+    Severity
+  </WithStyles(ForwardRef(InputLabel))>
+  <WithStyles(ForwardRef(Select))
+    id="conflicttype"
+    onChange={[Function]}
+    value="all"
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      key="all"
+      value="all"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        fiber_manual_record
+      </WithStyles(ForwardRef(Icon))>
+      <span>
+        All
+      </span>
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="event-overlap"
+      value="event-overlap"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        fiber_manual_record
+      </WithStyles(ForwardRef(Icon))>
+      <span>
+        Event Overlap
+      </span>
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="activity-overlap"
+      value="activity-overlap"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        fiber_manual_record
+      </WithStyles(ForwardRef(Icon))>
+      <span>
+        Activity Overlap
+      </span>
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="activity-title-overlap"
+      value="activity-title-overlap"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        fiber_manual_record
+      </WithStyles(ForwardRef(Icon))>
+      <span>
+        Activity Title Overlap
+      </span>
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="activity-title-conflict"
+      value="activity-title-conflict"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        fiber_manual_record
+      </WithStyles(ForwardRef(Icon))>
+      <span>
+        Activity Conflict
+      </span>
+    </WithStyles(ForwardRef(MenuItem))>
+  </WithStyles(ForwardRef(Select))>
+</WithStyles(ForwardRef(FormControl))>
+`;
+
+exports[`ConflictType renders correctly with a different filter ("activity-title-conflict") 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  fullWidth={true}
+>
+  <WithStyles(ForwardRef(InputLabel))>
+    Severity
+  </WithStyles(ForwardRef(InputLabel))>
+  <WithStyles(ForwardRef(Select))
+    id="conflicttype"
+    onChange={[Function]}
+    value="activity-title-conflict"
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      key="all"
+      value="all"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        fiber_manual_record
+      </WithStyles(ForwardRef(Icon))>
+      <span>
+        All
+      </span>
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="event-overlap"
+      value="event-overlap"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        fiber_manual_record
+      </WithStyles(ForwardRef(Icon))>
+      <span>
+        Event Overlap
+      </span>
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="activity-overlap"
+      value="activity-overlap"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        fiber_manual_record
+      </WithStyles(ForwardRef(Icon))>
+      <span>
+        Activity Overlap
+      </span>
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="activity-title-overlap"
+      value="activity-title-overlap"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        fiber_manual_record
+      </WithStyles(ForwardRef(Icon))>
+      <span>
+        Activity Title Overlap
+      </span>
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="activity-title-conflict"
+      value="activity-title-conflict"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        fiber_manual_record
+      </WithStyles(ForwardRef(Icon))>
+      <span>
+        Activity Conflict
+      </span>
+    </WithStyles(ForwardRef(MenuItem))>
+  </WithStyles(ForwardRef(Select))>
+</WithStyles(ForwardRef(FormControl))>
+`;

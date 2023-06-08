@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueSettings display skeleton 1`] = `
+<Fragment>
+  <div
+    className="loginQueuePadding"
+  >
+    <WithStyles(ForwardRef(Skeleton))
+      animation="wave"
+      height="70px"
+      variant="text"
+      width="100%"
+    />
+  </div>
+  <WithStyles(ForwardRef(Skeleton))
+    className="loginQueueLabel"
+    width="90%"
+  />
+  <div
+    className="loginQueueForm"
+  >
+    <InputLabelSkeleton />
+    <InputLabelSkeleton />
+    <InputLabelSkeleton />
+    <ButtonSkeleton />
+  </div>
+  <WithStyles(ForwardRef(Skeleton))
+    className="loginQueueLabel"
+    width="90%"
+  />
+  <div
+    className="loginQueueForm"
+  >
+    <InputLabelSkeleton />
+    <ButtonSkeleton />
+  </div>
+</Fragment>
+`;

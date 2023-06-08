@@ -1,0 +1,14 @@
+.form {
+  margin-top: -8px;
+  overflow: hidden;
+}
+
+.form > div {
+  margin-top: 8px;
+}
+.formLabels {
+  margin-bottom: 20px;
+}
+.divider {
+  margin-bottom: 20px;
+}

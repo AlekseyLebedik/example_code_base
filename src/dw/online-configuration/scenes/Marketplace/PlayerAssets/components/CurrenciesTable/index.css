@@ -1,0 +1,8 @@
+.ag-status-bar {
+  max-height: 35px;
+  align-items: center;
+}
+
+.ag-root ::-webkit-scrollbar {
+  height: 1em;
+}

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard container renders TrendTable, TrendCharts and PlatformsTable 1`] = `
+<div
+  className="container"
+>
+  <WithWidth(TrendTableComponent)
+    baseUrl="/reporting/1"
+    franchiseData={Object {}}
+  />
+  <Row
+    gutter={0}
+  >
+    <Col
+      md={12}
+      sm={24}
+    >
+      <WithWidth(TrendChartsComponent)
+        baseUrl="/reporting/1"
+        franchiseData={Object {}}
+      />
+    </Col>
+    <Col
+      md={12}
+      sm={24}
+    >
+      <AutoSizer
+        disableHeight={true}
+        disableWidth={false}
+        onResize={[Function]}
+        style={Object {}}
+      >
+        <Component />
+      </AutoSizer>
+    </Col>
+  </Row>
+</div>
+`;
+
+exports[`Dashboard container renders TrendTable, TrendCharts and PlatformsTable 2`] = `
+<div
+  style={
+    Object {
+      "overflow": "visible",
+      "width": 0,
+    }
+  }
+>
+  <WithWidth(Connect(HigherOrderComponent))
+    availableWidth={0}
+    baseUrl="/reporting/1"
+    franchise={
+      Object {
+        "id": 1,
+        "name": "Simple Franchise",
+        "projects": Array [
+          Object {
+            "id": 1,
+            "name": "Simple Project",
+            "platforms": Array [
+              Object {
+                "platform": "PS4",
+              },
+              Object {
+                "platform": "Xbox One",
+              },
+              Object {
+                "platform": "PC",
+              },
+              Object {
+                "platform": "Wii",
+              },
+            ],
+          },
+        ],
+      }
+    }
+    key="1"
+  />
+</div>
+`;

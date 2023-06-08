@@ -1,0 +1,141 @@
+.navbar {
+  width: 100%;
+  height: 20px;
+}
+
+.megaMenuBox {
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.megaMenuContent {
+  transition: all 0.5s ease-in-out;
+}
+
+.megaMenuButton {
+  border: 0;
+  width: 40px;
+  height: 40px;
+  line-height: 1em;
+  padding: 0px;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.5;
+}
+.megaMenuButtonBadge {
+  border: 0;
+  width: 40px;
+  outline: none;
+  height: 40px;
+  position: absolute;
+  line-height: 1em;
+  padding: 0px;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.5;
+}
+
+.megaMenuGroupBadge {
+  display: inline-block;
+  height: 20px;
+}
+
+.megaMenuButtonActive {
+  opacity: 1;
+  background-color: #282c34 !important;
+}
+
+.megaMenuButton:hover {
+  opacity: 1;
+}
+
+.megaMenuGroup {
+  display: inline;
+}
+
+.megaMenuGroup:hover .megaMenuButton {
+  opacity: 1;
+}
+
+.megaMenuGroup:hover .megaMenuBox {
+  transition: all 0.5s ease-in-out;
+  display: block;
+}
+
+.megaMenuGroup:hover .megaMenuContent {
+  transition: all 0.5s ease-in-out;
+  display: block;
+  opacity: 1;
+  -webkit-animation: fadeInFromNone 0.5s ease-out;
+  -moz-animation: fadeInFromNone 0.5s ease-out;
+  -o-animation: fadeInFromNone 0.5s ease-out;
+  animation: fadeInFromNone 0.5s ease-out;
+}
+
+.suite {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.megaMenuLink {
+  color: inherit !important;
+  width: 40px;
+  height: 60px;
+  padding: 0px;
+}
+
+@-webkit-keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+@keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: block;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}

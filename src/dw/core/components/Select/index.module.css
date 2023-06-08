@@ -1,0 +1,62 @@
+.select {
+}
+
+.select:focus {
+  background-color: transparent;
+}
+
+.chip {
+  margin: 0;
+  height: 28px;
+}
+
+.chips {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: -12px;
+}
+
+.chips legend {
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.groups {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -3px;
+}
+
+.standalone {
+  margin-top: 3px;
+}
+
+.groups > div {
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.group {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 0px;
+
+  font-weight: 500;
+  line-height: inherit;
+  color: rgba(0, 0, 0, 0.65);
+  white-space: normal;
+  text-transform: uppercase;
+}
+
+.group {
+  margin-top: 6px;
+}
+
+.chipDeleteIcon {
+  background-color: transparent;
+}
+
+.childOption {
+  padding-left: 32px !important;
+}

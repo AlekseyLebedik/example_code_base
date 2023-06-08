@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - Anticheat - MonitoredUsers Reducer handle MONITORED_USERS_DELETE_SUCCESS 1`] = `
+Object {
+  "users": Array [
+    Object {
+      "monitoringGroup": "custom_1",
+      "userId": "7501981909872457190",
+      "userName": "RavenVFX608",
+    },
+  ],
+}
+`;
+
+exports[`Security - Anticheat - MonitoredUsers Reducer handle MONITORED_USERS_FETCH_SUCCESS 1`] = `
+Object {
+  "users": Array [
+    Object {
+      "monitoringGroup": "custom_2",
+      "userId": "4001055643606974379",
+      "userName": "rb_utts",
+    },
+    Object {
+      "monitoringGroup": "custom_1",
+      "userId": "7501981909872457190",
+      "userName": "RavenVFX608",
+    },
+  ],
+}
+`;
+
+exports[`Security - Anticheat - MonitoredUsers Reducer return the initial state 1`] = `
+Object {
+  "users": Array [],
+}
+`;

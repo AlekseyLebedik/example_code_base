@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServerInventory ServerStateChart presentational renders pie chart 1`] = `
+<div>
+  <n
+    callback={[Function]}
+    config={
+      Object {
+        "chart": Object {
+          "plotBackgroundColor": null,
+          "plotBorderWidth": null,
+          "plotShadow": false,
+          "type": "pie",
+        },
+        "credits": Object {
+          "enabled": false,
+        },
+        "plotOptions": Object {
+          "pie": Object {
+            "allowPointSelect": true,
+            "cursor": "pointer",
+            "dataLabels": Object {
+              "enabled": false,
+            },
+            "showInLegend": true,
+          },
+        },
+        "series": Array [
+          Object {
+            "data": Array [
+              Object {
+                "name": "Idle",
+                "selected": true,
+                "sliced": true,
+                "y": 10,
+              },
+              Object {
+                "name": "Allocated",
+                "y": 20,
+              },
+            ],
+          },
+        ],
+        "title": Object {
+          "text": "Server Allocation",
+        },
+        "tooltip": Object {
+          "pointFormat": "<strong>{point.y}</strong> ({point.percentage:.1f}%)",
+        },
+      }
+    }
+    domProps={Object {}}
+  />
+</div>
+`;

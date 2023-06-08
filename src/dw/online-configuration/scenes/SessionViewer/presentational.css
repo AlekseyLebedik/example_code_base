@@ -1,0 +1,153 @@
+.Session-Viewer__container {
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  -webkit-align-content: stretch;
+  align-content: stretch;
+  overflow: hidden;
+}
+
+.Session-Viewer__container .left {
+  -webkit-flex: 0.8;
+  flex: 0.8;
+  flex-direction: column;
+  background-color: #616161;
+  flex-flow: column nowrap;
+  overflow: hidden;
+  display: flex;
+}
+
+.Session-Viewer__container .middle {
+  -webkit-flex: 0.8;
+  flex: 0.8;
+  flex-direction: column;
+  background-color: #868686;
+  flex-flow: column nowrap;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  display: flex;
+}
+
+.Session-Viewer__container .left .title {
+  padding: 14px 0 14px 18px;
+  display: flex;
+  min-height: 50px;
+}
+
+.Session-Viewer__container .left .source-select,
+.Session-Viewer__container .left .source-select:hover {
+  border: 0;
+}
+
+.Session-Viewer__container
+  .left
+  .source-select
+  .ant-select-dropdown-menu.ant-select-dropdown-menu-root.ant-select-dropdown-menu-vertical {
+}
+
+.Session-Viewer__container .left .title span.text {
+  flex: 4;
+  color: #fff;
+
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.Session-Viewer__container .left .title span.refresh,
+.Session-Viewer__container .left .title span.clear-filter {
+  flex: 1;
+  position: relative;
+}
+
+.Session-Viewer__container .left .title span.refresh > button,
+.Session-Viewer__container .left .title span.clear-filter > button {
+  padding: 0 !important;
+  width: 20px !important;
+  color: #fff !important;
+}
+
+.Session-Viewer__container .left .title span.clear-filter span.material-icons {
+}
+
+.Session-Viewer__container .left .playlist-collection {
+  background-color: #616161;
+  overflow: auto;
+}
+
+.Session-Viewer__container .middle .listen-wrapper {
+  min-height: 101px;
+}
+
+.Session-Viewer__container .middle .DCListItem,
+.Session-Viewer__container .left .ListItem {
+  padding: 0px 10px 0px 20px;
+  display: flex;
+  flex-direction: row;
+  color: #ffffff;
+
+  font-weight: 400;
+  line-height: 1.1em;
+  cursor: pointer;
+  transition: height 0.2s;
+  -webkit-transition: height 0.2s;
+  min-width: 150px;
+  min-height: 36px;
+}
+
+.Session-Viewer__container .middle .DCListItem:hover,
+.Session-Viewer__container .left .ListItem:hover {
+  background-color: #8c8c8c;
+}
+
+.Session-Viewer__container .middle .DCListItem.selected,
+.Session-Viewer__container .left .ListItem.selected {
+  background-color: #4ac0f1;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12),
+    0 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Session-Viewer__container .middle .DCListItem > .left-el,
+.Session-Viewer__container .left .ListItem > .left-el {
+  flex: 3.5 1;
+  background: transparent;
+}
+
+.Session-Viewer__container .left .ListItem > .left-el .label {
+  text-transform: capitalize;
+}
+
+.Session-Viewer__container .middle .DCListItem > .right-el,
+.Session-Viewer__container .left .ListItem > .right-el {
+  flex: 1;
+}
+
+.Session-Viewer__container .right {
+  flex: 4 0;
+  overflow-x: auto;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.Session-Viewer__container .left .background-loading {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+}
+
+.Session-Viewer__container .left .source-select input {
+}
+
+.Session-Viewer__container .left .source-select .ant-select-selection__clear {
+  margin-top: -12px;
+  right: 4px;
+}
+
+.Session-Viewer__container .table-lobbies-players {
+  max-width: 1200px;
+  margin: 0 0 10px 10px;
+}

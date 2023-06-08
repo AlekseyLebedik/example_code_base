@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details Component shows AG grid table 1`] = `
+<ContextProvider
+  value={false}
+>
+  <ContextProvider
+    value={
+      QueryClient {
+        "defaultOptions": Object {},
+        "mutationCache": MutationCache {
+          "config": Object {},
+          "listeners": Array [],
+          "mutationId": 0,
+          "mutations": Array [],
+        },
+        "mutationDefaults": Array [],
+        "queryCache": QueryCache {
+          "config": Object {},
+          "listeners": Array [],
+          "queries": Array [],
+          "queriesMap": Object {},
+        },
+        "queryDefaults": Array [],
+      }
+    }
+  >
+    <Details
+      accountID="123456789"
+      context={
+        Object {
+          "url": "/foo",
+        }
+      }
+      handleOnGridReady={[Function]}
+      provider="uno"
+      queryComplete={false}
+      rowData={
+        Array [
+          Object {
+            "account_id": "13554785610296063372",
+            "action": "create",
+            "age_in_years": null,
+            "changed_field": null,
+            "client": "raven-cod-wz-bnet",
+            "country": null,
+            "dt": "2022-03-14",
+            "email_unhashed": null,
+            "email_verified": null,
+            "ip_address": "111.111.11.11",
+            "is_child": null,
+            "mobile_unhashed": null,
+            "parent_email_unhashed": null,
+            "parent_email_verified": null,
+            "phone_unhashed": null,
+            "provider": "battle",
+            "secondary_account_id": "0",
+            "state": null,
+            "tfa_status": null,
+            "title_id": 5893,
+            "umbrella_id": "16356240268861345312",
+            "uno_id": "14883586550706904977",
+            "user_name": null,
+          },
+        ]
+      }
+      setQueryComplete={[Function]}
+      setRowData={[Function]}
+    />
+  </ContextProvider>
+</ContextProvider>
+`;
+
+exports[`Details Component shows no data 1`] = `
+<ContextProvider
+  value={false}
+>
+  <ContextProvider
+    value={
+      QueryClient {
+        "defaultOptions": Object {},
+        "mutationCache": MutationCache {
+          "config": Object {},
+          "listeners": Array [],
+          "mutationId": 0,
+          "mutations": Array [],
+        },
+        "mutationDefaults": Array [],
+        "queryCache": QueryCache {
+          "config": Object {},
+          "listeners": Array [],
+          "queries": Array [],
+          "queriesMap": Object {},
+        },
+        "queryDefaults": Array [],
+      }
+    }
+  >
+    <Details
+      accountID="123456789"
+      context={
+        Object {
+          "url": "/foo",
+        }
+      }
+      handleOnGridReady={[Function]}
+      provider="uno"
+      queryComplete={false}
+      rowData={Array []}
+      setQueryComplete={[Function]}
+      setRowData={[Function]}
+    />
+  </ContextProvider>
+</ContextProvider>
+`;

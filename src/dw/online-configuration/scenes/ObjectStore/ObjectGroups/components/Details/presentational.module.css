@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.expanderContainer {
+  margin-top: 20px !important;
+}
+
+.titleContent {
+  margin-left: 24px !important;
+}
+
+.primaryHeading {
+  font-weight: bold;
+  flex-basis: 33.33%;
+  flex-shrink: 0;
+}
+
+.secondaryHeading {
+  color: rgba(0, 0, 0, 0.35);
+  align-self: center;
+}
+
+.expandIcon {
+  right: unset;
+  left: 0;
+  width: 48px;
+}
+
+.details {
+  flex-flow: column;
+}
+
+.addOverrideBtn {
+  margin-top: 8px;
+}
+
+.actions {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.objectGroupsLinearProgress {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}

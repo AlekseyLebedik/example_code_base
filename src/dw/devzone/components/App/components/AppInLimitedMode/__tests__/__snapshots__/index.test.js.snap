@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppInLimitedMode expands when the user click on the expand button 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="flex items-center"
+  >
+    <Icon
+      className="icon"
+      fontSize="small"
+    >
+      warning
+    </Icon>
+    Limited Functionality
+  </div>
+  <p
+    className="help"
+  >
+    The application was not able to load your permissions successfully. Some functionality may not be available. Try to refresh the page and if the problem persists contacts
+     
+    <a
+      className="link"
+    >
+      support@support.demonware.net
+    </a>
+     or our Slack channel 
+    <a
+      className="link"
+      href="https://demonware.slack.com/archives/C01PNGF5C00"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      #dw-devzone
+    </a>
+  </p>
+  <Button
+    className="expandButton"
+    onClick={[Function]}
+  >
+    <Icon
+      className="expandIcon"
+    >
+      expand_less
+    </Icon>
+  </Button>
+</div>
+`;
+
+exports[`AppInLimitedMode renders without crashing 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="flex items-center"
+  >
+    <Icon
+      className="icon"
+      fontSize="small"
+    >
+      warning
+    </Icon>
+    Limited Functionality
+  </div>
+  <Button
+    className="expandButton"
+    onClick={[Function]}
+  >
+    <Icon
+      className="expandIcon"
+    >
+      expand_more
+    </Icon>
+  </Button>
+</div>
+`;

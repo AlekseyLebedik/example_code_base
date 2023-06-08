@@ -1,0 +1,35 @@
+.loginQueueVIPList {
+  flex: 2;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginQueueVIPListSearch {
+  padding-right: 10px;
+}
+
+.loginQueueVIPListActions {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  padding: 10px 24px 3px;
+}
+
+.loginQueueVIPListButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 3px 10px;
+}
+
+.loginQueueVIPListGrid {
+  flex: 2;
+  flex-grow: 1;
+}
+
+.iconClassName {
+}

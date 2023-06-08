@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepeatingEventField renders default properly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Recurrence"
+      name="eventRecurrence"
+      options={
+        Array [
+          Object {
+            "label": "Never",
+            "value": "never",
+          },
+          Object {
+            "label": "Repeat",
+            "value": "repeat",
+          },
+        ]
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+</Fragment>
+`;
+
+exports[`RepeatingEventField renders properly when repeatingEvent = true 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Field
+      component={[Function]}
+      fullWidth={true}
+      label="Recurrence"
+      name="eventRecurrence"
+      options={
+        Array [
+          Object {
+            "label": "Never",
+            "value": "never",
+          },
+          Object {
+            "label": "Repeat",
+            "value": "repeat",
+          },
+        ]
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+</Fragment>
+`;

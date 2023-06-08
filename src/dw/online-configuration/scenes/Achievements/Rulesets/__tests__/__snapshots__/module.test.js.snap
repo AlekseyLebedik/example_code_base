@@ -1,0 +1,535 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Achievements - Rulesets Reducer Test append = false 1`] = `
+Object {
+  "rulesets": Array [
+    Object {
+      "label": 1,
+    },
+    Object {
+      "label": 2,
+    },
+  ],
+}
+`;
+
+exports[`Achievements - Rulesets Reducer Test append = true 1`] = `
+Object {
+  "rulesets": Array [
+    Object {
+      "label": 1,
+    },
+    Object {
+      "label": 2,
+    },
+  ],
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_CHECK 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_CHECK_FAILED 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": true,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_CHECK_SUCCESS 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": undefined,
+    "invalidItemIDs": undefined,
+    "invalidProductIDs": undefined,
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_CLOSE_CHECK_MODAL 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_CLOSE_PROPAGATE_MODAL 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_CLOSE_UPLOAD_MODAL 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_DELETE 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_DELETE_SUCCESS 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_DETAIL_FETCH_SUCCESS 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": Object {
+    "code": "code",
+  },
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_OPEN_CHECK_MODAL 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_OPEN_PROPAGATE_MODAL 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": true,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_OPEN_UPLOAD_MODAL 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": true,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_PROPAGATE 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": true,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_PROPAGATE_FAILED 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_PROPAGATE_SUCCESS 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_UPLOAD 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_UPLOAD_FAILED 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESET_UPLOAD_SUCCESS 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESETS_FETCH_SUCCESS: empty results 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESETS_FETCH_SUCCESS: rulesets and nextPagetoken assignation 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESETS_LIST_ITEM_ONCLICK 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer handle RULESETS_LIST_RESET_SELECTED_RULESET 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;
+
+exports[`Achievements - Rulesets Reducer return the initial state 1`] = `
+Object {
+  "RulesetDetail": Object {
+    "checkRulesetFailed": false,
+    "checkRulesetModalActivating": false,
+    "checkRulesetModalLoading": false,
+    "checkRulesetModalVisible": false,
+    "invalidCurrencyIDs": Array [],
+    "invalidItemIDs": Array [],
+    "invalidProductIDs": Array [],
+    "propagateRulesetModalLoading": false,
+    "propagateRulesetModalVisible": false,
+  },
+  "nextPageToken": undefined,
+  "q": undefined,
+  "rulesets": Array [],
+  "selectedRuleset": undefined,
+  "uploadRulesetModalLoading": false,
+  "uploadRulesetModalVisible": false,
+}
+`;

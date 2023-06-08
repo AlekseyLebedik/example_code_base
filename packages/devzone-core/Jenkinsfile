@@ -1,0 +1,84 @@
+// vim: set syntax=groovy expandtab shiftwidth=4 tabstop=4 softtabstop=4 autoindent smartindent:
+
+def vaultAddr = "https://vault.las.demonware.net:8200"
+def vaultCredentialId = "vault-jenkins-approle"
+def vaultConfiguration = [engineVersion: 2, vaultUrl: vaultAddr, vaultCredentialId: vaultCredentialId ]
+
+// define the Vault secret path and configure secrets to be assigned to env vars
+def vaultSecrets = [
+    [
+        path: 'secrets/shared/devzone/jenkins', secretValues: [
+            [envVar: 'NPM_USERNAME', vaultKey: 'NPM_USERNAME'],
+            [envVar: 'NPM_PASSWORD', vaultKey: 'NPM_PASSWORD'],
+        ]
+    ]
+]
+
+Boolean slackNotificationSent = false
+String teamSlackChannel = '#products-devzone-ext'
+Boolean deploymentTriggered = false
+branchesToNotifyOn = ['master', 'release/*', 'hotfix/*']
+
+pipeline {
+    agent { label 'centos7' }
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '150'))
+        timeout(time: 2, unit: 'HOURS')
+        timestamps()
+    }
+    environment {
+        NEW_TAG = sh(script:'git describe --match "dz-core-*" | xargs python packages/helpers/version.py -p dz-core --patch', returnStdout: true).trim()
+        NEW_CORE_VERSION = sh(script:'git describe --match "dz-core-*" | xargs python packages/helpers/version.py -p dz-core --patch --numbers-only', returnStdout: true).trim()
+    }
+    stages {
+        stage('Install Devzone Core') {
+            steps {
+                sh 'make -f Makefile.testdev install-devzone-core'
+                script {
+                    currentBuild.description = """${NEW_TAG}"""
+                }
+            }
+        }
+        stage('Test Devzone Core') {
+            parallel {
+                stage('linting') {
+                    steps {
+                        sh 'make -f Makefile.testdev lint-devzone-core'
+                    }
+                }
+                stage('unit tests') {
+                    steps {
+                        sh 'make -f Makefile.testdev test-devzone-core'
+                    }
+                }
+            }
+        }
+        stage('Publish') {
+            when { allOf { branch 'master'; changeset 'packages/devzone-core/**' } }
+            parallel {
+                stage('Create new git tag') {
+                    steps {
+                        withCredentials([usernamePassword(
+                            credentialsId: 'devzone-token-github-userpass',
+                            usernameVariable: 'GIT_USER',
+                            passwordVariable: 'GIT_PASS'
+                        )]) {
+                            sh 'git config user.email "devzone@demonware.net" && git config user.name "DZ-CORE Build Automation"'
+                            sh 'git tag -a $NEW_TAG -m "Tagging devzone-core: $NEW_TAG"'
+                            sh 'git remote set-url origin https://$GIT_USER:$GIT_PASS@github.ihs.demonware.net/Demonware/devzone-frontend.git'
+                            sh 'git push origin $NEW_TAG'
+                        }
+                    }
+                }
+                stage('Publish new version') {
+                    steps {
+                        sh 'make -f Makefile.testdev build-devzone-core'
+                	withVault([configuration: vaultConfiguration, vaultSecrets: vaultSecrets]) {
+                            sh 'make -f Makefile.testdev publish-devzone-core'
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

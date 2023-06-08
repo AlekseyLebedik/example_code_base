@@ -1,0 +1,13 @@
+.deleteDownloadCells {
+  display: flex;
+  justify-content: center;
+}
+
+.gridContainer {
+  margin: 2% 5% 10%;
+  height: 100%;
+}
+
+.agGridLayout {
+  height: 100%;
+}

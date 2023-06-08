@@ -1,0 +1,8 @@
+.objectsTableContainer,
+.objectsTableContainer > div {
+  height: 100%;
+}
+
+.objectsTableContainer > div:first-child {
+  display: inherit;
+}

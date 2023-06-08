@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateGroupModal renders component 1`] = `
+<div>
+  <DialogComponent
+    actions={
+      Array [
+        <WithStyles(ForwardRef(Button))
+          onClick={[MockFunction]}
+        >
+          Cancel
+        </WithStyles(ForwardRef(Button))>,
+        <WithStyles(ForwardRef(Button))
+          color="primary"
+          disabled={true}
+          focusRipple={true}
+          onClick={[MockFunction]}
+        >
+          Replace Users
+        </WithStyles(ForwardRef(Button))>,
+      ]
+    }
+    cancelOnBackdropClick={false}
+    classes={Object {}}
+    contentStyle={Object {}}
+    fullWidth={true}
+    maxWidth="md"
+    modal={true}
+    onRequestClose={[MockFunction]}
+    open={true}
+    title="Replace Users"
+  >
+    <ReduxForm
+      destroyOnUnmount={true}
+      enableReinitialize={false}
+      forceUnregisterOnUnmount={false}
+      form="ObjectGroups/REPLACE_USERS_FORM_NAME"
+      getFormState={[Function]}
+      keepDirtyOnReinitialize={false}
+      onSubmit={[MockFunction]}
+      persistentSubmitErrors={false}
+      pure={true}
+      shouldAsyncValidate={[Function]}
+      shouldError={[Function]}
+      shouldValidate={[Function]}
+      shouldWarn={[Function]}
+      submitAsSideEffect={false}
+      touchOnBlur={true}
+      touchOnChange={false}
+      updateUnregisteredFields={false}
+    />
+  </DialogComponent>
+</div>
+`;

@@ -1,0 +1,21 @@
+{
+  "count": 1,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "id": 1,
+      "project": 22,
+      "source_event": 2,
+      "created_at": 0,
+      "updated_at": 0,
+      "created_by": null,
+      "updated_by": null,
+      "duration": null,
+      "name": "Sample template #1",
+      "description": "Sample template description",
+      "is_available": true,
+      "restrict_activities": false
+    }
+  ]
+}

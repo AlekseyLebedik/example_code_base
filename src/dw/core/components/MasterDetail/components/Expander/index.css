@@ -1,0 +1,11 @@
+.common__expander {
+  padding: 10px 0;
+  cursor: pointer;
+  position: absolute;
+  top: -15px;
+  z-index: 11;
+}
+
+.common__expander button {
+  color: black;
+}

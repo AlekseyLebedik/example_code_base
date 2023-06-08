@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Confirm render with delete permissions 1`] = `
+<AsyncAGGrid
+  autoSizeColumns={true}
+  autoSizeMaxWidth={2000}
+  columnDefs={
+    Array [
+      Object {
+        "cellRenderer": "agGroupCellRenderer",
+        "cellRendererParams": Object {
+          "checkbox": true,
+          "suppressCount": true,
+          "suppressDoubleClickExpand": true,
+          "suppressEnterExpand": true,
+        },
+        "field": "name",
+        "headerName": "Name",
+        "minWidth": 400,
+        "showRowGroup": true,
+      },
+      Object {
+        "checkboxSelection": [Function],
+        "field": "name",
+        "headerName": "Name",
+        "hide": true,
+        "rowGroup": true,
+      },
+      Object {
+        "cellRenderer": "groupsRenderer",
+        "field": "groupName",
+        "filter": true,
+        "headerName": "Group",
+        "metadata": Object {
+          "baseLink": "object-store/groups",
+        },
+        "minWidth": 150,
+        "valueGetter": [Function],
+      },
+      Object {
+        "field": "checksum",
+        "headerName": "Checksum",
+        "minWidth": 300,
+      },
+      Object {
+        "field": "category",
+        "headerName": "Category",
+        "minWidth": 120,
+        "valueFormatter": [Function],
+      },
+      Object {
+        "comparator": [Function],
+        "field": "contentLength",
+        "headerName": "Content Length",
+        "minWidth": 150,
+        "valueFormatter": [Function],
+        "width": 150,
+      },
+      Object {
+        "field": "acl",
+        "headerName": "ACL",
+        "width": 100,
+      },
+      Object {
+        "field": "extraData",
+        "headerName": "extraData",
+        "minWidth": 120,
+        "valueFormatter": [Function],
+        "width": 120,
+      },
+      Object {
+        "cellRenderer": "downloadRenderer",
+        "field": "Download",
+        "headerName": "Download",
+        "minWidth": 140,
+        "pinned": "right",
+        "width": 140,
+      },
+      Object {
+        "comparator": [Function],
+        "field": "created",
+        "filterParams": Object {
+          "filterOptions": Array [
+            "contains",
+          ],
+          "textMatcher": [Function],
+        },
+        "getQuickFilterText": [Function],
+        "headerName": "Created",
+        "minWidth": 200,
+        "valueFormatter": [Function],
+        "width": 200,
+      },
+      Object {
+        "comparator": [Function],
+        "field": "modified",
+        "filterParams": Object {
+          "filterOptions": Array [
+            "contains",
+          ],
+          "textMatcher": [Function],
+        },
+        "getQuickFilterText": [Function],
+        "headerName": "Modified",
+        "minWidth": 200,
+        "valueFormatter": [Function],
+        "width": 200,
+      },
+      Object {
+        "field": "expiresOn",
+        "filterParams": Object {
+          "filterOptions": Array [
+            "contains",
+          ],
+          "textMatcher": [Function],
+        },
+        "headerName": "Expires On",
+        "minWidth": 130,
+        "valueFormatter": [Function],
+        "width": 130,
+      },
+    ]
+  }
+  dataFormatter={[Function]}
+  extendColumnsFromResult={false}
+  fetchWithSearch={false}
+  gridOptions={
+    Object {
+      "components": Object {
+        "categoryRenderer": [Function],
+        "downloadRenderer": [Function],
+        "extraRenderer": [Function],
+        "groupsRenderer": [Function],
+      },
+      "defaultColDef": Object {
+        "allObjectsCheck": false,
+        "autoHeight": false,
+        "deleteProps": Object {
+          "actions": Array [
+            Object {
+              "iconName": "delete",
+              "label": "Delete Selected",
+            },
+          ],
+          "getKey": [Function],
+          "hideActions": true,
+        },
+        "onDownload": [MockFunction],
+        "promotePubGroups": [MockFunction],
+        "publisherObjectUrl": "",
+      },
+      "getRowStyle": [Function],
+      "groupDefaultExpanded": 1,
+      "groupDisplayType": "custom",
+      "groupRemoveSingleChildren": true,
+      "onFilterChanged": null,
+      "onRowDataUpdated": [Function],
+      "onSelectionChanged": [Function],
+      "suppressContextMenu": true,
+      "suppressMenuHide": false,
+    }
+  }
+  onGridReady={null}
+  onLoadData={[MockFunction]}
+  searchPlaceHolder="Search within the rows below"
+  useNewReusableAGGrid={false}
+  useQuickFilter={false}
+/>
+`;
+
+exports[`Confirm renders custom values 1`] = `
+<AsyncAGGrid
+  autoSizeColumns={true}
+  autoSizeMaxWidth={2000}
+  columnDefs={
+    Array [
+      Object {
+        "cellRenderer": "agGroupCellRenderer",
+        "cellRendererParams": Object {
+          "checkbox": true,
+          "suppressCount": true,
+          "suppressDoubleClickExpand": true,
+          "suppressEnterExpand": true,
+        },
+        "field": "name",
+        "headerName": "Name",
+        "minWidth": 400,
+        "showRowGroup": true,
+      },
+      Object {
+        "checkboxSelection": [Function],
+        "field": "name",
+        "headerName": "Name",
+        "hide": true,
+        "rowGroup": true,
+      },
+      Object {
+        "cellRenderer": "groupsRenderer",
+        "field": "groupName",
+        "filter": true,
+        "headerName": "Group",
+        "metadata": Object {
+          "baseLink": "object-store/groups",
+        },
+        "minWidth": 150,
+        "valueGetter": [Function],
+      },
+      Object {
+        "field": "checksum",
+        "headerName": "Checksum",
+        "minWidth": 300,
+      },
+      Object {
+        "field": "category",
+        "headerName": "Category",
+        "minWidth": 120,
+        "valueFormatter": [Function],
+      },
+      Object {
+        "comparator": [Function],
+        "field": "contentLength",
+        "headerName": "Content Length",
+        "minWidth": 150,
+        "valueFormatter": [Function],
+        "width": 150,
+      },
+      Object {
+        "field": "acl",
+        "headerName": "ACL",
+        "width": 100,
+      },
+      Object {
+        "field": "extraData",
+        "headerName": "extraData",
+        "minWidth": 120,
+        "valueFormatter": [Function],
+        "width": 120,
+      },
+      Object {
+        "cellRenderer": "downloadRenderer",
+        "field": "Download",
+        "headerName": "Download",
+        "minWidth": 140,
+        "pinned": "right",
+        "width": 140,
+      },
+      Object {
+        "comparator": [Function],
+        "field": "created",
+        "filterParams": Object {
+          "filterOptions": Array [
+            "contains",
+          ],
+          "textMatcher": [Function],
+        },
+        "getQuickFilterText": [Function],
+        "headerName": "Created",
+        "minWidth": 200,
+        "valueFormatter": [Function],
+        "width": 200,
+      },
+      Object {
+        "comparator": [Function],
+        "field": "modified",
+        "filterParams": Object {
+          "filterOptions": Array [
+            "contains",
+          ],
+          "textMatcher": [Function],
+        },
+        "getQuickFilterText": [Function],
+        "headerName": "Modified",
+        "minWidth": 200,
+        "valueFormatter": [Function],
+        "width": 200,
+      },
+      Object {
+        "field": "expiresOn",
+        "filterParams": Object {
+          "filterOptions": Array [
+            "contains",
+          ],
+          "textMatcher": [Function],
+        },
+        "headerName": "Expires On",
+        "minWidth": 130,
+        "valueFormatter": [Function],
+        "width": 130,
+      },
+    ]
+  }
+  dataFormatter={[Function]}
+  extendColumnsFromResult={false}
+  fetchWithSearch={false}
+  gridOptions={
+    Object {
+      "components": Object {
+        "categoryRenderer": [Function],
+        "downloadRenderer": [Function],
+        "extraRenderer": [Function],
+        "groupsRenderer": [Function],
+      },
+      "defaultColDef": Object {
+        "allObjectsCheck": false,
+        "autoHeight": false,
+        "deleteProps": Object {},
+        "onDownload": [MockFunction],
+        "promotePubGroups": [MockFunction],
+        "publisherObjectUrl": "",
+      },
+      "getRowStyle": [Function],
+      "groupDefaultExpanded": 1,
+      "groupDisplayType": "custom",
+      "groupRemoveSingleChildren": true,
+      "onFilterChanged": null,
+      "onRowDataUpdated": [Function],
+      "onSelectionChanged": [Function],
+      "suppressContextMenu": true,
+      "suppressMenuHide": false,
+    }
+  }
+  onGridReady={null}
+  onLoadData={[MockFunction]}
+  searchPlaceHolder="Search within the rows below"
+  useNewReusableAGGrid={false}
+  useQuickFilter={false}
+/>
+`;
+
+exports[`Confirm renders default values 1`] = `
+<AsyncAGGrid
+  autoSizeColumns={true}
+  autoSizeMaxWidth={2000}
+  columnDefs={
+    Array [
+      Object {
+        "cellRenderer": "agGroupCellRenderer",
+        "cellRendererParams": Object {
+          "checkbox": true,
+          "suppressCount": true,
+          "suppressDoubleClickExpand": true,
+          "suppressEnterExpand": true,
+        },
+        "field": "name",
+        "headerName": "Name",
+        "minWidth": 400,
+        "showRowGroup": true,
+      },
+      Object {
+        "checkboxSelection": [Function],
+        "field": "name",
+        "headerName": "Name",
+        "hide": true,
+        "rowGroup": true,
+      },
+      Object {
+        "cellRenderer": "groupsRenderer",
+        "field": "groupName",
+        "filter": true,
+        "headerName": "Group",
+        "metadata": Object {
+          "baseLink": "object-store/groups",
+        },
+        "minWidth": 150,
+        "valueGetter": [Function],
+      },
+      Object {
+        "field": "checksum",
+        "headerName": "Checksum",
+        "minWidth": 300,
+      },
+      Object {
+        "field": "category",
+        "headerName": "Category",
+        "minWidth": 120,
+        "valueFormatter": [Function],
+      },
+      Object {
+        "comparator": [Function],
+        "field": "contentLength",
+        "headerName": "Content Length",
+        "minWidth": 150,
+        "valueFormatter": [Function],
+        "width": 150,
+      },
+      Object {
+        "field": "acl",
+        "headerName": "ACL",
+        "width": 100,
+      },
+      Object {
+        "field": "extraData",
+        "headerName": "extraData",
+        "minWidth": 120,
+        "valueFormatter": [Function],
+        "width": 120,
+      },
+      Object {
+        "cellRenderer": "downloadRenderer",
+        "field": "Download",
+        "headerName": "Download",
+        "minWidth": 140,
+        "pinned": "right",
+        "width": 140,
+      },
+      Object {
+        "comparator": [Function],
+        "field": "created",
+        "filterParams": Object {
+          "filterOptions": Array [
+            "contains",
+          ],
+          "textMatcher": [Function],
+        },
+        "getQuickFilterText": [Function],
+        "headerName": "Created",
+        "minWidth": 200,
+        "valueFormatter": [Function],
+        "width": 200,
+      },
+      Object {
+        "comparator": [Function],
+        "field": "modified",
+        "filterParams": Object {
+          "filterOptions": Array [
+            "contains",
+          ],
+          "textMatcher": [Function],
+        },
+        "getQuickFilterText": [Function],
+        "headerName": "Modified",
+        "minWidth": 200,
+        "valueFormatter": [Function],
+        "width": 200,
+      },
+      Object {
+        "field": "expiresOn",
+        "filterParams": Object {
+          "filterOptions": Array [
+            "contains",
+          ],
+          "textMatcher": [Function],
+        },
+        "headerName": "Expires On",
+        "minWidth": 130,
+        "valueFormatter": [Function],
+        "width": 130,
+      },
+    ]
+  }
+  dataFormatter={[Function]}
+  extendColumnsFromResult={false}
+  fetchWithSearch={false}
+  gridOptions={
+    Object {
+      "components": Object {
+        "categoryRenderer": [Function],
+        "downloadRenderer": [Function],
+        "extraRenderer": [Function],
+        "groupsRenderer": [Function],
+      },
+      "defaultColDef": Object {
+        "allObjectsCheck": false,
+        "autoHeight": false,
+        "deleteProps": Object {},
+        "onDownload": [MockFunction],
+        "promotePubGroups": [MockFunction],
+        "publisherObjectUrl": "",
+      },
+      "getRowStyle": [Function],
+      "groupDefaultExpanded": 1,
+      "groupDisplayType": "custom",
+      "groupRemoveSingleChildren": true,
+      "onFilterChanged": null,
+      "onRowDataUpdated": [Function],
+      "onSelectionChanged": [Function],
+      "suppressContextMenu": true,
+      "suppressMenuHide": false,
+    }
+  }
+  onGridReady={null}
+  onLoadData={[MockFunction]}
+  searchPlaceHolder="Search within the rows below"
+  useNewReusableAGGrid={false}
+  useQuickFilter={false}
+/>
+`;

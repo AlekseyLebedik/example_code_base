@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PyScript Delete Btn always renders an IconButton 1`] = `
+<WithStyles(WrappedIcon)
+  className="delete"
+  color="secondary"
+  disabled={false}
+  icon="delete_forever"
+  iconProps={
+    Object {
+      "name": "test",
+    }
+  }
+  onClick={[MockFunction]}
+  tooltip="delete entry"
+/>
+`;
+
+exports[`PyScript Delete Btn renders the component correctly 1`] = `
+<WithStyles(WrappedIcon)
+  className="delete"
+  color="secondary"
+  disabled={false}
+  icon="delete_forever"
+  iconProps={
+    Object {
+      "name": "test",
+    }
+  }
+  onClick={[MockFunction]}
+  tooltip="delete entry"
+/>
+`;

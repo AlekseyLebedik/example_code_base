@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PyScripts TextboxStateless renders the textfield component correctly 1`] = `
+<WithStyles(ForwardRef(TextField))
+  disabled={false}
+  error={false}
+  helperText={false}
+  id="textfield-test"
+  inputProps={
+    Object {
+      "className": "input",
+      "max": undefined,
+      "maxLength": undefined,
+      "min": undefined,
+      "minLength": undefined,
+      "step": undefined,
+    }
+  }
+  name="test"
+  onBlur={[MockFunction]}
+  onChange={[MockFunction]}
+  onKeyDown={[MockFunction]}
+  value="old"
+/>
+`;

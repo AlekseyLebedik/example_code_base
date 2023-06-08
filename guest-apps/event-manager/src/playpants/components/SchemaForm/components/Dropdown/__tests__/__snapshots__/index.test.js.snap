@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PyScript Dropdown always renders a selector 1`] = `
+<WithStyles(ForwardRef(Select))
+  disabled={false}
+  displayEmpty={true}
+  fullWidth={true}
+  id="textfield-test"
+  multiple={false}
+  name="test"
+  onChange={[MockFunction]}
+  value="MOTD"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    disabled={true}
+    value=""
+  >
+    Select 
+    test
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="MOTD"
+    value="MOTD"
+  >
+    MOTD
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="PubVars"
+    value="PubVars"
+  >
+    PubVars
+  </WithStyles(ForwardRef(MenuItem))>
+</WithStyles(ForwardRef(Select))>
+`;
+
+exports[`PyScript Dropdown renders the component correctly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Select))
+    disabled={false}
+    displayEmpty={true}
+    fullWidth={true}
+    id="textfield-test"
+    multiple={false}
+    name="test"
+    onChange={[MockFunction]}
+    value="MOTD"
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      disabled={true}
+      value=""
+    >
+      Select 
+      test
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="MOTD"
+      value="MOTD"
+    >
+      MOTD
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="PubVars"
+      value="PubVars"
+    >
+      PubVars
+    </WithStyles(ForwardRef(MenuItem))>
+  </WithStyles(ForwardRef(Select))>
+</Fragment>
+`;

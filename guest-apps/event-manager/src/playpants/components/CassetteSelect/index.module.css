@@ -1,0 +1,21 @@
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chip {
+  margin: 2px;
+}
+
+.avatar {
+  font-weight: bold;
+  background-color: white;
+}
+
+.selectedChip {
+  background-color: rgb(74, 192, 241) !important;
+}
+
+.icon {
+  display: none;
+}

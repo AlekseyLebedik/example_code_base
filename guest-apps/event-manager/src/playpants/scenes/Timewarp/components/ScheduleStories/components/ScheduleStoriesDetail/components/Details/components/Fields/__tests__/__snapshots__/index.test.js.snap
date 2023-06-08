@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fields renders default properly 1`] = `
+<div>
+  <WithStyles(ConfirmDialog)
+    content="You are about to destroy and replace all the existing events (1) on this story. Do you want to continue?"
+    destructive={true}
+    onConfirm={[Function]}
+    onHide={[Function]}
+    open={false}
+    title="Confirm Story Schedule Change"
+  />
+  <Form>
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      spacing={2}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <NameField
+          asyncValidating={false}
+          onBlur={[Function]}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <DescriptionField
+          onBlur={[Function]}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Status
+          status="---"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Context
+          context=""
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <CategoryField
+          allowNull={false}
+          disabled={false}
+          onChange={[Function]}
+          options={Array []}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <ScheduleFieldWrapper
+          customHandleScheduleChange={[Function]}
+          disabledTooltip=""
+          formName=""
+          handleOnLoadComplete={[MockFunction]}
+          isClearable={false}
+          isDisabled={false}
+          onSetSelectedSchedule={[MockFunction]}
+          options={Array []}
+          schedulesData={Array []}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <TitleEnvField
+          asyncValidating={false}
+          disabled={true}
+          onChange={[Function]}
+          options={Array []}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Connect(FormattedTimestampBase)
+          label="Start At"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Connect(FormattedTimestampBase)
+          label="End At"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <CreatedBy
+          createdBy={null}
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Connect(FormattedTimestampBase)
+          label="Created At"
+        />
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        xs={12}
+      >
+        <Connect(FormattedTimestampBase)
+          label="Updated At"
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </Form>
+</div>
+`;

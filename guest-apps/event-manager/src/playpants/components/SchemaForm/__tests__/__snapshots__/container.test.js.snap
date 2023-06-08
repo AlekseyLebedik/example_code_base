@@ -1,0 +1,279 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SchemaForm renders the container component correctly 1`] = `
+<SchemaFormStateless
+  gridOptions={
+    Object {
+      "animateRows": true,
+      "autoGroupColumnDef": Object {
+        "cellRendererParams": Object {
+          "suppressCount": true,
+        },
+        "field": "key",
+        "headerName": "Variable",
+      },
+      "columnDefs": Array [
+        Object {
+          "field": "key",
+          "hide": true,
+          "sort": "asc",
+        },
+        Object {
+          "field": "group",
+          "hide": true,
+          "rowGroup": true,
+        },
+        Object {
+          "cellClass": "inputColumn",
+          "cellRenderer": [Function],
+          "field": "input",
+          "headerName": "Input",
+        },
+      ],
+      "defaultColDef": Object {
+        "filter": true,
+        "sortable": true,
+      },
+      "defaultGroupOrderComparator": [Function],
+      "deltaRowDataMode": true,
+      "domLayout": "autoHeight",
+      "getRowClass": [Function],
+      "getRowId": [Function],
+      "groupDefaultExpanded": -1,
+      "navigateToNextCell": [Function],
+      "onGridReady": [Function],
+      "overlayNoRowsTemplate": "<span class=\\"ag-overlay-loading-center\\">Please select a schema to load rows</span>",
+      "rowData": Array [
+        Object {
+          "input": <Textbox
+            deletable={false}
+            disabled={false}
+            handleChange={[Function]}
+            handleDelete={[Function]}
+            label="weapon_type"
+            properties={
+              Object {
+                "maxLength": 15,
+                "minLength": 3,
+                "type": "string",
+              }
+            }
+            uniqueItems={false}
+            value=""
+          />,
+          "key": "weapon_type",
+        },
+        Object {
+          "group": "attachment_icons [0]",
+          "input": <FileUpload
+            data={
+              Object {
+                "inputs": Array [
+                  Object {
+                    "key": "weapon_type",
+                    "value": "",
+                  },
+                  Object {
+                    "key": "attachment_icons",
+                    "value": Array [],
+                  },
+                  Object {
+                    "key": "cost",
+                    "value": "",
+                  },
+                  Object {
+                    "key": "attachments",
+                    "value": Array [
+                      "test",
+                      "good",
+                    ],
+                  },
+                ],
+                "template_id": "weapon_drop",
+              }
+            }
+            deletable={false}
+            disabled={false}
+            handleChange={[Function]}
+            handleDelete={[Function]}
+            label="attachment_icons (1)"
+            properties={
+              Object {
+                "contentEncoding": "base64",
+                "contentMediaType": "image/png",
+                "type": "string",
+              }
+            }
+            uniqueItems={true}
+            value={Object {}}
+          />,
+          "key": "attachment_icons (1)",
+        },
+        Object {
+          "input": <Textbox
+            deletable={false}
+            disabled={false}
+            handleChange={[Function]}
+            handleDelete={[Function]}
+            label="cost"
+            properties={
+              Object {
+                "minimum": 10,
+                "multipleOf": 10,
+                "type": "number",
+              }
+            }
+            uniqueItems={false}
+            value=""
+          />,
+          "key": "cost",
+        },
+        Object {
+          "group": "attachments [2]",
+          "input": <Textbox
+            data={
+              Object {
+                "inputs": Array [
+                  Object {
+                    "key": "weapon_type",
+                    "value": "",
+                  },
+                  Object {
+                    "key": "attachment_icons",
+                    "value": Array [],
+                  },
+                  Object {
+                    "key": "cost",
+                    "value": "",
+                  },
+                  Object {
+                    "key": "attachments",
+                    "value": Array [
+                      "test",
+                      "good",
+                    ],
+                  },
+                ],
+                "template_id": "weapon_drop",
+              }
+            }
+            deletable={true}
+            disabled={false}
+            handleChange={[Function]}
+            handleDelete={[Function]}
+            label="attachments (1)"
+            properties={
+              Object {
+                "maxLength": 15,
+                "type": "string",
+              }
+            }
+            uniqueItems={true}
+            value="test"
+          />,
+          "key": "attachments (1)",
+        },
+        Object {
+          "group": "attachments [2]",
+          "input": <Textbox
+            data={
+              Object {
+                "inputs": Array [
+                  Object {
+                    "key": "weapon_type",
+                    "value": "",
+                  },
+                  Object {
+                    "key": "attachment_icons",
+                    "value": Array [],
+                  },
+                  Object {
+                    "key": "cost",
+                    "value": "",
+                  },
+                  Object {
+                    "key": "attachments",
+                    "value": Array [
+                      "test",
+                      "good",
+                    ],
+                  },
+                ],
+                "template_id": "weapon_drop",
+              }
+            }
+            deletable={true}
+            disabled={false}
+            handleChange={[Function]}
+            handleDelete={[Function]}
+            label="attachments (2)"
+            properties={
+              Object {
+                "maxLength": 15,
+                "type": "string",
+              }
+            }
+            uniqueItems={true}
+            value="good"
+          />,
+          "key": "attachments (2)",
+        },
+        Object {
+          "group": "attachments [2]",
+          "input": <Textbox
+            data={
+              Object {
+                "inputs": Array [
+                  Object {
+                    "key": "weapon_type",
+                    "value": "",
+                  },
+                  Object {
+                    "key": "attachment_icons",
+                    "value": Array [],
+                  },
+                  Object {
+                    "key": "cost",
+                    "value": "",
+                  },
+                  Object {
+                    "key": "attachments",
+                    "value": Array [
+                      "test",
+                      "good",
+                    ],
+                  },
+                ],
+                "template_id": "weapon_drop",
+              }
+            }
+            deletable={false}
+            disabled={false}
+            handleChange={[Function]}
+            handleDelete={[Function]}
+            label="attachments (3)"
+            properties={
+              Object {
+                "maxLength": 15,
+                "type": "string",
+              }
+            }
+            uniqueItems={true}
+            value=""
+          />,
+          "key": "attachments (3)",
+        },
+      ],
+      "rowHeight": 70,
+      "suppressCellFocus": true,
+      "suppressContextMenu": true,
+      "suppressDragLeaveHidesColumns": true,
+      "suppressRowClickSelection": true,
+      "suppressRowHoverHighlight": true,
+      "tabToNextCell": [Function],
+    }
+  }
+  needsUpdate={false}
+  onVersionUpdate={[Function]}
+/>
+`;

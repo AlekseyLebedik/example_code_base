@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventDetailItem renders the EventDetailItem correctly 1`] = `
+<WithStyles(ForwardRef(ListItem))
+  className="listContainer"
+  component={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "render": [Function],
+    }
+  }
+  onClick={[Function]}
+  to="test/link"
+>
+  <WithStyles(ForwardRef(ListItemIcon))>
+    <WithStyles(ForwardRef(Icon))
+      className=""
+      color="inherit"
+      fontSize="small"
+    />
+  </WithStyles(ForwardRef(ListItemIcon))>
+  <WithStyles(ForwardRef(ListItemText))
+    classes={
+      Object {
+        "primary": "primary",
+        "root": undefined,
+        "secondary": "secondary",
+      }
+    }
+    disableTypography={false}
+    primary=""
+    secondary=""
+    secondaryTypographyProps={
+      Object {
+        "component": "span",
+      }
+    }
+  />
+</WithStyles(ForwardRef(ListItem))>
+`;

@@ -1,0 +1,718 @@
+/*
+------------------------------------------------------------------------------------------------------
+IMPORTANT: THIS FILE ONLY HAS TO CONTAIN STYLES RELATED WITH COLORS, BACKGROUNDS, IMAGES AND FONTS.
+           ANY CONFIGURABLE STYLES. NOTHING RELATED WITH THE STRUCTURE OF THE APP.
+------------------------------------------------------------------------------------------------------
+*/
+
+:root {
+  --primary-color: #4ac0f1;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  height: 6px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4ac0f1;
+  border-bottom: 1px solid #eaf1f6;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #40a9ff;
+  border-bottom: 1px solid #eaf1f6;
+}
+
+.ant-tooltip {
+  z-index: 2000 !important;
+}
+
+.Session-Viewer__container .right::-webkit-scrollbar:horizontal {
+  height: 12px;
+}
+
+/* MAIN COMPONENTS */
+
+/* SideBar */
+
+.sidebar-feedback-modal a {
+  color: #4ac0f1;
+}
+
+/* COMMON COMPONENTS */
+
+.non-critical-error .icon {
+  color: #d32f2f;
+  position: relative;
+  top: 5px;
+}
+
+.error-color {
+  color: rgb(244, 67, 54);
+}
+
+.tooltip-table {
+  background-color: #fff;
+  border: solid 1px #4ac0f1;
+}
+
+.tooltip-with-table__label {
+  color: #4ac0f1;
+}
+
+.health-check__main-container span {
+  background-color: #607d8b;
+  color: #e0e0e0;
+}
+
+/* TableHydrated */
+
+.common__table-hydrated .ant-checkbox-checked .ant-checkbox-inner,
+.common__table-hydrated .ant-checkbox-indeterminate .ant-checkbox-inner {
+  background-color: #0090be !important;
+}
+
+.common__table-hydrated .ant-checkbox-inner {
+  border-color: #0090be !important;
+}
+
+.common__table-hydrated .custom-filter-dropdown hr:nth-child(2) {
+  border-bottom: 2px solid #4ac0f1 !important;
+}
+
+.common__table-hydrated td a:not([role='button']) {
+  color: #0090be;
+}
+
+/* TabWithTable */
+
+.tab-with-table .tab-loading svg circle {
+  stroke: #4ac0f1 !important;
+}
+
+/* Source Select */
+
+.source-select .ant-select-auto-complete.ant-select .ant-input {
+  background-color: #fff;
+}
+
+.ant-select-dropdown-menu-item-active,
+.ant-select-dropdown-menu-item:hover,
+.ant-select-dropdown-menu-item-selected,
+.ant-select-dropdown-menu-item-selected:hover {
+  background-color: #4ac0f1 !important;
+}
+
+.NextPageButton span {
+  color: rgba(0, 0, 0, 0.65) !important;
+}
+
+.NextPageButton:hover span {
+  color: rgba(0, 0, 0, 0.87) !important;
+}
+
+/* Main Container */
+
+.main-container .header__container {
+  background-color: #4ac0f1;
+  color: #fff;
+}
+
+.details__container .empty,
+.main-container .empty {
+  color: #bdc3c7;
+}
+
+.main-container .header__container button span {
+  color: rgb(255, 255, 255) !important;
+}
+
+/* END COMMON COMPONENTS */
+
+/* BUTTONS */
+
+.ant-btn-primary {
+  color: #fff;
+  background-color: #4ac0f1;
+  border-color: #4ac0f1;
+}
+
+.ant-btn-primary:hover {
+  color: #fff;
+  background-color: #40a9ff;
+  border-color: #40a9ff;
+}
+
+.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored,
+.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--mini-fab.mdl-button--colored,
+.mdl-button.mdl-js-button.mdl-button--raised.mdl-button--colored {
+  background-color: #0090be;
+}
+
+/* END BUTTONS */
+
+/* NAVIGATION MENU */
+
+.mdl-layout__tab-bar-container,
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button,
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button {
+  background: #fff;
+}
+
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-left-button.is-active,
+.mdl-layout__tab-bar-button.mdl-layout__tab-bar-right-button.is-active {
+  color: #aaa;
+}
+
+.mdl-layout__header {
+  background-color: #fff;
+}
+
+.mdl-layout__tab-bar.nav-menu {
+  background: #fff;
+}
+
+.mdl-layout__tab-bar.nav-menu a {
+  color: #000 !important;
+  opacity: 0.5 !important;
+  text-decoration: none;
+}
+
+.mdl-layout__tab-bar.nav-menu a.is-active {
+  opacity: 1 !important;
+  border-bottom: 3px solid #000;
+}
+
+.nav-menu-child.is-active > div {
+  color: #fff !important;
+  background-color: #4ac0f1;
+  border-color: #4ac0f1;
+}
+
+.nav-menu-child.is-active span {
+  color: #fff !important;
+}
+
+/* END NAVIGATION MENU */
+
+/* MASTER DETAIL CONTAINER */
+
+.master-detail__container {
+  background-color: #f5f5f6;
+}
+
+/* END MASTER DETAIL CONTAINER */
+
+/* SEARCHABLE LIST */
+
+.common__searchable-list {
+  overflow: hidden;
+}
+
+.common__searchable-list .empty-list {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  color: #bdc3c7;
+}
+
+.common__searchable-list .items-list .list-item.selected,
+.common__searchable-list .items-list > div.selected {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.common__searchable-list .items-list .list-item,
+.common__searchable-list .items-list > div {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+
+.common__searchable-list
+  .items-list
+  .list-item
+  .ant-card.selected.ant-card-bordered,
+.common__searchable-list
+  .items-list
+  .list-item.selected
+  .ant-card.ant-card-bordered {
+  background-color: #fff;
+  border-right: 0;
+  border-radius: 0;
+  z-index: 15;
+}
+
+.common__searchable-list
+  .items-list
+  .list-item
+  .ant-card.selected.ant-card-bordered
+  .ant-card-body,
+.common__searchable-list
+  .items-list
+  .list-item.selected
+  .ant-card.ant-card-bordered
+  .ant-card-body {
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12),
+    0 1px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.common__searchable-list
+  .items-list
+  .list-item
+  .ant-card.ant-card-bordered:hover {
+  background-color: #fff;
+}
+
+.common__searchable-list .items-list .list-item {
+  background-color: #f5f5f6;
+}
+
+.common__searchable-list .items-list .list-item .ant-card.ant-card-bordered {
+  background-color: #f5f5f6;
+  border: 0;
+}
+
+.common__searchable-list .items-list.selected .ant-card,
+.common__searchable-list .items-list .ant-card.selected {
+  background-color: #4ac0f1 !important;
+  color: #fff;
+}
+
+.common__searchable-list .items-list::-webkit-scrollbar-thumb {
+  background-color: #4ac0f1;
+  border-bottom: 1px solid #eaf1f6;
+}
+
+.common__searchable-list .items-list::-webkit-scrollbar-thumb:hover {
+  background-color: #40a9ff;
+  border-bottom: 1px solid #eaf1f6;
+}
+
+/* END SEARCHABLE LIST */
+
+/* DETAILS CONTAINER */
+
+.details__container {
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.details__container,
+.details-empty__container {
+  background-color: #fff;
+}
+
+.details-empty__container {
+  color: #bdc3c7;
+  display: flex;
+  height: 100%;
+}
+
+/* END DETAILS CONTAINER */
+
+/* COMMON SEARCH */
+
+.common__search .advanced-search-container {
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+}
+
+.common__search .ant-row.error {
+  color: red;
+}
+
+.common__search .footer-row .filter-button button {
+  background-color: #0090be !important;
+}
+
+/* END COMMON SEARCH */
+
+/* ACCOUNTS */
+
+.account-details__tab-user-files td a,
+.account-details__tab-user-files td a:hover {
+  color: #4ac0f1;
+}
+
+.details__container.account .ant-tabs-nav .ant-tabs-tab:hover {
+  color: #fff;
+}
+
+/* tabs */
+
+.tabs-container .ant-tabs-extra-content {
+  line-height: 44px;
+}
+
+.tabs-container .ant-tabs-extra-content,
+.tabs-container .ant-tabs-nav-container {
+  background-color: #4ac0f1;
+  color: #fff;
+}
+
+.tabs-container-reworked .ant-tabs-extra-content,
+.tabs-container-reworked .ant-tabs-nav-container {
+  background-color: #616161;
+  color: #fff;
+}
+
+.tabs-container .ant-tabs-nav-container .ant-tabs-tab {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.tabs-container .ant-tabs-nav-container .ant-tabs-nav .ant-tabs-tab-active,
+.tabs-container .ant-tabs-nav-container .ant-tabs-tab:hover {
+  opacity: 1;
+}
+
+.tabs-container .ant-tabs-nav-container .ant-tabs-ink-bar {
+  background-color: #fff;
+}
+
+/* END ACCOUNTS */
+
+/* MARKETPLACE */
+
+.main-container.active-store .header__container .store-info .store-label {
+  color: #757575;
+}
+
+.list-item.store .is-active-store {
+  color: #f4ff81;
+}
+
+.details__container.store .store-actions {
+  color: #fff;
+}
+
+.details__container.store .store-actions a i,
+.details__container.store .store-actions a i:hover {
+  color: #fff;
+}
+
+.list-item.store .active-icon i {
+  color: #000 !important;
+  opacity: 0.6;
+}
+
+.list-item.store .right .active-store {
+  color: #87d37c;
+}
+
+.list-item.store.selected .right .active-store {
+  color: #000;
+}
+/* END MARKETPLACE */
+
+.main-container.active-ruleset .header__container .ruleset-info .ruleset-label {
+  color: #757575;
+}
+
+.list-item.ruleset .is-active-ruleset {
+  color: #f4ff81;
+}
+
+.details__container.ruleset .ruleset-actions {
+  color: #fff;
+}
+
+.details__container.ruleset .ruleset-actions a i,
+.details__container.ruleset .ruleset-actions a i:hover {
+  color: #fff;
+}
+
+.list-item.ruleset .label {
+  color: #000;
+}
+
+.list-item.ruleset .ant-card.selected.ant-card-bordered .label {
+  color: #fff;
+}
+
+.list-item.ruleset .active-icon i {
+  color: #000 !important;
+  opacity: 0.6;
+}
+
+.list-item.ruleset .active-icon.active-ruleset i {
+  color: #43a047 !important;
+  opacity: 0.9;
+}
+
+.details__container.ruleset .ant-tabs-bar {
+  background-color: #4ac0f1;
+  border-bottom: 1px solid #4ac0f1;
+}
+
+.details__container.ruleset .tabs-container-reworked .ant-tabs-bar {
+  background-color: #616161;
+  color: #fff;
+  border-bottom: 1px solid #616161;
+}
+
+.details__container.ruleset .ant-tabs-bar .ant-tabs-nav-container {
+  margin-left: 20px;
+}
+
+.details__container.ruleset .ant-tabs-bar .ant-tabs-tab {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.details__container.ruleset .ant-tabs-bar .ant-tabs-tab.ant-tabs-tab-active {
+  color: #fff;
+  opacity: 1;
+}
+
+.details__container.ruleset
+  .ant-tabs-bar
+  .ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+  background-color: #fff;
+  height: 3px;
+}
+
+/* END ACHIEVEMENTS */
+
+/* SECURITY */
+
+.main-container.task-rules .table-row.service hr {
+  border-color: rgba(0, 0, 0, 0.75);
+}
+
+.main-container.task-rules .table-row.service {
+  color: rgb(74, 192, 241);
+}
+
+.main-container.ip-control .select-all svg:first-child,
+.main-container.ip-control .list-wrapper > div svg:first-child {
+  fill: rgba(0, 0, 0, 0.5) !important;
+}
+
+.anticheat-challenge-generators .generator-state {
+  color: #87d37c;
+}
+
+.anticheat-challenge-generators .generator-state.disabled {
+  color: #f89406;
+}
+
+/* MMP TRACE */
+
+.mmtrace-content .ant-tabs-nav .ant-tabs-tab:hover {
+  color: #1890ff !important;
+}
+
+.lobby-viewer-content .left input,
+.mmtrace-content .left input {
+  background: transparent;
+  border-bottom: 2px solid #aaa !important;
+}
+
+.lobby-viewer-content .left,
+.mmtrace-content .left {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0 3px 14px 3px rgba(0, 0, 0, 0.12), 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mmtrace-content .left .ant-tabs-nav .ant-tabs-tab-active,
+.mmtrace-content .left .ant-tabs-nav .ant-tabs-tab-active:hover,
+.mmtrace-content .ant-tabs-nav .ant-tabs-tab:hover,
+.mmtrace-content .ant-row.ant-form-item button,
+.ant-calendar-footer-btn a {
+  color: #4ac0f1 !important;
+}
+
+.lobby-viewer-content .left .ant-input:focus,
+.lobby-viewer-content .left .ant-input:hover,
+.mmtrace-content .left .ant-input:focus,
+.mmtrace-content .left .ant-input:hover {
+  border-bottom-color: #4ac0f1 !important;
+}
+
+.lobby-viewer-content .left .has-error input,
+.mmtrace-content .left .has-error input {
+  border-bottom-color: #ff4d4f;
+}
+
+.lobby-viewer-content .right .chart,
+.mmtrace-content .right .chart {
+  background-color: #000;
+}
+
+.lobby-viewer-content .right .chart .timeline-wrapper svg text,
+.mmtrace-content .right .chart .timeline-wrapper svg text {
+  fill: #979797;
+}
+
+.lobby-viewer-content .right .chart .timeline-wrapper svg .domain,
+.mmtrace-content .right .chart .timeline-wrapper svg .domain {
+  stroke: #979797;
+}
+
+.lobby-viewer .right .chart .timeline-wrapper svg .series-segment,
+.lobby-viewer-content .right .chart .timeline-wrapper svg .context-events,
+.lobby-viewer-content .right-details .mmtrace-detail-view svg .bar,
+.mmtrace-content .right .chart .timeline-wrapper svg .series-segment,
+.mmtrace-content .right .chart .timeline-wrapper svg .context-events {
+  fill: #4ac0f1 !important;
+  fill-opacity: 1 !important;
+}
+
+.mmtrace-content .left,
+.mmtrace-content .left .ant-card.ant-card-bordered,
+.mmtrace-content
+  .left
+  .ant-table-small
+  > .ant-table-content
+  > .ant-table-scroll
+  > .ant-table-header
+  > table
+  > .ant-table-thead
+  > tr
+  > th,
+.mmtrace-content .left .ant-table-content td {
+  background-color: transparent;
+}
+
+.mmtrace-content .right .progress > div > div,
+.mmtrace-content .left .ant-tabs-ink-bar {
+  background-color: #4ac0f1;
+}
+
+.lobby-viewer-content .active-row,
+.lobby-viewer-content .active-row td,
+.lobby-viewer-content .active-row:hover,
+.lobby-viewer-content .active-row td:hover,
+.mmtrace-content .active-row,
+.mmtrace-content .active-row td,
+.mmtrace-content .active-row:hover,
+.mmtrace-content .active-row td:hover {
+  color: #fff !important;
+  background-color: #40a9ff !important;
+}
+
+.mmtrace-content .failed-row td:nth-child(1) {
+  border-left: solid 4px #d0021b !important;
+}
+
+.ant-calendar-today .ant-calendar-date {
+  border-color: #40a9ff !important;
+  color: #40a9ff !important;
+}
+
+.ant-calendar-selected-day .ant-calendar-date,
+.ant-calendar-selected-day .ant-calendar-date:hover {
+  background: #40a9ff !important;
+  border-color: #40a9ff !important;
+  color: #fff !important;
+}
+
+.ant-calendar-footer-btn a.ant-calendar-ok-btn {
+  background-color: #40a9ff !important;
+  border-color: #40a9ff !important;
+  color: #fff !important;
+}
+
+.connection-logs .tabs,
+.anticheat-statistics .tabs {
+  background-color: #4ac0f1;
+}
+
+.connection-logs .tabs a,
+.anticheat-statistics .tabs a {
+  color: #fff;
+  opacity: 0.7;
+  border-bottom: 3px solid #4ac0f1;
+}
+
+.connection-logs .tabs a.active,
+.anticheat-statistics .tabs a.active {
+  opacity: 1;
+  border-bottom: 3px solid #fff;
+}
+
+.connection-logs .tabs a:hover,
+.anticheat-statistics .tabs a:hover {
+  opacity: 1;
+}
+
+.anticheat-statistics .filter-options .challenge-id input {
+  color: white !important;
+}
+
+.anticheat-statistics .filter-options .challenge-id hr:last-child {
+  border-color: white !important;
+}
+
+/* Multi Select Form Field */
+
+.common-multi-select-field .ant-form-item-label label {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.common-multi-select-field.active .ant-form-item-label label {
+  color: rgb(74, 192, 241);
+}
+
+.common-multi-select-field.with-error .ant-form-item-label label {
+  color: rgb(244, 67, 54);
+}
+
+.common-multi-select-field .has-error .ant-form-explain {
+  color: rgb(244, 67, 54);
+}
+
+.common-multi-select-field .ant-select-selection {
+  border-color: rgb(224, 224, 224);
+}
+
+.common-multi-select-field .has-error .ant-select-selection,
+.common-multi-select-field .has-error .ant-select-open .ant-select-selection,
+.common-multi-select-field
+  .has-error
+  .ant-select-focused
+  .ant-select-selection {
+  border-color: rgb(244, 67, 54);
+}
+
+.common-multi-select-field .ant-select-open .ant-select-selection,
+.common-multi-select-field .ant-select-focused .ant-select-selection {
+  border-color: rgb(74, 192, 241);
+}
+
+.common-multi-select-field
+  .ant-select-dropdown-menu-item.ant-select-dropdown-menu-item-disabled {
+  cursor: default;
+  background-color: white !important;
+  color: rgb(74, 192, 241);
+}
+
+.common-multi-select-field
+  .ant-select-dropdown-menu-item.ant-select-dropdown-menu-item-active {
+  color: rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.common-multi-select-field
+  .ant-select-dropdown.ant-select-dropdown--multiple
+  .ant-select-dropdown-menu-item:hover::after {
+  color: transparent !important;
+}
+
+.common-multi-select-field
+  .ant-select-dropdown-menu-item.ant-select-dropdown-menu-item-selected {
+  color: white !important;
+  background-color: rgb(74, 192, 241) !important;
+}
+
+.common-multi-select-field
+  .ant-select-dropdown.ant-select-dropdown--multiple
+  .ant-select-dropdown-menu-item.ant-select-dropdown-menu-item-selected::after {
+  color: white !important;
+}

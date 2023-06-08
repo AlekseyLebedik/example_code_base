@@ -1,0 +1,8 @@
+.gridContainer {
+  padding: 20px;
+}
+
+.conflictsDetailsContainer {
+  height: 100%;
+  overflow-y: scroll;
+}

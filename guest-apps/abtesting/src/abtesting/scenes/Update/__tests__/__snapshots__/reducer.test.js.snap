@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Update ABTest reducer should handle CHANGE_TEST_STATUS_SUCCESS 1`] = `
+Object {
+  "test": Object {
+    "assignmentAlgorithm": "sha256",
+    "assignmentSeed": "444b9a35f88a4a3e98d0a6a0f6086a33",
+    "catchEnd": "1542113580",
+    "catchStart": "1542027180",
+    "categories": Array [],
+    "cohorts": Array [
+      Object {
+        "cohortID": "9474364381302105764",
+        "isControl": false,
+        "name": "cht1",
+        "source": Object {
+          "type": "manual",
+        },
+        "treatments": Array [
+          Object {
+            "configs": Array [
+              "15716207803415653925",
+              "3269921500916109455",
+            ],
+            "end": "1542372840",
+            "start": "1542027240",
+          },
+        ],
+      },
+    ],
+    "comments": null,
+    "context": "game2",
+    "created": "1542027391",
+    "creator": null,
+    "data_scientist": null,
+    "name": "test4",
+    "organisation": null,
+    "purpose": null,
+    "stakeholders": Array [],
+    "status": "analysis",
+    "testID": "2826831981838830560",
+    "updated": "1542100202",
+  },
+}
+`;
+
+exports[`Update ABTest reducer should handle FETCH_TEST_SUCCESS 1`] = `
+Object {
+  "loading": false,
+  "propagateShowDetails": false,
+  "test": Object {
+    "assignmentAlgorithm": "sha256",
+    "assignmentSeed": "444b9a35f88a4a3e98d0a6a0f6086a33",
+    "catchEnd": "1542113580",
+    "catchStart": "1542027180",
+    "categories": Array [],
+    "cohorts": Array [
+      Object {
+        "cohortID": "9474364381302105764",
+        "isControl": false,
+        "name": "cht1",
+        "source": Object {
+          "type": "manual",
+        },
+        "treatments": Array [
+          Object {
+            "configs": Array [
+              "15716207803415653925",
+              "3269921500916109455",
+            ],
+            "end": "1542372840",
+            "start": "1542027240",
+          },
+        ],
+      },
+    ],
+    "comments": null,
+    "context": "game2",
+    "created": "1542027391",
+    "creator": null,
+    "data_scientist": null,
+    "name": "test4",
+    "organisation": null,
+    "purpose": null,
+    "stakeholders": Array [],
+    "status": "config",
+    "testID": "2826831981838830560",
+    "updated": "1542100202",
+  },
+}
+`;
+
+exports[`Update ABTest reducer should handle RESET_TEST 1`] = `
+Object {
+  "loading": false,
+  "propagateShowDetails": false,
+  "test": Object {},
+}
+`;
+
+exports[`Update ABTest reducer should return the initial state 1`] = `
+Object {
+  "loading": false,
+  "propagateShowDetails": false,
+  "test": Object {},
+}
+`;

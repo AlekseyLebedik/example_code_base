@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details GroupDetails renders GroupDetails component correctly 1`] = `
+<Details
+  addGroupMember={[Function]}
+  context="1:dev"
+  deleteGroup={[Function]}
+  fetchConfigs={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "1:dev",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  fetchTests={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "1:dev",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  getGroupDetails={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "1",
+          "1:dev",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  getRowHeight={[Function]}
+  groupMembers={Array []}
+  groups={Array []}
+  isLoading={false}
+  onFilterChange={[Function]}
+  onFirstDataRendered={[Function]}
+  onGridReady={[Function]}
+  onSubmitReplaceUsers={[MockFunction]}
+  removeGroupMembers={[Function]}
+  selectedItem={null}
+  selectedItemId="1"
+/>
+`;
+
+exports[`Details loads the Details component correctly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <GroupDetails
+    addGroupMember={[Function]}
+    deleteGroup={[Function]}
+    fetchConfigs={[Function]}
+    fetchTests={[Function]}
+    getGroupDetails={[Function]}
+    groupMembers={Array []}
+    groups={Array []}
+    isLoading={false}
+    onSubmitReplaceUsers={[Function]}
+    removeGroupMembers={[Function]}
+    replaceUsers={[Function]}
+    selectedItemId={null}
+    store={
+      Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

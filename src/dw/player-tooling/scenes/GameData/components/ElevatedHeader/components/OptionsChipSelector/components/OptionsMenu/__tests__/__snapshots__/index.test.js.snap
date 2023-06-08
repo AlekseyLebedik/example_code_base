@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatelessSchedule renders correct number of global options 1`] = `
+<span
+  key="globals"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    className="menuItem"
+    key="globals-accounts"
+  >
+    <WithStyles(ForwardRef(FormControlLabel))
+      className="menuCheckbox"
+      control={
+        <WithStyles(ForwardRef(Checkbox))
+          checked={true}
+          color="primary"
+          name="accounts"
+          onChange={[Function]}
+        />
+      }
+      label="Accounts"
+    />
+  </WithStyles(ForwardRef(MenuItem))>
+</span>
+`;
+
+exports[`StatelessSchedule renders correct number of services options 1`] = `
+<span
+  key="services"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    className="groupLabel"
+    disabled={true}
+  >
+    services
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    className="menuItem"
+    key="services-battlepass"
+  >
+    <WithStyles(ForwardRef(FormControlLabel))
+      className="menuCheckbox"
+      control={
+        <WithStyles(ForwardRef(Checkbox))
+          checked={true}
+          color="primary"
+          name="battlepass"
+          onChange={[Function]}
+        />
+      }
+      label="Battlepass"
+    />
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    className="menuItem"
+    key="services-inventory"
+  >
+    <WithStyles(ForwardRef(FormControlLabel))
+      className="menuCheckbox"
+      control={
+        <WithStyles(ForwardRef(Checkbox))
+          checked={true}
+          color="primary"
+          name="inventory"
+          onChange={[Function]}
+        />
+      }
+      label="Inventory"
+    />
+  </WithStyles(ForwardRef(MenuItem))>
+</span>
+`;
+
+exports[`StatelessSchedule renders correct number of title options 1`] = `
+<span
+  key="titles"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    className="groupLabel"
+    disabled={true}
+  >
+    titles
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    className="menuItem"
+    key="titles-5827"
+  >
+    <WithStyles(ForwardRef(FormControlLabel))
+      className="menuCheckbox"
+      control={
+        <WithStyles(ForwardRef(Checkbox))
+          checked={false}
+          color="primary"
+          name="5827"
+          onChange={[Function]}
+        />
+      }
+      label="BO5 CrossPlay Blueberry Dev"
+    />
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    className="menuItem"
+    key="titles-5830"
+  >
+    <WithStyles(ForwardRef(FormControlLabel))
+      className="menuCheckbox"
+      control={
+        <WithStyles(ForwardRef(Checkbox))
+          checked={true}
+          color="primary"
+          name="5830"
+          onChange={[Function]}
+        />
+      }
+      label="BO5 CrossPlay Scratch Dev"
+    />
+  </WithStyles(ForwardRef(MenuItem))>
+</span>
+`;
+
+exports[`StatelessSchedule renders correctly with ClickAwayListener 1`] = `
+<ClickAwayListener
+  onClickAway={[MockFunction]}
+>
+  <ForwardRef(Popper)
+    anchorEl={<div />}
+    open={true}
+    placement="bottom-start"
+    transition={true}
+  >
+    <Component />
+  </ForwardRef(Popper)>
+</ClickAwayListener>
+`;

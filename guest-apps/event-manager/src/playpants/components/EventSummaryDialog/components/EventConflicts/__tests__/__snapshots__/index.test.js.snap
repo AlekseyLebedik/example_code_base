@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventConflicts renders the EventConflicts correctly 1`] = `
+<Fragment>
+  <div>
+    <WithStyles(ForwardRef)
+      key="conflictingEventLink/2"
+      onClick={[MockFunction]}
+      to="/event-manager/1/events/1/conflicts/2"
+    >
+      <StatusDot
+        iconClassName=""
+        statusText=""
+      />
+      Event #2: Overlapping Event (Activity Conflict)
+    </WithStyles(ForwardRef)>
+  </div>
+  <WithStyles(ForwardRef(FormControlLabel))
+    checked={false}
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        color="default"
+        onChange={[Function]}
+      />
+    }
+    label="Proceed Anyway"
+  />
+</Fragment>
+`;
+
+exports[`EventConflicts renders with needsConfirmations false 1`] = `
+<Fragment>
+  <div>
+    <WithStyles(ForwardRef)
+      key="conflictingEventLink/2"
+      onClick={[MockFunction]}
+      to="/event-manager/1/events/1/conflicts/2"
+    >
+      <StatusDot
+        iconClassName=""
+        statusText=""
+      />
+      Event #2: Overlapping Event (Activity Conflict)
+    </WithStyles(ForwardRef)>
+  </div>
+  <WithStyles(ForwardRef(FormControlLabel))
+    checked={false}
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        color="default"
+        onChange={[Function]}
+      />
+    }
+    label="Proceed Anyway"
+  />
+</Fragment>
+`;
+
+exports[`EventConflicts renders with no conflicts 1`] = `
+<Fragment>
+  <div />
+  <WithStyles(ForwardRef(FormControlLabel))
+    checked={false}
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        color="default"
+        onChange={[Function]}
+      />
+    }
+    label="Proceed Anyway"
+  />
+</Fragment>
+`;

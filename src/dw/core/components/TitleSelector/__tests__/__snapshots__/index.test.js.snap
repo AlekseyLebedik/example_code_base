@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleSelector renders default values 1`] = `
+<div
+  className="title-selector__container"
+>
+  <DropdownSelector
+    currentEnv={
+      Object {
+        "id": "1",
+        "shortType": "dev",
+        "type": "Development",
+      }
+    }
+    currentTitle={
+      Object {
+        "external": undefined,
+        "id": "1",
+        "name": "GTR-PS3",
+        "platform": "PS3",
+      }
+    }
+    toggleDropdown={[Function]}
+    usesMulticontext={false}
+  />
+  <Connect(ConfirmDefaultTitle)
+    currentEnv={
+      Object {
+        "id": "1",
+        "shortType": "dev",
+        "type": "Development",
+      }
+    }
+    onSelectTitle={[Function]}
+    projects={Array []}
+  />
+</div>
+`;
+
+exports[`TitleSelector renders with Reload Title dialog 1`] = `
+<div
+  className="title-selector__container"
+>
+  <DropdownSelector
+    currentEnv={
+      Object {
+        "id": "2",
+        "shortType": "dev",
+        "type": "Development",
+      }
+    }
+    currentTitle={
+      Object {
+        "external": undefined,
+        "id": "1",
+        "name": "GTR-PS3",
+        "platform": "PS3",
+      }
+    }
+    toggleDropdown={[Function]}
+    usesMulticontext={false}
+  />
+  <Connect(ConfirmDefaultTitle)
+    currentEnv={
+      Object {
+        "id": "2",
+        "shortType": "dev",
+        "type": "Development",
+      }
+    }
+    onSelectTitle={[Function]}
+    projects={Array []}
+  />
+</div>
+`;

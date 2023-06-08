@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServerInventory DetailPanel presentational renders chart 1`] = `
+<div
+  className="detailsContainer"
+>
+  <WithStyles(WithStyles(ForwardRef(Toolbar)))>
+    <div
+      className="grow"
+    />
+    <WithStyles(ForwardRef(Tooltip))
+      title="Show List View"
+    >
+      <div>
+        <WithStyles(ForwardRef(IconButton))
+          disabled={false}
+          onClick={null}
+        >
+          <WithStyles(ForwardRef(Icon))>
+            view_list
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(IconButton))>
+      </div>
+    </WithStyles(ForwardRef(Tooltip))>
+    <WithStyles(ForwardRef(Tooltip))
+      title="Show Chart View"
+    >
+      <WithStyles(ForwardRef(IconButton))
+        onClick={null}
+      >
+        <WithStyles(ForwardRef(Icon))>
+          pie_chart
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </WithStyles(ForwardRef(Tooltip))>
+  </WithStyles(WithStyles(ForwardRef(Toolbar)))>
+  <withRouter(Connect(ServerStateChart)) />
+</div>
+`;
+
+exports[`ServerInventory DetailPanel presentational renders empty state 1`] = `
+<div
+  className="detailsContainer"
+>
+  <WithStyles(WithStyles(ForwardRef(Toolbar)))>
+    <WithStyles(ForwardRef(Tabs))
+      classes={
+        Object {
+          "indicator": "indicator",
+        }
+      }
+      onChange={null}
+      value="idle"
+    >
+      <WithStyles(ForwardRef(Tab))
+        classes={
+          Object {
+            "root": "selectedTab",
+          }
+        }
+        label={
+          <span
+            className="tabLabel"
+          >
+            idle
+          </span>
+        }
+        value="idle"
+      />
+      <WithStyles(ForwardRef(Tab))
+        classes={
+          Object {
+            "root": "",
+          }
+        }
+        label={
+          <span
+            className="tabLabel"
+          >
+            allocated
+          </span>
+        }
+        value="allocated"
+      />
+    </WithStyles(ForwardRef(Tabs))>
+    <div
+      className="grow"
+    />
+    <WithStyles(ForwardRef(Tooltip))
+      title="Show List View"
+    >
+      <div>
+        <WithStyles(ForwardRef(IconButton))
+          disabled={false}
+          onClick={null}
+        >
+          <WithStyles(ForwardRef(Icon))>
+            view_list
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(IconButton))>
+      </div>
+    </WithStyles(ForwardRef(Tooltip))>
+    <WithStyles(ForwardRef(Tooltip))
+      title="Show Chart View"
+    >
+      <WithStyles(ForwardRef(IconButton))
+        onClick={null}
+      >
+        <WithStyles(ForwardRef(Icon))>
+          pie_chart
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </WithStyles(ForwardRef(Tooltip))>
+  </WithStyles(WithStyles(ForwardRef(Toolbar)))>
+  <EmptyComponent
+    className="detailsText"
+    classes={Object {}}
+    emptyText={null}
+  />
+</div>
+`;
+
+exports[`ServerInventory DetailPanel presentational renders loading state 1`] = `
+<div
+  className="detailsContainer"
+>
+  <WithStyles(WithStyles(ForwardRef(Toolbar)))>
+    <WithStyles(ForwardRef(Tabs))
+      classes={
+        Object {
+          "indicator": "indicator",
+        }
+      }
+      onChange={null}
+      value="idle"
+    >
+      <WithStyles(ForwardRef(Tab))
+        classes={
+          Object {
+            "root": "selectedTab",
+          }
+        }
+        label={
+          <span
+            className="tabLabel"
+          >
+            idle
+          </span>
+        }
+        value="idle"
+      />
+      <WithStyles(ForwardRef(Tab))
+        classes={
+          Object {
+            "root": "",
+          }
+        }
+        label={
+          <span
+            className="tabLabel"
+          >
+            allocated
+          </span>
+        }
+        value="allocated"
+      />
+    </WithStyles(ForwardRef(Tabs))>
+    <div
+      className="grow"
+    />
+    <WithStyles(ForwardRef(Tooltip))
+      title="Show List View"
+    >
+      <div>
+        <WithStyles(ForwardRef(IconButton))
+          disabled={false}
+          onClick={null}
+        >
+          <WithStyles(ForwardRef(Icon))>
+            view_list
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(IconButton))>
+      </div>
+    </WithStyles(ForwardRef(Tooltip))>
+    <WithStyles(ForwardRef(Tooltip))
+      title="Show Chart View"
+    >
+      <WithStyles(ForwardRef(IconButton))
+        onClick={null}
+      >
+        <WithStyles(ForwardRef(Icon))>
+          pie_chart
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </WithStyles(ForwardRef(Tooltip))>
+  </WithStyles(WithStyles(ForwardRef(Toolbar)))>
+  <LoadingComponent
+    classes={Object {}}
+    size={80}
+    thickness={5}
+  />
+</div>
+`;
+
+exports[`ServerInventory DetailPanel presentational renders server list 1`] = `
+<div
+  className="detailsContainer"
+>
+  <WithStyles(WithStyles(ForwardRef(Toolbar)))>
+    <WithStyles(ForwardRef(Tabs))
+      classes={
+        Object {
+          "indicator": "indicator",
+        }
+      }
+      onChange={null}
+      value="idle"
+    >
+      <WithStyles(ForwardRef(Tab))
+        classes={
+          Object {
+            "root": "selectedTab",
+          }
+        }
+        label={
+          <span
+            className="tabLabel"
+          >
+            idle
+          </span>
+        }
+        value="idle"
+      />
+      <WithStyles(ForwardRef(Tab))
+        classes={
+          Object {
+            "root": "",
+          }
+        }
+        label={
+          <span
+            className="tabLabel"
+          >
+            allocated
+          </span>
+        }
+        value="allocated"
+      />
+    </WithStyles(ForwardRef(Tabs))>
+    <div
+      className="grow"
+    />
+    <WithStyles(ForwardRef(Tooltip))
+      title="Show List View"
+    >
+      <div>
+        <WithStyles(ForwardRef(IconButton))
+          disabled={false}
+          onClick={null}
+        >
+          <WithStyles(ForwardRef(Icon))>
+            view_list
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(IconButton))>
+      </div>
+    </WithStyles(ForwardRef(Tooltip))>
+    <WithStyles(ForwardRef(Tooltip))
+      title="Show Chart View"
+    >
+      <WithStyles(ForwardRef(IconButton))
+        onClick={null}
+      >
+        <WithStyles(ForwardRef(Icon))>
+          pie_chart
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </WithStyles(ForwardRef(Tooltip))>
+  </WithStyles(WithStyles(ForwardRef(Toolbar)))>
+  <ServerList
+    servers={
+      Array [
+        Object {
+          "data": Object {
+            "allocated": false,
+            "playlistID": "1",
+            "priority": "1",
+            "registrationTime": "2010-01-01",
+          },
+          "userID": "12345",
+        },
+      ]
+    }
+  />
+</div>
+`;

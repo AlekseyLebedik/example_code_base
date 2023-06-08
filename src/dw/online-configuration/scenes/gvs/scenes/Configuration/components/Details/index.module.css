@@ -1,0 +1,92 @@
+.base {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  background-color: white;
+  overflow: hidden;
+  padding-left: 0 !important;
+}
+.base:global(.ag-cell-inline-editing) {
+  padding: 0 0 0 14px;
+  height: auto;
+}
+.base :global(.ag-react-container) {
+  padding-left: 23px;
+}
+.global {
+  composes: base;
+  color: rgba(0, 0, 0, 0.5);
+}
+.current {
+  composes: base;
+  color: #d0861b;
+}
+.parent {
+  composes: base;
+  color: #de86b6;
+}
+.draft {
+  composes: base;
+  background-color: #d5d5d5;
+}
+.edit {
+  composes: base;
+  color: #00a36c;
+  background-color: #dff4ec;
+}
+.levelUpContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: -14px;
+}
+.levelUpIcon {
+  margin-bottom: -14px;
+}
+
+.levelUp1 :global(.ag-react-container),
+.levelUp2 :global(.ag-react-container),
+.levelUp3 :global(.ag-react-container) {
+  padding-left: 0 !important;
+}
+
+.levelUp1 :global(.ag-react-container) > *,
+.levelUp2 :global(.ag-react-container) > *,
+.levelUp3 :global(.ag-react-container) > * {
+  padding-left: 23px !important;
+}
+
+.levelUp1:global(.ag-cell-inline-editing)::before,
+.levelUp2:global(.ag-cell-inline-editing)::before,
+.levelUp3:global(.ag-cell-inline-editing)::before {
+  content: '' !important;
+}
+
+.levelUp1::before {
+  font-family: 'Material Icons';
+  content: '\e5c7';
+  font-size: 16px;
+  white-space: pre-wrap;
+  line-height: 4px;
+  position: absolute;
+  left: 8px;
+}
+
+.levelUp2::before {
+  font-family: 'Material Icons';
+  content: '\e5c7\A\e5c7';
+  font-size: 16px;
+  white-space: pre-wrap;
+  line-height: 4px;
+  position: absolute;
+  left: 8px;
+}
+
+.levelUp3::before {
+  font-family: 'Material Icons';
+  content: '\e5c7\A\e5c7\A\e5c7';
+  font-size: 16px;
+  white-space: pre-wrap;
+  line-height: 4px;
+  position: absolute;
+  left: 8px;
+}

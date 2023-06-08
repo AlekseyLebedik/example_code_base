@@ -1,0 +1,337 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VariableSets Reducer STORAGE_VARIABLES_SET_DELETE_SUCCESS removes entry from list and unselect it 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    Object {
+      "variableSetId": 2,
+    },
+  ],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": null,
+  "selectedListItemDetails": null,
+}
+`;
+
+exports[`VariableSets Reducer STORAGE_VARIABLES_SET_UPDATE_SUCCESS sets selected item detail 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    Object {
+      "variableSetId": 1,
+    },
+    Object {
+      "variableSetId": 2,
+    },
+  ],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": Object {
+    "variableSetId": 1,
+  },
+  "selectedListItemDetails": Object {
+    "details": "more details",
+    "variableSetId": 2,
+  },
+}
+`;
+
+exports[`VariableSets Reducer STORAGE_VARIABLES_SETS_ADD_SUCCESS appends the entry to the list if it is a new one 1`] = `
+Object {
+  "addedListItems": Array [
+    Object {
+      "variableSetId": 200,
+    },
+  ],
+  "entries": Array [
+    Object {
+      "variableSetId": 1,
+    },
+    Object {
+      "variableSetId": 2,
+    },
+    Object {
+      "variableSetId": 200,
+    },
+  ],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": Object {
+    "variableSetId": 1,
+  },
+  "selectedListItemDetails": Object {
+    "variableSetId": 1,
+    "variables": Object {
+      "a": 1,
+      "b": 2,
+    },
+  },
+}
+`;
+
+exports[`VariableSets Reducer STORAGE_VARIABLES_SETS_ADD_SUCCESS does nothing if the added entry already exists 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    Object {
+      "variableSetId": 1,
+    },
+    Object {
+      "variableSetId": 2,
+    },
+  ],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": Object {
+    "variableSetId": 1,
+  },
+  "selectedListItemDetails": Object {
+    "variableSetId": 1,
+    "variables": Object {
+      "a": 1,
+      "b": 2,
+    },
+  },
+}
+`;
+
+exports[`VariableSets Reducer STORAGE_VARIABLES_SETS_CLOSE_ADD_MODAL sets the modal state to closed 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    Object {
+      "variableSetId": 1,
+    },
+    Object {
+      "variableSetId": 2,
+    },
+  ],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": Object {
+    "variableSetId": 1,
+  },
+  "selectedListItemDetails": Object {
+    "variableSetId": 1,
+    "variables": Object {
+      "a": 1,
+      "b": 2,
+    },
+  },
+}
+`;
+
+exports[`VariableSets Reducer STORAGE_VARIABLES_SETS_FETCH_SUCCESS combines both entry lists when \`append\` is true, and update list metadata 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    Object {
+      "variableSetId": 1,
+    },
+    Object {
+      "variableSetId": 2,
+    },
+    Object {
+      "variableSetId": 100,
+    },
+    Object {
+      "variableSetId": 200,
+    },
+  ],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "loading": false,
+  "nextPageToken": "YYZ",
+  "q": undefined,
+  "selectedListItem": Object {
+    "variableSetId": 1,
+  },
+  "selectedListItemDetails": Object {
+    "variableSetId": 1,
+    "variables": Object {
+      "a": 1,
+      "b": 2,
+    },
+  },
+}
+`;
+
+exports[`VariableSets Reducer STORAGE_VARIABLES_SETS_FETCH_SUCCESS replaces the entries with new ones when \`append\` is false, and update list metadata 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    Object {
+      "variableSetId": 100,
+    },
+    Object {
+      "variableSetId": 200,
+    },
+  ],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "loading": false,
+  "nextPageToken": "YYZ",
+  "q": undefined,
+  "selectedListItem": null,
+  "selectedListItemDetails": null,
+}
+`;
+
+exports[`VariableSets Reducer STORAGE_VARIABLES_SETS_FETCH_VARIABLES_SETS_DETAILS_SUCCESS sets the selected details from data when the action has the same ID as the selected 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    Object {
+      "variableSetId": 1,
+    },
+    Object {
+      "variableSetId": 2,
+    },
+  ],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": Object {
+    "variableSetId": 1,
+  },
+  "selectedListItemDetails": Object {
+    "details": "details",
+    "variableSetId": 1,
+  },
+  "variableMapping": undefined,
+}
+`;
+
+exports[`VariableSets Reducer STORAGE_VARIABLES_SETS_FETCH_VARIABLES_SETS_DETAILS_SUCCESS sets the selected details from the current state 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    Object {
+      "variableSetId": 1,
+    },
+    Object {
+      "variableSetId": 2,
+    },
+  ],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": Object {
+    "variableSetId": 1,
+  },
+  "selectedListItemDetails": Object {
+    "variableSetId": 1,
+    "variables": Object {
+      "a": 1,
+      "b": 2,
+    },
+  },
+  "variableMapping": undefined,
+}
+`;
+
+exports[`VariableSets Reducer STORAGE_VARIABLES_SETS_LIST_ITEM_ONCLICK sets the selected entry 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    Object {
+      "variableSetId": 1,
+    },
+    Object {
+      "variableSetId": 2,
+    },
+  ],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": Object {
+    "variableSetId": 2,
+  },
+  "selectedListItemDetails": null,
+}
+`;
+
+exports[`VariableSets Reducer STORAGE_VARIABLES_SETS_OPEN_ADD_MODAL sets the modal state to opened 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    Object {
+      "variableSetId": 1,
+    },
+    Object {
+      "variableSetId": 2,
+    },
+  ],
+  "isAddModalOpen": true,
+  "isUpdateVariablesSetModalOpen": false,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": Object {
+    "variableSetId": 1,
+  },
+  "selectedListItemDetails": Object {
+    "variableSetId": 1,
+    "variables": Object {
+      "a": 1,
+      "b": 2,
+    },
+  },
+}
+`;
+
+exports[`VariableSets Reducer copies the current state on STORAGE_VARIABLES_SETS_FETCH 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [
+    Object {
+      "variableSetId": 1,
+    },
+    Object {
+      "variableSetId": 2,
+    },
+  ],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "loading": true,
+  "nextPageToken": "ABC",
+  "q": "a",
+  "selectedListItem": Object {
+    "variableSetId": 1,
+  },
+  "selectedListItemDetails": Object {
+    "variableSetId": 1,
+    "variables": Object {
+      "a": 1,
+      "b": 2,
+    },
+  },
+}
+`;
+
+exports[`VariableSets Reducer returns default state 1`] = `
+Object {
+  "addedListItems": Array [],
+  "entries": Array [],
+  "isAddModalOpen": false,
+  "isUpdateVariablesSetModalOpen": false,
+  "nextPageToken": null,
+  "q": null,
+  "selectedListItem": null,
+  "selectedListItemDetails": null,
+}
+`;

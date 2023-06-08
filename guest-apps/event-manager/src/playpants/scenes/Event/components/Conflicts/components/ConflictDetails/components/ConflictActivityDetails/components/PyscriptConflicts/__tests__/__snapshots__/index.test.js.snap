@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PyscriptConflicts renders correctly with conflict details 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TextField))
+    FormHelperTextProps={
+      Object {
+        "className": undefined,
+      }
+    }
+    InputLabelProps={
+      Object {
+        "className": undefined,
+      }
+    }
+    InputProps={
+      Object {
+        "className": undefined,
+        "disableUnderline": true,
+      }
+    }
+    disabled={true}
+    helperText="Templates in conflict!"
+    label="Template"
+    value="Double Xp"
+  />
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={
+      Object {
+        "className": undefined,
+      }
+    }
+    InputProps={
+      Object {
+        "className": undefined,
+        "disableUnderline": true,
+      }
+    }
+    disabled={true}
+    label="Version"
+    value="v1.0.1"
+  />
+</Fragment>
+`;
+
+exports[`PyscriptConflicts renders correctly with no conflict details 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(TextField))
+    FormHelperTextProps={
+      Object {
+        "className": undefined,
+      }
+    }
+    InputLabelProps={
+      Object {
+        "className": undefined,
+      }
+    }
+    InputProps={
+      Object {
+        "className": undefined,
+        "disableUnderline": true,
+      }
+    }
+    disabled={true}
+    label="Template"
+    value="Double Xp"
+  />
+  <WithStyles(ForwardRef(TextField))
+    InputLabelProps={
+      Object {
+        "className": undefined,
+      }
+    }
+    InputProps={
+      Object {
+        "className": undefined,
+        "disableUnderline": true,
+      }
+    }
+    disabled={true}
+    label="Version"
+    value="v1.0.1"
+  />
+</Fragment>
+`;

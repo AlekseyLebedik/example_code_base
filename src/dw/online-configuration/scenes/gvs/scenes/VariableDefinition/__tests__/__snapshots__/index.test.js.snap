@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VariableDefinitions loading 1`] = `
+<LoadingComponent
+  classes={Object {}}
+  size={80}
+  thickness={5}
+/>
+`;
+
+exports[`VariableDefinitions renders 1`] = `
+<Fragment>
+  <ForwardRef(Portal)
+    container={null}
+  >
+    <div
+      className="makeStyles-actions-2"
+    >
+      <WithStyles(ForwardRef(Tooltip))
+        title="Add new Variable Definition"
+      >
+        <WithStyles(ForwardRef(IconButton))
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Icon))>
+            playlist_add
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(IconButton))>
+      </WithStyles(ForwardRef(Tooltip))>
+      <PropagateBtn
+        selected={Array []}
+      />
+      <ArchiveBtn
+        key="archive"
+        selected={Array []}
+      />
+      <RestoreBtn
+        key="restore"
+        selected={Array []}
+      />
+    </div>
+  </ForwardRef(Portal)>
+  <div
+    className="makeStyles-searchContainer-3"
+  >
+    <SearchField
+      defaultValue=""
+      delay={200}
+      fullWidth={true}
+      placeholder="Search Definitions"
+      queryParamName="q"
+    />
+  </div>
+  <div
+    className="ag-theme-material makeStyles-gridContainer-1"
+  >
+    <GVSGrid
+      autoSizeColumns={false}
+      columnDefs={
+        Array [
+          Object {
+            "cellRenderer": "keyCellRenderer",
+            "checkboxSelection": true,
+            "field": "key",
+            "headerCheckboxSelection": true,
+            "headerCheckboxSelectionFilteredOnly": true,
+            "minWidth": 350,
+            "sort": "asc",
+          },
+          Object {
+            "field": "type",
+            "minWidth": 150,
+            "valueFormatter": [Function],
+            "width": 100,
+          },
+          Object {
+            "field": "validation",
+            "getQuickFilterText": [Function],
+            "minWidth": 250,
+          },
+          Object {
+            "field": "category",
+          },
+          Object {
+            "field": "description",
+            "flex": 1,
+          },
+          Object {
+            "displayName": "Created By",
+            "field": "createdBy.username",
+          },
+          Object {
+            "displayName": "Owner",
+            "field": "owner.username",
+          },
+          Object {
+            "displayName": "Archived",
+            "field": "isArchived",
+            "valueFormatter": [Function],
+          },
+          Object {
+            "field": "createdAt",
+            "getQuickFilterText": [Function],
+            "minWidth": 220,
+            "valueFormatter": [Function],
+          },
+        ]
+      }
+      components={
+        Object {
+          "keyCellRenderer": [Function],
+        }
+      }
+      context={
+        Object {
+          "formatDateTime": [Function],
+          "setEditDefinition": [Function],
+        }
+      }
+      doesExternalFilterPass={[Function]}
+      getRowId={[Function]}
+      gridOptions={Object {}}
+      isExternalFilterPresent={[Function]}
+      onColumnVisible={[Function]}
+      onGridReady={[Function]}
+      onSelectionChanged={[Function]}
+      rowData={Array []}
+      rowSelection="multiple"
+      suppressRowClickSelection={true}
+    />
+  </div>
+</Fragment>
+`;

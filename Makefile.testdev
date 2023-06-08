@@ -1,0 +1,247 @@
+# Get version tag
+TAG_VERSION := $(shell git describe --tags --abbrev=0)
+
+# Release is number of commits since the version tag
+GIT_COMMITS := $(shell git describe --tags --long | cut -d- -f2 | tr - _)
+GIT_HASH := $(shell git log -n 1 --pretty=format:"%h")
+GIT_BRANCH=$(shell git rev-parse --abbrev-ref HEAD)
+GIT_REPOSITORY='https://github.ihs.demonware.net/Demonware/devzone-frontend'
+BUILD_URL?=Manual build by $(shell git config --get user.email)
+
+VERSION := "$(TAG_VERSION)-$(GIT_COMMITS).$(GIT_HASH).demonware"
+
+TTY:=$(shell [ -t 0 ] && echo -t)
+
+TEAM_NAME='Devzone'
+TEAM_EMAIL='devzone@demonware.net'
+
+ROOT_DIR=/usr/share/devzone
+DEVZONE_FRONTEND_REPO = $(shell pwd)
+NODE_IMAGE = docker-hub.ihs.demonware.net/node:12.16.1-buster
+BUILDER_IMAGE = docker.las.demonware.net/devzone/devzone-frontend-builder
+BUILD_IMAGE = docker.las.demonware.net/devzone/devzone-frontend-build
+DOCKER_IMAGE = docker.las.demonware.net/devzone/devzone-frontend
+DOCKER_TAG = latest
+IMAGE_LABELS=--label "maintainer=$(TEAM_NAME) <$(TEAM_EMAIL)>" \
+             --label "git_repository=$(GIT_REPOSITORY)" \
+             --label "git_commit=$(GIT_HASH)" \
+             --label "git_branch=$(GIT_BRANCH)" \
+             --label "build_url=$(BUILD_URL)"
+
+AUTH_CLIENT ?= 'local-react-dev'
+IMAGE_ARGS = --build-arg ci_build=true \
+		     --build-arg app_version=$(VERSION) \
+		     --build-arg auth_client=$(AUTH_CLIENT) \
+		     --build-arg ag_grid_licence="$(AG_GRID_LICENCE)"
+NPM_REGISTRY = "https://artifactory.ihs.demonware.net/api/npm/demonware-npm-release-local/"
+NPM_SERVICE_EMAIL = "npm_service@demonware.net"
+
+define pull
+	-test -n "`docker image ls -q $(1)`" || docker pull $(1)
+endef
+
+############################################
+# Build and Publish Devzone Frontend bundle
+############################################
+
+AG_GRID_LICENCE_REPLACE_TEXT = 'process.env.REACT_APP_AG_GRID_LICENSE_KEY'
+AG_GRID_LICENCE ?= 'TEST_AG_GRID_LICENCE_KEY'
+
+.PHONY: image-builder
+image-builder:
+	$(call pull, $(BUILDER_IMAGE))
+	docker build --pull --cache-from ${BUILDER_IMAGE} \
+		$(IMAGE_LABELS) \
+		$(IMAGE_ARGS) \
+		--target builder \
+		-f Dockerfile.testdev -t $(BUILDER_IMAGE) -t $(BUILDER_IMAGE):$(DOCKER_TAG) .
+
+.PHONY: image-build
+image-build: image-builder
+	$(call pull, $(BUILD_IMAGE))
+	docker build --pull --cache-from ${BUILDER_IMAGE} --cache-from ${BUILD_IMAGE} \
+		$(IMAGE_LABELS) \
+		$(IMAGE_ARGS) \
+		--target build \
+		-f Dockerfile.testdev -t $(BUILD_IMAGE) -t $(BUILD_IMAGE):$(DOCKER_TAG) .
+
+
+.PHONY: docker
+docker: image-build
+	$(call pull, $(DOCKER_IMAGE))
+	docker build --pull --cache-from ${BUILD_IMAGE} --cache-from ${DOCKER_IMAGE} \
+		$(IMAGE_LABELS) \
+		$(IMAGE_ARGS) \
+		-f Dockerfile.testdev -t $(DOCKER_IMAGE) -t $(DOCKER_IMAGE):$(DOCKER_TAG) .
+
+.PHONY: image-builder-%
+image-builder-%:
+	$(call pull, ${BUILDER_IMAGE}-$*)
+	docker build --pull --cache-from ${BUILDER_IMAGE}-$* \
+		$(IMAGE_LABELS) \
+		$(IMAGE_ARGS) \
+		--target builder \
+		-f Dockerfile.$* -t $(BUILDER_IMAGE)-$* -t $(BUILDER_IMAGE)-$*:$(DOCKER_TAG) .
+
+.PHONY: image-build-%
+image-build-%: image-builder-%
+	$(call pull, ${BUILD_IMAGE}-$*)
+	docker build --pull --cache-from ${BUILDER_IMAGE}-$* --cache-from ${BUILD_IMAGE}-$* \
+		$(IMAGE_LABELS) \
+		$(IMAGE_ARGS) \
+		--target build \
+		-f Dockerfile.$* -t $(BUILDER_IMAGE)-$* -t $(BUILDER_IMAGE)-$*:$(DOCKER_TAG) .
+
+
+.PHONY: docker-%
+docker-%: image-build-%
+	$(call pull, ${DOCKER_IMAGE}-$*)
+	docker build --pull --cache-from ${BUILD_IMAGE}-$* --cache-from ${DOCKER_IMAGE}-$* \
+		$(IMAGE_LABELS) \
+		$(IMAGE_ARGS) \
+		-f Dockerfile.$* -t $(DOCKER_IMAGE)-$* -t $(DOCKER_IMAGE)-$*:$(DOCKER_TAG) .
+
+.PHONY: docker-pull
+docker-pull:
+	docker pull ${BUILDER_IMAGE}
+	docker pull ${DOCKER_IMAGE}
+
+.PHONY: docker-push
+docker-push:
+	docker push -a ${BUILDER_IMAGE}
+	docker push -a ${DOCKER_IMAGE}
+
+.PHONY: docker-push-%
+docker-push-%:
+	docker push -a ${BUILDER_IMAGE}-$*
+	docker push -a ${DOCKER_IMAGE}-$*
+
+######################################
+# Test Devzone Frontend and Guest Apps
+######################################
+
+.PHONY: test
+test:
+	docker run ${TTY} -i --rm \
+		-v /app/node_modules \
+		-v ${PWD}:/app \
+		-e CI=true ${BUILDER_IMAGE} yarn test --coverage --maxWorkers=75%
+
+.PHONY: test-%
+test-%:
+	touch jest-test-results-$*.xml | true && \
+	docker run ${TTY} -i --rm \
+		-v ${PWD}/jest-test-results-$*.xml:/app/guest-apps/$*/jest-test-results.xml \
+		-w /app/guest-apps/$* \
+		-e CI=true ${BUILDER_IMAGE}-$* \
+		yarn test --coverage
+
+########################################
+# Devzone Core Install / Lint / Test
+########################################
+
+.PHONY: install-devzone-core
+install-devzone-core:
+	docker run ${TTY} -i --rm \
+		-w /app \
+		-v ${PWD}/packages/devzone-core:/app \
+		${NODE_IMAGE} yarn
+
+.PHONY: lint-devzone-core
+lint-devzone-core:
+	docker run ${TTY} -i --rm \
+		-w /app \
+		-v ${PWD}/packages/devzone-core:/app \
+		${NODE_IMAGE} yarn lint
+
+.PHONY: test-devzone-core
+test-devzone-core:
+	docker run ${TTY} -i --rm \
+		-w /app \
+		-v ${PWD}/packages/devzone-core:/app \
+		-e CI=true ${NODE_IMAGE} yarn test
+
+.PHONY: build-devzone-core
+build-devzone-core:
+	docker run ${TTY} -i --rm \
+		-w /app \
+		-v ${PWD}/packages/lib/@demonware/devzone-core:/lib/@demonware/devzone-core \
+		-v ${PWD}/packages/devzone-core:/app \
+		${NODE_IMAGE} yarn build
+
+.PHONY: publish-devzone-core
+publish-devzone-core:
+	docker run ${TTY} -i --rm \
+		-w /app \
+		-v ${PWD}/packages/lib/@demonware/devzone-core:/app \
+		${NODE_IMAGE} bash -c "\
+			npm install -g npm-cli-adduser && \
+			npm-cli-adduser -u $(NPM_USERNAME) -p $(NPM_PASSWORD) -e $(NPM_SERVICE_EMAIL) -r $(NPM_REGISTRY) && \
+			npm config set git-tag-version false && \
+			npm version $(NEW_CORE_VERSION) && npm publish --registry $(NPM_REGISTRY)"
+
+########################################
+# Core Components Webpack Config Install / Build / Publish
+########################################
+
+.PHONY: install-core-components-webpack-config
+install-core-components-webpack-config:
+	docker run ${TTY} -i --rm \
+		-w /app \
+		-v ${PWD}/packages/core-components-webpack-config:/app \
+		${NODE_IMAGE} yarn
+
+.PHONY: build-core-components-webpack-config
+build-core-components-webpack-config:
+	docker run ${TTY} -i --rm \
+		-w /app \
+		-v ${PWD}/packages/lib/@demonware/core-components-webpack-config:/lib/@demonware/core-components-webpack-config \
+		-v ${PWD}/packages/core-components-webpack-config:/app \
+		${NODE_IMAGE} bash -c "yarn version --new-version $(NEW_CORE_VERSION) && yarn build"
+
+.PHONY: publish-core-components-webpack-config
+publish-core-components-webpack-config:
+	docker run ${TTY} -i --rm \
+		-w /app \
+		-v ${PWD}/packages/lib/@demonware/core-components-webpack-config:/app \
+		${NODE_IMAGE} bash -c "\
+			npm install -g npm-cli-adduser && \
+			npm-cli-adduser -u $(NPM_USERNAME) -p $(NPM_PASSWORD) -e $(NPM_SERVICE_EMAIL) -r $(NPM_REGISTRY) && \
+			npm config set git-tag-version false && \
+			npm publish --registry $(NPM_REGISTRY)"
+
+########################################
+# Linters
+########################################
+
+.PHONY: lint
+lint:
+	docker run ${TTY} -i --rm \
+		-v /app/node_modules/ \
+		-v /app/packages/ \
+		-v ${PWD}:/app/ \
+		-e CI=true ${BUILDER_IMAGE} \
+		yarn lint
+
+.PHONY: lint-%
+lint-%:
+	docker run ${TTY} -i --rm \
+		-w /app/guest-apps/$* \
+		-e CI=true ${BUILDER_IMAGE}-$* \
+		yarn lint
+
+.PHONY: check-style
+check-style:
+	docker run ${TTY} -i --rm \
+		-v /app/node_modules/ \
+		-v ${PWD}:/app/ \
+		-e CI=true ${BUILDER_IMAGE} \
+		yarn ci:check-style
+
+
+.PHONY: check-style-%
+check-style-%:
+	docker run ${TTY} -i --rm \
+		-w /app/guest-apps/$* \
+		-e CI=true ${BUILDER_IMAGE}-$* \
+		yarn ci:check-style

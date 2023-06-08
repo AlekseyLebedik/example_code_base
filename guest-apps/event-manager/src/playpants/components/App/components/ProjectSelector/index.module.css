@@ -1,0 +1,8 @@
+.projectSelector {
+  min-width: 250px;
+  width: fit-content;
+}
+
+.projectSelector > div {
+  margin-bottom: 0;
+}

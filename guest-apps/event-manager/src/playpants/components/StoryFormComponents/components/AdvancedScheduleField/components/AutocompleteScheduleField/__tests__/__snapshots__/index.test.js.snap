@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScheduleField renders the ScheduleField correctly 1`] = `
+<Field
+  component={[Function]}
+  components={
+    Object {
+      "DropdownIndicator": [Function],
+    }
+  }
+  isClearable={false}
+  isSearchDisabled={false}
+  isSearchable={false}
+  key="unselected"
+  menuIsOpen={false}
+  name="schedule"
+  onChange={[MockFunction]}
+  onSearch={[MockFunction]}
+  options={Array []}
+  placeholder="Schedule"
+  textFieldProps={
+    Object {
+      "onClick": [MockFunction],
+    }
+  }
+  validate={
+    Array [
+      [Function],
+    ]
+  }
+/>
+`;

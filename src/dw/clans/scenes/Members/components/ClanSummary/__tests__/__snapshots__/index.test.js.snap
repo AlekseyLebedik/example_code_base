@@ -1,0 +1,791 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Clans - Clan Summary renders table with default values 1`] = `
+<table
+  className="MuiTable-root makeStyles-table-3"
+  role={null}
+>
+  <WithStyles(ForwardRef(TableHead))
+    className="makeStyles-tableHead-4"
+  >
+    <ForwardRef(TableHead)
+      className="makeStyles-tableHead-4"
+      classes={
+        Object {
+          "root": "MuiTableHead-root",
+        }
+      }
+    >
+      <thead
+        className="MuiTableHead-root makeStyles-tableHead-4"
+        role={null}
+      >
+        <WithStyles(ForwardRef(TableRow))
+          className="makeStyles-tableRow-5"
+        >
+          <ForwardRef(TableRow)
+            className="makeStyles-tableRow-5"
+            classes={
+              Object {
+                "footer": "MuiTableRow-footer",
+                "head": "MuiTableRow-head",
+                "hover": "MuiTableRow-hover",
+                "root": "MuiTableRow-root",
+                "selected": "Mui-selected",
+              }
+            }
+          >
+            <tr
+              className="MuiTableRow-root makeStyles-tableRow-5 MuiTableRow-head"
+              role={null}
+            >
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <th
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-head"
+                    scope="col"
+                  >
+                    Clan ID
+                  </th>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <th
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-head"
+                    scope="col"
+                  >
+                    Name
+                  </th>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <th
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-head"
+                    scope="col"
+                  >
+                    Tag
+                  </th>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <th
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-head"
+                    scope="col"
+                  >
+                    Owner
+                  </th>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <th
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-head"
+                    scope="col"
+                  >
+                    Owner Account Type
+                  </th>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <th
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-head"
+                    scope="col"
+                  >
+                    Member Count
+                  </th>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <th
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-head"
+                    scope="col"
+                  >
+                    Proposal Count
+                  </th>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <th
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-head"
+                    scope="col"
+                  >
+                    Banned Member Count
+                  </th>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <th
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-head"
+                    scope="col"
+                  >
+                    Privacy Level
+                  </th>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <th
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-head"
+                    scope="col"
+                  >
+                    Created Timestamp
+                  </th>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <th
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-head"
+                    scope="col"
+                  >
+                    Search Tags
+                  </th>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+            </tr>
+          </ForwardRef(TableRow)>
+        </WithStyles(ForwardRef(TableRow))>
+      </thead>
+    </ForwardRef(TableHead)>
+  </WithStyles(ForwardRef(TableHead))>
+  <WithStyles(ForwardRef(TableBody))>
+    <ForwardRef(TableBody)
+      classes={
+        Object {
+          "root": "MuiTableBody-root",
+        }
+      }
+    >
+      <tbody
+        className="MuiTableBody-root"
+        role={null}
+      >
+        <WithStyles(ForwardRef(TableRow))
+          className="makeStyles-tableRow-5"
+        >
+          <ForwardRef(TableRow)
+            className="makeStyles-tableRow-5"
+            classes={
+              Object {
+                "footer": "MuiTableRow-footer",
+                "head": "MuiTableRow-head",
+                "hover": "MuiTableRow-hover",
+                "root": "MuiTableRow-root",
+                "selected": "Mui-selected",
+              }
+            }
+          >
+            <tr
+              className="MuiTableRow-root makeStyles-tableRow-5"
+              role={null}
+            >
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <td
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-body"
+                  >
+                    937017732286401048
+                  </td>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <td
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-body"
+                  >
+                    g ergwefg
+                  </td>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <td
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-body"
+                  >
+                    wfe w
+                  </td>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <td
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-body"
+                  >
+                    <PlayerViewLink
+                      accountsServiceConfigId=""
+                      text="test-owner | 5151811586893775373"
+                      user={
+                        Object {
+                          "accountType": "uno",
+                          "userID": "5151811586893775373",
+                          "username": "test-owner",
+                        }
+                      }
+                    >
+                      <WithStyles(ForwardRef(Tooltip))
+                        title="Open user in Player View"
+                      >
+                        <ForwardRef(Tooltip)
+                          classes={
+                            Object {
+                              "arrow": "MuiTooltip-arrow",
+                              "popper": "MuiTooltip-popper",
+                              "popperArrow": "MuiTooltip-popperArrow",
+                              "popperInteractive": "MuiTooltip-popperInteractive",
+                              "tooltip": "MuiTooltip-tooltip",
+                              "tooltipArrow": "MuiTooltip-tooltipArrow",
+                              "tooltipPlacementBottom": "MuiTooltip-tooltipPlacementBottom",
+                              "tooltipPlacementLeft": "MuiTooltip-tooltipPlacementLeft",
+                              "tooltipPlacementRight": "MuiTooltip-tooltipPlacementRight",
+                              "tooltipPlacementTop": "MuiTooltip-tooltipPlacementTop",
+                              "touch": "MuiTooltip-touch",
+                            }
+                          }
+                          title="Open user in Player View"
+                        >
+                          <Link
+                            aria-describedby={null}
+                            className="makeStyles-link-14"
+                            onBlur={[Function]}
+                            onFocus={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseOver={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchStart={[Function]}
+                            title="Open user in Player View"
+                            to="/player/accounts/5151811586893775373?serviceConfigID="
+                          >
+                            <LinkAnchor
+                              aria-describedby={null}
+                              className="makeStyles-link-14"
+                              href="/player/accounts/5151811586893775373?serviceConfigID="
+                              navigate={[Function]}
+                              onBlur={[Function]}
+                              onFocus={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseOver={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchStart={[Function]}
+                              title="Open user in Player View"
+                            >
+                              <a
+                                aria-describedby={null}
+                                className="makeStyles-link-14"
+                                href="/player/accounts/5151811586893775373?serviceConfigID="
+                                onBlur={[Function]}
+                                onClick={[Function]}
+                                onFocus={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOver={[Function]}
+                                onTouchEnd={[Function]}
+                                onTouchStart={[Function]}
+                                title="Open user in Player View"
+                              >
+                                test-owner | 5151811586893775373
+                              </a>
+                            </LinkAnchor>
+                          </Link>
+                          <ForwardRef(Popper)
+                            anchorEl={
+                              <a
+                                class="makeStyles-link-14"
+                                href="/player/accounts/5151811586893775373?serviceConfigID="
+                                title="Open user in Player View"
+                              >
+                                test-owner | 5151811586893775373
+                              </a>
+                            }
+                            className="MuiTooltip-popper"
+                            id={null}
+                            open={false}
+                            placement="bottom"
+                            popperOptions={
+                              Object {
+                                "modifiers": Object {
+                                  "arrow": Object {
+                                    "element": null,
+                                    "enabled": false,
+                                  },
+                                },
+                              }
+                            }
+                            transition={true}
+                          />
+                        </ForwardRef(Tooltip)>
+                      </WithStyles(ForwardRef(Tooltip))>
+                    </PlayerViewLink>
+                  </td>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <td
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-body"
+                  >
+                    uno
+                  </td>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <td
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-body"
+                  >
+                    1
+                  </td>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <td
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-body"
+                  >
+                    0
+                  </td>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <td
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-body"
+                  >
+                    0
+                  </td>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <td
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-body"
+                  >
+                    INVITE_ONLY
+                  </td>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <td
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-body"
+                  >
+                    Jun 23, 2021 08:43 pm
+                  </td>
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+              <WithStyles(ForwardRef(TableCell))>
+                <ForwardRef(TableCell)
+                  classes={
+                    Object {
+                      "alignCenter": "MuiTableCell-alignCenter",
+                      "alignJustify": "MuiTableCell-alignJustify",
+                      "alignLeft": "MuiTableCell-alignLeft",
+                      "alignRight": "MuiTableCell-alignRight",
+                      "body": "MuiTableCell-body",
+                      "footer": "MuiTableCell-footer",
+                      "head": "MuiTableCell-head",
+                      "paddingCheckbox": "MuiTableCell-paddingCheckbox",
+                      "paddingNone": "MuiTableCell-paddingNone",
+                      "root": "MuiTableCell-root",
+                      "sizeSmall": "MuiTableCell-sizeSmall",
+                      "stickyHeader": "MuiTableCell-stickyHeader",
+                    }
+                  }
+                >
+                  <td
+                    aria-sort={null}
+                    className="MuiTableCell-root MuiTableCell-body"
+                  />
+                </ForwardRef(TableCell)>
+              </WithStyles(ForwardRef(TableCell))>
+            </tr>
+          </ForwardRef(TableRow)>
+        </WithStyles(ForwardRef(TableRow))>
+      </tbody>
+    </ForwardRef(TableBody)>
+  </WithStyles(ForwardRef(TableBody))>
+</table>
+`;

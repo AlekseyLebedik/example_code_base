@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueSettings display login queue dialog 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  aria-describedby="alert-dialog-description"
+  aria-labelledby="alert-dialog-title"
+  className="loginQueueDialog"
+  onClose={[Function]}
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))
+    className="loginQueueDialogTitle"
+    id="alert-dialog-title"
+  >
+    Confirm Login Queue Changes
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(DialogContentText))
+      className="loginQueueDialogText"
+      component="div"
+      id="alert-dialog-description"
+    >
+      <div
+        className="loginQueueDialogHeader"
+      >
+        Please confirm you are happy to make these changes to the Login Queue's Settings
+      </div>
+      <h6
+        className="loginQueueDialogSubText"
+      >
+        Sub Text for Login Queue Dialog
+      </h6>
+      <table
+        className="dialogTable"
+      >
+        <thead>
+          <tr
+            className="dialogTableRow"
+          >
+            <th
+              className="dialogTableHead"
+            >
+              Field
+            </th>
+            <th
+              className="dialogTableHead"
+            >
+              From
+            </th>
+            <th
+              className="dialogTableHead"
+            >
+              To
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          adding unit tests
+        </tbody>
+      </table>
+    </WithStyles(ForwardRef(DialogContentText))>
+  </WithStyles(ForwardRef(DialogContent))>
+  <WithStyles(ForwardRef(DialogActions))>
+    <WithStyles(ForwardRef(Button))
+      className="loginQueueDialogBtn"
+      onClick={[Function]}
+    >
+      Cancel
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      autoFocus={true}
+      color="primary"
+      onClick={[Function]}
+    >
+      Save
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(DialogActions))>
+</WithStyles(ForwardRef(Dialog))>
+`;

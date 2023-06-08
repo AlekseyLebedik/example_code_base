@@ -1,0 +1,9 @@
+.eventsCalendarSidebarDatePickerInfo {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.eventsCalendarSidebarDatePickerInfoField {
+  color: rgba(0, 0, 0, 0.75) !important;
+}

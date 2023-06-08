@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OnlineGames Reducer ONLINE_GAMES_FETCH_SUCCESS returns state with combined online games list when append is true 1`] = `
+Object {
+  "contexts": Array [],
+  "elementsOrder": undefined,
+  "nextPageToken": undefined,
+  "onlineGames": Array [
+    Object {
+      "userID": 100,
+    },
+    Object {
+      "userID": 1,
+    },
+    Object {
+      "userID": 2,
+    },
+    Object {
+      "userID": 3,
+    },
+  ],
+  "q": undefined,
+  "searchAvailable": true,
+  "selectedContext": "",
+  "selectedOnlineGame": Object {
+    "userID": 100,
+  },
+}
+`;
+
+exports[`OnlineGames Reducer ONLINE_GAMES_FETCH_SUCCESS returns state with new online games list when append is false 1`] = `
+Object {
+  "contexts": Array [],
+  "elementsOrder": undefined,
+  "nextPageToken": undefined,
+  "onlineGames": Array [
+    Object {
+      "userID": 1,
+    },
+    Object {
+      "userID": 2,
+    },
+    Object {
+      "userID": 3,
+    },
+  ],
+  "q": undefined,
+  "searchAvailable": true,
+  "selectedContext": "",
+  "selectedOnlineGame": Object {
+    "userID": 100,
+  },
+}
+`;
+
+exports[`OnlineGames Reducer ONLINE_GAMES_FETCH_SUCCESS sets nextPageToken and elementsOrder with values from payload 1`] = `
+Object {
+  "contexts": Array [],
+  "elementsOrder": Array [
+    "userID",
+  ],
+  "nextPageToken": "ABC",
+  "onlineGames": Array [
+    Object {
+      "userID": 1,
+    },
+    Object {
+      "userID": 2,
+    },
+    Object {
+      "userID": 3,
+    },
+  ],
+  "q": undefined,
+  "searchAvailable": true,
+  "selectedContext": "",
+  "selectedOnlineGame": Object {
+    "userID": 100,
+  },
+}
+`;
+
+exports[`OnlineGames Reducer ONLINE_GAMES_LIST_ITEM_ONCLICK returns selected game 1`] = `
+Object {
+  "contexts": Array [],
+  "elementsOrder": Array [],
+  "nextPageToken": undefined,
+  "onlineGames": Array [],
+  "q": undefined,
+  "searchAvailable": true,
+  "selectedContext": "MP",
+  "selectedOnlineGame": Object {
+    "id": 1,
+  },
+}
+`;
+
+exports[`OnlineGames Reducer returns default state 1`] = `
+Object {
+  "contexts": Array [],
+  "elementsOrder": Array [],
+  "nextPageToken": undefined,
+  "onlineGames": Array [],
+  "q": undefined,
+  "searchAvailable": true,
+  "selectedContext": "MP",
+  "selectedOnlineGame": undefined,
+}
+`;

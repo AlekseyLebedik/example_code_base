@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PasswordCheckModalForm renders default 1`] = `
+<Connect(ModalForm)
+  FormComponent={
+    Object {
+      "$$typeof": Symbol(react.memo),
+      "WrappedComponent": [Function],
+      "compare": null,
+      "displayName": "Connect(PasswordCheckFormBase)",
+      "type": [Function],
+    }
+  }
+  cancelOnBackdropClick={true}
+  formName="PasswordCheckForm"
+  fullWidth={true}
+  maxWidth="sm"
+  onFormSubmit={[MockFunction]}
+  primaryButtonProps={
+    Object {
+      "form": "PasswordCheckForm",
+      "onClick": null,
+      "type": "submit",
+    }
+  }
+  pristine={false}
+  submitText="Check"
+  submittingText="Checking..."
+  title="Enter Deployment Password"
+/>
+`;

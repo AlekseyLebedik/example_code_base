@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHydrated renders custom values 1`] = `
+<div
+  className="table-class"
+>
+  <div
+    className="table-operations"
+  />
+  <div
+    className="action-panel"
+  >
+    <ConfirmActionComponent
+      actionTrigger="onClick"
+      changeCopyPermission={null}
+      component="IconButton"
+      confirm={null}
+      disabled={true}
+      key="Blah"
+      onClick={[Function]}
+      tooltipProps={null}
+    >
+      icon
+    </ConfirmActionComponent>
+  </div>
+  <withStore(Table)
+    actions={
+      Array [
+        Object {
+          "handler": [MockFunction],
+          "iconName": "icon",
+          "label": "Blah",
+        },
+      ]
+    }
+    className="table-class"
+    columns={
+      Array [
+        Object {
+          "dataIndex": "id",
+          "filterDropdown": <div
+            className="custom-filter-dropdown"
+          >
+            <WithStyles(ForwardRef(TextField))
+              InputProps={
+                Object {
+                  "endAdornment": null,
+                  "inputProps": Object {
+                    "autoFocus": true,
+                    "ref": [Function],
+                  },
+                  "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+                    position="start"
+                  >
+                    <WithStyles(ForwardRef(Icon))
+                      fontSize="small"
+                    >
+                      search
+                    </WithStyles(ForwardRef(Icon))>
+                  </WithStyles(ForwardRef(InputAdornment))>,
+                }
+              }
+              name="id"
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              placeholder="Refine the displayed column"
+              value=""
+            />
+          </div>,
+          "filterDropdownVisible": false,
+          "filterIcon": <Icon
+            style={
+              Object {
+                "color": "#aaa",
+              }
+            }
+            type="filter"
+          />,
+          "key": "id",
+          "onFilterDropdownVisibleChange": [Function],
+          "sortOrder": false,
+          "sorter": [Function],
+          "title": "Entity ID",
+          "width": "25%",
+        },
+        Object {
+          "dataIndex": "name",
+          "filterDropdown": <div
+            className="custom-filter-dropdown"
+          >
+            <WithStyles(ForwardRef(TextField))
+              InputProps={
+                Object {
+                  "endAdornment": null,
+                  "inputProps": Object {
+                    "autoFocus": true,
+                    "ref": [Function],
+                  },
+                  "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+                    position="start"
+                  >
+                    <WithStyles(ForwardRef(Icon))
+                      fontSize="small"
+                    >
+                      search
+                    </WithStyles(ForwardRef(Icon))>
+                  </WithStyles(ForwardRef(InputAdornment))>,
+                }
+              }
+              name="name"
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              placeholder="Refine the displayed column"
+              value=""
+            />
+          </div>,
+          "filterDropdownVisible": false,
+          "filterIcon": <Icon
+            style={
+              Object {
+                "color": "#aaa",
+              }
+            }
+            type="filter"
+          />,
+          "key": "name",
+          "onFilterDropdownVisibleChange": [Function],
+          "sortOrder": false,
+          "sorter": [Function],
+          "title": "Entity Name",
+          "width": "35%",
+        },
+        Object {
+          "dataIndex": "rating",
+          "filterDropdown": <div
+            className="custom-filter-dropdown"
+          >
+            <WithStyles(ForwardRef(TextField))
+              InputProps={
+                Object {
+                  "endAdornment": null,
+                  "inputProps": Object {
+                    "autoFocus": true,
+                    "ref": [Function],
+                  },
+                  "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+                    position="start"
+                  >
+                    <WithStyles(ForwardRef(Icon))
+                      fontSize="small"
+                    >
+                      search
+                    </WithStyles(ForwardRef(Icon))>
+                  </WithStyles(ForwardRef(InputAdornment))>,
+                }
+              }
+              name="rating"
+              onChange={[Function]}
+              onKeyPress={[Function]}
+              placeholder="Refine the displayed column"
+              value=""
+            />
+          </div>,
+          "filterDropdownVisible": false,
+          "filterIcon": <Icon
+            style={
+              Object {
+                "color": "#aaa",
+              }
+            }
+            type="filter"
+          />,
+          "key": "rating",
+          "onFilterDropdownVisibleChange": [Function],
+          "sortOrder": false,
+          "sorter": [Function],
+          "title": "Rating",
+          "width": "15%",
+        },
+      ]
+    }
+    data={
+      Array [
+        Object {
+          "id": "1198874410363381809",
+          "name": "HostUser",
+          "rating": 16777,
+        },
+        Object {
+          "id": "1133417151930087413",
+          "name": "AnonymousHostUser",
+          "rating": 13363,
+        },
+      ]
+    }
+    dataSource={
+      Array [
+        Object {
+          "id": "1198874410363381809",
+          "key": "1198874410363381809",
+          "name": "HostUser",
+          "rating": 16777,
+        },
+        Object {
+          "id": "1133417151930087413",
+          "key": "1133417151930087413",
+          "name": "AnonymousHostUser",
+          "rating": 13363,
+        },
+      ]
+    }
+    formatDateTime={[MockFunction]}
+    getKey={[Function]}
+    hideActions={false}
+    onChange={[Function]}
+    pagination={false}
+    rowSelection={
+      Object {
+        "onChange": [Function],
+        "selectedRowKeys": Array [],
+      }
+    }
+    selectedRowKeys={Array []}
+    setSelectedRowKeys={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    size="big"
+    sortedInfo={Object {}}
+  />
+</div>
+`;
+
+exports[`TableHydrated renders default values 1`] = `
+<div
+  className="common__table-hydrated"
+>
+  <div
+    className="table-operations"
+  />
+  <withStore(Table)
+    columns={Array []}
+    data={Array []}
+    dataSource={Array []}
+    formatDateTime={[MockFunction]}
+    getKey={null}
+    hideActions={false}
+    onChange={[Function]}
+    pagination={false}
+    selectedRowKeys={Array []}
+    setSelectedRowKeys={
+      [MockFunction] {
+        "calls": Array [
+          Array [
+            Array [],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      }
+    }
+    size="small"
+    sortedInfo={Object {}}
+  />
+</div>
+`;
+
+exports[`TableHydrated renders getFilterDropdown 1`] = `
+<div
+  className="custom-filter-dropdown"
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "endAdornment": null,
+        "inputProps": Object {
+          "autoFocus": true,
+          "ref": [Function],
+        },
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <WithStyles(ForwardRef(Icon))
+            fontSize="small"
+          >
+            search
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    name="id"
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder="Refine the displayed column"
+    value=""
+  />
+</div>
+`;

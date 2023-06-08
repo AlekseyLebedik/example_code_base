@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScheduleFieldWrapper renders default properly 1`] = `
+<AdvancedScheduleField
+  handleOnLoadComplete={[MockFunction]}
+  isClearable={true}
+  isDisabled={false}
+  onSetSelectedSchedule={[MockFunction]}
+  options={Array []}
+  schedulesData={Array []}
+/>
+`;

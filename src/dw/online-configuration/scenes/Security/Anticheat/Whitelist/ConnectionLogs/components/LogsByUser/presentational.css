@@ -1,0 +1,22 @@
+.connection-logs .user-id-options {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  position: relative;
+  left: -12px;
+}
+
+.connection-logs .user-id-options .source-select {
+  flex-grow: 1;
+  width: 350px;
+  margin-right: 15px;
+}
+
+.connection-logs .user-id-options .ascending {
+  width: 132px !important;
+  margin-right: 15px;
+}
+
+.connection-logs .ant-table-wrapper {
+  margin-left: 10px;
+}

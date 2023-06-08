@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableHydrated Reducer handles SET_SELECTED_ROW_KEYS 1`] = `
+Object {
+  "selectedRowKeys": Array [
+    1,
+    2,
+    3,
+  ],
+}
+`;
+
+exports[`TableHydrated Reducer returns initial state 1`] = `
+Object {
+  "selectedRowKeys": Array [],
+}
+`;

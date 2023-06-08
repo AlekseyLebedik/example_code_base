@@ -1,0 +1,7 @@
+.env > div {
+  margin: 0 !important;
+}
+
+.user {
+  min-width: 450px;
+}

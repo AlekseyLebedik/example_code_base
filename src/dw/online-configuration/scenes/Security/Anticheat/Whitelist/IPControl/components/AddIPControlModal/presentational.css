@@ -1,0 +1,8 @@
+.common-modal-dialog > div > div:first-child {
+  width: 75% !important; /* override default common-modal-dialog width*/
+  height: 60%;
+}
+
+.ipWhiteListModalMaxWidth {
+  max-width: 1500px;
+}

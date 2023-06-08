@@ -1,0 +1,7 @@
+.hash {
+  display: flex;
+}
+
+.hash > div {
+  flex: 1;
+}

@@ -1,0 +1,22 @@
+.rulesets__upload-ruleset-form .ant-row {
+  height: 45px;
+}
+
+.rulesets__upload-ruleset-form .ant-row.buttons-row {
+  height: 20px;
+}
+
+.rulesets__upload-ruleset-form .save-button {
+  margin-left: 5px;
+}
+
+.rulesets__upload-ruleset-form label {
+  float: right;
+  margin-right: 10px;
+  position: relative;
+  top: 4px;
+}
+
+.rulesets__upload-ruleset-form label.dedicated-label {
+  top: 0;
+}

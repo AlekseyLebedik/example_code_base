@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expander allows to add custom className 1`] = `
+<div
+  className="common__expander custom-classname"
+>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="bottom-start"
+    title="Collapse Details"
+  >
+    <IconButton
+      onClick={[MockFunction]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        chevron_right
+      </WithStyles(ForwardRef(Icon))>
+    </IconButton>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`Expander allows to override the tooltip message 1`] = `
+<div
+  className="common__expander "
+>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="bottom-start"
+    title="Custom tooltip"
+  >
+    <IconButton
+      onClick={[MockFunction]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        chevron_right
+      </WithStyles(ForwardRef(Icon))>
+    </IconButton>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`Expander renders collapse icon 1`] = `
+<div
+  className="common__expander "
+>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="bottom-start"
+    title="Expand Details"
+  >
+    <IconButton
+      onClick={[MockFunction]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        chevron_left
+      </WithStyles(ForwardRef(Icon))>
+    </IconButton>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`Expander renders expand icon 1`] = `
+<div
+  className="common__expander "
+>
+  <WithStyles(ForwardRef(Tooltip))
+    placement="bottom-start"
+    title="Collapse Details"
+  >
+    <IconButton
+      onClick={[MockFunction]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        chevron_right
+      </WithStyles(ForwardRef(Icon))>
+    </IconButton>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;

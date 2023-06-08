@@ -1,0 +1,30 @@
+FROM docker-hub.ihs.demonware.net/node:12.16.1-buster AS builder
+WORKDIR /app
+ADD package.json yarn.lock /app/
+ADD . /app/
+RUN yarn install
+RUN yarn build:dw
+RUN yarn install:abtesting
+
+FROM builder AS build
+# Keep it here to avoid lossing yarn install cache
+# when change any ARG
+ARG ci_build=false
+ARG app_version=DEVEL
+ARG auth_client=local-react-dev
+ARG ag_grid_licence='TEST_AG_GRID_LICENCE_KEY'
+
+ENV CI=$ci_build
+ENV REACT_APP_AUTH_CLIENT=$auth_client
+ENV REACT_APP_VERSION=$app_version
+ENV AG_GRID_LICENCE=$ag_grid_licence
+ENV AG_GRID_LICENCE_REPLACE_TEXT='process.env.REACT_APP_AG_GRID_LICENSE_KEY'
+
+RUN yarn build:abtesting
+
+FROM docker-hub.ihs.demonware.net/httpd:2-alpine AS final-production-js
+COPY --from=build /app/guest-apps/abtesting/build /usr/local/apache2/htdocs
+RUN set -ex; \
+    mkdir -p /usr/local/apache2/conf/sites-enabled; \
+    echo "IncludeOptional conf/sites-enabled/*.conf" >> /usr/local/apache2/conf/httpd.conf;
+ADD guest-apps/abtesting/abtesting-httpd.conf /usr/local/apache2/conf/sites-enabled/abtesting-frontend.conf

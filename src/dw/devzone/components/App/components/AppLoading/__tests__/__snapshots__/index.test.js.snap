@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppLoading renders without crashing 1`] = `
+<div
+  className="container"
+>
+  <WithStyles(ForwardRef(CircularProgress))
+    size={80}
+    thickness={5}
+  />
+</div>
+`;

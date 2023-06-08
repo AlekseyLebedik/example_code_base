@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/",
+    "paths": {
+      "@gvs/*": ["./src/dw/online-configuration/scenes/gvs/*"]
+    },
+    "allowUmdGlobalAccess": true
+  },
+  "include": ["./src/**/*"],
+  "exclude": [
+    "/node_modules/",
+    "/coverage/",
+    "/build/",
+    "/docs/",
+    "/.storybook"
+  ]
+}

@@ -1,0 +1,51 @@
+.inventoryComponentsContainer {
+  display: flex;
+  width: 100vw !important;
+  height: 100%;
+}
+
+.playerInventory,
+.storeInventory {
+  height: 100%;
+  padding: 5px 10px 0;
+  flex: 1;
+}
+
+.playerClearFilter,
+.storerClearFilter {
+  position: absolute;
+  bottom: 15px;
+  height: 30px;
+  width: 36px;
+  z-index: 100;
+}
+
+.playerClearFilter {
+  left: calc(46.7% - 10px);
+}
+
+.storerClearFilter {
+  right: 10px;
+}
+
+@media (max-width: 1390px) {
+  .playerInventory,
+  .storeInventory {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .playerClearFilter,
+  .storerClearFilter {
+    position: unset;
+    bottom: unset;
+    margin-left: auto;
+    margin-right: 30px;
+  }
+
+  .inventoryComponentsContainer {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+}

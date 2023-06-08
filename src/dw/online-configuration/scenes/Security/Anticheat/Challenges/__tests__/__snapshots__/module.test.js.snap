@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - Anticheat - Challenges Reducer handle CHALLENGES_FETCH_SUCCESS 1`] = `
+Object {
+  "challenges": Array [
+    Object {
+      "challengeCondition": "none",
+      "challengeConditionValue": 0,
+      "challengeGroup": 20,
+      "functionId": 16,
+      "gameModes": Array [
+        0,
+      ],
+      "id": "5",
+      "parameters": "",
+      "recipientGroups": Array [
+        Array [
+          1,
+          false,
+        ],
+      ],
+      "recipientGroupsFormatted": "debug(unenforced)",
+      "safetyLevel": 2,
+      "validResponse": "-",
+      "weight": 10,
+    },
+  ],
+  "currentChallenge": null,
+}
+`;
+
+exports[`Security - Anticheat - Challenges Reducer handle CHALLENGES_SET_CURRENT 1`] = `
+Object {
+  "challenges": Array [],
+  "currentChallenge": Object {
+    "challengeCondition": "none",
+    "challengeConditionValue": 0,
+    "challengeGroup": 20,
+    "functionId": 16,
+    "gameModes": Array [
+      0,
+    ],
+    "id": "5",
+    "parameters": "",
+    "recipientGroups": Array [
+      Array [
+        1,
+        false,
+      ],
+    ],
+    "recipientGroupsFormatted": "debug(unenforced)",
+    "safetyLevel": 2,
+    "validResponse": "-",
+    "weight": 10,
+  },
+}
+`;
+
+exports[`Security - Anticheat - Challenges Reducer return the initial state 1`] = `
+Object {
+  "challenges": Array [],
+  "currentChallenge": null,
+}
+`;

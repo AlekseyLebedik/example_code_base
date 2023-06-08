@@ -1,0 +1,39 @@
+.Navbar-breadcrumbs {
+  background-color: black;
+  color: white;
+
+  height: 30px;
+  left: 0;
+  right: 0;
+
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar-row__title-selector {
+  padding: 0 40px;
+  height: 64px;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Navbar-row__selectors {
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .NavbarLayout .mdl-layout__tab,
+  .NavbarLayout .sub-menu {
+    display: none;
+  }
+  .NavbarLayout .mdl-layout__tab.mobile-visible,
+  .NavbarLayout .mobile-visible .mdl-layout__tab,
+  .NavbarLayout .sub-menu.mobile-visible {
+    display: initial;
+  }
+}

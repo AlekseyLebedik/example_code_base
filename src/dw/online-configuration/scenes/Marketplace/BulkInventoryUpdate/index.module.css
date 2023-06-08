@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container > div:first-child {
+  border-right: 1px solid rgba(0, 0, 0, 0.35);
+  flex: 3 1;
+}
+
+.container > div:last-child {
+  flex: 4 1;
+}
+
+.container > div > * {
+  margin: 8px 20px 0;
+}
+
+.searchField {
+  flex-grow: 1;
+  margin-right: 10px !important;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .container > div:first-child {
+    border-right: 0;
+  }
+}
+
+@media (max-width: 1304px) {
+  .searchField {
+    order: 1;
+    margin-top: 8px;
+  }
+}

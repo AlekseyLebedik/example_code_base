@@ -1,0 +1,38 @@
+.add-ip-control-form .buttonContainer {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.add-ip-control-form .selectType {
+  padding-top: 10px;
+}
+
+.add-ip-control-form .justify {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.add-ip-control-form .values {
+  display: flex;
+  flex-flow: column;
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.add-ip-control-form .values > .rows > div {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.add-ip-control-form .values > .rows > div > div {
+  flex-grow: 2;
+}

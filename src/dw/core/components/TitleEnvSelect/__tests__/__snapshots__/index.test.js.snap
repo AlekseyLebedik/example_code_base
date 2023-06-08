@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleEnvSelect renders custom values 1`] = `
+<div
+  className="common-multi-select-field"
+>
+  <Redux-form-ANTDundefined
+    data-cy="titleEnvironmentSelector"
+    error={false}
+    getPopupContainer={[Function]}
+    hasFeedback={false}
+    input={
+      Object {
+        "onBlur": [Function],
+        "onFocus": [Function],
+      }
+    }
+    meta={Object {}}
+    optionFilterProp="children"
+    options={
+      Array [
+        Object {
+          "disabled": true,
+          "label": "My Cool Project",
+          "value": "project-1",
+        },
+        Object {
+          "label": "(1)  Cool Title ps4 dev",
+          "value": "1:dev",
+        },
+      ]
+    }
+    placeholder="Please select"
+  />
+  <div
+    className="dropdown-placeholder ant-form-explain empty"
+  >
+    EMPTY
+  </div>
+</div>
+`;
+
+exports[`TitleEnvSelect renders default values 1`] = `
+<CustomSelect
+  error={false}
+  input={Object {}}
+  meta={Object {}}
+  options={
+    Array [
+      Object {
+        "children": Array [
+          Object {
+            "label": "(1)  Cool Title ps4 dev",
+            "value": "1:dev",
+          },
+        ],
+        "label": "My Cool Project",
+        "value": "project-1",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`TitleEnvSelect renders select with loading option before premissions are checked 1`] = `
+<div
+  className="common-multi-select-field"
+>
+  <Redux-form-ANTDundefined
+    data-cy="titleEnvironmentSelector"
+    disabled={true}
+    getPopupContainer={[Function]}
+    hasFeedback={false}
+    input={
+      Object {
+        "onBlur": [Function],
+        "onFocus": [Function],
+        "value": "Loading...",
+      }
+    }
+    meta={Object {}}
+    optionFilterProp="children"
+    options={Array []}
+    placeholder="Please select"
+  />
+  <div
+    className="dropdown-placeholder ant-form-explain empty"
+  >
+    EMPTY
+  </div>
+</div>
+`;

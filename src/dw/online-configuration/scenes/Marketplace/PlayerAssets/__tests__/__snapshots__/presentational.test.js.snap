@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerAssetsStateless renders correctly 1`] = `
+<div
+  className="container"
+>
+  <PlayerTabsContainer
+    onPlayerChange={[Function]}
+    onTabChange={[Function]}
+    playerId={null}
+    tab="inventory"
+    tabs={
+      Array [
+        Object {
+          "label": "Inventory",
+          "name": "inventory",
+        },
+        Object {
+          "label": "Audit",
+          "name": "audit",
+        },
+        Object {
+          "label": "Manage",
+          "name": "manage",
+        },
+      ]
+    }
+  />
+  <EmptyComponent
+    isClan={false}
+  />
+</div>
+`;

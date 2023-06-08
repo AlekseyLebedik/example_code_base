@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ObjectPermission data companies should sotre ObjectPermissionManager.initializationError when it fails to load companies 1`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": null,
+    },
+  },
+  "companies": Array [],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data companies should sotre ObjectPermissionManager.initializationError when it fails to load companies 2`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": [Error],
+    },
+  },
+  "companies": Array [],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data companies should store information about all companies 1`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": null,
+    },
+  },
+  "companies": Array [
+    "company 1",
+    "company 2",
+    "company 3",
+  ],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data companies should store the company information once fetched 1`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": null,
+    },
+  },
+  "companies": Array [],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data companies should store the company information once fetched 2`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": null,
+    },
+  },
+  "companies": Array [
+    "company 1",
+  ],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data company-groups should store ObjectPermissionManager.initializationError when it fails to load company groups 1`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": null,
+    },
+  },
+  "companies": Array [],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data company-groups should store ObjectPermissionManager.initializationError when it fails to load company groups 2`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": [Error],
+    },
+  },
+  "companies": Array [],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data company-groups should store the company groups info once fetched 1`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": null,
+    },
+  },
+  "companies": Array [],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data company-groups should store the company groups info once fetched 2`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": null,
+    },
+  },
+  "companies": Array [],
+  "companyGroups": Array [
+    "company group 1",
+  ],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data object permissions should store ObjectPermissionManager.initializationError when it fails to load company groups 1`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": null,
+    },
+  },
+  "companies": Array [],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data object permissions should store ObjectPermissionManager.initializationError when it fails to load company groups 2`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": null,
+    },
+  },
+  "companies": Array [],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data object permissions should store the object permissions once fetched 1`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": null,
+    },
+  },
+  "companies": Array [],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {},
+  "relatedPermissions": Array [],
+}
+`;
+
+exports[`ObjectPermission data object permissions should store the object permissions once fetched 2`] = `
+Object {
+  "Components": Object {
+    "ObjectPermissionManager": Object {
+      "initializationError": null,
+    },
+  },
+  "companies": Array [],
+  "companyGroups": Array [],
+  "contentTypePermissions": Object {},
+  "objectPermissions": Object {
+    "undefined": Object {
+      "user": Array [
+        "permission 1",
+      ],
+    },
+  },
+  "relatedPermissions": Array [],
+}
+`;

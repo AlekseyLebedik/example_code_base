@@ -1,0 +1,497 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchableList does not render SearchComponent if searchEnabled set to false 1`] = `
+<div
+  className="common__searchable-list flex flex-col flex-grow"
+>
+  <div
+    className="empty-list flex-grow"
+  >
+    No data to display
+  </div>
+</div>
+`;
+
+exports[`SearchableList enables actions when some checkbox are selected 1`] = `
+<div
+  className="common__searchable-list flex flex-col flex-grow"
+>
+  <SearchComponent
+    advancedSearchFields={Array []}
+    className=""
+    defaultSearchField={Object {}}
+    iconClassName=""
+    initialValue=""
+    onSearch={[Function]}
+    placeholder=""
+    searchOnChange={false}
+  />
+  <div
+    className="action-panel"
+    key="action-panel"
+  >
+    <div
+      className="select-all-checkbox"
+    >
+      <Checkbox
+        checked={false}
+        className="checkbox"
+        color="primary"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="action-button"
+    >
+      <ConfirmActionComponent
+        actionTrigger="onClick"
+        changeCopyPermission={null}
+        component="IconButton"
+        confirm={
+          Object {
+            "confirmMsg": "You are gonna read the best book ever.",
+            "destructive": true,
+            "mainButtonLabel": "Read",
+            "title": "Silmarillion is the best book ever.",
+          }
+        }
+        disabled={true}
+        key="Read"
+        onClick={[Function]}
+        tooltipProps={null}
+      >
+        delete
+      </ConfirmActionComponent>
+    </div>
+  </div>
+  <ItemsList
+    getItem={[Function]}
+    infiniteScroll={false}
+    items={
+      Array [
+        Object {
+          "name": "Fingolfin",
+          "swordName": "Ringil",
+        },
+        Object {
+          "name": "Turgon",
+          "swordName": "Glamdring",
+        },
+      ]
+    }
+    key="items-list"
+    onShowMore={[Function]}
+    showMore={false}
+  />
+</div>
+`;
+
+exports[`SearchableList marks all checkboxes as selected and enables actions when select all checkbox is selected 1`] = `
+<div
+  className="common__searchable-list flex flex-col flex-grow"
+>
+  <SearchComponent
+    advancedSearchFields={Array []}
+    className=""
+    defaultSearchField={Object {}}
+    iconClassName=""
+    initialValue=""
+    onSearch={[Function]}
+    placeholder=""
+    searchOnChange={false}
+  />
+  <div
+    className="action-panel"
+    key="action-panel"
+  >
+    <div
+      className="select-all-checkbox"
+    >
+      <Checkbox
+        checked={true}
+        className="checkbox"
+        color="primary"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="action-button"
+    >
+      <ConfirmActionComponent
+        actionTrigger="onClick"
+        changeCopyPermission={null}
+        component="IconButton"
+        confirm={null}
+        disabled={false}
+        key="Read"
+        onClick={[Function]}
+        tooltipProps={
+          Object {
+            "placement": "bottom-end",
+            "title": "Read",
+          }
+        }
+      >
+        delete
+      </ConfirmActionComponent>
+    </div>
+  </div>
+  <ItemsList
+    getItem={[Function]}
+    infiniteScroll={false}
+    items={
+      Array [
+        Object {
+          "name": "Fingolfin",
+          "swordName": "Ringil",
+        },
+        Object {
+          "name": "Turgon",
+          "swordName": "Glamdring",
+        },
+      ]
+    }
+    key="items-list"
+    onShowMore={[Function]}
+    showMore={false}
+  />
+</div>
+`;
+
+exports[`SearchableList renders \`SkeletonProgress\` when no items are available 1`] = `
+<div
+  className="common__searchable-list flex flex-col flex-grow"
+>
+  <SearchComponent
+    advancedSearchFields={Array []}
+    className=""
+    defaultSearchField={Object {}}
+    iconClassName=""
+    initialValue=""
+    onSearch={[Function]}
+    placeholder=""
+    searchOnChange={false}
+  />
+  <div
+    className="empty-list flex-grow"
+  >
+    No data to display
+  </div>
+</div>
+`;
+
+exports[`SearchableList renders a list of items when items are sent as a new prop 1`] = `
+<div
+  className="common__searchable-list flex flex-col flex-grow"
+>
+  <SearchComponent
+    advancedSearchFields={Array []}
+    className=""
+    defaultSearchField={Object {}}
+    iconClassName=""
+    initialValue=""
+    onSearch={[Function]}
+    placeholder=""
+    searchOnChange={false}
+  />
+  <ItemsList
+    getItem={[Function]}
+    infiniteScroll={false}
+    items={
+      Array [
+        Object {
+          "name": "Fingolfin",
+          "swordName": "Ringil",
+        },
+        Object {
+          "name": "Turgon",
+          "swordName": "Glamdring",
+        },
+      ]
+    }
+    key="items-list"
+    onShowMore={[Function]}
+    showMore={false}
+  />
+</div>
+`;
+
+exports[`SearchableList renders checkboxes and action button related to an action 1`] = `
+<div
+  className="common__searchable-list flex flex-col flex-grow"
+>
+  <SearchComponent
+    advancedSearchFields={Array []}
+    className=""
+    defaultSearchField={Object {}}
+    iconClassName=""
+    initialValue=""
+    onSearch={[Function]}
+    placeholder=""
+    searchOnChange={false}
+  />
+  <div
+    className="action-panel"
+    key="action-panel"
+  >
+    <div
+      className="select-all-checkbox"
+    >
+      <Checkbox
+        checked={false}
+        className="checkbox"
+        color="primary"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="action-button"
+    >
+      <ConfirmActionComponent
+        actionTrigger="onClick"
+        changeCopyPermission={null}
+        component="IconButton"
+        confirm={
+          Object {
+            "confirmMsg": "You are gonna read the best book ever.",
+            "destructive": false,
+            "mainButtonLabel": "Read",
+            "title": "Silmarillion is the best book ever.",
+          }
+        }
+        disabled={true}
+        key="Read"
+        onClick={[Function]}
+        tooltipProps={null}
+      >
+        delete
+      </ConfirmActionComponent>
+    </div>
+  </div>
+  <ItemsList
+    getItem={[Function]}
+    infiniteScroll={false}
+    items={
+      Array [
+        Object {
+          "name": "Fingolfin",
+          "swordName": "Ringil",
+        },
+        Object {
+          "name": "Turgon",
+          "swordName": "Glamdring",
+        },
+      ]
+    }
+    key="items-list"
+    onShowMore={[Function]}
+    showMore={false}
+  />
+</div>
+`;
+
+exports[`SearchableList renders filtered items when selection function is provided 1`] = `
+<div
+  className="common__searchable-list flex flex-col flex-grow"
+>
+  <SearchComponent
+    advancedSearchFields={Array []}
+    className=""
+    defaultSearchField={Object {}}
+    iconClassName=""
+    initialValue=""
+    onSearch={[Function]}
+    placeholder=""
+    searchOnChange={false}
+  />
+  <div
+    className="action-panel"
+    key="action-panel"
+  >
+    <div
+      className="select-all-checkbox"
+    >
+      <Checkbox
+        checked={false}
+        className="checkbox"
+        color="primary"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="action-button"
+    >
+      <ConfirmActionComponent
+        actionTrigger="onClick"
+        changeCopyPermission={null}
+        component="IconButton"
+        confirm={
+          Object {
+            "confirmMsg": "You are gonna read the best book ever.",
+            "destructive": true,
+            "mainButtonLabel": "Read",
+            "title": "Silmarillion is the best book ever.",
+          }
+        }
+        disabled={true}
+        key="Read"
+        onClick={[Function]}
+        tooltipProps={null}
+      >
+        delete
+      </ConfirmActionComponent>
+    </div>
+  </div>
+  <ItemsList
+    getItem={[Function]}
+    infiniteScroll={false}
+    items={
+      Array [
+        Object {
+          "name": "Fingolfin",
+          "swordName": "Ringil",
+        },
+        Object {
+          "name": "Turgon",
+          "swordName": "Glamdring",
+        },
+      ]
+    }
+    key="items-list"
+    onShowMore={[Function]}
+    showMore={false}
+  />
+</div>
+`;
+
+exports[`SearchableList renders when items are provided 1`] = `
+<div
+  className="common__searchable-list flex flex-col flex-grow"
+>
+  <SearchComponent
+    advancedSearchFields={Array []}
+    className=""
+    defaultSearchField={Object {}}
+    iconClassName=""
+    initialValue=""
+    onSearch={[Function]}
+    placeholder=""
+    searchOnChange={false}
+  />
+  <ItemsList
+    getItem={[Function]}
+    infiniteScroll={false}
+    items={
+      Array [
+        Object {
+          "name": "Fingolfin",
+          "swordName": "Ringil",
+        },
+        Object {
+          "name": "Turgon",
+          "swordName": "Glamdring",
+        },
+      ]
+    }
+    key="items-list"
+    onShowMore={[Function]}
+    showMore={false}
+  />
+</div>
+`;
+
+exports[`SearchableList renders with the showMore button 1`] = `
+<div
+  className="common__searchable-list flex flex-col flex-grow"
+>
+  <SearchComponent
+    advancedSearchFields={Array []}
+    className=""
+    defaultSearchField={Object {}}
+    iconClassName=""
+    initialValue=""
+    onSearch={[Function]}
+    placeholder=""
+    searchOnChange={false}
+  />
+  <ItemsList
+    getItem={[Function]}
+    infiniteScroll={false}
+    items={
+      Array [
+        Object {
+          "name": "Fingolfin",
+          "swordName": "Ringil",
+        },
+        Object {
+          "name": "Turgon",
+          "swordName": "Glamdring",
+        },
+      ]
+    }
+    key="items-list"
+    onShowMore={[Function]}
+    showMore={true}
+  />
+  <NextPageButton
+    isLoading={false}
+    label="Show More"
+    nextPageToken={true}
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`SearchableList when Search is done the list shows loading state until new data retrieved 1`] = `
+<div
+  className="common__searchable-list flex flex-col flex-grow"
+>
+  <SearchComponent
+    advancedSearchFields={Array []}
+    className=""
+    defaultSearchField={Object {}}
+    iconClassName=""
+    initialValue=""
+    onSearch={[Function]}
+    placeholder=""
+    searchOnChange={false}
+  />
+  <ItemsList
+    getItem={[Function]}
+    infiniteScroll={false}
+    items={
+      Array [
+        Object {
+          "name": "Fingolfin",
+          "swordName": "Ringil",
+        },
+      ]
+    }
+    key="items-list"
+    onShowMore={[Function]}
+    showMore={false}
+  />
+</div>
+`;
+
+exports[`SearchableList when Search is done the list shows loading state until new data retrieved 2`] = `
+<div
+  className="common__searchable-list flex flex-col flex-grow"
+>
+  <SearchComponent
+    advancedSearchFields={Array []}
+    className=""
+    defaultSearchField={Object {}}
+    iconClassName=""
+    initialValue=""
+    onSearch={[Function]}
+    placeholder=""
+    searchOnChange={false}
+  />
+  <div
+    className="empty-list flex-grow"
+  >
+    No data to display
+  </div>
+</div>
+`;

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskMonitorSidebarStateless renders default props 1`] = `
+<div
+  className="flex flex-col h-full"
+>
+  <WithStyles(ForwardRef(AppBar))
+    color="default"
+    position="static"
+  />
+  <SearchableList
+    actions={Array []}
+    applySelectConditionFunc={[Function]}
+    getItemKey={null}
+    infiniteScroll={false}
+    initialValue=""
+    items={Array []}
+    loadingMaster={false}
+    loadingTimeout={0}
+    onSearch={[Function]}
+    onShowMore={null}
+    placeholder=""
+    searchEnabled={false}
+    showMore={false}
+    toRenderFunc={[Function]}
+  />
+</div>
+`;

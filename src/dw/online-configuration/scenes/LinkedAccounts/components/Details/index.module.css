@@ -1,0 +1,72 @@
+.scrollable {
+  composes: scrollable-content from global;
+}
+
+.details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 47%;
+  margin: 10px 10px 0 10px;
+}
+
+.profileCard {
+  composes: card;
+  background-color: #d6d6d6;
+  position: relative;
+}
+
+.disabledOverlay {
+  position: absolute;
+  background-color: #d6d6d6;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  opacity: 0.8;
+}
+
+.accessBtn {
+  color: #6031ee;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.blur {
+  filter: blur(3px);
+  font-weight: bold;
+}
+
+.provider {
+  text-transform: uppercase;
+}
+
+.cardHeader {
+  display: flex;
+}
+
+.renameButton {
+  display: inline;
+}
+
+.banned {
+  color: #d0021b;
+}
+
+.bannedTxt {
+  margin-left: 6px;
+}
+
+.linkedBans {
+  composes: banned;
+  padding: 10px 0 10px 20px !important;
+}
+
+.bannedLinks {
+  display: flex !important;
+  flex-direction: column;
+  padding: 10px 20px 10px 0 !important;
+}

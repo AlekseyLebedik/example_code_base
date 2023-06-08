@@ -1,0 +1,82 @@
+.main-container.server-logs .common__search {
+  margin: 0;
+  width: 100%;
+}
+
+.main-container.server-logs .common__search .advanced-search-container .fields {
+  max-height: none;
+  height: 350px;
+}
+
+@media (min-width: 768px) {
+  .main-container.server-logs .common__search {
+    width: 500px;
+  }
+}
+
+.NextPageButton {
+  position: initial !important;
+}
+
+.main-container.server-logs .ant-table-wrapper {
+  max-width: 1200px;
+}
+
+.main-container.server-logs
+  .ant-table-expanded-row.ant-table-expanded-row-level-1
+  > td,
+.main-container.server-logs
+  .ant-table-expanded-row.ant-table-expanded-row-level-1
+  > td:hover {
+  background: #f5f5f5;
+}
+
+.main-container.server-logs .expanded-row {
+  padding: 10px;
+}
+
+.main-container.server-logs .expanded-row.debug,
+.main-container.server-logs .expanded-row.info {
+  color: #383d41;
+  background-color: #e2e3e5;
+}
+
+.main-container.server-logs .expanded-row.error {
+  color: #721c24;
+  background-color: #f8d7da;
+}
+
+.main-container.server-logs .expanded-row.warning {
+  color: #856404;
+  background-color: #fff3cd;
+}
+
+.main-container.server-logs .expanded-row-header span {
+  margin-right: 10px;
+}
+
+.main-container.server-logs .expanded-row-header {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.main-container.server-logs .expanded-row-body {
+  max-width: 600px;
+}
+
+.main-container.server-logs .expanded-row-body span {
+  display: block;
+}
+
+.panel-content {
+  display: flex;
+  border-bottom: 1px solid #cdcdcd;
+  padding: 10px;
+}
+
+.panel-content > * {
+  color: #cdcdcd;
+
+  margin: 0;
+  font-weight: 100;
+}

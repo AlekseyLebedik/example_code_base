@@ -1,0 +1,5 @@
+export const GRANT_PRODUCTS_POST = 'marketplace/GRANT_PRODUCTS_POST';
+export const GRANT_PRODUCTS_POST_SUCCESS =
+  'marketplace/GRANT_PRODUCTS_POST_SUCCESS';
+export const GRANT_PRODUCTS_POST_FAILED =
+  'marketplace/GRANT_PRODUCTS_POST_FAILED';

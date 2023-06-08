@@ -1,0 +1,26 @@
+/* File upload button */
+
+.buttonRow {
+  margin: 3% 0 0 3%;
+}
+
+.helperText {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.buttonContainer {
+  position: absolute;
+  top: 112px;
+  left: 337px;
+  z-index: 2;
+}
+
+/* Dialog */
+
+.divider {
+  margin-bottom: 20px;
+}
+
+.contentCenter {
+  text-align: center;
+}

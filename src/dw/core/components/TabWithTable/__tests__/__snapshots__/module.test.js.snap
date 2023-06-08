@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabWithTable Reducer handles FETCH 1`] = `
+Object {
+  "collection": Array [],
+  "loading": true,
+  "nextPageToken": undefined,
+}
+`;
+
+exports[`TabWithTable Reducer handles FETCH_SUCCESS 1`] = `
+Object {
+  "collection": Array [
+    Object {
+      "membershipType": "0",
+      "numMembersOnline": "0",
+      "numTeamMembers": "9",
+      "ownerUserID": "33853876575912758",
+      "privileges": "0",
+      "teamID": "6",
+      "teamName": "dream-team-6",
+    },
+  ],
+  "loading": false,
+  "nextPageToken": "CAE",
+}
+`;
+
+exports[`TabWithTable Reducer returns initial state 1`] = `
+Object {
+  "collection": Array [],
+  "loading": false,
+  "nextPageToken": undefined,
+}
+`;

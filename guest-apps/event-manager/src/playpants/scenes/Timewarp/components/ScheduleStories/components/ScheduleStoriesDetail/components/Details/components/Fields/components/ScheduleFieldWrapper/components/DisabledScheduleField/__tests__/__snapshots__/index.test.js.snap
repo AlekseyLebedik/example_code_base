@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisabledScheduleField renders default properly 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  title=""
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "readOnly": true,
+      }
+    }
+    disabled={true}
+    fullWidth={true}
+    label="Schedule"
+    value=""
+  />
+</WithStyles(ForwardRef(Tooltip))>
+`;

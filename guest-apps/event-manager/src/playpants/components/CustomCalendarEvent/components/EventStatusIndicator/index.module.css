@@ -1,0 +1,42 @@
+.noEndIndicator {
+  border-radius: 24px;
+  float: left;
+  position: relative;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.eventStatusEventListNoTask {
+  display: none;
+}
+
+.iconContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: -webkit-fill-available;
+  padding-left: 5px;
+}
+
+.scheduleEventTaskStatusDot {
+  margin: 0px 8px;
+  width: 8px;
+  height: 8px;
+  box-shadow: 0 0 10px black;
+}
+
+.envTypeIcon {
+  background-color: white;
+  color: #616161;
+  height: 20px;
+  width: 20px;
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.envTypeIconListView {
+  color: white;
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}

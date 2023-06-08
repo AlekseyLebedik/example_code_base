@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameData Leaderboards DetailRenderer renders grid view as default 1`] = `
+<Link
+  className="makeStyles-leaderboardLink-3"
+  key="20"
+  to={[Function]}
+>
+  XP
+</Link>
+`;
+
+exports[`GameData Leaderboards DetailRenderer renders two links for 5827 1`] = `
+Array [
+  <Link
+    className="makeStyles-leaderboardLink-3"
+    key="20"
+    to={[Function]}
+  >
+    XP
+  </Link>,
+  <Link
+    className="makeStyles-leaderboardLink-3"
+    key="249"
+    to={[Function]}
+  >
+    Double Kills
+  </Link>,
+]
+`;
+
+exports[`GameData Leaderboards DetailsRenderer renders two title tables 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <DetailsRenderer
+    data={
+      Array [
+        Object {
+          "env": Object {
+            "shortType": "dev",
+            "title": Object {
+              "id": 5827,
+              "name": "B05 Dev",
+            },
+          },
+          "leaderboards": Array [
+            Object {
+              "id": "20",
+              "name": "XP",
+            },
+            Object {
+              "id": "249",
+              "name": "Double Kills",
+            },
+          ],
+        },
+        Object {
+          "env": Object {
+            "shortType": "dev",
+            "title": Object {
+              "id": 5830,
+              "name": "B05 Scratch",
+            },
+          },
+          "leaderboards": Array [
+            Object {
+              "id": "20",
+              "name": "XP",
+            },
+          ],
+        },
+      ]
+    }
+    hideTitles={false}
+  />
+</Provider>
+`;

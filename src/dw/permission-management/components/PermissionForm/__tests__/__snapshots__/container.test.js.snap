@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Permission Form: Renders: renders PermissionsFormStateLess 1`] = `
+<ReduxForm
+  _reduxForm={null}
+  companiesRequesterIsAdmin={Array []}
+  destroyOnUnmount={true}
+  dragTypeObjectPerm="OBJECT_PERM"
+  editObjectPermissions={[MockFunction]}
+  enableReinitialize={true}
+  fetchContentTypesDetails={[MockFunction]}
+  fetchObjectPermissions={[MockFunction]}
+  forceUnregisterOnUnmount={false}
+  form="test"
+  getFormState={[Function]}
+  isPristine={true}
+  keepDirtyOnReinitialize={true}
+  onMove={[Function]}
+  onSave={[MockFunction]}
+  onSubmit={[Function]}
+  onSubmitSuccess={[Function]}
+  persistentSubmitErrors={false}
+  pure={true}
+  reset={[MockFunction]}
+  selectedItem={
+    Object {
+      "id": 1,
+    }
+  }
+  selectedItemId="1"
+  shouldAsyncValidate={[Function]}
+  shouldError={[Function]}
+  shouldValidate={[Function]}
+  shouldWarn={[Function]}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getAction": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "isActionDispatched": [Function],
+      "isActionTypeDispatched": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  submitAsSideEffect={false}
+  touchOnBlur={true}
+  touchOnChange={false}
+  transformToObjectPerm={[MockFunction]}
+  updateUnregisteredFields={false}
+  validate={[Function]}
+/>
+`;

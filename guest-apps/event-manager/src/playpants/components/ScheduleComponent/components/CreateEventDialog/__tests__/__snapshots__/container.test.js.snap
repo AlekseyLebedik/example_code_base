@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateEvent renders default values 1`] = `
+<CreateEventDialogStateless
+  addTag={[Function]}
+  baseUrl="event-manager/1/"
+  clearTagEntry={[Function]}
+  closeModal={[MockFunction]}
+  createEvent={[MockFunction]}
+  currentProject={
+    Object {
+      "contentTypeId": 19,
+      "id": 1,
+      "name": "GTR Project",
+      "titles": Array [
+        Object {
+          "environments": Array [
+            Object {
+              "contentTypeId": 8,
+              "id": 2,
+              "shortType": "cert",
+              "type": "Certification",
+              "usesABTesting": true,
+              "usesAE": true,
+              "usesAsyncMMP": false,
+              "usesLegacyStore": false,
+              "usesMarketplace": true,
+              "usesObjectStore": true,
+            },
+            Object {
+              "contentTypeId": 8,
+              "id": 1,
+              "shortType": "dev",
+              "type": "Development",
+              "usesABTesting": true,
+              "usesAE": true,
+              "usesAsyncMMP": false,
+              "usesLegacyStore": false,
+              "usesMarketplace": true,
+              "usesObjectStore": true,
+            },
+          ],
+          "id": 1,
+          "name": "GTR-PS3",
+          "platform": "PS3",
+        },
+      ],
+    }
+  }
+  defaultToInfo={false}
+  deleteTag={[Function]}
+  displayInfoEvents={true}
+  formData={Object {}}
+  formName=""
+  freeGlobalLocked={[Function]}
+  globalChecked={false}
+  globalLocked={false}
+  handleFormSubmit={[Function]}
+  hasCurrentProjectSettings={true}
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  initialValues={
+    Object {
+      "eventDates": Object {
+        "endDate": null,
+        "startDate": null,
+      },
+      "eventEnvType": "",
+      "eventName": "",
+      "eventNotes": "",
+      "eventProjects": Array [
+        1,
+      ],
+      "eventRecurrence": "never",
+      "eventRepeatFrequency": 1,
+      "eventRepeatInterval": "days",
+      "eventType": "",
+      "isSchedule": null,
+      "schedule": null,
+      "story": null,
+    }
+  }
+  initializeTags={[Function]}
+  isModalVisible={true}
+  onCancel={[Function]}
+  onChangeTag={[Function]}
+  onResetCreateDialog={[MockFunction]}
+  onSetSelectedTemplate={[MockFunction]}
+  repeatingEvent={false}
+  requireGlobalCheckbox={[Function]}
+  scheduleWarningOpen={false}
+  selectedStory={
+    Object {
+      "id": 1,
+    }
+  }
+  selectedTemplate={Object {}}
+  setGlobalCheckbox={[Function]}
+  setToggleAdvancedOn={[Function]}
+  setToggleTypeOn={[Function]}
+  submitCreateEvent={[Function]}
+  tagText=""
+  tags={Array []}
+  tagsError={null}
+  templateSourceEventData={Object {}}
+  templateSourceEventLoading={false}
+  templatesData={Array []}
+  title="Create"
+  toggleAdvancedOn={false}
+  toggleScheduleWarningOpen={[Function]}
+  toggleTypeOn={false}
+/>
+`;

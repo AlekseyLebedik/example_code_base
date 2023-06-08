@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublisherObjectsConflicts renders correctly with conflict details 1`] = `
+<div
+  className="ag-theme-material"
+>
+  <AgGridReact
+    columnDefs={
+      Array [
+        Object {
+          "cellClass": [Function],
+          "field": "name",
+          "filter": "agTextColumnFilter",
+          "headerName": "Name",
+          "isConflictingColumn": true,
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "acl",
+          "filter": "agTextColumnFilter",
+          "headerName": "ACL",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "checksumType",
+          "filter": "agTextColumnFilter",
+          "headerName": "Checksum Type",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "category",
+          "filter": "agTextColumnFilter",
+          "headerName": "Category",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "contentLength",
+          "filter": "agTextColumnFilter",
+          "headerName": "Content Length",
+        },
+      ]
+    }
+    defaultColDef={
+      Object {
+        "editable": false,
+        "filter": true,
+        "menuTabs": Array [
+          "filterMenuTab",
+        ],
+        "resizable": true,
+        "sortable": true,
+      }
+    }
+    domLayout="autoHeight"
+    onGridReady={[Function]}
+    onGridSizeChanged={[Function]}
+    overlayNoRowsTemplate="<span>There are no conflicting Publisher Object names for this activity pair</span>"
+    rowData={
+      Array [
+        Object {
+          "acl": "public",
+          "checksumType": "b64_md5sum_digest",
+          "contentLength": 4,
+          "created": 1569262428,
+          "expiresOn": "0",
+          "extraData": null,
+          "groupID": "0",
+          "modified": 1569262428,
+          "name": "testname",
+          "owner": 2,
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`PublisherObjectsConflicts renders correctly with no conflict details 1`] = `
+<div
+  className="ag-theme-material"
+>
+  <AgGridReact
+    columnDefs={
+      Array [
+        Object {
+          "cellClass": [Function],
+          "field": "name",
+          "filter": "agTextColumnFilter",
+          "headerName": "Name",
+          "isConflictingColumn": true,
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "acl",
+          "filter": "agTextColumnFilter",
+          "headerName": "ACL",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "checksumType",
+          "filter": "agTextColumnFilter",
+          "headerName": "Checksum Type",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "category",
+          "filter": "agTextColumnFilter",
+          "headerName": "Category",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "contentLength",
+          "filter": "agTextColumnFilter",
+          "headerName": "Content Length",
+        },
+      ]
+    }
+    defaultColDef={
+      Object {
+        "editable": false,
+        "filter": true,
+        "menuTabs": Array [
+          "filterMenuTab",
+        ],
+        "resizable": true,
+        "sortable": true,
+      }
+    }
+    domLayout="autoHeight"
+    onGridReady={[Function]}
+    onGridSizeChanged={[Function]}
+    overlayNoRowsTemplate="<span>There are no conflicting Publisher Object names for this activity pair</span>"
+    rowData={Array []}
+  />
+</div>
+`;

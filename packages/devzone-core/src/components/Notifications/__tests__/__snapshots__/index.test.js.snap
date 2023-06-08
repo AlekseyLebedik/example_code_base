@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notifications renders error notification 1`] = `
+<div
+  className="notificationError"
+  data-cy="notifications-error"
+>
+  <WithStyles(ForwardRef(Icon))
+    className="icon"
+    fontSize="small"
+  >
+    warning
+  </WithStyles(ForwardRef(Icon))>
+  <div>
+    blah blah
+  </div>
+</div>
+`;
+
+exports[`Notifications renders info notification 1`] = `
+<div
+  className="notificationInfo"
+  data-cy="notifications-info"
+>
+  <WithStyles(ForwardRef(Icon))
+    className="icon"
+    fontSize="small"
+  >
+    info_outline
+  </WithStyles(ForwardRef(Icon))>
+  <div>
+    blah blah
+  </div>
+</div>
+`;
+
+exports[`Notifications renders success notification 1`] = `
+<div
+  className="notificationSuccess"
+  data-cy="notifications-success"
+>
+  <WithStyles(ForwardRef(Icon))
+    className="icon"
+    fontSize="small"
+  >
+    done
+  </WithStyles(ForwardRef(Icon))>
+  <div>
+    blah blah
+  </div>
+</div>
+`;

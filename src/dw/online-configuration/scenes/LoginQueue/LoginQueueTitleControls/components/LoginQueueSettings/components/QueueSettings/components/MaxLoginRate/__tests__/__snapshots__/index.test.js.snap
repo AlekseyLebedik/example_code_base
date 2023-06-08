@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueSettings - Queue display max login rate 1`] = `
+<div
+  className="loginQueueFormItem"
+  key="maxLoginRate"
+>
+  <WithStyles(ForwardRef(InputLabel))
+    className="loginQueueFormLabel"
+    id="maxLoginRateLabel"
+  >
+    Max Login Rate
+  </WithStyles(ForwardRef(InputLabel))>
+  <WithStyles(WithStyles(ForwardRef(TextField)))
+    InputProps={
+      Object {
+        "inputComponent": [Function],
+        "inputProps": Object {
+          "suffix": " / second",
+        },
+      }
+    }
+    className="loginQueueFormInput"
+    disabled={true}
+    error={false}
+    helperText=""
+    key="targetRateLimit"
+    name="targetRateLimit"
+    onChange={[Function]}
+    value={456}
+  />
+</div>
+`;
+
+exports[`LoginQueueSettings - Queue display max login rate to 0 1`] = `
+<div
+  className="loginQueueFormItem"
+  key="maxLoginRate"
+>
+  <WithStyles(ForwardRef(InputLabel))
+    className="loginQueueFormLabel"
+    id="maxLoginRateLabel"
+  >
+    Max Login Rate
+  </WithStyles(ForwardRef(InputLabel))>
+  <WithStyles(WithStyles(ForwardRef(TextField)))
+    InputProps={
+      Object {
+        "inputComponent": [Function],
+        "inputProps": Object {
+          "suffix": " / second",
+        },
+      }
+    }
+    className="loginQueueFormInput"
+    disabled={true}
+    error={true}
+    helperText="Login rate can't be 0"
+    key="targetRateLimit"
+    name="targetRateLimit"
+    onChange={[Function]}
+    value={0}
+  />
+</div>
+`;

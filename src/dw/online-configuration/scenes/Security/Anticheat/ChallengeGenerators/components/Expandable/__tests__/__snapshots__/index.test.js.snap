@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expandable renders custom values 1`] = `
+<div
+  className="common-expandable__container expand_less"
+>
+  <span
+    className="common-expandable__wrapper"
+  />
+  <WithStyles(ForwardRef(Tooltip))
+    title="Show Less"
+  >
+    <IconButton
+      className="common-expandable__button"
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        expand_less
+      </WithStyles(ForwardRef(Icon))>
+    </IconButton>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`Expandable renders default values 1`] = `
+<div
+  className="common-expandable__container more_horiz"
+>
+  <span
+    className="common-expandable__wrapper"
+  />
+  <WithStyles(ForwardRef(Tooltip))
+    title="Show More"
+  >
+    <IconButton
+      className="common-expandable__button"
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        more_horiz
+      </WithStyles(ForwardRef(Icon))>
+    </IconButton>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;

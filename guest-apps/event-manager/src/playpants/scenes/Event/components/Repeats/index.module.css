@@ -1,0 +1,31 @@
+.gridContainer {
+  flex-grow: 1;
+  display: flex;
+  margin: 20px;
+  margin-right: 10px;
+}
+
+.grid {
+  align-content: flex-start;
+}
+
+.eventActions,
+.editStatus {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.eventActions {
+  justify-content: flex-end;
+  padding: 0 !important;
+}
+
+.repeatFreqField {
+  width: 20%;
+  margin-right: 10px;
+}
+
+.repeatIntervalField {
+  width: 75%;
+}

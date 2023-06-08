@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`abtesting/scenes/Schedule displays default component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "@@observable": [Function],
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Schedule
+    availableContexts={
+      Array [
+        "1:dev",
+      ]
+    }
+    formatDateTime={[MockFunction]}
+    history={Object {}}
+    liveTests={
+      Array [
+        Object {
+          "category": "Category1",
+          "environment": "Cert",
+          "id": 3,
+          "platform": "PS4",
+          "source": "Treyach",
+          "status": "active",
+          "target": "Marketplace",
+          "test_name": "Test 3",
+          "test_period_from": 1535454075,
+          "test_period_to": 1535455075,
+          "title": "Title test 3",
+        },
+      ]
+    }
+    recentlyFinishedTests={
+      Array [
+        Object {
+          "category": "Category3",
+          "environment": "Cert",
+          "id": 6,
+          "platform": "PS4",
+          "source": "Treyach",
+          "status": "analysis",
+          "target": "Marketplace",
+          "test_name": "Test 6",
+          "test_period_from": 1535454075,
+          "test_period_to": 1535455075,
+          "title": "Title test 6",
+        },
+      ]
+    }
+    scheduledTests={Array []}
+    upcomingTests={
+      Array [
+        Object {
+          "category": "Other",
+          "environment": "Dev",
+          "id": 1,
+          "platform": "PS4",
+          "source": "Treyach",
+          "status": "config",
+          "target": "Marketplace",
+          "test_name": "Test 1",
+          "test_period_from": 1535454075,
+          "test_period_to": 1535455075,
+          "title": "Title test 1",
+        },
+      ]
+    }
+  />
+</ContextProvider>
+`;

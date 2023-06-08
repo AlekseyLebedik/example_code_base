@@ -1,0 +1,96 @@
+.headerContainer {
+  display: flex;
+  background-color: #616161;
+  align-items: flex-end;
+  margin-bottom: 10px;
+  flex-flow: row wrap;
+}
+
+.headerContainer > div {
+  flex-grow: unset !important;
+}
+
+.dropdown {
+  margin-left: 30px;
+  min-height: 50px;
+  display: flex;
+  align-items: flex-end;
+  min-width: 450px;
+}
+
+.stats-dropdown {
+  min-height: 50px;
+  display: flex;
+  align-items: flex-end;
+  min-width: 450px;
+}
+
+.andText {
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  top: -11px;
+  left: 13px;
+}
+
+.iconContainer {
+  margin-left: auto;
+  margin-right: 24px;
+  color: #fff;
+}
+
+.modalForm {
+  display: flex;
+}
+
+.downloads {
+  margin-top: 15px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  width: 195px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-gap: 20px;
+}
+
+.modalText {
+  color: #aaaaaa;
+  font-weight: bold;
+  line-height: 2;
+  display: block;
+}
+
+.normalText {
+  display: block;
+  line-height: 2;
+}
+
+.modalTextContainer {
+  display: flex;
+}
+
+.centerAlign {
+  align-self: center;
+}
+
+.chip {
+  background: #757575;
+  color: #fafafa;
+  border-radius: 16px;
+  min-width: 75px;
+  min-height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 1px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}

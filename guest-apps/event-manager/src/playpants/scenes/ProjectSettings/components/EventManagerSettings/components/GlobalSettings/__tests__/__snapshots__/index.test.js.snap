@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlobalSettings renders default values 1`] = `
+<GlobalSettingsBase
+  clearSchema={[MockFunction]}
+  fetchSchema={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "project_setting_global_settings",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  globalSettings={
+    Object {
+      "is_multicontext": false,
+      "single_approver": true,
+    }
+  }
+  settingSchema={Object {}}
+  updateProjectSetting={[MockFunction]}
+/>
+`;

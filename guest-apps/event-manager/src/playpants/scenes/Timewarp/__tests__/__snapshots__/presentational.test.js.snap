@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatelessTimewarp renders default properly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(AppBar))
+    position="absolute"
+  >
+    <WithStyles(ForwardRef(Tabs))
+      onChange={[Function]}
+      value={1}
+    >
+      <WithStyles(ForwardRef(Tab))
+        label="Schedules"
+      />
+      <WithStyles(ForwardRef(Tab))
+        label="Groups"
+      />
+      <WithStyles(ForwardRef(Tab))
+        label="Rules / Client Events"
+      />
+    </WithStyles(ForwardRef(Tabs))>
+  </WithStyles(ForwardRef(AppBar))>
+  <TabPanel
+    index={0}
+    value={1}
+  >
+    <withRouter(Connect(ScheduleStoriesBase)) />
+  </TabPanel>
+  <TabPanel
+    index={1}
+    value={1}
+  >
+    <withRouter(Connect(GamertagGroups))
+      baseUrl=""
+      onSelectGroup={[MockFunction]}
+      selectedGroup={null}
+    />
+  </TabPanel>
+  <TabPanel
+    index={2}
+    value={1}
+  >
+    <Connect(RulesBase) />
+  </TabPanel>
+</Fragment>
+`;

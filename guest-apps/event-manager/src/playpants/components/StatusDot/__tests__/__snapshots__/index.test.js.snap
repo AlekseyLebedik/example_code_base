@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusDot renders the StatusDot correctly 1`] = `
+<span>
+  <WithStyles(ForwardRef(Icon))
+    className=""
+  />
+</span>
+`;

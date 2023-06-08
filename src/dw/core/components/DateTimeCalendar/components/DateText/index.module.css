@@ -1,0 +1,19 @@
+.dateText {
+  padding-bottom: 5px;
+  margin-top: 0px;
+}
+
+.paper {
+  position: absolute;
+  z-index: 1;
+  max-height: 260px;
+  overflow: auto;
+}
+
+.item {
+  padding: 5px 10px 5px 10px;
+}
+
+.selectText {
+  cursor: pointer;
+}

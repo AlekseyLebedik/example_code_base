@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServerInventoryStateless renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="panel contextPanel"
+  >
+    <div
+      className="headers"
+    >
+      <div
+        className="contextTitle"
+      >
+        Context
+      </div>
+    </div>
+    <WithStyles(ForwardRef(Divider))
+      className="headerDivider"
+      variant="middle"
+    />
+    <SelectionPanelList
+      ItemComponent={[Function]}
+      data={Array []}
+      emptyText={null}
+      listItemClasses={
+        Object {
+          "root": "contextListItem",
+        }
+      }
+      selectedItem={null}
+      url="serverInventoryTestPath"
+    />
+  </div>
+  <div
+    className="panel buildNamePanel"
+  >
+    <div
+      className="itemContainer headers"
+    >
+      <div
+        className="title"
+      >
+        BuildNames
+      </div>
+      <div
+        className="countColumn"
+      >
+        Idle
+      </div>
+      <div
+        className="countColumn"
+      >
+        Allo
+      </div>
+    </div>
+    <WithStyles(ForwardRef(Divider))
+      className="headerDivider"
+      variant="middle"
+    />
+    <SelectionPanelList
+      ItemComponent={[Function]}
+      data={Array []}
+      emptyText="Select a Context"
+      listItemClasses={
+        Object {
+          "root": "buildListItem",
+        }
+      }
+      selectedItem={null}
+      url="serverInventoryTestPath/"
+    />
+  </div>
+  <div
+    className="panel DCPanel"
+  >
+    <div
+      className="itemContainer headers"
+    >
+      <div
+        className="title"
+      >
+        DC
+      </div>
+      <div
+        className="countColumn"
+      >
+        Idle
+      </div>
+      <div
+        className="countColumn"
+      >
+        Allo
+      </div>
+    </div>
+    <WithStyles(ForwardRef(Divider))
+      className="headerDivider"
+      variant="middle"
+    />
+    <SelectionPanelList
+      ItemComponent={[Function]}
+      data={Array []}
+      emptyText="Select a Build Name"
+      listItemClasses={
+        Object {
+          "root": "dcListItem",
+        }
+      }
+      selectedItem={null}
+      url="serverInventoryTestPath//"
+    />
+  </div>
+  <div
+    className="panel detailListPanel"
+  >
+    <Connect(DetailPanel)
+      buildname={null}
+      context={null}
+      datacenter={null}
+      disableList={false}
+      emptyText="Select a DC"
+    />
+  </div>
+</div>
+`;

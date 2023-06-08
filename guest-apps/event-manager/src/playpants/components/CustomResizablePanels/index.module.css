@@ -1,0 +1,11 @@
+.panel > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: auto;
+}
+
+.resizer {
+  box-shadow: none;
+  z-index: 1;
+}

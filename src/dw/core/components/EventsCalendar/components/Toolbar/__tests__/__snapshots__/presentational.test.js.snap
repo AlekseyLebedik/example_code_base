@@ -1,0 +1,548 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToolbarStateless day view clicked 1`] = `
+<div
+  className="calendarToolbarContainer"
+  data-cy="calendarToolbarContainer"
+>
+  <div
+    className="calendarToolbarNavigation"
+  >
+    <WithStyles(WrappedIcon)
+      color="inherit"
+      icon="keyboard_arrow_left"
+      onClick={[Function]}
+      tooltip="Go Back a Month"
+    />
+    <WithStyles(ForwardRef(Button))
+      className="calendarToolbarViewControlUnselected"
+      color="inherit"
+      disableFocusRipple={true}
+      disableRipple={true}
+      onClick={[Function]}
+      type="submit"
+    >
+      TODAY
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(WrappedIcon)
+      color="inherit"
+      icon="keyboard_arrow_right"
+      onClick={[Function]}
+      tooltip="Go Foward a Month"
+    />
+  </div>
+  <span
+    className="calendarToolbarLabel"
+  >
+    <DateSelector
+      customViewOn={false}
+      numberOfDays={30}
+      onNavigate={[MockFunction]}
+      selectedDay={"2019-01-01T12:00:00.000Z"}
+      selectedView="month"
+      userTimezone="UTC"
+    />
+  </span>
+  <div
+    className="calendarToolbarViewControlsContainer"
+  >
+    <div
+      className="calendarToolbarViewControls"
+    >
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlUnselected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="day"
+        onClick={[Function]}
+        type="submit"
+      >
+        Day
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlUnselected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="week"
+        onClick={[Function]}
+        type="submit"
+      >
+        Week
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlSelected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="month"
+        onClick={[Function]}
+        type="submit"
+      >
+        Month
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlUnselected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="customViewButton"
+        onClick={[Function]}
+        type="submit"
+      >
+        CUSTOM
+      </WithStyles(ForwardRef(Button))>
+    </div>
+    <WithStyles(ForwardRef(FormControl))
+      className="calendarToolbarViewSelect"
+    >
+      <WithStyles(ForwardRef(InputLabel))>
+        View
+      </WithStyles(ForwardRef(InputLabel))>
+      <WithStyles(ForwardRef(Select))
+        classes={
+          Object {
+            "select": "calendarToolbarViewSelectInput",
+          }
+        }
+        data-cy="calendarToolbarViewSelect"
+        label="month"
+        onChange={[Function]}
+        value="month"
+      >
+        <WithStyles(ForwardRef(MenuItem))
+          key="day"
+          value="day"
+        >
+          Day
+        </WithStyles(ForwardRef(MenuItem))>
+        <WithStyles(ForwardRef(MenuItem))
+          key="week"
+          value="week"
+        >
+          Week
+        </WithStyles(ForwardRef(MenuItem))>
+        <WithStyles(ForwardRef(MenuItem))
+          key="month"
+          value="month"
+        >
+          Month
+        </WithStyles(ForwardRef(MenuItem))>
+      </WithStyles(ForwardRef(Select))>
+    </WithStyles(ForwardRef(FormControl))>
+    <WithStyles(ForwardRef(TextField))
+      InputLabelProps={
+        Object {
+          "shrink": true,
+        }
+      }
+      InputProps={
+        Object {
+          "data-cy": "customDateRangeInput",
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="end"
+          >
+            Days
+          </WithStyles(ForwardRef(InputAdornment))>,
+        }
+      }
+      className="customDateRangeInput"
+      error={false}
+      label="Custom Date Range"
+      onChange={[Function]}
+      type="number"
+      value={30}
+    />
+  </div>
+</div>
+`;
+
+exports[`ToolbarStateless month view clicked 1`] = `
+<div
+  className="calendarToolbarContainer"
+  data-cy="calendarToolbarContainer"
+>
+  <div
+    className="calendarToolbarNavigation"
+  >
+    <WithStyles(WrappedIcon)
+      color="inherit"
+      icon="keyboard_arrow_left"
+      onClick={[Function]}
+      tooltip="Go Back a Month"
+    />
+    <WithStyles(ForwardRef(Button))
+      className="calendarToolbarViewControlUnselected"
+      color="inherit"
+      disableFocusRipple={true}
+      disableRipple={true}
+      onClick={[Function]}
+      type="submit"
+    >
+      TODAY
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(WrappedIcon)
+      color="inherit"
+      icon="keyboard_arrow_right"
+      onClick={[Function]}
+      tooltip="Go Foward a Month"
+    />
+  </div>
+  <span
+    className="calendarToolbarLabel"
+  >
+    <DateSelector
+      customViewOn={false}
+      numberOfDays={30}
+      onNavigate={[MockFunction]}
+      selectedDay={"2019-01-01T12:00:00.000Z"}
+      selectedView="month"
+      userTimezone="UTC"
+    />
+  </span>
+  <div
+    className="calendarToolbarViewControlsContainer"
+  >
+    <div
+      className="calendarToolbarViewControls"
+    >
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlUnselected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="day"
+        onClick={[Function]}
+        type="submit"
+      >
+        Day
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlUnselected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="week"
+        onClick={[Function]}
+        type="submit"
+      >
+        Week
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlSelected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="month"
+        onClick={[Function]}
+        type="submit"
+      >
+        Month
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlUnselected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="customViewButton"
+        onClick={[Function]}
+        type="submit"
+      >
+        CUSTOM
+      </WithStyles(ForwardRef(Button))>
+    </div>
+    <WithStyles(ForwardRef(FormControl))
+      className="calendarToolbarViewSelect"
+    >
+      <WithStyles(ForwardRef(InputLabel))>
+        View
+      </WithStyles(ForwardRef(InputLabel))>
+      <WithStyles(ForwardRef(Select))
+        classes={
+          Object {
+            "select": "calendarToolbarViewSelectInput",
+          }
+        }
+        data-cy="calendarToolbarViewSelect"
+        label="month"
+        onChange={[Function]}
+        value="month"
+      >
+        <WithStyles(ForwardRef(MenuItem))
+          key="day"
+          value="day"
+        >
+          Day
+        </WithStyles(ForwardRef(MenuItem))>
+        <WithStyles(ForwardRef(MenuItem))
+          key="week"
+          value="week"
+        >
+          Week
+        </WithStyles(ForwardRef(MenuItem))>
+        <WithStyles(ForwardRef(MenuItem))
+          key="month"
+          value="month"
+        >
+          Month
+        </WithStyles(ForwardRef(MenuItem))>
+      </WithStyles(ForwardRef(Select))>
+    </WithStyles(ForwardRef(FormControl))>
+    <WithStyles(ForwardRef(TextField))
+      InputLabelProps={
+        Object {
+          "shrink": true,
+        }
+      }
+      InputProps={
+        Object {
+          "data-cy": "customDateRangeInput",
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="end"
+          >
+            Days
+          </WithStyles(ForwardRef(InputAdornment))>,
+        }
+      }
+      className="customDateRangeInput"
+      error={false}
+      label="Custom Date Range"
+      onChange={[Function]}
+      type="number"
+      value={30}
+    />
+  </div>
+</div>
+`;
+
+exports[`ToolbarStateless views buttons do not show up when views prop is empty array 1`] = `
+<div
+  className="calendarToolbarContainer"
+  data-cy="calendarToolbarContainer"
+>
+  <div
+    className="calendarToolbarNavigation"
+  >
+    <WithStyles(WrappedIcon)
+      color="inherit"
+      icon="keyboard_arrow_left"
+      onClick={[Function]}
+      tooltip="Go Back a Month"
+    />
+    <WithStyles(ForwardRef(Button))
+      className="calendarToolbarViewControlUnselected"
+      color="inherit"
+      disableFocusRipple={true}
+      disableRipple={true}
+      onClick={[Function]}
+      type="submit"
+    >
+      TODAY
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(WrappedIcon)
+      color="inherit"
+      icon="keyboard_arrow_right"
+      onClick={[Function]}
+      tooltip="Go Foward a Month"
+    />
+  </div>
+  <span
+    className="calendarToolbarLabel"
+  >
+    <DateSelector
+      customViewOn={false}
+      numberOfDays={30}
+      onNavigate={[MockFunction]}
+      selectedDay={"2019-01-01T12:00:00.000Z"}
+      selectedView="month"
+      userTimezone="UTC"
+    />
+  </span>
+  <div
+    className="calendarToolbarViewControlsContainer"
+  >
+    <WithStyles(ForwardRef(TextField))
+      InputLabelProps={
+        Object {
+          "shrink": true,
+        }
+      }
+      InputProps={
+        Object {
+          "data-cy": "customDateRangeInput",
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="end"
+          >
+            Days
+          </WithStyles(ForwardRef(InputAdornment))>,
+        }
+      }
+      className="customDateRangeInput"
+      error={false}
+      label="Custom Date Range"
+      onChange={[Function]}
+      type="number"
+      value={30}
+    />
+  </div>
+</div>
+`;
+
+exports[`ToolbarStateless week view clicked 1`] = `
+<div
+  className="calendarToolbarContainer"
+  data-cy="calendarToolbarContainer"
+>
+  <div
+    className="calendarToolbarNavigation"
+  >
+    <WithStyles(WrappedIcon)
+      color="inherit"
+      icon="keyboard_arrow_left"
+      onClick={[Function]}
+      tooltip="Go Back a Month"
+    />
+    <WithStyles(ForwardRef(Button))
+      className="calendarToolbarViewControlUnselected"
+      color="inherit"
+      disableFocusRipple={true}
+      disableRipple={true}
+      onClick={[Function]}
+      type="submit"
+    >
+      TODAY
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(WrappedIcon)
+      color="inherit"
+      icon="keyboard_arrow_right"
+      onClick={[Function]}
+      tooltip="Go Foward a Month"
+    />
+  </div>
+  <span
+    className="calendarToolbarLabel"
+  >
+    <DateSelector
+      customViewOn={false}
+      numberOfDays={30}
+      onNavigate={[MockFunction]}
+      selectedDay={"2019-01-01T12:00:00.000Z"}
+      selectedView="month"
+      userTimezone="UTC"
+    />
+  </span>
+  <div
+    className="calendarToolbarViewControlsContainer"
+  >
+    <div
+      className="calendarToolbarViewControls"
+    >
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlUnselected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="day"
+        onClick={[Function]}
+        type="submit"
+      >
+        Day
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlUnselected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="week"
+        onClick={[Function]}
+        type="submit"
+      >
+        Week
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlSelected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="month"
+        onClick={[Function]}
+        type="submit"
+      >
+        Month
+      </WithStyles(ForwardRef(Button))>
+      <WithStyles(ForwardRef(Button))
+        className="calendarToolbarViewControlUnselected"
+        color="inherit"
+        disableFocusRipple={true}
+        disableRipple={true}
+        key="customViewButton"
+        onClick={[Function]}
+        type="submit"
+      >
+        CUSTOM
+      </WithStyles(ForwardRef(Button))>
+    </div>
+    <WithStyles(ForwardRef(FormControl))
+      className="calendarToolbarViewSelect"
+    >
+      <WithStyles(ForwardRef(InputLabel))>
+        View
+      </WithStyles(ForwardRef(InputLabel))>
+      <WithStyles(ForwardRef(Select))
+        classes={
+          Object {
+            "select": "calendarToolbarViewSelectInput",
+          }
+        }
+        data-cy="calendarToolbarViewSelect"
+        label="month"
+        onChange={[Function]}
+        value="month"
+      >
+        <WithStyles(ForwardRef(MenuItem))
+          key="day"
+          value="day"
+        >
+          Day
+        </WithStyles(ForwardRef(MenuItem))>
+        <WithStyles(ForwardRef(MenuItem))
+          key="week"
+          value="week"
+        >
+          Week
+        </WithStyles(ForwardRef(MenuItem))>
+        <WithStyles(ForwardRef(MenuItem))
+          key="month"
+          value="month"
+        >
+          Month
+        </WithStyles(ForwardRef(MenuItem))>
+      </WithStyles(ForwardRef(Select))>
+    </WithStyles(ForwardRef(FormControl))>
+    <WithStyles(ForwardRef(TextField))
+      InputLabelProps={
+        Object {
+          "shrink": true,
+        }
+      }
+      InputProps={
+        Object {
+          "data-cy": "customDateRangeInput",
+          "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+            position="end"
+          >
+            Days
+          </WithStyles(ForwardRef(InputAdornment))>,
+        }
+      }
+      className="customDateRangeInput"
+      error={false}
+      label="Custom Date Range"
+      onChange={[Function]}
+      type="number"
+      value={30}
+    />
+  </div>
+</div>
+`;

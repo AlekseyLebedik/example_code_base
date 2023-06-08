@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`cell renderer actionsRenderer with group actionsRenderer result should match snapshot 1`] = `""`;
+
+exports[`cell renderer actionsRenderer without group actionsRenderer result should match snapshot 1`] = `
+<withRouter(ActionsPanel)
+  events="foo"
+  record={
+    Object {
+      "environment": "dev",
+      "id": 45,
+      "name": "foo",
+      "titleID": 5816,
+    }
+  }
+/>
+`;
+
+exports[`cell renderer statusTableFieldRenderer statusTableFieldRenderer result should match snapshot 1`] = `
+<StatusTableField
+  status="123"
+/>
+`;
+
+exports[`cell renderer testNameRenderer testNameRenderer result should match snapshot 1`] = `
+<Link
+  to="/abtesting/view/5816/dev/45"
+>
+  foo
+</Link>
+`;

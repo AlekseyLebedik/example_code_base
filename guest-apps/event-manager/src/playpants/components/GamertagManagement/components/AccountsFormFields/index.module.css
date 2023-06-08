@@ -1,0 +1,49 @@
+.container {
+  padding: 20px;
+  margin: 10px;
+}
+
+.titleContent {
+  text-transform: capitalize;
+
+  font-weight: bold;
+}
+
+.accountSearchField {
+  position: relative;
+}
+
+.accountSearchField:hover .infoButton {
+  opacity: 0.6;
+}
+
+.infoButton {
+  position: absolute;
+  right: 14px;
+  top: -6px;
+  opacity: 0.2;
+  transition: opacity 140ms ease 140ms;
+}
+
+.addAccountContainer {
+  display: grid;
+  grid-template-columns: 160px 1fr 160px;
+  padding-top: 20px;
+  padding-left: 75px;
+}
+
+.addAccountContainer > div {
+  padding-right: 10px;
+}
+
+.addAccountBtn {
+  margin-top: 10px;
+  height: 28px;
+  width: 100%;
+  padding: 0 10px !important;
+  border-radius: 24px !important;
+}
+.btnPrimary {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}

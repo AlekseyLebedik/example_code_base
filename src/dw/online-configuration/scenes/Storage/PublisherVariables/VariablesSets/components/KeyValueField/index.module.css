@@ -1,0 +1,44 @@
+.container {
+  margin: 16px;
+}
+
+.key-value-field__container {
+  position: relative;
+  width: calc(100% - 20px);
+  margin: 15px 10px;
+  padding: 5px 0 15px 0;
+}
+
+.row {
+  display: flex;
+}
+
+.headers {
+  composes: row;
+  font-weight: 700;
+  min-height: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  align-items: flex-end;
+}
+
+.empty {
+  display: block;
+  padding-top: 10px;
+
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.box {
+  word-break: break-all;
+  word-wrap: break-word;
+  flex-grow: 1;
+}
+
+.key {
+  composes: box;
+}
+
+.value {
+  composes: box;
+  margin-left: 5px;
+}

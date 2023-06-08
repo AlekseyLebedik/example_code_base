@@ -1,0 +1,32 @@
+.card {
+  background-color: inherit !important;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+.cardBody {
+  padding: 7px 15px !important;
+  display: flex;
+}
+
+.activityName {
+  font-weight: bold;
+}
+
+.selected {
+  background-color: #4ac0f1 !important;
+  color: white;
+}
+
+.titleIcons {
+  margin: auto;
+  max-width: 40%;
+}
+
+.highlightIcon {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.deleteActivity {
+  margin-left: auto;
+}

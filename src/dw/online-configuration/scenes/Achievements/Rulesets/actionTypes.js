@@ -1,0 +1,55 @@
+export const RULESETS_FETCH = 'achievements/RULESETS_FETCH';
+export const RULESETS_FETCH_SUCCESS = 'achievements/RULESETS_FETCH_SUCCESS';
+
+export const ACTIVE_RULESETS_FETCH = 'achievements/ACTIVE_RULESETS_FETCH';
+
+export const RULESET_DETAIL_FETCH = 'achievements/RULESET_DETAIL_FETCH';
+export const RULESET_DETAIL_FETCH_SUCCESS =
+  'achievements/RULESET_DETAIL_FETCH_SUCCESS';
+
+export const RULESETS_LIST_ITEM_ONCLICK =
+  'achievements/RULESETS_LIST_ITEM_ONCLICK';
+
+export const RULESETS_LIST_RESET_SELECTED_RULESET =
+  'achievements/RULESETS_LIST_RESET_SELECTED_RULESET';
+
+/* UPLOAD */
+export const RULESET_UPLOAD = 'achievements/RULESET_UPLOAD';
+export const RULESET_UPLOAD_SUCCESS = 'achievements/RULESET_UPLOAD_SUCCESS';
+export const RULESET_UPLOAD_FAILED = 'achievements/RULESET_UPLOAD_FAILED';
+
+export const RULESET_OPEN_UPLOAD_MODAL =
+  'achievements/RULESET_OPEN_UPLOAD_MODAL';
+export const RULESET_CLOSE_UPLOAD_MODAL =
+  'achievements/RULESET_CLOSE_UPLOAD_MODAL';
+
+/* PROPAGATE */
+
+export const RULESET_PROPAGATE = 'achievements/RULESET_PROPAGATE';
+export const RULESET_PROPAGATE_SUCCESS =
+  'achievements/RULESET_PROPAGATE_SUCCESS';
+export const RULESET_PROPAGATE_FAILED = 'achievements/RULESET_PROPAGATE_FAILED';
+
+export const RULESET_OPEN_PROPAGATE_MODAL =
+  'achievements/RULESET_OPEN_PROPAGATE_MODAL';
+export const RULESET_CLOSE_PROPAGATE_MODAL =
+  'achievements/RULESET_CLOSE_PROPAGATE_MODAL';
+
+/* DELETE */
+
+export const RULESET_DELETE = 'achievements/RULESET_DELETE';
+export const RULESET_DELETE_SUCCESS = 'achievements/RULESET_DELETE_SUCCESS';
+
+/* ACTIVATE */
+
+export const RULESETS_ACTIVATE = 'achievements/RULESETS_ACTIVATE';
+
+/* CHECK */
+
+export const RULESET_CHECK = 'achievements/RULESET_CHECK';
+export const RULESET_CHECK_SUCCESS = 'achievements/RULESET_CHECK_SUCCESS';
+export const RULESET_CHECK_FAILED = 'achievements/RULESET_CHECK_FAILED';
+
+export const RULESET_OPEN_CHECK_MODAL = 'achievements/RULESET_OPEN_CHECK_MODAL';
+export const RULESET_CLOSE_CHECK_MODAL =
+  'achievements/RULESET_CLOSE_CHECK_MODAL';

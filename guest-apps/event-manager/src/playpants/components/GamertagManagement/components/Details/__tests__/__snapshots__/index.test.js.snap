@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gamertag groups details renders default properly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <GroupDetails
+    form="GamertagManagementGroup"
+    isLoading={false}
+    match={
+      Object {
+        "params": Object {
+          "id": 1,
+        },
+      }
+    }
+    onUpdateGroupAccounts={[Function]}
+    onUpdateGroupTimewarpSettings={[Function]}
+    selectedItem={null}
+    selectedItemId={null}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getAction": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "isActionDispatched": [Function],
+        "isActionTypeDispatched": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

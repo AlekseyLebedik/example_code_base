@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadField renders custom values 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  error={true}
+>
+  <Upload
+    accept=""
+    action=""
+    beforeUpload={[Function]}
+    className=""
+    data={Object {}}
+    disabled={false}
+    fileList={
+      Array [
+        "YmxhaA==",
+      ]
+    }
+    fullWidth={true}
+    listType="text"
+    multiple={false}
+    name="fileData"
+    onRemove={[Function]}
+    showUploadList={true}
+    supportServerRender={true}
+    type="select"
+  >
+    <div
+      className="upload-file-field-label"
+    >
+      Blah
+    </div>
+    <WithStyles(ForwardRef(Button))
+      label="Select File"
+      variant="contained"
+    >
+      Select File 
+      <WithStyles(ForwardRef(Icon))>
+        file_upload
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(Button))>
+  </Upload>
+  <WithStyles(ForwardRef(FormHelperText))>
+    invalid
+  </WithStyles(ForwardRef(FormHelperText))>
+</WithStyles(ForwardRef(FormControl))>
+`;
+
+exports[`UploadField renders default values 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  error={false}
+>
+  <Upload
+    accept=""
+    action=""
+    beforeUpload={[Function]}
+    className=""
+    data={Object {}}
+    disabled={false}
+    fileList={
+      Array [
+        undefined,
+      ]
+    }
+    listType="text"
+    multiple={false}
+    onRemove={[Function]}
+    showUploadList={true}
+    supportServerRender={true}
+    type="select"
+  >
+    <WithStyles(ForwardRef(Button))
+      label="Select File"
+      variant="contained"
+    >
+      Select File 
+      <WithStyles(ForwardRef(Icon))>
+        file_upload
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(Button))>
+  </Upload>
+</WithStyles(ForwardRef(FormControl))>
+`;

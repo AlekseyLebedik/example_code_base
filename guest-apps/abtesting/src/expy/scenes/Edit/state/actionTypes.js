@@ -1,0 +1,3 @@
+export const FETCH_EDIT_TEST_PENDING = 'expy/edit/FETCH_EDIT_TEST_PENDING';
+export const FETCH_EDIT_TEST_SUCCESS = 'expy/edit/FETCH_EDIT_TEST_SUCCESS';
+export const FETCH_EDIT_TEST_ERROR = 'expy/edit/FETCH_EDIT_TEST_ERROR';

@@ -1,0 +1,20 @@
+.variables-sets__modal-body {
+  height: 451px;
+}
+
+.add-listItem-form {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+.add-listItem-form .key-value-field__container {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.add-listItem-form.variables-sets .override__container {
+  line-height: 12px;
+  color: rgb(244, 67, 54);
+}

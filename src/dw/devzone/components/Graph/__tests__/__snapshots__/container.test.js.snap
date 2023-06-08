@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GraphsStateful component should render GraphsStatelessComponent if store has graphConfig 1`] = `
+<GraphsStatelessComponent
+  clearChart={[MockFunction]}
+  config={
+    Object {
+      "colors": Array [
+        "#7cb5ec",
+        "#90ed7d",
+        "#f7a35c",
+        "#8085e9",
+        "#f15c80",
+        "#e4d354",
+        "#2b908f",
+        "#f45b5b",
+        "#91e8e1",
+      ],
+      "credits": Object {
+        "enabled": false,
+      },
+      "legend": Object {
+        "enabled": true,
+      },
+      "navigator": Object {
+        "adaptToUpdatedData": false,
+        "series": Object {
+          "data": Array [
+            Array [
+              1,
+              2,
+              3,
+              4,
+            ],
+            Array [
+              1536034845768,
+              null,
+            ],
+          ],
+          "lineColor": "#AA4643",
+        },
+      },
+      "plotOptions": Object {
+        "line": Object {
+          "dataGrouping": Object {
+            "enabled": false,
+          },
+          "pointInterval": 600,
+        },
+      },
+      "rangeSelector": Object {
+        "allButtonsEnabled": true,
+        "buttons": Array [
+          Object {
+            "count": 1,
+            "text": "1d",
+            "type": "day",
+          },
+          Object {
+            "count": 1,
+            "text": "1w",
+            "type": "week",
+          },
+          Object {
+            "count": 1,
+            "text": "1m",
+            "type": "month",
+          },
+          Object {
+            "count": 3,
+            "text": "3m",
+            "type": "month",
+          },
+          Object {
+            "count": 6,
+            "text": "6m",
+            "type": "month",
+          },
+          Object {
+            "text": "YTD",
+            "type": "ytd",
+          },
+          Object {
+            "count": 1,
+            "text": "1y",
+            "type": "year",
+          },
+          Object {
+            "text": "All",
+            "type": "all",
+          },
+        ],
+        "inputBoxWidth": 120,
+        "inputDateFormat": "%b %e, %Y %H:%M",
+        "inputDateParser": [Function],
+        "inputEditDateFormat": "%Y-%m-%d %H:%M",
+        "selected": 1,
+      },
+      "series": Array [
+        Object {
+          "color": undefined,
+          "data": Array [
+            Array [
+              1536034845768,
+              null,
+            ],
+          ],
+          "name": undefined,
+        },
+        Object {},
+      ],
+      "time": Object {
+        "getTimezoneOffset": [MockFunction],
+      },
+      "tooltip": Object {
+        "formatter": [Function],
+        "shared": true,
+        "split": false,
+        "style": Object {
+          "width": "240px",
+        },
+        "useHTML": true,
+        "valueDecimals": 0,
+      },
+      "xAxis": Object {
+        "events": Object {
+          "afterSetExtremes": [Function],
+        },
+        "max": 100,
+        "min": 0,
+        "minRange": 3600000,
+        "type": "datetime",
+      },
+      "yAxis": Object {
+        "labels": Object {
+          "formatter": [Function],
+        },
+        "opposite": false,
+      },
+    }
+  }
+  end={null}
+  externalSeries={
+    Array [
+      Object {},
+    ]
+  }
+  getRef={[Function]}
+  getTimezoneOffset={[MockFunction]}
+  graphConfig={
+    Object {
+      "data": Array [
+        Object {
+          "data": Array [],
+          "name": "one",
+        },
+      ],
+      "max": 100,
+      "min": 0,
+      "navigatorData": Array [
+        Array [
+          1,
+          2,
+          3,
+          4,
+        ],
+      ],
+      "series": Array [
+        "one",
+      ],
+    }
+  }
+  onLoad={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "users-online",
+          "/stats/",
+        ],
+        Array [
+          "users-online",
+          "/stats/",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  params={Object {}}
+  series={
+    Array [
+      Object {},
+    ]
+  }
+  setColors={[MockFunction]}
+  source="/stats/"
+  start={null}
+  statName="users-online"
+  timezone="UTC"
+/>
+`;
+
+exports[`GraphsStateful component should render LoadingComponent if graphConfig is null 1`] = `<LoadingComponent />`;

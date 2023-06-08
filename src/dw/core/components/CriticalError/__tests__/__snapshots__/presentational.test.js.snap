@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CriticalErrorStateless renders actions buttons 1`] = `
+<div
+  className="critical-error"
+>
+  <div
+    className="title"
+  >
+    500
+  </div>
+  <div
+    className="subtitle"
+  >
+    Something went wrong
+  </div>
+  <div
+    className="description"
+  >
+    Try again and if the problem persists
+    <br />
+    contact
+     
+    <a>
+      support@support.demonware.net
+    </a>
+  </div>
+  <div
+    className="actions"
+  >
+    <Button
+      onClick={[MockFunction]}
+    >
+      Back
+    </Button>
+    <Button
+      onClick={[MockFunction]}
+    >
+      Retry
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`CriticalErrorStateless renders feature not supported page 1`] = `
+<div
+  className="not-supported-error"
+>
+  <div
+    className="title"
+  >
+    415
+  </div>
+  <div
+    className="subtitle"
+  >
+    Feature not supported
+  </div>
+  <div
+    className="description"
+  >
+    For support contact
+     
+    <a>
+      support@support.demonware.net
+    </a>
+  </div>
+  <div
+    className="actions"
+  >
+    <Button
+      onClick={[MockFunction]}
+    >
+      Go back to previous
+    </Button>
+    <Button
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      to="/"
+    >
+      Go to title info
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`CriticalErrorStateless renders nothing when isVisible is false 1`] = `<Fragment />`;
+
+exports[`CriticalErrorStateless renders the error when isVisible is true 1`] = `
+<div
+  className="critical-error"
+>
+  <div
+    className="title"
+  >
+    500
+  </div>
+  <div
+    className="subtitle"
+  >
+    Something went wrong
+  </div>
+  <div
+    className="description"
+  >
+    Try again and if the problem persists
+    <br />
+    contact
+     
+    <a>
+      support@support.demonware.net
+    </a>
+  </div>
+  <div
+    className="actions"
+  >
+    <Button
+      onClick={[Function]}
+    >
+      Back
+    </Button>
+    <Button
+      onClick={[Function]}
+    >
+      Retry
+    </Button>
+  </div>
+</div>
+`;

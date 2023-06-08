@@ -1,0 +1,50 @@
+export const COLUMNS = [
+  {
+    title: 'Date',
+    dataIndex: 'date',
+    key: 'date',
+    width: '22%',
+  },
+  {
+    title: '#Failures',
+    dataIndex: 'failures',
+    key: 'failures',
+    type: 'number',
+    width: '13%',
+  },
+  {
+    title: '(incl. #Unanswered)',
+    dataIndex: 'unanswered',
+    key: 'unanswered',
+    type: 'number',
+    width: '13%',
+  },
+  {
+    title: '(incl. #Punishments)',
+    dataIndex: 'punishments',
+    key: 'punishments',
+    type: 'number',
+    width: '13%',
+  },
+  {
+    title: 'Correct',
+    dataIndex: 'correct',
+    key: 'correct',
+    type: 'number',
+    width: '13%',
+  },
+  {
+    title: 'Unexpected',
+    dataIndex: 'unexpected',
+    key: 'unexpected',
+    type: 'number',
+    width: '13%',
+  },
+  {
+    title: '%Correct',
+    dataIndex: 'percentCorrect',
+    key: 'percentCorrect',
+    type: 'number',
+    width: '13%',
+  },
+];

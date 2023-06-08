@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GVSTitleEnvSelect renders component 1`] = `
+<GVSTitleEnvSelect
+  className=""
+  excludeCurrent={false}
+  includeGameBuild={true}
+  requiredPermission="gvs_view_configuration"
+  setTargetScopeURI={[Function]}
+  targetScopeURI="cod:iw8:5830"
+/>
+`;

@@ -1,0 +1,254 @@
+.mmtrace-content {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex: 1;
+  padding: 0 10px;
+}
+
+/* .mmtrace-content .left {
+  padding: 10px;
+  padding-top: 20px;
+  width: 450px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+} */
+
+.mmtrace-content .left .ant-tabs {
+  flex-shrink: 0;
+}
+
+.mmtrace-content .login-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* .mmtrace-content .left input {
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 5px;
+
+  border-bottom: 0px solid #aaa !important;
+} */
+
+/* .mmtrace-content .left input:focus,
+.mmtrace-content .left .has-error .ant-input:focus {
+  box-shadow: none;
+} */
+
+/* .mmtrace-content .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+} */
+
+/* .mmtrace-content__container .chart__title {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-right: 10px;
+} */
+/* 
+.mmtrace-content__container .chart__describe {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.mmtrace-content__container .chart__describe .item {
+  margin-right: 10px;
+}
+
+.mmtrace-content__container .active-color {
+  color: #009688;
+}
+
+.mmtrace-content .mmtrace-content__container .chart .progress {
+  position: absolute !important;
+  top: 1px;
+} */
+
+.mmtrace-content .mmtrace-content__container .chart {
+  position: static !important;
+  background-color: #0003001e;
+  border-radius: 10px;
+  padding: 10px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 40px;
+}
+
+.chart .chart__item {
+  margin-right: 10px;
+  display: flex;
+}
+
+.mmtrace-content .mmtrace-content__container .chart .timeline-wrapper {
+  height: 254px;
+}
+
+.mmtrace-content .right-details {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5px;
+  height: 100%;
+}
+
+.mmtrace-content .right-details .mmtrace-event-group {
+  margin-top: 25px;
+  min-width: 400px !important;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.mmtrace-content .right-details .mmtrace-event-group > div {
+  flex: 1;
+  overflow: auto;
+}
+
+.thunderpants-link-container {
+  flex: initial !important;
+  overflow: initial !important;
+  height: 40px;
+  padding: 0 0 0 10px;
+  align-items: centre;
+}
+
+.filling-lobbies-wrapper {
+  flex: initial !important;
+  overflow: initial !important;
+  height: 45px;
+  padding: 0 0 0 10px;
+  align-items: right;
+}
+
+.thunderpants-link-container > a {
+  margin: 8px 17px 0 0;
+}
+
+.mmtrace-content .right-details .mmtrace-event-group .ant-table-content {
+}
+
+.mmtrace-content .right-details .mmtrace-detail-view {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.mmtrace-content .right-details .mmtrace-detail-view > div {
+  flex: 1;
+}
+
+.mmtrace-content .right-details .mmtrace-detail-view .ant-card-body {
+  padding: 0;
+}
+
+.mmtrace-content .right-details .mmtrace-detail-view .event-detail .show-more {
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.54);
+
+  font-weight: bold;
+  line-height: 16px;
+}
+
+.mmtrace-content
+  .right-details
+  .mmtrace-detail-view
+  .event-detail
+  .show-more
+  i {
+  position: relative;
+  top: 7px;
+}
+
+.mmtrace-content .ant-table-row {
+  cursor: pointer !important;
+}
+
+.mmtrace-content .in-progress {
+  left: 50%;
+  top: 150px;
+}
+
+.mmtrace-content .ant-calendar-picker {
+  width: 100% !important;
+}
+
+.mmtrace-content .ant-row.ant-form-item {
+  margin-bottom: 10px !important;
+}
+
+.mmtrace-content .ant-row.ant-form-item .button-submit {
+  float: right;
+  margin-top: 5px;
+  position: relative;
+  top: -10px;
+}
+
+.mmtrace-content .ant-table,
+.mmtrace-content .ant-table th,
+.mmtrace-content .ant-table td,
+.mmtrace-content .ant-table tr .mmtrace-content .ant-card-bordered {
+  border: 0 !important;
+}
+
+.mmtrace-content .ant-card-bordered {
+  border: 0;
+}
+
+.mmtrace-content .ant-table-body > table,
+.ant-calendar-footer-btn a.ant-calendar-ok-btn,
+.ant-calendar-selected-day .ant-calendar-date,
+.ant-calendar-selected-day .ant-calendar-date:hover,
+.ant-calendar-today .ant-calendar-date {
+  border-radius: 0 !important;
+}
+
+.ant-calendar-picker-clear,
+.ant-calendar-picker-icon {
+  margin-top: -16px;
+}
+
+.mmtrace-content .left .ant-table-content {
+}
+
+.mmtrace-content .left .ant-tree {
+  width: 100%;
+}
+
+.mmtrace-content .ant-table-column-sort .ant-table-column-sorter {
+  display: none;
+}
+
+.mmtrace-content
+  .source-select
+  .ant-select-auto-complete.ant-select
+  .ant-input {
+  padding-left: 10px;
+}
+
+.mmtrace-content .barchart-wrapper .label {
+}
+
+.mmtrace-content .barchart-wrapper .packet-loss {
+  font-weight: 900;
+}
+
+.mmtrace-content .ant-tree li .ant-tree-node-content-wrapper {
+  white-space: -moz-pre-wrap; /* Mozilla */
+  white-space: -hp-pre-wrap; /* HP printers */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: pre-wrap; /* CSS 2.1 */
+  white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word; /* IE */
+  word-break: break-all;
+  height: auto;
+}

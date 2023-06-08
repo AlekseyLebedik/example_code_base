@@ -1,0 +1,8 @@
+export const IMPS_FETCH = 'imp/IMPS_FETCH';
+export const IMPS_FETCH_SUCCESS = 'imp/IMPS_FETCH_SUCCESS';
+
+export const IMP_UPLOAD = 'imp/IMP_UPLOAD';
+export const IMP_UPLOAD_SUCCESS = 'imp/IMP_UPLOAD_SUCCESS';
+
+export const IMP_OPEN_UPLOAD_MODAL = 'imp/IMP_OPEN_UPLOAD_MODAL';
+export const IMP_CLOSE_UPLOAD_MODAL = 'imp/IMP_CLOSE_UPLOAD_MODAL';

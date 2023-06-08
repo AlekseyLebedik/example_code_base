@@ -1,0 +1,62 @@
+.loadingSourceIcon {
+  margin: 0px 5px !important;
+}
+
+.list {
+  padding-top: 2.5px !important;
+  padding-bottom: 2.5px !important;
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.listItem {
+  padding: 0 !important;
+  margin-left: 20px;
+  margin-bottom: -5px;
+}
+
+.listItemIcon {
+  min-width: unset !important;
+}
+
+.listSubheader {
+  display: flex;
+  margin-bottom: -5px;
+}
+
+.listSubheader label {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.listSubheader label span {
+  font-weight: 600;
+  font-size: 0.775rem;
+}
+
+.listItemText {
+  margin-top: 2.5px !important;
+}
+
+.checkbox {
+  padding: 2.5px !important;
+}
+
+.radioButton {
+  margin-left: auto !important;
+  padding: 0px !important;
+}
+.showAllButton {
+  color: #4ac0f1 !important;
+  padding: 0px !important;
+  margin-left: -2px !important;
+  font-weight: 700 !important;
+}
+.subListItem {
+  padding: 0px !important;
+  padding-left: 20px !important;
+}
+
+.listItemSubGroup {
+  margin-top: 10px;
+}

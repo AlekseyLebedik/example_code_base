@@ -1,0 +1,103 @@
+.common__search {
+  margin-top: 10px;
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.common__search .suffix-icons {
+  float: left;
+  cursor: pointer;
+}
+
+.common__search .ant-input-prefix {
+  left: 4px;
+  cursor: default;
+}
+
+.common__search .ant-input-suffix button {
+  margin-right: -10px;
+}
+
+.common__search i {
+  cursor: pointer;
+}
+
+.common__search .ant-input-affix-wrapper .ant-input:not(:first-child) {
+  padding-left: 40px;
+}
+
+.common__search .ant-input-affix-wrapper .ant-input-prefix :not(.anticon),
+.common__search .ant-input-affix-wrapper .ant-input-suffix :not(.anticon) {
+  line-height: initial;
+}
+
+.common__search .anticon.anticon-info-circle-o {
+  margin-left: 10px;
+}
+
+.common__search .advanced-search-tag-section {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.common__search .advanced-search-tag-section .mdl-chip__action {
+  margin-right: -2px;
+  padding: 0;
+  width: auto !important;
+  height: auto !important;
+  margin-left: 3px !important;
+}
+
+.common__search .advanced-search-tag-section .mdl-chip__action button span {
+}
+
+.common__search .advanced-search-tag-section .mdl-chip.mdl-chip--deletable {
+  display: flex;
+  align-items: center;
+  z-index: 15;
+  line-height: 12px;
+  height: 22px;
+  margin-right: 5px;
+}
+
+.common__search
+  .advanced-search-tag-section
+  .mdl-chip.mdl-chip--deletable
+  span.mdl-chip__text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+}
+
+.common__search .ant-row.error {
+  position: absolute;
+  top: 45px;
+  left: 5px;
+
+  z-index: 11;
+}
+
+.common__search input {
+  border-radius: 0;
+}
+
+.common__search .ant-input-search-icon {
+  display: none;
+}
+
+.common__search .field-column > div {
+  width: 100% !important;
+  position: relative;
+}
+
+.common__search .add-other-field,
+.common__search .remove-other-field {
+  position: absolute !important;
+  right: 0px;
+  top: 25px;
+}
+
+.common__searchable-list .common__search {
+  margin: 7px 10px 15px 10px;
+}

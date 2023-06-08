@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GVS Configuration Details renders configuration grid component 1`] = `
+<Fragment>
+  <ForwardRef(Portal)
+    container={null}
+  >
+    <WithStyles(ForwardRef(FormControlLabel))
+      control={
+        <WithStyles(ForwardRef(Checkbox))
+          checked={false}
+          color="primary"
+          onChange={[Function]}
+        />
+      }
+      label="show obfuscation names"
+    />
+    <div
+      className="makeStyles-actions-4"
+    >
+      <Select
+        FormHelperTextProps={
+          Object {
+            "className": "makeStyles-lastModifiedAt-10",
+          }
+        }
+        className="makeStyles-draftSelectorRoot-6"
+        classes={
+          Object {
+            "root": "makeStyles-draftSelector-5 makeStyles-draftSelector-11",
+          }
+        }
+        onChange={[Function]}
+        options={
+          Array [
+            Object {
+              "label": "Live Configuration",
+              "value": "--",
+            },
+            Object {
+              "label": "Drafts",
+              "options": Array [],
+            },
+          ]
+        }
+        value="--"
+      />
+      <WithStyles(ForwardRef(Tooltip))
+        title="Edit Configuration"
+      >
+        <WithStyles(ForwardRef(IconButton))
+          className="makeStyles-editBtn-9"
+          onClick={[Function]}
+        >
+          <WithStyles(ForwardRef(Icon))>
+            edit
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(IconButton))>
+      </WithStyles(ForwardRef(Tooltip))>
+    </div>
+  </ForwardRef(Portal)>
+  <div
+    className="makeStyles-filters-2 gvs-configuration-filters"
+  >
+    <SearchField
+      className="makeStyles-quickFilter-3"
+      defaultValue=""
+      delay={200}
+      placeholder="Search Variables"
+      queryParamName="q"
+    />
+  </div>
+  <div
+    className="ag-theme-material makeStyles-gridContainer-1"
+  >
+    <GVSGrid
+      columnDefs={
+        Array [
+          Object {
+            "cellClass": [Function],
+            "cellRenderer": "nameCellRenderer",
+            "field": "key",
+            "filter": "agTextColumnFilter",
+            "headerName": "Name",
+            "minWidth": 300,
+            "pinned": "left",
+            "sort": "asc",
+          },
+          Object {
+            "field": "obfuscatedKey",
+            "headerName": "Obfuscated Name",
+            "initialHide": true,
+            "maxWidth": 170,
+            "minWidth": 170,
+            "pinned": "left",
+            "valueGetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "*",
+            "headerName": "Default Value",
+            "maxWidth": 210,
+            "minWidth": 210,
+            "pinned": "left",
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "atvi",
+            "headerName": "atvi",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "bnet",
+            "headerName": "bnet",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "dedr",
+            "headerName": "dedr",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "hl",
+            "headerName": "hl",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "ps4",
+            "headerName": "ps4",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "ps5",
+            "headerName": "ps5",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "studio",
+            "headerName": "studio",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "ul",
+            "headerName": "ul",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "wecn",
+            "headerName": "wecn",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "xb1",
+            "headerName": "xb1",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "xbsx",
+            "headerName": "xbsx",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+          Object {
+            "cellClass": [Function],
+            "cellEditor": "platformCellEditor",
+            "cellRenderer": "platformCellRenderer",
+            "editable": false,
+            "field": "xone",
+            "headerName": "xone",
+            "maxWidth": 100,
+            "minWidth": 100,
+            "valueGetter": [Function],
+            "valueSetter": [Function],
+          },
+        ]
+      }
+      components={
+        Object {
+          "nameCellRenderer": [Function],
+          "platformCellEditor": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "defaultProps": Object {
+              "value": "",
+            },
+            "propTypes": Object {
+              "data": [Function],
+              "value": [Function],
+            },
+            "render": [Function],
+          },
+          "platformCellRenderer": [Function],
+        }
+      }
+      context={
+        Object {
+          "draftID": null,
+          "editMode": Object {
+            "enabled": false,
+            "toggle": [Function],
+          },
+          "keyTypeMapping": Object {},
+          "nameMapping": Object {
+            "5830": "BO5 CrossPlay Scratch Dev",
+            "IW8": "Call of Duty: Black Ops 5",
+          },
+          "platforms": Array [
+            "*",
+            "atvi",
+            "bnet",
+            "dedr",
+            "hl",
+            "ps4",
+            "ps5",
+            "studio",
+            "ul",
+            "wecn",
+            "xone",
+            "xb1",
+            "xbsx",
+          ],
+          "population": "user:123",
+          "scopeURI": "cod:iw8:5830",
+        }
+      }
+      defaultColDef={
+        Object {
+          "autoHeight": false,
+        }
+      }
+      doesExternalFilterPass={[Function]}
+      getRowId={[Function]}
+      gridOptions={Object {}}
+      isExternalFilterPresent={[Function]}
+      key="cod:iw8:5830-user:123-null-undefined-false"
+      onCellValueChanged={[Function]}
+      onColumnVisible={[Function]}
+      onGridReady={[Function]}
+      onRowDataUpdated={[Function]}
+      rowData={null}
+      suppressClickEdit={true}
+      suppressRowClickSelection={true}
+      suppressRowHoverHighlight={true}
+    />
+  </div>
+</Fragment>
+`;

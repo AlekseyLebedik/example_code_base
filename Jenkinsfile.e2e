@@ -1,0 +1,52 @@
+// vim: set syntax=groovy expandtab shiftwidth=4 tabstop=4 softtabstop=4 autoindent smartindent:
+
+pipeline {
+    agent {
+        label 'centos7'
+    }
+    options {
+        timeout(time: 1, unit: 'HOURS')
+        buildDiscarder(logRotator(numToKeepStr: '150'))
+        timestamps()
+        ansiColor('xterm')
+    }
+    parameters {
+        choice(name: 'testenvironment', choices: ['qa', 'prod'])
+    }
+
+    stages {
+        stage('E2E Tests Frontend') {
+            steps {
+                sh 'make install'
+                script {
+                    if (params.testenvironment == 'qa') {
+                        echo 'Running QA tests'
+                        sh 'make e2e-qa-proxy'
+                    } else if (params.testenvironment == 'prod') {
+                        echo 'Running prod tests'
+                        sh 'make e2e-prod-proxy'
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            junit 'tests/*.xml'
+            archiveArtifacts artifacts:'cypress/screenshots/**/*.png', allowEmptyArchive:true
+            archiveArtifacts artifacts:'cypress/videos/*.mp4', allowEmptyArchive:true
+            script {
+                // Build triggered by automation, report the status separately
+                def userCause = currentBuild.getBuildCauses('hudson.model.Cause$UserIdCause')
+                if (!userCause) {
+                    def teamSlackChannel = "#products-devzone-ext"
+                    slackBuildReport(teamSlackChannel)
+                }
+            }
+        }
+        cleanup {
+            cleanupAgent()
+        }
+    }
+}

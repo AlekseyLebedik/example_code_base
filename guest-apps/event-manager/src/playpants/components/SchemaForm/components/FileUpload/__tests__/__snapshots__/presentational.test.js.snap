@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PyScript FileUploadStateless renders the component correctly if no value received 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  error={false}
+>
+  <Upload
+    accept=""
+    action=""
+    beforeUpload={[Function]}
+    className=""
+    data={Object {}}
+    disabled={false}
+    fileList={Array []}
+    listType="text"
+    multiple={false}
+    onRemove={[Function]}
+    showUploadList={true}
+    supportServerRender={true}
+    type="select"
+  >
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      label="Select File"
+      variant="contained"
+    >
+      Select File 
+      <WithStyles(ForwardRef(Icon))>
+        file_upload
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(Button))>
+  </Upload>
+</WithStyles(ForwardRef(FormControl))>
+`;
+
+exports[`PyScript FileUploadStateless renders the component correctly if value received 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="screenshot"
+  >
+    <span
+      className="fileName"
+    >
+      <WithStyles(ForwardRef(Button))
+        disabled={true}
+      >
+        screenshot
+      </WithStyles(ForwardRef(Button))>
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>
+  <span
+    className="fileSize"
+  >
+    5 KB
+  </span>
+</Fragment>
+`;

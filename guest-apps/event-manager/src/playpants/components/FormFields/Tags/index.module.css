@@ -1,0 +1,22 @@
+.tagsContainer {
+  width: 100%;
+}
+
+.chips {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 5px 5px 5px;
+}
+
+.chip {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 28px;
+  margin: 1.5px;
+}
+
+.chip svg {
+  background-color: transparent;
+}

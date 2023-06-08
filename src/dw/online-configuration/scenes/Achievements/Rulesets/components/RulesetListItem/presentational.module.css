@@ -1,0 +1,60 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 6fr 3fr;
+  padding: 5px 10px 5px 0;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  align-items: center;
+}
+
+.checkbox {
+  grid-column: 1;
+  justify-self: center;
+}
+
+.selected {
+  color: #ffff;
+  background-color: #4ac0f1 !important;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 3px 4px 0 rgba(0, 0, 0, 0.12),
+    0 1px 8px 0 rgba(0, 0, 0, 0.2);
+  border-bottom: 0px;
+  z-index: 1;
+}
+
+.checkboxSelected {
+  color: #ffff !important;
+}
+
+.checkboxNormal {
+  padding-left: 8px;
+}
+
+.label {
+  grid-column: 2;
+
+  word-break: break-all;
+}
+
+.status {
+  grid-column: 3;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.Active {
+  color: #87d37c;
+}
+
+.Uploaded {
+  color: #d35400;
+}
+
+.Validated {
+  color: #f89406;
+}
+
+.selected .Active,
+.selected .Uploaded,
+.selected .Validated {
+  color: #000000;
+}

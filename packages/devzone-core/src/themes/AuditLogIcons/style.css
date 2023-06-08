@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'DZ-Audit-Log';
+  src: url('fonts/DZ-Audit-Log.eot?us0h10');
+  src: url('fonts/DZ-Audit-Log.eot?us0h10#iefix') format('embedded-opentype'),
+    url('fonts/DZ-Audit-Log.ttf?us0h10') format('truetype'),
+    url('fonts/DZ-Audit-Log.woff?us0h10') format('woff'),
+    url('fonts/DZ-Audit-Log.svg?us0h10#DZ-Audit-Log') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='al-icon-'],
+[class*=' al-icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'DZ-Audit-Log' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.al-icon-DW-Audit-Log:before {
+  content: '\e900';
+}

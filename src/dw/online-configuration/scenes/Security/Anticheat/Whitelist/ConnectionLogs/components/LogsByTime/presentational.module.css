@@ -1,0 +1,18 @@
+.options {
+  display: flex;
+  position: relative;
+  left: -12px;
+}
+
+.ascending {
+  width: 120px !important;
+  margin-right: 15px;
+}
+
+.time {
+  margin-right: 15px;
+}
+
+.table :global(.ant-table-wrapper) {
+  margin-left: 10px;
+}

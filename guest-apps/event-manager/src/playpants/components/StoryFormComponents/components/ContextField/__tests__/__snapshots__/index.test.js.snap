@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContextField renders the ContextField correctly 1`] = `
+<Field
+  SelectProps={
+    Object {
+      "endAdornment": <WithStyles(ForwardRef(InputAdornment)) />,
+    }
+  }
+  component={[Function]}
+  disabled={false}
+  fullWidth={true}
+  label="Context"
+  name="context"
+  onChange={[MockFunction]}
+  placeholder="Context"
+  required={true}
+  validate={
+    Array [
+      [Function],
+    ]
+  }
+/>
+`;

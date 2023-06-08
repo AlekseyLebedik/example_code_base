@@ -1,0 +1,101 @@
+.container {
+  overflow-y: hidden;
+  display: flex;
+  flex-flow: column;
+}
+
+.container > div:first-child {
+  padding-right: 20px;
+}
+
+.graphs {
+  padding: 5px 20px 20px 20px;
+  overflow-y: auto;
+}
+
+.graphs > div {
+  margin-top: 30px;
+}
+
+.graphs > div:first-child {
+  margin-top: 0;
+}
+
+.header {
+  display: flex;
+}
+
+.name {
+  padding-left: 10px;
+  margin: 6px 0;
+}
+
+.name-short {
+  composes: name;
+  margin-top: 4px;
+}
+
+.chips {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 0 5px 20px;
+  z-index: 1;
+}
+
+.chips img {
+  filter: brightness(0) invert(1);
+}
+
+.icon {
+  opacity: 0.7;
+  align-self: center;
+}
+
+.chip {
+  margin: 10px 6px 0 0;
+}
+
+.printBtn {
+  margin-bottom: -10px !important;
+}
+
+.avatar {
+}
+
+@media (max-width: 768px) {
+  .container > div:first-child {
+    padding-right: 0;
+  }
+  .chips {
+    padding-left: 5px;
+  }
+
+  .chip {
+    margin-top: 5px !important;
+    height: 26px !important;
+    border-radius: 13px !important;
+  }
+
+  .chip > span {
+    font-weight: normal !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .graphs {
+    padding: 0;
+  }
+
+  .active-marker {
+    margin-right: -9px;
+  }
+
+  .avatar {
+    width: 26px !important;
+    height: 26px !important;
+  }
+  .select-all {
+    height: 26px !important;
+  }
+}

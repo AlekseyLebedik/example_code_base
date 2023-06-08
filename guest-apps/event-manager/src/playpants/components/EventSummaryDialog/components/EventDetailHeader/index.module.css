@@ -1,0 +1,17 @@
+.header {
+  margin-bottom: 10px;
+  width: 450px;
+  max-height: 96px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.secondaryTypography {
+  white-space: pre-line;
+}
+
+.avatarIcon {
+  display: none;
+}

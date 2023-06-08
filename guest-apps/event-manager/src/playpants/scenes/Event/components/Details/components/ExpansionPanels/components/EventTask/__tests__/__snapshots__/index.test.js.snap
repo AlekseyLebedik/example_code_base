@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventTask loads the EventTask component correctly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={6}
+  >
+    Task
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={6}
+  >
+    <WithStyles(ForwardRef(Badge))
+      invisible={true}
+      variant="dot"
+    >
+      <WithStyles(ForwardRef(Tooltip))
+        title="test"
+      >
+        <div
+          className=""
+        >
+          title state
+        </div>
+      </WithStyles(ForwardRef(Tooltip))>
+    </WithStyles(ForwardRef(Badge))>
+  </WithStyles(ForwardRef(Grid))>
+</Fragment>
+`;

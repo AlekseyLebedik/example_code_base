@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColorPicker renders default values 1`] = `
+<StatelessColorPicker
+  colorSettings={
+    Array [
+      Object {
+        "color": "#e16161",
+        "title": 1,
+      },
+    ]
+  }
+  currentProject={
+    Object {
+      "contentTypeId": 19,
+      "id": 1,
+      "name": "GTR Project",
+      "titles": Array [
+        Object {
+          "environments": Array [
+            Object {
+              "contentTypeId": 8,
+              "id": 2,
+              "shortType": "cert",
+              "type": "Certification",
+              "usesABTesting": true,
+              "usesAE": true,
+              "usesAsyncMMP": false,
+              "usesLegacyStore": false,
+              "usesMarketplace": true,
+              "usesObjectStore": true,
+            },
+            Object {
+              "contentTypeId": 8,
+              "id": 1,
+              "shortType": "dev",
+              "type": "Development",
+              "usesABTesting": true,
+              "usesAE": true,
+              "usesAsyncMMP": false,
+              "usesLegacyStore": false,
+              "usesMarketplace": true,
+              "usesObjectStore": true,
+            },
+          ],
+          "id": 1,
+          "name": "GTR-PS3",
+          "platform": "PS3",
+        },
+      ],
+    }
+  }
+  handleAccept={[Function]}
+  handleCancel={[Function]}
+  handleChangeComplete={[Function]}
+  handleRowSelection={[Function]}
+  open={false}
+  projectColors={
+    Array [
+      Object {
+        "color": "#000000",
+        "name": "test",
+        "title": 1,
+      },
+      Object {
+        "color": "#FFFFFF",
+        "name": "target",
+        "title": 3,
+      },
+    ]
+  }
+  selectedColor={null}
+  updateProjectSetting={[MockFunction]}
+/>
+`;

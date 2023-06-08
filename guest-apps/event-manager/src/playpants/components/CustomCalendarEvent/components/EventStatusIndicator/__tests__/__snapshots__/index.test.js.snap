@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventStatusIndicator rendering() renders the default component snapshot correctly 1`] = `
+<div
+  className="noEndIndicator test iconContainer eventStatusEventListNoTask"
+>
+  <WithStyles(ForwardRef(Avatar))
+    className="envTypeIcon"
+  >
+    D
+  </WithStyles(ForwardRef(Avatar))>
+  <WithStyles(ForwardRef(Avatar))
+    className="envTypeIcon"
+  >
+    <PlatformIcon
+      className=""
+      color="#616161"
+      platform="default"
+      size={15}
+    />
+  </WithStyles(ForwardRef(Avatar))>
+  <EventStatusDot
+    classes={
+      Object {
+        "eventManager-active": Object {
+          "backgroundColor": "green",
+        },
+        "eventManager-active-noEnd": Object {
+          "backgroundColor": "transparent !important",
+        },
+      }
+    }
+    taskStatus="failed"
+    type="eventManager"
+  />
+</div>
+`;

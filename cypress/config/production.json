@@ -1,0 +1,23 @@
+{
+  "baseUrl": "https://devzone-studio.demonware.net/",
+  "env": {
+    "backendUrl": "https://devzone-api-gateway.demonware.net",
+    "authUrl": "https://devzone.demonware.net/login/external",
+    "dzBackendUrl": "https://devzone.demonware.net/",
+    "testEnvironment": "prod",
+    "titleEnv": "dev",
+    "titleId": "5815",
+    "titleEnvId": "3063",
+    "otherTitleEnv": "dev",
+    "otherTitleId": "5815",
+    "otherTitleEnvId": "3063",
+    "titleIdABTesting": "5815",
+    "projectId": "1151",
+    "testUsername": "dz-automated-testing",
+    "testPassword": "gs5ZS-22@cD4KrWH"
+  },
+  "video": false,
+  "chromeWebSecurity": false,
+  "viewportWidth": 1680,
+  "viewportHeight": 1050
+}

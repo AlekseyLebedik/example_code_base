@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`addPermsToPermsObject adds the predicates name by object(target) 1`] = `
+Object {
+  "titleenv.test": Set {
+    "titleenv_predicate",
+    "other_titleenv_predicate",
+  },
+}
+`;
+
+exports[`addPermsToPermsObject adds the predicates name by object(target) 2`] = `
+Object {
+  "project.test": Set {
+    "project_predicate",
+    "other_project_predicate",
+  },
+  "titleenv.test": Set {
+    "titleenv_predicate",
+    "other_titleenv_predicate",
+  },
+}
+`;
+
+exports[`getFilteredRoutes filters routes and sub routes 1`] = `
+Array [
+  Object {
+    "items": Array [
+      Object {
+        "name": "test-stays",
+        "permissionCheck": Object {
+          "ALL": Array [
+            "TEST_PASS",
+          ],
+          "target": "titleenv.current",
+        },
+      },
+    ],
+    "name": "test-stays",
+    "permissionCheck": Object {
+      "ALL": Array [
+        "TEST_PASS",
+      ],
+      "target": "titleenv.current",
+    },
+  },
+  Object {
+    "items": Array [],
+    "name": "test-stays",
+    "permissionCheck": Object {
+      "ALL": Array [
+        "TEST_PASS",
+      ],
+      "target": "titleenv.current",
+    },
+  },
+]
+`;
+
+exports[`getPermissionCheckFromRoute concats permissionCheck from both top level and items 1`] = `
+Array [
+  Object {
+    "ALL": Array [
+      "TEST",
+    ],
+    "target": "test.test",
+  },
+  Object {
+    "ALL": Array [
+      "TEST",
+    ],
+    "target": "test.test",
+  },
+]
+`;
+
+exports[`getPermissionQuestions aggregates predicates per object (target) 1`] = `
+Object {
+  "project.test": Set {
+    "TEST",
+  },
+  "titleenv.test": Set {
+    "TEST",
+    "TEST_TOO",
+  },
+}
+`;

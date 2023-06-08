@@ -1,0 +1,55 @@
+.base {
+  padding: 3px 10px;
+  text-align: center;
+  text-transform: capitalize;
+  word-break: initial;
+}
+
+.config {
+  background-color: fff;
+  color: #009688;
+  line-height: 1.8;
+  width: 100%;
+  border: 1px solid #009688;
+}
+
+.approved {
+  padding: 2px 0px 2px 0px;
+  background-color: #009688;
+  color: #fff;
+  line-height: 1.8;
+  width: 100%;
+  border: 1px solid #009688;
+}
+
+.active {
+  background-color: #ffb74d;
+  color: #4e342e;
+  line-height: 1.8;
+  width: 100%;
+  border: 1px solid #ffb74d;
+}
+
+.analysis {
+  background-color: #4527a0;
+  color: #fff;
+  line-height: 1.8;
+  width: 100%;
+  border: 1px solid #4527a0;
+}
+
+.archived {
+  background-color: #757575;
+  color: #fff;
+  line-height: 1.8;
+  width: 100%;
+  border: 1px solid #757575;
+}
+
+.killed {
+  background-color: #d32f2f;
+  color: #fff;
+  line-height: 1.8;
+  width: 100%;
+  border: 1px solid #d32f2f;
+}

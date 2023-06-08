@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GVS Drafts renders master and details components 1`] = `
+<div
+  className="makeStyles-masterDetails-1"
+>
+  <div
+    className="makeStyles-master-2"
+  >
+    <withRouter(Master) />
+  </div>
+  <div
+    className="makeStyles-details-3"
+  >
+    <Details />
+  </div>
+</div>
+`;

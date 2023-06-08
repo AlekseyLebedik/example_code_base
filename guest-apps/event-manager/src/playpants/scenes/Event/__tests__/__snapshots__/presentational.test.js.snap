@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventStateless renders the EventStateless container correctly 1`] = `<Connect(FeedbackWrapper) />`;

@@ -1,0 +1,31 @@
+.gridWrapper {
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.selector {
+  padding: 10px;
+  padding-bottom: 2px;
+}
+
+.player2FA {
+  padding: 7px 13px;
+}
+
+.playerError {
+  grid-column: 1 / -1;
+}
+
+.emptyGrid {
+  grid-row-start: 2;
+  grid-column: 1 / 5;
+  height: 70vh;
+}
+
+.spanRows {
+  grid-row: span 3;
+}
+
+.accountsErrorContainer {
+  margin: auto;
+}

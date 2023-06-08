@@ -1,0 +1,54 @@
+.nestedItem {
+  padding-left: 32px;
+}
+
+.chips {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: -12px;
+}
+
+.groups {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -3px;
+}
+
+.groups > div {
+  margin-top: 3px;
+  margin-right: 3px;
+}
+
+.group {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 0px;
+
+  font-weight: 500;
+  line-height: inherit;
+  color: rgba(0, 0, 0, 0.65);
+  white-space: normal;
+  text-transform: uppercase;
+}
+
+.group {
+  margin-top: 6px;
+}
+
+.global {
+  padding-top: 5px;
+  border: 0px;
+}
+
+.container {
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.titleContent {
+  text-transform: capitalize;
+
+  font-weight: bold;
+}

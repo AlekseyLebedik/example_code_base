@@ -1,0 +1,1 @@
+export const GROUP_STORY_FORM = 'GROUP_STORY_FORM';

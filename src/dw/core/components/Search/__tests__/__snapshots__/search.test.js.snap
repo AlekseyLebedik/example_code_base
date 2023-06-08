@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search accepts object as initial value and displays clear button 1`] = `
+<div
+  className="common__search"
+>
+  <Search
+    disabled={false}
+    enterButton={false}
+    onChange={[Function]}
+    onSearch={[Function]}
+    prefix={
+      <WithStyles(ForwardRef(Icon))
+        className=""
+        fontSize="small"
+      >
+        search
+      </WithStyles(ForwardRef(Icon))>
+    }
+    size="default"
+    suffix={
+      <div
+        className="suffix-icons"
+      >
+        <Tooltip
+          title="Clear Search"
+        >
+          <IconButton
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(Icon))
+              fontSize="small"
+            >
+              clear
+            </WithStyles(ForwardRef(Icon))>
+          </IconButton>
+        </Tooltip>
+      </div>
+    }
+    value="test"
+  />
+</div>
+`;
+
+exports[`Search accepts string as initial value and displays clear button 1`] = `
+<div
+  className="common__search"
+>
+  <Search
+    disabled={false}
+    enterButton={false}
+    onChange={[Function]}
+    onSearch={[Function]}
+    prefix={
+      <WithStyles(ForwardRef(Icon))
+        className=""
+        fontSize="small"
+      >
+        search
+      </WithStyles(ForwardRef(Icon))>
+    }
+    size="default"
+    suffix={
+      <div
+        className="suffix-icons"
+      >
+        <Tooltip
+          title="Clear Search"
+        >
+          <IconButton
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(Icon))
+              fontSize="small"
+            >
+              clear
+            </WithStyles(ForwardRef(Icon))>
+          </IconButton>
+        </Tooltip>
+      </div>
+    }
+    value="test"
+  />
+</div>
+`;
+
+exports[`Search clears search 1`] = `
+<div
+  className="common__search"
+>
+  <Search
+    disabled={false}
+    enterButton={false}
+    onChange={[Function]}
+    onSearch={[Function]}
+    prefix={
+      <WithStyles(ForwardRef(Icon))
+        className=""
+        fontSize="small"
+      >
+        search
+      </WithStyles(ForwardRef(Icon))>
+    }
+    size="default"
+    suffix={
+      <div
+        className="suffix-icons"
+      >
+        <Tooltip
+          title="Clear Search"
+        >
+          <IconButton
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(Icon))
+              fontSize="small"
+            >
+              clear
+            </WithStyles(ForwardRef(Icon))>
+          </IconButton>
+        </Tooltip>
+      </div>
+    }
+    value="test"
+  />
+</div>
+`;
+
+exports[`Search opens advanced search section 1`] = `
+<div
+  className="common__search"
+>
+  <Search
+    disabled={true}
+    enterButton={false}
+    onChange={[Function]}
+    onSearch={[Function]}
+    placeholder="Fill the fields and press \\"Filter\\" button"
+    prefix={
+      <WithStyles(ForwardRef(Icon))
+        className=""
+        fontSize="small"
+      >
+        search
+      </WithStyles(ForwardRef(Icon))>
+    }
+    size="default"
+    suffix={
+      <div
+        className="suffix-icons"
+      >
+        
+      </div>
+    }
+    value=""
+  />
+  <AdvancedSearch
+    close={[Function]}
+    fields={
+      Array [
+        Object {
+          "key": "logId",
+          "type": "number",
+        },
+        Object {
+          "key": "userName",
+          "type": "string",
+        },
+      ]
+    }
+    isOpen={true}
+    onSearch={[Function]}
+    searchComponent={null}
+    values={Object {}}
+  />
+</div>
+`;
+
+exports[`Search renders default search component 1`] = `
+<div
+  className="common__search"
+>
+  <Search
+    disabled={false}
+    enterButton={false}
+    onChange={[Function]}
+    onSearch={[Function]}
+    prefix={
+      <WithStyles(ForwardRef(Icon))
+        className=""
+        fontSize="small"
+      >
+        search
+      </WithStyles(ForwardRef(Icon))>
+    }
+    size="default"
+    suffix={
+      <div
+        className="suffix-icons"
+      >
+        
+      </div>
+    }
+    value=""
+  />
+</div>
+`;
+
+exports[`Search validates default input if its type is number 1`] = `
+<div
+  className="common__search"
+>
+  <Row
+    className="error"
+    gutter={0}
+  >
+    <Col
+      span={24}
+    >
+      <Icon
+        type="warning"
+      />
+       Should be a number.
+    </Col>
+  </Row>
+  <Search
+    disabled={false}
+    enterButton={false}
+    onChange={[Function]}
+    onSearch={[Function]}
+    prefix={
+      <WithStyles(ForwardRef(Icon))
+        className=""
+        fontSize="small"
+      >
+        search
+      </WithStyles(ForwardRef(Icon))>
+    }
+    size="default"
+    suffix={
+      <div
+        className="suffix-icons"
+      >
+        
+      </div>
+    }
+    value=""
+  />
+</div>
+`;

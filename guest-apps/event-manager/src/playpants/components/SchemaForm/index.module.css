@@ -1,0 +1,55 @@
+.gridContainer {
+  margin: 2% 5% 10%;
+}
+
+.table {
+  width: 100%;
+  height: 100%;
+}
+
+.groupChildRow {
+  background-color: #fafafa;
+}
+
+.inputColumn {
+  display: flex !important;
+  align-items: center;
+}
+
+.inputColumn > div {
+  min-width: 100%;
+  display: flex;
+}
+
+.inputColumn > div > div {
+  width: 75%;
+  margin: auto 0;
+}
+
+.delete {
+  margin-top: -10px;
+}
+
+.fileName {
+  max-width: 55%;
+  overflow: hidden;
+}
+
+.fileName button {
+  padding: 0;
+}
+
+.fileSize {
+  font-weight: bold;
+  margin-left: 3%;
+}
+
+.warningButton {
+  position: absolute;
+  top: 0;
+  margin-left: 50px;
+}
+
+.input {
+  box-sizing: content-box !important;
+}

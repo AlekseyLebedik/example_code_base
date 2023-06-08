@@ -1,0 +1,35 @@
+.eventsList {
+  width: 100%;
+  height: 100%;
+}
+
+.eventsListRow {
+  border-bottom-width: 0 !important;
+  border-top-width: 0 !important;
+}
+
+.eventsListRow:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.noBorder {
+  border: none !important;
+  outline: none;
+}
+
+.eventListCells {
+  cursor: pointer;
+}
+
+.defaultDateField {
+  width: 100%;
+  color: grey;
+}
+
+.dateTimePicker > div,
+.dateTimePicker > label {
+}
+
+.dateTimePicker > label {
+  line-height: 1.25;
+}

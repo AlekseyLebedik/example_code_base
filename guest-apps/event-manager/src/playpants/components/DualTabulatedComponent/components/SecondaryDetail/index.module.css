@@ -1,0 +1,10 @@
+.secondaryDetailContainer {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.appBarProps {
+  background-color: #fff;
+}

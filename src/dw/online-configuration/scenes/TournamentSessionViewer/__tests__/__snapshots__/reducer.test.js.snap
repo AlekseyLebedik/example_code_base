@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TournamentSessionViewer Reducer TOURNAMENT_SESSION_VIEWER_LOBBIES_FETCH returns initial state 1`] = `
+Object {
+  "accounts": Array [],
+  "append": false,
+  "loading": true,
+  "loadingList": false,
+  "lobbies": Array [
+    Object {
+      "id": 1,
+    },
+    Object {
+      "id": 2,
+    },
+  ],
+  "nextPageToken": "",
+  "q": Object {},
+  "tournaments": Array [],
+}
+`;
+
+exports[`TournamentSessionViewer Reducer TOURNAMENT_SESSION_VIEWER_LOBBIES_FETCH_SUCCESS append new entries and ignore existing ones 1`] = `
+Object {
+  "accounts": Array [],
+  "append": false,
+  "loading": false,
+  "loadingList": false,
+  "lobbies": undefined,
+  "nextPageToken": "",
+  "q": Object {},
+  "tournaments": Array [],
+}
+`;
+
+exports[`TournamentSessionViewer Reducer returns default state 1`] = `
+Object {
+  "accounts": Array [],
+  "append": false,
+  "loading": false,
+  "loadingList": false,
+  "lobbies": Array [],
+  "nextPageToken": "",
+  "q": Object {},
+  "tournaments": Array [],
+}
+`;

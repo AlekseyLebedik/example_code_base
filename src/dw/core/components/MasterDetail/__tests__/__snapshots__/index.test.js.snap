@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MasterDetail renders default values 1`] = `
+<div
+  className="master-detail__container"
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Drawer))
+    PaperProps={
+      Object {
+        "elevation": 20,
+      }
+    }
+    anchor="left"
+    classes={
+      Object {
+        "paper": "master__container",
+      }
+    }
+    open={true}
+    variant="persistent"
+  >
+    <Switch>
+      <Route
+        exact={true}
+        path="/1/dev/test-url/"
+        render={[Function]}
+      />
+      <Route
+        path="/1/dev/test-url/:id"
+        render={[Function]}
+      />
+    </Switch>
+  </WithStyles(ForwardRef(Drawer))>
+  <div
+    className="detail__container undefined"
+  >
+    <Expander
+      className=""
+      expanded={false}
+      onClick={[Function]}
+      title={null}
+    />
+    <Expander
+      className=""
+      expanded={true}
+      onClick={[Function]}
+      title="Back to list"
+    />
+    <Switch>
+      <Route
+        exact={true}
+        path="/1/dev/test-url/"
+        render={[Function]}
+      />
+      <Route
+        path="/1/dev/test-url/:id"
+        render={[Function]}
+      />
+    </Switch>
+  </div>
+</div>
+`;
+
+exports[`MasterDetail renders renderDetail expanded 1`] = `
+<div
+  className="master-detail__container"
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <WithStyles(ForwardRef(Drawer))
+    PaperProps={
+      Object {
+        "elevation": 20,
+      }
+    }
+    anchor="left"
+    classes={
+      Object {
+        "paper": "master__container",
+      }
+    }
+    open={false}
+    variant="persistent"
+  >
+    <Switch>
+      <Route
+        exact={true}
+        path="/1/dev/test-url/"
+        render={[Function]}
+      />
+      <Route
+        path="/1/dev/test-url/:id"
+        render={[Function]}
+      />
+    </Switch>
+  </WithStyles(ForwardRef(Drawer))>
+  <div
+    className="detail__container"
+  >
+    <Expander
+      className=""
+      expanded={true}
+      onClick={[Function]}
+      title={null}
+    />
+    <Expander
+      className=""
+      expanded={true}
+      onClick={[Function]}
+      title="Back to list"
+    />
+    <Switch>
+      <Route
+        exact={true}
+        path="/1/dev/test-url/"
+        render={[Function]}
+      />
+      <Route
+        path="/1/dev/test-url/:id"
+        render={[Function]}
+      />
+    </Switch>
+  </div>
+</div>
+`;
+
+exports[`MasterDetail renders renderDetail loading container 1`] = `
+<div
+  className="loading__container"
+>
+  <WithStyles(ForwardRef(CircularProgress)) />
+</div>
+`;

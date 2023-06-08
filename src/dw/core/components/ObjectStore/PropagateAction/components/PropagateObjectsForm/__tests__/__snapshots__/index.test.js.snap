@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropagateObjectsFormForm renders component 1`] = `
+<Form
+  onSubmit={[Function]}
+>
+  <dl
+    className="objectsBlock"
+  >
+    <dd
+      className="obj"
+      key="blah1-0"
+    >
+      blah1
+    </dd>
+    <dd
+      className="obj"
+      key="blah2-1"
+    >
+      blah2
+    </dd>
+  </dl>
+  <Field
+    className="environment"
+    component={[Function]}
+    didabled={false}
+    displayEnvsFromCurrentProject={true}
+    excludeCurrent={true}
+    label="Environment"
+    labelInValue={true}
+    name="environment"
+    sameProjectOnTop={true}
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    change={[Function]}
+    component={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "displayName": "FormValues",
+        "render": [Function],
+      }
+    }
+    endpoint="create_publisher_object"
+    name="context"
+    serviceName="ObjectStore"
+    touch={[Function]}
+    untouch={[Function]}
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "displayName": "FormValues",
+        "render": [Function],
+      }
+    }
+    fullWidth={true}
+    label="Object Group"
+    name="groupID"
+  />
+  <Field
+    component={[Function]}
+    fullWidth={true}
+    label="ACL"
+    name="acl"
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      value="public"
+    >
+      Public
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      value="private"
+    >
+      Private
+    </WithStyles(ForwardRef(MenuItem))>
+  </Field>
+  <p
+    className="warning"
+  >
+    This will overwrite any Objects with the same name in the target environment.
+  </p>
+</Form>
+`;

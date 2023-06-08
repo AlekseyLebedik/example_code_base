@@ -1,0 +1,16 @@
+.container {
+  width: 84%;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+.field {
+  margin-top: 24px !important;
+  margin-bottom: 8px !important;
+}
+.formInput {
+  color: white;
+}
+
+.submitButton {
+  color: rgb(74, 192, 241);
+}

@@ -1,0 +1,50 @@
+.not-supported-error,
+.critical-error {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 13%;
+}
+
+.not-supported-error .title,
+.critical-error .title {
+  font-size: 144px;
+  font-weight: 100;
+  line-height: 169px;
+}
+
+.not-supported-error .title {
+  color: #40b8ef;
+}
+
+.critical-error .title {
+  color: #d0021b;
+}
+
+.not-supported-error .subtitle,
+.critical-error .subtitle {
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 42px;
+}
+
+.not-supported-error .description,
+.critical-error .description {
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+.not-supported-error .description a,
+.critical-error .description a {
+  color: #4ac0f1;
+}
+
+.not-supported-error .actions,
+.critical-error .actions {
+  margin-top: 40px;
+  opacity: 0.54;
+}
+
+.not-supported-error .actions a {
+  overflow: initial !important;
+}

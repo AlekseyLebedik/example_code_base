@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTestLink renders default values 1`] = `
+<MemoryRouter
+  initialEntries={
+    Array [
+      Object {
+        "key": "abtest/test/1",
+        "pathname": "/",
+      },
+    ]
+  }
+>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
+            "hash": "",
+            "key": "abtest/test/1",
+            "pathname": "/",
+            "search": "",
+          },
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "abtest/test/1",
+          "pathname": "/",
+          "search": "",
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ABTestLink
+      data={
+        Object {
+          "id": 1,
+          "title": "test",
+        }
+      }
+      group={
+        Object {
+          "events": Array [
+            Object {
+              "environment": "dev",
+              "id": 1,
+              "name": "test",
+              "titleID": 1,
+            },
+          ],
+        }
+      }
+    >
+      test
+    </ABTestLink>
+  </Router>
+</MemoryRouter>
+`;

@@ -1,0 +1,792 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JSONTree parses json values and renders them as sub-tree 1`] = `
+<div>
+  <Tree
+    autoExpandParent={true}
+    blockNode={false}
+    checkable={false}
+    className="container"
+    expandedKeys={Array []}
+    motion={
+      Object {
+        "motionAppear": false,
+        "motionName": "ant-motion-collapse",
+        "onAppearActive": [Function],
+        "onAppearStart": [Function],
+        "onEnterActive": [Function],
+        "onEnterStart": [Function],
+        "onLeaveActive": [Function],
+        "onLeaveStart": [Function],
+      }
+    }
+    onExpand={[Function]}
+    showIcon={false}
+  >
+    <ContextTreeNode
+      key="json_value"
+      title="json_value"
+    >
+      <ContextTreeNode
+        key="numeric_key"
+        title={
+          <React.Fragment>
+            <span
+              className="key"
+            >
+              numeric_key
+            </span>
+            :
+             
+            1
+          </React.Fragment>
+        }
+      />
+      <ContextTreeNode
+        key="array_key"
+        title={
+          <span
+            className="key"
+          >
+            array_key
+          </span>
+        }
+      >
+        <ContextTreeNode
+          key="array_key-0"
+          title="item1"
+        />
+        <ContextTreeNode
+          key="array_key-1"
+          title="item2"
+        />
+        <ContextTreeNode
+          key="array_key-2"
+          title="item3"
+        />
+      </ContextTreeNode>
+      <ContextTreeNode
+        key="object_key"
+        title="object_key"
+      >
+        <ContextTreeNode
+          key="key1"
+          title={
+            <React.Fragment>
+              <span
+                className="key"
+              >
+                key1
+              </span>
+              :
+               
+              1
+            </React.Fragment>
+          }
+        />
+      </ContextTreeNode>
+    </ContextTreeNode>
+  </Tree>
+</div>
+`;
+
+exports[`JSONTree renders arrays 1`] = `
+<div>
+  <Tree
+    autoExpandParent={true}
+    blockNode={false}
+    checkable={false}
+    className="container"
+    expandedKeys={Array []}
+    motion={
+      Object {
+        "motionAppear": false,
+        "motionName": "ant-motion-collapse",
+        "onAppearActive": [Function],
+        "onAppearStart": [Function],
+        "onEnterActive": [Function],
+        "onEnterStart": [Function],
+        "onLeaveActive": [Function],
+        "onLeaveStart": [Function],
+      }
+    }
+    onExpand={[Function]}
+    showIcon={false}
+  >
+    <ContextTreeNode
+      key="features_enabled"
+      title={
+        <span
+          className="key"
+        >
+          features_enabled
+        </span>
+      }
+    >
+      <ContextTreeNode
+        key="features_enabled-0"
+        title="feature1"
+      />
+      <ContextTreeNode
+        key="features_enabled-1"
+        title={1}
+      >
+        <ContextTreeNode
+          key="name"
+          title={
+            <React.Fragment>
+              <span
+                className="key"
+              >
+                name
+              </span>
+              :
+               
+              feature2
+            </React.Fragment>
+          }
+        />
+        <ContextTreeNode
+          key="scope"
+          title={
+            <React.Fragment>
+              <span
+                className="key"
+              >
+                scope
+              </span>
+              :
+               
+              group1
+            </React.Fragment>
+          }
+        />
+      </ContextTreeNode>
+      <ContextTreeNode
+        key="features_enabled-2"
+        title="121"
+      />
+      <ContextTreeNode
+        key="features_enabled-3"
+        title="true"
+      />
+    </ContextTreeNode>
+  </Tree>
+</div>
+`;
+
+exports[`JSONTree renders complex object 1`] = `
+<div>
+  <Tree
+    autoExpandParent={true}
+    blockNode={false}
+    checkable={false}
+    className="container"
+    expandedKeys={Array []}
+    motion={
+      Object {
+        "motionAppear": false,
+        "motionName": "ant-motion-collapse",
+        "onAppearActive": [Function],
+        "onAppearStart": [Function],
+        "onEnterActive": [Function],
+        "onEnterStart": [Function],
+        "onLeaveActive": [Function],
+        "onLeaveStart": [Function],
+      }
+    }
+    onExpand={[Function]}
+    showIcon={false}
+  >
+    <ContextTreeNode
+      key="is_enabled"
+      title={
+        <React.Fragment>
+          <span
+            className="key"
+          >
+            is_enabled
+          </span>
+          :
+           
+          true
+        </React.Fragment>
+      }
+    />
+    <ContextTreeNode
+      key="feature_name"
+      title={
+        <React.Fragment>
+          <span
+            className="key"
+          >
+            feature_name
+          </span>
+          :
+           
+          feature1
+        </React.Fragment>
+      }
+    />
+    <ContextTreeNode
+      key="last_updated"
+      title={
+        <React.Fragment>
+          <span
+            className="key"
+          >
+            last_updated
+          </span>
+          :
+           
+          13123123
+        </React.Fragment>
+      }
+    />
+    <ContextTreeNode
+      key="permissions"
+      title={
+        <span
+          className="key"
+        >
+          permissions
+        </span>
+      }
+    >
+      <ContextTreeNode
+        key="permissions-0"
+        title="staff"
+      />
+      <ContextTreeNode
+        key="permissions-1"
+        title="group1"
+      />
+      <ContextTreeNode
+        key="permissions-2"
+        title={2}
+      >
+        <ContextTreeNode
+          key="key"
+          title={
+            <React.Fragment>
+              <span
+                className="key"
+              >
+                key
+              </span>
+              :
+               
+              group2
+            </React.Fragment>
+          }
+        />
+        <ContextTreeNode
+          key="scope"
+          title={
+            <React.Fragment>
+              <span
+                className="key"
+              >
+                scope
+              </span>
+              :
+               
+              read-only
+            </React.Fragment>
+          }
+        />
+      </ContextTreeNode>
+      <ContextTreeNode
+        key="permissions-3"
+        title={3}
+      >
+        <ContextTreeNode
+          key="key"
+          title={
+            <React.Fragment>
+              <span
+                className="key"
+              >
+                key
+              </span>
+              :
+               
+              user1
+            </React.Fragment>
+          }
+        />
+        <ContextTreeNode
+          key="scope"
+          title={
+            <span
+              className="key"
+            >
+              scope
+            </span>
+          }
+        >
+          <ContextTreeNode
+            key="scope-0"
+            title="read"
+          />
+          <ContextTreeNode
+            key="scope-1"
+            title="append"
+          />
+        </ContextTreeNode>
+        <ContextTreeNode
+          key="rules"
+          title="rules"
+        >
+          <ContextTreeNode
+            key="name"
+            title={
+              <React.Fragment>
+                <span
+                  className="key"
+                >
+                  name
+                </span>
+                :
+                 
+                rule1
+              </React.Fragment>
+            }
+          />
+          <ContextTreeNode
+            key="config"
+            title="config"
+          >
+            <ContextTreeNode
+              key="not"
+              title="not"
+            >
+              <ContextTreeNode
+                key="group_member"
+                title="group_member"
+              >
+                <ContextTreeNode
+                  key="key"
+                  title={
+                    <React.Fragment>
+                      <span
+                        className="key"
+                      >
+                        key
+                      </span>
+                      :
+                       
+                      group1
+                    </React.Fragment>
+                  }
+                />
+              </ContextTreeNode>
+            </ContextTreeNode>
+          </ContextTreeNode>
+        </ContextTreeNode>
+      </ContextTreeNode>
+    </ContextTreeNode>
+  </Tree>
+</div>
+`;
+
+exports[`JSONTree renders empty object 1`] = `
+<div>
+  <Tree
+    autoExpandParent={true}
+    blockNode={false}
+    checkable={false}
+    className="container"
+    expandedKeys={Array []}
+    motion={
+      Object {
+        "motionAppear": false,
+        "motionName": "ant-motion-collapse",
+        "onAppearActive": [Function],
+        "onAppearStart": [Function],
+        "onEnterActive": [Function],
+        "onEnterStart": [Function],
+        "onLeaveActive": [Function],
+        "onLeaveStart": [Function],
+      }
+    }
+    onExpand={[Function]}
+    showIcon={false}
+  >
+    <ContextTreeNode
+      key="0"
+      title={
+        <React.Fragment>
+          <span
+            className="key"
+          >
+            0
+          </span>
+          :
+           
+          {
+        </React.Fragment>
+      }
+    />
+    <ContextTreeNode
+      key="1"
+      title={
+        <React.Fragment>
+          <span
+            className="key"
+          >
+            1
+          </span>
+          :
+           
+          }
+        </React.Fragment>
+      }
+    />
+  </Tree>
+</div>
+`;
+
+exports[`JSONTree renders nested objects 1`] = `
+<div>
+  <Tree
+    autoExpandParent={true}
+    blockNode={false}
+    checkable={false}
+    className="container"
+    expandedKeys={Array []}
+    motion={
+      Object {
+        "motionAppear": false,
+        "motionName": "ant-motion-collapse",
+        "onAppearActive": [Function],
+        "onAppearStart": [Function],
+        "onEnterActive": [Function],
+        "onEnterStart": [Function],
+        "onLeaveActive": [Function],
+        "onLeaveStart": [Function],
+      }
+    }
+    onExpand={[Function]}
+    showIcon={false}
+  >
+    <ContextTreeNode
+      key="permissions"
+      title="permissions"
+    >
+      <ContextTreeNode
+        key="user1"
+        title={
+          <React.Fragment>
+            <span
+              className="key"
+            >
+              user1
+            </span>
+            :
+             
+            true
+          </React.Fragment>
+        }
+      />
+      <ContextTreeNode
+        key="user2"
+        title={
+          <React.Fragment>
+            <span
+              className="key"
+            >
+              user2
+            </span>
+            :
+             
+            false
+          </React.Fragment>
+        }
+      />
+      <ContextTreeNode
+        key="group_1"
+        title={
+          <React.Fragment>
+            <span
+              className="key"
+            >
+              group_1
+            </span>
+            :
+             
+            true
+          </React.Fragment>
+        }
+      />
+    </ContextTreeNode>
+  </Tree>
+</div>
+`;
+
+exports[`JSONTree renders search 1`] = `
+<div>
+  <TextField
+    InputProps={
+      Object {
+        "endAdornment": null,
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <WithStyles(ForwardRef(Icon))>
+            search
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    onChange={[Function]}
+    value=""
+  />
+  <Tree
+    autoExpandParent={true}
+    blockNode={false}
+    checkable={false}
+    className="container"
+    expandedKeys={Array []}
+    motion={
+      Object {
+        "motionAppear": false,
+        "motionName": "ant-motion-collapse",
+        "onAppearActive": [Function],
+        "onAppearStart": [Function],
+        "onEnterActive": [Function],
+        "onEnterStart": [Function],
+        "onLeaveActive": [Function],
+        "onLeaveStart": [Function],
+      }
+    }
+    onExpand={[Function]}
+    showIcon={false}
+  >
+    <ContextTreeNode
+      key="dc_list"
+      title={
+        <span
+          className="key"
+        >
+          dc_list
+        </span>
+      }
+    >
+      <ContextTreeNode
+        key="dc_list-0"
+        title="dc1"
+      />
+      <ContextTreeNode
+        key="dc_list-1"
+        title="dc2"
+      />
+      <ContextTreeNode
+        key="dc_list-2"
+        title="dc3"
+      />
+    </ContextTreeNode>
+  </Tree>
+</div>
+`;
+
+exports[`JSONTree renders simple object 1`] = `
+<div>
+  <Tree
+    autoExpandParent={true}
+    blockNode={false}
+    checkable={false}
+    className="container"
+    expandedKeys={Array []}
+    motion={
+      Object {
+        "motionAppear": false,
+        "motionName": "ant-motion-collapse",
+        "onAppearActive": [Function],
+        "onAppearStart": [Function],
+        "onEnterActive": [Function],
+        "onEnterStart": [Function],
+        "onLeaveActive": [Function],
+        "onLeaveStart": [Function],
+      }
+    }
+    onExpand={[Function]}
+    showIcon={false}
+  >
+    <ContextTreeNode
+      key="is_enabled"
+      title={
+        <React.Fragment>
+          <span
+            className="key"
+          >
+            is_enabled
+          </span>
+          :
+           
+          true
+        </React.Fragment>
+      }
+    />
+    <ContextTreeNode
+      key="feature_name"
+      title={
+        <React.Fragment>
+          <span
+            className="key"
+          >
+            feature_name
+          </span>
+          :
+           
+          test_key
+        </React.Fragment>
+      }
+    />
+    <ContextTreeNode
+      key="last_updated"
+      title={
+        <React.Fragment>
+          <span
+            className="key"
+          >
+            last_updated
+          </span>
+          :
+           
+          123441412
+        </React.Fragment>
+      }
+    />
+  </Tree>
+</div>
+`;
+
+exports[`JSONTree search filters tree items 1`] = `
+<div>
+  <TextField
+    InputProps={
+      Object {
+        "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="end"
+        >
+          <WithStyles(ForwardRef(IconButton))
+            aria-label="Clear Search"
+            onClick={[Function]}
+          >
+            <WithStyles(ForwardRef(Icon))>
+              clear
+            </WithStyles(ForwardRef(Icon))>
+          </WithStyles(ForwardRef(IconButton))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <WithStyles(ForwardRef(Icon))>
+            search
+          </WithStyles(ForwardRef(Icon))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    onChange={[Function]}
+    value="dc2"
+  />
+  <Tree
+    autoExpandParent={true}
+    blockNode={false}
+    checkable={false}
+    className="container"
+    expandedKeys={
+      Array [
+        "dc_list",
+        "dc_list-0",
+        "dc2",
+      ]
+    }
+    motion={
+      Object {
+        "motionAppear": false,
+        "motionName": "ant-motion-collapse",
+        "onAppearActive": [Function],
+        "onAppearStart": [Function],
+        "onEnterActive": [Function],
+        "onEnterStart": [Function],
+        "onLeaveActive": [Function],
+        "onLeaveStart": [Function],
+      }
+    }
+    onExpand={[Function]}
+    showIcon={false}
+  >
+    <ContextTreeNode
+      key="dc_list"
+      title={
+        <span
+          className="key"
+        >
+          <span>
+            dc_list
+          </span>
+        </span>
+      }
+    >
+      <ContextTreeNode
+        key="dc_list-0"
+        title={
+          <span>
+            
+            <span
+              className="highlighted"
+            >
+              dc2
+            </span>
+            
+          </span>
+        }
+      />
+    </ContextTreeNode>
+  </Tree>
+</div>
+`;
+
+exports[`JSONTree still render broken json as a plain string 1`] = `
+<div>
+  <Tree
+    autoExpandParent={true}
+    blockNode={false}
+    checkable={false}
+    className="container"
+    expandedKeys={Array []}
+    motion={
+      Object {
+        "motionAppear": false,
+        "motionName": "ant-motion-collapse",
+        "onAppearActive": [Function],
+        "onAppearStart": [Function],
+        "onEnterActive": [Function],
+        "onEnterStart": [Function],
+        "onLeaveActive": [Function],
+        "onLeaveStart": [Function],
+      }
+    }
+    onExpand={[Function]}
+    showIcon={false}
+  >
+    <ContextTreeNode
+      key="broken_json_value"
+      title={
+        <React.Fragment>
+          <span
+            className="key"
+          >
+            broken_json_value
+          </span>
+          :
+           
+          {"numeric_key":1,"array_key":["item1","item2":1}}
+        </React.Fragment>
+      }
+    />
+  </Tree>
+</div>
+`;

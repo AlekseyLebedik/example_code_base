@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'ABTestingIcons';
+  src: url('fonts/ABTestingIcons.eot?k2i5jl');
+  src: url('fonts/ABTestingIcons.eot?k2i5jl#iefix') format('embedded-opentype'),
+    url('fonts/ABTestingIcons.ttf?k2i5jl') format('truetype'),
+    url('fonts/ABTestingIcons.woff?k2i5jl') format('woff'),
+    url('fonts/ABTestingIcons.svg?k2i5jl#ABTestingIcons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='ab-icon-'],
+[class*=' ab-icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ABTestingIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  padding-top: 2px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ab-icon-DW-ABTesting:before {
+  content: '\e900';
+}
+
+[class^='ab-icon-reworked-'],
+[class*=' ab-icon-reworked-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ABTestingIcons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  padding-top: 2px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ab-icon-reworked-DW-ABTesting:before {
+  content: '\e900';
+}

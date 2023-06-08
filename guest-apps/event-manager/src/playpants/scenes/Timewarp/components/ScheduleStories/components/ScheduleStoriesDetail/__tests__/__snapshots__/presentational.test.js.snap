@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatelessScheduleStoriesDetail renders default properly 1`] = `<Connect(FeedbackWrapper) />`;

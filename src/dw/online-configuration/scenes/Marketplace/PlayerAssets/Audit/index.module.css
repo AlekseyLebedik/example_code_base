@@ -1,0 +1,15 @@
+.editor {
+  height: 400px;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.table :global(.ag-group-value) {
+  line-height: 46px;
+}

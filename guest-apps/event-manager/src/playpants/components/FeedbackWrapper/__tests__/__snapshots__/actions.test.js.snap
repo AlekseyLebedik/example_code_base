@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeedbackWrapper actions: Action test: playpants/FEEDBACK.RESET_FEEDBACK 1`] = `
+Object {
+  "type": "playpants/FEEDBACK.RESET_FEEDBACK",
+}
+`;
+
+exports[`FeedbackWrapper actions: Action test: playpants/FEEDBACK.SAVE_FAILED 1`] = `
+Object {
+  "error": "This is a an error",
+  "type": "playpants/FEEDBACK.SAVE_FAILED",
+}
+`;
+
+exports[`FeedbackWrapper actions: Action test: playpants/FEEDBACK.SAVE_SUCCESS 1`] = `
+Object {
+  "type": "playpants/FEEDBACK.SAVE_SUCCESS",
+}
+`;
+
+exports[`FeedbackWrapper actions: Action test: playpants/FEEDBACK.START_LOADING 1`] = `
+Object {
+  "type": "playpants/FEEDBACK.START_LOADING",
+}
+`;
+
+exports[`FeedbackWrapper actions: Action test: playpants/FEEDBACK.STOP_LOADING 1`] = `
+Object {
+  "type": "playpants/FEEDBACK.STOP_LOADING",
+}
+`;
+
+exports[`FeedbackWrapper actions: Action test: playpants/FEEDBACK.TRY_SAVING 1`] = `
+Object {
+  "type": "playpants/FEEDBACK.TRY_SAVING",
+}
+`;

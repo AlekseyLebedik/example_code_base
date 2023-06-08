@@ -1,0 +1,13 @@
+.messagePanelParent {
+  padding: 4px;
+}
+
+.messagePanel {
+  background-color: #e09e38 !important;
+  color: #fff;
+}
+
+.messagePanelRepeat {
+  background-color: #009688 !important;
+  color: #fff;
+}

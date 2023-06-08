@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PropagateButton disabled if no selection 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Select Definitions"
+  >
+    <span>
+      <WithStyles(ForwardRef(IconButton))
+        disabled={true}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(Icon))>
+          call_split
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>
+</Fragment>
+`;
+
+exports[`PropagateButton enabled 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Propagate Variable Definitions"
+  >
+    <span>
+      <WithStyles(ForwardRef(IconButton))
+        disabled={false}
+        onClick={[Function]}
+      >
+        <WithStyles(ForwardRef(Icon))>
+          call_split
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>
+</Fragment>
+`;
+
+exports[`PropagateButton not rendering if no environments 1`] = `
+<PropagateButton
+  selected={false}
+/>
+`;
+
+exports[`PropagateButton not rendering if not gridApi 1`] = `""`;
+
+exports[`PropagateButton not rendering while loading 1`] = `""`;
+
+exports[`PropagateButton rendering dialog archived cannot be propagated 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="Propagate Variable Definitions"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        call_split
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(Tooltip))>
+  <DialogComponent
+    actions={
+      Array [
+        <WithStyles(ForwardRef(Button))
+          onClick={[Function]}
+        >
+          Cancel
+        </WithStyles(ForwardRef(Button))>,
+      ]
+    }
+    cancelOnBackdropClick={false}
+    classes={Object {}}
+    contentStyle={Object {}}
+    fullWidth={true}
+    maxWidth="sm"
+    modal={true}
+    onRequestClose={[Function]}
+    open={false}
+    title="Propagate Variable Definitions"
+  >
+    Archived definition cannot be propagated.
+  </DialogComponent>
+</Fragment>
+`;

@@ -1,0 +1,24 @@
+.dateFieldContainer {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.fullWidthContainer {
+  width: 100%;
+}
+
+.verticalContainer {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.delimiter {
+  max-height: 59px;
+  display: flex;
+}
+.delimiter span {
+  margin: auto 12px;
+}
+.delimiterMargin {
+  margin-top: 16px;
+}

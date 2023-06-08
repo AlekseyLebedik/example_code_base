@@ -1,0 +1,38 @@
+.trendCharts {
+  margin-top: 20px;
+  padding-right: 50px;
+}
+
+.chartHeader {
+  font-weight: 600;
+}
+
+.chartHeader:hover :global(.hoverable) {
+  visibility: inherit;
+  opacity: 1;
+  transition: opacity 500ms linear;
+}
+
+.chartHeader > div {
+  display: flex;
+  align-items: center;
+}
+
+.nodata {
+  padding: 0 20px 20px 20px;
+}
+
+.header {
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+@media (max-width: 768px) {
+  .trendCharts {
+    padding-right: 15px;
+  }
+
+  .chartHeader {
+    padding-left: 15px;
+  }
+}

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Achievement Details reducer returns default state 1`] = `
+Object {
+  "rulesetList": Object {
+    "data": Array [],
+    "loading": false,
+  },
+  "selectedRuleset": Object {
+    "data": Object {},
+    "loading": false,
+  },
+}
+`;

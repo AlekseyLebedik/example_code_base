@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting Design renders design loading image 1`] = `
+<div
+  className="makeStyles-container-1"
+>
+  <div
+    className="makeStyles-spinner-2"
+  >
+    <WithStyles(ForwardRef(CircularProgress))
+      color="inherit"
+      size={80}
+      thickness={1.5}
+    />
+  </div>
+  <div
+    className="makeStyles-image-3"
+  >
+    <Svg
+      className=""
+      color="placeholder"
+      icon={<ImageIcon />}
+      size="xlarge"
+    />
+  </div>
+  <p
+    className="makeStyles-text-4"
+  >
+    Loading...
+  </p>
+</div>
+`;

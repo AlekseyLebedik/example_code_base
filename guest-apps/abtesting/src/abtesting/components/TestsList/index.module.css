@@ -1,0 +1,57 @@
+.mainTitle {
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.itemsShown {
+  margin-left: 5px;
+}
+
+.testsSection {
+  margin: 0 12px 40px 27px;
+}
+
+.empty {
+  margin-left: 10px;
+}
+
+.loading {
+  padding-top: 0;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+}
+
+.table {
+  composes: common__table-hydrated from global;
+}
+
+.table thead th {
+  color: rgba(0, 0, 0, 0.54) !important;
+  white-space: nowrap;
+  padding: 8px 5px !important;
+}
+
+.table thead th:last-child {
+  text-align: center !important;
+}
+
+.table thead th span div {
+  margin-left: 2px !important;
+}
+
+.table tbody {
+  color: rgba(0, 0, 0, 1) !important;
+}
+
+.table > div {
+  margin-bottom: 0px !important;
+}
+
+.live:hover > td {
+  background-color: rgba(0, 150, 136, 0.3) !important;
+}
+
+.live > td {
+  background-color: rgba(0, 150, 136, 0.2);
+}

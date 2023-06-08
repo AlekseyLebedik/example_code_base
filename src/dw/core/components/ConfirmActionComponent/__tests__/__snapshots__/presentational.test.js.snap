@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmActionStateless could be disabled with disabled prop 1`] = `
+<IconButton
+  disabled={true}
+  key="confirm-action-component"
+>
+  <WithStyles(ForwardRef(Icon))>
+    delete
+  </WithStyles(ForwardRef(Icon))>
+</IconButton>
+`;
+
+exports[`ConfirmActionStateless does not render ConfirmDialog when isOpen is false 1`] = `
+<IconButton
+  disabled={false}
+  key="confirm-action-component"
+>
+  <WithStyles(ForwardRef(Icon))>
+    delete
+  </WithStyles(ForwardRef(Icon))>
+</IconButton>
+`;
+
+exports[`ConfirmActionStateless renders ConfirmDialog when isOpen is true 1`] = `
+Array [
+  <WithStyles(ConfirmDialog)
+    content={
+      Array [
+        <div>
+          Are you sure you want to delete the item?
+        </div>,
+      ]
+    }
+    key="confirm-dialog"
+    onConfirm={[MockFunction]}
+    onHide={[MockFunction]}
+    open={true}
+    title="Confirm Delete"
+  />,
+  <IconButton
+    disabled={false}
+    key="confirm-action-component"
+  >
+    <WithStyles(ForwardRef(Icon))>
+      delete
+    </WithStyles(ForwardRef(Icon))>
+  </IconButton>,
+]
+`;
+
+exports[`ConfirmActionStateless renders ConfirmDialog with checkedOption when isOpen is true 1`] = `
+Array [
+  <WithStyles(ConfirmDialog)
+    content={
+      Array [
+        <div>
+          Are you sure you want to delete the item?
+        </div>,
+        <WithStyles(ForwardRef(FormControlLabel))
+          control={<WithStyles(ForwardRef(Checkbox)) />}
+          label="Delete all subitems."
+        />,
+      ]
+    }
+    key="confirm-dialog"
+    onConfirm={[MockFunction]}
+    onHide={[MockFunction]}
+    open={true}
+    title="Confirm Delete"
+  />,
+  <IconButton
+    disabled={false}
+    key="confirm-action-component"
+  >
+    <WithStyles(ForwardRef(Icon))>
+      delete
+    </WithStyles(ForwardRef(Icon))>
+  </IconButton>,
+]
+`;
+
+exports[`ConfirmActionStateless renders Switch component 1`] = `
+<WithStyles(ForwardRef(Switch))
+  checked={true}
+  disabled={false}
+  key="confirm-action-component"
+  onChange={[MockFunction]}
+/>
+`;
+
+exports[`ConfirmActionStateless renders Tooltip when tooltipProps provided 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  classes={
+    Object {
+      "tooltip": "confirm-action-component__tooltip",
+    }
+  }
+  key="tooltip"
+  placement="bottom-end"
+  title="Delete"
+>
+  <span>
+    <IconButton
+      disabled={false}
+      key="confirm-action-component"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        delete
+      </WithStyles(ForwardRef(Icon))>
+    </IconButton>
+  </span>
+</WithStyles(ForwardRef(Tooltip))>
+`;
+
+exports[`ConfirmActionStateless renders custom component 1`] = `
+<a
+  disabled={false}
+  key="confirm-action-component"
+  onClick={[MockFunction]}
+/>
+`;

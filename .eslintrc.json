@@ -1,0 +1,92 @@
+{
+  "globals": {
+    "React": true,
+    "ReactDOM": true,
+    "ReactRedux": true,
+    "ReactRouterDOM": true,
+    "ReduxForm": true,
+    "moment": true,
+    "PropTypes": true
+  },
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:jest/recommended",
+    "plugin:cypress/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@babel/eslint-parser",
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "jest/globals": true,
+    "cypress/globals": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src/"]
+      },
+      "alias": {
+        "map": [["@gvs", "./src/dw/online-configuration/scenes/gvs"]]
+      }
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [".js"]
+      }
+    ],
+    "camelcase": 1,
+    "class-methods-use-this": 1,
+    "import/no-extraneous-dependencies": 1,
+    "import/named": 1, // known bug with eslint export * from https://github.com/benmosher/eslint-plugin-import/issues/1753
+    "import/no-cycle": 0, // TODO: resolve in ticket https://jira.ihs.demonware.net/browse/DZ-9128
+    "import/prefer-default-export": 0,
+    "jest/no-mocks-import": 1,
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/interactive-supports-focus": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/no-autofocus": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "no-bitwise": 0,
+    "no-param-reassign": 1,
+    "no-prototype-builtins": 0,
+    "no-shadow": 1,
+    "no-underscore-dangle": 0,
+    "no-use-before-define": 1,
+    "prefer-destructuring": 1,
+    "prettier/prettier": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "react-hooks/rules-of-hooks": 2,
+    "react/destructuring-assignment": 0,
+    "react/forbid-foreign-prop-types": 0,
+    "react/forbid-prop-types": [2, { "forbid": ["any"] }],
+    "react/jsx-fragments": 1,
+    "react/jsx-props-no-spreading": 0,
+    "react/prop-types": 1,
+    "react/require-default-props": 1,
+    "react/sort-comp": 1,
+    "react/state-in-constructor": 0,
+    "react/static-property-placement": 0
+  },
+  "overrides": [
+    {
+      "files": ["./cypress/**/*"],
+      "rules": {
+        "jest/expect-expect": 0,
+        "jest/no-export": 0,
+        "jest/no-standalone-expect": 0,
+        "jest/valid-expect-in-promise": 0,
+        "jest/valid-expect": 0
+      }
+    }
+  ]
+}

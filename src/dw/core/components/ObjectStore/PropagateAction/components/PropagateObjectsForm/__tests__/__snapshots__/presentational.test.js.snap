@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupsSelectBase renders component 1`] = `
+<ReduxFormSelect
+  disabled={true}
+  environment={
+    Object {
+      "key": "1:dev",
+    }
+  }
+  helperText={null}
+  input={Object {}}
+  meta={Object {}}
+/>
+`;

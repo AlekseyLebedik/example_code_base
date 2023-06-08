@@ -1,0 +1,7 @@
+{
+  "ignoreTestFiles": ["abtesting*", "**/event_manager/**/*"],
+  "reporter": "mocha-multi-reporters",
+  "reporterOptions": {
+    "configFile": "cypress/reporter-config.json"
+  }
+}

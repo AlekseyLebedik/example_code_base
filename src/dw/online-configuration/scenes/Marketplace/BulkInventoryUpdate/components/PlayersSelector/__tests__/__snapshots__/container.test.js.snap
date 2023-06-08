@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayersSelector container render 1`] = `
+<Fragment>
+  <div
+    className="flex flex-wrap items-center"
+  >
+    <div
+      className="contextSelectorContainer"
+    />
+    <div />
+  </div>
+  <div
+    className="raw"
+  >
+    add newline separated UNO ids
+    <textarea
+      onChange={[Function]}
+      rows="4"
+      value=""
+    />
+  </div>
+  <withDevzoneCoreConnect(UserAutoCompleteComponent)
+    className="users"
+    context="1:dev"
+    getAccountsApi={[Function]}
+    isMulti={true}
+    onChange={[Function]}
+    placeholder="or search for a player"
+    store={null}
+  />
+</Fragment>
+`;

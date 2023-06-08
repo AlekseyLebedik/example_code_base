@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  grid-template-columns: 120px auto;
+  grid-template-rows: auto;
+  row-gap: 8px;
+}
+
+.detailHeading {
+  font-weight: 600;
+}

@@ -1,0 +1,7 @@
+{
+  "defaultCommandTimeout": 10000,
+  "reporterEnabled": "spec, mocha-junit-reporter",
+  "mochaJunitReporterReporterOptions": {
+    "mochaFile": "tests/cypress-test-results-[hash].xml"
+  }
+}

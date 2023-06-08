@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DuplicateEvent actions: handles AT.DUPLICATE_EVENT 1`] = `
+Object {
+  "baseUrl": "/event-manager/1/dev",
+  "formName": "form",
+  "history": Object {
+    "push": [MockFunction],
+  },
+  "mods": Object {
+    "name": "Mock Data",
+  },
+  "sourceEvent": "1",
+  "type": "playpants/DUPLICATE_EVENT.DUPLICATE_EVENT",
+}
+`;

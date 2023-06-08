@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlobalSnackBarStateless accepts rendered JSX as message 1`] = `
+<GlobalSnackBarStateless
+  autoHideDuration={13}
+  classes={
+    Object {
+      "root": "GlobalSnackBarStateless-root-1",
+    }
+  }
+  hide={[Function]}
+  messages={
+    Array [
+      <div>
+        <h1>
+          Message Title
+        </h1>
+        <p>
+          Message content
+        </p>
+      </div>,
+    ]
+  }
+  open={true}
+/>
+`;
+
+exports[`GlobalSnackBarStateless renders without crashing 1`] = `
+<GlobalSnackBarStateless
+  autoHideDuration={10000}
+  classes={
+    Object {
+      "root": "GlobalSnackBarStateless-root-1",
+    }
+  }
+  hide={[Function]}
+  messages={
+    Array [
+      "Test message",
+    ]
+  }
+  open={false}
+/>
+`;

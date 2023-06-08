@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GVS Breadcrumbs render game build as active 1`] = `
+<div
+  className="makeStyles-container-1 makeStyles-container-9"
+>
+  <div
+    className="makeStyles-breadcrumb-2"
+  >
+    <WithStyles(ForwardRef(Breadcrumbs))
+      aria-label="breadcrumb"
+      classes={
+        Object {
+          "separator": "makeStyles-separator-3",
+        }
+      }
+      separator="›"
+    >
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-disabledBreadcrumb-6"
+        key="env"
+        variant="subtitle2"
+      >
+        DEV
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-disabledBreadcrumb-6"
+        key="franchise"
+        variant="subtitle2"
+      >
+        COD
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-disabledBreadcrumb-6"
+        key="game"
+        variant="subtitle2"
+      >
+        Call of Duty: Black Ops 5
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-disabledBreadcrumb-6"
+        color="textPrimary"
+        key="title"
+        variant="subtitle2"
+      >
+        (
+        5830
+        ) - 
+        BO5 CrossPlay Scratch Dev
+      </WithStyles(ForwardRef(Typography))>
+      <GameBuildSelector
+        disabled={false}
+        onScopeChange={[Function]}
+        scopeRoot="cod:iw8:5830"
+        scopeURI="cod:iw8:5830:tu_1"
+      />
+    </WithStyles(ForwardRef(Breadcrumbs))>
+    <CreateScopeButton
+      onScopeChange={[Function]}
+      refetchScopes={[MockFunction]}
+    />
+  </div>
+</div>
+`;
+
+exports[`GVS Breadcrumbs render title as active 1`] = `
+<div
+  className="makeStyles-container-1 makeStyles-container-8"
+>
+  <div
+    className="makeStyles-breadcrumb-2"
+  >
+    <WithStyles(ForwardRef(Breadcrumbs))
+      aria-label="breadcrumb"
+      classes={
+        Object {
+          "separator": "makeStyles-separator-3",
+        }
+      }
+      separator="›"
+    >
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-disabledBreadcrumb-6"
+        key="env"
+        variant="subtitle2"
+      >
+        DEV
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-disabledBreadcrumb-6"
+        key="franchise"
+        variant="subtitle2"
+      >
+        COD
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-disabledBreadcrumb-6"
+        key="game"
+        variant="subtitle2"
+      >
+        Call of Duty: Black Ops 5
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-active-7"
+        color="textPrimary"
+        key="title"
+        variant="subtitle2"
+      >
+        (
+        5830
+        ) - 
+        BO5 CrossPlay Scratch Dev
+      </WithStyles(ForwardRef(Typography))>
+      <GameBuildSelector
+        disabled={true}
+        onScopeChange={[Function]}
+        scopeRoot="cod:iw8:5830"
+        scopeURI="cod:iw8:5830"
+      />
+    </WithStyles(ForwardRef(Breadcrumbs))>
+    <CreateScopeButton
+      onScopeChange={[Function]}
+      refetchScopes={[MockFunction]}
+    />
+  </div>
+</div>
+`;

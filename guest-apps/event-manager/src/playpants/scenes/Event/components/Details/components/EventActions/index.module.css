@@ -1,0 +1,20 @@
+.actionPanel {
+  margin-right: -6px;
+  display: flex;
+}
+
+.actionPanel button {
+  padding: 6px;
+}
+
+.primaryButton:hover {
+  color: #4ac0f1;
+}
+
+.secondaryButton:hover {
+  color: #b71c1c;
+}
+
+.gridItem {
+  padding: 10px;
+}

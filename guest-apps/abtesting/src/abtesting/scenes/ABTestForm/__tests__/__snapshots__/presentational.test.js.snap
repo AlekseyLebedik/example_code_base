@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`abtesting/scenes/ABTestForm ABTestForm component when loaded 1`] = `
+<MainFormComponent
+  containerClass="container"
+  handleSubmit={[MockFunction]}
+  onSubmit={[MockFunction]}
+>
+  <div
+    className="formHeader"
+  >
+    <WithStyles(ForwardRef(Typography))
+      variant="h5"
+    >
+      New
+    </WithStyles(ForwardRef(Typography))>
+  </div>
+  <WithStyles(ForwardRef(Typography))
+    className="formModeTitle"
+    variant="h4"
+  >
+    Details
+  </WithStyles(ForwardRef(Typography))>
+  <Field
+    className="fieldForm"
+    component={[Function]}
+    disabled={false}
+    format={[Function]}
+    fullWidth={true}
+    label="Context"
+    name="context"
+    validate={[Function]}
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      key="context-1:dev"
+      value="1:dev"
+    >
+      GTR-PS3 / PS3 / dev
+    </WithStyles(ForwardRef(MenuItem))>
+  </Field>
+  <WithStyles(ForwardRef(Collapse))
+    in={true}
+  >
+    <Field
+      className="fieldForm"
+      component={[Function]}
+      disabled={false}
+      format={[Function]}
+      fullWidth={true}
+      label="First parties"
+      multiple={true}
+      name="first_parties"
+    >
+      <WithStyles(ForwardRef(MenuItem))
+        key="o"
+        value="o"
+      >
+        f
+      </WithStyles(ForwardRef(MenuItem))>
+      <WithStyles(ForwardRef(MenuItem))
+        key="a"
+        value="a"
+      >
+        b
+      </WithStyles(ForwardRef(MenuItem))>
+    </Field>
+  </WithStyles(ForwardRef(Collapse))>
+  <WithStyles(ForwardRef(Collapse))
+    in={true}
+    timeout={0}
+  >
+    <Field
+      component={[Function]}
+      disabled={false}
+      fullWidth={true}
+      label="Test Name"
+      name="name"
+      validate={
+        Array [
+          [Function],
+          [Function],
+        ]
+      }
+    />
+    <Field
+      component={[Function]}
+      disabled={false}
+      fullWidth={true}
+      label="Summary"
+      multiline={true}
+      name="purpose"
+    />
+    <Field
+      component={[Function]}
+      disabled={false}
+      format={[Function]}
+      fullWidth={true}
+      label="Category"
+      multiple={true}
+      name="categories"
+      placeholder=" "
+    >
+      <WithStyles(ForwardRef(MenuItem))
+        key="context-foo"
+        value="foo"
+      >
+        foo
+      </WithStyles(ForwardRef(MenuItem))>
+      <WithStyles(ForwardRef(MenuItem))
+        key="context-bar"
+        value="bar"
+      >
+        bar
+      </WithStyles(ForwardRef(MenuItem))>
+    </Field>
+    <WithStyles(ForwardRef(Typography))
+      variant="h4"
+    >
+      Contacts
+    </WithStyles(ForwardRef(Typography))>
+    <Field
+      component={[Function]}
+      disabled={false}
+      fullWidth={true}
+      label="Creator"
+      name="creator"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+    <Field
+      component={[Function]}
+      disabled={false}
+      fullWidth={true}
+      label="Company"
+      name="organisation"
+    />
+    <Field
+      component={[Function]}
+      disabled={false}
+      fullWidth={true}
+      label="Data Scientist"
+      name="data_scientist"
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+    <WithStyles(ForwardRef(Typography))
+      variant="h4"
+    >
+      Comments
+    </WithStyles(ForwardRef(Typography))>
+    <Field
+      component={[Function]}
+      disabled={false}
+      fullWidth={true}
+      label="Comments / Links"
+      multiline={true}
+      name="comments"
+    />
+    <WithStyles(ForwardRef(Typography))
+      variant="h4"
+    >
+      Enrollments
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(Collapse))>
+  <div
+    className="enrollments"
+  >
+    <div>
+      <Field
+        clearable={true}
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(FormFieldDateTimePicker)",
+            "type": [Function],
+          }
+        }
+        disabled={false}
+        fullWidth={true}
+        label="Enrollment Period From"
+        maxDate={null}
+        minDate="now"
+        name="catchStart"
+        returnTimestamp={true}
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </div>
+    <div>
+      <Field
+        clearable={true}
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(FormFieldDateTimePicker)",
+            "type": [Function],
+          }
+        }
+        disabled={false}
+        fullWidth={true}
+        label="Enrollment Period To"
+        minDate="now"
+        name="catchEnd"
+        returnTimestamp={true}
+        validate={
+          Array [
+            [Function],
+          ]
+        }
+      />
+    </div>
+  </div>
+  <WithStyles(ForwardRef(Collapse))
+    in={true}
+    timeout={0}
+  />
+  <div
+    className="separator"
+  />
+  <AddCohort
+    disabled={false}
+    displayCohortOverrides={false}
+    formMode="NEW"
+    groupsList={Array []}
+    handleFromTreatmentDates={null}
+    handleToTreatmentDates={null}
+    hasCohortOverridesPermission={true}
+    selectedCatchEnd={null}
+    selectedCatchStart={null}
+    showDetails={true}
+  />
+  <CohortOverrides
+    displayCohortOverrides={false}
+  />
+  <div
+    className="footer"
+  >
+    <div
+      className="formError"
+    >
+      <Field
+        className="fieldForm"
+        component={[Function]}
+        name="error"
+      />
+    </div>
+    <WithStyles(ForwardRef(Button))
+      className="footerButton"
+      onClick={[Function]}
+      variant="contained"
+    >
+      Cancel
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      className="footerButton"
+      color="primary"
+      disabled={false}
+      onClick={[Function]}
+      variant="contained"
+    >
+      Save
+    </WithStyles(ForwardRef(Button))>
+  </div>
+</MainFormComponent>
+`;
+
+exports[`abtesting/scenes/ABTestForm displays default component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "@@observable": [Function],
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <ABTestForm
+    categoriesList={
+      Array [
+        "foo",
+        "bar",
+      ]
+    }
+    changeShowDetails={[Function]}
+    contextList={
+      Array [
+        Object {
+          "id": "1:dev",
+          "name": "GTR-PS3 / PS3 / dev",
+        },
+      ]
+    }
+    disableFormContext={false}
+    displayCohortOverrides={false}
+    firstPartiesList={
+      Array [
+        "foo",
+        "bar",
+      ]
+    }
+    formErrors={Object {}}
+    groupsList={Array []}
+    handleFromTreatmentDates={null}
+    handleSubmit={[MockFunction]}
+    handleToTreatmentDates={null}
+    handlerAddTest={[MockFunction]}
+    history={Object {}}
+    loading={false}
+    mode="NEW"
+    propagateShowDetails={false}
+    saveTestSubmit={[MockFunction]}
+    saving={false}
+    selectedCatchEnd={null}
+    selectedCatchStart={null}
+    showPlatformField={false}
+    submitFailed={false}
+    test={null}
+    viewOnly={false}
+  />
+</ContextProvider>
+`;
+
+exports[`abtesting/scenes/ABTestForm displays form errors 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "@@observable": [Function],
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "@@observable": [Function],
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <ABTestForm
+    categoriesList={
+      Array [
+        "foo",
+        "bar",
+      ]
+    }
+    changeShowDetails={[Function]}
+    contextList={
+      Array [
+        Object {
+          "id": "1:dev",
+          "name": "GTR-PS3 / PS3 / dev",
+        },
+      ]
+    }
+    disableFormContext={false}
+    displayCohortOverrides={false}
+    firstPartiesList={
+      Array [
+        "foo",
+        "bar",
+      ]
+    }
+    formErrors={Object {}}
+    groupsList={Array []}
+    handleFromTreatmentDates={null}
+    handleSubmit={[MockFunction]}
+    handleToTreatmentDates={null}
+    handlerAddTest={[MockFunction]}
+    history={Object {}}
+    loading={false}
+    mode="NEW"
+    propagateShowDetails={false}
+    saveTestSubmit={[MockFunction]}
+    saving={false}
+    selectedCatchEnd={null}
+    selectedCatchStart={null}
+    showPlatformField={false}
+    submitFailed={false}
+    test={null}
+    viewOnly={false}
+  />
+</ContextProvider>
+`;
+
+exports[`abtesting/scenes/ABTestForm loading component when contextlist is loading 1`] = `
+<LoadingComponent
+  classes={Object {}}
+  size={80}
+  thickness={5}
+/>
+`;
+
+exports[`abtesting/scenes/ABTestForm loading component when permission is loading 1`] = `
+<LoadingComponent
+  classes={Object {}}
+  size={80}
+  thickness={5}
+/>
+`;

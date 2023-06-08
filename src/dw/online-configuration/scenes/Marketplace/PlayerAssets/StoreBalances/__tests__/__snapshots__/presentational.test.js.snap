@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerInventory Balances presentational should render the component with no items on the table 1`] = `null`;
+
+exports[`PlayerInventory Balances presentational should render the component with the currencies 1`] = `null`;

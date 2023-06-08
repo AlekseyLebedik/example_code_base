@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders errors 1`] = `
+<ErrorMessageDisplay
+  error={
+    Array [
+      Object {
+        "message": "test",
+      },
+      Object {
+        "message": "test",
+      },
+      Object {
+        "message": "test",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Renders loading 1`] = `
+<LoadingComponent
+  classes={
+    Object {
+      "loadingContainer": "loading",
+    }
+  }
+  size={80}
+  thickness={5}
+/>
+`;
+
+exports[`Renders when not present 1`] = `
+<div
+  className="presenceFlexContainer"
+>
+  <PresenceDetail
+    detail={
+      <StatusDot
+        online={false}
+      />
+    }
+    heading="Player Presence"
+  />
+</div>
+`;
+
+exports[`Renders when present 1`] = `
+<div
+  className="presenceFlexContainer"
+>
+  <PresenceDetail
+    detail={
+      <StatusDot
+        online={true}
+      />
+    }
+    heading="Player Presence"
+  />
+</div>
+`;

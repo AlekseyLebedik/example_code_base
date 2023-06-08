@@ -1,0 +1,5 @@
+.list-item.store .right {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}

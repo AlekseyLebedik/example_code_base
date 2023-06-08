@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar renders Franchises navigation links 1`] = `
+<WithStyles(withRouter(withDevzoneCoreConnect(NavbarLayout)))
+  className="Reporting-NavbarLayout"
+>
+  <div
+    className="nav__container flex flex-row"
+  >
+    <div
+      className="franchise-selector flex flex-row"
+    >
+      <LoadingSkeleton
+        className="empty-link"
+        height={16}
+        key="0"
+        width={90}
+      />
+      <LoadingSkeleton
+        className="empty-link"
+        height={16}
+        key="1"
+        width={90}
+      />
+      <LoadingSkeleton
+        className="empty-link"
+        height={16}
+        key="2"
+        width={90}
+      />
+    </div>
+  </div>
+  <Connect(withDevzoneCoreConnect(Profile)) />
+  <h3
+    className="header"
+  />
+</WithStyles(withRouter(withDevzoneCoreConnect(NavbarLayout)))>
+`;
+
+exports[`NavigationBar unique for Franchise Report 1`] = `
+<h3
+  className="header"
+/>
+`;
+
+exports[`NavigationBar unique for Franchise Statistic 1`] = `
+<h3
+  className="header"
+/>
+`;
+
+exports[`NavigationBar unique for Title Report 1`] = `
+<h3
+  className="header"
+/>
+`;

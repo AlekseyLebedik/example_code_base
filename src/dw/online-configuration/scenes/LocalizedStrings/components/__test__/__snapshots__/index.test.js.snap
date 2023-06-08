@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View Localized Strings displays contexts 1`] = `
+<div>
+  <WithStyles(ForwardRef(FormControl))
+    className="makeStyles-formControl-1"
+  >
+    <div
+      className="contextTitle"
+    >
+      <WithStyles(ForwardRef(Typography))
+        align="left"
+        className="makeStyles-titleColor-2"
+        variant="subtitle1"
+      >
+        CONTEXTS
+      </WithStyles(ForwardRef(Typography))>
+    </div>
+    <WithStyles(ForwardRef(Select))
+      MenuProps={
+        Object {
+          "anchorOrigin": Object {
+            "horizontal": "left",
+            "vertical": "bottom",
+          },
+          "getContentAnchorEl": null,
+          "transformOrigin": Object {
+            "horizontal": "left",
+            "vertical": "top",
+          },
+        }
+      }
+      className="makeStyles-dropDowmtext-3"
+      data-cy="context-select-dropdown"
+      id="contextSelect"
+      labelId="contextSelectLabel"
+      onChange={[Function]}
+      value="atvi"
+    />
+  </WithStyles(ForwardRef(FormControl))>
+</div>
+`;
+
+exports[`View Localized Strings displays contexts loading 1`] = `<ContextSelectorSkeleton />`;
+
+exports[`View Localized Strings displays string set names 1`] = `
+<div>
+  <WithStyles(ForwardRef(List))
+    component="nav"
+    subheader={
+      <WithStyles(ForwardRef(ListSubheader))
+        className="makeStyles-listItemHeader-4"
+        component="div"
+        id="list-subheader"
+      >
+        STRING SETS
+      </WithStyles(ForwardRef(ListSubheader))>
+    }
+  />
+</div>
+`;
+
+exports[`View Localized Strings displays string set names loading 1`] = `<StringSetNameSelectorSkeleton />`;
+
+exports[`View Localized Strings displays string sets 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="versionSelector"
+  >
+    <WithStyles(ForwardRef(List))
+      component="nav"
+      subheader={
+        <WithStyles(ForwardRef(ListSubheader))
+          component="div"
+          id="list-subheader"
+        >
+          VERSIONS
+        </WithStyles(ForwardRef(ListSubheader))>
+      }
+    />
+  </div>
+  <div
+    className="codeContainer"
+  >
+    <Component
+      className="editor"
+      height={0}
+      language="json"
+      options={
+        Object {
+          "fontSize": "14px",
+          "readOnly": true,
+        }
+      }
+      value="null"
+      width={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`View Localized Strings displays string sets loading 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="versionSelector"
+  >
+    <WithStyles(ForwardRef(List))
+      component="nav"
+      subheader={
+        <WithStyles(ForwardRef(ListSubheader))
+          component="div"
+          id="list-subheader"
+        >
+          VERSIONS
+        </WithStyles(ForwardRef(ListSubheader))>
+      }
+    />
+  </div>
+  <DetailsRendererSkeleton />
+</div>
+`;
+
+exports[`View Localized Strings upload form does not appear when not visible 1`] = `
+<ModalForm
+  FormComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "defaultProps": Object {
+        "destroyOnUnmount": true,
+        "enableReinitialize": false,
+        "forceUnregisterOnUnmount": false,
+        "form": "UploadStringSet",
+        "getFormState": [Function],
+        "keepDirtyOnReinitialize": false,
+        "persistentSubmitErrors": false,
+        "pure": true,
+        "shouldAsyncValidate": [Function],
+        "shouldError": [Function],
+        "shouldValidate": [Function],
+        "shouldWarn": [Function],
+        "submitAsSideEffect": false,
+        "touchOnBlur": true,
+        "touchOnChange": false,
+        "updateUnregisteredFields": false,
+      },
+      "displayName": "ReduxForm",
+      "render": [Function],
+    }
+  }
+  OpenModalComponent={[Function]}
+  cancelOnBackdropClick={false}
+  context="atvi"
+  dialogContentStyle={Object {}}
+  disableEnforceFocus={true}
+  formName="add-string-set-form"
+  fullWidth={false}
+  invalid={false}
+  maxWidth={null}
+  onFormSubmit={[Function]}
+  openModalComponentProps={Object {}}
+  primaryButtonProps={null}
+  setOpen={[Function]}
+  setUpload={[Function]}
+  stringSetName="presence"
+  submitText="Upload"
+  submittingText="Uploading..."
+  title="Upload String Set"
+  visible={false}
+  wrapperClassName=""
+/>
+`;
+
+exports[`View Localized Strings uploads string sets 1`] = `
+<ModalForm
+  FormComponent={
+    Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "defaultProps": Object {
+        "destroyOnUnmount": true,
+        "enableReinitialize": false,
+        "forceUnregisterOnUnmount": false,
+        "form": "UploadStringSet",
+        "getFormState": [Function],
+        "keepDirtyOnReinitialize": false,
+        "persistentSubmitErrors": false,
+        "pure": true,
+        "shouldAsyncValidate": [Function],
+        "shouldError": [Function],
+        "shouldValidate": [Function],
+        "shouldWarn": [Function],
+        "submitAsSideEffect": false,
+        "touchOnBlur": true,
+        "touchOnChange": false,
+        "updateUnregisteredFields": false,
+      },
+      "displayName": "ReduxForm",
+      "render": [Function],
+    }
+  }
+  OpenModalComponent={[Function]}
+  cancelOnBackdropClick={false}
+  context="atvi"
+  dialogContentStyle={Object {}}
+  disableEnforceFocus={true}
+  formName="add-string-set-form"
+  fullWidth={false}
+  invalid={false}
+  maxWidth={null}
+  onFormSubmit={[Function]}
+  openModalComponentProps={Object {}}
+  primaryButtonProps={null}
+  setOpen={[Function]}
+  setUpload={[Function]}
+  stringSetName="presence"
+  submitText="Upload"
+  submittingText="Uploading..."
+  title="Upload String Set"
+  visible={true}
+  wrapperClassName=""
+/>
+`;

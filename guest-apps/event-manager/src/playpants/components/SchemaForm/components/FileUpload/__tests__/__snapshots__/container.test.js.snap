@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PyScripts FileUpload renders the container component correctly 1`] = `
+<FileUploadStateless
+  data={
+    Object {
+      "id": "double_xp",
+      "inputs": Array [
+        Object {
+          "key": "attachments",
+          "value": Array [
+            Object {
+              "file": Object {
+                "name": "testDuplicate",
+              },
+            },
+          ],
+        },
+      ],
+    }
+  }
+  deletable={false}
+  disabled={false}
+  error={false}
+  errorMessage=""
+  handleChange={[MockFunction]}
+  handleDelete={[MockFunction]}
+  label="test"
+  uniqueItems={true}
+  uploadProps={
+    Object {
+      "buttonProps": Object {
+        "color": "primary",
+        "disabled": undefined,
+      },
+      "disabled": undefined,
+      "input": Object {
+        "onChange": [Function],
+        "value": "",
+      },
+      "meta": Object {
+        "error": "",
+        "touched": true,
+      },
+    }
+  }
+  value={Object {}}
+/>
+`;

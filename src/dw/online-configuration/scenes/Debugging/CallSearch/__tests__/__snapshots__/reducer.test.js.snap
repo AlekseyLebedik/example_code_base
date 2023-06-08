@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CallSearch Reducer CALL_FETCH_SUCCESS appends new data into current data when append is true 1`] = `
+Object {
+  "calls": Array [
+    "call-1",
+    "call-2",
+  ],
+  "nextPageToken": undefined,
+  "q": undefined,
+  "selectedCall": undefined,
+}
+`;
+
+exports[`CallSearch Reducer CALL_FETCH_SUCCESS replaces current data when append is false 1`] = `
+Object {
+  "calls": Array [
+    "call-1",
+    "call-2",
+  ],
+  "nextPageToken": undefined,
+  "q": undefined,
+  "selectedCall": undefined,
+}
+`;
+
+exports[`CallSearch Reducer CALL_LIST_ITEM_ONCLICK sets the selectedCall acording with the action 1`] = `
+Object {
+  "calls": Array [
+    "call-1",
+    "call-2",
+  ],
+  "nextPageToken": undefined,
+  "q": undefined,
+  "selectedCall": "call-1",
+}
+`;
+
+exports[`CallSearch Reducer CALL_SET_FILTER_PARAMS sets the search param 1`] = `
+Object {
+  "calls": Array [
+    "call-1",
+    "call-2",
+  ],
+  "nextPageToken": undefined,
+  "q": Object {
+    "name": "call-1",
+  },
+  "selectedCall": undefined,
+}
+`;
+
+exports[`CallSearch Reducer returns initial state 1`] = `
+Object {
+  "calls": Array [],
+  "nextPageToken": undefined,
+  "q": undefined,
+  "selectedCall": undefined,
+}
+`;

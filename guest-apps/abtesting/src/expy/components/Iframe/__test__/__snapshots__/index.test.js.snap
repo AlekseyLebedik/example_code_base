@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting Design - IFrame renders design iframe snapshot 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <Iframe
+    height="100%"
+    id="123"
+    sandbox="allow-scripts allow-same-origin"
+    url="http://hello.com"
+    width="100%"
+  />
+</div>
+`;

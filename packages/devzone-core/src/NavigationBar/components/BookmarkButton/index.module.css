@@ -1,0 +1,10 @@
+.pinningButton {
+  color: inherit;
+  background-color: inherit;
+  border: 0;
+  vertical-align: middle;
+}
+
+.persistentIcon {
+  visibility: visible !important;
+}

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConflictOverview renders default correctly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(AppBar))
+    position="static"
+  >
+    <WithStyles(ForwardRef(Grid))
+      className="gridPadding"
+      container={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={4}
+        xs={6}
+      >
+        Event ID: 
+        1
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={4}
+        xs={6}
+      >
+        Title: 
+        Overlapping Event
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={4}
+        xs={6}
+      >
+        Status: 
+        Open
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={4}
+        xs={6}
+      >
+        Env Type: 
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={4}
+        xs={6}
+      >
+        Publish at: 
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={4}
+        xs={6}
+      >
+        End at: 
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        lg={4}
+        xs={6}
+      >
+        Event Conflict Severity: 
+        Activity Conflict
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(AppBar))>
+</Fragment>
+`;

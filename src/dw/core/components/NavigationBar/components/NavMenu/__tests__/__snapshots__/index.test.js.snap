@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavMenu renders properly when is NOT main route 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`NavMenu renders properly when is a main route 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

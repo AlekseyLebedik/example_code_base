@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangedVarSetsBase renders ChangedVarSets correctly 1`] = `
+<div
+  className="varSetsContent"
+>
+  <div
+    className="gridContent"
+  >
+    <AgGridReact
+      columnDefs={
+        Array [
+          Object {
+            "cellRenderer": [Function],
+            "field": "variable",
+            "filter": "agTextColumnFilter",
+            "headerName": "Variable",
+            "headerTooltip": "Namespace variable name",
+          },
+          Object {
+            "field": "liveValue",
+            "filter": "agTextColumnFilter",
+            "headerName": "Live Value",
+            "headerTooltip": "Current live value, updated upon event publish",
+          },
+          Object {
+            "field": "oldValue",
+            "filter": "agTextColumnFilter",
+            "headerName": "Old Value",
+            "headerTooltip": "Live value prior to event start",
+          },
+          Object {
+            "cellStyle": [Function],
+            "editable": true,
+            "field": "newValue",
+            "filter": "agTextColumnFilter",
+            "headerName": "New Value",
+            "headerTooltip": "Set value to change variable upon event publish",
+          },
+          Object {
+            "field": "context",
+            "filter": "agTextColumnFilter",
+            "headerName": "Context",
+          },
+          Object {
+            "field": "groupId",
+            "filter": "agTextColumnFilter",
+            "headerName": "Group ID",
+          },
+          Object {
+            "field": "namespace",
+            "filter": "agTextColumnFilter",
+            "headerName": "Namespace",
+          },
+          Object {
+            "cellRenderer": [Function],
+            "cellRendererParams": Object {
+              "clearVariable": [MockFunction],
+            },
+            "field": "action",
+            "filter": false,
+            "headerName": "Action",
+            "hide": false,
+            "resizable": false,
+            "sortable": false,
+            "suppressMenu": true,
+          },
+        ]
+      }
+      context={
+        Object {
+          "activitySettings": Array [
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": true,
+              "allow_revert": false,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": false,
+              "name": "Message of The Day",
+              "type": "motd",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": true,
+              "allow_revert": false,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": false,
+              "name": "Playlists",
+              "type": "playlist",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Variables",
+              "type": "pubvars",
+              "variable_mapping": Object {
+                "LKKNORQKTP": "mp_xp_mult_scale",
+                "MSTMLNKSSO": "mp_weapon_xp",
+              },
+            },
+            Object {
+              "allow_duplication": false,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Storage",
+              "type": "pubstorage",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": false,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Python Script",
+              "type": "pyscript",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": true,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Achievements Engine",
+              "type": "ae",
+            },
+            Object {
+              "allow_duplication": true,
+              "allow_multi_titles": false,
+              "allow_revert": true,
+              "context": Object {
+                "is_enabled": true,
+                "type": "title",
+              },
+              "enabled": true,
+              "name": "Publisher Objects",
+              "type": "publisher_objects",
+            },
+          ],
+        }
+      }
+      defaultColDef={
+        Object {
+          "editable": false,
+          "filter": true,
+          "menuTabs": Array [
+            "filterMenuTab",
+          ],
+          "resizable": true,
+          "singleClickEdit": true,
+          "sortable": true,
+        }
+      }
+      onCellValueChanged={[Function]}
+      onGridReady={[Function]}
+      onGridSizeChanged={[Function]}
+      rowData={
+        Array [
+          Object {
+            "context": "1",
+            "groupId": "1",
+            "liveValue": "var1",
+            "namespace": "Namespace1",
+            "newValue": "var1",
+            "oldValue": "var1",
+            "variable": "test",
+          },
+          Object {
+            "context": "1",
+            "groupId": "1",
+            "liveValue": undefined,
+            "namespace": "Namespace3",
+            "newValue": "var1",
+            "oldValue": undefined,
+            "variable": "test",
+          },
+          Object {
+            "context": "1",
+            "groupId": "2",
+            "liveValue": "var1",
+            "namespace": "Namespace4",
+            "newValue": "var1",
+            "oldValue": "var1",
+            "variable": "test",
+          },
+          Object {
+            "context": "1",
+            "groupId": "2",
+            "liveValue": undefined,
+            "namespace": "Namespace4",
+            "newValue": "var2",
+            "oldValue": undefined,
+            "variable": "test2",
+          },
+        ]
+      }
+      statusBar={
+        Object {
+          "statusPanels": Array [
+            Object {
+              "align": "left",
+              "statusPanel": "agTotalRowCountComponent",
+            },
+          ],
+        }
+      }
+      stopEditingWhenGridLosesFocus={true}
+      suppressCellFocus={true}
+      suppressNoRowsOverlay={true}
+      suppressRowClickSelection={true}
+    />
+  </div>
+</div>
+`;

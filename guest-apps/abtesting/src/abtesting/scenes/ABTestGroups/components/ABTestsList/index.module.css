@@ -1,0 +1,96 @@
+.expanderContainer {
+  margin-top: 20px !important;
+}
+
+.titleContent {
+  margin-left: 24px !important;
+}
+
+.expandIcon {
+  right: unset;
+  left: 0;
+  width: 48px;
+}
+
+.agGridContainer {
+  composes: ag-theme-material from global;
+  width: 100%;
+  height: 100%;
+}
+
+.agGridContainerWithBorder {
+  composes: agGridContainer;
+  border: 1px solid lightgrey;
+}
+
+.primaryHeading {
+  font-weight: bold;
+  flex-basis: 33.33%;
+  flex-shrink: 0;
+}
+
+.secondaryHeading {
+  color: rgba(0, 0, 0, 0.35);
+  align-self: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.details {
+  flex-flow: column;
+}
+
+.status {
+  width: 100px;
+  padding-top: 10px;
+  line-height: initial;
+}
+
+.config {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px 6px 5px;
+  background-color: #eeeeee;
+
+  position: relative;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 20px;
+  width: 100%;
+  max-width: 140px;
+  cursor: pointer;
+}
+
+.config > div {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.configContainer {
+  display: flex;
+  padding-top: 12px;
+  padding-bottom: 6px;
+}
+
+.partialSearch {
+  margin-left: 20px;
+}
+
+.cellSpan {
+  background-color: lightgrey;
+  border-bottom: 1px solid #e2e2e2 !important;
+}
+
+.detailsRow {
+  padding: 5px 40px 5px 46px;
+}

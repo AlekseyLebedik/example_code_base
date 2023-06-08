@@ -1,0 +1,19 @@
+.table {
+  composes: ag-theme-material from global;
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.table :global(.ag-header-cell-label),
+.table :global(.ag-header-cell-text) {
+}
+
+.table :global(.ag-cell-wrapper) {
+  width: 100%;
+}
+
+.table :global(.ag-cell) {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GVSAGGrid adds sidebar to the grid options 1`] = `
+<AGGrid
+  async={false}
+  asyncGridProps={Object {}}
+  autoSizeColumns={true}
+  autoSizeMaxWidth={2000}
+  columnDefs={
+    Array [
+      Object {
+        "field": "name",
+      },
+      Object {
+        "field": "value",
+      },
+    ]
+  }
+  context={Object {}}
+  gridOptions={
+    Object {
+      "alignRowCenter": true,
+      "components": Object {
+        "fakeRenderer": [Function],
+      },
+      "sideBar": Object {
+        "toolPanels": Array [
+          Object {
+            "iconKey": "columns",
+            "id": "columns",
+            "labelDefault": "Columns",
+            "labelKey": "columns",
+            "toolPanel": "agColumnsToolPanel",
+            "toolPanelParams": Object {
+              "suppressColumnExpandAll": true,
+              "suppressColumnFilter": true,
+              "suppressColumnSelectAll": true,
+              "suppressPivotMode": true,
+              "suppressPivots": true,
+              "suppressRowGroups": true,
+              "suppressValues": true,
+            },
+          },
+        ],
+      },
+    }
+  }
+  onCellClicked={[Function]}
+  onColumnMoved={[Function]}
+  onColumnResized={[Function]}
+  onColumnVisible={[Function]}
+  onFirstDataRendered={[Function]}
+  onGridReady={[Function]}
+  onGridSizeChanged={[Function]}
+  onRowSelected={[Function]}
+  rowData={Array []}
+/>
+`;

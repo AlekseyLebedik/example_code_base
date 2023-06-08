@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlayerAssets Connected Ruleset Assets renders correctly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <Rulesets
+    deleteRulesetEvents={
+      Object {
+        "onDeleteRulesetHandler": [Function],
+      }
+    }
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+    match={
+      Object {
+        "isExact": true,
+        "params": Object {},
+        "path": "/",
+        "url": "/",
+      }
+    }
+    onClickListItem={[Function]}
+    onLoad={[Function]}
+    onResetSelectedRuleset={[Function]}
+    onSearch={[Function]}
+    onShowMore={[Function]}
+    rulesets={Array []}
+    uploadRulesetEvents={
+      Object {
+        "closeUploadRulesetModalHandler": [Function],
+        "onUploadRulesetHandler": [Function],
+        "openUploadRulesetModalHandler": [Function],
+        "uploadOnRemoteSubmit": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.container > div {
+  margin-left: 16px;
+}
+,
+.container > button {
+  margin-left: 16px;
+}
+.button {
+  text-transform: none !important;
+}
+.selected {
+  filter: brightness(0.75);
+  background-color: rgba(0, 0, 0, 0.065);
+}
+.scopeButton {
+  color: #70cdf3 !important;
+}
+.globalPopulationButton {
+  color: #858585;
+}
+.currentPopulationButton {
+  color: #dca556 !important;
+}
+.connectedPopulationButton {
+  color: #de86b6 !important;
+}
+,
+.draftButton {
+  color: rgba(0, 0, 0, 0.54);
+}

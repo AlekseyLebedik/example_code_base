@@ -1,0 +1,36 @@
+.header {
+  text-transform: uppercase;
+  font-weight: bold;
+
+  padding-top: 5px;
+}
+
+.timeContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5px;
+}
+
+.time {
+  width: 20px;
+  position: relative;
+}
+
+.label {
+}
+
+.timeInput {
+  margin-top: 0px;
+}
+
+.paper {
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  max-height: 110px;
+  overflow: auto;
+}
+
+.item {
+  padding: 0px 5px 0px 5px;
+}

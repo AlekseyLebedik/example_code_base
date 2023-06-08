@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Localized String Skeletons display context selector skeleton 1`] = `
+<div>
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-stringSetHead-5"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-stringSetListItem-6"
+    variant="rect"
+  />
+</div>
+`;
+
+exports[`Localized String Skeletons display json code skeleton 1`] = `
+<div>
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-headSection-1"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-bodySection-2"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-smallerBodySection-3"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-footerSection-4"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-headSection-1"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-bodySection-2"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-smallerBodySection-3"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-footerSection-4"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-headSection-1"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-bodySection-2"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-smallerBodySection-3"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-footerSection-4"
+    variant="rect"
+  />
+</div>
+`;
+
+exports[`Localized String Skeletons display string set name selector skeleton 1`] = `
+<div>
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-stringSetHead-5"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-stringSetListItem-6"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-stringSetListItem-6"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-stringSetListItem-6"
+    variant="rect"
+  />
+  <WithStyles(ForwardRef(Skeleton))
+    animation="wave"
+    className="makeStyles-stringSetListItem-6"
+    variant="rect"
+  />
+</div>
+`;

@@ -1,0 +1,13 @@
+.App {
+  padding-top: 142px;
+  height: 100vh;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.App-loading {
+  margin-top: 30% !important;
+  margin-left: 45% !important;
+}

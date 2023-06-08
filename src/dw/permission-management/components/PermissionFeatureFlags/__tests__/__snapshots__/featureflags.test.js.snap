@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Permission Feature Flags: Permission feature flag renders PermissionFeatureFlagsStateLess 1`] = `
+<AsyncAGGrid
+  autoSizeColumns={true}
+  autoSizeMaxWidth={2000}
+  columnDefs={
+    Array [
+      Object {
+        "field": "name",
+        "headerName": "Name",
+        "minWidth": 150,
+      },
+      Object {
+        "field": "active",
+        "headerName": "Active",
+      },
+      Object {
+        "field": "note",
+        "headerName": "Note",
+        "minWidth": 250,
+      },
+      Object {
+        "field": "type",
+        "headerName": "Type",
+      },
+    ]
+  }
+  dataFormatter={[Function]}
+  extendColumnsFromResult={false}
+  fetchWithSearch={false}
+  onGridReady={[Function]}
+  onLoadData={[Function]}
+  rowData={
+    Array [
+      Object {
+        "active": true,
+        "id": 1,
+        "name": "foo",
+        "note": "",
+        "type": "switch",
+      },
+      Object {
+        "active": true,
+        "id": 2,
+        "name": "foo",
+        "note": "",
+        "type": "flag",
+      },
+      Object {
+        "active": false,
+        "id": 3,
+        "name": "bar",
+        "note": "",
+        "type": "flag",
+      },
+      Object {
+        "active": false,
+        "id": 4,
+        "name": "bar",
+        "note": "",
+        "type": "switch",
+      },
+    ]
+  }
+  searchPlaceHolder="Search within the rows below"
+  useNewReusableAGGrid={false}
+  useQuickFilter={true}
+/>
+`;
+
+exports[`Permission Feature Flags: Permission feature flag renders PermissionFeatureFlagsStateLess Loading view 1`] = `
+<LoadingComponent
+  classes={Object {}}
+  size={80}
+  thickness={5}
+/>
+`;

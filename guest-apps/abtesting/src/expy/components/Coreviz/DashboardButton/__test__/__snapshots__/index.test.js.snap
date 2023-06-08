@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting Design - DashboardButton renders design dashboard button snapshot 1`] = `
+<WithStyles(ForwardRef(Button))
+  className="makeStyles-button-1"
+  endIcon={
+    <Memo
+      style={
+        Object {
+          "fontSize": 11,
+        }
+      }
+    />
+  }
+  fullWidth={true}
+  href="/dashboards/434?experiment=Name"
+  size="small"
+  target="_blank"
+  variant="outlined"
+>
+  Details
+</WithStyles(ForwardRef(Button))>
+`;

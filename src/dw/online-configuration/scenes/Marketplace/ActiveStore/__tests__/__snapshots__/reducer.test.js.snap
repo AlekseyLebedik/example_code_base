@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActiveStore Reducer ACTIVE_STORE_FETCH_SUCCESS sets the activeStore 1`] = `
+Object {
+  "store": Object {
+    "context": "title-plaform-type",
+    "created": "1531162853",
+    "label": "progression_store",
+  },
+  "storeDetails": Object {
+    "context": "game_context",
+    "conversionRules": Array [
+      Object {
+        "conversionRuleID": "216014d2-33de-4870-b155-70722d1661bb",
+        "description": "Upgrade loft for 100 pigeon points",
+        "fees": Object {
+          "currencies": Array [
+            Object {
+              "amount": 100,
+              "currencyID": 3,
+            },
+          ],
+          "entitlements": Array [],
+          "items": Array [],
+        },
+        "grants": Object {
+          "currencies": Array [],
+          "entitlements": Array [],
+          "items": Array [
+            Object {
+              "itemID": 16781010,
+              "quantity": 1,
+              "rentalDuration": null,
+              "usageDuration": null,
+            },
+          ],
+        },
+        "kind": 1,
+        "name": "Upgrade loft",
+        "requirements": Object {
+          "currencies": Array [],
+          "entitlements": Array [
+            Object {
+              "entitlementID": 16784001,
+              "entitlementLevel": 3,
+            },
+          ],
+          "items": Array [],
+        },
+      },
+    ],
+    "created": 1607657905,
+    "currencies": Array [
+      Object {
+        "currencyCode": "cod_points",
+        "currencyID": 1,
+        "paymentProviderCode": null,
+      },
+      Object {
+        "currencyCode": "loot_xp",
+        "currencyID": 2,
+        "paymentProviderCode": null,
+      },
+    ],
+    "entitlements": Array [
+      Object {
+        "entitlementID": 16785001,
+        "entitlementName": "itemset_dec_assassin_0",
+      },
+      Object {
+        "entitlementID": 16785002,
+        "entitlementName": "itemset_dec_bad_karma_2",
+      },
+    ],
+    "isActive": true,
+    "items": Array [
+      Object {
+        "isConsumable": false,
+        "isExpirable": false,
+        "itemID": 16785001,
+        "itemName": "cc_dec_assassin_01",
+        "itemSubType": null,
+        "itemType": null,
+        "maxQuantity": null,
+        "maxUsageTime": null,
+      },
+    ],
+    "label": "my-test-marketplace-store",
+    "pawnableItems": Array [
+      Object {
+        "choiceType": 0,
+        "ignoreRequiredEntitlements": true,
+        "itemID": 16785024,
+        "productID": 16784061,
+      },
+    ],
+    "products": Array [
+      Object {
+        "description": null,
+        "grantedEntitlements": Array [
+          Object {
+            "entitlementID": 16785001,
+            "entitlementLevel": 0,
+          },
+        ],
+        "grantedItems": Array [
+          Object {
+            "itemID": 16785001,
+            "itemQuantity": 1,
+            "overrideRentalDuration": false,
+            "overrideUsageDuration": false,
+            "rentalDuration": null,
+            "usageDuration": null,
+          },
+        ],
+        "grantedMoney": Array [],
+        "productData": null,
+        "productID": 16785001,
+        "productName": "product_cc_dec_assassin_01",
+        "requiredEntitlements": Array [],
+      },
+    ],
+    "skus": Array [
+      Object {
+        "counterName": null,
+        "couponEnabled": true,
+        "currencyID": 40,
+        "expiryDate": 1527149866,
+        "ignoreRequiredEntitlements": false,
+        "maxQuantity": 1,
+        "price": 275,
+        "productID": 16785001,
+        "promotionalText": null,
+        "rentalDuration": null,
+        "saleEnd": null,
+        "saleStart": null,
+        "skuData": null,
+        "skuID": 16785001,
+        "skuType": 0,
+        "usageDuration": null,
+      },
+    ],
+  },
+}
+`;
+
+exports[`ActiveStore Reducer returns default state 1`] = `
+Object {
+  "store": Object {
+    "context": null,
+    "created": null,
+    "label": null,
+  },
+  "storeDetails": Object {},
+}
+`;

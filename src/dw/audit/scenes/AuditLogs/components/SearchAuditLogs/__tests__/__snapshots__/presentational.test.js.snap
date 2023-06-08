@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchForm Presentational Structure 1`] = `
+<div
+  className="container"
+>
+  <Form
+    onSubmit={[Function]}
+  >
+    <FormValues />
+    <div
+      className="field"
+    >
+      <Field
+        component={[Function]}
+        label="UserID | Username"
+        name="username"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <Field
+        component={[Function]}
+        fullWidth={true}
+        label="User Type"
+        multiline={true}
+        name="userType"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <Field
+        component={[Function]}
+        fullWidth={true}
+        label="Entity ID"
+        multiline={true}
+        name="entityID"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <Field
+        component={[Function]}
+        fullWidth={true}
+        label="Entity Name"
+        multiline={true}
+        name="entityName"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <Field
+        component={[Function]}
+        fullWidth={true}
+        label="Category"
+        multiline={true}
+        name="category"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <Field
+        component={[Function]}
+        fullWidth={true}
+        label="Context"
+        multiline={true}
+        name="context"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <Field
+        component={[Function]}
+        fullWidth={true}
+        label="Source Name"
+        multiline={true}
+        name="sourceName"
+      />
+    </div>
+    <div
+      className="field"
+    >
+      <Field
+        InputProps={
+          Object {
+            "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+              position="end"
+            >
+              <WithStyles(ForwardRef(Tooltip))
+                title="Please enter in format (key:value)"
+              >
+                <WithStyles(ForwardRef(Icon))
+                  fontSize="small"
+                >
+                  help_outline
+                </WithStyles(ForwardRef(Icon))>
+              </WithStyles(ForwardRef(Tooltip))>
+            </WithStyles(ForwardRef(InputAdornment))>,
+          }
+        }
+        component={[Function]}
+        fullWidth={true}
+        label="Extra"
+        multiline={true}
+        name="extra"
+      />
+    </div>
+    <div
+      className="footer"
+    >
+      <WithStyles(ForwardRef(Button))
+        className="searchButton"
+        color="primary"
+        disabled={false}
+        focusRipple={true}
+        key="primary"
+        type="submit"
+        variant="contained"
+      >
+        Show The Results
+      </WithStyles(ForwardRef(Button))>
+    </div>
+  </Form>
+</div>
+`;

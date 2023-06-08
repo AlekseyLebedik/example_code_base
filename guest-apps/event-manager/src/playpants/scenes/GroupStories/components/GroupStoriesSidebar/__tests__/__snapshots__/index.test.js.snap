@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupStoriesSidebar renders default properly 1`] = `
+<div
+  className="flex flex-col h-full"
+>
+  <WithStyles(SectionTitle)
+    color="default"
+    shown={0}
+    title="Stories"
+  >
+    <ReduxForm
+      action="create"
+      asyncBlurFields={
+        Array [
+          "name",
+        ]
+      }
+      asyncValidate={[Function]}
+      currentProject={Object {}}
+      destroyOnUnmount={true}
+      enableReinitialize={true}
+      forceUnregisterOnUnmount={false}
+      form="GROUP_STORY_FORM"
+      getFormState={[Function]}
+      icon="add"
+      initialValues={
+        Object {
+          "description": "",
+          "name": "",
+        }
+      }
+      keepDirtyOnReinitialize={false}
+      persistentSubmitErrors={false}
+      pure={true}
+      shouldAsyncValidate={[Function]}
+      shouldError={[Function]}
+      shouldValidate={[Function]}
+      shouldWarn={[Function]}
+      submitAsSideEffect={false}
+      submitText="Create"
+      submittingText="Creating"
+      title="Create Group Story"
+      touchOnBlur={true}
+      touchOnChange={false}
+      updateUnregisteredFields={false}
+    />
+  </WithStyles(SectionTitle)>
+  <SearchableList
+    actions={Array []}
+    applySelectConditionFunc={[Function]}
+    emptyClassName="stories-empty-list"
+    getItemKey={[Function]}
+    infiniteScroll={false}
+    initialValue=""
+    items={Array []}
+    loadingMaster={true}
+    loadingTimeout={0}
+    onSearch={[MockFunction]}
+    onShowMore={[Function]}
+    placeholder="Story name"
+    searchEnabled={true}
+    showMore={false}
+    toRenderFunc={[Function]}
+  />
+</div>
+`;

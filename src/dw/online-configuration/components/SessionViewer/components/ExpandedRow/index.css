@@ -1,0 +1,71 @@
+.Session-Viewer__container
+  .right
+  .Detail
+  .table-lobbies
+  .table-lobbies-players
+  .ant-table-content
+  table {
+  width: 900px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.Session-Viewer__container
+  .right
+  .Detail
+  .table-lobbies
+  .table-lobbies-players
+  .ant-table-body {
+  overflow-x: none;
+}
+
+.Session-Viewer__container
+  .right
+  .Detail
+  .table-lobbies
+  .table-lobbies-players
+  table
+  thead
+  th:nth-child(1),
+.Session-Viewer__container
+  .right
+  .Detail
+  .table-lobbies
+  .table-lobbies-players
+  table
+  tbody
+  tr
+  td:nth-child(1) {
+  position: relative;
+  display: block;
+  background-color: #fff !important;
+  z-index: 1;
+  width: auto;
+  height: auto;
+}
+
+.Session-Viewer__container .right .Detail .progress {
+  top: -10px;
+  left: 15px;
+}
+
+.Session-Viewer__container .right .Detail .expanded-row-card-header {
+  padding-bottom: 10px !important;
+}
+
+.Session-Viewer__container
+  .right
+  .Detail
+  .common__table-hydrated
+  .table-operations {
+  margin-bottom: 0px;
+}
+
+.Session-Viewer__container
+  .right
+  .Detail
+  .common__table-hydrated
+  .telemetry-link.matched {
+  padding: 2px;
+  border-left: 2px solid #2ecc71;
+}

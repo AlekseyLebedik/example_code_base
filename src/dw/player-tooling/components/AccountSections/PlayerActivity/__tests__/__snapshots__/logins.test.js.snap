@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logins renders PII and Title details 1`] = `
+<div>
+  <div
+    className="presenceFlexContainer"
+  >
+    <PresenceDetail
+      detail="1621262265299"
+      heading="Last Authentication Attempt"
+    />
+  </div>
+  <div
+    className="presenceFlexContainer"
+  >
+    <PresenceDetail
+      detail="TEST"
+      heading="Platform"
+    />
+    <PresenceDetail
+      detail="IE"
+      heading="Country"
+    />
+    <PresenceDetail
+      detail="12"
+      heading="IP"
+    />
+  </div>
+  <WithStyles(ForwardRef(Divider))
+    className="divider"
+  />
+  <RecentAuthentication
+    data={
+      Array [
+        Object {
+          "client": Object {
+            "geo": Object {
+              "countryIsoCode": "IE",
+            },
+            "ips": "12",
+          },
+          "firstParty": Object {
+            "platform": "TEST",
+          },
+          "tid": 1,
+          "timestamp": "1621262265299",
+        },
+      ]
+    }
+    hasPIIPermission={true}
+  />
+</div>
+`;
+
+exports[`Logins renders PII and no Title details 1`] = `
+<div>
+  <div
+    className="presenceFlexContainer"
+  >
+    <PresenceDetail
+      detail="1621262265299"
+      heading="Last Authentication Attempt"
+    />
+  </div>
+  <div
+    className="presenceFlexContainer"
+  >
+    <PresenceDetail
+      detail="TEST"
+      heading="Platform"
+    />
+    <PresenceDetail
+      detail="IE"
+      heading="Country"
+    />
+    <PresenceDetail
+      detail="12"
+      heading="IP"
+    />
+  </div>
+</div>
+`;
+
+exports[`Logins renders errors 1`] = `
+<div>
+  test test test
+</div>
+`;
+
+exports[`Logins renders loading state 1`] = `<div />`;
+
+exports[`Logins renders no PII data and no Title details 1`] = `
+<div>
+  <div
+    className="presenceFlexContainer"
+  >
+    <PresenceDetail
+      detail="1621262265299"
+      heading="Last Authentication Attempt"
+    />
+  </div>
+  <div
+    className="presenceFlexContainer"
+  >
+    <PresenceDetail
+      detail="TEST"
+      heading="Platform"
+    />
+  </div>
+</div>
+`;
+
+exports[`Logins renders when empty 1`] = `<div />`;

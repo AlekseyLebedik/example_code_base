@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CategoryField renders the CategoryField correctly 1`] = `
+<Field
+  component={[Function]}
+  disabled={false}
+  fullWidth={true}
+  key="0"
+  label="Category"
+  name="category"
+  options={
+    Array [
+      Object {
+        "label": "All",
+        "value": "All",
+      },
+    ]
+  }
+  placeholder="All"
+/>
+`;

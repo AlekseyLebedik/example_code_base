@@ -1,0 +1,19 @@
+.tabContainer {
+  position: relative;
+  height: 100%;
+}
+
+.loadingBar {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.disableLinkStyle {
+  text-decoration: inherit !important;
+  color: inherit !important;
+}

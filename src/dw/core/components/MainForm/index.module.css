@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0 20px 40px 20px;
+}
+
+.form {
+  width: 90%;
+  min-width: 600px;
+  max-width: 1300px;
+  align-self: center;
+}
+
+.form h4 {
+  position: relative;
+
+  border-bottom: 2px solid #00000033;
+  margin: 40px 0 0;
+  padding: 50px 0 0;
+}
+
+.form h5 {
+  color: rgba(0, 0, 0, 0.34);
+}

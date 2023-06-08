@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmActionForm renders default 1`] = `
+<form
+  id="ConfirmAction"
+  onSubmit={[Function]}
+>
+  <WithStyles(ForwardRef(Grid))
+    className="gridContainer"
+  >
+    <WithStyles(ForwardRef(Grid)) />
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;

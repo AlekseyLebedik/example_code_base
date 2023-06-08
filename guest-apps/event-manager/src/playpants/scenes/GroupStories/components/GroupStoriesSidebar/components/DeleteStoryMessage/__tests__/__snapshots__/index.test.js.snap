@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteStoryMessage renders default properly 1`] = `
+<WithStyles(ForwardRef(Grid))
+  item={true}
+  xs={12}
+>
+  <WithStyles(ForwardRef(Typography))>
+    Deleting this story will also delete the events linked to this story. Please review the events that are grouped in this story before deleting.
+  </WithStyles(ForwardRef(Typography))>
+  <div>
+    <WithStyles(ForwardRef(List))>
+      <WithStyles(ForwardRef(ListItem))
+        disableGutters={true}
+      >
+        <WithStyles(ForwardRef(ListItemText))
+          primary="This story has no events"
+        />
+      </WithStyles(ForwardRef(ListItem))>
+    </WithStyles(ForwardRef(List))>
+  </div>
+</WithStyles(ForwardRef(Grid))>
+`;

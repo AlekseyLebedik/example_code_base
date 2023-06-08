@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameData Inventory DetailRenderer renders grid view as default 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <DetailRenderer
+    recentActivity={false}
+    values={
+      Object {
+        "currencies": Array [],
+        "items": Array [
+          Object {
+            "id": "28002804",
+            "name": "ar_accurate_bp_ace",
+            "quantity": 1,
+            "titleId": 5827,
+            "updated": 1617795885,
+          },
+        ],
+      }
+    }
+  />
+</Provider>
+`;
+
+exports[`GameData Inventory DetailRenderer renders single table in recentActivity view 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <DetailRenderer
+    recentActivity={true}
+    values={
+      Array [
+        Object {
+          "id": "28002804",
+          "name": "ar_accurate_bp_ace",
+          "quantity": 1,
+          "updated": 1617795885,
+        },
+      ]
+    }
+  />
+</Provider>
+`;
+
+exports[`GameData Inventory DetailsRenderer renders two title tables 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <DetailsRenderer
+    data={
+      Array [
+        Object {
+          "currencies": Array [],
+          "items": Array [
+            Object {
+              "id": "28002804",
+              "name": "ar_accurate_bp_ace",
+              "quantity": 1,
+              "titleId": 5827,
+              "updated": 1617795885,
+            },
+          ],
+          "titleId": 5827,
+        },
+        Object {
+          "currencies": Array [
+            Object {
+              "amount": 1300,
+              "id": "20",
+              "name": "CoDPoints",
+              "titleId": 5830,
+              "updated": 1614176413,
+            },
+            Object {
+              "amount": 0,
+              "id": "249",
+              "name": "UNO Rename Token",
+              "titleId": 5830,
+              "updated": 1598380874,
+            },
+          ],
+          "items": Array [],
+          "titleId": 5830,
+        },
+      ]
+    }
+    hideTitles={false}
+    recentActivity={false}
+    unoID="8357148467332307154"
+  />
+</Provider>
+`;

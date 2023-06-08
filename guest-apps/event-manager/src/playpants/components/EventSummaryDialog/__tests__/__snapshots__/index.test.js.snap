@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventSummaryDialog renders default values 1`] = `
+<ContextProvider
+  value={
+    Object {
+      Symbol(mui.nested): false,
+    }
+  }
+>
+  <ThemeProvider
+    theme={[Function]}
+  >
+    <WithStyles(EventSummaryDialogStateless)
+      activitiesOnEnd={Array []}
+      activitiesOnStart={Array []}
+      baseUrl="/event-manager/1/"
+      blockPrimaryAction={false}
+      classes={Object {}}
+      currentProject={
+        Object {
+          "contentTypeId": 19,
+          "id": 1,
+          "name": "GTR Project",
+          "titles": Array [
+            Object {
+              "environments": Array [
+                Object {
+                  "contentTypeId": 8,
+                  "id": 2,
+                  "shortType": "cert",
+                  "type": "Certification",
+                  "usesABTesting": true,
+                  "usesAE": true,
+                  "usesAsyncMMP": false,
+                  "usesLegacyStore": false,
+                  "usesMarketplace": true,
+                  "usesObjectStore": true,
+                },
+                Object {
+                  "contentTypeId": 8,
+                  "id": 1,
+                  "shortType": "dev",
+                  "type": "Development",
+                  "usesABTesting": true,
+                  "usesAE": true,
+                  "usesAsyncMMP": false,
+                  "usesLegacyStore": false,
+                  "usesMarketplace": true,
+                  "usesObjectStore": true,
+                },
+              ],
+              "id": 1,
+              "name": "GTR-PS3",
+              "platform": "PS3",
+            },
+          ],
+        }
+      }
+      endDate="Friday, August 9, 2019 2:47 PM"
+      event={
+        Object {
+          "data": Object {
+            "activities": Array [
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "language": "sp",
+                      "text": "Hola Amigo :D",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 13,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "motd",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "key": "weapon_type",
+                      "value": "Gun",
+                    },
+                    Object {
+                      "key": "attachment_icons",
+                      "value": Array [],
+                    },
+                    Object {
+                      "key": "invalid",
+                      "value": "test",
+                    },
+                  ],
+                  "name": "Double XP",
+                  "template_id": "double_xp",
+                  "version": "v1.0.4",
+                },
+                "exec_order": 1,
+                "id": 12,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  4,
+                ],
+                "type": "pyscript",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "ruleset_to_activate": Object {
+                    "activationTimestamp": null,
+                    "code": "idiwoq03292kj4lsl",
+                    "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+                    "codeSignatureTimestamp": 1565841879,
+                    "code_signature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+                    "creationTimestamp": 1565841879,
+                    "isActive": true,
+                    "label": "stronghold-5",
+                    "lastUpdateTimestamp": 1565842668,
+                  },
+                },
+                "exec_order": 0,
+                "id": 1,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "ae",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "deploy": Array [
+                    Object {
+                      "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+                      "target_name": "uidev:dev(mp)",
+                      "uid": "tp_deployment_1",
+                    },
+                  ],
+                  "modify": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+                      "uid": "modify_1",
+                      "user_params": Object {},
+                    },
+                  ],
+                  "undeploy": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+                      "uid": "undeploy_1",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 2,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "tp_deployment",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+            ],
+            "authorizations": Array [],
+            "authorizers": Array [],
+            "auto_tags": Array [
+              "PS4",
+            ],
+            "created_at": 1560983839,
+            "created_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+            "end_at": 1561243001,
+            "env_type": "Development",
+            "event_type": "event-manager",
+            "id": 2,
+            "is_schedule": false,
+            "locked_by": 1,
+            "manual_tags": Array [
+              "PS4",
+            ],
+            "note": "testing notes",
+            "platforms": Array [
+              "PS",
+            ],
+            "project": 1,
+            "publish_at": 1561057200,
+            "status": "open",
+            "task": null,
+            "title": "Test Event",
+            "updated_at": 1560985103,
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          "loading": false,
+        }
+      }
+      eventDuration="Monday, August 5, 2019 3:00 PM - Friday, August 9, 2019"
+      eventSummaryTitles={
+        Array [
+          Object {
+            "id": 1,
+            "name": "MW-PS3",
+            "platform": "PS3",
+          },
+        ]
+      }
+      publishDate="Monday, August 5, 2019 3:00 PM"
+      publishTime="03:00 PM"
+      selectedView="month"
+      setVisible={[MockFunction]}
+      store={
+        Object {
+          "@@observable": [Function],
+          "dispatch": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+      tags={
+        Array [
+          "test",
+          "COD",
+        ]
+      }
+      uniqOnEnd={Array []}
+      uniqOnStart={Array []}
+      visible={true}
+    />
+  </ThemeProvider>
+</ContextProvider>
+`;

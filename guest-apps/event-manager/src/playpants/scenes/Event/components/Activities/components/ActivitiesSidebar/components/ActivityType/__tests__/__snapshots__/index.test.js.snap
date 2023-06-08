@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityType renders the ActivityType container correctly 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  fullWidth={true}
+>
+  <WithStyles(ForwardRef(InputLabel))>
+    Type
+  </WithStyles(ForwardRef(InputLabel))>
+  <WithStyles(ForwardRef(Select))
+    id="activitytype"
+    onChange={[Function]}
+    value="All"
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      key="all"
+      value="all"
+    >
+      All
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="motd"
+      value="motd"
+    >
+      Message of The Day
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="playlist"
+      value="playlist"
+    >
+      Playlists
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="pubvars"
+      value="pubvars"
+    >
+      Publisher Variables
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="pubstorage"
+      value="pubstorage"
+    >
+      Publisher Storage
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="pyscript"
+      value="pyscript"
+    >
+      Python Script
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="ae"
+      value="ae"
+    >
+      Achievements Engine
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="publisher_objects"
+      value="publisher_objects"
+    >
+      Publisher Objects
+    </WithStyles(ForwardRef(MenuItem))>
+  </WithStyles(ForwardRef(Select))>
+</WithStyles(ForwardRef(FormControl))>
+`;

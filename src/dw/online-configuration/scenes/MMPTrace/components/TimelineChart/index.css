@@ -1,0 +1,23 @@
+.axises .x-grid line {
+  stroke: #d3d3d3;
+}
+
+.left-axis line,
+.left-axis path {
+  stroke: none;
+}
+
+.series-segment {
+  stroke: none;
+  pointer-events: inherit;
+}
+
+.x-grid line {
+  stroke: #d3d3d3;
+}
+
+/* .timeline-wrapper{
+    position: relative;
+    left: 9%;
+    top: 55px;
+} */

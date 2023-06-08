@@ -1,0 +1,17 @@
+{
+  "name": "@demonware/eslint-import-resolver-external",
+  "version": "0.0.1",
+  "description": "Allows to treat packages as external in eslint",
+  "author": "Devzone Team <devzone@demonware.net> (https://demonware.net/)",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "registry": "https://artifactory.ihs.demonware.net/api/npm/demonware-npm-release-local/"
+  },
+  "dependencies": {
+    "wildcard-match": "^1.1.0"
+  }
+}

@@ -1,0 +1,60 @@
+.mainContainer {
+  height: 100%;
+  padding: 0px;
+}
+
+.panelContainer {
+  display: flex;
+  height: 100%;
+}
+
+.panel {
+  background: white;
+  padding: 0px;
+  overflow: hidden;
+  transition: width 0.09s ease-in-out;
+  height: 100%;
+}
+
+.panel > div {
+  z-index: 5;
+  min-width: 200px;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.resizer {
+  z-index: 10;
+  width: 20px;
+  background: white;
+  position: relative;
+  cursor: col-resize;
+  flex-shrink: 0;
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
+  -webkit-box-shadow: 12px 0px 20px -5px rgba(173, 173, 173, 0.9);
+  -moz-box-shadow: 12px 0px 20px -5px rgba(173, 173, 173, 0.9);
+  box-shadow: 12px 0px 20px -5px rgba(173, 173, 173, 0.9);
+}
+
+.drag {
+  position: absolute;
+  top: 50%;
+  right: 2%;
+}
+
+.panelTitle {
+  position: absolute;
+  left: 56px;
+  -webkit-transform: translate(-45px, -11px) rotate(90deg) scale(0.8);
+  transform: translate(-45px, -11px) rotate(90deg) scale(0.8);
+  -webkit-transform-origin: left center;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  white-space: nowrap;
+}

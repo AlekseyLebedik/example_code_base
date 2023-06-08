@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublishNowConfirmation renders the PublishNowConfirmation correctly 1`] = `
+<WithStyles(ForwardRef(FormControlLabel))
+  checked={false}
+  control={
+    <WithStyles(ForwardRef(Checkbox))
+      color="default"
+      onChange={[Function]}
+    />
+  }
+  label="Override defined publish date"
+/>
+`;
+
+exports[`PublishNowConfirmation renders with needsConfirmations empty 1`] = `
+<WithStyles(ForwardRef(FormControlLabel))
+  checked={true}
+  control={
+    <WithStyles(ForwardRef(Checkbox))
+      color="default"
+      onChange={[Function]}
+    />
+  }
+  label="Override defined publish date"
+/>
+`;

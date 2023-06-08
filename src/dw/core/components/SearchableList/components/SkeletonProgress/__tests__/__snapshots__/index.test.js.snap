@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkeletonProgress renders default values 1`] = `
+<div
+  className="skeleton-progress-indicator"
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+/>
+`;

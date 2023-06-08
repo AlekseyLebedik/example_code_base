@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting component ConfigForm renders default form 1`] = `
+<ConfigForm
+  config={Object {}}
+  formName="Test"
+  onCancel={[Function]}
+  onRemoteSubmit={[Function]}
+  onSubmit={[Function]}
+  visible={false}
+/>
+`;
+
+exports[`ABTesting component ConfigForm renders visible form 1`] = `
+<ConfigForm
+  config={
+    Object {
+      "configID": "15716207803415653925",
+      "context": "game2",
+      "created": "1542027282",
+      "immutable": true,
+      "modifiers": "{\\"second_campaign_value\\": 2}",
+      "name": "cfg1",
+      "serviceID": "t8",
+      "updated": "1542027298",
+    }
+  }
+  formName="test"
+  onCancel={[Function]}
+  onRemoteSubmit={[Function]}
+  onSubmit={[Function]}
+  visible={true}
+/>
+`;

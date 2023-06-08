@@ -1,0 +1,19 @@
+.pubVarsControls {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pubVarsSelector {
+  padding-right: 2%;
+}
+
+.viewChangedVariables {
+  padding: 3px 10px 3px 8px;
+  margin-bottom: 8px;
+  white-space: nowrap;
+}
+
+.viewChangedVariablesIcon {
+  margin-right: 5px;
+}

@@ -1,0 +1,15 @@
+.loading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: initial;
+  height: 34px;
+  overflow: hidden;
+}
+
+.loadingContainer {
+  position: absolute;
+  height: 36px;
+  width: 100%;
+}

@@ -1,0 +1,22 @@
+.gridContainer {
+  flex-grow: 1;
+  display: flex;
+  margin: 20px;
+  margin-right: 10px;
+}
+
+.grid {
+  align-content: flex-start;
+}
+
+.actions,
+.editStatus {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+.actions {
+  justify-content: flex-end;
+  padding: 0 !important;
+}

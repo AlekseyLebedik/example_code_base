@@ -1,0 +1,33 @@
+.propagationModal {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  max-width: 650px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loginQueueFormItem {
+  display: flex;
+  margin: 15px;
+  padding: 15px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.loginQueueFormLabel {
+  flex: 1;
+  color: #000000;
+  opacity: 0.6;
+
+  padding-top: 8px;
+  margin-right: 2%;
+}
+
+.loginQueueFormInput {
+  flex: 2;
+  color: #ffffff;
+}

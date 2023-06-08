@@ -1,0 +1,7 @@
+.warning {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 20px;
+  color: #ffca28;
+}

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConfirmActionModalForm renders default 1`] = `
+<Connect(ModalForm)
+  FormComponent={
+    Object {
+      "$$typeof": Symbol(react.memo),
+      "WrappedComponent": [Function],
+      "compare": null,
+      "displayName": "Connect(ConfirmActionFormBase)",
+      "type": [Function],
+    }
+  }
+  cancelOnBackdropClick={true}
+  formName="ConfirmAction"
+  onFormSubmit={[MockFunction]}
+  primaryButtonProps={
+    Object {
+      "form": "ConfirmAction",
+      "onClick": null,
+      "type": "submit",
+    }
+  }
+  pristine={false}
+/>
+`;

@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatelessSchedule always renders a create event button 1`] = `null`;
+
+exports[`StatelessSchedule always renders a section title 1`] = `null`;
+
+exports[`StatelessSchedule renders correctly 1`] = `
+<Fragment>
+  <ForwardRef(Fade)
+    in={false}
+    timeout={
+      Object {
+        "enter": 500,
+        "exit": 500,
+      }
+    }
+  >
+    <WithStyles(ForwardRef(LinearProgress)) />
+  </ForwardRef(Fade)>
+  <Connect(WithStyles(EventGroupErrorDialog))
+    error={Object {}}
+  />
+  <Connect(DuplicateFormWrapper)
+    baseUrl=""
+    duplicateEventData={Object {}}
+    onCloseForm={[Function]}
+  />
+  <Component
+    affiliatedProjects={Array []}
+    availableViews={
+      Array [
+        "day",
+        "week",
+        "month",
+      ]
+    }
+    createDisabled={true}
+    datePickerInfo={null}
+    disabledFilters={Object {}}
+    eventError={null}
+    eventGroups={Array []}
+    eventLoading={false}
+    eventsCalendarSettings={
+      Object {
+        "displayView": "calendar",
+        "selectedView": "month",
+      }
+    }
+    exportEvents={[MockFunction]}
+    exportExcludeTypes={
+      Array [
+        "abTesting",
+      ]
+    }
+    gamertagGroups={Array []}
+    onDropHeaderGroup={[MockFunction]}
+    onFetchEvents={[MockFunction]}
+    onPresetsUpdate={[MockFunction]}
+    onSelectHeaderGroup={[Function]}
+    onSelectSlot={[MockFunction]}
+    permissions={
+      Object {
+        "adminUser": undefined,
+        "emUser": undefined,
+        "staffUser": undefined,
+      }
+    }
+    platforms={Array []}
+    presetOptions={Array []}
+    projectId="undefined"
+    sidebar={true}
+    updateHiddenGamertagList={[MockFunction]}
+  />
+</Fragment>
+`;
+
+exports[`StatelessSchedule renders the calendar view 1`] = `
+<Fragment>
+  <ForwardRef(Fade)
+    in={false}
+    timeout={
+      Object {
+        "enter": 500,
+        "exit": 500,
+      }
+    }
+  >
+    <WithStyles(ForwardRef(LinearProgress)) />
+  </ForwardRef(Fade)>
+  <Connect(WithStyles(EventGroupErrorDialog))
+    error={Object {}}
+  />
+  <Connect(DuplicateFormWrapper)
+    baseUrl=""
+    duplicateEventData={Object {}}
+    onCloseForm={[Function]}
+  />
+  <Component
+    affiliatedProjects={Array []}
+    availableViews={
+      Array [
+        "day",
+        "week",
+        "month",
+      ]
+    }
+    createDisabled={true}
+    datePickerInfo={null}
+    disabledFilters={Object {}}
+    eventError={null}
+    eventGroups={Array []}
+    eventLoading={false}
+    eventsCalendarSettings={
+      Object {
+        "displayView": "calendar",
+        "selectedView": "month",
+      }
+    }
+    exportEvents={[MockFunction]}
+    exportExcludeTypes={
+      Array [
+        "abTesting",
+      ]
+    }
+    gamertagGroups={Array []}
+    onDropHeaderGroup={[MockFunction]}
+    onFetchEvents={[MockFunction]}
+    onPresetsUpdate={[MockFunction]}
+    onSelectHeaderGroup={[Function]}
+    onSelectSlot={[MockFunction]}
+    permissions={
+      Object {
+        "adminUser": undefined,
+        "emUser": undefined,
+        "staffUser": undefined,
+      }
+    }
+    platforms={Array []}
+    presetOptions={Array []}
+    projectId="undefined"
+    sidebar={true}
+    updateHiddenGamertagList={[MockFunction]}
+  />
+</Fragment>
+`;

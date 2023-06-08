@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox renders custom values 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  error={false}
+>
+  <WithStyles(WithStyles(ForwardRef(FormControlLabel)))
+    control={
+      <WithStyles(ForwardRef(Checkbox))
+        checked={true}
+        className="main-checkbox"
+        color="default"
+        disabled={false}
+        onChange={[Function]}
+      />
+    }
+    label="blah"
+  />
+</WithStyles(ForwardRef(FormControl))>
+`;
+
+exports[`Checkbox renders default values 1`] = `
+<WithStyles(ForwardRef(FormControl))
+  error={false}
+>
+  <WithStyles(ForwardRef(Checkbox))
+    checked={false}
+    color="default"
+    disabled={false}
+    onChange={[Function]}
+  />
+</WithStyles(ForwardRef(FormControl))>
+`;

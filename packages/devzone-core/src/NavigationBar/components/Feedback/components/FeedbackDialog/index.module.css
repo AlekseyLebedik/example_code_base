@@ -1,0 +1,19 @@
+.loadingContainer,
+.feedbackFrame {
+  height: 800px;
+}
+
+.loadingContainer {
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 0.5;
+}
+
+.feedbackFrame {
+  width: 700px;
+  border: 0;
+}

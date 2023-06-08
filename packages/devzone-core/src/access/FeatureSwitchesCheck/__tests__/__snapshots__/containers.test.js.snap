@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeatureSwitchesCheck allows staff to bypass feature check 1`] = `
+<h1>
+  Congrat! You have feature access.
+</h1>
+`;
+
+exports[`FeatureSwitchesCheck allows to disable special staff access 1`] = `""`;
+
+exports[`FeatureSwitchesCheck handles multiple featureSwitches 1`] = `""`;
+
+exports[`FeatureSwitchesCheck handles multiple featureSwitches 2`] = `
+<h1>
+  Congrat! You have feature access.
+</h1>
+`;
+
+exports[`FeatureSwitchesCheck has sane default props 1`] = `
+<h1>
+  Congrat! You have feature access.
+</h1>
+`;
+
+exports[`FeatureSwitchesCheck renders nothing if the user has not the feature access 1`] = `""`;
+
+exports[`FeatureSwitchesCheck renders the children component if the user has the feature access 1`] = `
+<h1>
+  Congrat! You have feature access.
+</h1>
+`;

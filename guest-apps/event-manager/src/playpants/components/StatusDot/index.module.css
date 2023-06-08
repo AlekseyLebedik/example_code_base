@@ -1,0 +1,7 @@
+.statusDotContainer {
+  white-space: nowrap;
+}
+
+.statusDot {
+  border-radius: 50%;
+}

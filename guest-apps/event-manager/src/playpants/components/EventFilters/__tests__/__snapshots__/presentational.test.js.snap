@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventFilters renders default EventFilters empty 1`] = `
+<div
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(GridList))
+    cellHeight="auto"
+    className="makeStyles-gridList-2"
+    spacing={1}
+  />
+</div>
+`;

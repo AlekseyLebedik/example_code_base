@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConflictsSidebarBase renders default correctly 1`] = `
+<ConflictsSidebarStateless
+  activitySettings={
+    Array [
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": true,
+        "allow_revert": false,
+        "context": Object {
+          "is_enabled": false,
+          "type": "title",
+        },
+        "enabled": false,
+        "name": "Message of The Day",
+        "type": "motd",
+      },
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": true,
+        "allow_revert": false,
+        "context": Object {
+          "is_enabled": false,
+          "type": "title",
+        },
+        "enabled": false,
+        "name": "Playlists",
+        "type": "playlist",
+      },
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": false,
+        "allow_revert": true,
+        "context": Object {
+          "is_enabled": false,
+          "type": "title",
+        },
+        "enabled": true,
+        "name": "Publisher Variables",
+        "type": "pubvars",
+        "variable_mapping": Object {
+          "LKKNORQKTP": "mp_xp_mult_scale",
+          "MSTMLNKSSO": "mp_weapon_xp",
+        },
+      },
+      Object {
+        "allow_duplication": false,
+        "allow_multi_titles": false,
+        "allow_revert": true,
+        "context": Object {
+          "is_enabled": false,
+          "type": "title",
+        },
+        "enabled": true,
+        "name": "Publisher Storage",
+        "type": "pubstorage",
+      },
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": false,
+        "allow_revert": true,
+        "context": Object {
+          "is_enabled": false,
+          "type": "title",
+        },
+        "enabled": true,
+        "name": "Python Script",
+        "type": "pyscript",
+      },
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": false,
+        "allow_revert": true,
+        "context": Object {
+          "is_enabled": true,
+          "type": "title",
+        },
+        "enabled": true,
+        "name": "Achievements Engine",
+        "type": "ae",
+      },
+      Object {
+        "allow_duplication": true,
+        "allow_multi_titles": false,
+        "allow_revert": true,
+        "context": Object {
+          "is_enabled": true,
+          "type": "title",
+        },
+        "enabled": true,
+        "name": "Publisher Objects",
+        "type": "publisher_objects",
+      },
+    ]
+  }
+  allowDetachedEvents={false}
+  badgeCount={
+    Object {
+      "discussion": 2,
+      "tasks": 0,
+    }
+  }
+  baseUrl="/event-manager/3/"
+  changeConflictType={[MockFunction]}
+  changeMainTab={[MockFunction]}
+  classes={Object {}}
+  conflictActivityDetails={
+    Object {
+      "activity_type": "pubstorage",
+      "details": Array [],
+      "event_activity": Object {
+        "activity": "{\\"files\\":[4]}",
+        "id": 5,
+        "title_envs": Array [
+          1,
+        ],
+        "type": "pubstorage",
+      },
+      "overlapping_event_activity": Object {
+        "activity": "{\\"files\\":[4]}",
+        "id": 8,
+        "title_envs": Array [
+          1,
+        ],
+        "type": "pubstorage",
+      },
+      "severity": "activity-title-conflict",
+    }
+  }
+  conflictDetails={
+    Object {
+      "conflicting_event": Object {
+        "activities": Array [
+          8,
+        ],
+        "end_at": 1570212969,
+        "id": 1,
+        "project": 1,
+        "publish_at": 1569870000,
+        "status": "open",
+        "title": "Overlapping Event",
+      },
+      "conflicts": Array [
+        Object {
+          "activity_type": "pubstorage",
+          "details": Array [],
+          "event_activity": Object {
+            "activity": "{\\"files\\":[4]}",
+            "id": 5,
+            "title_envs": Array [
+              1,
+            ],
+            "type": "pubstorage",
+          },
+          "overlapping_event_activity": Object {
+            "activity": "{\\"files\\":[4]}",
+            "id": 8,
+            "title_envs": Array [
+              1,
+            ],
+            "type": "pubstorage",
+          },
+          "severity": "activity-title-conflict",
+        },
+      ],
+      "severity": "activity-title-conflict",
+    }
+  }
+  conflictType="all"
+  conflictTypeFilter="all"
+  conflicts={
+    Array [
+      Object {
+        "conflicting_event": Object {
+          "activities": Array [
+            8,
+          ],
+          "end_at": 1570212969,
+          "id": 1,
+          "project": 1,
+          "publish_at": 1569870000,
+          "status": "open",
+          "title": "Overlapping Event",
+        },
+        "conflicts": Array [
+          Object {
+            "activity_type": "pubstorage",
+            "details": Array [],
+            "event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 5,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "overlapping_event_activity": Object {
+              "activity": "{\\"files\\":[4]}",
+              "id": 8,
+              "title_envs": Array [
+                1,
+              ],
+              "type": "pubstorage",
+            },
+            "severity": "activity-title-conflict",
+          },
+        ],
+        "severity": "activity-title-conflict",
+      },
+    ]
+  }
+  currentUser={
+    Object {
+      "id": 1,
+      "name": "Initial User",
+    }
+  }
+  dateTime={[MockFunction]}
+  deleteEvent={[MockFunction]}
+  disabled={false}
+  editAuths={[MockFunction]}
+  editEvent={[MockFunction]}
+  event={
+    Object {
+      "data": Object {
+        "activities": Array [
+          Object {
+            "activity": Object {
+              "inputs": Array [
+                Object {
+                  "language": "sp",
+                  "text": "Hola Amigo :D",
+                },
+              ],
+            },
+            "exec_order": 0,
+            "id": 13,
+            "publish_on": "on_start",
+            "title_envs": Array [
+              1,
+            ],
+            "type": "motd",
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          Object {
+            "activity": Object {
+              "inputs": Array [
+                Object {
+                  "key": "weapon_type",
+                  "value": "Gun",
+                },
+                Object {
+                  "key": "attachment_icons",
+                  "value": Array [],
+                },
+                Object {
+                  "key": "invalid",
+                  "value": "test",
+                },
+              ],
+              "name": "Double XP",
+              "template_id": "double_xp",
+              "version": "v1.0.4",
+            },
+            "exec_order": 1,
+            "id": 12,
+            "publish_on": "on_start",
+            "title_envs": Array [
+              4,
+            ],
+            "type": "pyscript",
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          Object {
+            "activity": Object {
+              "ruleset_to_activate": Object {
+                "activationTimestamp": null,
+                "code": "idiwoq03292kj4lsl",
+                "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+                "codeSignatureTimestamp": 1565841879,
+                "code_signature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+                "creationTimestamp": 1565841879,
+                "isActive": true,
+                "label": "stronghold-5",
+                "lastUpdateTimestamp": 1565842668,
+              },
+            },
+            "exec_order": 0,
+            "id": 1,
+            "publish_on": "on_start",
+            "title_envs": Array [
+              1,
+            ],
+            "type": "ae",
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          Object {
+            "activity": Object {
+              "deploy": Array [
+                Object {
+                  "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+                  "target_name": "uidev:dev(mp)",
+                  "uid": "tp_deployment_1",
+                },
+              ],
+              "modify": Array [
+                Object {
+                  "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+                  "uid": "modify_1",
+                  "user_params": Object {},
+                },
+              ],
+              "undeploy": Array [
+                Object {
+                  "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+                  "uid": "undeploy_1",
+                },
+              ],
+            },
+            "exec_order": 0,
+            "id": 2,
+            "publish_on": "on_start",
+            "title_envs": Array [
+              1,
+            ],
+            "type": "tp_deployment",
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+        ],
+        "authorizations": Array [],
+        "authorizers": Array [],
+        "auto_tags": Array [
+          "PS4",
+        ],
+        "created_at": 1560983839,
+        "created_by": Object {
+          "id": 1,
+          "name": "Initial User",
+        },
+        "end_at": 1561243001,
+        "env_type": "Development",
+        "event_type": "event-manager",
+        "id": 2,
+        "is_schedule": false,
+        "locked_by": 1,
+        "manual_tags": Array [
+          "PS4",
+        ],
+        "note": "testing notes",
+        "platforms": Array [
+          "PS",
+        ],
+        "project": 1,
+        "publish_at": 1561057200,
+        "status": "open",
+        "task": null,
+        "title": "Test Event",
+        "updated_at": 1560985103,
+        "updated_by": Object {
+          "id": 1,
+          "name": "Initial User",
+        },
+      },
+      "loading": false,
+    }
+  }
+  eventData={Object {}}
+  eventId={2}
+  fileDetailsFetch={[MockFunction]}
+  getConflicts={[MockFunction]}
+  handleConflictSelection={[Function]}
+  handleSetPrimaryTab={[MockFunction]}
+  handleSetSecondaryTab={[MockFunction]}
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  isEventManagerEvent={true}
+  isLoadingEventsPage={false}
+  loadDiscussion={[MockFunction]}
+  loadEvent={[MockFunction]}
+  match={
+    Object {
+      "params": Object {
+        "id": "1",
+        "tab": "conflicts",
+      },
+    }
+  }
+  onCloseRequestErrorDialog={[MockFunction]}
+  onDeleteEvent={[MockFunction]}
+  onSave={[MockFunction]}
+  permissions={
+    Object {
+      "achievementWritePermission": true,
+      "adminPermission": true,
+      "eventWritePermission": true,
+      "publisherObjectsWritePermission": true,
+      "pubstorageWritePermission": true,
+      "pubvarsWritePermission": true,
+      "pyscriptWritePermission": true,
+      "staffUser": true,
+      "tpDeploymentWritePermission": true,
+      "wipPermission": true,
+    }
+  }
+  primaryTab="details"
+  requestErrorDialogOpen={
+    Object {
+      "open": false,
+    }
+  }
+  saveEdit={[MockFunction]}
+  searchConflicts={[MockFunction]}
+  searchQuery=""
+  secondaryTab="tasks"
+  selectedItemId="1,5,8"
+  selectedTab="activities"
+  status={
+    Object {
+      "allowAuths": true,
+      "canCancel": true,
+      "canDelete": true,
+      "canOpen": false,
+      "failed": false,
+      "locked": false,
+      "name": "Open",
+      "readOnly": false,
+      "showAuths": false,
+      "showTemplates": true,
+    }
+  }
+  tabUrl="/event-manager/3/events/2/activities"
+  titles={
+    Array [
+      Object {
+        "env": Object {
+          "id": 3,
+        },
+        "environments": Array [
+          Object {
+            "id": 3,
+          },
+        ],
+        "id": 3,
+        "name": "mw2-PS3",
+      },
+      Object {
+        "env": Object {
+          "id": 5,
+        },
+        "environments": Array [
+          Object {
+            "id": 5,
+          },
+        ],
+        "id": 4,
+        "name": "mw2-XBOX1",
+      },
+    ]
+  }
+  updateUserProfileSetting={[MockFunction]}
+  user={
+    Object {
+      "actions": Object {
+        "createUserProfileSetting": [MockFunction],
+        "updateUserProfileSetting": [MockFunction],
+      },
+    }
+  }
+  userTimezone="UTC"
+/>
+`;

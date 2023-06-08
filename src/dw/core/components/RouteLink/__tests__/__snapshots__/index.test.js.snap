@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RouteLink render Link with correct path to route 1`] = `
+<RouteLink
+  baseUrl="/go-online/1/dev/"
+  dispatch={[MockFunction]}
+  linkName="My Link"
+  linkParams={
+    Object {
+      "three": 3,
+      "two": 2,
+    }
+  }
+  ownProps={
+    Object {
+      "linkName": "My Link",
+      "linkParams": Object {
+        "three": 3,
+        "two": 2,
+      },
+      "routeName": "route-one",
+      "routes": Array [
+        Object {
+          "name": "route-one",
+          "routePath": "route-one/:two?/:three?/",
+        },
+      ],
+      "store": Object {
+        "dispatch": [MockFunction],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      },
+    }
+  }
+  routeName="route-one"
+  routes={
+    Array [
+      Object {
+        "name": "route-one",
+        "routePath": "route-one/:two?/:three?/",
+      },
+    ]
+  }
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [Function],
+      "subscribe": [MockFunction],
+    }
+  }
+/>
+`;
+
+exports[`RouteLink render Link with correct path to route with query params 1`] = `
+<RouteLink
+  baseUrl="/go-online/1/dev/"
+  dispatch={[MockFunction]}
+  linkName="My Link"
+  ownProps={
+    Object {
+      "linkName": "My Link",
+      "queryParams": Object {
+        "q": "blah",
+      },
+      "routeName": "route-one",
+      "routes": Array [
+        Object {
+          "name": "route-one",
+          "routePath": "route-one/:two?/:three?/",
+        },
+      ],
+      "store": Object {
+        "dispatch": [MockFunction],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      },
+    }
+  }
+  queryParams={
+    Object {
+      "q": "blah",
+    }
+  }
+  routeName="route-one"
+  routes={
+    Array [
+      Object {
+        "name": "route-one",
+        "routePath": "route-one/:two?/:three?/",
+      },
+    ]
+  }
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [Function],
+      "subscribe": [MockFunction],
+    }
+  }
+/>
+`;
+
+exports[`RouteLink render custom params passed to <a> tag 1`] = `
+<RouteLink
+  baseUrl="/go-online/1/dev/"
+  className="custom-link"
+  dispatch={[MockFunction]}
+  linkName="My Link"
+  linkParams={
+    Object {
+      "three": 3,
+      "two": 2,
+    }
+  }
+  ownProps={
+    Object {
+      "className": "custom-link",
+      "linkName": "My Link",
+      "linkParams": Object {
+        "three": 3,
+        "two": 2,
+      },
+      "routeName": "route-one",
+      "routes": Array [
+        Object {
+          "name": "route-one",
+          "routePath": "route-one/:two?/:three?/",
+        },
+      ],
+      "store": Object {
+        "dispatch": [MockFunction],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      },
+      "target": "blank",
+    }
+  }
+  routeName="route-one"
+  routes={
+    Array [
+      Object {
+        "name": "route-one",
+        "routePath": "route-one/:two?/:three?/",
+      },
+    ]
+  }
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [Function],
+      "subscribe": [MockFunction],
+    }
+  }
+  target="blank"
+/>
+`;
+
+exports[`RouteLink render linkName if route not found 1`] = `
+<RouteLink
+  baseUrl="/go-online/1/dev/"
+  dispatch={[MockFunction]}
+  linkName="My Link"
+  linkParams={
+    Object {
+      "three": 3,
+      "two": 2,
+    }
+  }
+  ownProps={
+    Object {
+      "linkName": "My Link",
+      "linkParams": Object {
+        "three": 3,
+        "two": 2,
+      },
+      "routeName": "route-one",
+      "store": Object {
+        "dispatch": [MockFunction],
+        "getState": [Function],
+        "subscribe": [MockFunction],
+      },
+    }
+  }
+  routeName="route-one"
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [Function],
+      "subscribe": [MockFunction],
+    }
+  }
+/>
+`;

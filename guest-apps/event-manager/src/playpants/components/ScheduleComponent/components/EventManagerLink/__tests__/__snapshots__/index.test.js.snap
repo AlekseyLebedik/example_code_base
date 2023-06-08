@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventManagerLink renders default values 1`] = `
+<Connect(CustomCalendarEvent)
+  displayTimeWithTitle={false}
+  event={Object {}}
+  userTimezone="UTC"
+/>
+`;

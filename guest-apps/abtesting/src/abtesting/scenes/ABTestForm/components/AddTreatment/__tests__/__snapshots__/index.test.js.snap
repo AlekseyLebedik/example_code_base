@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting component AddTreatment renders component 1`] = `
+<FieldArray
+  component={[Function]}
+  disabled={false}
+  formMode="NEW"
+  name="cohorts[0].treatments"
+  props={
+    Object {
+      "cohortIndex": null,
+      "handleFromTreatmentDates": null,
+      "handleToTreatmentDates": null,
+      "selectedCatchEnd": null,
+      "selectedCatchStart": null,
+    }
+  }
+/>
+`;

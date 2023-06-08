@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Info Table renders custom values 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="partialSearchContainer"
+  >
+    <WithStyles(ForwardRef(TextField))
+      InputProps={
+        Object {
+          "disableUnderline": true,
+        }
+      }
+      className="partialSearch"
+      label="Search Title Info ..."
+      onChange={[Function]}
+    />
+  </div>
+  <div
+    className="agGridContainer"
+  >
+    <AgGridReact
+      columnDefs={
+        Array [
+          Object {
+            "field": "group",
+            "hide": true,
+            "rowGroup": true,
+          },
+          Object {
+            "cellClass": "nameCell",
+            "field": "name",
+            "width": 60,
+          },
+          Object {
+            "field": "value",
+          },
+        ]
+      }
+      enableCellTextSelection={true}
+      getRowHeight={[Function]}
+      groupDefaultExpanded={1}
+      groupDisplayType="groupRows"
+      groupRowRendererParams={
+        Object {
+          "suppressCount": true,
+        }
+      }
+      headerHeight={0}
+      id="titleInfoGrid"
+      onGridReady={[MockFunction]}
+      rowData={
+        Array [
+          Object {
+            "group": "Services",
+            "name": "AE",
+            "value": "23.48.2",
+          },
+          Object {
+            "group": "Services",
+            "name": "Auth",
+            "value": "autn3",
+          },
+        ]
+      }
+      suppressCellFocus={true}
+      suppressContextMenu={true}
+      suppressRowTransform={true}
+    />
+  </div>
+</div>
+`;

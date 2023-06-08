@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WrappedIcon renders default props 1`] = `
+<WrappedIcon
+  classes={
+    Object {
+      "colorPrimary": "WrappedIcon-colorPrimary-2",
+      "colorSecondary": "WrappedIcon-colorSecondary-3",
+      "root": "WrappedIcon-root-1",
+    }
+  }
+  icon="playlist_add"
+  onClick={[MockFunction]}
+  tooltip="test"
+/>
+`;

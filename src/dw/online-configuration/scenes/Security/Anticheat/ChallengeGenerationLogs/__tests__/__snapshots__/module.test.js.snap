@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - Anticheat - ChallengeGenerationLogs Reducer Test append = false 1`] = `
+Object {
+  "challengeGenerationLogs": Array [
+    3,
+    4,
+  ],
+  "filteringEnabled": true,
+  "nextPageToken": "CAE",
+}
+`;
+
+exports[`Security - Anticheat - ChallengeGenerationLogs Reducer Test append = true 1`] = `
+Object {
+  "challengeGenerationLogs": Array [
+    1,
+    2,
+    3,
+    4,
+  ],
+  "filteringEnabled": true,
+  "nextPageToken": "CAE",
+}
+`;
+
+exports[`Security - Anticheat - ChallengeGenerationLogs Reducer handle CHALLENGE_GENERATION_LOGS_CHANGE_ORDER 1`] = `
+Object {
+  "challengeGenerationLogs": Array [],
+  "filteringEnabled": false,
+  "nextPageToken": null,
+  "order": "eventID,ASC",
+  "q": null,
+}
+`;
+
+exports[`Security - Anticheat - ChallengeGenerationLogs Reducer handle CHALLENGE_GENERATION_LOGS_CHANGE_SEARCH_QUERY 1`] = `
+Object {
+  "challengeGenerationLogs": Array [],
+  "filteringEnabled": false,
+  "nextPageToken": null,
+  "order": null,
+  "q": "blah",
+}
+`;
+
+exports[`Security - Anticheat - ChallengeGenerationLogs Reducer handle CHALLENGE_GENERATION_LOGS_FETCH_SUCCESS: challengeGenerationLogs, filteringEnabled and nextPagetoken assignation 1`] = `
+Object {
+  "challengeGenerationLogs": Array [
+    Object {
+      "challengeId": null,
+      "event": "ws_add_function",
+      "eventData": "{\\"trid\\": 5647460288037035863, \\"function_id\\": 1, \\"description\\": \\"listFilesByOwners\\", \\"args\\": [\\"id\\", \\"name\\", \\"order\\"]}",
+      "eventId": "1",
+      "generatorId": null,
+      "timestamp": 1531216910,
+    },
+  ],
+  "filteringEnabled": true,
+  "nextPageToken": "CAE",
+  "order": null,
+  "q": null,
+}
+`;
+
+exports[`Security - Anticheat - ChallengeGenerationLogs Reducer handle CHALLENGE_GENERATION_LOGS_FETCH_SUCCESS: empty results 1`] = `
+Object {
+  "challengeGenerationLogs": Array [],
+  "filteringEnabled": undefined,
+  "nextPageToken": undefined,
+  "order": null,
+  "q": null,
+}
+`;
+
+exports[`Security - Anticheat - ChallengeGenerationLogs Reducer return the initial state 1`] = `
+Object {
+  "challengeGenerationLogs": Array [],
+  "filteringEnabled": false,
+  "nextPageToken": null,
+  "order": null,
+  "q": null,
+}
+`;

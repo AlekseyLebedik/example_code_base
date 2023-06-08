@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressWhenEmpty renders custom empty values 1`] = `
+<WithStyles(ForwardRef(CircularProgress))
+  className="progress-when-empty__container"
+  size={30}
+  thickness={2}
+/>
+`;
+
+exports[`ProgressWhenEmpty renders custom values 1`] = `
+<div>
+  blah
+</div>
+`;
+
+exports[`ProgressWhenEmpty renders default values 1`] = `
+<WithStyles(ForwardRef(CircularProgress))
+  className="progress-when-empty__container"
+  size={30}
+  thickness={2}
+/>
+`;

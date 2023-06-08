@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThunderpantsConflicts renders correctly with conflict details 1`] = `
+<div
+  className="ag-theme-material"
+>
+  <AgGridReact
+    columnDefs={
+      Array [
+        Object {
+          "cellClass": [Function],
+          "field": "uid",
+          "filter": "agTextColumnFilter",
+          "headerName": "UID",
+          "isConflictingColumn": true,
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "view_name",
+          "filter": "agTextColumnFilter",
+          "headerName": "View",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "target_name",
+          "filter": "agTextColumnFilter",
+          "headerName": "Target",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "build_uid",
+          "filter": "agTextColumnFilter",
+          "headerName": "Build UID",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "type",
+          "filter": "agTextColumnFilter",
+          "headerName": "Type",
+        },
+      ]
+    }
+    defaultColDef={
+      Object {
+        "editable": false,
+        "filter": true,
+        "menuTabs": Array [
+          "filterMenuTab",
+        ],
+        "resizable": true,
+        "sortable": true,
+      }
+    }
+    domLayout="autoHeight"
+    onGridReady={[Function]}
+    onGridSizeChanged={[Function]}
+    overlayNoRowsTemplate="<span>There are no conflicting Thunderpants modifications or undeployments for this activity pair</span>"
+    rowData={
+      Array [
+        Object {
+          "build_uid": "b0022d8c636d58291b16dd61da22b7b41a20775c74139dad0faf728a8d832c5d",
+          "target_name": "uidev:dev(mp)",
+          "type": "undeploy",
+          "uid": "cd043371-4cf1-4f8a-af7c-c19283958600",
+          "user_params": Object {
+            "extra_cmdline_args": "",
+            "max_instances_per_machine": 10,
+          },
+          "view_name": "iw8linux",
+        },
+      ]
+    }
+  />
+</div>
+`;
+
+exports[`ThunderpantsConflicts renders correctly with no conflict details 1`] = `
+<div
+  className="ag-theme-material"
+>
+  <AgGridReact
+    columnDefs={
+      Array [
+        Object {
+          "cellClass": [Function],
+          "field": "uid",
+          "filter": "agTextColumnFilter",
+          "headerName": "UID",
+          "isConflictingColumn": true,
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "view_name",
+          "filter": "agTextColumnFilter",
+          "headerName": "View",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "target_name",
+          "filter": "agTextColumnFilter",
+          "headerName": "Target",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "build_uid",
+          "filter": "agTextColumnFilter",
+          "headerName": "Build UID",
+        },
+        Object {
+          "cellClass": [Function],
+          "field": "type",
+          "filter": "agTextColumnFilter",
+          "headerName": "Type",
+        },
+      ]
+    }
+    defaultColDef={
+      Object {
+        "editable": false,
+        "filter": true,
+        "menuTabs": Array [
+          "filterMenuTab",
+        ],
+        "resizable": true,
+        "sortable": true,
+      }
+    }
+    domLayout="autoHeight"
+    onGridReady={[Function]}
+    onGridSizeChanged={[Function]}
+    overlayNoRowsTemplate="<span>There are no conflicting Thunderpants modifications or undeployments for this activity pair</span>"
+    rowData={Array []}
+  />
+</div>
+`;

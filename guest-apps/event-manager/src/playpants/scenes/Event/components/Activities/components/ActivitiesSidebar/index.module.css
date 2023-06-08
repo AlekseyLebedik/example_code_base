@@ -1,0 +1,35 @@
+.sidebarContainer {
+  padding: 25px;
+}
+
+.titleContainer {
+  display: flex;
+}
+
+.title {
+  padding-right: 25px;
+}
+
+.filter {
+  width: 50%;
+}
+
+.newActivity {
+  margin-left: auto;
+}
+
+.expansionDetails {
+  padding: 0;
+}
+
+.droppableList {
+  min-width: 100%;
+}
+
+.divider {
+  margin-top: 16px;
+}
+
+.emptyActivities {
+  text-align: center;
+}

@@ -1,0 +1,50 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.hideButton {
+  visibility: hidden;
+}
+
+.editor {
+  height: 200px;
+}
+
+.cellWrapper :global(.ag-cell-wrapper) {
+  align-items: flex-start;
+  height: 100%;
+}
+
+.userIdColumnHeader {
+  width: 190px !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userIdColumnHeaderLeft {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.userIdColumnHeaderRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.userIdExpandAllButton {
+  margin-right: 24px;
+}
+
+.userIdSortIcon {
+  margin-left: 8px;
+}

@@ -1,0 +1,38 @@
+.namespaceContent {
+  padding: 0px 20px;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.namespaceControls {
+  margin: 20px 40px 10px 30px;
+  display: flex;
+}
+
+.namespaceTitleEditDelete,
+.namespaceVersionControls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.namespaceTitleEditDelete {
+  padding-left: 10px;
+}
+
+.namespaceVersionControls {
+  margin-left: auto;
+}
+
+.namespaceVersion {
+  margin-right: 25px;
+}
+
+.namespaceTitle {
+  margin-right: 20px;
+}
+
+.gridContainer {
+  composes: ag-theme-material from global;
+  height: 100%;
+}

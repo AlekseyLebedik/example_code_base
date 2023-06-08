@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting Test renders test snapshot 1`] = `
+<div
+  className="makeStyles-rootContainer-1"
+>
+  <main
+    className="makeStyles-main-2"
+  >
+    <div
+      className="makeStyles-content-10 makeStyles-contentShift-11"
+    >
+      <div
+        className="makeStyles-headerContainer-3"
+      >
+        <h2
+          className="makeStyles-title-4"
+        >
+          Test Catalog
+        </h2>
+        <Metrics />
+      </div>
+      <Table />
+    </div>
+    <WithStyles(ForwardRef(Drawer))
+      anchor="right"
+      className="makeStyles-drawer-7"
+      classes={
+        Object {
+          "paper": "makeStyles-drawerPaper-8",
+        }
+      }
+      open={true}
+      variant="persistent"
+    >
+      <div
+        style={
+          Object {
+            "position": "relative",
+          }
+        }
+      >
+        <div
+          className="makeStyles-drawerBtnContainer-12"
+        >
+          <WithStyles(ForwardRef(Button))
+            className="makeStyles-expandBtn-13"
+            onClick={[Function]}
+            size="small"
+            variant="outlined"
+          >
+            <Memo(ForwardRef(AspectRatioIcon)) />
+          </WithStyles(ForwardRef(Button))>
+          <WithStyles(ForwardRef(Button))
+            className="makeStyles-closeBtn-14"
+            onClick={[Function]}
+            size="small"
+            variant="outlined"
+          >
+            <Memo(ForwardRef(CloseIcon)) />
+          </WithStyles(ForwardRef(Button))>
+        </div>
+        <Preview />
+      </div>
+    </WithStyles(ForwardRef(Drawer))>
+  </main>
+</div>
+`;

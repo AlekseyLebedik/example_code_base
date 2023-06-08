@@ -1,0 +1,382 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatelessPyScriptDetails renders the container component correctly 1`] = `
+<Fragment>
+  <ActivityTitleBase
+    RevertDialog={null}
+    customComponent={
+      <PyScriptDetailsStateless
+        disabled={false}
+        onSchemaModelUpdate={[MockFunction]}
+        selectedActivity={
+          Object {
+            "activity": Object {
+              "inputs": Array [
+                Object {
+                  "key": "weapon_type",
+                  "value": "Gun",
+                },
+                Object {
+                  "key": "attachment_icons",
+                  "value": Array [],
+                },
+                Object {
+                  "key": "invalid",
+                  "value": "test",
+                },
+              ],
+              "name": "Double XP",
+              "template_id": "double_xp",
+              "version": "v1.0.4",
+            },
+            "exec_order": 1,
+            "id": 12,
+            "publish_on": "on_start",
+            "title_envs": Array [
+              4,
+            ],
+            "type": "pyscript",
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          }
+        }
+        templates={
+          Array [
+            Object {
+              "description": "Double XP Activity",
+              "id": "double-xp",
+              "name": "Double Xp",
+              "schema": Object {
+                "additionalProperties": false,
+                "properties": Object {
+                  "icon": Object {
+                    "contentEncoding": "base64",
+                    "contentMediaType": "application/octet-stream",
+                    "type": "string",
+                  },
+                  "xp_multiplier": Object {
+                    "maximum": 2,
+                    "minimum": 1,
+                    "multipleOf": 1,
+                    "type": "number",
+                  },
+                },
+                "required": Array [
+                  "xp_multiplier",
+                ],
+                "type": "object",
+              },
+              "version": "v1.0.1",
+            },
+            Object {
+              "description": "Weapon Drop Activity",
+              "id": "weapon-drop",
+              "name": "Weapon Drop",
+              "schema": Object {
+                "additionalProperties": false,
+                "properties": Object {
+                  "attachment_icons": Object {
+                    "items": Object {
+                      "contentEncoding": "base64",
+                      "contentMediaType": "image/png",
+                      "type": "string",
+                    },
+                    "type": "array",
+                  },
+                  "attachments": Object {
+                    "items": Object {
+                      "maxLength": 15,
+                      "type": "string",
+                    },
+                    "type": "array",
+                    "uniqueItems": true,
+                  },
+                  "cost": Object {
+                    "minimum": 10,
+                    "multipleOf": 10,
+                    "type": "number",
+                  },
+                  "weapon_type": Object {
+                    "maxLength": 15,
+                    "minLength": 3,
+                    "type": "string",
+                  },
+                },
+                "required": Array [
+                  "weapon_type",
+                  "attachments",
+                  "attachment_icons",
+                  "cost",
+                ],
+                "type": "object",
+              },
+              "version": "v1.0.0",
+            },
+          ]
+        }
+      />
+    }
+  />
+  <div>
+    <SchemaFormBase
+      data={
+        Object {
+          "inputs": Array [
+            Object {
+              "key": "weapon_type",
+              "value": "Gun",
+            },
+            Object {
+              "key": "attachment_icons",
+              "value": Array [],
+            },
+            Object {
+              "key": "invalid",
+              "value": "test",
+            },
+          ],
+          "name": "Double XP",
+          "template_id": "double_xp",
+          "version": "v1.0.4",
+        }
+      }
+      disabled={false}
+      handleVersionUpdate={[MockFunction]}
+      needsUpdate={false}
+      onUpdate={[MockFunction]}
+      schema={
+        Object {
+          "additionalProperties": false,
+          "properties": Object {
+            "attachment_icons": Object {
+              "items": Object {
+                "contentEncoding": "base64",
+                "contentMediaType": "image/png",
+                "type": "string",
+              },
+              "type": "array",
+            },
+            "attachments": Object {
+              "items": Object {
+                "maxLength": 15,
+                "type": "string",
+              },
+              "type": "array",
+              "uniqueItems": true,
+            },
+            "cost": Object {
+              "minimum": 10,
+              "multipleOf": 10,
+              "type": "number",
+            },
+            "weapon_type": Object {
+              "maxLength": 15,
+              "minLength": 3,
+              "type": "string",
+            },
+          },
+          "required": Array [
+            "weapon_type",
+            "attachments",
+            "attachment_icons",
+            "cost",
+          ],
+          "type": "object",
+        }
+      }
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`StatelessPyScriptDetails should always render ActivityTitle 1`] = `
+<ActivityTitleBase
+  RevertDialog={null}
+  customComponent={
+    <PyScriptDetailsStateless
+      disabled={false}
+      onSchemaModelUpdate={[MockFunction]}
+      selectedActivity={
+        Object {
+          "activity": Object {
+            "inputs": Array [
+              Object {
+                "key": "weapon_type",
+                "value": "Gun",
+              },
+              Object {
+                "key": "attachment_icons",
+                "value": Array [],
+              },
+              Object {
+                "key": "invalid",
+                "value": "test",
+              },
+            ],
+            "name": "Double XP",
+            "template_id": "double_xp",
+            "version": "v1.0.4",
+          },
+          "exec_order": 1,
+          "id": 12,
+          "publish_on": "on_start",
+          "title_envs": Array [
+            4,
+          ],
+          "type": "pyscript",
+          "updated_by": Object {
+            "id": 1,
+            "name": "Initial User",
+          },
+        }
+      }
+      templates={
+        Array [
+          Object {
+            "description": "Double XP Activity",
+            "id": "double-xp",
+            "name": "Double Xp",
+            "schema": Object {
+              "additionalProperties": false,
+              "properties": Object {
+                "icon": Object {
+                  "contentEncoding": "base64",
+                  "contentMediaType": "application/octet-stream",
+                  "type": "string",
+                },
+                "xp_multiplier": Object {
+                  "maximum": 2,
+                  "minimum": 1,
+                  "multipleOf": 1,
+                  "type": "number",
+                },
+              },
+              "required": Array [
+                "xp_multiplier",
+              ],
+              "type": "object",
+            },
+            "version": "v1.0.1",
+          },
+          Object {
+            "description": "Weapon Drop Activity",
+            "id": "weapon-drop",
+            "name": "Weapon Drop",
+            "schema": Object {
+              "additionalProperties": false,
+              "properties": Object {
+                "attachment_icons": Object {
+                  "items": Object {
+                    "contentEncoding": "base64",
+                    "contentMediaType": "image/png",
+                    "type": "string",
+                  },
+                  "type": "array",
+                },
+                "attachments": Object {
+                  "items": Object {
+                    "maxLength": 15,
+                    "type": "string",
+                  },
+                  "type": "array",
+                  "uniqueItems": true,
+                },
+                "cost": Object {
+                  "minimum": 10,
+                  "multipleOf": 10,
+                  "type": "number",
+                },
+                "weapon_type": Object {
+                  "maxLength": 15,
+                  "minLength": 3,
+                  "type": "string",
+                },
+              },
+              "required": Array [
+                "weapon_type",
+                "attachments",
+                "attachment_icons",
+                "cost",
+              ],
+              "type": "object",
+            },
+            "version": "v1.0.0",
+          },
+        ]
+      }
+    />
+  }
+/>
+`;
+
+exports[`StatelessPyScriptDetails should always render SchemaForm 1`] = `
+<SchemaFormBase
+  data={
+    Object {
+      "inputs": Array [
+        Object {
+          "key": "weapon_type",
+          "value": "Gun",
+        },
+        Object {
+          "key": "attachment_icons",
+          "value": Array [],
+        },
+        Object {
+          "key": "invalid",
+          "value": "test",
+        },
+      ],
+      "name": "Double XP",
+      "template_id": "double_xp",
+      "version": "v1.0.4",
+    }
+  }
+  disabled={false}
+  handleVersionUpdate={[MockFunction]}
+  needsUpdate={false}
+  onUpdate={[MockFunction]}
+  schema={
+    Object {
+      "additionalProperties": false,
+      "properties": Object {
+        "attachment_icons": Object {
+          "items": Object {
+            "contentEncoding": "base64",
+            "contentMediaType": "image/png",
+            "type": "string",
+          },
+          "type": "array",
+        },
+        "attachments": Object {
+          "items": Object {
+            "maxLength": 15,
+            "type": "string",
+          },
+          "type": "array",
+          "uniqueItems": true,
+        },
+        "cost": Object {
+          "minimum": 10,
+          "multipleOf": 10,
+          "type": "number",
+        },
+        "weapon_type": Object {
+          "maxLength": 15,
+          "minLength": 3,
+          "type": "string",
+        },
+      },
+      "required": Array [
+        "weapon_type",
+        "attachments",
+        "attachment_icons",
+        "cost",
+      ],
+      "type": "object",
+    }
+  }
+/>
+`;

@@ -1,0 +1,9 @@
+.loading__container {
+  padding-top: 0px !important;
+  height: 100%;
+}
+
+.stories-empty-list {
+  background: inherit !important;
+  border: none !important;
+}

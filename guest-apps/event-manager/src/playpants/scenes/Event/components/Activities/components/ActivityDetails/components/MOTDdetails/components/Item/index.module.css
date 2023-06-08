@@ -1,0 +1,12 @@
+.select {
+  width: 125px;
+}
+
+.card {
+  min-width: 245px;
+  margin: 2px;
+}
+
+.newButton {
+  padding: 0 8px;
+}

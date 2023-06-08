@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UsernameTable render Username Table modal 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="View username table"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        grid_on
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(Tooltip))>
+  <UsernameTableModal
+    handleClose={[Function]}
+    loadOptions={
+      Object {
+        "onSearch": [MockFunction],
+        "q": "*",
+      }
+    }
+    providers={
+      Array [
+        Object {
+          "label": "UNO",
+          "value": "uno",
+        },
+      ]
+    }
+  />
+</Fragment>
+`;
+
+exports[`UsernameTable render component 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Tooltip))
+    title="View username table"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      onClick={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))>
+        grid_on
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(Tooltip))>
+</Fragment>
+`;

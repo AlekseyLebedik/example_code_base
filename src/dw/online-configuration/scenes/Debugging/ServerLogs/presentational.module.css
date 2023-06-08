@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.form {
+  flex: 1 1 200px;
+  overflow-y: auto;
+}
+
+.connections {
+  flex: 1 1 300px;
+  overflow-y: auto;
+}
+
+.transactions {
+  flex: 2 1 50%;
+  overflow-y: auto;
+}

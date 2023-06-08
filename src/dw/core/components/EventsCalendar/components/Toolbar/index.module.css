@@ -1,0 +1,106 @@
+.calendarToolbarContainer {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.calendarToolbarLabel {
+  font-weight: 500;
+  margin: auto 0;
+}
+
+.calendarToolbarViewControlsContainer {
+  display: flex;
+}
+
+.calendarToolbarNavigation,
+.calendarToolbarViewControls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.calendarToolbarViewControls,
+.calendarToolbarViewSelect {
+  margin-right: 8px !important;
+}
+
+.calendarToolbarNavigation button {
+  padding: 6px;
+  margin: auto 0 !important;
+}
+
+.calendarToolbarViewControl {
+  border-radius: 0px !important;
+  margin: 5px 0 !important;
+}
+
+.calendarToolbarViewControl:hover {
+  border-radius: 0px !important;
+}
+
+.calendarToolbarViewControlSelected {
+  composes: calendarToolbarViewControl;
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.calendarToolbarViewControlSelected:hover {
+  background-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+.calendarToolbarViewControlUnselected {
+  composes: calendarToolbarViewControl;
+}
+
+.calendarToolbarViewControlUnselected:hover {
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.calendarToolbarViewSelect {
+  display: none;
+  margin: auto;
+}
+
+.calendarToolbarViewSelectInput {
+  padding-top: 0;
+  padding-bottom: 1px;
+}
+
+.customDateRangeInput {
+  margin: auto 0 auto 20px;
+  width: 125px;
+}
+
+.customDateRangeInput input {
+  -moz-appearance: textfield;
+}
+
+.customDateRangeInput input::-webkit-inner-spin-button,
+.customDateRangeInput input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1250px) {
+  .calendarToolbarContainer {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .calendarToolbarNavigation button {
+    padding: 0;
+  }
+
+  .calendarToolbarLabel {
+    margin-left: 0;
+  }
+
+  .calendarToolbarViewControls {
+    display: none;
+  }
+
+  .calendarToolbarViewSelect {
+    display: block;
+  }
+}

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateGroupModal renders component 1`] = `
+<div>
+  <DialogComponent
+    actions={
+      Array [
+        <WithStyles(ForwardRef(Button))
+          onClick={[MockFunction]}
+        >
+          Cancel
+        </WithStyles(ForwardRef(Button))>,
+        <WithStyles(ForwardRef(Button))
+          color="primary"
+          disabled={true}
+          focusRipple={true}
+          onClick={[MockFunction]}
+        >
+          Create Group
+        </WithStyles(ForwardRef(Button))>,
+      ]
+    }
+    cancelOnBackdropClick={false}
+    classes={Object {}}
+    contentStyle={Object {}}
+    fullWidth={false}
+    maxWidth={null}
+    modal={true}
+    onRequestClose={[MockFunction]}
+    open={true}
+    title="Create Group"
+  >
+    <mockConstructor
+      onSubmit={[MockFunction]}
+    />
+  </DialogComponent>
+</div>
+`;

@@ -1,0 +1,22 @@
+.editIconWrapper:hover .editIcon {
+  opacity: 0.6;
+}
+
+.editIcon {
+  top: -3px;
+  opacity: 0.2;
+  transition: opacity 140ms ease 140ms;
+}
+
+.dateTimePicker {
+  margin-top: 2px;
+}
+
+.colorPickerContainer {
+  padding-right: 10px;
+}
+
+.colorPicker {
+  width: 100% !important;
+  margin: 0 5px 10px;
+}

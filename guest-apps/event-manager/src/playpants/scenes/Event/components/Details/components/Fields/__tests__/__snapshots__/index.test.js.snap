@@ -1,0 +1,1588 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fields renders the Fields component correctly 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <EventProject />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <EventName
+      allowDetachedEvents={false}
+      badgeCount={
+        Object {
+          "discussion": 2,
+          "tasks": 0,
+        }
+      }
+      baseUrl="/event-manager/3/"
+      changeMainTab={[MockFunction]}
+      classes={Object {}}
+      clearable={true}
+      conflicts={Array []}
+      currentUser={
+        Object {
+          "id": 1,
+          "name": "Initial User",
+        }
+      }
+      dateTime={[MockFunction]}
+      deleteEvent={[MockFunction]}
+      detachedEvent={false}
+      disabled={false}
+      editAuths={[MockFunction]}
+      editEvent={[MockFunction]}
+      event={
+        Object {
+          "data": Object {
+            "activities": Array [
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "language": "sp",
+                      "text": "Hola Amigo :D",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 13,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "motd",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "key": "weapon_type",
+                      "value": "Gun",
+                    },
+                    Object {
+                      "key": "attachment_icons",
+                      "value": Array [],
+                    },
+                    Object {
+                      "key": "invalid",
+                      "value": "test",
+                    },
+                  ],
+                  "name": "Double XP",
+                  "template_id": "double_xp",
+                  "version": "v1.0.4",
+                },
+                "exec_order": 1,
+                "id": 12,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  4,
+                ],
+                "type": "pyscript",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "ruleset_to_activate": Object {
+                    "activationTimestamp": null,
+                    "code": "idiwoq03292kj4lsl",
+                    "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+                    "codeSignatureTimestamp": 1565841879,
+                    "code_signature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+                    "creationTimestamp": 1565841879,
+                    "isActive": true,
+                    "label": "stronghold-5",
+                    "lastUpdateTimestamp": 1565842668,
+                  },
+                },
+                "exec_order": 0,
+                "id": 1,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "ae",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "deploy": Array [
+                    Object {
+                      "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+                      "target_name": "uidev:dev(mp)",
+                      "uid": "tp_deployment_1",
+                    },
+                  ],
+                  "modify": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+                      "uid": "modify_1",
+                      "user_params": Object {},
+                    },
+                  ],
+                  "undeploy": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+                      "uid": "undeploy_1",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 2,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "tp_deployment",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+            ],
+            "authorizations": Array [],
+            "authorizers": Array [],
+            "auto_tags": Array [
+              "PS4",
+            ],
+            "created_at": 1560983839,
+            "created_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+            "end_at": 1561243001,
+            "env_type": "Development",
+            "event_type": "event-manager",
+            "id": 2,
+            "is_schedule": false,
+            "locked_by": 1,
+            "manual_tags": Array [
+              "PS4",
+            ],
+            "note": "testing notes",
+            "platforms": Array [
+              "PS",
+            ],
+            "project": 1,
+            "publish_at": 1561057200,
+            "status": "open",
+            "task": null,
+            "title": "Test Event",
+            "updated_at": 1560985103,
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          "loading": false,
+        }
+      }
+      eventData={Object {}}
+      eventId={2}
+      eventUrl="/event-manager/3/events/2"
+      handleSetPrimaryTab={[MockFunction]}
+      handleSetSecondaryTab={[MockFunction]}
+      hasEndDate={false}
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      isConfigured={
+        Object {
+          "stories": true,
+        }
+      }
+      isEventManagerEvent={true}
+      isLoadingEventsPage={false}
+      isTemplateView={false}
+      loadDiscussion={[MockFunction]}
+      loadEvent={[MockFunction]}
+      onCloseRequestErrorDialog={[MockFunction]}
+      onDeleteEvent={[MockFunction]}
+      onSave={[MockFunction]}
+      permissions={
+        Object {
+          "achievementWritePermission": true,
+          "adminPermission": true,
+          "eventWritePermission": true,
+          "publisherObjectsWritePermission": true,
+          "pubstorageWritePermission": true,
+          "pubvarsWritePermission": true,
+          "pyscriptWritePermission": true,
+          "staffUser": true,
+          "tpDeploymentWritePermission": true,
+          "wipPermission": true,
+        }
+      }
+      primaryTab="details"
+      removeActivitySelection={[MockFunction]}
+      requestErrorDialogOpen={
+        Object {
+          "open": false,
+        }
+      }
+      saveEdit={[MockFunction]}
+      secondaryTab="tasks"
+      selectedTab="activities"
+      setEndDate={[MockFunction]}
+      status={
+        Object {
+          "allowAuths": true,
+          "canCancel": true,
+          "canDelete": true,
+          "canOpen": false,
+          "failed": false,
+          "locked": false,
+          "name": "Open",
+          "readOnly": false,
+          "showAuths": false,
+          "showTemplates": true,
+        }
+      }
+      storiesData={Array []}
+      tabUrl="/event-manager/3/events/2/activities"
+      type="publish_at"
+      updateUserProfileSetting={[MockFunction]}
+      user={
+        Object {
+          "actions": Object {
+            "createUserProfileSetting": [MockFunction],
+            "updateUserProfileSetting": [MockFunction],
+          },
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Environment
+      allowDetachedEvents={false}
+      badgeCount={
+        Object {
+          "discussion": 2,
+          "tasks": 0,
+        }
+      }
+      baseUrl="/event-manager/3/"
+      changeMainTab={[MockFunction]}
+      classes={Object {}}
+      clearable={true}
+      conflicts={Array []}
+      currentUser={
+        Object {
+          "id": 1,
+          "name": "Initial User",
+        }
+      }
+      dateTime={[MockFunction]}
+      deleteEvent={[MockFunction]}
+      detachedEvent={false}
+      disabled={false}
+      editAuths={[MockFunction]}
+      editEvent={[MockFunction]}
+      event={
+        Object {
+          "data": Object {
+            "activities": Array [
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "language": "sp",
+                      "text": "Hola Amigo :D",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 13,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "motd",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "key": "weapon_type",
+                      "value": "Gun",
+                    },
+                    Object {
+                      "key": "attachment_icons",
+                      "value": Array [],
+                    },
+                    Object {
+                      "key": "invalid",
+                      "value": "test",
+                    },
+                  ],
+                  "name": "Double XP",
+                  "template_id": "double_xp",
+                  "version": "v1.0.4",
+                },
+                "exec_order": 1,
+                "id": 12,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  4,
+                ],
+                "type": "pyscript",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "ruleset_to_activate": Object {
+                    "activationTimestamp": null,
+                    "code": "idiwoq03292kj4lsl",
+                    "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+                    "codeSignatureTimestamp": 1565841879,
+                    "code_signature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+                    "creationTimestamp": 1565841879,
+                    "isActive": true,
+                    "label": "stronghold-5",
+                    "lastUpdateTimestamp": 1565842668,
+                  },
+                },
+                "exec_order": 0,
+                "id": 1,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "ae",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "deploy": Array [
+                    Object {
+                      "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+                      "target_name": "uidev:dev(mp)",
+                      "uid": "tp_deployment_1",
+                    },
+                  ],
+                  "modify": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+                      "uid": "modify_1",
+                      "user_params": Object {},
+                    },
+                  ],
+                  "undeploy": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+                      "uid": "undeploy_1",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 2,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "tp_deployment",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+            ],
+            "authorizations": Array [],
+            "authorizers": Array [],
+            "auto_tags": Array [
+              "PS4",
+            ],
+            "created_at": 1560983839,
+            "created_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+            "end_at": 1561243001,
+            "env_type": "Development",
+            "event_type": "event-manager",
+            "id": 2,
+            "is_schedule": false,
+            "locked_by": 1,
+            "manual_tags": Array [
+              "PS4",
+            ],
+            "note": "testing notes",
+            "platforms": Array [
+              "PS",
+            ],
+            "project": 1,
+            "publish_at": 1561057200,
+            "status": "open",
+            "task": null,
+            "title": "Test Event",
+            "updated_at": 1560985103,
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          "loading": false,
+        }
+      }
+      eventData={Object {}}
+      eventId={2}
+      eventUrl="/event-manager/3/events/2"
+      handleSetPrimaryTab={[MockFunction]}
+      handleSetSecondaryTab={[MockFunction]}
+      hasEndDate={false}
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      isConfigured={
+        Object {
+          "stories": true,
+        }
+      }
+      isEventManagerEvent={true}
+      isLoadingEventsPage={false}
+      isTemplateView={false}
+      loadDiscussion={[MockFunction]}
+      loadEvent={[MockFunction]}
+      onCloseRequestErrorDialog={[MockFunction]}
+      onDeleteEvent={[MockFunction]}
+      onSave={[MockFunction]}
+      permissions={
+        Object {
+          "achievementWritePermission": true,
+          "adminPermission": true,
+          "eventWritePermission": true,
+          "publisherObjectsWritePermission": true,
+          "pubstorageWritePermission": true,
+          "pubvarsWritePermission": true,
+          "pyscriptWritePermission": true,
+          "staffUser": true,
+          "tpDeploymentWritePermission": true,
+          "wipPermission": true,
+        }
+      }
+      primaryTab="details"
+      removeActivitySelection={[MockFunction]}
+      requestErrorDialogOpen={
+        Object {
+          "open": false,
+        }
+      }
+      saveEdit={[MockFunction]}
+      secondaryTab="tasks"
+      selectedTab="activities"
+      setEndDate={[MockFunction]}
+      status={
+        Object {
+          "allowAuths": true,
+          "canCancel": true,
+          "canDelete": true,
+          "canOpen": false,
+          "failed": false,
+          "locked": false,
+          "name": "Open",
+          "readOnly": false,
+          "showAuths": false,
+          "showTemplates": true,
+        }
+      }
+      storiesData={Array []}
+      tabUrl="/event-manager/3/events/2/activities"
+      type="publish_at"
+      updateUserProfileSetting={[MockFunction]}
+      user={
+        Object {
+          "actions": Object {
+            "createUserProfileSetting": [MockFunction],
+            "updateUserProfileSetting": [MockFunction],
+          },
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Connect(PlatformsBase)
+      allowDetachedEvents={false}
+      badgeCount={
+        Object {
+          "discussion": 2,
+          "tasks": 0,
+        }
+      }
+      baseUrl="/event-manager/3/"
+      changeMainTab={[MockFunction]}
+      classes={Object {}}
+      clearable={true}
+      conflicts={Array []}
+      currentUser={
+        Object {
+          "id": 1,
+          "name": "Initial User",
+        }
+      }
+      dateTime={[MockFunction]}
+      deleteEvent={[MockFunction]}
+      detachedEvent={false}
+      disabled={false}
+      editAuths={[MockFunction]}
+      editEvent={[MockFunction]}
+      event={
+        Object {
+          "data": Object {
+            "activities": Array [
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "language": "sp",
+                      "text": "Hola Amigo :D",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 13,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "motd",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "key": "weapon_type",
+                      "value": "Gun",
+                    },
+                    Object {
+                      "key": "attachment_icons",
+                      "value": Array [],
+                    },
+                    Object {
+                      "key": "invalid",
+                      "value": "test",
+                    },
+                  ],
+                  "name": "Double XP",
+                  "template_id": "double_xp",
+                  "version": "v1.0.4",
+                },
+                "exec_order": 1,
+                "id": 12,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  4,
+                ],
+                "type": "pyscript",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "ruleset_to_activate": Object {
+                    "activationTimestamp": null,
+                    "code": "idiwoq03292kj4lsl",
+                    "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+                    "codeSignatureTimestamp": 1565841879,
+                    "code_signature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+                    "creationTimestamp": 1565841879,
+                    "isActive": true,
+                    "label": "stronghold-5",
+                    "lastUpdateTimestamp": 1565842668,
+                  },
+                },
+                "exec_order": 0,
+                "id": 1,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "ae",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "deploy": Array [
+                    Object {
+                      "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+                      "target_name": "uidev:dev(mp)",
+                      "uid": "tp_deployment_1",
+                    },
+                  ],
+                  "modify": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+                      "uid": "modify_1",
+                      "user_params": Object {},
+                    },
+                  ],
+                  "undeploy": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+                      "uid": "undeploy_1",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 2,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "tp_deployment",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+            ],
+            "authorizations": Array [],
+            "authorizers": Array [],
+            "auto_tags": Array [
+              "PS4",
+            ],
+            "created_at": 1560983839,
+            "created_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+            "end_at": 1561243001,
+            "env_type": "Development",
+            "event_type": "event-manager",
+            "id": 2,
+            "is_schedule": false,
+            "locked_by": 1,
+            "manual_tags": Array [
+              "PS4",
+            ],
+            "note": "testing notes",
+            "platforms": Array [
+              "PS",
+            ],
+            "project": 1,
+            "publish_at": 1561057200,
+            "status": "open",
+            "task": null,
+            "title": "Test Event",
+            "updated_at": 1560985103,
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          "loading": false,
+        }
+      }
+      eventData={Object {}}
+      eventId={2}
+      eventUrl="/event-manager/3/events/2"
+      handleSetPrimaryTab={[MockFunction]}
+      handleSetSecondaryTab={[MockFunction]}
+      hasEndDate={false}
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      isConfigured={
+        Object {
+          "stories": true,
+        }
+      }
+      isEventManagerEvent={true}
+      isLoadingEventsPage={false}
+      isTemplateView={false}
+      loadDiscussion={[MockFunction]}
+      loadEvent={[MockFunction]}
+      onCloseRequestErrorDialog={[MockFunction]}
+      onDeleteEvent={[MockFunction]}
+      onSave={[MockFunction]}
+      permissions={
+        Object {
+          "achievementWritePermission": true,
+          "adminPermission": true,
+          "eventWritePermission": true,
+          "publisherObjectsWritePermission": true,
+          "pubstorageWritePermission": true,
+          "pubvarsWritePermission": true,
+          "pyscriptWritePermission": true,
+          "staffUser": true,
+          "tpDeploymentWritePermission": true,
+          "wipPermission": true,
+        }
+      }
+      primaryTab="details"
+      removeActivitySelection={[MockFunction]}
+      requestErrorDialogOpen={
+        Object {
+          "open": false,
+        }
+      }
+      saveEdit={[MockFunction]}
+      secondaryTab="tasks"
+      selectedTab="activities"
+      setEndDate={[MockFunction]}
+      status={
+        Object {
+          "allowAuths": true,
+          "canCancel": true,
+          "canDelete": true,
+          "canOpen": false,
+          "failed": false,
+          "locked": false,
+          "name": "Open",
+          "readOnly": false,
+          "showAuths": false,
+          "showTemplates": true,
+        }
+      }
+      storiesData={Array []}
+      tabUrl="/event-manager/3/events/2/activities"
+      type="publish_at"
+      updateUserProfileSetting={[MockFunction]}
+      user={
+        Object {
+          "actions": Object {
+            "createUserProfileSetting": [MockFunction],
+            "updateUserProfileSetting": [MockFunction],
+          },
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <CreatedBy
+      allowDetachedEvents={false}
+      badgeCount={
+        Object {
+          "discussion": 2,
+          "tasks": 0,
+        }
+      }
+      baseUrl="/event-manager/3/"
+      changeMainTab={[MockFunction]}
+      classes={Object {}}
+      clearable={true}
+      conflicts={Array []}
+      currentUser={
+        Object {
+          "id": 1,
+          "name": "Initial User",
+        }
+      }
+      dateTime={[MockFunction]}
+      deleteEvent={[MockFunction]}
+      detachedEvent={false}
+      disabled={false}
+      editAuths={[MockFunction]}
+      editEvent={[MockFunction]}
+      event={
+        Object {
+          "data": Object {
+            "activities": Array [
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "language": "sp",
+                      "text": "Hola Amigo :D",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 13,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "motd",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "key": "weapon_type",
+                      "value": "Gun",
+                    },
+                    Object {
+                      "key": "attachment_icons",
+                      "value": Array [],
+                    },
+                    Object {
+                      "key": "invalid",
+                      "value": "test",
+                    },
+                  ],
+                  "name": "Double XP",
+                  "template_id": "double_xp",
+                  "version": "v1.0.4",
+                },
+                "exec_order": 1,
+                "id": 12,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  4,
+                ],
+                "type": "pyscript",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "ruleset_to_activate": Object {
+                    "activationTimestamp": null,
+                    "code": "idiwoq03292kj4lsl",
+                    "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+                    "codeSignatureTimestamp": 1565841879,
+                    "code_signature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+                    "creationTimestamp": 1565841879,
+                    "isActive": true,
+                    "label": "stronghold-5",
+                    "lastUpdateTimestamp": 1565842668,
+                  },
+                },
+                "exec_order": 0,
+                "id": 1,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "ae",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "deploy": Array [
+                    Object {
+                      "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+                      "target_name": "uidev:dev(mp)",
+                      "uid": "tp_deployment_1",
+                    },
+                  ],
+                  "modify": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+                      "uid": "modify_1",
+                      "user_params": Object {},
+                    },
+                  ],
+                  "undeploy": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+                      "uid": "undeploy_1",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 2,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "tp_deployment",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+            ],
+            "authorizations": Array [],
+            "authorizers": Array [],
+            "auto_tags": Array [
+              "PS4",
+            ],
+            "created_at": 1560983839,
+            "created_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+            "end_at": 1561243001,
+            "env_type": "Development",
+            "event_type": "event-manager",
+            "id": 2,
+            "is_schedule": false,
+            "locked_by": 1,
+            "manual_tags": Array [
+              "PS4",
+            ],
+            "note": "testing notes",
+            "platforms": Array [
+              "PS",
+            ],
+            "project": 1,
+            "publish_at": 1561057200,
+            "status": "open",
+            "task": null,
+            "title": "Test Event",
+            "updated_at": 1560985103,
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          "loading": false,
+        }
+      }
+      eventData={Object {}}
+      eventId={2}
+      eventUrl="/event-manager/3/events/2"
+      handleSetPrimaryTab={[MockFunction]}
+      handleSetSecondaryTab={[MockFunction]}
+      hasEndDate={false}
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      isConfigured={
+        Object {
+          "stories": true,
+        }
+      }
+      isEventManagerEvent={true}
+      isLoadingEventsPage={false}
+      isTemplateView={false}
+      loadDiscussion={[MockFunction]}
+      loadEvent={[MockFunction]}
+      onCloseRequestErrorDialog={[MockFunction]}
+      onDeleteEvent={[MockFunction]}
+      onSave={[MockFunction]}
+      permissions={
+        Object {
+          "achievementWritePermission": true,
+          "adminPermission": true,
+          "eventWritePermission": true,
+          "publisherObjectsWritePermission": true,
+          "pubstorageWritePermission": true,
+          "pubvarsWritePermission": true,
+          "pyscriptWritePermission": true,
+          "staffUser": true,
+          "tpDeploymentWritePermission": true,
+          "wipPermission": true,
+        }
+      }
+      primaryTab="details"
+      removeActivitySelection={[MockFunction]}
+      requestErrorDialogOpen={
+        Object {
+          "open": false,
+        }
+      }
+      saveEdit={[MockFunction]}
+      secondaryTab="tasks"
+      selectedTab="activities"
+      setEndDate={[MockFunction]}
+      status={
+        Object {
+          "allowAuths": true,
+          "canCancel": true,
+          "canDelete": true,
+          "canOpen": false,
+          "failed": false,
+          "locked": false,
+          "name": "Open",
+          "readOnly": false,
+          "showAuths": false,
+          "showTemplates": true,
+        }
+      }
+      storiesData={Array []}
+      tabUrl="/event-manager/3/events/2/activities"
+      type="publish_at"
+      updateUserProfileSetting={[MockFunction]}
+      user={
+        Object {
+          "actions": Object {
+            "createUserProfileSetting": [MockFunction],
+            "updateUserProfileSetting": [MockFunction],
+          },
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Date
+      allowDetachedEvents={false}
+      badgeCount={
+        Object {
+          "discussion": 2,
+          "tasks": 0,
+        }
+      }
+      baseUrl="/event-manager/3/"
+      changeMainTab={[MockFunction]}
+      classes={Object {}}
+      clearable={true}
+      conflicts={Array []}
+      currentUser={
+        Object {
+          "id": 1,
+          "name": "Initial User",
+        }
+      }
+      dateTime={[MockFunction]}
+      deleteEvent={[MockFunction]}
+      detachedEvent={false}
+      disabled={true}
+      editAuths={[MockFunction]}
+      editEvent={[MockFunction]}
+      event={
+        Object {
+          "data": Object {
+            "activities": Array [
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "language": "sp",
+                      "text": "Hola Amigo :D",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 13,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "motd",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "key": "weapon_type",
+                      "value": "Gun",
+                    },
+                    Object {
+                      "key": "attachment_icons",
+                      "value": Array [],
+                    },
+                    Object {
+                      "key": "invalid",
+                      "value": "test",
+                    },
+                  ],
+                  "name": "Double XP",
+                  "template_id": "double_xp",
+                  "version": "v1.0.4",
+                },
+                "exec_order": 1,
+                "id": 12,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  4,
+                ],
+                "type": "pyscript",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "ruleset_to_activate": Object {
+                    "activationTimestamp": null,
+                    "code": "idiwoq03292kj4lsl",
+                    "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+                    "codeSignatureTimestamp": 1565841879,
+                    "code_signature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+                    "creationTimestamp": 1565841879,
+                    "isActive": true,
+                    "label": "stronghold-5",
+                    "lastUpdateTimestamp": 1565842668,
+                  },
+                },
+                "exec_order": 0,
+                "id": 1,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "ae",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "deploy": Array [
+                    Object {
+                      "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+                      "target_name": "uidev:dev(mp)",
+                      "uid": "tp_deployment_1",
+                    },
+                  ],
+                  "modify": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+                      "uid": "modify_1",
+                      "user_params": Object {},
+                    },
+                  ],
+                  "undeploy": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+                      "uid": "undeploy_1",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 2,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "tp_deployment",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+            ],
+            "authorizations": Array [],
+            "authorizers": Array [],
+            "auto_tags": Array [
+              "PS4",
+            ],
+            "created_at": 1560983839,
+            "created_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+            "end_at": 1561243001,
+            "env_type": "Development",
+            "event_type": "event-manager",
+            "id": 2,
+            "is_schedule": false,
+            "locked_by": 1,
+            "manual_tags": Array [
+              "PS4",
+            ],
+            "note": "testing notes",
+            "platforms": Array [
+              "PS",
+            ],
+            "project": 1,
+            "publish_at": 1561057200,
+            "status": "open",
+            "task": null,
+            "title": "Test Event",
+            "updated_at": 1560985103,
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          "loading": false,
+        }
+      }
+      eventData={Object {}}
+      eventId={2}
+      eventUrl="/event-manager/3/events/2"
+      handleSetPrimaryTab={[MockFunction]}
+      handleSetSecondaryTab={[MockFunction]}
+      hasEndDate={false}
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      isConfigured={
+        Object {
+          "stories": true,
+        }
+      }
+      isEventManagerEvent={true}
+      isLoadingEventsPage={false}
+      isTemplateView={false}
+      label="Created At"
+      loadDiscussion={[MockFunction]}
+      loadEvent={[MockFunction]}
+      onCloseRequestErrorDialog={[MockFunction]}
+      onDeleteEvent={[MockFunction]}
+      onSave={[MockFunction]}
+      permissions={
+        Object {
+          "achievementWritePermission": true,
+          "adminPermission": true,
+          "eventWritePermission": true,
+          "publisherObjectsWritePermission": true,
+          "pubstorageWritePermission": true,
+          "pubvarsWritePermission": true,
+          "pyscriptWritePermission": true,
+          "staffUser": true,
+          "tpDeploymentWritePermission": true,
+          "wipPermission": true,
+        }
+      }
+      primaryTab="details"
+      removeActivitySelection={[MockFunction]}
+      requestErrorDialogOpen={
+        Object {
+          "open": false,
+        }
+      }
+      saveEdit={[MockFunction]}
+      secondaryTab="tasks"
+      selectedTab="activities"
+      setEndDate={[MockFunction]}
+      status={
+        Object {
+          "allowAuths": true,
+          "canCancel": true,
+          "canDelete": true,
+          "canOpen": false,
+          "failed": false,
+          "locked": false,
+          "name": "Open",
+          "readOnly": false,
+          "showAuths": false,
+          "showTemplates": true,
+        }
+      }
+      storiesData={Array []}
+      tabUrl="/event-manager/3/events/2/activities"
+      type="created_at"
+      updateUserProfileSetting={[MockFunction]}
+      user={
+        Object {
+          "actions": Object {
+            "createUserProfileSetting": [MockFunction],
+            "updateUserProfileSetting": [MockFunction],
+          },
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    xs={12}
+  >
+    <Date
+      allowDetachedEvents={false}
+      badgeCount={
+        Object {
+          "discussion": 2,
+          "tasks": 0,
+        }
+      }
+      baseUrl="/event-manager/3/"
+      changeMainTab={[MockFunction]}
+      classes={Object {}}
+      clearable={true}
+      conflicts={Array []}
+      currentUser={
+        Object {
+          "id": 1,
+          "name": "Initial User",
+        }
+      }
+      dateTime={[MockFunction]}
+      deleteEvent={[MockFunction]}
+      detachedEvent={false}
+      disabled={false}
+      editAuths={[MockFunction]}
+      editEvent={[MockFunction]}
+      event={
+        Object {
+          "data": Object {
+            "activities": Array [
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "language": "sp",
+                      "text": "Hola Amigo :D",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 13,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "motd",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "inputs": Array [
+                    Object {
+                      "key": "weapon_type",
+                      "value": "Gun",
+                    },
+                    Object {
+                      "key": "attachment_icons",
+                      "value": Array [],
+                    },
+                    Object {
+                      "key": "invalid",
+                      "value": "test",
+                    },
+                  ],
+                  "name": "Double XP",
+                  "template_id": "double_xp",
+                  "version": "v1.0.4",
+                },
+                "exec_order": 1,
+                "id": 12,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  4,
+                ],
+                "type": "pyscript",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "ruleset_to_activate": Object {
+                    "activationTimestamp": null,
+                    "code": "idiwoq03292kj4lsl",
+                    "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+                    "codeSignatureTimestamp": 1565841879,
+                    "code_signature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+                    "creationTimestamp": 1565841879,
+                    "isActive": true,
+                    "label": "stronghold-5",
+                    "lastUpdateTimestamp": 1565842668,
+                  },
+                },
+                "exec_order": 0,
+                "id": 1,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "ae",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+              Object {
+                "activity": Object {
+                  "deploy": Array [
+                    Object {
+                      "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+                      "target_name": "uidev:dev(mp)",
+                      "uid": "tp_deployment_1",
+                    },
+                  ],
+                  "modify": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+                      "uid": "modify_1",
+                      "user_params": Object {},
+                    },
+                  ],
+                  "undeploy": Array [
+                    Object {
+                      "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+                      "uid": "undeploy_1",
+                    },
+                  ],
+                },
+                "exec_order": 0,
+                "id": 2,
+                "publish_on": "on_start",
+                "title_envs": Array [
+                  1,
+                ],
+                "type": "tp_deployment",
+                "updated_by": Object {
+                  "id": 1,
+                  "name": "Initial User",
+                },
+              },
+            ],
+            "authorizations": Array [],
+            "authorizers": Array [],
+            "auto_tags": Array [
+              "PS4",
+            ],
+            "created_at": 1560983839,
+            "created_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+            "end_at": 1561243001,
+            "env_type": "Development",
+            "event_type": "event-manager",
+            "id": 2,
+            "is_schedule": false,
+            "locked_by": 1,
+            "manual_tags": Array [
+              "PS4",
+            ],
+            "note": "testing notes",
+            "platforms": Array [
+              "PS",
+            ],
+            "project": 1,
+            "publish_at": 1561057200,
+            "status": "open",
+            "task": null,
+            "title": "Test Event",
+            "updated_at": 1560985103,
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          "loading": false,
+        }
+      }
+      eventData={Object {}}
+      eventId={2}
+      eventUrl="/event-manager/3/events/2"
+      handleSetPrimaryTab={[MockFunction]}
+      handleSetSecondaryTab={[MockFunction]}
+      hasEndDate={false}
+      history={
+        Object {
+          "push": [MockFunction],
+        }
+      }
+      isConfigured={
+        Object {
+          "stories": true,
+        }
+      }
+      isEventManagerEvent={true}
+      isLoadingEventsPage={false}
+      isTemplateView={false}
+      loadDiscussion={[MockFunction]}
+      loadEvent={[MockFunction]}
+      onCloseRequestErrorDialog={[MockFunction]}
+      onDeleteEvent={[MockFunction]}
+      onSave={[MockFunction]}
+      permissions={
+        Object {
+          "achievementWritePermission": true,
+          "adminPermission": true,
+          "eventWritePermission": true,
+          "publisherObjectsWritePermission": true,
+          "pubstorageWritePermission": true,
+          "pubvarsWritePermission": true,
+          "pyscriptWritePermission": true,
+          "staffUser": true,
+          "tpDeploymentWritePermission": true,
+          "wipPermission": true,
+        }
+      }
+      primaryTab="details"
+      removeActivitySelection={[MockFunction]}
+      requestErrorDialogOpen={
+        Object {
+          "open": false,
+        }
+      }
+      saveEdit={[MockFunction]}
+      secondaryTab="tasks"
+      selectedTab="activities"
+      setEndDate={[MockFunction]}
+      status={
+        Object {
+          "allowAuths": true,
+          "canCancel": true,
+          "canDelete": true,
+          "canOpen": false,
+          "failed": false,
+          "locked": false,
+          "name": "Open",
+          "readOnly": false,
+          "showAuths": false,
+          "showTemplates": true,
+        }
+      }
+      storiesData={Array []}
+      tabUrl="/event-manager/3/events/2/activities"
+      type="publish_at"
+      updateUserProfileSetting={[MockFunction]}
+      user={
+        Object {
+          "actions": Object {
+            "createUserProfileSetting": [MockFunction],
+            "updateUserProfileSetting": [MockFunction],
+          },
+        }
+      }
+    />
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

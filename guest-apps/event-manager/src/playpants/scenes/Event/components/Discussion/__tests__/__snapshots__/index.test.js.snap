@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Discussion handleSubmit should always render a submit button TextField 1`] = `null`;
+
+exports[`Discussion handleSubmit should always render a submit button TextField 2`] = `null`;
+
+exports[`Discussion root should render as expected 1`] = `
+<div
+  className="discussionContainer"
+>
+  <RootRef
+    rootRef={
+      Object {
+        "current": undefined,
+      }
+    }
+  >
+    <div
+      className="messagesContainer"
+    >
+      <div
+        className="messageBlock"
+        key="1"
+      >
+        <WithStyles(ForwardRef(Badge))
+          invisible={true}
+          variant="dot"
+        >
+          <u
+            className="username"
+            data-cy="discussionUserAndDate"
+          >
+            Initial User
+            :
+          </u>
+           
+          Jun 19, 2019 10:58 pm
+        </WithStyles(ForwardRef(Badge))>
+        <div
+          className="message"
+          data-cy="discussionMessage"
+        >
+          Hey
+        </div>
+      </div>
+      <div
+        className="messageBlock"
+        key="2"
+      >
+        <WithStyles(ForwardRef(Badge))
+          invisible={false}
+          variant="dot"
+        >
+          <u
+            className="username"
+            data-cy="discussionUserAndDate"
+          >
+            John Snow
+            :
+          </u>
+           
+          Jun 19, 2019 10:59 pm
+        </WithStyles(ForwardRef(Badge))>
+        <div
+          className="message"
+          data-cy="discussionMessage"
+        >
+          The king of the north!
+        </div>
+      </div>
+    </div>
+  </RootRef>
+  <TextField
+    InputProps={
+      Object {
+        "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="end"
+        >
+          <Button
+            color="primary"
+            data-cy="sendMessageButton"
+            onClick={[Function]}
+            variant="contained"
+          >
+            <WithStyles(ForwardRef(Icon))>
+              send
+            </WithStyles(ForwardRef(Icon))>
+          </Button>
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    autoFocus={true}
+    className="textField"
+    data-cy="discussionInput"
+    fullWidth={true}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="Type your message here"
+    value=""
+    variant="outlined"
+  />
+</div>
+`;
+
+exports[`Discussion should always render a input TextField 1`] = `
+<TextField
+  InputProps={
+    Object {
+      "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+        position="end"
+      >
+        <Button
+          color="primary"
+          data-cy="sendMessageButton"
+          onClick={[Function]}
+          variant="contained"
+        >
+          <WithStyles(ForwardRef(Icon))>
+            send
+          </WithStyles(ForwardRef(Icon))>
+        </Button>
+      </WithStyles(ForwardRef(InputAdornment))>,
+    }
+  }
+  autoFocus={true}
+  className="textField"
+  data-cy="discussionInput"
+  fullWidth={true}
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  placeholder="Type your message here"
+  value=""
+  variant="outlined"
+/>
+`;

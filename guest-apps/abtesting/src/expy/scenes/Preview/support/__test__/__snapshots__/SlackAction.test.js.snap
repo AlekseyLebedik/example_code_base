@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting Design - SlackAction renders slack action snapshot 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Button))
+    onClick={[Function]}
+    size="small"
+    startIcon={
+      <Svg
+        className=""
+        color="primary"
+        icon={<SlackIcon />}
+        size="medium"
+      />
+    }
+    variant="outlined"
+  >
+    Request Approval
+  </WithStyles(ForwardRef(Button))>
+  <ForwardRef(Popper)
+    anchorEl={null}
+    disablePortal={true}
+    open={false}
+    style={
+      Object {
+        "zIndex": "2",
+      }
+    }
+    transition={true}
+  >
+    <Component />
+  </ForwardRef(Popper)>
+</Fragment>
+`;

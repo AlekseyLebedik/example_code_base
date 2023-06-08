@@ -1,0 +1,200 @@
+// vim: set syntax=groovy expandtab shiftwidth=4 tabstop=4 softtabstop=4 autoindent smartindent:
+
+def vaultAddr = "https://vault.las.demonware.net:8200"
+def vaultCredentialId = "vault-jenkins-approle"
+def vaultConfiguration = [engineVersion: 2, vaultUrl: vaultAddr, vaultCredentialId: vaultCredentialId ]
+
+// define the Vault secret path and configure secrets to be assigned to env vars
+def vaultSecrets = [
+    [
+        path: 'secrets/shared/devzone/jenkins', secretValues: [
+            [envVar: 'AG_GRID_LICENCE', vaultKey: 'jenkins_ag_grid_licence_key']
+        ]
+    ]
+]
+
+Boolean slackNotificationSent = false
+String teamSlackChannel = '#products-devzone-ext'
+Boolean deploymentTriggered = false
+branchesToNotifyOn = ['master', 'release/*', 'hotfix/*']
+
+pipeline {
+    agent { label 'centos7' }
+    options {
+        buildDiscarder(logRotator(numToKeepStr: '150'))
+        timeout(time: 2, unit: 'HOURS')
+        timestamps()
+    }
+    environment {
+        DOCKER_TAG = sh(script:'git describe --match "[0-9]*.[0-9]*.[0-9]*"', returnStdout: true).trim()
+    }
+    stages {
+        stage('Build Base Image') {
+            steps {
+                sh 'make -f Makefile.testdev image-builder-event-manager DOCKER_TAG=$DOCKER_TAG'
+            }
+        }
+        stage('Static Analysis') {
+            parallel {
+                stage("Linting") {
+                    steps {sh 'make -f Makefile.testdev lint-event-manager'}
+                }
+                stage( "Check Style" ) {
+                    steps{sh 'make -f Makefile.testdev check-style-event-manager'}
+                }
+                stage('Unit Tests') {
+                    steps {
+                        sh 'make -f Makefile.testdev test-event-manager'
+                    }
+                    post {
+                        always {
+                            junit "jest-test-results-event-manager.xml"
+                        }
+                    }
+                }
+            }
+        }
+        stage('Build Event Manager Image') {
+            steps {
+                withVault([configuration: vaultConfiguration, vaultSecrets: vaultSecrets]) {
+                    sh 'make -f Makefile.testdev docker-event-manager AUTH_CLIENT=react DOCKER_TAG=$DOCKER_TAG'
+                }
+                script {
+                    currentBuild.description = """${DOCKER_TAG}"""
+                }
+            }
+        }
+        // stage('Test Event Manager E2E') {
+        //     environment {
+        //         COMPOSE_PROJECT_NAME = 'devzone'
+        //     }
+        //     when {
+        //         not {
+        //             anyOf {
+        //                 branch 'master'
+        //                 branch 'release/*'
+        //                 branch 'hotfix/*'
+        //             }
+        //         }
+        //     }
+        //     steps {
+        //         script {
+        //             tempDir = pwd(tmp:true)
+        //         }
+        //         dir(tempDir) {
+        //             git credentialsId: 'devzone-token-github-userpass',
+        //                 url: 'https://github.ihs.demonware.net/Demonware/devzone.git',
+        //                 poll: false,
+        //                 changelog: false
+        //             sh 'make run-devzone'
+        //             sh 'make run-lsgmmp20'
+        //             sh 'make run-object-store'
+        //             sh 'make run-ae'
+        //             sh 'make run-citadel'
+        //             sh 'make run-dwsproxy'
+        //         }
+        //         sh 'make e2e-local-event-manager'
+        //     }
+        //     post {
+        //         always {
+        //             archiveArtifacts artifacts:'cypress/screenshots/**/*.png', allowEmptyArchive:true
+        //             archiveArtifacts artifacts:'cypress/videos/*.mp4', allowEmptyArchive:true
+        //         }
+        //         cleanup {
+        //             dir(tempDir) {
+        //                 sh 'sudo chown -R $(id -un): .'
+        //                 deleteDir()
+        //             }
+        //         }
+        //     }
+        // }
+        stage('Publish') {
+            when {
+                anyOf {
+                    branch 'master'
+                    branch 'release/*'
+                    branch 'hotfix/*'
+                }
+            }
+            stages {
+                stage('Publish Image') {
+                    steps {
+                        sh 'echo "On ${BRANCH_NAME}, pushing new image."'
+                        sh 'make -f Makefile.testdev docker-push-event-manager DOCKER_TAG=$DOCKER_TAG'
+                    }
+                }
+            }
+        }
+
+        stage('Deploy Frontend QA'){
+            when {
+                branch 'master'
+            }
+            steps {
+                build(
+                    job: 'Devzone/Devzone Deploy/master',
+                    propagate: true,
+                    parameters: [
+                        string(name: 'CLUSTER', value: 'i1.kube.demonware.net'),
+                        string(name: 'RELEASE', value: 'event-manager'),
+                        string(name: 'DEPLOY', value: 'YES'),
+                        string(name: 'COMPONENT', value: 'frontend-event-manager'),
+                        string(name: 'TAG', value: env.DOCKER_TAG),
+                        string(name: 'NOTIFY_EXTERNAL', value: 'NO')
+                    ]
+                )
+            }
+        }
+    }
+    post {
+        success {
+            script {
+                // This is a hack
+                // If the build of the master branch is a success, replace the `currentBuild.description` section
+                // of the Jenkins UI with a `release` button.
+                currentBuild.description = """<b><i>${DOCKER_TAG}</i></b><br/><form method="post" name="parameters" action="/job/Devzone/job/Devzone%20Deploy/job/master/build?delay=0sec">
+    <div name="parameter">
+      <input name="name" value="CLUSTER" type="hidden">
+      <input name="value" value="s1.kube.demonware.net" type="hidden">
+    </div>
+    <div name="parameter">
+      <input name="name" value="RELEASE" type="hidden">
+      <input name="value" value="event-manager" type="hidden">
+    </div>
+    <div name="parameter">
+      <input name="name" value="DEPLOY" type="hidden">
+      <input name="value" value="YES" type="hidden">
+    </div>
+    <div name="parameter">
+      <input name="name" value="COMPONENT" type="hidden">
+      <input name="value" value="frontend-event-manager" type="hidden">
+    </div>
+    <div name="parameter">
+      <input name="name" value="TAG" type="hidden">
+      <input name="value" value="${DOCKER_TAG}" type="hidden">
+    </div>
+    <div name="parameter">
+      <input name="name" value="NOTIFY_EXTERNAL" type="hidden">
+      <input name="value" value="YES" type="hidden">
+    </div>
+    <input name="statusCode" value="303" type="hidden">
+    <button><b>Release to Prod (Event Manager)</b></button>
+</form>"""
+            }
+        }
+        changed {
+            slackBuildReport(teamSlackChannel, ['branches': branchesToNotifyOn])
+            script { slackNotificationSent = true }
+        }
+        unsuccessful {
+            script {
+                if (!slackNotificationSent) {
+                    slackBuildReport(teamSlackChannel, ['branches': branchesToNotifyOn])
+                }
+            }
+        }
+        cleanup {
+            cleanupAgent()
+        }
+    }
+}

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Store Inventory Connected Store Inventory renders default values 1`] = `
+<InventoryItemsStateless
+  actionsRender={[Function]}
+  checked={false}
+  classes={Object {}}
+  columnsDefs={
+    Array [
+      Object {
+        "field": "maxQuantity",
+        "filter": "agNumberColumnFilter",
+        "menuTabs": Array [
+          "filterMenuTab",
+          "columnsMenuTab",
+        ],
+      },
+    ]
+  }
+  darkMode={true}
+  externalActions={false}
+  formatDate={[Function]}
+  getStoreItems={[MockFunction]}
+  grantItems={[MockFunction]}
+  hasEditPermission={false}
+  invalidItems={Array []}
+  isLoading={false}
+  items={Array []}
+  missingItems={Array []}
+  onInventoryFilterChange={[MockFunction]}
+  onSelectItems={[MockFunction]}
+  onSelectRarityFilter={[MockFunction]}
+  searchInput=""
+  selectedItems={Array []}
+  storeLabel=""
+  userId={null}
+  validContext={null}
+/>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Groups membersReducer FETCH_GROUP_MEMBERS initiates fetch for group members 1`] = `
+Object {
+  "members": Object {
+    "data": Array [],
+    "loading": true,
+    "next": null,
+    "params": Object {},
+  },
+}
+`;
+
+exports[`Groups membersReducer FETCH_GROUP_MEMBERS_FAILED dispatches fetch error 1`] = `
+Object {
+  "members": Object {
+    "data": Array [
+      Object {
+        "email": "admin@test.com",
+        "id": 3,
+        "name": "Admin",
+        "username": "admin",
+      },
+      Object {
+        "email": "noreply@demonware.net",
+        "id": 1,
+        "name": "Initial User",
+        "username": "username",
+      },
+    ],
+    "error": true,
+    "loading": false,
+    "next": null,
+    "params": Object {
+      "id": "7",
+    },
+  },
+}
+`;
+
+exports[`Groups membersReducer FETCH_GROUP_MEMBERS_SUCCESS sets the group members with data 1`] = `
+Object {
+  "members": Object {
+    "data": Array [],
+    "loading": false,
+    "next": null,
+    "nextPageToken": undefined,
+    "params": Object {
+      "id": "7",
+    },
+  },
+}
+`;
+
+exports[`Groups membersReducer returns default state 1`] = `
+Object {
+  "members": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+}
+`;

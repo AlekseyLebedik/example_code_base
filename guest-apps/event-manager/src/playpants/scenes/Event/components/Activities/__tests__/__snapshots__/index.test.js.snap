@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Activity renders the Activity container correctly with a selected activity 1`] = `
+<WithWidth(WithStyles(withRouter(MasterDetailBase)))
+  baseUrl="/event-manager/3/events/2/activities"
+  classes={
+    Object {
+      "contentShift": undefined,
+      "drawer": undefined,
+      "drawerPaper": undefined,
+      "expander": undefined,
+    }
+  }
+  detail={[Function]}
+  empty={[Function]}
+  master={[Function]}
+/>
+`;
+
+exports[`Activity renders the Activity container correctly with no selected activity 1`] = `
+<WithWidth(WithStyles(withRouter(MasterDetailBase)))
+  baseUrl="/event-manager/3/events/2/activities"
+  classes={
+    Object {
+      "contentShift": undefined,
+      "drawer": undefined,
+      "drawerPaper": undefined,
+      "expander": undefined,
+    }
+  }
+  detail={[Function]}
+  empty={[Function]}
+  master={[Function]}
+/>
+`;

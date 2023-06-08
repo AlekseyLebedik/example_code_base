@@ -1,0 +1,22 @@
+{
+  "name": "@demonware/core-components-webpack-config",
+  "version": "0.1.3",
+  "description": "Transforms components assigned to window into webpack externals",
+  "author": "Devzone Team <devzone@demonware.net> (https://demonware.net/)",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "registry": "https://artifactory.ihs.demonware.net/api/npm/demonware-npm-release-local/"
+  },
+  "scripts": {
+    "build:clean-up": "mkdir -p ../lib/@demonware/core-components-webpack-config && rm -rf ../lib/@demonware/core-components-webpack-config/*",
+    "build:copy-files": "cp index.js package.json README.md ../lib/@demonware/core-components-webpack-config",
+    "build": "yarn build:clean-up && yarn build:copy-files"
+  },
+  "dependencies": {
+    "camelcase": "^6.0.0"
+  }
+}

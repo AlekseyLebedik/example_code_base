@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalHandlers Reducer handles AT.MODAL_STOP_SUBMITTING 1`] = `Array []`;
+
+exports[`ModalHandlers Reducer handles AT.MODAL_STOP_SUBMITTING 2`] = `Array []`;
+
+exports[`ModalHandlers Reducer handles MODAL_CLOSE 1`] = `Array []`;
+
+exports[`ModalHandlers Reducer handles MODAL_CLOSE 2`] = `Array []`;
+
+exports[`ModalHandlers Reducer handles MODAL_OPEN 1`] = `
+Array [
+  Object {
+    "id": "unique_modal_id",
+    "submitting": false,
+  },
+]
+`;
+
+exports[`ModalHandlers Reducer handles MODAL_SUBMIT 1`] = `Array []`;
+
+exports[`ModalHandlers Reducer handles MODAL_SUBMIT 2`] = `
+Array [
+  Object {
+    "id": "unique_modal_id",
+    "submitting": true,
+  },
+]
+`;
+
+exports[`ModalHandlers Reducer returns initial state 1`] = `Array []`;

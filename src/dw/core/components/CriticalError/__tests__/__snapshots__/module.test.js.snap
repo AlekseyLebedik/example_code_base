@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CriticalError Reducer handles CRITICAL_ERROR_HIDE 1`] = `
+Object {
+  "error": undefined,
+  "retry": undefined,
+}
+`;
+
+exports[`CriticalError Reducer handles CRITICAL_ERROR_HIDE 2`] = `
+Object {
+  "error": undefined,
+  "retry": undefined,
+}
+`;
+
+exports[`CriticalError Reducer handles CRITICAL_ERROR_SHOW 1`] = `
+Object {
+  "error": Object {
+    "message": "Error message",
+  },
+  "retry": [MockFunction],
+}
+`;
+
+exports[`CriticalError Reducer returns initial state 1`] = `
+Object {
+  "error": undefined,
+  "retry": undefined,
+}
+`;

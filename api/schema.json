@@ -1,0 +1,41 @@
+{
+  "$id": "https://devzone.demonware.net/schema.json",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "type": "object",
+  "properties": {
+    "accounts": {
+      "$id": "/properties/accounts",
+      "type": "array",
+      "minItems": 30,
+      "maxItems": 100,
+      "items": {
+        "$id": "/properties/accounts/items",
+        "type": "object",
+        "required": ["userName", "reputation", "userID"],
+        "properties": {
+          "userName": {
+            "$id": "/properties/accounts/items/properties/userName",
+            "type": "string",
+            "faker": "internet.userName"
+          },
+          "reputation": {
+            "$id": "/properties/accounts/items/properties/reputation",
+            "type": "string",
+            "faker": {
+              "random.number": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          },
+          "userID": {
+            "$id": "/properties/accounts/items/properties/userID",
+            "type": "string",
+            "faker": "random.uuid"
+          }
+        }
+      }
+    }
+  }
+}

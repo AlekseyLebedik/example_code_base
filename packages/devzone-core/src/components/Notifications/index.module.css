@@ -1,0 +1,27 @@
+.notification {
+  display: flex;
+  margin-top: 8px;
+}
+
+.notification .icon {
+  margin-right: 5px;
+}
+
+.notificationError,
+.notificationInfo,
+.notificationSuccess {
+  composes: notification;
+}
+
+.notificationError .icon {
+  color: #d0021b;
+}
+
+.notificationInfo .icon {
+  color: #fff;
+  opacity: 0.5;
+}
+
+.notificationSuccess .icon {
+  color: #87d37c;
+}

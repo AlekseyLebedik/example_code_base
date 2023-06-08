@@ -1,0 +1,130 @@
+.loginQueueSettings {
+  color: #ffffff;
+  width: 25%;
+  padding: 20px 0;
+  height: 100%;
+  background-color: #616161;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.loginQueueFormItem {
+  display: flex;
+  width: 100%;
+  padding-bottom: 15px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.loginQueueForm {
+  padding: 0 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.loginQueueFormLabel {
+  width: 50%;
+  color: #ffffff;
+  opacity: 0.6;
+
+  padding-top: 8px;
+  margin-right: 2%;
+}
+
+.loginQueueFormLabelWithTooltip {
+  width: 50%;
+  color: #ffffff;
+  opacity: 0.6;
+
+  padding-top: 3px;
+}
+
+.loginQueueSelectInput {
+  width: 94%;
+  flex: 2;
+  color: #ffffff;
+}
+
+.loginQueueFormInput {
+  width: 50%;
+  color: #ffffff;
+}
+
+.loginQueueFormDisabled {
+  color: #ffffff;
+}
+
+.helpIcon {
+  margin-left: 3px;
+}
+
+.loginQueueDivider {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.loginQueueLabel {
+  color: #ffffff;
+  opacity: 0.6;
+
+  width: 100%;
+  padding: 0 20px;
+}
+
+.loginQueuePadding {
+  padding: 0 20px;
+  width: 100%;
+}
+
+.loginQueueSkeletonBtn {
+  margin-right: 2%;
+  margin-bottom: 20px;
+}
+
+.loginQueueDialogTitle {
+  border-top: 10px solid #009688;
+}
+
+.loginQueueDialogText {
+  margin-bottom: 30px;
+}
+
+.loginQueueDialogBtn {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.loginQueueButton {
+  color: #ffffff;
+}
+
+.loginQueueButtonGroup {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.dialogTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.dialogTableData,
+.dialogTableHead {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+.loginQueueDialogSubText,
+.loginQueueDialogHeader {
+  margin-bottom: 20px;
+}

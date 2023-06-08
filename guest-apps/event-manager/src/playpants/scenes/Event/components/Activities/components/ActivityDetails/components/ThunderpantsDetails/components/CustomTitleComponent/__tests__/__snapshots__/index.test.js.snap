@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTitleComponent renders default 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(CustomTitleComponent)
+    currentProjectID={0}
+    deployer={Object {}}
+    deployerList={Array []}
+    deploymentList={Array []}
+    disabled={false}
+    eventData={Object {}}
+    filterType="default"
+    isScheduledEmpty={false}
+    onUpdate={[MockFunction]}
+    permissions={Object {}}
+    selectedActivity={
+      Object {
+        "activity": Object {},
+      }
+    }
+    setFilterType={[MockFunction]}
+    view="iw8linux"
+    viewList={
+      Array [
+        "iw8linux",
+      ]
+    }
+  />
+</ContextProvider>
+`;

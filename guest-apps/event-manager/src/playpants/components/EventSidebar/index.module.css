@@ -1,0 +1,18 @@
+.eventsCalendarSidebarContainer {
+  background-color: #ffffff;
+  margin: 6px 10px 0 10px;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-wrap: none;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  padding-bottom: 5px;
+}
+
+.buttonGroup button {
+  min-width: 30px;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 0px;
+}

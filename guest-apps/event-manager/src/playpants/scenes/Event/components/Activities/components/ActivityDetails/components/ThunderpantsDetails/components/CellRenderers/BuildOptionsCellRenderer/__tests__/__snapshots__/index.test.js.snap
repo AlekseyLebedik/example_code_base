@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BuildOptionsCellRenderer renders default 1`] = `
+<Fragment>
+  <WithStyles(WrappedIcon)
+    disabled={false}
+    icon="build"
+    key="e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b-modify"
+    onClick={[Function]}
+    size="small"
+    tooltip="Edit"
+  />
+  <WithStyles(WrappedIcon)
+    disabled={false}
+    icon="work_off"
+    key="e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b-undeploy"
+    onClick={[Function]}
+    size="small"
+    tooltip="Undeploy"
+  />
+  <WithStyles(WrappedIcon)
+    disabled={false}
+    icon="lock"
+    key="e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b-modifyLock"
+    onClick={[Function]}
+    size="small"
+    tooltip="Set Lock"
+  />
+</Fragment>
+`;

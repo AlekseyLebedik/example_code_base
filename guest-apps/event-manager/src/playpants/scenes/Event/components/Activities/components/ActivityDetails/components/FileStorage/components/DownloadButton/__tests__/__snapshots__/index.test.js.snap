@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DownloadButton renders default props DownloadButton 1`] = `
+<WithStyles(WrappedIcon)
+  color="primary"
+  disabled={false}
+  icon="save_alt"
+  iconProps={
+    Object {
+      "style": Object {
+        "fontSize": 20,
+      },
+    }
+  }
+  tooltip="Download File"
+/>
+`;
+
+exports[`DownloadButton renders disabled button DownloadButton 1`] = `
+<WithStyles(WrappedIcon)
+  color="primary"
+  disabled={true}
+  icon="save_alt"
+  iconProps={
+    Object {
+      "style": Object {
+        "fontSize": 20,
+      },
+    }
+  }
+  tooltip="Download File"
+/>
+`;

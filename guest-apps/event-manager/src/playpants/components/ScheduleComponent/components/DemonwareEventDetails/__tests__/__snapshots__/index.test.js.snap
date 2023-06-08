@@ -1,0 +1,687 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DemonwareDetails renders default values 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "avatar": Object {
+        "backgroundColor": "#757575",
+      },
+      "breakpoints": Object {
+        "between": [Function],
+        "down": [Function],
+        "keys": Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ],
+        "only": [Function],
+        "up": [Function],
+        "values": Object {
+          "lg": 1280,
+          "md": 960,
+          "sm": 600,
+          "xl": 1920,
+          "xs": 0,
+        },
+        "width": [Function],
+      },
+      "datePicker": Object {
+        "headerColor": "#4ac0f1",
+        "selectColor": "#4ac0f1",
+      },
+      "direction": "ltr",
+      "globalTypography": Object {
+        "& h1:not(class^=\\"ab\\")": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "6rem",
+          "fontWeight": 300,
+          "letterSpacing": "-0.01562em",
+          "lineHeight": 1.167,
+        },
+        "& h2:not(class^=\\"ab\\")": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "3.75rem",
+          "fontWeight": 300,
+          "letterSpacing": "-0.00833em",
+          "lineHeight": 1.2,
+        },
+        "& h3:not(class^=\\"ab\\")": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "3rem",
+          "fontWeight": 400,
+          "letterSpacing": "0em",
+          "lineHeight": 1.167,
+        },
+        "& h4:not(class^=\\"ab\\")": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "2.125rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.00735em",
+          "lineHeight": 1.235,
+        },
+        "& h5:not(class^=\\"ab\\")": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+          "letterSpacing": "0em",
+          "lineHeight": 1.334,
+        },
+        "& ol:not(class^=\\"ab\\")": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.775rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.01071em",
+          "lineHeight": 1.43,
+        },
+        "& ul:not(class^=\\"ab\\")": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.775rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.01071em",
+          "lineHeight": 1.43,
+        },
+      },
+      "grayButton": Object {
+        "&:hover": Object {
+          "background": "#282C34",
+        },
+        "backgroundColor": "#616161",
+      },
+      "header": Object {
+        "dark": Object {
+          "&:hover": Object {
+            "color": "#fafafa",
+          },
+          "backgroundColor": "#333333",
+          "color": "#e0e0e0",
+        },
+        "light": Object {
+          "backgroundColor": "white",
+          "color": "#212121",
+        },
+      },
+      "logLevels": Object {
+        "debug": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "error": Object {
+          "backgroundColor": "#c16e6f",
+          "color": "rgba(114, 28, 36, 0.87)",
+        },
+        "info": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "warning": Object {
+          "backgroundColor": "#FFF3CD",
+          "color": "rgba(133, 100, 4, 0.87)",
+        },
+      },
+      "mixins": Object {
+        "gutters": [Function],
+        "toolbar": Object {
+          "@media (min-width:0px) and (orientation: landscape)": Object {
+            "minHeight": 48,
+          },
+          "@media (min-width:600px)": Object {
+            "minHeight": 64,
+          },
+          "minHeight": 56,
+        },
+      },
+      "navigationBar": Object {
+        "backgroundColor": "#000000",
+        "color": "#fff",
+        "height": 70,
+        "megaMenu": Object {
+          "backgroundColor": "#282c34",
+          "color": "#fff",
+        },
+        "searchInput": Object {
+          "backgroundColor": "#616161",
+        },
+        "sectionTitle": Object {
+          "backgroundColor": "#616161",
+          "color": "#fff",
+        },
+        "sideMargin": 0,
+      },
+      "overrides": Object {
+        "MuiButton": Object {
+          "containedPrimary": Object {
+            "backgroundColor": "#009688",
+            "color": "#fff",
+          },
+          "textPrimary": Object {
+            "color": "#009688",
+          },
+        },
+        "MuiChip": Object {
+          "avatar": Object {
+            "backgroundColor": "#e0e0e0",
+          },
+          "avatarColorPrimary": Object {
+            "backgroundColor": "#616161",
+          },
+          "clickableColorPrimary": Object {
+            "&:active, &:focus": Object {
+              "backgroundColor": "#757575",
+            },
+            "&:hover": Object {
+              "backgroundColor": "#9e9e9e",
+            },
+          },
+          "colorPrimary": Object {
+            "backgroundColor": "#757575",
+            "color": "#fafafa",
+          },
+          "deletableColorPrimary": Object {
+            "&:active, &:focus": Object {
+              "backgroundColor": "#757575",
+            },
+            "&:hover": Object {
+              "backgroundColor": "#9e9e9e",
+            },
+          },
+          "deleteIcon": Object {
+            "backgroundColor": "#fafafa",
+            "borderRadius": 10,
+            "fontSize": 20,
+          },
+          "outlined": Object {
+            "$clickable&:focus, $deletable&:focus": Object {
+              "backgroundColor": "transparent",
+            },
+          },
+          "root": Object {
+            "minWidth": 75,
+          },
+        },
+        "MuiFormControl": Object {
+          "root": Object {
+            "marginBottom": 8,
+          },
+        },
+        "MuiInput": Object {
+          "underline": Object {
+            "borderBottomColor": "#757575",
+          },
+        },
+        "MuiListItem": Object {
+          "root": Object {
+            "paddingBottom": 6,
+            "paddingTop": 6,
+          },
+        },
+        "MuiTooltip": Object {
+          "tooltip": Object {
+            "fontSize": 14,
+          },
+        },
+      },
+      "palette": Object {
+        "action": Object {
+          "activatedOpacity": 0.12,
+          "active": "rgba(0, 0, 0, 0.54)",
+          "disabled": "rgba(0, 0, 0, 0.26)",
+          "disabledBackground": "rgba(0, 0, 0, 0.12)",
+          "disabledOpacity": 0.38,
+          "focus": "rgba(0, 0, 0, 0.12)",
+          "focusOpacity": 0.12,
+          "hover": "rgba(0, 0, 0, 0.04)",
+          "hoverOpacity": 0.04,
+          "selected": "rgba(0, 0, 0, 0.08)",
+          "selectedOpacity": 0.08,
+        },
+        "augmentColor": [Function],
+        "background": Object {
+          "default": "#fafafa",
+          "paper": "#fff",
+        },
+        "common": Object {
+          "black": "#000",
+          "white": "#fff",
+        },
+        "contrastThreshold": 3,
+        "divider": "rgba(0, 0, 0, 0.12)",
+        "error": Object {
+          "contrastText": "#fff",
+          "dark": "#721c24",
+          "light": "#c16e6f",
+          "main": "#d0021b",
+        },
+        "getContrastText": [Function],
+        "grey": Object {
+          "100": "#f5f5f5",
+          "200": "#eeeeee",
+          "300": "#e0e0e0",
+          "400": "#bdbdbd",
+          "50": "#fafafa",
+          "500": "#9e9e9e",
+          "600": "#757575",
+          "700": "#616161",
+          "800": "#424242",
+          "900": "#212121",
+          "A100": "#d5d5d5",
+          "A200": "#aaaaaa",
+          "A400": "#303030",
+          "A700": "#616161",
+        },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
+        "inherit": Object {
+          "main": "#fff",
+        },
+        "primary": Object {
+          "contrastText": "#fff",
+          "dark": "rgb(51, 134, 168)",
+          "light": "rgb(110, 204, 243)",
+          "main": "#4ac0f1",
+        },
+        "secondary": Object {
+          "contrastText": "#fff",
+          "dark": "rgb(128, 19, 19)",
+          "light": "rgb(197, 73, 73)",
+          "main": "#b71c1c",
+        },
+        "success": Object {
+          "contrastText": "#fff",
+          "dark": "#00867d",
+          "light": "#6eb1a9",
+          "main": "#4db6ac",
+        },
+        "text": Object {
+          "disabled": "rgba(0, 0, 0, 0.38)",
+          "hint": "rgba(0, 0, 0, 0.38)",
+          "primary": "rgba(0, 0, 0, 0.87)",
+          "secondary": "rgba(0, 0, 0, 0.54)",
+        },
+        "tonalOffset": 0.2,
+        "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
+        },
+      },
+      "props": Object {
+        "MuiIcon": Object {
+          "fontSize": "small",
+        },
+        "MuiTabs": Object {
+          "indicatorColor": "primary",
+          "textColor": "inherit",
+        },
+      },
+      "shadows": Array [
+        "none",
+        "0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12)",
+        "0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12)",
+        "0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12)",
+        "0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12)",
+        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12)",
+        "0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12)",
+        "0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12)",
+        "0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12)",
+        "0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12)",
+        "0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12)",
+        "0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12)",
+        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12)",
+        "0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12)",
+        "0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12)",
+        "0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12)",
+        "0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12)",
+        "0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12)",
+        "0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12)",
+        "0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12)",
+        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12)",
+        "0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12)",
+        "0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12)",
+        "0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12)",
+        "0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12)",
+      ],
+      "shape": Object {
+        "borderRadius": 4,
+      },
+      "source": Object {
+        "abtesting": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "achievements_engine": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "auth3": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "commsservice": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "dwsproxy": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "loginqueue": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "loot-generation": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "lsg": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "marketplace": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "mmp3": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "objectstore": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "storage-script-service": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "tournament-engine": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "umbrella": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "uno": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+        "webservice": Object {
+          "backgroundColor": "#E2E3E5",
+          "color": "#222222",
+        },
+      },
+      "spacing": [Function],
+      "subnavBar": Object {
+        "backgroundColor": "#282c34",
+        "color": "#fff",
+        "height": 30,
+      },
+      "taskStates": Object {
+        "palette": Object {
+          "cancelled": "#9e9e9e",
+          "failed": "#ff1744",
+          "in-progress": "#ffea00",
+          "succeeded": "#00e676",
+          "timed-out": "#ff9100",
+        },
+      },
+      "timePicker": Object {
+        "headerColor": "#4ac0f1",
+        "selectColor": "#4ac0f1",
+      },
+      "transitions": Object {
+        "create": [Function],
+        "duration": Object {
+          "complex": 375,
+          "enteringScreen": 225,
+          "leavingScreen": 195,
+          "short": 250,
+          "shorter": 200,
+          "shortest": 150,
+          "standard": 300,
+        },
+        "easing": Object {
+          "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+          "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)",
+          "easeOut": "cubic-bezier(0.0, 0, 0.2, 1)",
+          "sharp": "cubic-bezier(0.4, 0, 0.6, 1)",
+        },
+        "getAutoHeightDuration": [Function],
+      },
+      "typography": Object {
+        "body1": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.8888888888888888rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.00938em",
+          "lineHeight": 1.5,
+        },
+        "body2": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.7777777777777778rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.01071em",
+          "lineHeight": 1.43,
+        },
+        "button": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.7777777777777778rem",
+          "fontWeight": 500,
+          "letterSpacing": "0.02857em",
+          "lineHeight": 1.75,
+          "textTransform": "uppercase",
+        },
+        "caption": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.6666666666666666rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.03333em",
+          "lineHeight": 1.66,
+        },
+        "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+        "fontSize": 14,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
+        "h1": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "5.333333333333333rem",
+          "fontWeight": 300,
+          "letterSpacing": "-0.01562em",
+          "lineHeight": 1.167,
+        },
+        "h2": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "3.3333333333333335rem",
+          "fontWeight": 300,
+          "letterSpacing": "-0.00833em",
+          "lineHeight": 1.2,
+        },
+        "h3": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "2.6666666666666665rem",
+          "fontWeight": 400,
+          "letterSpacing": "0em",
+          "lineHeight": 1.167,
+        },
+        "h4": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "1.8888888888888888rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.00735em",
+          "lineHeight": 1.235,
+        },
+        "h5": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "1.3333333333333333rem",
+          "fontWeight": 400,
+          "letterSpacing": "0em",
+          "lineHeight": 1.334,
+        },
+        "h6": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "1.1111111111111112rem",
+          "fontWeight": 500,
+          "letterSpacing": "0.0075em",
+          "lineHeight": 1.6,
+        },
+        "htmlFontSize": 18,
+        "label1": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.66rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.01071em",
+          "lineHeight": 1.43,
+        },
+        "overline": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.6666666666666666rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.08333em",
+          "lineHeight": 2.66,
+          "textTransform": "uppercase",
+        },
+        "pxToRem": [Function],
+        "round": [Function],
+        "subtitle1": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.8888888888888888rem",
+          "fontWeight": 400,
+          "letterSpacing": "0.00938em",
+          "lineHeight": 1.75,
+        },
+        "subtitle2": Object {
+          "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
+          "fontSize": "0.7777777777777778rem",
+          "fontWeight": 500,
+          "letterSpacing": "0.00714em",
+          "lineHeight": 1.57,
+        },
+      },
+      "zIndex": Object {
+        "appBar": 10,
+        "drawer": 1200,
+        "mobileStepper": 1000,
+        "modal": 1300,
+        "snackbar": 1400,
+        "speedDial": 1050,
+        "tooltip": 1500,
+      },
+      Symbol(mui.nested): false,
+    }
+  }
+>
+  <ThemeProvider
+    theme={[Function]}
+  >
+    <WithStyles(DemonwareDetailsStateless)
+      _abTestDetailData={Object {}}
+      _affiliatedProjects={Array []}
+      _baseUrl=""
+      _currentProject={Object {}}
+      _defaultToInfo={false}
+      _demonwareDetailData={Object {}}
+      _displayExternalEvents={false}
+      _displayInfoEvents={false}
+      _duplicateEventData={Object {}}
+      _enabledSources={
+        Array [
+          "event-manager",
+          "ab-testing",
+          "informational",
+        ]
+      }
+      _eventDetailData={Object {}}
+      _eventFetchDetails={Object {}}
+      _eventTypesFilters={Object {}}
+      _externalDetailData={Object {}}
+      _externalEventTypesFilters={Object {}}
+      _filterPropsDisabled={Object {}}
+      _gamertagGroupsError={Object {}}
+      _handleEventDrop={[MockFunction]}
+      _handleExportEvents={[MockFunction]}
+      _handleGamertagGroupDrop={[MockFunction]}
+      _handleOpenABTestDetailModal={[MockFunction]}
+      _handleOpenCreateEventModal={[MockFunction]}
+      _handleOpenDemonwareDetailModal={[MockFunction]}
+      _handleOpenEventDetailModal={[MockFunction]}
+      _handleOpenExternalDetailModal={[MockFunction]}
+      _infoEventTypesFilters={Object {}}
+      _onClearEventFetchDetails={[MockFunction]}
+      _onFetchEventDetails={[MockFunction]}
+      _onOpenGamertagDetailModal={[MockFunction]}
+      _onUpdateEvent={[MockFunction]}
+      _onUpdatePresets={[MockFunction]}
+      _permissions={Object {}}
+      _platformSettings={Array []}
+      _presetOptions={Array []}
+      _selectedGamertagGroup={Object {}}
+      _setDuplicateEventData={[MockFunction]}
+      _setSelectedGamertagGroup={[MockFunction]}
+      _updateHiddenGamertagList={[MockFunction]}
+      _userTimezone=""
+      abTestDetailModalId=""
+      abTestsData={Array []}
+      abTestsError={Object {}}
+      abTestsLoading={false}
+      classes={Object {}}
+      createEventModalId=""
+      demonwareDetailModalId=""
+      demonwareEventsData={Array []}
+      demonwareEventsError={Object {}}
+      demonwareEventsLoading={false}
+      event={
+        Object {
+          "allDay": true,
+          "description": "Something Critical!",
+          "end": "Thu Dec 17 2020 06:08:23 GMT-0800 (Pacific Standard Time)",
+          "endTime": 1608214103,
+          "end_at": 1608214103,
+          "endpoint": "https://devzone-qa.demonware.net/admin/events/criticalevent/6/change/",
+          "env_type": "Unknown",
+          "event_type": "criticalEvents",
+          "id": 6,
+          "isReadOnly": true,
+          "name": "Critical Event in QA",
+          "publish_at": 1597068502,
+          "start": "Mon Aug 10 2020 07:08:22 GMT-0700 (Pacific Daylight Time)",
+          "startTime": 1597068502,
+          "title": "Critical Event in QA",
+          "title_id": undefined,
+          "type": "demonwareEvents",
+        }
+      }
+      eventDetailModalId=""
+      eventManagerEventsData={Array []}
+      eventManagerEventsError={Object {}}
+      eventManagerEventsLoading={false}
+      eventsCalendarSettings={
+        Object {
+          "displayView": "calendar",
+          "selectedView": "month",
+        }
+      }
+      externalEventsData={Array []}
+      externalEventsError={Object {}}
+      externalEventsLoading={false}
+      gamertagDetailModalId=""
+      gamertagGroups={Array []}
+      informationalEventsData={Array []}
+      informationalEventsError={Object {}}
+      informationalEventsLoading={false}
+      isStaff={true}
+      onFetchEvents={[MockFunction]}
+      onFetchGamertagGroups={[MockFunction]}
+    />
+  </ThemeProvider>
+</ContextProvider>
+`;

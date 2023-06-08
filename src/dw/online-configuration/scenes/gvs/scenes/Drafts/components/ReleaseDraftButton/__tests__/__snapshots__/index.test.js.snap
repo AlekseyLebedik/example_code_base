@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GVS ReleaseDraftButton renders disabled if no OCCToken 1`] = `
+<ConfirmActionComponent
+  actionTrigger="onClick"
+  changeCopyPermission={null}
+  component="IconButton"
+  confirm={
+    Object {
+      "confirmMsg": <React.Fragment>
+        <p>
+          Are you sure you want to Release the draft 
+          ?
+        </p>
+        <WithStyles(ForwardRef(TextField))
+          InputLabelProps={
+            Object {
+              "shrink": true,
+            }
+          }
+          fullWidth={true}
+          label="Comment describing release"
+          onChange={[Function]}
+          placeholder="Releasing the draft null"
+          value=""
+        />
+        <div
+          className="makeStyles-settingsRoot-1"
+        >
+          <WithStyles(ForwardRef(Accordion))>
+            <WithStyles(ForwardRef(AccordionSummary))
+              aria-controls="advanced-content"
+              expandIcon={
+                <WithStyles(ForwardRef(Icon))>
+                  expand_more
+                </WithStyles(ForwardRef(Icon))>
+              }
+              id="advanced-header"
+            >
+              <WithStyles(ForwardRef(Typography))
+                className="makeStyles-settingsHeader-2"
+              >
+                Advanced Settings
+              </WithStyles(ForwardRef(Typography))>
+            </WithStyles(ForwardRef(AccordionSummary))>
+            <WithStyles(ForwardRef(AccordionDetails))>
+              <WithStyles(ForwardRef(FormControlLabel))
+                control={
+                  <WithStyles(ForwardRef(Checkbox))
+                    checked={true}
+                    color="primary"
+                    onChange={[Function]}
+                  />
+                }
+                label="Send Push Message"
+              />
+            </WithStyles(ForwardRef(AccordionDetails))>
+          </WithStyles(ForwardRef(Accordion))>
+        </div>
+      </React.Fragment>,
+      "mainButtonLabel": "Release",
+      "title": "Confirm Release",
+      "variant": "warning",
+    }
+  }
+  disabled={true}
+  onClick={[Function]}
+  tooltip="You need to review draft diff before release"
+>
+  call_merge
+</ConfirmActionComponent>
+`;
+
+exports[`GVS ReleaseDraftButton renders enabled with OCCToken 1`] = `
+<ConfirmActionComponent
+  actionTrigger="onClick"
+  changeCopyPermission={null}
+  component="IconButton"
+  confirm={
+    Object {
+      "confirmMsg": <React.Fragment>
+        <p>
+          Are you sure you want to Release the draft 
+          ?
+        </p>
+        <WithStyles(ForwardRef(TextField))
+          InputLabelProps={
+            Object {
+              "shrink": true,
+            }
+          }
+          fullWidth={true}
+          label="Comment describing release"
+          onChange={[Function]}
+          placeholder="Releasing the draft null"
+          value=""
+        />
+        <div
+          className="makeStyles-settingsRoot-1"
+        >
+          <WithStyles(ForwardRef(Accordion))>
+            <WithStyles(ForwardRef(AccordionSummary))
+              aria-controls="advanced-content"
+              expandIcon={
+                <WithStyles(ForwardRef(Icon))>
+                  expand_more
+                </WithStyles(ForwardRef(Icon))>
+              }
+              id="advanced-header"
+            >
+              <WithStyles(ForwardRef(Typography))
+                className="makeStyles-settingsHeader-2"
+              >
+                Advanced Settings
+              </WithStyles(ForwardRef(Typography))>
+            </WithStyles(ForwardRef(AccordionSummary))>
+            <WithStyles(ForwardRef(AccordionDetails))>
+              <WithStyles(ForwardRef(FormControlLabel))
+                control={
+                  <WithStyles(ForwardRef(Checkbox))
+                    checked={true}
+                    color="primary"
+                    onChange={[Function]}
+                  />
+                }
+                label="Send Push Message"
+              />
+            </WithStyles(ForwardRef(AccordionDetails))>
+          </WithStyles(ForwardRef(Accordion))>
+        </div>
+      </React.Fragment>,
+      "mainButtonLabel": "Release",
+      "title": "Confirm Release",
+      "variant": "warning",
+    }
+  }
+  disabled={false}
+  onClick={[Function]}
+  tooltip="Release Draft"
+>
+  call_merge
+</ConfirmActionComponent>
+`;
+
+exports[`GVS ReleaseDraftButton renders nothing if no permissions 1`] = `""`;

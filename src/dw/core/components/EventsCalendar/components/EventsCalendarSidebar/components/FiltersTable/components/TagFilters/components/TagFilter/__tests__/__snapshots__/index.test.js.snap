@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TagFilter TagFilter with addCustomTagSet renders TagFilter 1`] = `
+<Fragment>
+  <div
+    className="eventsCalendarFilter"
+  >
+    <WithStyles(ForwardRef(TextField))
+      InputProps={Object {}}
+      error={null}
+      fullWidth={true}
+      helperText={null}
+      multiline={true}
+      onChange={[Function]}
+      placeholder="Add Tag Set"
+      value=""
+    />
+  </div>
+</Fragment>
+`;

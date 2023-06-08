@@ -1,0 +1,10 @@
+.EventManagerMainRow {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  overflow-y: auto;
+  position: relative;
+}

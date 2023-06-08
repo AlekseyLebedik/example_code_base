@@ -1,0 +1,1630 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectSettings Reducer CHANGE_TAB sets the project environment settings tab otherwise 1`] = `
+Object {
+  "Responsibilities": Object {
+    "group": Object {
+      "members": Object {
+        "data": Array [
+          Object {
+            "email": "admin@test.com",
+            "id": 3,
+            "name": "Admin",
+            "username": "admin",
+          },
+          Object {
+            "email": "noreply@demonware.net",
+            "id": 1,
+            "name": "Initial User",
+            "username": "username",
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "id": "7",
+        },
+      },
+    },
+    "groups": Object {
+      "data": Array [
+        Object {
+          "description": "",
+          "id": 1,
+          "name": "GTR Group 1",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 6,
+          "name": "asdf",
+          "project": 1,
+        },
+        Object {
+          "description": "asdf",
+          "id": 2,
+          "name": "GTR Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 3,
+          "name": "New Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 5,
+          "name": "sanghawk group test",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 7,
+          "name": "sanghawk group testsdfgsdf",
+          "project": 1,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "project": 1,
+      },
+    },
+    "responsibilityGroups": Object {
+      "data": Array [
+        Object {
+          "env_type": "Certification",
+          "group": 7,
+          "id": 25,
+          "project": 1,
+          "responsibilities": Array [
+            3,
+          ],
+          "user": null,
+        },
+        Object {
+          "env_type": "Development",
+          "group": 7,
+          "id": 26,
+          "project": 1,
+          "responsibilities": Array [],
+          "user": null,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "group": "7",
+        "project": 1,
+      },
+    },
+    "responsibilityOptions": Object {
+      "data": Array [
+        Object {
+          "code": "authorize_pubstorage",
+          "id": 1,
+          "name": "Authorize | Publisher Storage",
+        },
+        Object {
+          "code": "authorize_motd",
+          "id": 2,
+          "name": "Authorize | MOTD",
+        },
+        Object {
+          "code": "authorize_playlist",
+          "id": 3,
+          "name": "Authorize | Playlists",
+        },
+        Object {
+          "code": "authorize_pubvars",
+          "id": 4,
+          "name": "Authorize | Publisher Variables",
+        },
+        Object {
+          "code": "authorize_pyscript",
+          "id": 5,
+          "name": "Authorize | PyScript",
+        },
+        Object {
+          "code": "authorize_publisher_objects",
+          "id": 6,
+          "name": "Authorize | Publisher Objects",
+        },
+      ],
+      "loading": false,
+      "next": null,
+    },
+    "user": Object {
+      "assignedGroups": Object {
+        "data": Array [
+          Object {
+            "description": "",
+            "id": 1,
+            "name": "Group 1",
+            "project": 1,
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "project": 1,
+          "userID": 1,
+        },
+      },
+    },
+  },
+  "Schemas": Object {
+    "data": Array [],
+    "loading": false,
+  },
+  "Users": Object {
+    "availableUsers": Object {
+      "data": Array [
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/3/",
+            },
+          },
+          "email": "admin@test.com",
+          "enabled": true,
+          "id": 3,
+          "isSuperuser": false,
+          "name": "Admin",
+          "username": "admin",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/4/",
+            },
+          },
+          "email": "guest@test.com",
+          "enabled": true,
+          "id": 4,
+          "isSuperuser": false,
+          "name": "Guest",
+          "username": "guest",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/1/",
+            },
+          },
+          "email": "noreply@demonware.net",
+          "enabled": true,
+          "id": 1,
+          "isSuperuser": true,
+          "name": "Initial User",
+          "username": "username",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/2/",
+            },
+          },
+          "email": "readonly@test.com",
+          "enabled": true,
+          "id": 2,
+          "isSuperuser": false,
+          "name": "Readonly",
+          "username": "readonly",
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "sort": "name",
+      },
+    },
+    "userListFilters": Object {
+      "query": "",
+    },
+  },
+}
+`;
+
+exports[`ProjectSettings Reducer CHANGE_TAB sets the project settings tab if tab type PS is received 1`] = `
+Object {
+  "Responsibilities": Object {
+    "group": Object {
+      "members": Object {
+        "data": Array [
+          Object {
+            "email": "admin@test.com",
+            "id": 3,
+            "name": "Admin",
+            "username": "admin",
+          },
+          Object {
+            "email": "noreply@demonware.net",
+            "id": 1,
+            "name": "Initial User",
+            "username": "username",
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "id": "7",
+        },
+      },
+    },
+    "groups": Object {
+      "data": Array [
+        Object {
+          "description": "",
+          "id": 1,
+          "name": "GTR Group 1",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 6,
+          "name": "asdf",
+          "project": 1,
+        },
+        Object {
+          "description": "asdf",
+          "id": 2,
+          "name": "GTR Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 3,
+          "name": "New Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 5,
+          "name": "sanghawk group test",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 7,
+          "name": "sanghawk group testsdfgsdf",
+          "project": 1,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "project": 1,
+      },
+    },
+    "responsibilityGroups": Object {
+      "data": Array [
+        Object {
+          "env_type": "Certification",
+          "group": 7,
+          "id": 25,
+          "project": 1,
+          "responsibilities": Array [
+            3,
+          ],
+          "user": null,
+        },
+        Object {
+          "env_type": "Development",
+          "group": 7,
+          "id": 26,
+          "project": 1,
+          "responsibilities": Array [],
+          "user": null,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "group": "7",
+        "project": 1,
+      },
+    },
+    "responsibilityOptions": Object {
+      "data": Array [
+        Object {
+          "code": "authorize_pubstorage",
+          "id": 1,
+          "name": "Authorize | Publisher Storage",
+        },
+        Object {
+          "code": "authorize_motd",
+          "id": 2,
+          "name": "Authorize | MOTD",
+        },
+        Object {
+          "code": "authorize_playlist",
+          "id": 3,
+          "name": "Authorize | Playlists",
+        },
+        Object {
+          "code": "authorize_pubvars",
+          "id": 4,
+          "name": "Authorize | Publisher Variables",
+        },
+        Object {
+          "code": "authorize_pyscript",
+          "id": 5,
+          "name": "Authorize | PyScript",
+        },
+        Object {
+          "code": "authorize_publisher_objects",
+          "id": 6,
+          "name": "Authorize | Publisher Objects",
+        },
+      ],
+      "loading": false,
+      "next": null,
+    },
+    "user": Object {
+      "assignedGroups": Object {
+        "data": Array [
+          Object {
+            "description": "",
+            "id": 1,
+            "name": "Group 1",
+            "project": 1,
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "project": 1,
+          "userID": 1,
+        },
+      },
+    },
+  },
+  "Schemas": Object {
+    "data": Array [],
+    "loading": false,
+  },
+  "Users": Object {
+    "availableUsers": Object {
+      "data": Array [
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/3/",
+            },
+          },
+          "email": "admin@test.com",
+          "enabled": true,
+          "id": 3,
+          "isSuperuser": false,
+          "name": "Admin",
+          "username": "admin",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/4/",
+            },
+          },
+          "email": "guest@test.com",
+          "enabled": true,
+          "id": 4,
+          "isSuperuser": false,
+          "name": "Guest",
+          "username": "guest",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/1/",
+            },
+          },
+          "email": "noreply@demonware.net",
+          "enabled": true,
+          "id": 1,
+          "isSuperuser": true,
+          "name": "Initial User",
+          "username": "username",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/2/",
+            },
+          },
+          "email": "readonly@test.com",
+          "enabled": true,
+          "id": 2,
+          "isSuperuser": false,
+          "name": "Readonly",
+          "username": "readonly",
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "sort": "name",
+      },
+    },
+    "userListFilters": Object {
+      "query": "",
+    },
+  },
+}
+`;
+
+exports[`ProjectSettings Reducer FILTER_GROUPS changes the selected group for user filter 1`] = `
+Object {
+  "Responsibilities": Object {
+    "group": Object {
+      "members": Object {
+        "data": Array [
+          Object {
+            "email": "admin@test.com",
+            "id": 3,
+            "name": "Admin",
+            "username": "admin",
+          },
+          Object {
+            "email": "noreply@demonware.net",
+            "id": 1,
+            "name": "Initial User",
+            "username": "username",
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "id": "7",
+        },
+      },
+    },
+    "groups": Object {
+      "data": Array [
+        Object {
+          "description": "",
+          "id": 1,
+          "name": "GTR Group 1",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 6,
+          "name": "asdf",
+          "project": 1,
+        },
+        Object {
+          "description": "asdf",
+          "id": 2,
+          "name": "GTR Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 3,
+          "name": "New Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 5,
+          "name": "sanghawk group test",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 7,
+          "name": "sanghawk group testsdfgsdf",
+          "project": 1,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "project": 1,
+      },
+    },
+    "responsibilityGroups": Object {
+      "data": Array [
+        Object {
+          "env_type": "Certification",
+          "group": 7,
+          "id": 25,
+          "project": 1,
+          "responsibilities": Array [
+            3,
+          ],
+          "user": null,
+        },
+        Object {
+          "env_type": "Development",
+          "group": 7,
+          "id": 26,
+          "project": 1,
+          "responsibilities": Array [],
+          "user": null,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "group": "7",
+        "project": 1,
+      },
+    },
+    "responsibilityOptions": Object {
+      "data": Array [
+        Object {
+          "code": "authorize_pubstorage",
+          "id": 1,
+          "name": "Authorize | Publisher Storage",
+        },
+        Object {
+          "code": "authorize_motd",
+          "id": 2,
+          "name": "Authorize | MOTD",
+        },
+        Object {
+          "code": "authorize_playlist",
+          "id": 3,
+          "name": "Authorize | Playlists",
+        },
+        Object {
+          "code": "authorize_pubvars",
+          "id": 4,
+          "name": "Authorize | Publisher Variables",
+        },
+        Object {
+          "code": "authorize_pyscript",
+          "id": 5,
+          "name": "Authorize | PyScript",
+        },
+        Object {
+          "code": "authorize_publisher_objects",
+          "id": 6,
+          "name": "Authorize | Publisher Objects",
+        },
+      ],
+      "loading": false,
+      "next": null,
+    },
+    "user": Object {
+      "assignedGroups": Object {
+        "data": Array [
+          Object {
+            "description": "",
+            "id": 1,
+            "name": "Group 1",
+            "project": 1,
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "project": 1,
+          "userID": 1,
+        },
+      },
+    },
+  },
+  "Schemas": Object {
+    "data": Array [],
+    "loading": false,
+  },
+  "Users": Object {
+    "availableUsers": Object {
+      "data": Array [
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/3/",
+            },
+          },
+          "email": "admin@test.com",
+          "enabled": true,
+          "id": 3,
+          "isSuperuser": false,
+          "name": "Admin",
+          "username": "admin",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/4/",
+            },
+          },
+          "email": "guest@test.com",
+          "enabled": true,
+          "id": 4,
+          "isSuperuser": false,
+          "name": "Guest",
+          "username": "guest",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/1/",
+            },
+          },
+          "email": "noreply@demonware.net",
+          "enabled": true,
+          "id": 1,
+          "isSuperuser": true,
+          "name": "Initial User",
+          "username": "username",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/2/",
+            },
+          },
+          "email": "readonly@test.com",
+          "enabled": true,
+          "id": 2,
+          "isSuperuser": false,
+          "name": "Readonly",
+          "username": "readonly",
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "sort": "name",
+      },
+    },
+    "userListFilters": Object {
+      "query": "",
+    },
+  },
+}
+`;
+
+exports[`ProjectSettings Reducer USERS_SEARCH sets the search value from query 1`] = `
+Object {
+  "Responsibilities": Object {
+    "group": Object {
+      "members": Object {
+        "data": Array [
+          Object {
+            "email": "admin@test.com",
+            "id": 3,
+            "name": "Admin",
+            "username": "admin",
+          },
+          Object {
+            "email": "noreply@demonware.net",
+            "id": 1,
+            "name": "Initial User",
+            "username": "username",
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "id": "7",
+        },
+      },
+    },
+    "groups": Object {
+      "data": Array [
+        Object {
+          "description": "",
+          "id": 1,
+          "name": "GTR Group 1",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 6,
+          "name": "asdf",
+          "project": 1,
+        },
+        Object {
+          "description": "asdf",
+          "id": 2,
+          "name": "GTR Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 3,
+          "name": "New Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 5,
+          "name": "sanghawk group test",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 7,
+          "name": "sanghawk group testsdfgsdf",
+          "project": 1,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "project": 1,
+      },
+    },
+    "responsibilityGroups": Object {
+      "data": Array [
+        Object {
+          "env_type": "Certification",
+          "group": 7,
+          "id": 25,
+          "project": 1,
+          "responsibilities": Array [
+            3,
+          ],
+          "user": null,
+        },
+        Object {
+          "env_type": "Development",
+          "group": 7,
+          "id": 26,
+          "project": 1,
+          "responsibilities": Array [],
+          "user": null,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "group": "7",
+        "project": 1,
+      },
+    },
+    "responsibilityOptions": Object {
+      "data": Array [
+        Object {
+          "code": "authorize_pubstorage",
+          "id": 1,
+          "name": "Authorize | Publisher Storage",
+        },
+        Object {
+          "code": "authorize_motd",
+          "id": 2,
+          "name": "Authorize | MOTD",
+        },
+        Object {
+          "code": "authorize_playlist",
+          "id": 3,
+          "name": "Authorize | Playlists",
+        },
+        Object {
+          "code": "authorize_pubvars",
+          "id": 4,
+          "name": "Authorize | Publisher Variables",
+        },
+        Object {
+          "code": "authorize_pyscript",
+          "id": 5,
+          "name": "Authorize | PyScript",
+        },
+        Object {
+          "code": "authorize_publisher_objects",
+          "id": 6,
+          "name": "Authorize | Publisher Objects",
+        },
+      ],
+      "loading": false,
+      "next": null,
+    },
+    "user": Object {
+      "assignedGroups": Object {
+        "data": Array [
+          Object {
+            "description": "",
+            "id": 1,
+            "name": "Group 1",
+            "project": 1,
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "project": 1,
+          "userID": 1,
+        },
+      },
+    },
+  },
+  "Schemas": Object {
+    "data": Array [],
+    "loading": false,
+  },
+  "Users": Object {
+    "availableUsers": Object {
+      "data": Array [
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/3/",
+            },
+          },
+          "email": "admin@test.com",
+          "enabled": true,
+          "id": 3,
+          "isSuperuser": false,
+          "name": "Admin",
+          "username": "admin",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/4/",
+            },
+          },
+          "email": "guest@test.com",
+          "enabled": true,
+          "id": 4,
+          "isSuperuser": false,
+          "name": "Guest",
+          "username": "guest",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/1/",
+            },
+          },
+          "email": "noreply@demonware.net",
+          "enabled": true,
+          "id": 1,
+          "isSuperuser": true,
+          "name": "Initial User",
+          "username": "username",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/2/",
+            },
+          },
+          "email": "readonly@test.com",
+          "enabled": true,
+          "id": 2,
+          "isSuperuser": false,
+          "name": "Readonly",
+          "username": "readonly",
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "sort": "name",
+      },
+    },
+    "userListFilters": Object {
+      "query": "",
+    },
+  },
+}
+`;
+
+exports[`ProjectSettings Reducer availableUsersReducer FETCH_AVAILABLE_USERS initiates fetch for users 1`] = `
+Object {
+  "Responsibilities": Object {
+    "group": Object {
+      "members": Object {
+        "data": Array [
+          Object {
+            "email": "admin@test.com",
+            "id": 3,
+            "name": "Admin",
+            "username": "admin",
+          },
+          Object {
+            "email": "noreply@demonware.net",
+            "id": 1,
+            "name": "Initial User",
+            "username": "username",
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "id": "7",
+        },
+      },
+    },
+    "groups": Object {
+      "data": Array [
+        Object {
+          "description": "",
+          "id": 1,
+          "name": "GTR Group 1",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 6,
+          "name": "asdf",
+          "project": 1,
+        },
+        Object {
+          "description": "asdf",
+          "id": 2,
+          "name": "GTR Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 3,
+          "name": "New Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 5,
+          "name": "sanghawk group test",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 7,
+          "name": "sanghawk group testsdfgsdf",
+          "project": 1,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "project": 1,
+      },
+    },
+    "responsibilityGroups": Object {
+      "data": Array [
+        Object {
+          "env_type": "Certification",
+          "group": 7,
+          "id": 25,
+          "project": 1,
+          "responsibilities": Array [
+            3,
+          ],
+          "user": null,
+        },
+        Object {
+          "env_type": "Development",
+          "group": 7,
+          "id": 26,
+          "project": 1,
+          "responsibilities": Array [],
+          "user": null,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "group": "7",
+        "project": 1,
+      },
+    },
+    "responsibilityOptions": Object {
+      "data": Array [
+        Object {
+          "code": "authorize_pubstorage",
+          "id": 1,
+          "name": "Authorize | Publisher Storage",
+        },
+        Object {
+          "code": "authorize_motd",
+          "id": 2,
+          "name": "Authorize | MOTD",
+        },
+        Object {
+          "code": "authorize_playlist",
+          "id": 3,
+          "name": "Authorize | Playlists",
+        },
+        Object {
+          "code": "authorize_pubvars",
+          "id": 4,
+          "name": "Authorize | Publisher Variables",
+        },
+        Object {
+          "code": "authorize_pyscript",
+          "id": 5,
+          "name": "Authorize | PyScript",
+        },
+        Object {
+          "code": "authorize_publisher_objects",
+          "id": 6,
+          "name": "Authorize | Publisher Objects",
+        },
+      ],
+      "loading": false,
+      "next": null,
+    },
+    "user": Object {
+      "assignedGroups": Object {
+        "data": Array [
+          Object {
+            "description": "",
+            "id": 1,
+            "name": "Group 1",
+            "project": 1,
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "project": 1,
+          "userID": 1,
+        },
+      },
+    },
+  },
+  "Schemas": Object {
+    "data": Array [],
+    "loading": false,
+  },
+  "Users": Object {
+    "availableUsers": Object {
+      "data": Array [],
+      "loading": true,
+      "next": null,
+      "params": Object {
+        "sort": "name",
+      },
+    },
+    "userListFilters": Object {
+      "query": "",
+    },
+  },
+}
+`;
+
+exports[`ProjectSettings Reducer availableUsersReducer FETCH_AVAILABLE_USERS_FAILED dispatches fetch error 1`] = `
+Object {
+  "Responsibilities": Object {
+    "group": Object {
+      "members": Object {
+        "data": Array [
+          Object {
+            "email": "admin@test.com",
+            "id": 3,
+            "name": "Admin",
+            "username": "admin",
+          },
+          Object {
+            "email": "noreply@demonware.net",
+            "id": 1,
+            "name": "Initial User",
+            "username": "username",
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "id": "7",
+        },
+      },
+    },
+    "groups": Object {
+      "data": Array [
+        Object {
+          "description": "",
+          "id": 1,
+          "name": "GTR Group 1",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 6,
+          "name": "asdf",
+          "project": 1,
+        },
+        Object {
+          "description": "asdf",
+          "id": 2,
+          "name": "GTR Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 3,
+          "name": "New Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 5,
+          "name": "sanghawk group test",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 7,
+          "name": "sanghawk group testsdfgsdf",
+          "project": 1,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "project": 1,
+      },
+    },
+    "responsibilityGroups": Object {
+      "data": Array [
+        Object {
+          "env_type": "Certification",
+          "group": 7,
+          "id": 25,
+          "project": 1,
+          "responsibilities": Array [
+            3,
+          ],
+          "user": null,
+        },
+        Object {
+          "env_type": "Development",
+          "group": 7,
+          "id": 26,
+          "project": 1,
+          "responsibilities": Array [],
+          "user": null,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "group": "7",
+        "project": 1,
+      },
+    },
+    "responsibilityOptions": Object {
+      "data": Array [
+        Object {
+          "code": "authorize_pubstorage",
+          "id": 1,
+          "name": "Authorize | Publisher Storage",
+        },
+        Object {
+          "code": "authorize_motd",
+          "id": 2,
+          "name": "Authorize | MOTD",
+        },
+        Object {
+          "code": "authorize_playlist",
+          "id": 3,
+          "name": "Authorize | Playlists",
+        },
+        Object {
+          "code": "authorize_pubvars",
+          "id": 4,
+          "name": "Authorize | Publisher Variables",
+        },
+        Object {
+          "code": "authorize_pyscript",
+          "id": 5,
+          "name": "Authorize | PyScript",
+        },
+        Object {
+          "code": "authorize_publisher_objects",
+          "id": 6,
+          "name": "Authorize | Publisher Objects",
+        },
+      ],
+      "loading": false,
+      "next": null,
+    },
+    "user": Object {
+      "assignedGroups": Object {
+        "data": Array [
+          Object {
+            "description": "",
+            "id": 1,
+            "name": "Group 1",
+            "project": 1,
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "project": 1,
+          "userID": 1,
+        },
+      },
+    },
+  },
+  "Schemas": Object {
+    "data": Array [],
+    "loading": false,
+  },
+  "Users": Object {
+    "availableUsers": Object {
+      "data": Array [
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/3/",
+            },
+          },
+          "email": "admin@test.com",
+          "enabled": true,
+          "id": 3,
+          "isSuperuser": false,
+          "name": "Admin",
+          "username": "admin",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/4/",
+            },
+          },
+          "email": "guest@test.com",
+          "enabled": true,
+          "id": 4,
+          "isSuperuser": false,
+          "name": "Guest",
+          "username": "guest",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/1/",
+            },
+          },
+          "email": "noreply@demonware.net",
+          "enabled": true,
+          "id": 1,
+          "isSuperuser": true,
+          "name": "Initial User",
+          "username": "username",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/2/",
+            },
+          },
+          "email": "readonly@test.com",
+          "enabled": true,
+          "id": 2,
+          "isSuperuser": false,
+          "name": "Readonly",
+          "username": "readonly",
+        },
+      ],
+      "error": true,
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "sort": "name",
+      },
+    },
+    "userListFilters": Object {
+      "query": "",
+    },
+  },
+}
+`;
+
+exports[`ProjectSettings Reducer availableUsersReducer FETCH_AVAILABLE_USERS_SUCCESS sets the available user with data 1`] = `
+Object {
+  "Responsibilities": Object {
+    "group": Object {
+      "members": Object {
+        "data": Array [
+          Object {
+            "email": "admin@test.com",
+            "id": 3,
+            "name": "Admin",
+            "username": "admin",
+          },
+          Object {
+            "email": "noreply@demonware.net",
+            "id": 1,
+            "name": "Initial User",
+            "username": "username",
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "id": "7",
+        },
+      },
+    },
+    "groups": Object {
+      "data": Array [
+        Object {
+          "description": "",
+          "id": 1,
+          "name": "GTR Group 1",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 6,
+          "name": "asdf",
+          "project": 1,
+        },
+        Object {
+          "description": "asdf",
+          "id": 2,
+          "name": "GTR Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 3,
+          "name": "New Group",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 5,
+          "name": "sanghawk group test",
+          "project": 1,
+        },
+        Object {
+          "description": "",
+          "id": 7,
+          "name": "sanghawk group testsdfgsdf",
+          "project": 1,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "project": 1,
+      },
+    },
+    "responsibilityGroups": Object {
+      "data": Array [
+        Object {
+          "env_type": "Certification",
+          "group": 7,
+          "id": 25,
+          "project": 1,
+          "responsibilities": Array [
+            3,
+          ],
+          "user": null,
+        },
+        Object {
+          "env_type": "Development",
+          "group": 7,
+          "id": 26,
+          "project": 1,
+          "responsibilities": Array [],
+          "user": null,
+        },
+      ],
+      "loading": false,
+      "next": null,
+      "params": Object {
+        "group": "7",
+        "project": 1,
+      },
+    },
+    "responsibilityOptions": Object {
+      "data": Array [
+        Object {
+          "code": "authorize_pubstorage",
+          "id": 1,
+          "name": "Authorize | Publisher Storage",
+        },
+        Object {
+          "code": "authorize_motd",
+          "id": 2,
+          "name": "Authorize | MOTD",
+        },
+        Object {
+          "code": "authorize_playlist",
+          "id": 3,
+          "name": "Authorize | Playlists",
+        },
+        Object {
+          "code": "authorize_pubvars",
+          "id": 4,
+          "name": "Authorize | Publisher Variables",
+        },
+        Object {
+          "code": "authorize_pyscript",
+          "id": 5,
+          "name": "Authorize | PyScript",
+        },
+        Object {
+          "code": "authorize_publisher_objects",
+          "id": 6,
+          "name": "Authorize | Publisher Objects",
+        },
+      ],
+      "loading": false,
+      "next": null,
+    },
+    "user": Object {
+      "assignedGroups": Object {
+        "data": Array [
+          Object {
+            "description": "",
+            "id": 1,
+            "name": "Group 1",
+            "project": 1,
+          },
+        ],
+        "loading": false,
+        "next": null,
+        "params": Object {
+          "project": 1,
+          "userID": 1,
+        },
+      },
+    },
+  },
+  "Schemas": Object {
+    "data": Array [],
+    "loading": false,
+  },
+  "Users": Object {
+    "availableUsers": Object {
+      "data": Array [],
+      "loading": false,
+      "next": null,
+      "nextPageToken": undefined,
+      "params": Object {
+        "sort": "name",
+      },
+    },
+    "userListFilters": Object {
+      "query": "",
+    },
+  },
+}
+`;
+
+exports[`ProjectSettings Reducer availableUsersReducer returns default state 1`] = `
+Object {
+  "Responsibilities": Object {
+    "group": Object {
+      "members": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+    },
+    "groups": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "responsibilityGroups": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "responsibilityOptions": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "user": Object {
+      "assignedGroups": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+    },
+  },
+  "Schemas": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "Users": Object {
+    "availableUsers": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "userListFilters": Object {
+      "query": "",
+    },
+  },
+}
+`;
+
+exports[`ProjectSettings Reducer returns default state 1`] = `
+Object {
+  "Responsibilities": Object {
+    "group": Object {
+      "members": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+    },
+    "groups": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "responsibilityGroups": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "responsibilityOptions": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "user": Object {
+      "assignedGroups": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+    },
+  },
+  "Schemas": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "Users": Object {
+    "availableUsers": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "userListFilters": Object {
+      "query": "",
+    },
+  },
+}
+`;

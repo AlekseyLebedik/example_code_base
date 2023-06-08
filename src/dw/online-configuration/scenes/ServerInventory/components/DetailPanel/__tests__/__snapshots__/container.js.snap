@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServerInventory DetailPanel container should render list component 1`] = `
+<DetailPanel
+  buildname="T8-ship-3274825-TU13-50-1-a7e51f7d@2324"
+  context="t8-ps4-wz-100"
+  datacenter="gs-chicago"
+  disableList={false}
+  displayChart={false}
+  empty={false}
+  emptyText={null}
+  load={[Function]}
+  loading={false}
+  onServerStateChange={null}
+  onViewChartClick={null}
+  onViewListClick={null}
+  propMissing={false}
+  serverState="idle"
+  servers={
+    Array [
+      Object {
+        "data": Object {
+          "addr": "addr",
+          "allocated": false,
+          "buildName": "T8-ship-3274825-TU13-50-1-a7e51f7d@2324",
+          "context": "t8-ps4-wz-100",
+          "dataCenter": "gs-chicago",
+          "priority": "1",
+          "registrationTime": "Feb 14, 2019 04:09 pm",
+          "secID": "",
+          "secKey": "asd==",
+          "serverInfo": Object {},
+        },
+        "ttl": "574",
+        "userID": "16055663896388436049",
+      },
+      Object {
+        "data": Object {
+          "addr": "addr2",
+          "allocated": false,
+          "buildName": "T8-ship-3274825-TU13-50-1-a7e51f7d@2324",
+          "context": "t8-ps4-wz-100",
+          "dataCenter": "gs-chicago",
+          "priority": "1",
+          "registrationTime": "Feb 14, 2019 04:19 pm",
+          "secID": "",
+          "secKey": "asd==",
+          "serverInfo": "",
+        },
+        "ttl": "1177",
+        "userID": "16055663896370348053",
+      },
+    ]
+  }
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;

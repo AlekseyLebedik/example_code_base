@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusTableField renders stardard user case 1`] = `
+<div
+  className="base whatever"
+>
+  whatever
+</div>
+`;

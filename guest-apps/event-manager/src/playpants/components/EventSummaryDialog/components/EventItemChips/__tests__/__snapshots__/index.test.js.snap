@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventItemChips renders the EventItemChips correctly 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={1}
+/>
+`;

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdvancedSearch calls onChange callback with changed values 1`] = `<Component />`;
+
+exports[`AdvancedSearch displays all the multi field search criteria as separate tags 1`] = `
+<div
+  className="advanced-search-tag-section"
+  key="tag-panel"
+>
+  <Tag
+    id="myField"
+    key="myField"
+    name="My Field"
+    removeField={[Function]}
+    value="value1"
+  />
+  <Tag
+    id="myField-2"
+    key="myField-2"
+    name="My Field"
+    removeField={[Function]}
+    value="value2"
+  />
+  <Tag
+    id="myField-3"
+    key="myField-3"
+    name="My Field"
+    removeField={[Function]}
+    value="last value"
+  />
+</div>
+`;
+
+exports[`AdvancedSearch renders DateTimePicker for advanced search field with type date 1`] = `null`;
+
+exports[`AdvancedSearch renders NumericInput for advanced search field with type number 1`] = `null`;
+
+exports[`AdvancedSearch renders SelectField for advanced search field with type bool 1`] = `null`;
+
+exports[`AdvancedSearch renders TextField for advanced search field with type text 1`] = `null`;
+
+exports[`AdvancedSearch renders current advanced search criteria as tags 1`] = `
+<div
+  className="advanced-search-tag-section"
+  key="tag-panel"
+>
+  <Tag
+    id="logId"
+    key="logId"
+    name="log ID"
+    removeField={[Function]}
+    value={111}
+  />
+  <Tag
+    id="timestamp"
+    key="timestamp"
+    name="timestamp"
+    removeField={[Function]}
+    value="May 01, 2018"
+  />
+  <Tag
+    id="userName"
+    key="userName"
+    name="User Name"
+    removeField={[Function]}
+    value="John"
+  />
+  <Tag
+    id="enabled"
+    key="enabled"
+    name="Enabled"
+    removeField={[Function]}
+    value="Yes"
+  />
+</div>
+`;
+
+exports[`AdvancedSearch renders empty container when advanced search is closed and no values 1`] = `""`;

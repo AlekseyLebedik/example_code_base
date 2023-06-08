@@ -1,0 +1,14 @@
+.authGridContainer {
+  margin-left: 10%;
+}
+
+.responseContainer {
+  margin-left: -20px;
+  white-space: pre;
+  overflow: auto;
+  text-align: center;
+}
+
+.iconButton {
+  top: -6px;
+}

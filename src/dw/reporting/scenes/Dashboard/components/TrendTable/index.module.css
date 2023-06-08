@@ -1,0 +1,64 @@
+.row:hover :global(.hoverable) {
+  visibility: inherit;
+  opacity: 1;
+  transition: opacity 500ms linear;
+}
+
+.headers {
+  display: flex;
+  align-items: center;
+}
+
+.headers > div {
+  align-self: stretch;
+  margin: 1px 2px;
+}
+
+.headers > div > div {
+  height: 100%;
+  text-transform: capitalize;
+  padding: 5px 0;
+  text-align: center;
+  align-self: stretch;
+  align-items: start;
+}
+
+.headers > div:first-child {
+  align-self: flex-start;
+  text-align: left;
+}
+
+.row {
+  line-height: 26px;
+  transition: all 0.3s linear;
+  display: flex;
+  align-items: center;
+  align-content: flex-end;
+  margin-right: -14px;
+}
+
+.row:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.87);
+  transition: all 1s linear;
+}
+
+.trendValue {
+  margin: 1px 2px;
+  text-align: center;
+}
+
+.weeklyDate {
+  padding-left: 10px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 10px 14px 0 5px;
+  }
+
+  .weeklyDate {
+    padding-left: 0;
+  }
+}

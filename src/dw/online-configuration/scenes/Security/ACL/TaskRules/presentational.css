@@ -1,0 +1,49 @@
+.main-container.task-rules .common__search {
+  margin: 0;
+  width: 100%;
+}
+
+.main-container.task-rules {
+  display: flex;
+  flex-flow: column;
+  align-content: space-between;
+}
+
+.main-container.task-rules .list-wrapper {
+  height: calc(100vh - 170px);
+  padding: 0 20px;
+}
+
+.main-container.task-rules .table-headers {
+  padding: 0 20px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.main-container.task-rules .table-row.service {
+  font-weight: 300;
+}
+
+.main-container.task-rules .table-row.service hr {
+  margin: 2px 0 0 0;
+}
+
+.main-container.task-rules .table-row.service span {
+  display: inline-block;
+  padding-top: 20px;
+  margin-top: -10px;
+}
+
+.main-container.task-rules .ant-row.table-row button {
+  margin-top: -12px;
+}
+
+@media (min-width: 768px) {
+  .main-container.task-rules .common__search {
+    width: 500px;
+  }
+
+  .main-container.task-rules .list-wrapper {
+    height: calc(100vh - 170px);
+  }
+}

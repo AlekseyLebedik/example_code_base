@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+}
+
+.container form {
+  width: 100%;
+  max-width: 425px;
+  padding: 16px;
+}
+
+.container form > input {
+  width: 100%;
+}
+
+.container form > div {
+  margin-top: 10px;
+}
+
+.field {
+  margin-top: 24px !important;
+  margin-bottom: 8px !important;
+}
+
+.field > div {
+  width: 100%;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 0 !important;
+  margin-right: -10px;
+}
+
+.searchButton {
+  margin-bottom: 20px;
+}
+
+.fieldGroup > div {
+  flex-grow: 1;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.fieldGroup input[type='text'] {
+}

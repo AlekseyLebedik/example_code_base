@@ -1,0 +1,1070 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventsSidebar renders EventsSidebar with no onSelectSlot function 1`] = `
+<div
+  className="eventsCalendarSidebarContainer"
+  data-cy="eventsCalendarSidebarContainer"
+>
+  <CalendarPresets
+    adminUser={true}
+    onPresetsUpdate={[MockFunction]}
+    presetOptions={Array []}
+    projectId="1"
+    setCalendarSettings={[MockFunction]}
+  />
+  <EventFilters
+    addCustomTagSet={[MockFunction]}
+    changeCalendarView={[MockFunction]}
+    changeNumberOfDays={[MockFunction]}
+    classes={Object {}}
+    clearEventsCalendarSettings={[MockFunction]}
+    copyLinkToClipboard={[MockFunction]}
+    createEventModalId="CREATE_EVENT"
+    customRangeError=""
+    customRangeInput={30}
+    customViewOn={false}
+    date={2019-01-01T00:00:00.000Z}
+    daysWithDots={Object {}}
+    defaultDate={"2019-01-01T00:00:00.000Z"}
+    disabledFilters={Object {}}
+    eventGroups={
+      Array [
+        Object {
+          "EventDetails": [Function],
+          "GroupLink": [Function],
+          "classes": Object {
+            "applied": "applied-style",
+            "approved": "approved-style",
+            "cancelled": "cancelled-style",
+            "expired": "expired-style",
+            "pending": "pending-style",
+            "rejected": "rejected-style",
+            "scheduled": "scheduled-style",
+            "test-failed": "test-failed-style",
+            "testing": "testing-style",
+          },
+          "customEventStyles": [Function],
+          "eventDragDrop": [MockFunction],
+          "eventTypes": Object {
+            "eventManager": Object {
+              "children": Object {
+                "checkedByMe": Object {
+                  "children": null,
+                  "name": "Checked By Me",
+                  "selectedByDefault": false,
+                },
+                "status": Object {
+                  "children": Object {
+                    "applied": Object {
+                      "children": null,
+                      "name": "Applied",
+                      "selectedByDefault": true,
+                    },
+                    "approved": Object {
+                      "children": null,
+                      "name": "Approved",
+                      "selectedByDefault": true,
+                    },
+                    "cancelled": Object {
+                      "children": null,
+                      "name": "Cancelled",
+                      "selectedByDefault": true,
+                    },
+                    "expired": Object {
+                      "children": null,
+                      "name": "Expired",
+                      "selectedByDefault": true,
+                    },
+                    "pending": Object {
+                      "children": null,
+                      "name": "Pending",
+                      "selectedByDefault": true,
+                    },
+                    "rejected": Object {
+                      "children": null,
+                      "name": "Rejected",
+                      "selectedByDefault": true,
+                    },
+                    "scheduled": Object {
+                      "children": null,
+                      "name": "Scheduled",
+                      "selectedByDefault": true,
+                    },
+                    "test-failed": Object {
+                      "children": null,
+                      "name": "Test Failed",
+                      "selectedByDefault": true,
+                    },
+                    "testing": Object {
+                      "children": null,
+                      "name": "Testing",
+                      "selectedByDefault": true,
+                    },
+                  },
+                  "name": "Status",
+                },
+              },
+              "name": "Event Manager",
+              "selectedByDefault": true,
+            },
+          },
+          "events": Array [
+            Object {
+              "allDay": false,
+              "end": 1555460772,
+              "id": 1,
+              "publish_at": 1555460772,
+              "start": 1555460772,
+              "status": "approved",
+              "title": "test",
+              "type": "eventManager",
+            },
+            Object {
+              "allDay": false,
+              "end": 1555460772,
+              "id": 1,
+              "publish_at": 1555460772,
+              "start": 1555460772,
+              "status": "pending",
+              "title": "test 2",
+              "type": "eventManager",
+            },
+          ],
+          "loading": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "modifyEvent": [MockFunction],
+          "type": "eventManager",
+          "wrapper": [MockFunction],
+        },
+      ]
+    }
+    eventTimeOffset={0}
+    eventsCalendarSettings={
+      Object {
+        "customViewOn": false,
+        "displayView": "calendar",
+        "envTypeFilters": Object {
+          "Certification": true,
+          "Development": true,
+          "Live": true,
+        },
+        "eventTimeOffset": 0,
+        "filters": Object {
+          "customTags": Object {
+            "unspecified": true,
+            "userTags": Object {
+              "0": Object {
+                "checked": true,
+                "tags": Array [
+                  "PS4",
+                  "XBOX",
+                ],
+              },
+              "1": Object {
+                "checked": true,
+                "tags": Array [
+                  "COD",
+                  "BO4",
+                ],
+              },
+            },
+          },
+          "environments": Object {
+            "Certification": true,
+            "Cross Environment": true,
+            "Development": true,
+            "Live": true,
+          },
+          "gamertags": Object {},
+          "platforms": Object {
+            "CROSSPLAY": true,
+            "PC": true,
+            "PS4": true,
+            "SWITCH": true,
+            "Unspecified": true,
+            "XB1": true,
+          },
+          "projects": Object {
+            "Call of Duty: Modern Warfare 2": true,
+            "Cross Project": true,
+            "GTR Project": true,
+            "Permissions: Test 1": true,
+          },
+          "sources": Object {
+            "abTesting": Object {
+              "active": false,
+              "analysis": false,
+              "archived": false,
+              "config": false,
+              "killed": false,
+            },
+            "demonwareEvents": Object {
+              "criticalEvents": true,
+              "generalComments": true,
+              "incidents": true,
+              "maintenance": true,
+            },
+            "eventManager": Object {
+              "applied": false,
+              "approved": true,
+              "cancelled": false,
+              "expired": false,
+              "pending": false,
+              "rejected": false,
+              "scheduled": false,
+              "test-failed": false,
+              "testing": false,
+            },
+            "externalEvents": Object {
+              "holidays": true,
+              "pmg": Object {
+                "Other": true,
+              },
+              "sports": false,
+              "video-games": false,
+            },
+            "informationalEvents": Object {
+              "demonware": true,
+            },
+          },
+          "stories": undefined,
+        },
+        "groupLoadingStatuses": Object {
+          "abTesting": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "demonwareEvents": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "eventManager": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "externalEvents": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "informationalEvents": Object {
+            "error": null,
+            "isLoading": false,
+          },
+        },
+        "numberOfDays": 30,
+        "selectedDay": "2019-01-01T00:00:00.000Z",
+        "selectedStyle": "sources",
+        "selectedView": "month",
+      }
+    }
+    filteredEvents={
+      Array [
+        Object {
+          "allDay": false,
+          "end": 1555460772,
+          "id": 1,
+          "publish_at": 1555460772,
+          "start": 1555460772,
+          "status": "approved",
+          "title": "test",
+          "type": "eventManager",
+        },
+      ]
+    }
+    filteredGamertagGroups={Array []}
+    filtersRef={[Function]}
+    handleOpenCreateEventModal={[MockFunction]}
+    handleSelectEvent={[MockFunction]}
+    history={
+      Object {
+        "replace": [MockFunction],
+      }
+    }
+    localizer={
+      Object {
+        "format": [MockFunction],
+      }
+    }
+    location={
+      Object {
+        "search": "",
+      }
+    }
+    navigateCalendar={[MockFunction]}
+    onChangeDatePickerSelection={[MockFunction]}
+    onDrillDown={[MockFunction]}
+    onEventDrop={[MockFunction]}
+    onFetchEvents={[MockFunction]}
+    onNavigate={[MockFunction]}
+    onSelectSlot={[Function]}
+    onSetCalendarSettings={[MockFunction]}
+    platforms={
+      Array [
+        "CROSSPLAY",
+        "PC",
+        "PS4",
+        "SWITCH",
+        "XB1",
+      ]
+    }
+    projectId="1"
+    setCalendarSettings={[MockFunction]}
+    setCustomEvent={[MockFunction]}
+    setDayMonthStyle={[MockFunction]}
+    setEventStyle={[MockFunction]}
+    setNonCustomDays={[MockFunction]}
+    showAllColors={false}
+    sidebar={false}
+    toastMsg={[MockFunction]}
+    toggleDisplayView={[MockFunction]}
+    userTimezone="UTC"
+    views={
+      Object {
+        "day": Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(CustomWeek)",
+          "navigate": [Function],
+          "title": [Function],
+          "type": [Function],
+        },
+        "month": Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(CustomMonth)",
+          "navigate": [Function],
+          "title": [Function],
+          "type": [Function],
+        },
+        "week": Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(CustomWeek)",
+          "navigate": [Function],
+          "title": [Function],
+          "type": [Function],
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`EventsSidebar renders default EventsSidebar with event tags 1`] = `
+<div
+  className="eventsCalendarSidebarContainer"
+  data-cy="eventsCalendarSidebarContainer"
+>
+  <CalendarPresets
+    adminUser={true}
+    onPresetsUpdate={[MockFunction]}
+    presetOptions={Array []}
+    projectId="1"
+    setCalendarSettings={[MockFunction]}
+  />
+  <EventFilters
+    addCustomTagSet={[MockFunction]}
+    changeCalendarView={[MockFunction]}
+    changeNumberOfDays={[MockFunction]}
+    classes={Object {}}
+    clearEventsCalendarSettings={[MockFunction]}
+    copyLinkToClipboard={[MockFunction]}
+    createEventModalId="CREATE_EVENT"
+    customRangeError=""
+    customRangeInput={30}
+    customViewOn={false}
+    date={2019-01-01T00:00:00.000Z}
+    daysWithDots={Object {}}
+    defaultDate={"2019-01-01T00:00:00.000Z"}
+    disabledFilters={Object {}}
+    eventGroups={
+      Array [
+        Object {
+          "EventDetails": [Function],
+          "GroupLink": [Function],
+          "classes": Object {
+            "applied": "applied-style",
+            "approved": "approved-style",
+            "cancelled": "cancelled-style",
+            "expired": "expired-style",
+            "pending": "pending-style",
+            "rejected": "rejected-style",
+            "scheduled": "scheduled-style",
+            "test-failed": "test-failed-style",
+            "testing": "testing-style",
+          },
+          "customEventStyles": [Function],
+          "eventDragDrop": [MockFunction],
+          "eventTypes": Object {
+            "eventManager": Object {
+              "children": Object {
+                "checkedByMe": Object {
+                  "children": null,
+                  "name": "Checked By Me",
+                  "selectedByDefault": false,
+                },
+                "status": Object {
+                  "children": Object {
+                    "applied": Object {
+                      "children": null,
+                      "name": "Applied",
+                      "selectedByDefault": true,
+                    },
+                    "approved": Object {
+                      "children": null,
+                      "name": "Approved",
+                      "selectedByDefault": true,
+                    },
+                    "cancelled": Object {
+                      "children": null,
+                      "name": "Cancelled",
+                      "selectedByDefault": true,
+                    },
+                    "expired": Object {
+                      "children": null,
+                      "name": "Expired",
+                      "selectedByDefault": true,
+                    },
+                    "pending": Object {
+                      "children": null,
+                      "name": "Pending",
+                      "selectedByDefault": true,
+                    },
+                    "rejected": Object {
+                      "children": null,
+                      "name": "Rejected",
+                      "selectedByDefault": true,
+                    },
+                    "scheduled": Object {
+                      "children": null,
+                      "name": "Scheduled",
+                      "selectedByDefault": true,
+                    },
+                    "test-failed": Object {
+                      "children": null,
+                      "name": "Test Failed",
+                      "selectedByDefault": true,
+                    },
+                    "testing": Object {
+                      "children": null,
+                      "name": "Testing",
+                      "selectedByDefault": true,
+                    },
+                  },
+                  "name": "Status",
+                },
+              },
+              "name": "Event Manager",
+              "selectedByDefault": true,
+            },
+          },
+          "events": Array [
+            Object {
+              "allDay": false,
+              "end": 1555460772,
+              "id": 1,
+              "publish_at": 1555460772,
+              "start": 1555460772,
+              "status": "approved",
+              "title": "test",
+              "type": "eventManager",
+            },
+            Object {
+              "allDay": false,
+              "end": 1555460772,
+              "id": 1,
+              "publish_at": 1555460772,
+              "start": 1555460772,
+              "status": "pending",
+              "title": "test 2",
+              "type": "eventManager",
+            },
+          ],
+          "loading": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "modifyEvent": [MockFunction],
+          "type": "eventManager",
+          "wrapper": [MockFunction],
+        },
+      ]
+    }
+    eventTimeOffset={0}
+    eventsCalendarSettings={
+      Object {
+        "customViewOn": false,
+        "displayView": "calendar",
+        "envTypeFilters": Object {
+          "Certification": true,
+          "Development": true,
+          "Live": true,
+        },
+        "eventTags": Array [
+          "PS4",
+          "XBOX1",
+        ],
+        "eventTimeOffset": 0,
+        "filters": Object {
+          "customTags": Object {
+            "unspecified": true,
+            "userTags": Object {
+              "0": Object {
+                "checked": true,
+                "tags": Array [
+                  "PS4",
+                  "XBOX",
+                ],
+              },
+              "1": Object {
+                "checked": true,
+                "tags": Array [
+                  "COD",
+                  "BO4",
+                ],
+              },
+            },
+          },
+          "environments": Object {
+            "Certification": true,
+            "Cross Environment": true,
+            "Development": true,
+            "Live": true,
+          },
+          "gamertags": Object {},
+          "platforms": Object {
+            "CROSSPLAY": true,
+            "PC": true,
+            "PS4": true,
+            "SWITCH": true,
+            "Unspecified": true,
+            "XB1": true,
+          },
+          "projects": Object {
+            "Call of Duty: Modern Warfare 2": true,
+            "Cross Project": true,
+            "GTR Project": true,
+            "Permissions: Test 1": true,
+          },
+          "sources": Object {
+            "abTesting": Object {
+              "active": false,
+              "analysis": false,
+              "archived": false,
+              "config": false,
+              "killed": false,
+            },
+            "demonwareEvents": Object {
+              "criticalEvents": true,
+              "generalComments": true,
+              "incidents": true,
+              "maintenance": true,
+            },
+            "eventManager": Object {
+              "applied": false,
+              "approved": true,
+              "cancelled": false,
+              "expired": false,
+              "pending": false,
+              "rejected": false,
+              "scheduled": false,
+              "test-failed": false,
+              "testing": false,
+            },
+            "externalEvents": Object {
+              "holidays": true,
+              "pmg": Object {
+                "Other": true,
+              },
+              "sports": false,
+              "video-games": false,
+            },
+            "informationalEvents": Object {
+              "demonware": true,
+            },
+          },
+          "stories": undefined,
+        },
+        "groupLoadingStatuses": Object {
+          "abTesting": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "demonwareEvents": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "eventManager": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "externalEvents": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "informationalEvents": Object {
+            "error": null,
+            "isLoading": false,
+          },
+        },
+        "numberOfDays": 30,
+        "selectedDay": "2019-01-01T00:00:00.000Z",
+        "selectedStyle": "sources",
+        "selectedView": "month",
+      }
+    }
+    filteredEvents={
+      Array [
+        Object {
+          "allDay": false,
+          "end": 1555460772,
+          "id": 1,
+          "publish_at": 1555460772,
+          "start": 1555460772,
+          "status": "approved",
+          "title": "test",
+          "type": "eventManager",
+        },
+      ]
+    }
+    filteredGamertagGroups={Array []}
+    filtersRef={[Function]}
+    handleOpenCreateEventModal={[MockFunction]}
+    handleSelectEvent={[MockFunction]}
+    history={
+      Object {
+        "replace": [MockFunction],
+      }
+    }
+    localizer={
+      Object {
+        "format": [MockFunction],
+      }
+    }
+    location={
+      Object {
+        "search": "",
+      }
+    }
+    navigateCalendar={[MockFunction]}
+    onChangeDatePickerSelection={[MockFunction]}
+    onDrillDown={[MockFunction]}
+    onEventDrop={[MockFunction]}
+    onFetchEvents={[MockFunction]}
+    onNavigate={[MockFunction]}
+    onSelectSlot={[MockFunction]}
+    onSetCalendarSettings={[MockFunction]}
+    platforms={
+      Array [
+        "CROSSPLAY",
+        "PC",
+        "PS4",
+        "SWITCH",
+        "XB1",
+      ]
+    }
+    projectId="1"
+    setCalendarSettings={[MockFunction]}
+    setCustomEvent={[MockFunction]}
+    setDayMonthStyle={[MockFunction]}
+    setEventStyle={[MockFunction]}
+    setNonCustomDays={[MockFunction]}
+    showAllColors={false}
+    sidebar={false}
+    toastMsg={[MockFunction]}
+    toggleDisplayView={[MockFunction]}
+    userTimezone="UTC"
+    views={
+      Object {
+        "day": Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(CustomWeek)",
+          "navigate": [Function],
+          "title": [Function],
+          "type": [Function],
+        },
+        "month": Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(CustomMonth)",
+          "navigate": [Function],
+          "title": [Function],
+          "type": [Function],
+        },
+        "week": Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(CustomWeek)",
+          "navigate": [Function],
+          "title": [Function],
+          "type": [Function],
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`EventsSidebar renders default EventsSidebar with no choices selected 1`] = `
+<div
+  className="eventsCalendarSidebarContainer"
+  data-cy="eventsCalendarSidebarContainer"
+>
+  <CalendarPresets
+    adminUser={true}
+    onPresetsUpdate={[MockFunction]}
+    presetOptions={Array []}
+    projectId="1"
+    setCalendarSettings={[MockFunction]}
+  />
+  <EventFilters
+    addCustomTagSet={[MockFunction]}
+    changeCalendarView={[MockFunction]}
+    changeNumberOfDays={[MockFunction]}
+    classes={Object {}}
+    clearEventsCalendarSettings={[MockFunction]}
+    copyLinkToClipboard={[MockFunction]}
+    createEventModalId="CREATE_EVENT"
+    customRangeError=""
+    customRangeInput={30}
+    customViewOn={false}
+    date={2019-01-01T00:00:00.000Z}
+    daysWithDots={Object {}}
+    defaultDate={"2019-01-01T00:00:00.000Z"}
+    disabledFilters={Object {}}
+    eventGroups={
+      Array [
+        Object {
+          "EventDetails": [Function],
+          "GroupLink": [Function],
+          "classes": Object {
+            "applied": "applied-style",
+            "approved": "approved-style",
+            "cancelled": "cancelled-style",
+            "expired": "expired-style",
+            "pending": "pending-style",
+            "rejected": "rejected-style",
+            "scheduled": "scheduled-style",
+            "test-failed": "test-failed-style",
+            "testing": "testing-style",
+          },
+          "customEventStyles": [Function],
+          "eventDragDrop": [MockFunction],
+          "eventTypes": Object {
+            "eventManager": Object {
+              "children": Object {
+                "checkedByMe": Object {
+                  "children": null,
+                  "name": "Checked By Me",
+                  "selectedByDefault": false,
+                },
+                "status": Object {
+                  "children": Object {
+                    "applied": Object {
+                      "children": null,
+                      "name": "Applied",
+                      "selectedByDefault": true,
+                    },
+                    "approved": Object {
+                      "children": null,
+                      "name": "Approved",
+                      "selectedByDefault": true,
+                    },
+                    "cancelled": Object {
+                      "children": null,
+                      "name": "Cancelled",
+                      "selectedByDefault": true,
+                    },
+                    "expired": Object {
+                      "children": null,
+                      "name": "Expired",
+                      "selectedByDefault": true,
+                    },
+                    "pending": Object {
+                      "children": null,
+                      "name": "Pending",
+                      "selectedByDefault": true,
+                    },
+                    "rejected": Object {
+                      "children": null,
+                      "name": "Rejected",
+                      "selectedByDefault": true,
+                    },
+                    "scheduled": Object {
+                      "children": null,
+                      "name": "Scheduled",
+                      "selectedByDefault": true,
+                    },
+                    "test-failed": Object {
+                      "children": null,
+                      "name": "Test Failed",
+                      "selectedByDefault": true,
+                    },
+                    "testing": Object {
+                      "children": null,
+                      "name": "Testing",
+                      "selectedByDefault": true,
+                    },
+                  },
+                  "name": "Status",
+                },
+              },
+              "name": "Event Manager",
+              "selectedByDefault": true,
+            },
+          },
+          "events": Array [
+            Object {
+              "allDay": false,
+              "end": 1555460772,
+              "id": 1,
+              "publish_at": 1555460772,
+              "start": 1555460772,
+              "status": "approved",
+              "title": "test",
+              "type": "eventManager",
+            },
+            Object {
+              "allDay": false,
+              "end": 1555460772,
+              "id": 1,
+              "publish_at": 1555460772,
+              "start": 1555460772,
+              "status": "pending",
+              "title": "test 2",
+              "type": "eventManager",
+            },
+          ],
+          "loading": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "modifyEvent": [MockFunction],
+          "type": "eventManager",
+          "wrapper": [MockFunction],
+        },
+      ]
+    }
+    eventTimeOffset={0}
+    eventsCalendarSettings={
+      Object {
+        "customViewOn": false,
+        "displayView": "calendar",
+        "envTypeFilters": Object {
+          "Certification": true,
+          "Development": true,
+          "Live": true,
+        },
+        "eventTimeOffset": 0,
+        "filters": Object {
+          "customTags": Object {
+            "unspecified": true,
+            "userTags": Object {
+              "0": Object {
+                "checked": true,
+                "tags": Array [
+                  "PS4",
+                  "XBOX",
+                ],
+              },
+              "1": Object {
+                "checked": true,
+                "tags": Array [
+                  "COD",
+                  "BO4",
+                ],
+              },
+            },
+          },
+          "environments": Object {
+            "Certification": true,
+            "Cross Environment": true,
+            "Development": true,
+            "Live": true,
+          },
+          "gamertags": Object {},
+          "platforms": Object {
+            "CROSSPLAY": true,
+            "PC": true,
+            "PS4": true,
+            "SWITCH": true,
+            "Unspecified": true,
+            "XB1": true,
+          },
+          "projects": Object {
+            "Call of Duty: Modern Warfare 2": true,
+            "Cross Project": true,
+            "GTR Project": true,
+            "Permissions: Test 1": true,
+          },
+          "sources": Object {
+            "abTesting": Object {
+              "active": false,
+              "analysis": false,
+              "archived": false,
+              "config": false,
+              "killed": false,
+            },
+            "demonwareEvents": Object {
+              "criticalEvents": true,
+              "generalComments": true,
+              "incidents": true,
+              "maintenance": true,
+            },
+            "eventManager": Object {
+              "applied": false,
+              "approved": true,
+              "cancelled": false,
+              "expired": false,
+              "pending": false,
+              "rejected": false,
+              "scheduled": false,
+              "test-failed": false,
+              "testing": false,
+            },
+            "externalEvents": Object {
+              "holidays": true,
+              "pmg": Object {
+                "Other": true,
+              },
+              "sports": false,
+              "video-games": false,
+            },
+            "informationalEvents": Object {
+              "demonware": true,
+            },
+          },
+          "stories": undefined,
+        },
+        "groupLoadingStatuses": Object {
+          "abTesting": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "demonwareEvents": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "eventManager": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "externalEvents": Object {
+            "error": null,
+            "isLoading": false,
+          },
+          "informationalEvents": Object {
+            "error": null,
+            "isLoading": false,
+          },
+        },
+        "numberOfDays": 30,
+        "selectedDay": "2019-01-01T00:00:00.000Z",
+        "selectedStyle": "sources",
+        "selectedView": "month",
+      }
+    }
+    filteredEvents={
+      Array [
+        Object {
+          "allDay": false,
+          "end": 1555460772,
+          "id": 1,
+          "publish_at": 1555460772,
+          "start": 1555460772,
+          "status": "approved",
+          "title": "test",
+          "type": "eventManager",
+        },
+      ]
+    }
+    filteredGamertagGroups={Array []}
+    filtersRef={[Function]}
+    handleOpenCreateEventModal={[MockFunction]}
+    handleSelectEvent={[MockFunction]}
+    history={
+      Object {
+        "replace": [MockFunction],
+      }
+    }
+    localizer={
+      Object {
+        "format": [MockFunction],
+      }
+    }
+    location={
+      Object {
+        "search": "",
+      }
+    }
+    navigateCalendar={[MockFunction]}
+    onChangeDatePickerSelection={[MockFunction]}
+    onDrillDown={[MockFunction]}
+    onEventDrop={[MockFunction]}
+    onFetchEvents={[MockFunction]}
+    onNavigate={[MockFunction]}
+    onSelectSlot={[MockFunction]}
+    onSetCalendarSettings={[MockFunction]}
+    platforms={
+      Array [
+        "CROSSPLAY",
+        "PC",
+        "PS4",
+        "SWITCH",
+        "XB1",
+      ]
+    }
+    projectId="1"
+    setCalendarSettings={[MockFunction]}
+    setCustomEvent={[MockFunction]}
+    setDayMonthStyle={[MockFunction]}
+    setEventStyle={[MockFunction]}
+    setNonCustomDays={[MockFunction]}
+    showAllColors={false}
+    sidebar={false}
+    toastMsg={[MockFunction]}
+    toggleDisplayView={[MockFunction]}
+    userTimezone="UTC"
+    views={
+      Object {
+        "day": Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(CustomWeek)",
+          "navigate": [Function],
+          "title": [Function],
+          "type": [Function],
+        },
+        "month": Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(CustomMonth)",
+          "navigate": [Function],
+          "title": [Function],
+          "type": [Function],
+        },
+        "week": Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(CustomWeek)",
+          "navigate": [Function],
+          "title": [Function],
+          "type": [Function],
+        },
+      }
+    }
+  />
+</div>
+`;

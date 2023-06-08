@@ -1,0 +1,161 @@
+{
+  "name": "abtesting",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@demonware/devzone-core": "link:../../packages/lib/@demonware/devzone-core",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "ag-grid-community": "^27.1.0",
+    "ag-grid-enterprise": "^27.1.0",
+    "ag-grid-react": "^27.1.0",
+    "classnames": "^2.2.6",
+    "draft-js": "^0.11.7",
+    "formik": "^2.2.8",
+    "husky": "^5.2.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.27.0",
+    "query-string": "5",
+    "react": "link:../../node_modules/react",
+    "react-bootstrap-typeahead": "^5.2.0",
+    "react-datepicker": "^3.1.3",
+    "react-dom": "link:../../node_modules/react-dom",
+    "react-dropzone": "^11.0.3",
+    "react-easy-edit": "^1.15.0",
+    "react-iframe": "^1.8.0",
+    "react-medium-image-zoom": "^4.3.1",
+    "react-mui-draft-wysiwyg": "^1.0.3",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-test-context": "^0.1.0",
+    "react-scripts": "^4.0.3",
+    "react-uid": "^2.3.0",
+    "reduce-reducers": "^0.4.3",
+    "redux": "^4.1.0",
+    "redux-form": "^8.3.7",
+    "redux-saga": "^1.1.3",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^3.0.1",
+    "wildcard-match": "^1.1.0",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "analyze:bundle": "source-map-explorer build/static/js/main.*",
+    "analyze:duplication": "bundle-buddy build/static/js/*.map",
+    "precommit": "lint-staged",
+    "lint": "eslint -c .eslintrc.json 'src/**/*.{js,jsx}' --quiet",
+    "format": "prettier --write '{src,api,cypress}/**/*.{js,jsx,json,css}'",
+    "start": "DEVZONE_FRONTEND=`pwd`/../.. react-app-rewired --max_old_space_size=4096 start",
+    "link:dw": "yarn link dw || ( echo \"You need to run 'yarn build:dw && cd lib && yarn link' command in 'devzone-frontend' repo first\" && exit 1 )",
+    "build": "yarn link:dw && env-cmd .env.build react-app-rewired build",
+    "local:build": "yarn link:dw && env-cmd .env.build.local react-app-rewired build",
+    "test": "yarn link:dw && TZ=UTC react-app-rewired test --env=jsdom --resetMocks=false",
+    "ci:install": "yarn install --frozen-lockfile --non-interactive",
+    "ci:build": "env-cmd .env.test npm-run-all build",
+    "merge:report": "yarn run mochawesome-merge --reportDir=\"cypress/reports/\"",
+    "generate:report": "yarn run marge \"cypress/reports/mochawesome.json\"",
+    "after:tests": "npm-run-all merge:report generate:report",
+    "ci:check-style": "prettier --list-different '{src,api,cypress}/**/*.{js,jsx,json,css}'",
+    "serve:app": "serve -s -p 3001 build --cors"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/eslint-parser": "^7.14.5",
+    "@demonware/core-components-webpack-config": "link:../../packages/lib/@demonware/core-components-webpack-config",
+    "@demonware/eslint-import-resolver-external": "^0.0.1",
+    "babel-plugin-import": "^1.6.5",
+    "camelcase": "^5.3.1",
+    "customize-cra": "^0.9.1",
+    "env-cmd": "^8.0.2",
+    "enzyme": "link:../../node_modules/enzyme",
+    "enzyme-adapter-react-16": "link:../../node_modules/enzyme-adapter-react-16",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.0.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "lint-staged": "^10.2.2",
+    "prettier": "^2.3.1",
+    "react-app-rewired": "2.1.3",
+    "tailwindcss": "^0.5.3",
+    "webpack-filter-warnings-plugin": "^1.2.1"
+  },
+  "lint-staged": {
+    "{src,api,cypress}/**/*.{js,jsx}": [
+      "prettier --write",
+      "eslint --max-warnings=0",
+      "git add"
+    ],
+    "{src,api,cypress}/**/*.{json,css}": [
+      "prettier --write",
+      "git add"
+    ],
+    "package.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "arrowParens": "avoid"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ],
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "statements": 17,
+        "branches": 18,
+        "functions": 25,
+        "lines": 25
+      }
+    },
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/src/stories/",
+      "/api/",
+      "/build/",
+      "/cypress/",
+      "/docs/",
+      "/public/"
+    ],
+    "setupFiles": [
+      "./node_modules/dw/core/helpers/polyfills.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "moduleFileExtensions": [
+      "index.js"
+    ]
+  },
+  "jest-junit": {
+    "outputName": "./jest-test-results.xml"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

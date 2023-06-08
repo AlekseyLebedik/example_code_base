@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - Anticheat - AnticheatStatistics Reducer handle ANTICHEAT_STATISTICS_CHANGE_CHALLENGE_ID 1`] = `
+Object {
+  "ByChallenge": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "ByDate": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "ByUser": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "Filters": Object {
+    "challengeId": 1,
+    "date": 1519776000,
+    "userID": null,
+  },
+}
+`;
+
+exports[`Security - Anticheat - AnticheatStatistics Reducer handle ANTICHEAT_STATISTICS_CHANGE_DATE 1`] = `
+Object {
+  "ByChallenge": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "ByDate": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "ByUser": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "Filters": Object {
+    "challengeId": null,
+    "date": 2018-07-12T01:01:01.000Z,
+    "userID": null,
+  },
+}
+`;
+
+exports[`Security - Anticheat - AnticheatStatistics Reducer handle ANTICHEAT_STATISTICS_CHANGE_USER_ID 1`] = `
+Object {
+  "ByChallenge": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "ByDate": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "ByUser": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "Filters": Object {
+    "challengeId": null,
+    "date": 1519776000,
+    "userID": "1234567890",
+  },
+}
+`;
+
+exports[`Security - Anticheat - AnticheatStatistics Reducer return the initial state 1`] = `
+Object {
+  "ByChallenge": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "ByDate": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "ByUser": Object {
+    "anticheatStatistics": Array [],
+    "nextPageToken": null,
+  },
+  "Filters": Object {
+    "challengeId": null,
+    "date": 1519776000,
+    "userID": null,
+  },
+}
+`;

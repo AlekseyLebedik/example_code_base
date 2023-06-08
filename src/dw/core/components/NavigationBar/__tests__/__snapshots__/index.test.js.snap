@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar renders properly when is NOT main route 1`] = `
+<withRouter(NavbarLayout)
+  className="navigationBarContainer"
+>
+  <withRouter(NavMenu)
+    isMainRoute={false}
+    routes={
+      Object {
+        "propagate": Object {
+          "component": [Function],
+          "mainRoute": false,
+          "name": "propagate",
+          "path": "/abtesting/propagate/:titleID?/:environment?/:id?",
+          "title": "Propagate",
+        },
+        "schedule": Object {
+          "component": [Function],
+          "default": true,
+          "mainRoute": true,
+          "name": "schedule",
+          "path": "/abtesting/schedule",
+          "title": "Schedule",
+        },
+      }
+    }
+  />
+</withRouter(NavbarLayout)>
+`;
+
+exports[`NavigationBar renders properly when is a main route 1`] = `
+<withRouter(NavbarLayout)
+  className="navigationBarContainer"
+>
+  <withRouter(NavMenu)
+    isMainRoute={true}
+    routes={
+      Object {
+        "propagate": Object {
+          "component": [Function],
+          "mainRoute": false,
+          "name": "propagate",
+          "path": "/abtesting/propagate/:titleID?/:environment?/:id?",
+          "title": "Propagate",
+        },
+        "schedule": Object {
+          "component": [Function],
+          "default": true,
+          "mainRoute": true,
+          "name": "schedule",
+          "path": "/abtesting/schedule",
+          "title": "Schedule",
+        },
+      }
+    }
+  />
+</withRouter(NavbarLayout)>
+`;

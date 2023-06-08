@@ -1,0 +1,11 @@
+.kpiInfoTable {
+  width: 30%;
+  margin: 10px;
+}
+
+.accountsDashboardRow,
+.accountsDashboardRow:focus {
+  border: 0px !important;
+  box-shadow: none !important;
+  background-color: #f5f5f5 !important;
+}

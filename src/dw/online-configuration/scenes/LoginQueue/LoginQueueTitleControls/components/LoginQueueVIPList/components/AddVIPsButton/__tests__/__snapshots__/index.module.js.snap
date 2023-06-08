@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddVIPsButton display add button with tooltip 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  classes={
+    Object {
+      "tooltip": "",
+    }
+  }
+  placement="bottom"
+  title="Add VIP Gamertags"
+>
+  <WithStyles(ForwardRef(IconButton))
+    color="inherit"
+    data-cy="add-category-modal-button"
+    id="add_button_lq"
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(Icon))
+      className=""
+    >
+      playlist_add
+    </WithStyles(ForwardRef(Icon))>
+  </WithStyles(ForwardRef(IconButton))>
+</WithStyles(ForwardRef(Tooltip))>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTestingGroupsStateless should match snapshot 1`] = `
+<WithWidth(WithStyles(withRouter(MasterDetailBase)))
+  baseUrl="baseUrl"
+  classes={
+    Object {
+      "content": "masterDetailContent",
+      "drawerPaper": "GroupComponent-drawerPaper-2",
+      "expander": "GroupComponent-expander-1",
+    }
+  }
+  component="section"
+  detail={[Function]}
+  empty={[Function]}
+  master={[Function]}
+/>
+`;

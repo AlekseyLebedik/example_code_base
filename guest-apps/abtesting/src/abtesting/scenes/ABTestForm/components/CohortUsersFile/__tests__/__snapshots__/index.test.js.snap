@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ABTesting component CohortUsersFileComponent renders UploadButton 1`] = `
+<div
+  className="uploadButton"
+>
+  <UploadField
+    buttonProps={
+      Object {
+        "color": "primary",
+        "size": "small",
+      }
+    }
+    disabled={false}
+    iconProps={
+      Object {
+        "fontSize": "small",
+      }
+    }
+    input={
+      Object {
+        "name": "cohorts[0].fileData",
+      }
+    }
+    label=""
+    meta={Object {}}
+    type="text"
+  />
+  <WithStyles(ForwardRef(Tooltip))
+    title={
+      <div
+        style={
+          Object {
+            "textAlign": "left",
+          }
+        }
+      >
+        Each record in the csv file should contain 
+        &lt;
+        accountType
+        &gt;
+         and 
+        &lt;
+        userID
+        &gt;
+        . For example:
+        <br />
+        <i>
+          psn,12334567
+          <br />
+          steam,2317174234108935
+        </i>
+        <br />
+        <br />
+        Invalid records will be skipped.
+      </div>
+    }
+  >
+    <WithStyles(ForwardRef(Icon))
+      className="helpIcon"
+    >
+      help_outline
+    </WithStyles(ForwardRef(Icon))>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`ABTesting component CohortUsersFileComponent renders UsersFile 1`] = `
+<Fragment>
+  <UploadButton
+    cohort={
+      Object {
+        "fileData": Object {
+          "input": Object {
+            "name": "cohorts[0].fileData",
+          },
+          "meta": Object {},
+        },
+      }
+    }
+    disabled={true}
+  />
+  <div
+    className="file"
+  >
+    <WithStyles(ForwardRef(Icon))
+      className="attachedFileIcon"
+    >
+      attach_file
+    </WithStyles(ForwardRef(Icon))>
+    users.csv
+    <ConfirmActionComponent
+      actionTrigger="onClick"
+      changeCopyPermission={null}
+      className="deleteButton"
+      component="IconButton"
+      confirm={
+        Object {
+          "confirmMsg": <div>
+            Are you sure you want to delete this file? 
+            <br />
+            <br />
+            You will not be able to undo this operation.
+          </div>,
+          "destructive": true,
+          "mainButtonLabel": "Delete",
+          "title": "Confirm Delete",
+        }
+      }
+      disabled={false}
+      iconClassName="deleteIcon"
+      onClick={[Function]}
+      tooltip="Delete File"
+    >
+      highlight_off
+    </ConfirmActionComponent>
+  </div>
+</Fragment>
+`;
+
+exports[`ABTesting component CohortUsersFileComponent renders disabled UsersFile 1`] = `
+<Fragment>
+  <UploadButton
+    cohort={
+      Object {
+        "fileData": Object {
+          "input": Object {
+            "name": "cohorts[0].fileData",
+          },
+          "meta": Object {},
+        },
+      }
+    }
+    disabled={true}
+  />
+  <div
+    className="file"
+  >
+    <WithStyles(ForwardRef(Icon))
+      className="attachedFileIcon"
+    >
+      attach_file
+    </WithStyles(ForwardRef(Icon))>
+    users.csv
+  </div>
+</Fragment>
+`;

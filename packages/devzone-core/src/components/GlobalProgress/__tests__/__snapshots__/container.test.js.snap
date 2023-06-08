@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GlobalProgress renders nothing when no progress is started 1`] = `""`;
+
+exports[`GlobalProgress renders the progress bar when GLOBAL_PROGRESS_START is dispatched 1`] = `
+<GlobalProgressStateless
+  animationDuration={800}
+  isShown={true}
+  percent={10}
+/>
+`;

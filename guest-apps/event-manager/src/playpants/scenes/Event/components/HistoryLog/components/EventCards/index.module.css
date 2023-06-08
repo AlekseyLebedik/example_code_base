@@ -1,0 +1,64 @@
+/* Container around content */
+.container {
+  padding: 10px 25px 10px 70px;
+  position: relative;
+  background-color: inherit;
+  left: 0;
+  width: 100%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  content: '';
+  height: 10px;
+  left: 22px;
+  position: absolute;
+  top: 15px;
+  width: 10px;
+  z-index: 1;
+}
+
+/* Add arrows to the left container (pointing right) */
+.container::before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  left: 60px;
+  border: medium solid #f5f5f5;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #f5f5f5 transparent transparent;
+}
+
+/* The actual content */
+.content {
+  padding: 10px 25px;
+  background-color: #f5f5f5;
+  position: relative;
+  border-radius: 6px;
+}
+
+/* Expansion panel title */
+.title {
+  text-transform: none;
+  min-height: 40px;
+}
+.title > div {
+  margin: 0;
+}
+
+/* Content detail row of values */
+.contentDetails {
+  margin-top: 5px;
+  margin-left: 5%;
+  width: 95%;
+}
+.contentDetails div {
+  overflow: auto;
+}

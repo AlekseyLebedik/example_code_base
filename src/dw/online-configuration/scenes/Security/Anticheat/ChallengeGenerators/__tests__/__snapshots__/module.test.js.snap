@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - Anticheat - ChallengeGenerators Reducer handle CHALLENGE_GENERATORS_FETCH_SUCCESS 1`] = `
+Object {
+  "challengeGenerators": Array [
+    Object {
+      "config": Object {
+        "challenge_group": "1",
+        "cron": "0 */6 * * *",
+        "data": Object {
+          "max_offset": "1024",
+          "min_offset": "0",
+        },
+        "function_id": "200",
+        "type": "checksum_blob",
+      },
+      "generatorId": 1,
+      "history": Array [],
+      "lastRun": 1531727704,
+      "nextRun": 1531742400,
+      "state": "DISABLED",
+    },
+  ],
+}
+`;
+
+exports[`Security - Anticheat - ChallengeGenerators Reducer return the initial state 1`] = `
+Object {
+  "challengeGenerators": Array [],
+}
+`;

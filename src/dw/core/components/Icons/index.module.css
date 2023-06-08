@@ -1,0 +1,36 @@
+.platformIcon {
+  display: inline-block;
+  color: inherit;
+  opacity: 0.5;
+
+  width: auto;
+  height: auto;
+}
+
+.smaller {
+  transform: scale(0.8);
+}
+
+.bigger {
+  transform: scale(1.3);
+}
+
+.condensed {
+  composes: smaller;
+  letter-spacing: -1px;
+}
+
+:hover .platformIcon {
+  opacity: 0.87;
+}
+
+img.platformIcon {
+  filter: brightness(0);
+}
+
+.projectIcon {
+  filter: brightness(0) invert(100);
+  opacity: 0.87;
+  width: 20px;
+  height: 20px;
+}

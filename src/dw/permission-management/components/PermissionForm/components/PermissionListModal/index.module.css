@@ -1,0 +1,16 @@
+.groupLabel {
+  margin: 0px;
+}
+
+.group {
+  padding-left: 85px;
+}
+
+.checkbox {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.collapsed {
+  display: none;
+}

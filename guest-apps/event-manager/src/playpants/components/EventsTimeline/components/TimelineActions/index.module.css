@@ -1,0 +1,27 @@
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 6px;
+  align-items: center;
+  height: 52px;
+}
+
+.dateTimePicker {
+  margin-top: 0.15rem;
+}
+
+.rangeSpanInput {
+  margin-top: 7px;
+  width: 45px;
+}
+
+.rangeSpanLabel {
+  margin: 0 10px 0 5px;
+}
+
+.separator {
+  margin: 0 6px;
+  width: 1px;
+  height: 24px;
+  background-color: rgba(0, 0, 0, 0.12);
+}

@@ -1,0 +1,56 @@
+.timelineHeader {
+  background: transparent !important;
+}
+
+.sidebarHeader {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.primaryHeader div {
+  color: rgba(0, 0, 0, 0.65) !important;
+  font-weight: 600;
+}
+
+.secondaryHeader div {
+  background-color: white !important;
+}
+
+.eventGroup {
+  margin-left: -4px;
+  padding-left: 4px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.timelineEvent {
+  border-radius: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+  border: none !important;
+}
+
+.tooltip div {
+  max-width: 400px;
+}
+
+.tooltip p {
+  margin-bottom: 0.5em;
+}
+
+.todayMarker {
+  background-color: #74ad31 !important;
+}
+
+.currentDate {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 0 8px 8px 0;
+  height: 20px;
+  padding-left: 5px;
+  width: fit-content !important;
+  z-index: 100;
+}

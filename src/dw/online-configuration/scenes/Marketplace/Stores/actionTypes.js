@@ -1,0 +1,37 @@
+export const STORES_FETCH = 'marketplace/STORES_FETCH';
+export const STORES_FETCH_SUCCESS = 'marketplace/STORES_FETCH_SUCCESS';
+export const STORES_FETCH_FAILED = 'marketplace/STORES_FETCH_FAILED';
+
+export const STORE_DETAIL_FETCH = 'marketplace/STORE_DETAIL_FETCH';
+export const STORE_DETAIL_FETCH_SUCCESS =
+  'marketplace/STORE_DETAIL_FETCH_SUCCESS';
+export const STORE_DETAIL_FETCH_FAILED =
+  'marketplace/STORE_DETAIL_FETCH_FAILED';
+
+export const STORES_LIST_ITEM_ONCLICK = 'marketplace/STORES_LIST_ITEM_ONCLICK';
+
+export const STORE_UPLOAD = 'marketplace/STORE_UPLOAD';
+export const STORE_UPLOAD_SUCCESS = 'marketplace/STORE_UPLOAD_SUCCESS';
+export const STORE_UPLOAD_FAILED = 'marketplace/STORE_UPLOAD_FAILED';
+
+export const STORE_OPEN_UPLOAD_MODAL = 'marketplace/STORE_OPEN_UPLOAD_MODAL';
+export const STORE_CLOSE_UPLOAD_MODAL = 'marketplace/STORE_CLOSE_UPLOAD_MODAL';
+
+export const STORE_PROPAGATE = 'marketplace/STORE_PROPAGATE';
+export const STORE_PROPAGATE_SUCCESS = 'marketplace/STORE_PROPAGATE_SUCCESS';
+export const STORE_PROPAGATE_FAILED = 'marketplace/STORE_PROPAGATE_FAILED';
+
+export const STORE_OPEN_PROPAGATE_MODAL =
+  'marketplace/STORE_OPEN_PROPAGATE_MODAL';
+export const STORE_CLOSE_PROPAGATE_MODAL =
+  'marketplace/STORE_CLOSE_PROPAGATE_MODAL';
+
+export const STORE_CLOSE_PROPAGATE_LOADING =
+  'marketplace/STORE_CLOSE_PROPAGATE_LOADING';
+
+export const STORE_SET_ACTIVE = 'marketplace/STORE_SET_ACTIVE';
+
+export const STORE_CLEAR_CACHE = 'marketplace/STORE_CLEAR_CACHE';
+export const STORE_CLEAR_CACHE_SUCCESS =
+  'marketplace/STORE_CLEAR_CACHE_SUCCESS';
+export const STORE_CLEAR_CACHE_FAILED = 'marketplace/STORE_CLEAR_CACHE_FAILED';

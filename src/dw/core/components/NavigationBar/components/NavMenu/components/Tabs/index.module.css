@@ -1,0 +1,10 @@
+.TabsRoot {
+  overflow: hidden;
+  min-height: 48px;
+
+  position: relative;
+}
+
+.TabsFlexContainer {
+  display: flex;
+}

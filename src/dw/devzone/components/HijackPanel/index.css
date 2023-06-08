@@ -1,0 +1,25 @@
+.hijack-panel__main-container {
+  position: fixed;
+  top: 0;
+  height: 26px;
+  z-index: 2000; /* On top of everything */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hijack-panel__main-container > div {
+  padding: 5px 15px 5px 15px;
+  background-color: #e9d460;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.hijack-panel__main-container i {
+  position: relative;
+  top: 2px;
+  padding-right: 4px;
+  color: #f27935;
+}

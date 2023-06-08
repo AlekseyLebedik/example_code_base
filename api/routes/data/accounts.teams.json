@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "numTeamMembers": "12",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "2",
+      "teamName": "dream-team-2",
+      "ownerUserID": "53401666792815538",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "8",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "5",
+      "teamName": "dream-team-5",
+      "ownerUserID": "195985976531338014",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "9",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "6",
+      "teamName": "dream-team-6",
+      "ownerUserID": "39011047839661227",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "11",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "7",
+      "teamName": "dream-team-7",
+      "ownerUserID": "2814644594837008",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "9",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "10",
+      "teamName": "dream-team-10",
+      "ownerUserID": "41418024570898440",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "10",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "11",
+      "teamName": "dream-team-11",
+      "ownerUserID": "178314926446467711",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "10",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "13",
+      "teamName": "dream-team-13",
+      "ownerUserID": "2814660776816999",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "14",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "14",
+      "teamName": "dream-team-14",
+      "ownerUserID": "188135981871377097",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "17",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "16",
+      "teamName": "dream-team-16",
+      "ownerUserID": "2814660776816999",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "9",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "18",
+      "teamName": "dream-team-18",
+      "ownerUserID": "102165328517317940",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "10",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "22",
+      "teamName": "dream-team-22",
+      "ownerUserID": "2814660776816999",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "14",
+      "numMembersOnline": "0",
+      "membershipType": "2",
+      "teamID": "25",
+      "teamName": "dream-team-25",
+      "ownerUserID": "12918696864949287",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "16",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "27",
+      "teamName": "dream-team-28",
+      "ownerUserID": "80016820365296385",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "15",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "28",
+      "teamName": "dream-team-29",
+      "ownerUserID": "117441587772189039",
+      "privileges": "0"
+    },
+    {
+      "numTeamMembers": "13",
+      "numMembersOnline": "0",
+      "membershipType": "0",
+      "teamID": "29",
+      "teamName": "dream-team-30",
+      "ownerUserID": "2814626426008954",
+      "privileges": "0"
+    }
+  ]
+}

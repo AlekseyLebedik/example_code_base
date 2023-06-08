@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LobbiesDetailEmpty renders without crashing 1`] = `
+<div
+  className="details-empty__container lobbies"
+>
+  Select a game mode to see more details
+</div>
+`;

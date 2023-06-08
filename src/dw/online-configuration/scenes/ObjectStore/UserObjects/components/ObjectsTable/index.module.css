@@ -1,0 +1,15 @@
+.agGridContainer {
+  height: 100%;
+}
+
+.agGridContainer :global(.ag-details-row) {
+  padding: 20px 20px 10px 20px;
+}
+
+.agGridContainer :global(.ag-details-row .ag-status-bar) {
+  border: 0px;
+}
+
+.agGridContainer :global(.ag-header-cell) {
+  background-color: #d8d8d8;
+}

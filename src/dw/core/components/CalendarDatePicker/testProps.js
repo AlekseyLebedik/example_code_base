@@ -1,0 +1,22 @@
+export const calendarDatePickerTestProps = {
+  calendarPickerProps: {
+    endDate: 1573344000,
+    endLabel: 'End Date',
+    eventGroups: [],
+    platforms: ['CROSSPLAY', 'PC', 'PS4', 'SWITCH', 'XB1'],
+    selectedProject: null,
+    setEndDate: jest.fn(),
+    setStartDate: jest.fn(),
+    startDate: 1572566400,
+    startLabel: 'Start Date',
+  },
+  clearable: true,
+  disabled: false,
+  error: false,
+  fullWidth: false,
+  InputProps: {},
+  InputLabelProps: {},
+  timezone: 'UTC',
+  variant: 'standard',
+  onFetchEvents: jest.fn(),
+};

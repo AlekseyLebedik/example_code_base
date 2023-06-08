@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConflictListItem renders correctly with no conflicts 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))
+    button={true}
+    onClick={[Function]}
+    selected={true}
+  >
+    <WithStyles(ForwardRef(ListItemText))
+      primary="Event \\"Overlapping Event\\" ID 1"
+    />
+  </WithStyles(ForwardRef(ListItem))>
+</Fragment>
+`;
+
+exports[`ConflictListItem renders default correctly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(ListItem))
+    button={true}
+    onClick={[Function]}
+    selected={true}
+  >
+    <WithStyles(ForwardRef(ListItemText))
+      primary="Event \\"Overlapping Event\\" ID 1"
+    />
+    <WithStyles(ForwardRef(ListItemIcon))>
+      <WithStyles(ForwardRef(Icon))>
+        expand_less
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(ListItemIcon))>
+  </WithStyles(ForwardRef(ListItem))>
+  <WithStyles(ForwardRef(Collapse))
+    in={true}
+    timeout="auto"
+    unmountOnExit={true}
+  >
+    <WithStyles(ForwardRef(List))
+      component="div"
+      disablePadding={true}
+    >
+      <WithStyles(ForwardRef(ListItem))
+        button={true}
+        className="nested"
+        key="5/8"
+        onClick={[Function]}
+        selected={true}
+      >
+        <WithStyles(ForwardRef(ListItemText))
+          primary="pubstorage 5 / pubstorage 8"
+        />
+      </WithStyles(ForwardRef(ListItem))>
+    </WithStyles(ForwardRef(List))>
+  </WithStyles(ForwardRef(Collapse))>
+</Fragment>
+`;

@@ -1,0 +1,1 @@
+export const ACTIVE_STORE_TABS_CHANGE = 'marketplace/ACTIVE_STORE_TABS_CHANGE';

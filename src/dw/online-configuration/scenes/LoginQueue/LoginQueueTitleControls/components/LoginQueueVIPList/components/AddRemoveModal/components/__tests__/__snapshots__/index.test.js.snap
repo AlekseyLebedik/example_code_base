@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BulkUpload display BulkUpload Button for bulk add 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  classes={
+    Object {
+      "tooltip": "",
+    }
+  }
+  key="tooltip"
+  placement="left"
+  title="Bulk Add"
+>
+  <WithStyles(ForwardRef(IconButton))
+    id="bulkAdd"
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(Icon))
+      style={
+        Object {
+          "color": "#8bc34a",
+        }
+      }
+    >
+      toggle_on
+    </WithStyles(ForwardRef(Icon))>
+  </WithStyles(ForwardRef(IconButton))>
+</WithStyles(ForwardRef(Tooltip))>
+`;
+
+exports[`BulkUpload display BulkUpload Button for bulk remove 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  classes={
+    Object {
+      "tooltip": "",
+    }
+  }
+  key="tooltip"
+  placement="left"
+  title="Bulk Remove"
+>
+  <WithStyles(ForwardRef(IconButton))
+    id="bulkAdd"
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(Icon))
+      style={
+        Object {
+          "color": "#8bc34a",
+        }
+      }
+    >
+      toggle_on
+    </WithStyles(ForwardRef(Icon))>
+  </WithStyles(ForwardRef(IconButton))>
+</WithStyles(ForwardRef(Tooltip))>
+`;
+
+exports[`DeleteButton display Delete Button 1`] = `
+<WithStyles(ForwardRef(Tooltip))
+  classes={
+    Object {
+      "tooltip": "",
+    }
+  }
+  key="tooltip"
+  placement="left"
+  title="Delete Test"
+>
+  <WithStyles(ForwardRef(IconButton))
+    aria-label="delete"
+    id="deleteAll"
+    onClick={[Function]}
+  >
+    <WithStyles(ForwardRef(Icon))
+      fontSize="small"
+    >
+      delete
+    </WithStyles(ForwardRef(Icon))>
+  </WithStyles(ForwardRef(IconButton))>
+</WithStyles(ForwardRef(Tooltip))>
+`;
+
+exports[`DeleteCellRenderer display Delete Button Renderer 1`] = `
+<DeleteButton
+  onClick={[Function]}
+  title="Remove"
+  toolTipClass=""
+/>
+`;
+
+exports[`GamerTagCellRenderer display GamerTag 1`] = `
+<div
+  className="loginQueueInputBoxContainer"
+>
+  <input
+    className="loginQueueInputBox"
+    onChange={[Function]}
+    placeholder="Enter new GamerTag/s here (comma separate) and click the add to list icon on the right"
+    type="text"
+    value={Array []}
+  />
+  <WithStyles(ForwardRef(Tooltip))
+    classes={
+      Object {
+        "tooltip": undefined,
+      }
+    }
+    placement="left"
+    title="Enter a GamerTag Name to activate button"
+  >
+    <span>
+      <WithStyles(ForwardRef(IconButton))
+        disabled={true}
+        id="add_gamertag_lq"
+        onClick={[Function]}
+        style={
+          Object {
+            "pointerEvents": "none",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Icon))
+          style={
+            Object {
+              "color": "rgba(0, 0, 0, 0.26)",
+            }
+          }
+        >
+          playlist_add
+        </WithStyles(ForwardRef(Icon))>
+      </WithStyles(ForwardRef(IconButton))>
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;
+
+exports[`HeaderDialogText display HeaderDialogText for adding gamertags 1`] = `
+<div
+  className="loginQueueDialogHeadHolder"
+>
+  <div
+    className="loginQueueDialogText"
+  >
+    <span
+      className="loginQueueDialogTextHead"
+    >
+       GamerTags 
+    </span>
+    <span
+      className="loginQueueDialogTextSub"
+    >
+       
+      Please ensure you enter the correct Gamertag as there is no validation currently
+       
+    </span>
+  </div>
+  <div
+    className="loginQueueDialogHeaderButtons"
+  >
+    <BulkUpload
+      actionMode="add"
+      isUploadBulk={false}
+      onToggle={[Function]}
+      toolTipClass=""
+    />
+    <DeleteButton
+      onClick={[Function]}
+      title="Delete All"
+      toolTipClass=""
+    />
+  </div>
+</div>
+`;
+
+exports[`HeaderDialogText display HeaderDialogText for removing gamertags 1`] = `
+<div
+  className="loginQueueDialogHeadHolder"
+>
+  <div
+    className="loginQueueDialogText"
+  >
+    <span
+      className="loginQueueDialogTextHead"
+    >
+       GamerTags 
+    </span>
+    <span
+      className="loginQueueDialogTextSub"
+    >
+       
+      Please ensure you enter the correct Gamertag as there is no validation currently
+       
+    </span>
+  </div>
+  <div
+    className="loginQueueDialogHeaderButtons"
+  >
+    <BulkUpload
+      actionMode="remove"
+      isUploadBulk={false}
+      onToggle={[Function]}
+      toolTipClass=""
+    />
+    <DeleteButton
+      onClick={[Function]}
+      title="Delete All"
+      toolTipClass=""
+    />
+  </div>
+</div>
+`;

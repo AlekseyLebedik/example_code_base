@@ -1,0 +1,379 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatelessSettingSchema renders default values 1`] = `
+<Form
+  ArrayFieldTemplate={[Function]}
+  ErrorList={[Function]}
+  FieldTemplate={[Function]}
+  ObjectFieldTemplate={[Function]}
+  className="form formWidth"
+  disabled={false}
+  formContext={Object {}}
+  formData={
+    Object {
+      "statuses": Object {
+        "active": Object {
+          "allow_authorization": false,
+          "allow_cancel": true,
+          "allow_delete": false,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Active",
+          "show_authorization": true,
+        },
+        "approved": Object {
+          "allow_authorization": false,
+          "allow_cancel": true,
+          "allow_delete": true,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Approved",
+          "show_authorization": true,
+        },
+        "cancelled": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": false,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Cancelled",
+          "show_authorization": true,
+        },
+        "ended": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": false,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Ended",
+          "show_authorization": true,
+        },
+        "expired": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": false,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Expired",
+          "show_authorization": true,
+        },
+        "open": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": true,
+          "allow_open": false,
+          "allow_request_approval": true,
+          "is_read_only": false,
+          "name": "Open",
+          "show_authorization": false,
+        },
+        "pending": Object {
+          "allow_authorization": true,
+          "allow_cancel": true,
+          "allow_delete": true,
+          "allow_open": true,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Pending Approval",
+          "show_authorization": true,
+        },
+        "published": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": false,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Published",
+          "show_authorization": true,
+        },
+        "rejected": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": true,
+          "allow_open": true,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Rejected",
+          "show_authorization": true,
+        },
+        "scheduled": Object {
+          "allow_authorization": false,
+          "allow_cancel": true,
+          "allow_delete": true,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Scheduled",
+          "show_authorization": true,
+        },
+      },
+    }
+  }
+  key="null"
+  liveValidate={false}
+  noHtml5Validate={false}
+  noValidate={false}
+  omitExtraData={false}
+  onChange={[MockFunction]}
+  onSubmit={[MockFunction]}
+  safeRenderCompletion={false}
+  schema={
+    Object {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "description": "Project Setting - Event Settings",
+      "properties": Object {
+        "statuses": Object {
+          "additionalProperties": false,
+          "properties": Object {
+            "cancelled": Object {
+              "additionalProperties": false,
+              "properties": Object {
+                "allow_delete": Object {
+                  "type": "boolean",
+                },
+                "is_read_only": Object {
+                  "type": "boolean",
+                },
+                "name": Object {
+                  "type": "string",
+                },
+              },
+              "required": Array [
+                "name",
+                "is_read_only",
+              ],
+              "type": "object",
+            },
+            "scheduled": Object {
+              "additionalProperties": false,
+              "properties": Object {
+                "allow_delete": Object {
+                  "type": "boolean",
+                },
+                "is_read_only": Object {
+                  "type": "boolean",
+                },
+                "name": Object {
+                  "type": "string",
+                },
+              },
+              "required": Array [
+                "name",
+                "is_read_only",
+              ],
+              "type": "object",
+            },
+          },
+          "type": "object",
+        },
+      },
+      "type": "object",
+      "version": 1,
+    }
+  }
+  uiSchema={Object {}}
+  widgets={
+    Object {
+      "BaseInput": [Function],
+      "CheckboxWidget": [Function],
+      "SelectWidget": [Function],
+    }
+  }
+/>
+`;
+
+exports[`StatelessSettingSchema should always render a form 1`] = `
+<Form
+  ArrayFieldTemplate={[Function]}
+  ErrorList={[Function]}
+  FieldTemplate={[Function]}
+  ObjectFieldTemplate={[Function]}
+  className="form formWidth"
+  disabled={false}
+  formContext={Object {}}
+  formData={
+    Object {
+      "statuses": Object {
+        "active": Object {
+          "allow_authorization": false,
+          "allow_cancel": true,
+          "allow_delete": false,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Active",
+          "show_authorization": true,
+        },
+        "approved": Object {
+          "allow_authorization": false,
+          "allow_cancel": true,
+          "allow_delete": true,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Approved",
+          "show_authorization": true,
+        },
+        "cancelled": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": false,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Cancelled",
+          "show_authorization": true,
+        },
+        "ended": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": false,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Ended",
+          "show_authorization": true,
+        },
+        "expired": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": false,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Expired",
+          "show_authorization": true,
+        },
+        "open": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": true,
+          "allow_open": false,
+          "allow_request_approval": true,
+          "is_read_only": false,
+          "name": "Open",
+          "show_authorization": false,
+        },
+        "pending": Object {
+          "allow_authorization": true,
+          "allow_cancel": true,
+          "allow_delete": true,
+          "allow_open": true,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Pending Approval",
+          "show_authorization": true,
+        },
+        "published": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": false,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Published",
+          "show_authorization": true,
+        },
+        "rejected": Object {
+          "allow_authorization": false,
+          "allow_cancel": false,
+          "allow_delete": true,
+          "allow_open": true,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Rejected",
+          "show_authorization": true,
+        },
+        "scheduled": Object {
+          "allow_authorization": false,
+          "allow_cancel": true,
+          "allow_delete": true,
+          "allow_open": false,
+          "allow_request_approval": false,
+          "is_read_only": true,
+          "name": "Scheduled",
+          "show_authorization": true,
+        },
+      },
+    }
+  }
+  key="null"
+  liveValidate={false}
+  noHtml5Validate={false}
+  noValidate={false}
+  omitExtraData={false}
+  onChange={[MockFunction]}
+  onSubmit={[MockFunction]}
+  safeRenderCompletion={false}
+  schema={
+    Object {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "additionalProperties": false,
+      "description": "Project Setting - Event Settings",
+      "properties": Object {
+        "statuses": Object {
+          "additionalProperties": false,
+          "properties": Object {
+            "cancelled": Object {
+              "additionalProperties": false,
+              "properties": Object {
+                "allow_delete": Object {
+                  "type": "boolean",
+                },
+                "is_read_only": Object {
+                  "type": "boolean",
+                },
+                "name": Object {
+                  "type": "string",
+                },
+              },
+              "required": Array [
+                "name",
+                "is_read_only",
+              ],
+              "type": "object",
+            },
+            "scheduled": Object {
+              "additionalProperties": false,
+              "properties": Object {
+                "allow_delete": Object {
+                  "type": "boolean",
+                },
+                "is_read_only": Object {
+                  "type": "boolean",
+                },
+                "name": Object {
+                  "type": "string",
+                },
+              },
+              "required": Array [
+                "name",
+                "is_read_only",
+              ],
+              "type": "object",
+            },
+          },
+          "type": "object",
+        },
+      },
+      "type": "object",
+      "version": 1,
+    }
+  }
+  uiSchema={Object {}}
+  widgets={
+    Object {
+      "BaseInput": [Function],
+      "CheckboxWidget": [Function],
+      "SelectWidget": [Function],
+    }
+  }
+/>
+`;

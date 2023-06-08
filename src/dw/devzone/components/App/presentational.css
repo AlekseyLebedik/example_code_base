@@ -1,0 +1,9 @@
+.app-font-size-16,
+.app-font-size-16 .ant-tabs,
+.app-font-size-16 .highlighted-info__container .info__container > .legend,
+.app-font-size-16 .list-item .main-content {
+}
+
+.app-font-size-16 .common__keyvalue div.key {
+  font-weight: 700;
+}

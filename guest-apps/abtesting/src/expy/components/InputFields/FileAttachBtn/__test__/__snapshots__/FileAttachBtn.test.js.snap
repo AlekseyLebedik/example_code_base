@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expy - Test Graduation - FileAttachBtn renders snapshot 1`] = `
+<Fragment>
+  <input
+    accept="pdf"
+    multiple={true}
+    onChange={[Function]}
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+    type="file"
+  />
+  <WithStyles(ForwardRef(Button))
+    className=""
+    onClick={[Function]}
+    size="small"
+    startIcon="icon"
+    variant="outlined"
+  >
+    text
+  </WithStyles(ForwardRef(Button))>
+</Fragment>
+`;

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomSelect renders custom values 1`] = `
+<div
+  className="common-multi-select-field with-error"
+>
+  <Redux-form-ANTDundefined
+    data-cy="titleEnvironmentSelector"
+    fullWidth={true}
+    getPopupContainer={[Function]}
+    hasFeedback={false}
+    input={
+      Object {
+        "onBlur": [Function],
+        "onFocus": [Function],
+      }
+    }
+    label="Blah blah"
+    meta={
+      Object {
+        "error": "invalid",
+        "touched": true,
+      }
+    }
+    name="blahBlah"
+    optionFilterProp="children"
+    options={
+      Array [
+        Object {
+          "disabled": false,
+          "label": "label1",
+          "value": "1",
+        },
+        Object {
+          "disabled": false,
+          "label": "label2",
+          "value": "2",
+        },
+      ]
+    }
+    placeholder="Please select"
+  />
+  <div
+    className="dropdown-placeholder ant-form-explain empty"
+  >
+    EMPTY
+  </div>
+</div>
+`;
+
+exports[`CustomSelect renders default values 1`] = `
+<div
+  className="common-multi-select-field"
+>
+  <Redux-form-ANTDundefined
+    data-cy="titleEnvironmentSelector"
+    getPopupContainer={[Function]}
+    hasFeedback={false}
+    input={
+      Object {
+        "onBlur": [Function],
+        "onFocus": [Function],
+      }
+    }
+    meta={
+      Object {
+        "error": undefined,
+        "touched": undefined,
+      }
+    }
+    optionFilterProp="children"
+    options={Array []}
+    placeholder="Please select"
+  />
+  <div
+    className="dropdown-placeholder ant-form-explain empty"
+  >
+    EMPTY
+  </div>
+</div>
+`;

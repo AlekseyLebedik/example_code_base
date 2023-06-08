@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Clans - ClansProvider renders children with context props 1`] = `
+<ClansProvider>
+  <Children>
+    <div>
+      Test Child
+    </div>
+  </Children>
+</ClansProvider>
+`;

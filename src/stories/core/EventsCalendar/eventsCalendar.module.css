@@ -1,0 +1,124 @@
+.introWrapper {
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.introWrapper p,
+.introWrapper li {
+  font-weight: 300;
+}
+
+.otherFailed {
+  background-color: #bcaaa4;
+}
+
+.otherOther {
+  background-color: #00e676;
+}
+
+.otherTesting {
+  background-color: #64b5f6;
+}
+
+.otherAllChecked {
+  color: #00e676 !important;
+}
+
+.otherFailedChecked {
+  color: #bcaaa4 !important;
+}
+
+.otherTestingChecked {
+  color: #64b5f6 !important;
+}
+
+.otherAllTimeline {
+  border-left: 7px solid #00e676 !important;
+}
+
+.otherFailedTimeline {
+  border-left: 7px solid #bcaaa4 !important;
+}
+
+.otherTestingTimeline {
+  border-left: 7px solid #64b5f6 !important;
+}
+
+.eventManagerApproved {
+  background-color: #00e676;
+}
+
+.eventManagerEventManager {
+  background-color: #64b5f6;
+}
+
+.eventManagerRejected {
+  background-color: #e57373;
+}
+
+.eventManagerAllChecked {
+  color: #64b5f6 !important;
+}
+
+.eventManagerApprovedChecked {
+  color: #00e676 !important;
+}
+
+.eventManagerRejectedChecked {
+  color: #e57373 !important;
+}
+
+.eventManagerApprovedTimeline {
+  border-left: 7px solid #00e676 !important;
+}
+
+.eventManagerEventManagerTimeline {
+  border-left: 7px solid #64b5f6 !important;
+}
+
+.eventManagerRejectedTimeline {
+  border-left: 7px solid #e57373 !important;
+}
+
+.dialog {
+  z-index: 100;
+  height: 0vh;
+}
+
+.dialogBehind {
+  z-index: 99;
+}
+
+.calendarEventDetailRow {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.calendarEventDetailRowText {
+  margin-left: 10px;
+}
+
+.calendarEventTitleText {
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.calendarEventTitle {
+  padding: 25px;
+}
+
+.calendarEventContent {
+  padding: 15px 10px 10px 10px;
+}
+
+.calendarStoryWrapper {
+  height: 100vh;
+}
+
+.emTags {
+  margin-left: 10px;
+}

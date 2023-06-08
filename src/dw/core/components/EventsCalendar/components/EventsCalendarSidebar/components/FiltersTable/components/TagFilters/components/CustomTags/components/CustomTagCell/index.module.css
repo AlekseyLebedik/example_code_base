@@ -1,0 +1,16 @@
+.customTagFilter {
+  margin: 2px 5px 0px 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.customTagFilterTags {
+  max-width: 65%;
+}
+
+.deleteCustomTagFilter {
+  margin-left: 5px;
+  padding: 6px;
+}

@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreatedBy renders the CreatedBy component renders default correctly 1`] = `
+<WithStyles(ForwardRef(TextField))
+  disabled={true}
+  fullWidth={true}
+  label="Created By"
+  value="Test User"
+/>
+`;

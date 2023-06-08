@@ -1,0 +1,106 @@
+.dialog {
+  z-index: 1300;
+}
+
+.paper {
+  display: flex;
+  margin: 5px;
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.sidebar div:first-child {
+  border-right: none;
+}
+
+.sidebar,
+.sidebar div,
+.sidebar button {
+  background-color: rgb(24, 30, 39);
+  color: white;
+}
+
+.sidebar button {
+  border-bottom: 1px solid #eff2f747;
+  width: 80%;
+  margin: auto;
+}
+
+.sidebar button span:hover {
+  background-color: #f0f0f012 !important;
+}
+
+.datePickerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.displayTimesContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 0;
+  background-color: rgb(239, 242, 247);
+  border-top-right-radius: 4px;
+}
+
+.dateTimeFieldWrapper {
+  width: 100%;
+}
+
+.rangedDateTimeFieldWrapper {
+  width: 47%;
+}
+
+.rdrMonthAndYearWrapper {
+  padding-top: 0px;
+}
+
+.rdrMonthPicker > select,
+.rdrYearPicker > select {
+  color: #009688;
+}
+
+.rdrMonth {
+  padding: 0 0.833em 1.5em 0.833em;
+}
+
+.timeWrapper {
+  margin-top: 15px;
+}
+
+.rangedTimeWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer {
+  padding: 15px;
+}
+
+.buttonContainer {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.button {
+  margin-left: 20px !important;
+  padding: 4px 10px !important;
+  border-radius: 4px !important;
+}
+
+.primaryButton {
+  composes: button;
+  background-color: #009688 !important;
+  color: white !important;
+}

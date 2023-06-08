@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Clans - Clan Bans renders AgGrid with default values 1`] = `
+<AgGridReact
+  alignRowCenter={false}
+  animateRows={true}
+  autoGroupColumnDef={
+    Object {
+      "lockPosition": true,
+      "minWidth": 400,
+      "resizable": true,
+      "sortable": true,
+    }
+  }
+  autoSizePadding={4}
+  cacheQuickFilter={false}
+  columnDefs={
+    Array [
+      Object {
+        "autoHeight": true,
+        "cellRenderer": "playerCellRenderer",
+        "checkboxSelection": true,
+        "field": "player",
+        "headerName": "Player",
+        "minWidth": 250,
+        "wrapText": true,
+      },
+      Object {
+        "autoHeight": true,
+        "headerName": "Account Type",
+        "maxWidth": 150,
+        "valueGetter": [Function],
+        "wrapText": true,
+      },
+      Object {
+        "autoHeight": true,
+        "field": "banTimestamp",
+        "headerName": "Ban Timestamp",
+        "valueFormatter": [Function],
+        "wrapText": true,
+      },
+      Object {
+        "autoHeight": true,
+        "field": "banEndTimestamp",
+        "headerName": "End Ban Timestamp",
+        "valueFormatter": [Function],
+        "wrapText": true,
+      },
+      Object {
+        "autoHeight": true,
+        "field": "clanID",
+        "headerName": "Clan ID",
+        "wrapText": true,
+      },
+    ]
+  }
+  components={
+    Object {
+      "actionsRenderer": [Function],
+      "optionsToolPanel": [Function],
+      "pinnedRowPlayerRenderer": [Function],
+      "pinnedRowRoleRenderer": [Function],
+      "playerCellRenderer": [Function],
+    }
+  }
+  context={
+    Object {
+      "accountsServiceConfigId": undefined,
+      "formatDateTime": [MockFunction],
+      "handleManualGridUpdate": [Function],
+    }
+  }
+  defaultColDef={
+    Object {
+      "autoHeight": true,
+      "editable": false,
+      "enablePivot": true,
+      "enableRowGroup": true,
+      "enableValue": true,
+      "filter": "agTextColumnFilter",
+      "flex": 1,
+      "maxWidth": 500,
+      "minHeight": 50,
+      "minWidth": 100,
+      "resizable": true,
+      "sortable": true,
+      "suppressCellFlash": true,
+      "wrapText": true,
+    }
+  }
+  defaultColGroupDef={
+    Object {
+      "autoWidth": true,
+      "resizable": true,
+    }
+  }
+  domLayout="normal"
+  enableCellTextSelection={true}
+  ensureDomOrder={true}
+  getRowId={[MockFunction]}
+  getRowStyle={[Function]}
+  groupDefaultExpanded={0}
+  groupDisplayType={null}
+  groupRemoveSingleChildren={false}
+  groupSelectsChildren={true}
+  groupSelectsFiltered={true}
+  headerHeight={32}
+  isRowSelectable={[Function]}
+  multiSortKey={null}
+  onCellClicked={[Function]}
+  onColumnResized={[Function]}
+  onColumnVisible={[Function]}
+  onGridReady={[Function]}
+  onGridSizeChanged={[Function]}
+  onRowSelected={[MockFunction]}
+  overlayLoadingTemplate="<span class=\\"ag-overlay-loading-center\\">Please wait while your rows are loading</span>"
+  pagination={false}
+  paginationPageSize={100}
+  rowClass=""
+  rowData={
+    Array [
+      Object {
+        "banEndTimestamp": "1626328073",
+        "banTimestamp": "1626228073",
+        "clanID": "937017732286401048",
+        "player": Object {
+          "accountType": "uno",
+          "userID": "5779243048524473608",
+          "username": "banned-user",
+        },
+      },
+      Object {
+        "banEndTimestamp": "1627228114",
+        "banTimestamp": "1626228114",
+        "clanID": "937017732286401048",
+        "player": Object {
+          "accountType": "uno",
+          "userID": "7307022213772839286",
+          "username": "banned-user-2",
+        },
+      },
+    ]
+  }
+  rowGroupPanelShow="never"
+  rowHeight={50}
+  rowMultiSelectWithClick={true}
+  rowSelection="multiple"
+  sideBar={null}
+  singleClickEdit={false}
+  statusBar={
+    Object {
+      "statusPanels": Array [
+        Object {
+          "align": "left",
+          "statusPanel": "agTotalRowCountComponent",
+        },
+        Object {
+          "statusPanel": "agFilteredRowCountComponent",
+        },
+        Object {
+          "statusPanel": "agSelectedRowCountComponent",
+        },
+      ],
+    }
+  }
+  stopEditingWhenGridLosesFocus={false}
+  suppressCellFocus={true}
+  suppressClickEdit={false}
+  suppressColumnVirtualisation={false}
+  suppressContextMenu={false}
+  suppressDragLeaveHidesColumns={true}
+  suppressHeaderKeyboardEvent={true}
+  suppressKeyboardEvent={false}
+  suppressMenuHide={false}
+  suppressRowClickSelection={false}
+  suppressRowHoverHighlight={false}
+  suppressScrollOnNewData={false}
+/>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - ACL - StorageFilenames Reducer handle STORAGE_FILENAME_ADD 1`] = `
+Object {
+  "addFilenameModalSubmitting": true,
+  "addFilenameModalVisible": false,
+  "storageFilenames": Array [],
+}
+`;
+
+exports[`Security - ACL - StorageFilenames Reducer handle STORAGE_FILENAME_ADD_FAILED 1`] = `
+Object {
+  "addFilenameModalSubmitting": false,
+  "addFilenameModalVisible": false,
+  "storageFilenames": Array [],
+}
+`;
+
+exports[`Security - ACL - StorageFilenames Reducer handle STORAGE_FILENAME_ADD_MODAL_CLOSE 1`] = `
+Object {
+  "addFilenameModalSubmitting": false,
+  "addFilenameModalVisible": false,
+  "storageFilenames": Array [],
+}
+`;
+
+exports[`Security - ACL - StorageFilenames Reducer handle STORAGE_FILENAME_ADD_MODAL_OPEN 1`] = `
+Object {
+  "addFilenameModalSubmitting": false,
+  "addFilenameModalVisible": true,
+  "storageFilenames": Array [],
+}
+`;
+
+exports[`Security - ACL - StorageFilenames Reducer handle STORAGE_FILENAME_ADD_SUCCESS 1`] = `
+Object {
+  "addFilenameModalSubmitting": false,
+  "addFilenameModalVisible": false,
+  "storageFilenames": Array [],
+}
+`;
+
+exports[`Security - ACL - StorageFilenames Reducer handle STORAGE_FILENAMES_FETCH_SUCCESS 1`] = `
+Object {
+  "addFilenameModalSubmitting": false,
+  "addFilenameModalVisible": false,
+  "storageFilenames": Array [
+    Object {
+      "clientType": "1",
+      "filename": "test.txt",
+      "id": "Y2xpZW50X3R5cGU9MTtmaWxlbmFtZT10ZXN0LnR4dA==",
+    },
+  ],
+}
+`;
+
+exports[`Security - ACL - StorageFilenames Reducer return the initial state 1`] = `
+Object {
+  "addFilenameModalSubmitting": false,
+  "addFilenameModalVisible": false,
+  "storageFilenames": Array [],
+}
+`;

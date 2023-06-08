@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Reducer APP_FETCH_SERVICES_AVAILABILITY_SUCCESS replaces servicesAvailability 1`] = `
+Object {
+  "currentTitleEnv": Object {
+    "id": 1,
+    "shortType": "dev",
+  },
+  "servicesAvailability": Array [
+    Object {
+      "configured": true,
+      "name": "Service 2",
+    },
+  ],
+}
+`;
+
+exports[`App Reducer APP_FETCH_TITLE_ENVIRONMENT_SUCCESS append new incidents to its given type 1`] = `
+Object {
+  "currentTitleEnv": Object {
+    "id": 2,
+    "shortType": "live",
+  },
+  "servicesAvailability": Array [
+    Object {
+      "configured": false,
+      "name": "Service 1",
+    },
+  ],
+}
+`;
+
+exports[`App Reducer default action returns default state 1`] = `
+Object {
+  "currentTitleEnv": Object {},
+  "servicesAvailability": Array [],
+}
+`;

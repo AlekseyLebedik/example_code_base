@@ -1,0 +1,6 @@
+export const ONLINE_GAMES_FETCH = 'online-games/ONLINE_GAMES_FETCH';
+export const ONLINE_GAMES_FETCH_SUCCESS =
+  'online-games/ONLINE_GAMES_FETCH_SUCCESS';
+
+export const ONLINE_GAMES_LIST_ITEM_ONCLICK =
+  'online-games/ONLINE_GAMES_LIST_ITEM_ONCLICK';

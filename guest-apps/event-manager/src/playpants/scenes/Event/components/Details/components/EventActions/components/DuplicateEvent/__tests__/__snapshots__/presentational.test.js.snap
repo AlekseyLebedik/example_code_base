@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DuplicateEvent presentational tests: DuplicateEvent presentational tests: renders default properly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <ModalForm
+    FormComponent={
+      Object {
+        "$$typeof": Symbol(react.memo),
+        "WrappedComponent": [Function],
+        "compare": null,
+        "displayName": "Connect(ReduxForm)",
+        "type": [Function],
+      }
+    }
+    OpenModalComponent={[Function]}
+    _loading={false}
+    _onCancel={[Function]}
+    _onRemoteSubmit={[Function]}
+    _openModal={[Function]}
+    _pristine={false}
+    _visible={false}
+    cancelOnBackdropClick={true}
+    dialogContentStyle={Object {}}
+    disableEnforceFocus={false}
+    eventData={
+      Object {
+        "activities": Array [
+          Object {
+            "activity": Object {
+              "inputs": Array [
+                Object {
+                  "language": "sp",
+                  "text": "Hola Amigo :D",
+                },
+              ],
+            },
+            "exec_order": 0,
+            "id": 13,
+            "publish_on": "on_start",
+            "title_envs": Array [
+              1,
+            ],
+            "type": "motd",
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          Object {
+            "activity": Object {
+              "inputs": Array [
+                Object {
+                  "key": "weapon_type",
+                  "value": "Gun",
+                },
+                Object {
+                  "key": "attachment_icons",
+                  "value": Array [],
+                },
+                Object {
+                  "key": "invalid",
+                  "value": "test",
+                },
+              ],
+              "name": "Double XP",
+              "template_id": "double_xp",
+              "version": "v1.0.4",
+            },
+            "exec_order": 1,
+            "id": 12,
+            "publish_on": "on_start",
+            "title_envs": Array [
+              4,
+            ],
+            "type": "pyscript",
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          Object {
+            "activity": Object {
+              "ruleset_to_activate": Object {
+                "activationTimestamp": null,
+                "code": "idiwoq03292kj4lsl",
+                "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+                "codeSignatureTimestamp": 1565841879,
+                "code_signature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+                "creationTimestamp": 1565841879,
+                "isActive": true,
+                "label": "stronghold-5",
+                "lastUpdateTimestamp": 1565842668,
+              },
+            },
+            "exec_order": 0,
+            "id": 1,
+            "publish_on": "on_start",
+            "title_envs": Array [
+              1,
+            ],
+            "type": "ae",
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+          Object {
+            "activity": Object {
+              "deploy": Array [
+                Object {
+                  "build_uid": "e36576c1fb46e4d60c9ccf1cb5ae2f01dfcd96c6e226b424c715aec84155bd9b",
+                  "target_name": "uidev:dev(mp)",
+                  "uid": "tp_deployment_1",
+                },
+              ],
+              "modify": Array [
+                Object {
+                  "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa3",
+                  "uid": "modify_1",
+                  "user_params": Object {},
+                },
+              ],
+              "undeploy": Array [
+                Object {
+                  "build_uid": "84fe6b23-9eef-4fcd-b350-cef71c228eaa2",
+                  "uid": "undeploy_1",
+                },
+              ],
+            },
+            "exec_order": 0,
+            "id": 2,
+            "publish_on": "on_start",
+            "title_envs": Array [
+              1,
+            ],
+            "type": "tp_deployment",
+            "updated_by": Object {
+              "id": 1,
+              "name": "Initial User",
+            },
+          },
+        ],
+        "authorizations": Array [],
+        "authorizers": Array [],
+        "auto_tags": Array [
+          "PS4",
+        ],
+        "created_at": 1560983839,
+        "created_by": Object {
+          "id": 1,
+          "name": "Initial User",
+        },
+        "end_at": 1561243001,
+        "env_type": "Development",
+        "event_type": "event-manager",
+        "id": 2,
+        "is_schedule": false,
+        "locked_by": 1,
+        "manual_tags": Array [
+          "PS4",
+        ],
+        "note": "testing notes",
+        "platforms": Array [
+          "PS",
+        ],
+        "project": 1,
+        "publish_at": 1561057200,
+        "status": "open",
+        "task": null,
+        "title": "Test Event",
+        "updated_at": 1560985103,
+        "updated_by": Object {
+          "id": 1,
+          "name": "Initial User",
+        },
+      }
+    }
+    formName="DuplicateGroupForm"
+    fullWidth={false}
+    handleFormSubmit={[MockFunction]}
+    invalid={false}
+    maxWidth={null}
+    onClick={[MockFunction]}
+    onFormSubmit={[MockFunction]}
+    openModalComponentProps={Object {}}
+    primaryButtonProps={null}
+    pristine={false}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    submitText="Duplicate"
+    submittingText="Duplicating..."
+    title="Duplicate/Promote Event"
+    wrapperClassName=""
+  />
+</ContextProvider>
+`;

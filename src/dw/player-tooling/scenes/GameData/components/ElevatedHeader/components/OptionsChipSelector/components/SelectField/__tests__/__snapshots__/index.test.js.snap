@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select renderGroupedValues renders correct number of selected options 1`] = `
+<div
+  className="chips"
+>
+  <React.Fragment>
+    <WithStyles(ForwardRef(Chip))
+      classes={
+        Object {
+          "colorPrimary": "colorPrimary",
+          "deleteIcon": "chipDeleteIcon",
+          "label": "chipLabel",
+          "outlinedPrimary": "outlinedPrimary",
+          "root": "chip chipHover",
+        }
+      }
+      clickable={true}
+      color="primary"
+      label="Accounts"
+      onClick={[Function]}
+      onDelete={[Function]}
+      variant="outlined"
+    />
+    <span
+      className="divider"
+    >
+      |
+    </span>
+  </React.Fragment>
+  <React.Fragment>
+    <WithStyles(ForwardRef(Chip))
+      classes={
+        Object {
+          "colorPrimary": "colorPrimary",
+          "deleteIcon": "chipDeleteIcon",
+          "label": "chipLabel",
+          "outlined": "outlinedDisabled",
+          "outlinedPrimary": "outlinedPrimary",
+          "root": "chip",
+        }
+      }
+      clickable={false}
+      color="default"
+      label="BO5 CrossPlay Scratch Dev"
+      onClick={[Function]}
+      onDelete={[Function]}
+      variant="outlined"
+    />
+    <span
+      className="divider"
+    >
+      |
+    </span>
+  </React.Fragment>
+  <React.Fragment>
+    <WithStyles(ForwardRef(Chip))
+      classes={
+        Object {
+          "colorPrimary": "colorPrimary",
+          "deleteIcon": "chipDeleteIcon",
+          "label": "chipLabel",
+          "outlined": "outlinedDisabled",
+          "outlinedPrimary": "outlinedPrimary",
+          "root": "chip",
+        }
+      }
+      clickable={false}
+      color="default"
+      label="Inventory"
+      onClick={[Function]}
+      onDelete={[Function]}
+      variant="outlined"
+    />
+    <span
+      className="divider"
+    />
+  </React.Fragment>
+</div>
+`;
+
+exports[`Select renders custom values 1`] = `
+<WithStyles(ForwardRef(TextField))
+  InputProps={
+    Object {
+      "disableUnderline": true,
+    }
+  }
+  SelectProps={
+    Object {
+      "IconComponent": [Function],
+      "classes": Object {
+        "select": "select",
+      },
+      "multiple": true,
+      "onOpen": [Function],
+      "open": false,
+      "renderValue": [Function],
+    }
+  }
+  onChange={[Function]}
+  onClick={[MockFunction]}
+  onDrop={[Function]}
+  select={true}
+  value={
+    Array [
+      "accounts",
+      "5830",
+      "battlepass",
+    ]
+  }
+>
+  []
+</WithStyles(ForwardRef(TextField))>
+`;
+
+exports[`Select renders default values 1`] = `
+<WithStyles(ForwardRef(TextField))
+  InputProps={
+    Object {
+      "disableUnderline": true,
+    }
+  }
+  SelectProps={
+    Object {
+      "IconComponent": [Function],
+      "classes": Object {
+        "select": "select",
+      },
+      "multiple": true,
+      "onOpen": [Function],
+      "open": false,
+      "renderValue": [Function],
+    }
+  }
+  onChange={[Function]}
+  onClick={[Function]}
+  onDrop={[Function]}
+  select={true}
+  value={Array []}
+>
+  []
+</WithStyles(ForwardRef(TextField))>
+`;

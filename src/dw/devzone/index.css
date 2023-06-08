@@ -1,0 +1,83 @@
+@tailwind utilities;
+
+/* Enable for layout debugging */
+/* * {
+  outline: 1px solid red !important;
+} */
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', SimSun, sans-serif;
+}
+
+body.print {
+  padding-left: 0;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.row-flex {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-self: stretch;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container .empty {
+  min-height: 300px;
+  font-size: 1.75rem;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.common-modal-dialog > div > div:first-child {
+  width: 500px !important;
+}
+
+/* ANT TABS */
+
+.details__container .ant-tabs,
+.main-container .ant-tabs {
+  height: 100%;
+  overflow: hidden;
+}
+
+.details__container .ant-tabs-content,
+.main-container .ant-tabs-content {
+  height: calc(100% - 60px);
+}
+
+.details__container .ant-tabs-tabpane,
+.main-container .ant-tabs-tabpane {
+  height: 100%;
+}
+
+.scrollable-content {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.flex-rows-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* END ANT TABS */

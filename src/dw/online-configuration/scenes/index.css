@@ -1,0 +1,7 @@
+.OnlineConfiguration__main__row {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: auto;
+  position: relative;
+}

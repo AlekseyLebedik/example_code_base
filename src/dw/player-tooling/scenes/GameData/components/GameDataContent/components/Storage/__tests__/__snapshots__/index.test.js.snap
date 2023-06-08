@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameData Inventory DetailRenderer renders User Objects 1`] = `
+<Provider
+  store={
+    Object {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <DetailRenderer
+    expandAll={true}
+    titleId={5830}
+    values={
+      Object {
+        "userObjects": Array [
+          Object {
+            "modified": 1593620300,
+            "name": "mp_stats_online",
+            "objectID": "3835159652453332528",
+          },
+          Object {
+            "modified": 1593620300,
+            "name": "mp_loadouts_online",
+            "objectID": "7363446282216943926",
+          },
+          Object {
+            "modified": 1593619819,
+            "name": "statsarchive00",
+            "objectID": "3761692304136692788",
+          },
+        ],
+      }
+    }
+  />
+</Provider>
+`;

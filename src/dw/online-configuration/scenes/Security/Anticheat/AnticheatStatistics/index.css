@@ -1,0 +1,63 @@
+.anticheat-statistics .tabs {
+  padding-left: 20px;
+  display: flex;
+  width: 100%;
+  min-height: 44px;
+}
+
+.anticheat-statistics .tabs a {
+  line-height: 44px;
+  height: 44px;
+  text-decoration: none;
+  margin-right: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-weight: 400;
+  z-index: 5;
+}
+
+.anticheat-statistics .ant-table-wrapper {
+  margin-top: 10px;
+}
+
+.anticheat-statistics .ant-table-wrapper .ant-table-row td:first-child,
+.anticheat-statistics .ant-table-wrapper thead tr th:first-child {
+  padding-left: 20px !important;
+}
+
+.anticheat-statistics.main-container .common__table-hydrated .table-operations {
+  margin: 0;
+}
+
+.anticheat-statistics .filter-options {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+  left: -6px;
+}
+
+.anticheat-statistics .source-select {
+  flex-grow: 1;
+  width: 350px;
+  margin-right: 15px;
+}
+
+.anticheat-statistics .date {
+  margin-right: 15px;
+}
+
+.anticheat-statistics .date > div {
+  width: 100px !important;
+}
+
+.anticheat-statistics .challenge-id {
+  width: 90px !important;
+  margin-right: 15px;
+}
+
+.anticheat-statistics .sectionTitleExtraHeight {
+  height: 80px;
+}

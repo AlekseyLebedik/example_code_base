@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Responsibilility groups details renders default properly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <Details
+    availableUsers={
+      Array [
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/3/",
+            },
+          },
+          "email": "admin@test.com",
+          "enabled": true,
+          "id": 3,
+          "isSuperuser": false,
+          "label": "Admin",
+          "name": "Admin",
+          "username": "admin",
+          "value": "Admin",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/4/",
+            },
+          },
+          "email": "guest@test.com",
+          "enabled": true,
+          "id": 4,
+          "isSuperuser": false,
+          "label": "Guest",
+          "name": "Guest",
+          "username": "guest",
+          "value": "Guest",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/1/",
+            },
+          },
+          "email": "noreply@demonware.net",
+          "enabled": true,
+          "id": 1,
+          "isSuperuser": true,
+          "label": "Initial User",
+          "name": "Initial User",
+          "username": "username",
+          "value": "Initial User",
+        },
+        Object {
+          "_links": Object {
+            "self": Object {
+              "href": "http://127.0.0.1:8081/api/v2/users/2/",
+            },
+          },
+          "email": "readonly@test.com",
+          "enabled": true,
+          "id": 2,
+          "isSuperuser": false,
+          "label": "Readonly",
+          "name": "Readonly",
+          "username": "readonly",
+          "value": "Readonly",
+        },
+      ]
+    }
+    availableUsersNext={null}
+    form="GroupsForm"
+    initialValues={
+      Object {
+        "envTypes": Array [
+          Object {
+            "id": 26,
+            "name": undefined,
+            "responsibilities": Array [],
+          },
+          Object {
+            "id": 25,
+            "name": undefined,
+            "responsibilities": Array [
+              3,
+            ],
+          },
+          Object {},
+          Object {},
+        ],
+        "members": Array [
+          Object {
+            "email": "admin@test.com",
+            "id": 3,
+            "name": "Admin",
+            "username": "admin",
+          },
+          Object {
+            "email": "noreply@demonware.net",
+            "id": 1,
+            "name": "Initial User",
+            "username": "username",
+          },
+        ],
+      }
+    }
+    isLoading={false}
+    match={
+      Object {
+        "params": Object {
+          "id": 1,
+        },
+      }
+    }
+    onFetchGroupMembers={[Function]}
+    onFetchResponsibilityGroups={[Function]}
+    onSave={[Function]}
+    onSearchUsers={[Function]}
+    onShowMore={[Function]}
+    onUpdateGroupMembers={[Function]}
+    onUpdateResponsibilities={[Function]}
+    optionTypes={
+      Array [
+        Object {
+          "envType": "Development",
+          "id": 0,
+          "optionType": "global",
+          "responsibilities": Array [],
+          "type": "Development",
+        },
+        Object {
+          "envType": "Certification",
+          "id": 1,
+          "optionType": "global",
+          "responsibilities": Array [],
+          "type": "Certification",
+        },
+        Object {
+          "envType": "Live",
+          "id": 2,
+          "optionType": "global",
+          "responsibilities": Array [],
+          "type": "Live",
+        },
+        Object {
+          "envType": "Unknown",
+          "id": 3,
+          "optionType": "thunderpants",
+          "responsibilities": Array [],
+          "type": "thunderpants",
+        },
+      ]
+    }
+    project={1}
+    responsibilityGroups={
+      Array [
+        Object {
+          "env_type": "Certification",
+          "group": 7,
+          "id": 25,
+          "project": 1,
+          "responsibilities": Array [
+            3,
+          ],
+          "user": null,
+        },
+        Object {
+          "env_type": "Development",
+          "group": 7,
+          "id": 26,
+          "project": 1,
+          "responsibilities": Array [],
+          "user": null,
+        },
+      ]
+    }
+    responsibilityOptions={
+      Array [
+        Object {
+          "code": "authorize_pubstorage",
+          "id": 1,
+          "name": "Authorize | Publisher Storage",
+        },
+        Object {
+          "code": "authorize_motd",
+          "id": 2,
+          "name": "Authorize | MOTD",
+        },
+        Object {
+          "code": "authorize_playlist",
+          "id": 3,
+          "name": "Authorize | Playlists",
+        },
+        Object {
+          "code": "authorize_pubvars",
+          "id": 4,
+          "name": "Authorize | Publisher Variables",
+        },
+        Object {
+          "code": "authorize_pyscript",
+          "id": 5,
+          "name": "Authorize | PyScript",
+        },
+        Object {
+          "code": "authorize_publisher_objects",
+          "id": 6,
+          "name": "Authorize | Publisher Objects",
+        },
+      ]
+    }
+    selectedItem={
+      Object {
+        "description": "",
+        "id": 1,
+        "name": "GTR Group 1",
+        "project": 1,
+      }
+    }
+    selectedItemId={null}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getAction": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "isActionDispatched": [Function],
+        "isActionTypeDispatched": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

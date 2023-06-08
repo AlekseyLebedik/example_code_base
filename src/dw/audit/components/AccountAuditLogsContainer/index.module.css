@@ -1,0 +1,54 @@
+.flexContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.selector {
+  width: 25%;
+  min-width: 300px;
+}
+
+.errorContainer {
+  display: flex;
+  height: 100%;
+}
+
+.agGridContainer {
+  height: 100%;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.searchBox {
+  width: 65%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.dataRetention {
+  padding: 35px 1% 0 1%;
+  width: 10%;
+  min-width: 100px;
+  text-align: start;
+}
+
+.dropDownProviderSelect {
+  padding: 6px;
+  width: 100%;
+  max-width: 110px;
+  min-width: 70px;
+  margin-top: 18px;
+  margin-bottom: 12px;
+}
+
+.emptyTextContainer {
+  margin-top: 19%;
+}

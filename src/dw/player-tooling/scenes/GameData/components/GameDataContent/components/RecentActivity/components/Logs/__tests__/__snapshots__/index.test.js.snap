@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecentActivity Logs formatTitleLog returns data 1`] = `
+Object {
+  "Connection ID": <Link
+    to="/online-configuration/5830/dev/debugging/server-logs?uno=true&connId=1345332142351344"
+  >
+    1345332142351344
+  </Link>,
+  "Transaction ID": <Link
+    to="/online-configuration/5830/dev/debugging/server-logs?uno=true&transId=21342432513241"
+  >
+    21342432513241
+  </Link>,
+  "env": "auth_dev_las",
+  "message": "test message",
+  "source": "auth3",
+  "time": 1617749040,
+}
+`;
+
+exports[`RecentActivity Logs formatTitleLogs returns correct number of logs 1`] = `
+Array [
+  Object {
+    "Connection ID": <Link
+      to="/online-configuration/5830/dev/debugging/server-logs?uno=true&connId=1345332142351344"
+    >
+      1345332142351344
+    </Link>,
+    "Transaction ID": <Link
+      to="/online-configuration/5830/dev/debugging/server-logs?uno=true&transId=21342432513241"
+    >
+      21342432513241
+    </Link>,
+    "env": "auth_dev_las",
+    "message": "test message",
+    "source": "auth3",
+    "time": 1617749040,
+    "title": Object {
+      "env": "DEV",
+      "name": "BO5-CrossPlay-Reveal-Dev",
+      "titleId": "5830",
+    },
+  },
+]
+`;

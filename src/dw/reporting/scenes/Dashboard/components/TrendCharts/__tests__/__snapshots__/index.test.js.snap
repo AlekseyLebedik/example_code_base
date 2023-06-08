@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrendChart StatHeader rendered as a Link on xs screens 1`] = `
+<div
+  className="chartHeader"
+>
+  <Link
+    to="/stats/users-online"
+  >
+    Max Concurrent Online Users
+  </Link>
+</div>
+`;
+
+exports[`TrendChart StatHeader rendered as a text with IconButton on wide screens 1`] = `
+<div
+  className="chartHeader"
+>
+  Max Concurrent Online Users
+  <WithStyles(ForwardRef(Tooltip))
+    title="View full report"
+  >
+    <WithStyles(ForwardRef(IconButton))
+      className="hoverable"
+      component={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "render": [Function],
+        }
+      }
+      to="/stats/users-online"
+    >
+      <WithStyles(ForwardRef(Icon))>
+        visibility
+      </WithStyles(ForwardRef(Icon))>
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(Tooltip))>
+</div>
+`;

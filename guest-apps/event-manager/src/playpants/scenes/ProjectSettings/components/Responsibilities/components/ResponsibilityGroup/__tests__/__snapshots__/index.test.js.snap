@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResponsibilityGroup renders default properly 1`] = `
+<WithStyles(ForwardRef(Paper))
+  className="container"
+>
+  <label
+    className="titleContent"
+  >
+    Certification
+  </label>
+  <PermissionSelect
+    ItemComponent={[Function]}
+    fullWidth={true}
+    itemProps={
+      Object {
+        "envType": Object {
+          "id": 2,
+          "responsibilities": Array [
+            Object {
+              "code": "authorize_pubstorage",
+              "id": 1,
+              "name": "Authorize | Publisher Storage",
+            },
+            Object {
+              "code": "authorize_motd",
+              "id": 2,
+              "name": "Authorize | MOTD",
+            },
+            Object {
+              "code": "authorize_playlist",
+              "id": 3,
+              "name": "Authorize | Playlists",
+            },
+            Object {
+              "code": "authorize_pubvars",
+              "id": 4,
+              "name": "Authorize | Publisher Variables",
+            },
+            Object {
+              "code": "authorize_pyscript",
+              "id": 5,
+              "name": "Authorize | PyScript",
+            },
+            Object {
+              "code": "authorize_objectstore",
+              "id": 6,
+              "name": "Authorize | Object Store",
+            },
+          ],
+          "type": "Certification",
+        },
+        "index": 0,
+      }
+    }
+    label="Responsibilities"
+    multiple={true}
+    name="envTypes[0].responsibilities"
+    options={
+      Array [
+        Object {
+          "code": "authorize_pubstorage",
+          "id": 1,
+          "name": "Authorize | Publisher Storage",
+        },
+        Object {
+          "code": "authorize_motd",
+          "id": 2,
+          "name": "Authorize | MOTD",
+        },
+        Object {
+          "code": "authorize_playlist",
+          "id": 3,
+          "name": "Authorize | Playlists",
+        },
+        Object {
+          "code": "authorize_pubvars",
+          "id": 4,
+          "name": "Authorize | Publisher Variables",
+        },
+        Object {
+          "code": "authorize_pyscript",
+          "id": 5,
+          "name": "Authorize | PyScript",
+        },
+        Object {
+          "code": "authorize_objectstore",
+          "id": 6,
+          "name": "Authorize | Object Store",
+        },
+      ]
+    }
+    placeholder="Please select Responsibilities"
+  />
+</WithStyles(ForwardRef(Paper))>
+`;

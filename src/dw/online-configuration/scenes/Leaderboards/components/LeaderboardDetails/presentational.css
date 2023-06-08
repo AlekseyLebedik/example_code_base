@@ -1,0 +1,27 @@
+.details__container.leaderboard .common__search {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.entities__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.details__container.leaderboard .entities__container .empty {
+  text-align: center;
+  margin-top: 12%;
+}
+
+.details__container.leaderboard .NextPageButton {
+  position: initial !important;
+}
+
+.details__container.leaderboard .deleted-entity {
+  color: rgba(0, 0, 0, 0.35);
+  text-decoration: line-through;
+}
+
+.details__container.leaderboard .section-title {
+  min-height: 40px;
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Actions renders default properly 1`] = `
+<div
+  className="actionPanel"
+>
+  <WithStyles(ForwardRef(Grid))
+    className="grid"
+    container={true}
+    justify="flex-end"
+    spacing={0}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+    >
+      <DeleteScheduleStoryComponent
+        eventCount={1}
+        isSafe={
+          Object {
+            "toDelete": true,
+          }
+        }
+        onClick={[Function]}
+        styles={null}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

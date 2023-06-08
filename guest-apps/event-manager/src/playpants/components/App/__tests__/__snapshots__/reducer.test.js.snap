@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Reducer FETCH_EVENT_TEMPLATES Starts fetch for event templates 1`] = `
+Object {
+  "currentProject": Object {
+    "companies": Array [],
+    "configuredProjects": Array [],
+    "contentTypeId": null,
+    "id": null,
+    "name": null,
+    "titles": Array [],
+  },
+  "projectSettings": Object {
+    "data": Array [
+      Object {
+        "activitySettings": Array [],
+        "calendarPresetsSettings": Array [],
+        "clientEvents": Object {},
+        "colorSettings": Array [],
+        "eventSettings": Object {},
+        "eventTypeSettings": Array [],
+        "globalSettings": Object {},
+        "id": null,
+        "notificationSettings": Object {},
+        "platformSettings": Array [],
+        "projectId": null,
+      },
+    ],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "schedules": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "stories": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "templates": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+}
+`;
+
+exports[`App Reducer FETCH_EVENT_TEMPLATES_SUCCESS Success fetch for event templates 1`] = `
+Object {
+  "currentProject": Object {
+    "companies": Array [],
+    "configuredProjects": Array [],
+    "contentTypeId": null,
+    "id": null,
+    "name": null,
+    "titles": Array [],
+  },
+  "projectSettings": Object {
+    "data": Array [
+      Object {
+        "activitySettings": Array [],
+        "calendarPresetsSettings": Array [],
+        "clientEvents": Object {},
+        "colorSettings": Array [],
+        "eventSettings": Object {},
+        "eventTypeSettings": Array [],
+        "globalSettings": Object {},
+        "id": null,
+        "notificationSettings": Object {},
+        "platformSettings": Array [],
+        "projectId": null,
+      },
+    ],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "schedules": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "stories": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "templates": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+}
+`;
+
+exports[`App Reducer FETCH_PROJECT_SETTINGS_SUCCESS sets the project Settings from data 1`] = `
+Object {
+  "currentProject": Object {
+    "companies": Array [],
+    "configuredProjects": Array [],
+    "contentTypeId": null,
+    "id": null,
+    "name": null,
+    "titles": Array [],
+  },
+  "projectSettings": Object {
+    "data": Array [
+      Object {
+        "activitySettings": Array [],
+        "calendarPresetsSettings": Array [],
+        "clientEvents": Object {},
+        "colorSettings": Array [],
+        "eventSettings": Object {},
+        "eventTypeSettings": Array [],
+        "globalSettings": Object {},
+        "id": undefined,
+        "notificationSettings": Array [],
+        "platformSettings": Array [],
+        "projectId": undefined,
+        "timewarpSettings": undefined,
+      },
+    ],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "schedules": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "stories": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "templates": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+}
+`;
+
+exports[`App Reducer returns default state 1`] = `
+Object {
+  "currentProject": Object {
+    "companies": Array [],
+    "configuredProjects": Array [],
+    "contentTypeId": null,
+    "id": null,
+    "name": null,
+    "titles": Array [],
+  },
+  "projectSettings": Object {
+    "data": Array [
+      Object {
+        "activitySettings": Array [],
+        "calendarPresetsSettings": Array [],
+        "clientEvents": Object {},
+        "colorSettings": Array [],
+        "eventSettings": Object {},
+        "eventTypeSettings": Array [],
+        "globalSettings": Object {},
+        "id": null,
+        "notificationSettings": Object {},
+        "platformSettings": Array [],
+        "projectId": null,
+      },
+    ],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "schedules": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "stories": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "templates": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+}
+`;

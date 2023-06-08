@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reporting > TrendChartsLoading 1`] = `
+<div
+  style={
+    Object {
+      "height": 200,
+      "width": 430,
+    }
+  }
+>
+  <Holder
+    height={200}
+    primaryColor="#f3f3f3"
+    secondaryColor="#ecebeb"
+    speed={2}
+    width={430}
+  >
+    <rect
+      height="1"
+      rx="0"
+      ry="0"
+      width="390"
+      x="60"
+      y="10"
+    />
+    <rect
+      height="1"
+      rx="0"
+      ry="0"
+      width="390"
+      x="60"
+      y="55"
+    />
+    <rect
+      height="18"
+      rx="0"
+      ry="0"
+      width="20"
+      x="30"
+      y="37"
+    />
+    <rect
+      height="1"
+      rx="0"
+      ry="0"
+      width="390"
+      x="60"
+      y="100"
+    />
+    <rect
+      height="18"
+      rx="0"
+      ry="0"
+      width="10"
+      x="40"
+      y="82"
+    />
+    <rect
+      height="10"
+      rx="0"
+      ry="0"
+      width="1"
+      x="115"
+      y="100"
+    />
+    <rect
+      height="12"
+      rx="0"
+      ry="0"
+      width="50"
+      x="90"
+      y="112"
+    />
+    <rect
+      height="10"
+      rx="0"
+      ry="0"
+      width="1"
+      x="245"
+      y="100"
+    />
+    <rect
+      height="12"
+      rx="0"
+      ry="0"
+      width="50"
+      x="220"
+      y="112"
+    />
+    <rect
+      height="10"
+      rx="0"
+      ry="0"
+      width="1"
+      x="375"
+      y="100"
+    />
+    <rect
+      height="12"
+      rx="0"
+      ry="0"
+      width="50"
+      x="350"
+      y="112"
+    />
+  </Holder>
+</div>
+`;

@@ -1,0 +1,239 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notes loads the Note component correctly 1`] = `
+<Notes
+  disabled={false}
+  eventData={
+    Object {
+      "note": "",
+    }
+  }
+  onSave={[MockFunction]}
+>
+  <WithStyles(ForwardRef(TextField))
+    data-cy="notesField"
+    disabled={false}
+    fullWidth={true}
+    multiline={true}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    placeholder="Notes"
+    value=""
+  >
+    <ForwardRef(TextField)
+      classes={
+        Object {
+          "root": "MuiTextField-root",
+        }
+      }
+      data-cy="notesField"
+      disabled={false}
+      fullWidth={true}
+      multiline={true}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      placeholder="Notes"
+      value=""
+    >
+      <WithStyles(ForwardRef(FormControl))
+        className="MuiTextField-root"
+        color="primary"
+        data-cy="notesField"
+        disabled={false}
+        error={false}
+        fullWidth={true}
+        onKeyDown={[Function]}
+        required={false}
+        variant="standard"
+      >
+        <ForwardRef(FormControl)
+          className="MuiTextField-root"
+          classes={
+            Object {
+              "fullWidth": "MuiFormControl-fullWidth",
+              "marginDense": "MuiFormControl-marginDense",
+              "marginNormal": "MuiFormControl-marginNormal",
+              "root": "MuiFormControl-root",
+            }
+          }
+          color="primary"
+          data-cy="notesField"
+          disabled={false}
+          error={false}
+          fullWidth={true}
+          onKeyDown={[Function]}
+          required={false}
+          variant="standard"
+        >
+          <div
+            className="MuiFormControl-root MuiTextField-root MuiFormControl-fullWidth"
+            data-cy="notesField"
+            onKeyDown={[Function]}
+          >
+            <WithStyles(ForwardRef(Input))
+              autoFocus={false}
+              fullWidth={true}
+              multiline={true}
+              onBlur={[Function]}
+              onChange={[Function]}
+              placeholder="Notes"
+              value=""
+            >
+              <ForwardRef(Input)
+                autoFocus={false}
+                classes={
+                  Object {
+                    "colorSecondary": "MuiInput-colorSecondary",
+                    "disabled": "Mui-disabled",
+                    "error": "Mui-error",
+                    "focused": "Mui-focused",
+                    "formControl": "MuiInput-formControl",
+                    "fullWidth": "MuiInput-fullWidth",
+                    "input": "MuiInput-input",
+                    "inputMarginDense": "MuiInput-inputMarginDense",
+                    "inputMultiline": "MuiInput-inputMultiline",
+                    "inputTypeSearch": "MuiInput-inputTypeSearch",
+                    "marginDense": "MuiInput-marginDense",
+                    "multiline": "MuiInput-multiline",
+                    "root": "MuiInput-root",
+                    "underline": "MuiInput-underline",
+                  }
+                }
+                fullWidth={true}
+                multiline={true}
+                onBlur={[Function]}
+                onChange={[Function]}
+                placeholder="Notes"
+                value=""
+              >
+                <WithStyles(ForwardRef(InputBase))
+                  autoFocus={false}
+                  classes={
+                    Object {
+                      "colorSecondary": "MuiInput-colorSecondary",
+                      "disabled": "Mui-disabled",
+                      "error": "Mui-error",
+                      "focused": "Mui-focused",
+                      "formControl": "MuiInput-formControl",
+                      "fullWidth": "MuiInput-fullWidth",
+                      "input": "MuiInput-input",
+                      "inputMarginDense": "MuiInput-inputMarginDense",
+                      "inputMultiline": "MuiInput-inputMultiline",
+                      "inputTypeSearch": "MuiInput-inputTypeSearch",
+                      "marginDense": "MuiInput-marginDense",
+                      "multiline": "MuiInput-multiline",
+                      "root": "MuiInput-root MuiInput-underline",
+                      "underline": null,
+                    }
+                  }
+                  fullWidth={true}
+                  inputComponent="input"
+                  multiline={true}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  placeholder="Notes"
+                  type="text"
+                  value=""
+                >
+                  <ForwardRef(InputBase)
+                    autoFocus={false}
+                    classes={
+                      Object {
+                        "adornedEnd": "MuiInputBase-adornedEnd",
+                        "adornedStart": "MuiInputBase-adornedStart",
+                        "colorSecondary": "MuiInputBase-colorSecondary MuiInput-colorSecondary",
+                        "disabled": "Mui-disabled Mui-disabled",
+                        "error": "Mui-error Mui-error",
+                        "focused": "Mui-focused Mui-focused",
+                        "formControl": "MuiInputBase-formControl MuiInput-formControl",
+                        "fullWidth": "MuiInputBase-fullWidth MuiInput-fullWidth",
+                        "input": "MuiInputBase-input MuiInput-input",
+                        "inputAdornedEnd": "MuiInputBase-inputAdornedEnd",
+                        "inputAdornedStart": "MuiInputBase-inputAdornedStart",
+                        "inputHiddenLabel": "MuiInputBase-inputHiddenLabel",
+                        "inputMarginDense": "MuiInputBase-inputMarginDense MuiInput-inputMarginDense",
+                        "inputMultiline": "MuiInputBase-inputMultiline MuiInput-inputMultiline",
+                        "inputTypeSearch": "MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch",
+                        "marginDense": "MuiInputBase-marginDense MuiInput-marginDense",
+                        "multiline": "MuiInputBase-multiline MuiInput-multiline",
+                        "root": "MuiInputBase-root MuiInput-root MuiInput-underline",
+                      }
+                    }
+                    fullWidth={true}
+                    inputComponent="input"
+                    multiline={true}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    placeholder="Notes"
+                    type="text"
+                    value=""
+                  >
+                    <div
+                      className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-fullWidth MuiInput-fullWidth MuiInputBase-formControl MuiInput-formControl MuiInputBase-multiline MuiInput-multiline"
+                      onClick={[Function]}
+                    >
+                      <ForwardRef(TextareaAutosize)
+                        aria-invalid={false}
+                        autoFocus={false}
+                        className="MuiInputBase-input MuiInput-input MuiInputBase-inputMultiline MuiInput-inputMultiline"
+                        disabled={false}
+                        onAnimationStart={[Function]}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        placeholder="Notes"
+                        required={false}
+                        value=""
+                      >
+                        <textarea
+                          aria-invalid={false}
+                          autoFocus={false}
+                          className="MuiInputBase-input MuiInput-input MuiInputBase-inputMultiline MuiInput-inputMultiline"
+                          disabled={false}
+                          onAnimationStart={[Function]}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          placeholder="Notes"
+                          required={false}
+                          rows={1}
+                          style={
+                            Object {
+                              "height": 0,
+                              "overflow": "hidden",
+                            }
+                          }
+                          value=""
+                        />
+                        <textarea
+                          aria-hidden={true}
+                          className="MuiInputBase-input MuiInput-input MuiInputBase-inputMultiline MuiInput-inputMultiline"
+                          readOnly={true}
+                          style={
+                            Object {
+                              "height": 0,
+                              "left": 0,
+                              "overflow": "hidden",
+                              "position": "absolute",
+                              "top": 0,
+                              "transform": "translateZ(0)",
+                              "visibility": "hidden",
+                            }
+                          }
+                          tabIndex={-1}
+                        />
+                      </ForwardRef(TextareaAutosize)>
+                    </div>
+                  </ForwardRef(InputBase)>
+                </WithStyles(ForwardRef(InputBase))>
+              </ForwardRef(Input)>
+            </WithStyles(ForwardRef(Input))>
+          </div>
+        </ForwardRef(FormControl)>
+      </WithStyles(ForwardRef(FormControl))>
+    </ForwardRef(TextField)>
+  </WithStyles(ForwardRef(TextField))>
+</Notes>
+`;

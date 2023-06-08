@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rules renders default properly 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+      item={true}
+    >
+      <WithStyles(SectionTitle)
+        color="default"
+        style={
+          Object {
+            "container": Object {
+              "extraContent": Object {
+                "classes": Object {
+                  "root": "extraContent",
+                },
+              },
+            },
+          }
+        }
+        title="Rules / client events"
+      >
+        <WithStyles(WrappedIcon)
+          color="primary"
+          icon="file_upload"
+          onClick={[Function]}
+          tooltip="Upload rules"
+        />
+      </WithStyles(SectionTitle)>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      classes={
+        Object {
+          "item": "jsonTreeContainer",
+        }
+      }
+      item={true}
+    >
+      <JSONTree
+        data={Object {}}
+        defaultExpandedKeys={Array []}
+        key="jsontree_0"
+        searchable={false}
+      />
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+  <WithStyles(CustomDrawerDropzoneBase)
+    accept=".json"
+    customDropzoneMessage="Uploading a .json file will override and delete any current rules / client events. "
+    handleOnLoadComplete={[Function]}
+    isOpen={false}
+    setOpen={[Function]}
+  />
+</Fragment>
+`;

@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'TAOnlineicon';
+  src: url('fonts/ta-icon.eot?655t4m');
+  src: url('fonts/ta-icon.eot?655t4m#iefix') format('embedded-opentype'),
+    url('fonts/ta-icon.ttf?655t4m') format('truetype'),
+    url('fonts/ta-icon.woff?655t4m') format('woff'),
+    url('fonts/ta-icon.svg?655t4m#ta-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='ta-icon-'],
+[class*=' ta-icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'TAOnlineicon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  opacity: 0.8;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ta-icon-TAOnlineicon:before {
+  content: '\e900';
+  color: #fff;
+}

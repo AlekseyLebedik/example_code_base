@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expy - Test Graduation - RichTextInput renders snapshot 1`] = `
+<div
+  className="makeStyles-editContainer-1"
+>
+  <a
+    allowEdit={true}
+    attributes={Object {}}
+    buttonsPosition="after"
+    cancelButtonLabel="Cancel"
+    cancelButtonStyle="makeStyles-cancelBtn-3"
+    cancelOnBlur={false}
+    cssClassPrefix=""
+    deleteButtonLabel="Delete"
+    deleteButtonStyle={null}
+    disableAutoCancel={false}
+    disableAutoSubmit={true}
+    displayComponent={
+      <CustomDisplay
+        error={false}
+        errorMsg={null}
+        value={null}
+      />
+    }
+    editComponent={
+      <CustomInput
+        setParentValue={[Function]}
+        value=""
+      />
+    }
+    editMode={false}
+    hideCancelButton={false}
+    hideDeleteButton={true}
+    hideSaveButton={false}
+    instructions={null}
+    onBlur={[Function]}
+    onCancel={[Function]}
+    onDelete={[Function]}
+    onHoverCssClass="makeStyles-textHoverClass-4"
+    onSave={[Function]}
+    onValidate={[Function]}
+    onfocus={[Function]}
+    placeholder="None"
+    placeholderComponent={null}
+    saveButtonLabel="Save"
+    saveButtonStyle="makeStyles-saveBtn-2"
+    saveOnBlur={false}
+    type="textarea"
+    validationMessage="Please provide a valid value"
+    value="value"
+    viewAttributes={Object {}}
+  />
+</div>
+`;

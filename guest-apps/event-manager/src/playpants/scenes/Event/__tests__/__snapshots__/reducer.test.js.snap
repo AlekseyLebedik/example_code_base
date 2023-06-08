@@ -1,0 +1,1181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Event Reducer CLEAR_CHANGE_STATUS clears change status for activity and event 1`] = `
+Object {
+  "activity": Object {
+    "achievements": Object {
+      "rulesetList": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "selectedRuleset": Object {
+        "data": Object {},
+        "loading": false,
+      },
+    },
+    "contexts": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "envSettings": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "filestorage": Object {
+      "contexts": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+      "files": Object {},
+      "uploadProgress": Object {},
+    },
+    "publisherObjects": Object {
+      "categories": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "error": Object {},
+      "groups": Object {
+        "data": Array [],
+        "loading": false,
+      },
+    },
+    "pubvars": Object {
+      "selectedValues": Object {
+        "context": null,
+        "group_id": null,
+        "namespace": null,
+      },
+      "variableSets": Array [],
+    },
+    "pyscripts": Object {
+      "templates": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+    },
+    "searchAvailable": true,
+    "selectedActivityType": "all",
+    "thunderpants": Object {
+      "buildList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "buildSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deployerList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deploymentList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "filterType": "default",
+      "form": Object {
+        "data": Object {},
+        "next": "",
+        "schema": Array [],
+        "summary": Object {},
+        "targets": Array [],
+        "type": "",
+      },
+      "targetList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "unlockedDeployments": Object {},
+      "userParamsSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "viewList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+    },
+  },
+  "conflicts": Object {
+    "conflictList": Array [],
+    "conflictType": "all",
+    "query": "",
+  },
+  "discussion": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "event": Object {
+    "data": Object {},
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "history": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "responsibilities": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "taskMonitor": Object {
+    "taskDetail": Object {
+      "data": Object {},
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "tasks": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+  },
+}
+`;
+
+exports[`Event Reducer DISCUSSION_FETCH_SUCCEED changes the activity type 1`] = `
+Object {
+  "activity": Object {
+    "achievements": Object {
+      "rulesetList": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "selectedRuleset": Object {
+        "data": Object {},
+        "loading": false,
+      },
+    },
+    "contexts": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "envSettings": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "filestorage": Object {
+      "contexts": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+      "files": Object {},
+      "uploadProgress": Object {},
+    },
+    "publisherObjects": Object {
+      "categories": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "error": Object {},
+      "groups": Object {
+        "data": Array [],
+        "loading": false,
+      },
+    },
+    "pubvars": Object {
+      "selectedValues": Object {
+        "context": null,
+        "group_id": null,
+        "namespace": null,
+      },
+      "variableSets": Array [],
+    },
+    "pyscripts": Object {
+      "templates": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+    },
+    "searchAvailable": true,
+    "selectedActivityType": "all",
+    "thunderpants": Object {
+      "buildList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "buildSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deployerList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deploymentList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "filterType": "default",
+      "form": Object {
+        "data": Object {},
+        "next": "",
+        "schema": Array [],
+        "summary": Object {},
+        "targets": Array [],
+        "type": "",
+      },
+      "targetList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "unlockedDeployments": Object {},
+      "userParamsSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "viewList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+    },
+  },
+  "conflicts": Object {
+    "conflictList": Array [],
+    "conflictType": "all",
+    "query": "",
+  },
+  "discussion": Object {
+    "data": undefined,
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "event": Object {
+    "data": Object {},
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "history": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "responsibilities": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "taskMonitor": Object {
+    "taskDetail": Object {
+      "data": Object {},
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "tasks": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+  },
+}
+`;
+
+exports[`Event Reducer EVENT_FETCH fetches an event successfully 1`] = `
+Object {
+  "activity": Object {
+    "achievements": Object {
+      "rulesetList": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "selectedRuleset": Object {
+        "data": Object {},
+        "loading": false,
+      },
+    },
+    "contexts": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "envSettings": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "filestorage": Object {
+      "contexts": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+      "files": Object {},
+      "uploadProgress": Object {},
+    },
+    "publisherObjects": Object {
+      "categories": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "error": Object {},
+      "groups": Object {
+        "data": Array [],
+        "loading": false,
+      },
+    },
+    "pubvars": Object {
+      "selectedValues": Object {
+        "context": null,
+        "group_id": null,
+        "namespace": null,
+      },
+      "variableSets": Array [],
+    },
+    "pyscripts": Object {
+      "templates": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+    },
+    "searchAvailable": true,
+    "selectedActivityType": "all",
+    "thunderpants": Object {
+      "buildList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "buildSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deployerList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deploymentList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "filterType": "default",
+      "form": Object {
+        "data": Object {},
+        "next": "",
+        "schema": Array [],
+        "summary": Object {},
+        "targets": Array [],
+        "type": "",
+      },
+      "targetList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "unlockedDeployments": Object {},
+      "userParamsSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "viewList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+    },
+  },
+  "conflicts": Object {
+    "conflictList": Array [],
+    "conflictType": "all",
+    "query": "",
+  },
+  "discussion": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "event": Object {
+    "data": Object {
+      "activities": Array [
+        Object {
+          "activity": Object {
+            "variable_sets": Array [],
+          },
+          "exec_order": 0,
+          "id": 11,
+          "publish_on": "on_start",
+          "title_envs": Array [
+            1,
+          ],
+          "type": "pubvars",
+          "updated_by": Object {
+            "id": 1,
+            "name": "Initial User",
+          },
+        },
+      ],
+      "authorizations": Array [],
+      "authorizers": Array [
+        Object {
+          "id": 1,
+          "name": "Initial User",
+        },
+        Object {
+          "id": 11,
+          "name": "Admin",
+        },
+      ],
+      "auto_tags": Array [],
+      "created_at": 1566330583,
+      "created_by": Object {
+        "id": 1,
+        "name": "Initial User",
+      },
+      "end_at": null,
+      "env_type": "Development",
+      "id": 5,
+      "locked_by": null,
+      "manual_tags": Array [],
+      "note": "",
+      "platforms": Array [
+        "CROSSPLAY",
+        "PC",
+      ],
+      "project": 1,
+      "publish_at": 1566590400,
+      "status": "open",
+      "task": null,
+      "title": "asll",
+      "updated_at": 1566335105,
+      "updated_by": Object {
+        "id": 1,
+        "name": "Initial User",
+      },
+    },
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "history": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "responsibilities": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "taskMonitor": Object {
+    "taskDetail": Object {
+      "data": Object {},
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "tasks": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+  },
+}
+`;
+
+exports[`Event Reducer UPDATE_EVENT attempts to edit an event 1`] = `
+Object {
+  "activity": Object {
+    "achievements": Object {
+      "rulesetList": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "selectedRuleset": Object {
+        "data": Object {},
+        "loading": false,
+      },
+    },
+    "contexts": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "envSettings": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "filestorage": Object {
+      "contexts": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+      "files": Object {},
+      "uploadProgress": Object {},
+    },
+    "publisherObjects": Object {
+      "categories": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "error": Object {},
+      "groups": Object {
+        "data": Array [],
+        "loading": false,
+      },
+    },
+    "pubvars": Object {
+      "selectedValues": Object {
+        "context": null,
+        "group_id": null,
+        "namespace": null,
+      },
+      "variableSets": Array [],
+    },
+    "pyscripts": Object {
+      "templates": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+    },
+    "searchAvailable": true,
+    "selectedActivityType": "all",
+    "thunderpants": Object {
+      "buildList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "buildSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deployerList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deploymentList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "filterType": "default",
+      "form": Object {
+        "data": Object {},
+        "next": "",
+        "schema": Array [],
+        "summary": Object {},
+        "targets": Array [],
+        "type": "",
+      },
+      "targetList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "unlockedDeployments": Object {},
+      "userParamsSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "viewList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+    },
+  },
+  "conflicts": Object {
+    "conflictList": Array [],
+    "conflictType": "all",
+    "query": "",
+  },
+  "discussion": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "event": Object {
+    "data": Object {},
+    "error": false,
+    "loading": true,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "history": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "responsibilities": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "taskMonitor": Object {
+    "taskDetail": Object {
+      "data": Object {},
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "tasks": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+  },
+}
+`;
+
+exports[`Event Reducer UPDATE_EVENT_SUCCEED returned the relevant data for a successful edit of the event 1`] = `
+Object {
+  "activity": Object {
+    "achievements": Object {
+      "rulesetList": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "selectedRuleset": Object {
+        "data": Object {},
+        "loading": false,
+      },
+    },
+    "contexts": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "envSettings": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "filestorage": Object {
+      "contexts": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+      "files": Object {},
+      "uploadProgress": Object {},
+    },
+    "publisherObjects": Object {
+      "categories": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "error": Object {},
+      "groups": Object {
+        "data": Array [],
+        "loading": false,
+      },
+    },
+    "pubvars": Object {
+      "selectedValues": Object {
+        "context": null,
+        "group_id": null,
+        "namespace": null,
+      },
+      "variableSets": Array [],
+    },
+    "pyscripts": Object {
+      "templates": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+    },
+    "searchAvailable": true,
+    "selectedActivityType": "all",
+    "thunderpants": Object {
+      "buildList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "buildSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deployerList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deploymentList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "filterType": "default",
+      "form": Object {
+        "data": Object {},
+        "next": "",
+        "schema": Array [],
+        "summary": Object {},
+        "targets": Array [],
+        "type": "",
+      },
+      "targetList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "unlockedDeployments": Object {},
+      "userParamsSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "viewList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+    },
+  },
+  "conflicts": Object {
+    "conflictList": Array [],
+    "conflictType": "all",
+    "query": "",
+  },
+  "discussion": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "event": Object {
+    "data": Object {
+      "activities": Array [
+        Object {
+          "activity": Object {
+            "variable_sets": Array [],
+          },
+          "exec_order": 0,
+          "id": 11,
+          "publish_on": "on_start",
+          "title_envs": Array [
+            1,
+          ],
+          "type": "pubvars",
+          "updated_by": Object {
+            "id": 1,
+            "name": "Initial User",
+          },
+        },
+      ],
+      "authorizations": Array [],
+      "authorizers": Array [
+        Object {
+          "id": 1,
+          "name": "Initial User",
+        },
+        Object {
+          "id": 11,
+          "name": "Admin",
+        },
+      ],
+      "auto_tags": Array [],
+      "created_at": 1566330583,
+      "created_by": Object {
+        "id": 1,
+        "name": "Initial User",
+      },
+      "end_at": null,
+      "env_type": "Development",
+      "id": 5,
+      "locked_by": null,
+      "manual_tags": Array [],
+      "note": "",
+      "platforms": Array [
+        "CROSSPLAY",
+        "PC",
+      ],
+      "project": 1,
+      "publish_at": 1566590400,
+      "status": "open",
+      "task": null,
+      "title": "asll",
+      "updated_at": 1566335105,
+      "updated_by": Object {
+        "id": 1,
+        "name": "Initial User",
+      },
+    },
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "history": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "responsibilities": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "taskMonitor": Object {
+    "taskDetail": Object {
+      "data": Object {},
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "tasks": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+  },
+}
+`;
+
+exports[`Event Reducer returns default state 1`] = `
+Object {
+  "activity": Object {
+    "achievements": Object {
+      "rulesetList": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "selectedRuleset": Object {
+        "data": Object {},
+        "loading": false,
+      },
+    },
+    "contexts": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "envSettings": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "filestorage": Object {
+      "contexts": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+      "files": Object {},
+      "uploadProgress": Object {},
+    },
+    "publisherObjects": Object {
+      "categories": Object {
+        "data": Array [],
+        "loading": false,
+      },
+      "error": Object {},
+      "groups": Object {
+        "data": Array [],
+        "loading": false,
+      },
+    },
+    "pubvars": Object {
+      "selectedValues": Object {
+        "context": null,
+        "group_id": null,
+        "namespace": null,
+      },
+      "variableSets": Array [],
+    },
+    "pyscripts": Object {
+      "templates": Object {
+        "data": Array [],
+        "error": false,
+        "loading": false,
+        "next": undefined,
+        "nextPageToken": undefined,
+        "params": undefined,
+      },
+    },
+    "searchAvailable": true,
+    "selectedActivityType": "all",
+    "thunderpants": Object {
+      "buildList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "buildSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deployerList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "deploymentList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "filterType": "default",
+      "form": Object {
+        "data": Object {},
+        "next": "",
+        "schema": Array [],
+        "summary": Object {},
+        "targets": Array [],
+        "type": "",
+      },
+      "targetList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "unlockedDeployments": Object {},
+      "userParamsSchema": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+      "viewList": Object {
+        "data": Array [],
+        "loading": true,
+        "success": false,
+      },
+    },
+  },
+  "conflicts": Object {
+    "conflictList": Array [],
+    "conflictType": "all",
+    "query": "",
+  },
+  "discussion": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "event": Object {
+    "data": Object {},
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "history": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "responsibilities": Object {
+    "data": Array [],
+    "error": false,
+    "loading": false,
+    "next": undefined,
+    "nextPageToken": undefined,
+    "params": undefined,
+  },
+  "taskMonitor": Object {
+    "taskDetail": Object {
+      "data": Object {},
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+    "tasks": Object {
+      "data": Array [],
+      "error": false,
+      "loading": false,
+      "next": undefined,
+      "nextPageToken": undefined,
+      "params": undefined,
+    },
+  },
+}
+`;

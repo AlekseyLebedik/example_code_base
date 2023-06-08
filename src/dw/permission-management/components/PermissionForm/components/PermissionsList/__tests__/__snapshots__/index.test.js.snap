@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Permissions List component renders the container of the permissions list 1`] = `null`;

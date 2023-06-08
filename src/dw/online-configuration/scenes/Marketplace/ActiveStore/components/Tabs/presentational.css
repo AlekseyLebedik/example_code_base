@@ -1,0 +1,35 @@
+.active-store__tabs-container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.active-store__tabs-container .ant-tabs-nav-container {
+  padding-left: 20px;
+}
+
+.active-store__tabs-container .ant-tabs-nav-container .ant-tabs-ink-bar {
+  height: 3px;
+}
+
+.active-store__tabs-container .common__search {
+  margin-top: 5px;
+}
+
+.active-store__tabs-container .tab-with-table {
+  padding-top: 15px;
+}
+
+.active-store__tabs-container
+  .common__table-hydrated
+  .table-operations
+  > button {
+  top: -115px;
+}
+
+.active-store__tabs-container
+  .active_store_tab_pawnable_items
+  .common__table-hydrated
+  .table-operations
+  > button {
+  top: -60px;
+}

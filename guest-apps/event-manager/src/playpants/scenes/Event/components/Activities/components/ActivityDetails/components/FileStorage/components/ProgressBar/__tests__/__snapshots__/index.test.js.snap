@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressBar renders 50% progress 1`] = `
+<Fragment>
+  <div
+    className="progressWrapper"
+  >
+    <div
+      className="progress"
+    >
+      50
+      %
+    </div>
+    <WithStyles(ForwardRef(CircularProgress))
+      color="primary"
+      value={50}
+      variant="determinate"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`ProgressBar renders 100% progress 1`] = `
+<Fragment>
+  <div
+    className="progressWrapper"
+  >
+    <div
+      className="progress"
+    >
+      100
+      %
+    </div>
+    <WithStyles(ForwardRef(CircularProgress))
+      color="primary"
+      value={100}
+      variant="determinate"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`ProgressBar renders default props ProgressBar 1`] = `""`;

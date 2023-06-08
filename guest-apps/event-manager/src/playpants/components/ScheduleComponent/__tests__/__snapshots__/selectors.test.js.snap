@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Schedule Selectors: Create Form Selectors: createEventDialogFormSelector selects Schedule.form 1`] = `
+Object {
+  "defaultEndDate": 1546376400,
+  "defaultStartDate": 1546372800,
+  "isRange": false,
+}
+`;
+
+exports[`Schedule Selectors: Create Form Selectors: defaultEndDateSelector selects Schedule.form.defaultEndDate 1`] = `1546376400`;
+
+exports[`Schedule Selectors: Create Form Selectors: defaultStartDateSelector selects Schedule.form.defaultStartDate 1`] = `1546372800`;
+
+exports[`Schedule Selectors: Create Form Selectors: isRangeSelector selects Schedule.form.isRange 1`] = `false`;
+
+exports[`Schedule Selectors: Selected Template Selector: selectedTemplateSelector selects schedule.selectedTemplate 1`] = `
+Object {
+  "created_at": 1567793051,
+  "created_by": null,
+  "description": "",
+  "duration": null,
+  "id": 1,
+  "is_available": true,
+  "name": "template",
+  "project": 1,
+  "restrict_activities": true,
+  "source_event": 2,
+  "updated_at": 1567793051,
+  "updated_by": null,
+}
+`;
+
+exports[`Schedule Selectors: scheduleSelector selects Schedule 1`] = `
+Object {
+  "form": Object {
+    "defaultEndDate": 1546376400,
+    "defaultStartDate": 1546372800,
+    "isRange": false,
+  },
+  "selectedTemplate": Object {
+    "created_at": 1567793051,
+    "created_by": null,
+    "description": "",
+    "duration": null,
+    "id": 1,
+    "is_available": true,
+    "name": "template",
+    "project": 1,
+    "restrict_activities": true,
+    "source_event": 2,
+    "updated_at": 1567793051,
+    "updated_by": null,
+  },
+  "templateSourceEvent": Object {
+    "data": Object {
+      "activities": Array [
+        Object {
+          "activity": Object {
+            "files": Array [
+              2,
+            ],
+          },
+          "exec_order": 0,
+          "id": 2,
+          "publish_on": "on_start",
+          "title_envs": Array [],
+          "type": "pubstorage",
+          "updated_by": Object {
+            "id": 1,
+            "name": "Initial User",
+          },
+        },
+      ],
+      "authorizations": Array [],
+      "authorizers": Array [],
+      "auto_tags": Array [
+        "development",
+        "open",
+        "asdf",
+        "crossplay",
+      ],
+      "created_at": 1567792991,
+      "created_by": Object {
+        "id": 1,
+        "name": "Initial User",
+      },
+      "end_at": null,
+      "env_type": "Development",
+      "id": 2,
+      "is_deleted": false,
+      "is_manually_locked": false,
+      "is_private": false,
+      "is_restricted": true,
+      "is_template": true,
+      "locked_by": null,
+      "manual_tags": Array [
+        "a",
+        "b",
+        "c",
+      ],
+      "note": "",
+      "platforms": Array [
+        "CROSSPLAY",
+      ],
+      "project": 1,
+      "publish_at": 1567796400,
+      "status": "open",
+      "task": null,
+      "title": "asdf",
+      "updated_at": 1567793023,
+      "updated_by": Object {
+        "id": 1,
+        "name": "Initial User",
+      },
+      "watchers": Array [],
+    },
+    "loading": true,
+  },
+}
+`;

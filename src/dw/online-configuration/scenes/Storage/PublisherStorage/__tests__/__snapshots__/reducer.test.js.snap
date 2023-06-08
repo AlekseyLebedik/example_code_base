@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PublisherStorage Reducer PUBLISHER_STORAGE_DETAILS_DELETE_FILE_SUCCESS removes the given file from \`entries\` and unselect it 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 2,
+      "fileName": "two.txt",
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedFile": undefined,
+}
+`;
+
+exports[`PublisherStorage Reducer PUBLISHER_STORAGE_FETCH_SUCCESS combines both entry lists when \`append\` is true, and update list metadata 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+      "fileName": "one.txt",
+    },
+    Object {
+      "fileID": 2,
+      "fileName": "two.txt",
+    },
+    Object {
+      "fileID": 300,
+      "fileName": "threehundred.txt",
+    },
+    Object {
+      "fileID": 400,
+      "fileName": "fourhundred.txt",
+    },
+  ],
+  "nextPageToken": "YYZ",
+  "q": undefined,
+  "selectedFile": undefined,
+}
+`;
+
+exports[`PublisherStorage Reducer PUBLISHER_STORAGE_FETCH_SUCCESS replaces the entries with new ones when \`append\` is false, and update list metadata 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 300,
+      "fileName": "threehundred.txt",
+    },
+    Object {
+      "fileID": 400,
+      "fileName": "fourhundred.txt",
+    },
+  ],
+  "nextPageToken": "YYZ",
+  "q": undefined,
+  "selectedFile": undefined,
+}
+`;
+
+exports[`PublisherStorage Reducer PUBLISHER_STORAGE_FILES_BULK_DELETE_SUCCESS removes the multiple files from \`entries\` and unselect it 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedFile": undefined,
+}
+`;
+
+exports[`PublisherStorage Reducer PUBLISHER_STORAGE_FILES_UPLOAD_SUCCESS add the new file to the entries list and select it 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+      "fileName": "one.txt",
+    },
+    Object {
+      "fileID": 2,
+      "fileName": "two.txt",
+    },
+    Object {
+      "fileID": 300,
+      "fileName": "threehundred.txt",
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedFile": Object {
+    "fileID": 300,
+    "fileName": "threehundred.txt",
+  },
+}
+`;
+
+exports[`PublisherStorage Reducer PUBLISHER_STORAGE_LIST_ITEM_ONCLICK sets the selected file 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+      "fileName": "one.txt",
+    },
+    Object {
+      "fileID": 2,
+      "fileName": "two.txt",
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedFile": Object {
+    "fileID": 2,
+    "fileName": "two.txt",
+  },
+}
+`;
+
+exports[`PublisherStorage Reducer returns default state 1`] = `
+Object {
+  "elementsOrder": Array [],
+  "entries": Array [],
+  "nextPageToken": undefined,
+  "q": undefined,
+  "selectedFile": undefined,
+}
+`;

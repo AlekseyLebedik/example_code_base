@@ -1,0 +1,53 @@
+/*
+  Overrides file for React Big Calendar CSS
+*/
+
+.rbc-time-content {
+  overflow-y: visible;
+}
+
+.rbc-addons-dnd-resizable {
+  width: 100%;
+}
+
+.rbc-event {
+  border-radius: 24px;
+  padding: 0px !important;
+}
+
+.rbc-day-slot .rbc-event {
+  border-radius: 0px !important;
+}
+
+.rbc-event-continues-prior {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.rbc-event-continues-after {
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+.rbc-overlay {
+  z-index: 1300;
+}
+
+.dayViewPopUp.rbc-overlay .rbc-event.highlight {
+  filter: drop-shadow(2px 4px 6px grey) !important;
+}
+
+.dayViewPopUp.rbc-overlay {
+  max-height: 80vh;
+  overflow: scroll;
+  padding-top: 0 !important;
+}
+
+.dayViewPopUp.rbc-overlay .rbc-overlay-header {
+  position: sticky !important;
+  top: 0px;
+  z-index: 1300;
+  background-color: white;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}

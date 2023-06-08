@@ -1,0 +1,14 @@
+.msgContainer {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.projectMsg,
+.supportMsg,
+.supportMsg a {
+  font-weight: 400;
+}
+
+.supportMsg a {
+  color: #035aab;
+}

@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GraphsStateful Methods should manage properly getSeries method 1`] = `
+Array [
+  Object {
+    "data": Array [
+      Object {
+        "id": 5,
+      },
+      Object {
+        "id": 6,
+      },
+    ],
+    "id": "my-stat-generalComments",
+    "lineColor": "#34495E",
+    "onSeries": "my-stat",
+    "shape": "circlepin",
+    "showInLegend": false,
+    "tooltip": Object {
+      "pointFormatter": [Function],
+    },
+    "type": "flags",
+    "visible": false,
+  },
+  Object {
+    "data": Array [
+      Object {
+        "id": 1,
+      },
+      Object {
+        "id": 2,
+      },
+    ],
+    "id": "my-stat-maintenances",
+    "lineColor": "#EB9532",
+    "onSeries": "my-stat",
+    "shape": "circlepin",
+    "showInLegend": false,
+    "tooltip": Object {
+      "pointFormatter": [Function],
+    },
+    "type": "flags",
+    "visible": true,
+  },
+  Object {
+    "data": Array [
+      Object {
+        "id": 3,
+      },
+      Object {
+        "id": 4,
+      },
+    ],
+    "id": "my-stat-incidents",
+    "lineColor": "#EF4836",
+    "onSeries": "my-stat",
+    "shape": "circlepin",
+    "showInLegend": false,
+    "tooltip": Object {
+      "pointFormatter": [Function],
+    },
+    "type": "flags",
+    "visible": false,
+  },
+]
+`;
+
+exports[`GraphsStateful Methods should manage properly toggleAction method 1`] = `
+Object {
+  "actionStatus": Object {
+    "generalComments": Array [],
+    "incidents": Array [
+      "my-stat",
+    ],
+    "maintenances": Array [
+      "my-stat",
+    ],
+  },
+}
+`;
+
+exports[`GraphsStateful Methods should render successfully with default values provided by store 1`] = `
+<TitleEnvStatsStateless
+  events={
+    Object {
+      "generalComments": Array [
+        Object {
+          "id": 5,
+        },
+        Object {
+          "id": 6,
+        },
+      ],
+      "incidents": Array [
+        Object {
+          "id": 3,
+        },
+        Object {
+          "id": 4,
+        },
+      ],
+      "maintenances": Array [
+        Object {
+          "id": 1,
+        },
+        Object {
+          "id": 2,
+        },
+      ],
+    }
+  }
+  getSeries={[Function]}
+  isActionEnabled={[Function]}
+  onLoad={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  showOnlineGames={true}
+  toggleAction={[Function]}
+  useCorevizLink={false}
+/>
+`;

@@ -1,0 +1,28 @@
+.ccpa_uniq,
+.ccpa_interactions {
+  width: 242px;
+  padding: 8px 0px;
+}
+
+.ccpa_total {
+  width: 170px;
+}
+
+.ccpa_interactions_by_title {
+  padding: 38px 16px 17px 40px;
+}
+
+.under16RowName {
+  color: rgba(0, 0, 0, 0.6);
+
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.rowName {
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.rowValue {
+  padding-bottom: 10px;
+}

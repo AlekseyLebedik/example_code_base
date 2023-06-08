@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueSettings - Queue display queue state selector closed 1`] = `
+<div
+  className="loginQueueFormItem"
+  key="queueState"
+>
+  <WithStyles(ForwardRef(InputLabel))
+    className="loginQueueFormLabel"
+    id="queueStateLabel"
+  >
+    Queue State
+  </WithStyles(ForwardRef(InputLabel))>
+  <WithStyles(WithStyles(ForwardRef(TextField)))
+    SelectProps={
+      Object {
+        "MenuProps": Object {
+          "anchorOrigin": Object {
+            "horizontal": "left",
+            "vertical": "bottom",
+          },
+          "getContentAnchorEl": null,
+        },
+      }
+    }
+    className="loginQueueFormInput"
+    disabled={true}
+    error={true}
+    helperText=""
+    key="queueState"
+    name="queueState"
+    onChange={[Function]}
+    select={true}
+    value="false"
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      key="closed"
+      value="false"
+    >
+      Closed
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="open"
+      value="true"
+    >
+      Open
+    </WithStyles(ForwardRef(MenuItem))>
+  </WithStyles(WithStyles(ForwardRef(TextField)))>
+</div>
+`;
+
+exports[`LoginQueueSettings - Queue display queue state selector open 1`] = `
+<div
+  className="loginQueueFormItem"
+  key="queueState"
+>
+  <WithStyles(ForwardRef(InputLabel))
+    className="loginQueueFormLabel"
+    id="queueStateLabel"
+  >
+    Queue State
+  </WithStyles(ForwardRef(InputLabel))>
+  <WithStyles(WithStyles(ForwardRef(TextField)))
+    SelectProps={
+      Object {
+        "MenuProps": Object {
+          "anchorOrigin": Object {
+            "horizontal": "left",
+            "vertical": "bottom",
+          },
+          "getContentAnchorEl": null,
+        },
+      }
+    }
+    className="loginQueueFormInput"
+    disabled={true}
+    error={true}
+    helperText=""
+    key="queueState"
+    name="queueState"
+    onChange={[Function]}
+    select={true}
+    value="true"
+  >
+    <WithStyles(ForwardRef(MenuItem))
+      key="closed"
+      value="false"
+    >
+      Closed
+    </WithStyles(ForwardRef(MenuItem))>
+    <WithStyles(ForwardRef(MenuItem))
+      key="open"
+      value="true"
+    >
+      Open
+    </WithStyles(ForwardRef(MenuItem))>
+  </WithStyles(WithStyles(ForwardRef(TextField)))>
+</div>
+`;

@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResizablePanels renders custom values 1`] = `
+<div
+  className="mainContainer"
+>
+  <div
+    className="panelContainer"
+    onMouseUp={[Function]}
+  >
+    <div
+      className="panel"
+      key="panel_0"
+      style={
+        Object {
+          "maxWidth": 300,
+          "width": 200,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "minWidth": 100,
+          }
+        }
+      >
+        <div>
+          Div 1
+        </div>
+      </div>
+    </div>
+    <div
+      className="resizer"
+      key="resizer_0"
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))
+        className="drag"
+      >
+        drag_indicator
+      </WithStyles(ForwardRef(Icon))>
+    </div>
+    <div
+      className="panel"
+      key="panel_1"
+      style={
+        Object {
+          "maxWidth": 300,
+          "width": 200,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "minWidth": 100,
+          }
+        }
+      >
+        <div>
+          Div 2
+        </div>
+      </div>
+    </div>
+    <div
+      className="resizer"
+      key="resizer_1"
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))
+        className="drag"
+      >
+        drag_indicator
+      </WithStyles(ForwardRef(Icon))>
+    </div>
+    <div
+      className="panel"
+      style={
+        Object {
+          "width": "calc(100%  - 200px  - 200px)",
+        }
+      }
+    >
+      <div>
+        Div 3
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ResizablePanels renders default values 1`] = `
+<div
+  className="mainContainer"
+>
+  <div
+    className="panelContainer"
+    onMouseUp={[Function]}
+  >
+    <div
+      className="panel"
+      key="panel_0"
+      style={
+        Object {
+          "maxWidth": 300,
+          "width": 300,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "minWidth": 0,
+          }
+        }
+      >
+        <div>
+          Div 1
+        </div>
+      </div>
+    </div>
+    <div
+      className="resizer"
+      key="resizer_0"
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+    >
+      <WithStyles(ForwardRef(Icon))
+        className="drag"
+      >
+        drag_indicator
+      </WithStyles(ForwardRef(Icon))>
+    </div>
+    <div
+      className="panel"
+      style={
+        Object {
+          "width": "calc(100%  - 300px)",
+        }
+      }
+    >
+      <div>
+        Div 2
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ResizablePanels renders titles on minimised panels 1`] = `
+<div
+  className="mainContainer"
+>
+  <div
+    className="panelContainer"
+    onMouseUp={[Function]}
+  >
+    <div
+      className="panel"
+      key="panel_0"
+      style={
+        Object {
+          "maxWidth": 300,
+          "width": 0,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "minWidth": 100,
+          }
+        }
+      >
+        <div>
+          Div 1
+        </div>
+      </div>
+    </div>
+    <div
+      className="resizer"
+      key="resizer_0"
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+    >
+      <div
+        className="panelTitle"
+      >
+        title1
+      </div>
+      <WithStyles(ForwardRef(Icon))
+        className="drag"
+      >
+        drag_indicator
+      </WithStyles(ForwardRef(Icon))>
+    </div>
+    <div
+      className="panel"
+      key="panel_1"
+      style={
+        Object {
+          "maxWidth": 300,
+          "width": 0,
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "minWidth": 100,
+          }
+        }
+      >
+        <div>
+          Div 2
+        </div>
+      </div>
+    </div>
+    <div
+      className="resizer"
+      key="resizer_1"
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+    >
+      <div
+        className="panelTitle"
+      >
+        title2
+      </div>
+      <WithStyles(ForwardRef(Icon))
+        className="drag"
+      >
+        drag_indicator
+      </WithStyles(ForwardRef(Icon))>
+    </div>
+    <div
+      className="panel"
+      style={
+        Object {
+          "width": "calc(100%  - 0px  - 0px)",
+        }
+      }
+    >
+      <div>
+        Div 3
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,22 @@
+.button {
+  margin-left: 5px;
+}
+
+.button button {
+  min-width: 22px !important;
+  height: 22px !important;
+  line-height: 22px !important;
+  min-height: unset !important;
+  padding: 0;
+}
+
+.button img {
+  width: 16px;
+  height: 16px;
+}
+
+.tooltip :global(.ant-tooltip-inner) {
+  display: flex;
+  min-height: 34px;
+  line-height: 20px;
+}

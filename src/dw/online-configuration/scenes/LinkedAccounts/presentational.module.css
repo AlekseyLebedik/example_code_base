@@ -1,0 +1,15 @@
+.helpIcon {
+  margin-left: 5px;
+  margin-top: -9px;
+  position: fixed;
+  z-index: 10;
+}
+
+.providerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.provider {
+  margin-left: 25px;
+}

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TaskOverview renders default props 1`] = `
+<WithStyles(ForwardRef(AppBar))
+  position="static"
+>
+  <WithStyles(ForwardRef(Grid))
+    className="gridPadding"
+    container={true}
+  />
+</WithStyles(ForwardRef(AppBar))>
+`;

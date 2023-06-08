@@ -1,0 +1,65 @@
+.autoComplete {
+  min-width: 300px;
+}
+
+label {
+  width: 420px !important;
+  color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.valueContainer {
+  padding-left: 8px;
+}
+
+.valueContainer p {
+  margin-top: 2px;
+}
+
+.labelRoot {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  top: -10px;
+}
+
+.labelRootOutlined {
+  width: 175px !important;
+  font-size: 11px;
+}
+
+.labelRootDefault {
+  width: 75% !important;
+  top: -2px;
+}
+
+.labelShrink {
+  width: 125% !important;
+  top: 0;
+}
+
+.serviceSelectRoot {
+  margin-bottom: 0;
+  max-width: 95px;
+}
+
+.serviceSelect {
+}
+
+.menuMoreResults {
+  padding: 12px;
+  color: rgba(0, 0, 0, 0.54);
+
+  border-top: solid rgba(0, 0, 0, 0.2) 1px;
+}
+
+.userAutocompleteLabelContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.userAutocompleteLabelContainerLabel {
+  width: 90%;
+  overflow: hidden;
+}

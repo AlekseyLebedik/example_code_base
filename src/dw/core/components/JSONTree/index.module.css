@@ -1,0 +1,23 @@
+.container :global(.ant-tree-title) {
+  margin-left: 5px;
+  display: block;
+}
+
+.container li {
+  padding: 0px;
+}
+
+.empty {
+  justify-content: start;
+}
+
+.highlighted {
+  color: rgb(74, 192, 241);
+  background-color: rgba(74, 192, 241, 0.15);
+}
+
+.key {
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 500;
+  margin-left: -5px;
+}

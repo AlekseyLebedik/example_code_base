@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Achievements - ActiveRuleset Reducer Test append = false 1`] = `
+Object {
+  "achievements": Array [
+    3,
+    4,
+  ],
+  "loading": false,
+  "nextPageToken": "CAE",
+}
+`;
+
+exports[`Achievements - ActiveRuleset Reducer Test append = true 1`] = `
+Object {
+  "achievements": Array [
+    1,
+    2,
+    3,
+    4,
+  ],
+  "loading": false,
+  "nextPageToken": "CAE",
+}
+`;
+
+exports[`Achievements - ActiveRuleset Reducer handle ACTIVE_RULESET_ACHIEVEMENTS_FETCH_SUCCESS: achievements and nextPagetoken assignation 1`] = `
+Object {
+  "achievements": Array [
+    Object {
+      "description": "Achievement granted when user logs in during anniversary time frame.",
+      "expiryTriggers": Object {
+        "activateAchievement": Array [],
+      },
+      "kind": 1,
+      "multiProgressTarget": Object {},
+      "name": "annual_anniversary_login",
+      "progressTarget": null,
+      "requiresActivation": false,
+      "requiresClaim": false,
+      "successCooldown": Object {
+        "periodParams": Object {},
+        "type": "now",
+      },
+      "successLimit": 1,
+    },
+  ],
+  "activeRuleset": undefined,
+  "loading": false,
+  "nextPageToken": "CAE",
+}
+`;
+
+exports[`Achievements - ActiveRuleset Reducer handle ACTIVE_RULESET_ACHIEVEMENTS_FETCH_SUCCESS: empty results 1`] = `
+Object {
+  "achievements": Array [],
+  "activeRuleset": undefined,
+  "loading": false,
+  "nextPageToken": undefined,
+}
+`;
+
+exports[`Achievements - ActiveRuleset Reducer handle ACTIVE_RULESET_FETCH_SUCCESS 1`] = `
+Object {
+  "achievements": undefined,
+  "activeRuleset": Object {
+    "activationTimestamp": null,
+    "codeHash": "4mhdBfYBdYmeco1ve62h0b6rue8=",
+    "codeSignature": "v/kWwu8MBe1GGSxK64a3OqKynmKpGJYGlylUMT0asJ+ZHiuonlDAl2igzISRqgMuPWJf/HqCxvAbxuAMxq+YCg==",
+    "codeSignatureTimestamp": 1530099122,
+    "creationTimestamp": 1530099122,
+    "isActive": true,
+    "label": "stronghold-5",
+    "lastUpdateTimestamp": 1531216800,
+  },
+  "loading": false,
+  "nextPageToken": undefined,
+}
+`;
+
+exports[`Achievements - ActiveRuleset Reducer return the initial state 1`] = `
+Object {
+  "achievements": undefined,
+  "activeRuleset": undefined,
+  "loading": false,
+  "nextPageToken": undefined,
+}
+`;

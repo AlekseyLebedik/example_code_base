@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date loads end date instead of publish date 1`] = `
+<Connect(FormFieldDateTimePicker)
+  input={
+    Object {
+      "InputLabelProps": Object {
+        "shrink": true,
+      },
+      "InputProps": Object {
+        "disabled": false,
+        "placeholder": null,
+      },
+      "classes": Object {
+        "dialog": "dialog",
+        "input": "dateInput",
+      },
+      "clearable": true,
+      "disabled": false,
+      "label": "From",
+      "maxDate": null,
+      "minDate": 1548547200,
+      "onChange": [MockFunction],
+      "value": 1548547200,
+    }
+  }
+/>
+`;
+
+exports[`Date loads the Date component correctly 1`] = `
+<Connect(FormFieldDateTimePicker)
+  input={
+    Object {
+      "InputLabelProps": Object {
+        "shrink": true,
+      },
+      "InputProps": Object {
+        "disabled": false,
+        "placeholder": null,
+      },
+      "classes": Object {
+        "dialog": "dialog",
+        "input": "dateInput",
+      },
+      "clearable": true,
+      "disabled": false,
+      "label": "From",
+      "maxDate": null,
+      "minDate": 1548547200,
+      "onChange": [MockFunction],
+      "value": 1548547200,
+    }
+  }
+/>
+`;

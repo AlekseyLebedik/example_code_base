@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SourceSelect Reducer handles SOURCE_SELECT_FETCH_SUCCESS 1`] = `
+Object {
+  "data": Array [
+    Object {
+      "reputation": 15,
+      "userID": "1234567890",
+      "userName": "rockstar_user",
+    },
+  ],
+}
+`;
+
+exports[`SourceSelect Reducer returns initial state 1`] = `
+Object {
+  "data": Array [],
+}
+`;

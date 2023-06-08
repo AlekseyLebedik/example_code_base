@@ -1,0 +1,45 @@
+.root {
+  flex-grow: 1;
+}
+
+.userTagEntryContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.renderedTags {
+  display: flex;
+  flex-direction: column;
+}
+
+.usersTagsContainer {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.usersTagsLabel {
+  min-width: 40px;
+}
+
+.chipContainer {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.userTagSearchTerm {
+  margin-left: 5px;
+}
+
+.operatorSelect,
+.operatorSelect > svg {
+  color: #ffffff;
+}
+
+.operatorSelect {
+  margin-left: 10px;
+  margin-right: 10px;
+}

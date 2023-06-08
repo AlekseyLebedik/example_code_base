@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - ACL - TaskRules Reducer handle TASK_RULES_ADD 1`] = `
+Object {
+  "addModalSubmitting": true,
+  "addModalVisible": false,
+  "q": undefined,
+  "serviceInfo": Object {},
+  "taskRules": Array [],
+}
+`;
+
+exports[`Security - ACL - TaskRules Reducer handle TASK_RULES_ADD_FAILED 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "q": undefined,
+  "serviceInfo": Object {},
+  "taskRules": Array [],
+}
+`;
+
+exports[`Security - ACL - TaskRules Reducer handle TASK_RULES_ADD_MODAL_CLOSE 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "q": undefined,
+  "serviceInfo": Object {},
+  "taskRules": Array [],
+}
+`;
+
+exports[`Security - ACL - TaskRules Reducer handle TASK_RULES_ADD_MODAL_OPEN 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": true,
+  "q": undefined,
+  "serviceInfo": Object {},
+  "taskRules": Array [],
+}
+`;
+
+exports[`Security - ACL - TaskRules Reducer handle TASK_RULES_ADD_SUCCESS 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "q": Object {
+    "default": false,
+    "values": Object {
+      "service": "bdACLService",
+      "task": "*",
+    },
+  },
+  "serviceInfo": Object {},
+  "taskRules": Array [
+    Object {
+      "allow": false,
+      "clientType": 1,
+      "id": 1,
+      "service": "bdACLService",
+      "source": "devzone",
+      "task": "*",
+    },
+  ],
+}
+`;
+
+exports[`Security - ACL - TaskRules Reducer handle TASK_RULES_DELETE_SUCCESS 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "q": undefined,
+  "serviceInfo": Object {},
+  "taskRules": Array [
+    Object {
+      "allow": true,
+      "clientType": "110",
+      "id": 2,
+      "service": "bdStatsService",
+      "source": "default",
+      "task": "writeServerMultipleValidatedStats",
+    },
+  ],
+}
+`;
+
+exports[`Security - ACL - TaskRules Reducer handle TASK_RULES_FETCH_SUCCESS 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "q": undefined,
+  "serviceInfo": Object {},
+  "taskRules": Array [
+    Object {
+      "allow": true,
+      "clientType": "0",
+      "id": 1,
+      "service": "bdStatsService",
+      "source": "default",
+      "task": "writeServerValidatedStats",
+    },
+    Object {
+      "allow": true,
+      "clientType": "110",
+      "id": 2,
+      "service": "bdStatsService",
+      "source": "default",
+      "task": "writeServerMultipleValidatedStats",
+    },
+  ],
+}
+`;
+
+exports[`Security - ACL - TaskRules Reducer handle TASK_RULES_SEARCH 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "q": "blah",
+  "serviceInfo": Object {},
+  "taskRules": Array [],
+}
+`;
+
+exports[`Security - ACL - TaskRules Reducer handle TASK_RULES_SERVICE_AND_TASK_INFO_FETCH_SUCCESS 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "q": undefined,
+  "serviceInfo": Object {
+    "bdStatsService": Array [
+      "*",
+      "deleteStatsEntry",
+      "readEntitlementStats",
+      "readEntitlementStatsBlob",
+      "readLeaderBoardByMultipleRanks",
+      "readLeaderBoardByPivot",
+      "readLeaderBoardByRank",
+    ],
+  },
+  "taskRules": Array [],
+}
+`;
+
+exports[`Security - ACL - TaskRules Reducer return the initial state 1`] = `
+Object {
+  "addModalSubmitting": false,
+  "addModalVisible": false,
+  "q": undefined,
+  "serviceInfo": Object {},
+  "taskRules": Array [],
+}
+`;

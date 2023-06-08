@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PlatformIcons renders default props 1`] = `
+Array [
+  <WithStyles(ForwardRef(Tooltip))
+    TransitionComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "propTypes": Object {
+          "children": [Function],
+          "disableStrictModeCompat": [Function],
+          "in": [Function],
+          "onEnter": [Function],
+          "onEntered": [Function],
+          "onEntering": [Function],
+          "onExit": [Function],
+          "onExited": [Function],
+          "onExiting": [Function],
+          "style": [Function],
+          "timeout": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    key="MW-PS3"
+    title="MW-PS3"
+  >
+    <span>
+      <PlatformIcon
+        className=""
+        color="#212121"
+        platform="PS3"
+      />
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>,
+  <WithStyles(ForwardRef(Tooltip))
+    TransitionComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "propTypes": Object {
+          "children": [Function],
+          "disableStrictModeCompat": [Function],
+          "in": [Function],
+          "onEnter": [Function],
+          "onEntered": [Function],
+          "onEntering": [Function],
+          "onExit": [Function],
+          "onExited": [Function],
+          "onExiting": [Function],
+          "style": [Function],
+          "timeout": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    key="XB1-PS3"
+    title="XB1-PS3"
+  >
+    <span>
+      <PlatformIcon
+        className=""
+        color="#212121"
+        platform="XB1"
+      />
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>,
+  <WithStyles(ForwardRef(Tooltip))
+    TransitionComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "propTypes": Object {
+          "children": [Function],
+          "disableStrictModeCompat": [Function],
+          "in": [Function],
+          "onEnter": [Function],
+          "onEntered": [Function],
+          "onEntering": [Function],
+          "onExit": [Function],
+          "onExited": [Function],
+          "onExiting": [Function],
+          "style": [Function],
+          "timeout": [Function],
+        },
+        "render": [Function],
+      }
+    }
+    key="XB1-Vanilla (Valor)"
+    title="XB1-Vanilla (Valor)"
+  >
+    <span>
+      <PlatformIcon
+        className=""
+        color="#212121"
+        platform="XB1"
+      />
+    </span>
+  </WithStyles(ForwardRef(Tooltip))>,
+]
+`;

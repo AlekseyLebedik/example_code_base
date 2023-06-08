@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MasterDetailUserListBase User master detail should always render 1`] = `
+<WithWidth(WithStyles(withRouter(MasterDetailBase)))
+  classes={
+    Object {
+      "drawerPaper": "drawer",
+      "expander": undefined,
+    }
+  }
+  detail={[Function]}
+  empty={[Function]}
+  master={[Function]}
+/>
+`;
+
+exports[`MasterDetailUserListBase renders default properly 1`] = `
+<div
+  className="userBody"
+>
+  <WithWidth(WithStyles(withRouter(MasterDetailBase)))
+    classes={
+      Object {
+        "drawerPaper": "drawer",
+        "expander": undefined,
+      }
+    }
+    detail={[Function]}
+    empty={[Function]}
+    master={[Function]}
+  />
+</div>
+`;

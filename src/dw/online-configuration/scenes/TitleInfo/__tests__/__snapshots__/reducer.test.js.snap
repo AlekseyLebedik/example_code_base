@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TitleInfo Reducer TITLE_INFO_FETCH_SUCCESS combines new title information with current one 1`] = `
+Object {
+  "loading": false,
+  "titleInfo": Object {
+    "cluster": Object {
+      "id": 313,
+      "name": "ww2_psn_prod_las…prod_las",
+    },
+    "mmp": Object {
+      "mmpVersion": "18.51.3",
+      "wsVersion": "2.136",
+    },
+  },
+}
+`;
+
+exports[`TitleInfo Reducer TITLE_INFO_FETCH_SUCCESS replaces only new title information 1`] = `
+Object {
+  "loading": false,
+  "titleInfo": Object {
+    "cluster": Object {
+      "id": 313,
+      "name": "ww2_psn_prod_las…prod_las",
+    },
+    "mmp": Object {
+      "mmpVersion": "18.51.3",
+      "wsVersion": "2.136",
+    },
+  },
+}
+`;
+
+exports[`TitleInfo Reducer returns default state 1`] = `
+Object {
+  "loading": false,
+  "titleInfo": Object {},
+}
+`;

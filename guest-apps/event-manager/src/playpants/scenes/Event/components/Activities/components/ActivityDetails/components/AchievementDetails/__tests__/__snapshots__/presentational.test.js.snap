@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AchievementDetails presentational renders correctly 1`] = `
+<Fragment>
+  <ActivityTitleBase
+    RevertDialog={null}
+    customComponent={null}
+  />
+  <MainDetailsEmpty
+    msg="Please select a context to continue"
+  />
+</Fragment>
+`;

@@ -1,0 +1,12 @@
+.button {
+  composes: action-button from global;
+  padding: 0 !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.segmentInput {
+  width: 196px;
+  min-width: 120px;
+  margin-right: 10px;
+}

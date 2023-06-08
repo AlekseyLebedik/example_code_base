@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Security - ACL - Revision History Reducer handle REVISION_HISTORY_FETCH_SUCCESS 1`] = `
+Object {
+  "revisions": Array [
+    Object {
+      "change": "Added writable leaderoards: [2, 3]",
+      "revision": 1,
+    },
+    Object {
+      "change": "Added writable leaderoards: [4, 5]",
+      "revision": 2,
+    },
+  ],
+}
+`;
+
+exports[`Security - ACL - Revision History Reducer handle REVISION_HISTORY_REVERT_SUCCESS 1`] = `
+Object {
+  "revisions": Array [
+    Object {
+      "change": "Added writable leaderoards: [4, 5]",
+      "revision": 2,
+    },
+  ],
+}
+`;
+
+exports[`Security - ACL - Revision History Reducer return the initial state 1`] = `
+Object {
+  "revisions": Array [],
+}
+`;

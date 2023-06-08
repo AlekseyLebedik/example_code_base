@@ -1,0 +1,33 @@
+.toolbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+}
+
+.select {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.selectContainer {
+  display: flex;
+  min-width: 130px;
+  justify-content: space-evenly;
+}
+
+.downshiftContainer {
+  position: relative;
+}
+
+.paper {
+  position: absolute;
+  z-index: 1;
+  max-height: 260px;
+  overflow: auto;
+}
+
+.item {
+  padding: 5px 10px 5px 10px;
+}

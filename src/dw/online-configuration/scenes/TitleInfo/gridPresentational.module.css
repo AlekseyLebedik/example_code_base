@@ -1,0 +1,58 @@
+.agGridContainer {
+  composes: ag-theme-material from global;
+  width: 100%;
+  flex: 1;
+}
+
+.agGridContainer :global(.ag-status-bar) {
+  border: 0px;
+}
+
+.agGridContainer :global(.ag-row-level-0) {
+  background-color: #e2e2e2 !important;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.agGridContainer :global(.ag-cell) {
+  line-height: 35px !important;
+}
+
+.container {
+  height: 100%;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.partialSearchContainer {
+  padding-left: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+  margin-bottom: 5px;
+}
+
+.partialSearch {
+  margin: 0px;
+  width: 100%;
+}
+
+.nameCell {
+  font-weight: 500;
+}
+
+.nameCell {
+  margin-left: 37px;
+}
+
+.gridPresentational_container :local {
+  height: 100%;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}

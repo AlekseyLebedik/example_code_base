@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateSelector Select should always render 1`] = `
+<WithStyles(ForwardRef(Select))
+  className="dateSelectorInner"
+  disableUnderline={true}
+  onChange={[Function]}
+  value="2019-01-01T00:00:00+00:00"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-11-01T00:00:00+00:00"
+    value="2018-11-01T00:00:00+00:00"
+  >
+    November 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-12-01T00:00:00+00:00"
+    value="2018-12-01T00:00:00+00:00"
+  >
+    December 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-01T00:00:00+00:00"
+    value="2019-01-01T00:00:00+00:00"
+  >
+    January 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-01T00:00:00+00:00"
+    value="2019-02-01T00:00:00+00:00"
+  >
+    February 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-03-01T00:00:00+00:00"
+    value="2019-03-01T00:00:00+00:00"
+  >
+    March 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-04-01T00:00:00+00:00"
+    value="2019-04-01T00:00:00+00:00"
+  >
+    April 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-05-01T00:00:00+00:00"
+    value="2019-05-01T00:00:00+00:00"
+  >
+    May 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-06-01T00:00:00+00:00"
+    value="2019-06-01T00:00:00+00:00"
+  >
+    June 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-07-01T00:00:00+00:00"
+    value="2019-07-01T00:00:00+00:00"
+  >
+    July 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-08-01T00:00:00+00:00"
+    value="2019-08-01T00:00:00+00:00"
+  >
+    August 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-09-01T00:00:00+00:00"
+    value="2019-09-01T00:00:00+00:00"
+  >
+    September 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-10-01T00:00:00+00:00"
+    value="2019-10-01T00:00:00+00:00"
+  >
+    October 2019
+  </WithStyles(ForwardRef(MenuItem))>
+</WithStyles(ForwardRef(Select))>
+`;
+
+exports[`DateSelector custom month view selected 1`] = `
+<WithStyles(ForwardRef(Select))
+  className="dateSelectorInner"
+  disableUnderline={true}
+  onChange={[Function]}
+  value="2019-01-01T00:00:00+00:00"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-09-23T00:00:00+00:00"
+    value="2018-09-23T00:00:00+00:00"
+  >
+    Sun Sep 23, 2018 – Sun Nov 11, 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-11-12T00:00:00+00:00"
+    value="2018-11-12T00:00:00+00:00"
+  >
+    Mon Nov 12, 2018 – Mon Dec 31, 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-01T00:00:00+00:00"
+    value="2019-01-01T00:00:00+00:00"
+  >
+    Tue Jan 1, 2019 – Tue Feb 19, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-20T00:00:00+00:00"
+    value="2019-02-20T00:00:00+00:00"
+  >
+    Wed Feb 20, 2019 – Wed Apr 10, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-04-11T00:00:00+00:00"
+    value="2019-04-11T00:00:00+00:00"
+  >
+    Thu Apr 11, 2019 – Thu May 30, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-05-31T00:00:00+00:00"
+    value="2019-05-31T00:00:00+00:00"
+  >
+    Fri May 31, 2019 – Fri Jul 19, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-07-20T00:00:00+00:00"
+    value="2019-07-20T00:00:00+00:00"
+  >
+    Sat Jul 20, 2019 – Sat Sep 7, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-09-08T00:00:00+00:00"
+    value="2019-09-08T00:00:00+00:00"
+  >
+    Sun Sep 8, 2019 – Sun Oct 27, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-10-28T00:00:00+00:00"
+    value="2019-10-28T00:00:00+00:00"
+  >
+    Mon Oct 28, 2019 – Mon Dec 16, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-12-17T00:00:00+00:00"
+    value="2019-12-17T00:00:00+00:00"
+  >
+    Tue Dec 17, 2019 – Tue Feb 4, 2020
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2020-02-05T00:00:00+00:00"
+    value="2020-02-05T00:00:00+00:00"
+  >
+    Wed Feb 5, 2020 – Wed Mar 25, 2020
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2020-03-26T00:00:00+00:00"
+    value="2020-03-26T00:00:00+00:00"
+  >
+    Thu Mar 26, 2020 – Thu May 14, 2020
+  </WithStyles(ForwardRef(MenuItem))>
+</WithStyles(ForwardRef(Select))>
+`;
+
+exports[`DateSelector custom week view selected 1`] = `
+<WithStyles(ForwardRef(Select))
+  className="dateSelectorInner"
+  disableUnderline={true}
+  onChange={[Function]}
+  value="2019-01-01T00:00:00+00:00"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-12-16T00:00:00+00:00"
+    value="2018-12-16T00:00:00+00:00"
+  >
+    Sun Dec 16, 2018 – Sun Dec 23, 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-12-24T00:00:00+00:00"
+    value="2018-12-24T00:00:00+00:00"
+  >
+    Mon Dec 24, 2018 – Mon Dec 31, 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-01T00:00:00+00:00"
+    value="2019-01-01T00:00:00+00:00"
+  >
+    Tue Jan 1, 2019 – Tue Jan 8, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-09T00:00:00+00:00"
+    value="2019-01-09T00:00:00+00:00"
+  >
+    Wed Jan 9, 2019 – Wed Jan 16, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-17T00:00:00+00:00"
+    value="2019-01-17T00:00:00+00:00"
+  >
+    Thu Jan 17, 2019 – Thu Jan 24, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-25T00:00:00+00:00"
+    value="2019-01-25T00:00:00+00:00"
+  >
+    Fri Jan 25, 2019 – Fri Feb 1, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-02T00:00:00+00:00"
+    value="2019-02-02T00:00:00+00:00"
+  >
+    Sat Feb 2, 2019 – Sat Feb 9, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-10T00:00:00+00:00"
+    value="2019-02-10T00:00:00+00:00"
+  >
+    Sun Feb 10, 2019 – Sun Feb 17, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-18T00:00:00+00:00"
+    value="2019-02-18T00:00:00+00:00"
+  >
+    Mon Feb 18, 2019 – Mon Feb 25, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-26T00:00:00+00:00"
+    value="2019-02-26T00:00:00+00:00"
+  >
+    Tue Feb 26, 2019 – Tue Mar 5, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-03-06T00:00:00+00:00"
+    value="2019-03-06T00:00:00+00:00"
+  >
+    Wed Mar 6, 2019 – Wed Mar 13, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-03-14T00:00:00+00:00"
+    value="2019-03-14T00:00:00+00:00"
+  >
+    Thu Mar 14, 2019 – Thu Mar 21, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+</WithStyles(ForwardRef(Select))>
+`;
+
+exports[`DateSelector day view selected 1`] = `
+<WithStyles(ForwardRef(Select))
+  className="dateSelectorInner"
+  disableUnderline={true}
+  onChange={[Function]}
+  value="2019-01-01T00:00:00+00:00"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-12-30T00:00:00+00:00"
+    value="2018-12-30T00:00:00+00:00"
+  >
+    Sunday, December 30, 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-12-31T00:00:00+00:00"
+    value="2018-12-31T00:00:00+00:00"
+  >
+    Monday, December 31, 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-01T00:00:00+00:00"
+    value="2019-01-01T00:00:00+00:00"
+  >
+    Tuesday, January 1, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-02T00:00:00+00:00"
+    value="2019-01-02T00:00:00+00:00"
+  >
+    Wednesday, January 2, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-03T00:00:00+00:00"
+    value="2019-01-03T00:00:00+00:00"
+  >
+    Thursday, January 3, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-04T00:00:00+00:00"
+    value="2019-01-04T00:00:00+00:00"
+  >
+    Friday, January 4, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-05T00:00:00+00:00"
+    value="2019-01-05T00:00:00+00:00"
+  >
+    Saturday, January 5, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-06T00:00:00+00:00"
+    value="2019-01-06T00:00:00+00:00"
+  >
+    Sunday, January 6, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-07T00:00:00+00:00"
+    value="2019-01-07T00:00:00+00:00"
+  >
+    Monday, January 7, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-08T00:00:00+00:00"
+    value="2019-01-08T00:00:00+00:00"
+  >
+    Tuesday, January 8, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-09T00:00:00+00:00"
+    value="2019-01-09T00:00:00+00:00"
+  >
+    Wednesday, January 9, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-10T00:00:00+00:00"
+    value="2019-01-10T00:00:00+00:00"
+  >
+    Thursday, January 10, 2019
+  </WithStyles(ForwardRef(MenuItem))>
+</WithStyles(ForwardRef(Select))>
+`;
+
+exports[`DateSelector month view selected 1`] = `
+<WithStyles(ForwardRef(Select))
+  className="dateSelectorInner"
+  disableUnderline={true}
+  onChange={[Function]}
+  value="2019-01-01T00:00:00+00:00"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-11-01T00:00:00+00:00"
+    value="2018-11-01T00:00:00+00:00"
+  >
+    November 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-12-01T00:00:00+00:00"
+    value="2018-12-01T00:00:00+00:00"
+  >
+    December 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-01T00:00:00+00:00"
+    value="2019-01-01T00:00:00+00:00"
+  >
+    January 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-01T00:00:00+00:00"
+    value="2019-02-01T00:00:00+00:00"
+  >
+    February 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-03-01T00:00:00+00:00"
+    value="2019-03-01T00:00:00+00:00"
+  >
+    March 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-04-01T00:00:00+00:00"
+    value="2019-04-01T00:00:00+00:00"
+  >
+    April 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-05-01T00:00:00+00:00"
+    value="2019-05-01T00:00:00+00:00"
+  >
+    May 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-06-01T00:00:00+00:00"
+    value="2019-06-01T00:00:00+00:00"
+  >
+    June 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-07-01T00:00:00+00:00"
+    value="2019-07-01T00:00:00+00:00"
+  >
+    July 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-08-01T00:00:00+00:00"
+    value="2019-08-01T00:00:00+00:00"
+  >
+    August 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-09-01T00:00:00+00:00"
+    value="2019-09-01T00:00:00+00:00"
+  >
+    September 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-10-01T00:00:00+00:00"
+    value="2019-10-01T00:00:00+00:00"
+  >
+    October 2019
+  </WithStyles(ForwardRef(MenuItem))>
+</WithStyles(ForwardRef(Select))>
+`;
+
+exports[`DateSelector renders date selectors properly 1`] = `
+<WithStyles(ForwardRef(Select))
+  className="dateSelectorInner"
+  disableUnderline={true}
+  onChange={[Function]}
+  value="2019-01-01T00:00:00+00:00"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-11-01T00:00:00+00:00"
+    value="2018-11-01T00:00:00+00:00"
+  >
+    November 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-12-01T00:00:00+00:00"
+    value="2018-12-01T00:00:00+00:00"
+  >
+    December 2018
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-01T00:00:00+00:00"
+    value="2019-01-01T00:00:00+00:00"
+  >
+    January 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-01T00:00:00+00:00"
+    value="2019-02-01T00:00:00+00:00"
+  >
+    February 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-03-01T00:00:00+00:00"
+    value="2019-03-01T00:00:00+00:00"
+  >
+    March 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-04-01T00:00:00+00:00"
+    value="2019-04-01T00:00:00+00:00"
+  >
+    April 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-05-01T00:00:00+00:00"
+    value="2019-05-01T00:00:00+00:00"
+  >
+    May 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-06-01T00:00:00+00:00"
+    value="2019-06-01T00:00:00+00:00"
+  >
+    June 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-07-01T00:00:00+00:00"
+    value="2019-07-01T00:00:00+00:00"
+  >
+    July 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-08-01T00:00:00+00:00"
+    value="2019-08-01T00:00:00+00:00"
+  >
+    August 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-09-01T00:00:00+00:00"
+    value="2019-09-01T00:00:00+00:00"
+  >
+    September 2019
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-10-01T00:00:00+00:00"
+    value="2019-10-01T00:00:00+00:00"
+  >
+    October 2019
+  </WithStyles(ForwardRef(MenuItem))>
+</WithStyles(ForwardRef(Select))>
+`;
+
+exports[`DateSelector week view selected 1`] = `
+<WithStyles(ForwardRef(Select))
+  className="dateSelectorInner"
+  disableUnderline={true}
+  onChange={[Function]}
+  value="2019-01-01T00:00:00+00:00"
+>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-12-18T00:00:00+00:00"
+    value="2018-12-18T00:00:00+00:00"
+  >
+    December 16 – December 22
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2018-12-25T00:00:00+00:00"
+    value="2018-12-25T00:00:00+00:00"
+  >
+    December 23 – December 29
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-01T00:00:00+00:00"
+    value="2019-01-01T00:00:00+00:00"
+  >
+    December 30 – January 5
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-08T00:00:00+00:00"
+    value="2019-01-08T00:00:00+00:00"
+  >
+    January 6 – January 12
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-15T00:00:00+00:00"
+    value="2019-01-15T00:00:00+00:00"
+  >
+    January 13 – January 19
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-22T00:00:00+00:00"
+    value="2019-01-22T00:00:00+00:00"
+  >
+    January 20 – January 26
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-01-29T00:00:00+00:00"
+    value="2019-01-29T00:00:00+00:00"
+  >
+    January 27 – February 2
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-05T00:00:00+00:00"
+    value="2019-02-05T00:00:00+00:00"
+  >
+    February 3 – February 9
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-12T00:00:00+00:00"
+    value="2019-02-12T00:00:00+00:00"
+  >
+    February 10 – February 16
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-19T00:00:00+00:00"
+    value="2019-02-19T00:00:00+00:00"
+  >
+    February 17 – February 23
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-02-26T00:00:00+00:00"
+    value="2019-02-26T00:00:00+00:00"
+  >
+    February 24 – March 2
+  </WithStyles(ForwardRef(MenuItem))>
+  <WithStyles(ForwardRef(MenuItem))
+    key="2019-03-05T00:00:00+00:00"
+    value="2019-03-05T00:00:00+00:00"
+  >
+    March 3 – March 9
+  </WithStyles(ForwardRef(MenuItem))>
+</WithStyles(ForwardRef(Select))>
+`;

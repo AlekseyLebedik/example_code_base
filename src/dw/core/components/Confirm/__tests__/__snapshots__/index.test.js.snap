@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Confirm applies special class for destructive actions 1`] = `
+<ConfirmDialog
+  cancelOnBackdropClick={false}
+  classes={
+    Object {
+      "buttonWarning": "ConfirmDialog-buttonWarning-3",
+      "paperDestructive": "ConfirmDialog-paperDestructive-1",
+      "paperWarning": "ConfirmDialog-paperWarning-2",
+    }
+  }
+  content="Are you sure you want to confirm Delete?"
+  destructive={true}
+  disabled={false}
+  mainButtonLabel="Delete"
+  onConfirm={[MockFunction]}
+  onHide={[MockFunction]}
+  open={true}
+  title="Confirm Delete"
+  variant="default"
+/>
+`;
+
+exports[`Confirm renders custom values 1`] = `
+<ConfirmDialog
+  cancelOnBackdropClick={false}
+  classes={
+    Object {
+      "buttonWarning": "ConfirmDialog-buttonWarning-3",
+      "paperDestructive": "ConfirmDialog-paperDestructive-1",
+      "paperWarning": "ConfirmDialog-paperWarning-2",
+    }
+  }
+  content="Are you sure you want to confirm Propagate?"
+  destructive={false}
+  disabled={false}
+  mainButtonLabel="Propagate"
+  onConfirm={[MockFunction]}
+  onHide={[MockFunction]}
+  open={true}
+  title="Confirm Propagate"
+  variant="default"
+/>
+`;
+
+exports[`Confirm renders default values 1`] = `
+<ConfirmDialog
+  cancelOnBackdropClick={false}
+  classes={
+    Object {
+      "buttonWarning": "ConfirmDialog-buttonWarning-3",
+      "paperDestructive": "ConfirmDialog-paperDestructive-1",
+      "paperWarning": "ConfirmDialog-paperWarning-2",
+    }
+  }
+  content="Are you sure you want to procceed with the Action?"
+  destructive={false}
+  disabled={false}
+  mainButtonLabel="Ok"
+  onConfirm={[MockFunction]}
+  onHide={[MockFunction]}
+  open={false}
+  title="Confirm Action"
+  variant="default"
+/>
+`;

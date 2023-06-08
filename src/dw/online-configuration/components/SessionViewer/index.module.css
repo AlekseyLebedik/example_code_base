@@ -1,0 +1,27 @@
+.container {
+  composes: ag-theme-balham from global;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container > div:global(.common__table-hydrated) {
+  max-height: 80vh;
+  width: 2300px;
+}
+
+.container :global(.table-lobbies .ant-table-content) {
+}
+
+.container :global(.table-lobbies .ant-table-content .lobby-closed),
+.container :global(.lobby-closed) {
+  color: red;
+}
+
+.container :global(.table-lobbies) table tbody tr td,
+.container :global(.table-lobbies) table thead tr th {
+  min-height: 49px;
+}
+
+.container :global(.table-lobbies) tbody :global(.fixed-column):hover {
+  background-color: #e6f7ff !important;
+}

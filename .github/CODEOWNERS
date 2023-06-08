@@ -1,0 +1,43 @@
+##################################
+# Devzone Frontend codeowners
+##################################
+
+##################################
+# Core files - Devzone team review
+##################################
+.github/	@Demonware/devzone @Demonware/lohika
+.storybook/	@Demonware/devzone @Demonware/lohika
+fabfile/	@Demonware/devzone @Demonware/lohika
+public/	@Demonware/devzone @Demonware/lohika
+
+src/dw/auth	@Demonware/devzone @Demonware/lohika
+src/dw/config	@Demonware/devzone @Demonware/lohika
+src/dw/core	@Demonware/devzone @Demonware/lohika
+src/dw/devzone @Demonware/lohika	@Demonware/devzone
+src/dw/permission-management	@Demonware/devzone @Demonware/lohika
+src/dw/player-tooling	@Demonware/devzone @Demonware/lohika
+
+.env	@Demonware/devzone @Demonware/lohika
+.esdoc.json	@Demonware/devzone @Demonware/lohika
+.eslintrc.json	@Demonware/devzone @Demonware/lohika
+.gitignore	@Demonware/devzone @Demonware/lohika
+.nvmrc	@Demonware/devzone @Demonware/lohika
+Dockerfile*	@Demonware/devzone @Demonware/lohika
+Jenkinsfile	@Demonware/devzone @Demonware/lohika
+Makefile	@Demonware/devzone @Demonware/lohika
+config-overrides.js	@Demonware/devzone @Demonware/lohika
+devzone-frontend.conf	@Demonware/devzone @Demonware/lohika
+docker-compose.yml	@Demonware/devzone @Demonware/lohika
+package.json	@Demonware/devzone @Demonware/lohika
+tailwind.js	@Demonware/devzone @Demonware/lohika
+
+
+##################################
+# Central Tech
+##################################
+src/dw/core/components/EventsCalendar @Demonware/devzone @Demonware/lohika @Demonware/atvi-central-tech
+src/dw/core/components/CalendarDatePicker @Demonware/devzone @Demonware/lohika @Demonware/atvi-central-tech
+guest-apps/event-manager @Demonware/devzone @Demonware/lohika @Demonware/atvi-central-tech
+
+## AB Testing
+guest-apps/abtesting @Demonware/devzone @Demonware/atvi-personalization-team @laura-zodrow

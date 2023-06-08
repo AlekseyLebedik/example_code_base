@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserFiles Reducer STORAGE_USER_FILES_DELETE_SUCCESS removes the given files from \`entries\` and unselect it 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedFile": null,
+  "uploadedFiles": Array [],
+}
+`;
+
+exports[`UserFiles Reducer STORAGE_USER_FILES_FETCH_SUCCESS combines both entry lists when \`append\` is true, and update list metadata 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+    },
+    Object {
+      "fileID": 2,
+    },
+    Object {
+      "fileID": 300,
+    },
+    Object {
+      "fileID": 400,
+    },
+  ],
+  "nextPageToken": "YYZ",
+  "q": undefined,
+  "selectedFile": undefined,
+  "uploadedFiles": Array [],
+}
+`;
+
+exports[`UserFiles Reducer STORAGE_USER_FILES_FETCH_SUCCESS replaces the entries with new ones when \`append\` is false, and update list metadata 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 300,
+    },
+    Object {
+      "fileID": 400,
+    },
+  ],
+  "nextPageToken": "YYZ",
+  "q": undefined,
+  "selectedFile": undefined,
+  "uploadedFiles": Array [],
+}
+`;
+
+exports[`UserFiles Reducer STORAGE_USER_FILES_LIST_ITEM_ONCLICK sets the selected file 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+    },
+    Object {
+      "fileID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedFile": Object {
+    "fileID": 2,
+  },
+  "uploadedFiles": Array [],
+}
+`;
+
+exports[`UserFiles Reducer STORAGE_USER_FILES_UPLOAD_SUCCESS add the new file to the entries list and select it 1`] = `
+Object {
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+    },
+    Object {
+      "fileID": 2,
+    },
+    Object {
+      "fileID": 300,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "selectedFile": Object {
+    "fileID": 300,
+  },
+  "uploadedFiles": Array [
+    300,
+  ],
+}
+`;
+
+exports[`UserFiles Reducer returns default state 1`] = `
+Object {
+  "elementsOrder": Array [],
+  "entries": Array [],
+  "nextPageToken": undefined,
+  "q": undefined,
+  "selectedFile": undefined,
+  "uploadedFiles": Array [],
+}
+`;

@@ -1,0 +1,77 @@
+.select {
+  padding-right: 0 !important;
+}
+
+.select:focus {
+  background-color: transparent;
+}
+
+.selectIcon {
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.chip {
+  margin: 0;
+  height: 22px;
+}
+
+.chip:hover {
+  background-color: white;
+}
+
+.chipHover:hover {
+  background-color: #4ac0f1 !important;
+  color: white;
+}
+
+.chipHover:hover svg {
+  color: white;
+}
+
+.colorPrimary {
+  background-color: #4ac0f1;
+}
+
+.outlinedPrimary {
+  background-color: white;
+}
+
+.outlinedDisabled {
+  color: #bd9f27;
+  border-color: #bd9f27;
+}
+
+.outlinedDisabled svg {
+  color: #bd9f27;
+}
+
+.chipLabel {
+  padding: 0 8px;
+}
+
+.chips {
+  display: flex;
+  margin-top: -5px;
+  flex-wrap: wrap;
+  max-height: 48px;
+  overflow: auto;
+}
+
+.chips > div {
+  margin: 1px;
+}
+
+.divider {
+  margin: 0 3px;
+}
+
+.chipDeleteIcon {
+  background-color: transparent;
+  height: 16px;
+  width: 16px;
+}
+
+.childOption {
+  padding-left: 32px !important;
+}

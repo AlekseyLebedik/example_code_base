@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders custom values 1`] = `
+<WithStyles(ForwardRef(TextField))
+  error={true}
+  helperText="invalid"
+  label="blah"
+  placeholder="blah"
+  type="number"
+/>
+`;
+
+exports[`Input renders default values 1`] = `
+<WithStyles(ForwardRef(TextField))
+  error={false}
+  helperText=""
+  label=""
+  placeholder=""
+/>
+`;

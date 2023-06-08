@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BansHistory renders with data 1`] = `
+<KeyValue
+  boldEntries={Array []}
+  classes={
+    Object {
+      "container": "makeStyles-container-1",
+      "key": "makeStyles-key-2",
+      "value": "makeStyles-value-3",
+    }
+  }
+  customFormats={null}
+  elementsOrder={null}
+  formatDateTime={[Function]}
+  item={
+    Object {
+      "infractionEnd": "infraction end",
+      "infractionStart": "infraction start",
+      "reason": "reason",
+      "reasonName": "cod_points_fraud",
+      "source": "source",
+      "time": "test-time",
+    }
+  }
+  size={6}
+/>
+`;
+
+exports[`BansHistory renders with empty data 1`] = `<Fragment />`;

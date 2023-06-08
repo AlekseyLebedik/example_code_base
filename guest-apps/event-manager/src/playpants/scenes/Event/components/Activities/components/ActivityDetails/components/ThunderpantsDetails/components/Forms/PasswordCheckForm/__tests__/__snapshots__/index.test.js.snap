@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PasswordCheckForm renders default 1`] = `
+<form
+  id="PasswordCheckForm"
+  onSubmit={[Function]}
+>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+  >
+    <PasswordFieldGroup
+      basePath="form.lock"
+      disabled={false}
+      disabledFields={
+        Array [
+          "comment",
+        ]
+      }
+      formState={
+        Object {
+          "deployment": Object {
+            "deploymentType": undefined,
+            "lock": undefined,
+            "uid": undefined,
+          },
+          "form": Object {
+            "lock": Object {
+              "password": Object {
+                "error": false,
+                "helper": "",
+                "value": "",
+              },
+            },
+          },
+        }
+      }
+      setFormState={[Function]}
+    />
+  </WithStyles(ForwardRef(Grid))>
+</form>
+`;

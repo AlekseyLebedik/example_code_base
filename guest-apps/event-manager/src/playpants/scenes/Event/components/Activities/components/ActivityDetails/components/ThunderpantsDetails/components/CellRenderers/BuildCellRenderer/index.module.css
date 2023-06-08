@@ -1,0 +1,22 @@
+.table {
+  height: 100%;
+  width: 100%;
+}
+
+.fullWidthPanel {
+  background: #edf6ff;
+  height: calc(100% - 40px);
+  padding: 5px;
+  position: relative;
+  width: 100%;
+}
+
+.addDeploymentButton {
+  margin: 0 0 5px 5px;
+}
+
+.buttonContainer {
+  background: #edf6ff;
+  height: 100%;
+  width: 100%;
+}

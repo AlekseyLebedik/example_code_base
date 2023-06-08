@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountAccordionChild component correctly render AccountAccordionChild 1`] = `
+<AccountsAccordionContent
+  details="N/A"
+  expandAll={false}
+  expanded={false}
+  setExpanded={[Function]}
+  styles={
+    Object {
+      "accordion": "makeStyles-accordion-1",
+      "accordionContent": "makeStyles-accordionContent-4",
+      "accordionSummary": "makeStyles-accordionSummary-2 makeStyles-accordionSummary-11",
+      "accordionSummaryexpanded": "makeStyles-accordionSummaryexpanded-3",
+      "collapseContainer": "makeStyles-collapseContainer-10 makeStyles-collapseContainer-16",
+      "details": "makeStyles-details-9 makeStyles-details-15",
+      "detailsRoot": "makeStyles-detailsRoot-8 makeStyles-detailsRoot-14",
+      "expandIcon": "makeStyles-expandIcon-5",
+      "heading": "makeStyles-heading-6 makeStyles-heading-12",
+      "subHeading": "makeStyles-subHeading-7 makeStyles-subHeading-13",
+    }
+  }
+  subHeading={
+    Object {
+      "SubHeadingComponent": [Function],
+    }
+  }
+  title="test header"
+  toggleExpandAll={null}
+/>
+`;
+
+exports[`AccountAccordionContent component correctly set header and subheader for AccountAccordionContent 1`] = `
+<WithStyles(ForwardRef(Accordion))
+  TransitionProps={
+    Object {
+      "classes": Object {
+        "container": undefined,
+      },
+    }
+  }
+  expanded={false}
+  onChange={[Function]}
+>
+  <WithStyles(ForwardRef(AccordionSummary))
+    classes={
+      Object {
+        "content": undefined,
+        "expandIcon": "makeStyles-expandIcon-250",
+        "expanded": undefined,
+        "root": undefined,
+      }
+    }
+    expandIcon={
+      <WithStyles(ForwardRef(Icon))>
+        expand_more
+      </WithStyles(ForwardRef(Icon))>
+    }
+  >
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-heading-251"
+    >
+      test header
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-subHeading-252"
+    >
+      <SubHeadingComponent
+        expandAll={false}
+      />
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(AccordionSummary))>
+  <WithStyles(ForwardRef(AccordionDetails))
+    className="makeStyles-detailsRoot-253"
+  >
+    <WithStyles(ForwardRef(Typography))
+      className="makeStyles-details-254"
+      variant="caption"
+    >
+      <DetailsComponent
+        expandAll={false}
+      />
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(AccordionDetails))>
+</WithStyles(ForwardRef(Accordion))>
+`;
+
+exports[`AccountsAccordion component correctly render AccountsAccordion 1`] = `
+<AccountsAccordionContent
+  details="N/A"
+  expandAll={true}
+  expanded={false}
+  setExpanded={[Function]}
+  styles={
+    Object {
+      "accordion": "makeStyles-accordion-1",
+      "accordionContent": "makeStyles-accordionContent-4",
+      "accordionSummary": "makeStyles-accordionSummary-2",
+      "accordionSummaryexpanded": "makeStyles-accordionSummaryexpanded-3",
+      "collapseContainer": "makeStyles-collapseContainer-10",
+      "details": "makeStyles-details-9",
+      "detailsRoot": "makeStyles-detailsRoot-8",
+      "expandIcon": "makeStyles-expandIcon-5",
+      "heading": "makeStyles-heading-6",
+      "subHeading": "makeStyles-subHeading-7",
+    }
+  }
+  subHeading={
+    Object {
+      "SubHeadingComponent": [Function],
+    }
+  }
+  title="test header"
+  toggleExpandAll={[Function]}
+/>
+`;

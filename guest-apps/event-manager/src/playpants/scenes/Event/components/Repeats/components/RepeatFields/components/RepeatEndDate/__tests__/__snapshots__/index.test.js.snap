@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepeatEndDate loads the RepeatEndDate component correctly 1`] = `
+<Connect(FormFieldDateTimePicker)
+  input={
+    Object {
+      "InputLabelProps": Object {
+        "shrink": true,
+      },
+      "classes": Object {
+        "dialog": "dialog",
+        "input": "dateInput",
+      },
+      "label": "Repeats end at",
+      "minDate": 1588276858,
+      "onChange": [Function],
+      "value": undefined,
+    }
+  }
+/>
+`;

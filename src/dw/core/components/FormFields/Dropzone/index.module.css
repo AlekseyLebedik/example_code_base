@@ -1,0 +1,55 @@
+.container {
+  composes: dropzone from global;
+  display: inline-flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 175px;
+  border: 2px dashed;
+  border-style: dashed;
+  border-radius: 5px;
+}
+
+.borderDisabled {
+  border-color: gray;
+}
+
+.label {
+  top: 8px;
+  left: 8px;
+  position: absolute;
+  transform: none;
+}
+
+.labelDisabled {
+  color: gray;
+}
+
+.container p {
+  color: rgba(0, 0, 0, 0.35);
+  margin: 2px 0;
+}
+
+.files {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.files li {
+  display: flex;
+  align-items: center;
+}
+
+.files label {
+  position: initial;
+}
+
+.deleteButton {
+  padding: 4px;
+}
+
+.browseButton {
+  color: #fff !important;
+  padding: 6px 16px !important;
+}

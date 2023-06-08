@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+}
+
+.container form {
+  width: 100%;
+  height: 100%;
+  max-width: 425px;
+  padding: 16px;
+  padding-top: 0;
+}
+
+.container form > div {
+  margin-top: 5px;
+}
+
+.field {
+  margin-top: 24px !important;
+  margin-bottom: 8px !important;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 0 !important;
+  margin-right: -10px;
+}
+
+.fieldGroup > div {
+  flex-grow: 1;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.fieldGroup input[type='text'] {
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 8px;
+}
+
+.logLevel {
+  flex-grow: 0 !important;
+  justify-content: center;
+  width: 102px;
+  height: 30px !important;
+  padding: 5px;
+}
+
+.logLevelLabel {
+  margin-right: 0;
+}
+
+.logLevelCheckbox {
+  padding-right: 5px;
+  padding-left: 15px;
+}
+
+.submitButton {
+  margin-bottom: 20px;
+}
+
+.dateFieldGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.logFieldGroup {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.logFieldGroup > div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.dateFieldGroup > div {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.textHeading {
+  color: #6d6d6d;
+
+  margin-bottom: 5px;
+}

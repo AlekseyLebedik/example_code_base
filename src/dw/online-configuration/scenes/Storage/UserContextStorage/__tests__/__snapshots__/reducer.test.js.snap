@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserContextStorage Reducer USER_CONTEXT_STORAGE_DETAILS_DELETE_FILE_SUCCESS Removes the file with the given id from the list and unselect it 1`] = `
+Object {
+  "contextsList": Array [
+    "x360",
+    "x1",
+  ],
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "reloadDetailPath": "/a",
+  "selectedFile": undefined,
+  "uploadModalVisible": false,
+}
+`;
+
+exports[`UserContextStorage Reducer USER_CONTEXT_STORAGE_FETCH_SUCCESS combines both entry lists when \`append\` is true, and update list metadata 1`] = `
+Object {
+  "contextsList": Array [
+    "x360",
+    "x1",
+  ],
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+    },
+    Object {
+      "fileID": 2,
+    },
+    Object {
+      "fileID": 300,
+    },
+    Object {
+      "fileID": 400,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": "search",
+  "reloadDetailPath": "/a",
+  "selectedFile": undefined,
+  "uploadModalVisible": false,
+}
+`;
+
+exports[`UserContextStorage Reducer USER_CONTEXT_STORAGE_FETCH_SUCCESS replaces the entries with new ones when \`append\` is false, and update list metadata 1`] = `
+Object {
+  "contextsList": Array [
+    "x360",
+    "x1",
+  ],
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 300,
+    },
+    Object {
+      "fileID": 400,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "reloadDetailPath": "/a",
+  "selectedFile": undefined,
+  "uploadModalVisible": false,
+}
+`;
+
+exports[`UserContextStorage Reducer USER_CONTEXT_STORAGE_FILES_UPLOAD_CLOSE_MODAL sets modal visibility to \`false\` 1`] = `
+Object {
+  "contextsList": Array [
+    "x360",
+    "x1",
+  ],
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+    },
+    Object {
+      "fileID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "reloadDetailPath": "/a",
+  "selectedFile": Object {
+    "fileID": 1,
+  },
+  "uploadModalVisible": true,
+}
+`;
+
+exports[`UserContextStorage Reducer USER_CONTEXT_STORAGE_FILES_UPLOAD_CLOSE_MODAL sets modal visibility to \`false\` 2`] = `
+Object {
+  "contextsList": Array [
+    "x360",
+    "x1",
+  ],
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+    },
+    Object {
+      "fileID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "reloadDetailPath": "/a",
+  "selectedFile": Object {
+    "fileID": 1,
+  },
+  "uploadModalVisible": false,
+}
+`;
+
+exports[`UserContextStorage Reducer USER_CONTEXT_STORAGE_FILES_UPLOAD_OPEN_MODAL sets modal visibility to \`true\` 1`] = `
+Object {
+  "contextsList": Array [
+    "x360",
+    "x1",
+  ],
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+    },
+    Object {
+      "fileID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "reloadDetailPath": "/a",
+  "selectedFile": Object {
+    "fileID": 1,
+  },
+  "uploadModalVisible": true,
+}
+`;
+
+exports[`UserContextStorage Reducer USER_CONTEXT_STORAGE_FILES_UPLOAD_SUCCESS sets selectedFile and hide the modal 1`] = `
+Object {
+  "contextsList": Array [
+    "x360",
+    "x1",
+  ],
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+    },
+    Object {
+      "fileID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "reloadDetailPath": "/a",
+  "selectedFile": Object {
+    "fileID": 500,
+  },
+  "uploadModalVisible": false,
+}
+`;
+
+exports[`UserContextStorage Reducer USER_CONTEXT_STORAGE_GET_STORAGE_CONTEXTS_SUCCESS sets the contexts list 1`] = `
+Object {
+  "contextsList": Array [
+    "ps3",
+    "ps4",
+  ],
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+    },
+    Object {
+      "fileID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "reloadDetailPath": "/a",
+  "selectedFile": Object {
+    "fileID": 1,
+  },
+  "uploadModalVisible": false,
+}
+`;
+
+exports[`UserContextStorage Reducer USER_CONTEXT_STORAGE_LIST_ITEM_ONCLICK sets the selected item 1`] = `
+Object {
+  "contextsList": Array [
+    "x360",
+    "x1",
+  ],
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+    },
+    Object {
+      "fileID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "reloadDetailPath": "/a",
+  "selectedFile": Object {
+    "fileID": 2,
+  },
+  "uploadModalVisible": false,
+}
+`;
+
+exports[`UserContextStorage Reducer USER_CONTEXT_STORAGE_RELOAD_DETAILS sets the reload details path 1`] = `
+Object {
+  "contextsList": Array [
+    "x360",
+    "x1",
+  ],
+  "elementsOrder": Array [
+    "fileID",
+  ],
+  "entries": Array [
+    Object {
+      "fileID": 1,
+    },
+    Object {
+      "fileID": 2,
+    },
+  ],
+  "nextPageToken": "ABC",
+  "q": undefined,
+  "reloadDetailPath": "/b",
+  "selectedFile": Object {
+    "fileID": 1,
+  },
+  "uploadModalVisible": false,
+}
+`;
+
+exports[`UserContextStorage Reducer returns default state 1`] = `
+Object {
+  "contextsList": Array [],
+  "elementsOrder": Array [],
+  "entries": Array [],
+  "q": undefined,
+  "reloadDetailPath": null,
+  "selectedFile": undefined,
+  "uploadModalVisible": false,
+}
+`;

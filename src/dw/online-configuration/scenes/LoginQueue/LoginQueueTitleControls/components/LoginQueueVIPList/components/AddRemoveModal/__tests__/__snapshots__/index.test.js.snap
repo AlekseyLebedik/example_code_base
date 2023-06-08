@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddRemoveModal display add modal 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  aria-describedby="alert-dialog-description"
+  aria-labelledby="alert-dialog-title"
+  fullWidth={true}
+  maxWidth="md"
+  onClose={[Function]}
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))
+    className="loginQueueDialogTitle"
+    id="alert-dialog-title"
+  >
+    Add
+     GamerTags
+     
+    to
+     VIP List
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(DialogContentText))
+      className="loginQueueDialogContent"
+      component="div"
+      id="alert-dialog-description"
+    >
+      <HeaderDialogText
+        actionMode="add"
+        isUploadBulk={false}
+        onDeleteAll={[Function]}
+        onToggle={[Function]}
+        toolTipClass=""
+      />
+      <div
+        className="ag-theme-alpine table"
+      >
+        <AgGridReact
+          autoSizeColumns={false}
+          autoSizeMaxWidth={2500}
+          columnDefs={
+            Array [
+              Object {
+                "cellRendererSelector": [Function],
+                "checkboxSelection": true,
+                "colSpan": [Function],
+                "field": "firstPartyGamertag",
+                "filter": "agTextColumnFilter",
+                "headerCheckboxSelection": true,
+                "headerCheckboxSelectionFilteredOnly": true,
+                "headerName": "GamerTag",
+                "minWidth": 830,
+                "sortable": true,
+                "suppressKeyboardEvent": [Function],
+              },
+              Object {
+                "cellRenderer": "deleteColumnFormatter",
+                "cellRendererParams": Object {
+                  "deleteGamerTag": [Function],
+                  "toolTipClass": "",
+                },
+                "headerName": "",
+                "maxWidth": 80,
+                "suppressMenu": true,
+                "suppressSizeToFit": true,
+              },
+            ]
+          }
+          components={
+            Object {
+              "deleteColumnFormatter": [Function],
+              "gamerTagCellRenderer": [Function],
+            }
+          }
+          headerHeight={45}
+          onGridReady={[Function]}
+          pinnedTopRowData={
+            Array [
+              Object {
+                "firstPartyGamertag": "",
+              },
+            ]
+          }
+          rowData={Array []}
+          rowHeight={45}
+          rowSelection="multiple"
+        />
+      </div>
+    </WithStyles(ForwardRef(DialogContentText))>
+  </WithStyles(ForwardRef(DialogContent))>
+  <WithStyles(ForwardRef(DialogActions))>
+    <WithStyles(ForwardRef(Button))
+      className="loginQueueDialogBtn"
+      onClick={[Function]}
+    >
+      CANCEL
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      autoFocus={true}
+      color="primary"
+      disabled={true}
+      onClick={[Function]}
+    >
+      ADD
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(DialogActions))>
+</WithStyles(ForwardRef(Dialog))>
+`;
+
+exports[`AddRemoveModal display remove modal 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  aria-describedby="alert-dialog-description"
+  aria-labelledby="alert-dialog-title"
+  fullWidth={true}
+  maxWidth="md"
+  onClose={[Function]}
+  open={true}
+>
+  <WithStyles(ForwardRef(DialogTitle))
+    className="loginQueueDialogTitle"
+    id="alert-dialog-title"
+  >
+    Remove
+     GamerTags
+     
+    from
+     VIP List
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(DialogContentText))
+      className="loginQueueDialogContent"
+      component="div"
+      id="alert-dialog-description"
+    >
+      <HeaderDialogText
+        actionMode="remove"
+        isUploadBulk={false}
+        onDeleteAll={[Function]}
+        onToggle={[Function]}
+        toolTipClass=""
+      />
+      <div
+        className="ag-theme-alpine table"
+      >
+        <AgGridReact
+          autoSizeColumns={false}
+          autoSizeMaxWidth={2500}
+          columnDefs={
+            Array [
+              Object {
+                "cellRendererSelector": [Function],
+                "checkboxSelection": true,
+                "colSpan": [Function],
+                "field": "firstPartyGamertag",
+                "filter": "agTextColumnFilter",
+                "headerCheckboxSelection": true,
+                "headerCheckboxSelectionFilteredOnly": true,
+                "headerName": "GamerTag",
+                "minWidth": 830,
+                "sortable": true,
+                "suppressKeyboardEvent": [Function],
+              },
+              Object {
+                "cellRenderer": "deleteColumnFormatter",
+                "cellRendererParams": Object {
+                  "deleteGamerTag": [Function],
+                  "toolTipClass": "",
+                },
+                "headerName": "",
+                "maxWidth": 80,
+                "suppressMenu": true,
+                "suppressSizeToFit": true,
+              },
+            ]
+          }
+          components={
+            Object {
+              "deleteColumnFormatter": [Function],
+              "gamerTagCellRenderer": [Function],
+            }
+          }
+          headerHeight={45}
+          onGridReady={[Function]}
+          pinnedTopRowData={
+            Array [
+              Object {
+                "firstPartyGamertag": "",
+              },
+            ]
+          }
+          rowData={Array []}
+          rowHeight={45}
+          rowSelection="multiple"
+        />
+      </div>
+    </WithStyles(ForwardRef(DialogContentText))>
+  </WithStyles(ForwardRef(DialogContent))>
+  <WithStyles(ForwardRef(DialogActions))>
+    <WithStyles(ForwardRef(Button))
+      className="loginQueueDialogBtn"
+      onClick={[Function]}
+    >
+      CANCEL
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      autoFocus={true}
+      color="primary"
+      disabled={true}
+      onClick={[Function]}
+    >
+      REMOVE
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(DialogActions))>
+</WithStyles(ForwardRef(Dialog))>
+`;

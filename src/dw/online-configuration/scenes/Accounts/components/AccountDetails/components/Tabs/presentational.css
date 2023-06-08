@@ -1,0 +1,12 @@
+.tabs-container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.tabs-container .ant-tabs-nav-container {
+  padding-left: 20px;
+}
+
+.tabs-container .ant-tabs-nav-container .ant-tabs-ink-bar {
+  height: 3px;
+}

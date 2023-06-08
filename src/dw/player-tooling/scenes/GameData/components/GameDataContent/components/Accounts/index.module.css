@@ -1,0 +1,7 @@
+.player2FA {
+  padding: 7px 13px;
+}
+
+.spanRows {
+  grid-row: span 3;
+}

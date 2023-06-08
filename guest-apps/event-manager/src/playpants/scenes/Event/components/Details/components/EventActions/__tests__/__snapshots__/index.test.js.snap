@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventActionsBase: renders correctly 1`] = `
+<div
+  className="actionPanel"
+  data-cy="eventActionsPanel"
+>
+  <WithStyles(ForwardRef(Grid))
+    className="grid"
+    container={true}
+    justify="flex-end"
+    spacing={0}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="request-approval-button"
+      xs={true}
+    >
+      <Connect(EventSummaryDialog)
+        baseModalId="REQUEST_APPROVAL_MODAL"
+        baseUrl=""
+        conflicts={
+          Array [
+            Object {
+              "conflicting_event": Object {
+                "activities": Array [
+                  8,
+                ],
+                "end_at": 1570212969,
+                "id": 1,
+                "project": 1,
+                "publish_at": 1569870000,
+                "status": "open",
+                "title": "Overlapping Event",
+              },
+              "conflicts": Array [
+                Object {
+                  "activity_type": "pubstorage",
+                  "details": Array [],
+                  "event_activity": Object {
+                    "activity": "{\\"files\\":[4]}",
+                    "id": 5,
+                    "title_envs": Array [
+                      1,
+                    ],
+                    "type": "pubstorage",
+                  },
+                  "overlapping_event_activity": Object {
+                    "activity": "{\\"files\\":[4]}",
+                    "id": 8,
+                    "title_envs": Array [
+                      1,
+                    ],
+                    "type": "pubstorage",
+                  },
+                  "severity": "activity-title-conflict",
+                },
+              ],
+              "severity": "activity-title-conflict",
+            },
+          ]
+        }
+        currentProject={Object {}}
+        disabled={false}
+        event={
+          Object {
+            "type": "eventManager",
+          }
+        }
+        hidden={
+          Object {
+            "activities": false,
+            "eventType": true,
+            "platforms": false,
+            "project": false,
+            "status": true,
+            "tags": true,
+            "title": false,
+            "titles": false,
+          }
+        }
+        icon="assignment_turned_in"
+        key="request-approval-button"
+        primaryAction="Request"
+        primaryActionHandler={[Function]}
+        secondaryAction="Cancel"
+        tooltip="Request Approval"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="publish-now-component"
+      xs={true}
+    >
+      <Connect(EventSummaryDialog)
+        baseModalId="PUBLISH_NOW_MODAL"
+        baseUrl=""
+        conflicts={
+          Array [
+            Object {
+              "conflicting_event": Object {
+                "activities": Array [
+                  8,
+                ],
+                "end_at": 1570212969,
+                "id": 1,
+                "project": 1,
+                "publish_at": 1569870000,
+                "status": "open",
+                "title": "Overlapping Event",
+              },
+              "conflicts": Array [
+                Object {
+                  "activity_type": "pubstorage",
+                  "details": Array [],
+                  "event_activity": Object {
+                    "activity": "{\\"files\\":[4]}",
+                    "id": 5,
+                    "title_envs": Array [
+                      1,
+                    ],
+                    "type": "pubstorage",
+                  },
+                  "overlapping_event_activity": Object {
+                    "activity": "{\\"files\\":[4]}",
+                    "id": 8,
+                    "title_envs": Array [
+                      1,
+                    ],
+                    "type": "pubstorage",
+                  },
+                  "severity": "activity-title-conflict",
+                },
+              ],
+              "severity": "activity-title-conflict",
+            },
+          ]
+        }
+        currentProject={Object {}}
+        disabled={false}
+        event={
+          Object {
+            "type": "eventManager",
+          }
+        }
+        hidden={
+          Object {
+            "activities": false,
+            "eventType": true,
+            "platforms": false,
+            "project": false,
+            "status": true,
+            "tags": true,
+            "title": false,
+            "titles": false,
+          }
+        }
+        icon="offline_bolt"
+        immediatePublish={true}
+        key="publish-now-component"
+        primaryAction="Publish"
+        primaryActionHandler={[Function]}
+        secondaryAction="Cancel"
+        tooltip="Publish Now"
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="save-as-template-component"
+      xs={true}
+    >
+      <ReduxForm
+        action="save"
+        baseUrl=""
+        destroyOnUnmount={true}
+        enableReinitialize={true}
+        forceUnregisterOnUnmount={false}
+        form="TEMPLATE_FORM_NAME"
+        getFormState={[Function]}
+        icon="save"
+        initialValues={
+          Object {
+            "description": "",
+            "duration": Object {
+              "d": 3,
+              "h": 0,
+              "m": 0,
+              "s": 0,
+            },
+            "hasEndDate": false,
+            "is_schedule": undefined,
+            "name": "undefined template",
+            "restrict_activities": undefined,
+          }
+        }
+        keepDirtyOnReinitialize={false}
+        key="save-as-template-component"
+        persistentSubmitErrors={false}
+        pristine={false}
+        pure={true}
+        shouldAsyncValidate={[Function]}
+        shouldError={[Function]}
+        shouldValidate={[Function]}
+        shouldWarn={[Function]}
+        submitAsSideEffect={false}
+        submitText="Create"
+        submittingText="Creating"
+        title="Save Template"
+        touchOnBlur={true}
+        touchOnChange={false}
+        updateUnregisteredFields={false}
+      />
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      key="null"
+      xs={true}
+    >
+      <IconMenu
+        icon="more_vert"
+      >
+        <WithStyles(ForwardRef(Grid))
+          className="gridItem"
+          container={true}
+          direction="column"
+          spacing={2}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            key="action-menu-item-cancel-event-component"
+          >
+            <ConfirmActionComponent
+              actionTrigger="onClick"
+              cancelOnBackdropClick={true}
+              changeCopyPermission={null}
+              className="secondaryButton"
+              component="IconButton"
+              confirm={
+                Object {
+                  "confirmMsg": "Once canceled you will not be able to reopen this event. Canceling will block any end activities from running but won't reset start activities that are already published. ",
+                  "destructive": true,
+                  "mainButtonLabel": "Confirm",
+                  "title": "Confirm Cancel",
+                }
+              }
+              disabled={false}
+              key="cancel-event-component"
+              onClick={[Function]}
+              tooltip="Cancel Event"
+            >
+              block
+            </ConfirmActionComponent>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            key="action-menu-item-delete-event-component"
+          >
+            <ConfirmActionComponent
+              actionTrigger="onClick"
+              cancelOnBackdropClick={true}
+              changeCopyPermission={null}
+              className="secondaryButton"
+              component="IconButton"
+              confirm={
+                Object {
+                  "confirmMsg": "This will delete the event along with any associated activities.",
+                  "destructive": true,
+                  "mainButtonLabel": "Delete",
+                  "title": "Confirm Event Deletion",
+                }
+              }
+              disabled={false}
+              key="delete-event-component"
+              onClick={[MockFunction]}
+              tooltip="Delete Event"
+            >
+              delete_forever
+            </ConfirmActionComponent>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </IconMenu>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</div>
+`;

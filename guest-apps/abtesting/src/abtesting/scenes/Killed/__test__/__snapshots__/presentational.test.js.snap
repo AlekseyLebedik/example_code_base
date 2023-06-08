@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`abtesting/scenes/Killed displays default component 1`] = `
+<div
+  className="killedContainer"
+>
+  <withRouter(Connect(AgGridComponent))
+    formatDate={[MockFunction]}
+    rowData={
+      Array [
+        Object {
+          "category": "Other",
+          "environment": "Dev",
+          "id": 1,
+          "platform": "PS4",
+          "source": "Treyach",
+          "status": "killed",
+          "target": "Marketplace",
+          "test_name": "Test 1",
+          "test_period_from": 1535454075,
+          "test_period_to": 1535455075,
+          "title": "Title test 1",
+        },
+        Object {
+          "category": "Category1",
+          "environment": "Cert",
+          "id": 3,
+          "platform": "PS4",
+          "source": "Treyach",
+          "status": "killed",
+          "target": "Marketplace",
+          "test_name": "Test 3",
+          "test_period_from": 1535454075,
+          "test_period_to": 1535455075,
+          "title": "Title test 3",
+        },
+      ]
+    }
+  />
+</div>
+`;

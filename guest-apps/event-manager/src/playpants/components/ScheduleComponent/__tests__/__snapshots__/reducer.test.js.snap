@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ScheduleComponent reducers Create event reducer returns default state 1`] = `
+Object {
+  "defaultEndDate": 1546376400,
+  "defaultStartDate": 1546372800,
+  "isRange": false,
+}
+`;
+
+exports[`ScheduleComponent reducers Selected Template reducer handles default case 1`] = `Object {}`;
+
+exports[`ScheduleComponent reducers Selected Template reducer returns default state 1`] = `Object {}`;
+
+exports[`ScheduleComponent reducers Template Source reducer returns default state 1`] = `
+Object {
+  "data": Array [],
+  "error": false,
+  "loading": false,
+  "next": undefined,
+  "nextPageToken": undefined,
+  "params": undefined,
+}
+`;

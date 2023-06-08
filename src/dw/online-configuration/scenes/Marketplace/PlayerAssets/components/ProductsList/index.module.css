@@ -1,0 +1,44 @@
+.container {
+  height: 100%;
+}
+.stretchContainer {
+  height: 100%;
+  min-height: 300px;
+}
+.gridContainer {
+  height: 100%;
+}
+
+.inActive {
+  visibility: hidden;
+}
+
+.rarityFilter {
+  align-self: flex-start;
+  max-width: 500px;
+}
+
+.productsFilter {
+  align-self: flex-end;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  outline: none;
+  width: 100%;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.deleteButton {
+  color: rgb(0, 0, 0);
+}
+
+.tableDark {
+  /* TODO: Customize ag-theme-material to a dark theme version here */
+}
+
+.table :global(.ag-header-cell-label),
+.table :global(.ag-header-cell-text) {
+}

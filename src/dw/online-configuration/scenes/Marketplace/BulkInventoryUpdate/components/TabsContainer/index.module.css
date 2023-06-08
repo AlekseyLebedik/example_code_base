@@ -1,0 +1,13 @@
+.tabsContainer {
+  min-width: 300px;
+}
+
+.indicator {
+  height: 3px;
+}
+
+.label {
+  text-transform: capitalize;
+
+  max-width: 200px;
+}

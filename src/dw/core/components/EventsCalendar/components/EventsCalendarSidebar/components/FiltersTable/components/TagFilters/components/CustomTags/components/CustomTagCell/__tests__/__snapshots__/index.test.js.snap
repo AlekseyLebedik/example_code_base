@@ -1,0 +1,595 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomTagRow renders CustomTagRow 1`] = `
+<CustomTagCell
+  checked={true}
+  classes={Object {}}
+  deleteCustomTagSet={[MockFunction]}
+  eventsCalendarSettings={
+    Object {
+      "customViewOn": false,
+      "displayView": "calendar",
+      "envTypeFilters": Object {
+        "Certification": true,
+        "Development": true,
+        "Live": true,
+      },
+      "eventTimeOffset": 0,
+      "filters": Object {
+        "customTags": Object {
+          "unspecified": true,
+          "userTags": Object {
+            "0": Object {
+              "checked": true,
+              "tags": Array [
+                "PS4",
+                "XBOX",
+              ],
+            },
+            "1": Object {
+              "checked": true,
+              "tags": Array [
+                "COD",
+                "BO4",
+              ],
+            },
+          },
+        },
+        "environments": Object {
+          "Certification": true,
+          "Cross Environment": true,
+          "Development": true,
+          "Live": true,
+        },
+        "gamertags": Object {},
+        "platforms": Object {
+          "CROSSPLAY": true,
+          "PC": true,
+          "PS4": true,
+          "SWITCH": true,
+          "Unspecified": true,
+          "XB1": true,
+        },
+        "projects": Object {
+          "Call of Duty: Modern Warfare 2": true,
+          "Cross Project": true,
+          "GTR Project": true,
+          "Permissions: Test 1": true,
+        },
+        "sources": Object {
+          "abTesting": Object {
+            "active": false,
+            "analysis": false,
+            "archived": false,
+            "config": false,
+            "killed": false,
+          },
+          "demonwareEvents": Object {
+            "criticalEvents": true,
+            "generalComments": true,
+            "incidents": true,
+            "maintenance": true,
+          },
+          "eventManager": Object {
+            "applied": false,
+            "approved": true,
+            "cancelled": false,
+            "expired": false,
+            "pending": false,
+            "rejected": false,
+            "scheduled": false,
+            "test-failed": false,
+            "testing": false,
+          },
+          "externalEvents": Object {
+            "holidays": true,
+            "pmg": Object {
+              "Other": true,
+            },
+            "sports": false,
+            "video-games": false,
+          },
+          "informationalEvents": Object {
+            "demonware": true,
+          },
+        },
+        "stories": undefined,
+      },
+      "groupLoadingStatuses": Object {
+        "abTesting": Object {
+          "error": null,
+          "isLoading": false,
+        },
+        "demonwareEvents": Object {
+          "error": null,
+          "isLoading": false,
+        },
+        "eventManager": Object {
+          "error": null,
+          "isLoading": false,
+        },
+        "externalEvents": Object {
+          "error": null,
+          "isLoading": false,
+        },
+        "informationalEvents": Object {
+          "error": null,
+          "isLoading": false,
+        },
+      },
+      "numberOfDays": 30,
+      "selectedDay": "2019-01-01T00:00:00.000Z",
+      "selectedStyle": "sources",
+      "selectedView": "month",
+    }
+  }
+  filters={
+    Object {
+      "customTags": Object {
+        "unspecified": true,
+        "userTags": Object {
+          "0": Object {
+            "checked": true,
+            "tags": Array [
+              "PS4",
+              "XBOX",
+            ],
+          },
+          "1": Object {
+            "checked": true,
+            "tags": Array [
+              "COD",
+              "BO4",
+            ],
+          },
+        },
+      },
+      "environments": Object {
+        "Certification": true,
+        "Cross Environment": true,
+        "Development": true,
+        "Live": true,
+      },
+      "gamertags": Object {},
+      "platforms": Object {
+        "CROSSPLAY": true,
+        "PC": true,
+        "PS4": true,
+        "SWITCH": true,
+        "Unspecified": true,
+        "XB1": true,
+      },
+      "projects": Object {
+        "Call of Duty: Modern Warfare 2": true,
+        "Cross Project": true,
+        "GTR Project": true,
+        "Permissions: Test 1": true,
+      },
+      "sources": Object {
+        "abTesting": Object {
+          "active": false,
+          "analysis": false,
+          "archived": false,
+          "config": false,
+          "killed": false,
+        },
+        "demonwareEvents": Object {
+          "criticalEvents": true,
+          "generalComments": true,
+          "incidents": true,
+          "maintenance": true,
+        },
+        "eventManager": Object {
+          "applied": false,
+          "approved": true,
+          "cancelled": false,
+          "expired": false,
+          "pending": false,
+          "rejected": false,
+          "scheduled": false,
+          "test-failed": false,
+          "testing": false,
+        },
+        "externalEvents": Object {
+          "holidays": true,
+          "pmg": Object {
+            "Other": true,
+          },
+          "sports": false,
+          "video-games": false,
+        },
+        "informationalEvents": Object {
+          "demonware": true,
+        },
+      },
+      "stories": undefined,
+    }
+  }
+  idx="0"
+  selectedStyle="sources"
+  setCalendarSettings={[MockFunction]}
+  setTagsExpanded={[MockFunction]}
+  tags={
+    Array [
+      "COD",
+      "PS4",
+      "XB1",
+    ]
+  }
+  toggleCustomTags={[MockFunction]}
+  value="CROSSPLAY"
+>
+  <div
+    className="customTagFilter"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <WithStyles(ForwardRef(Checkbox))
+      checked={true}
+      classes={
+        Object {
+          "checked": "",
+          "root": "",
+        }
+      }
+      disableRipple={true}
+      onChange={[Function]}
+      value="0"
+    >
+      <ForwardRef(Checkbox)
+        checked={true}
+        classes={
+          Object {
+            "checked": "Mui-checked",
+            "colorPrimary": "MuiCheckbox-colorPrimary",
+            "colorSecondary": "MuiCheckbox-colorSecondary",
+            "disabled": "Mui-disabled",
+            "indeterminate": "MuiCheckbox-indeterminate",
+            "root": "MuiCheckbox-root",
+          }
+        }
+        disableRipple={true}
+        onChange={[Function]}
+        value="0"
+      >
+        <WithStyles(ForwardRef(SwitchBase))
+          checked={true}
+          checkedIcon={<Memo />}
+          classes={
+            Object {
+              "checked": "Mui-checked",
+              "disabled": "Mui-disabled",
+              "root": "MuiCheckbox-root MuiCheckbox-colorSecondary",
+            }
+          }
+          color="secondary"
+          disableRipple={true}
+          icon={<Memo />}
+          inputProps={
+            Object {
+              "data-indeterminate": false,
+            }
+          }
+          onChange={[Function]}
+          type="checkbox"
+          value="0"
+        >
+          <ForwardRef(SwitchBase)
+            checked={true}
+            checkedIcon={<Memo />}
+            classes={
+              Object {
+                "checked": "PrivateSwitchBase-checked-2 Mui-checked",
+                "disabled": "PrivateSwitchBase-disabled-3 Mui-disabled",
+                "input": "PrivateSwitchBase-input-4",
+                "root": "PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary",
+              }
+            }
+            color="secondary"
+            disableRipple={true}
+            icon={<Memo />}
+            inputProps={
+              Object {
+                "data-indeterminate": false,
+              }
+            }
+            onChange={[Function]}
+            type="checkbox"
+            value="0"
+          >
+            <WithStyles(ForwardRef(IconButton))
+              className="PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-2 Mui-checked"
+              color="secondary"
+              component="span"
+              disableRipple={true}
+              onBlur={[Function]}
+              onFocus={[Function]}
+              tabIndex={null}
+            >
+              <ForwardRef(IconButton)
+                className="PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-2 Mui-checked"
+                classes={
+                  Object {
+                    "colorInherit": "MuiIconButton-colorInherit",
+                    "colorPrimary": "MuiIconButton-colorPrimary",
+                    "colorSecondary": "MuiIconButton-colorSecondary",
+                    "disabled": "Mui-disabled",
+                    "edgeEnd": "MuiIconButton-edgeEnd",
+                    "edgeStart": "MuiIconButton-edgeStart",
+                    "label": "MuiIconButton-label",
+                    "root": "MuiIconButton-root",
+                    "sizeSmall": "MuiIconButton-sizeSmall",
+                  }
+                }
+                color="secondary"
+                component="span"
+                disableRipple={true}
+                onBlur={[Function]}
+                onFocus={[Function]}
+                tabIndex={null}
+              >
+                <WithStyles(ForwardRef(ButtonBase))
+                  centerRipple={true}
+                  className="MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorSecondary"
+                  component="span"
+                  disableRipple={true}
+                  disabled={false}
+                  focusRipple={true}
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  tabIndex={null}
+                >
+                  <ForwardRef(ButtonBase)
+                    centerRipple={true}
+                    className="MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorSecondary"
+                    classes={
+                      Object {
+                        "disabled": "Mui-disabled",
+                        "focusVisible": "Mui-focusVisible",
+                        "root": "MuiButtonBase-root",
+                      }
+                    }
+                    component="span"
+                    disableRipple={true}
+                    disabled={false}
+                    focusRipple={true}
+                    onBlur={[Function]}
+                    onFocus={[Function]}
+                    tabIndex={null}
+                  >
+                    <span
+                      aria-disabled={false}
+                      className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorSecondary"
+                      onBlur={[Function]}
+                      onDragLeave={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onKeyUp={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      tabIndex={null}
+                    >
+                      <span
+                        className="MuiIconButton-label"
+                      >
+                        <input
+                          checked={true}
+                          className="PrivateSwitchBase-input-4"
+                          data-indeterminate={false}
+                          onChange={[Function]}
+                          type="checkbox"
+                          value="0"
+                        />
+                        <ForwardRef(CheckBoxIcon)>
+                          <WithStyles(ForwardRef(SvgIcon))>
+                            <ForwardRef(SvgIcon)
+                              classes={
+                                Object {
+                                  "colorAction": "MuiSvgIcon-colorAction",
+                                  "colorDisabled": "MuiSvgIcon-colorDisabled",
+                                  "colorError": "MuiSvgIcon-colorError",
+                                  "colorPrimary": "MuiSvgIcon-colorPrimary",
+                                  "colorSecondary": "MuiSvgIcon-colorSecondary",
+                                  "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
+                                  "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
+                                  "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
+                                  "root": "MuiSvgIcon-root",
+                                }
+                              }
+                            >
+                              <svg
+                                aria-hidden={true}
+                                className="MuiSvgIcon-root"
+                                focusable="false"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.11 0 2-.9 2-2V5c0-1.1-.89-2-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"
+                                />
+                              </svg>
+                            </ForwardRef(SvgIcon)>
+                          </WithStyles(ForwardRef(SvgIcon))>
+                        </ForwardRef(CheckBoxIcon)>
+                      </span>
+                    </span>
+                  </ForwardRef(ButtonBase)>
+                </WithStyles(ForwardRef(ButtonBase))>
+              </ForwardRef(IconButton)>
+            </WithStyles(ForwardRef(IconButton))>
+          </ForwardRef(SwitchBase)>
+        </WithStyles(ForwardRef(SwitchBase))>
+      </ForwardRef(Checkbox)>
+    </WithStyles(ForwardRef(Checkbox))>
+    <div
+      className="customTagFilterTags"
+    >
+      <WithStyles(ForwardRef(Chip))
+        key="eventFilterTag/COD"
+        label="COD"
+      >
+        <ForwardRef(Chip)
+          classes={
+            Object {
+              "avatar": "MuiChip-avatar",
+              "avatarColorPrimary": "MuiChip-avatarColorPrimary",
+              "avatarColorSecondary": "MuiChip-avatarColorSecondary",
+              "avatarSmall": "MuiChip-avatarSmall",
+              "clickable": "MuiChip-clickable",
+              "clickableColorPrimary": "MuiChip-clickableColorPrimary",
+              "clickableColorSecondary": "MuiChip-clickableColorSecondary",
+              "colorPrimary": "MuiChip-colorPrimary",
+              "colorSecondary": "MuiChip-colorSecondary",
+              "deletable": "MuiChip-deletable",
+              "deletableColorPrimary": "MuiChip-deletableColorPrimary",
+              "deletableColorSecondary": "MuiChip-deletableColorSecondary",
+              "deleteIcon": "MuiChip-deleteIcon",
+              "deleteIconColorPrimary": "MuiChip-deleteIconColorPrimary",
+              "deleteIconColorSecondary": "MuiChip-deleteIconColorSecondary",
+              "deleteIconOutlinedColorPrimary": "MuiChip-deleteIconOutlinedColorPrimary",
+              "deleteIconOutlinedColorSecondary": "MuiChip-deleteIconOutlinedColorSecondary",
+              "deleteIconSmall": "MuiChip-deleteIconSmall",
+              "disabled": "Mui-disabled",
+              "icon": "MuiChip-icon",
+              "iconColorPrimary": "MuiChip-iconColorPrimary",
+              "iconColorSecondary": "MuiChip-iconColorSecondary",
+              "iconSmall": "MuiChip-iconSmall",
+              "label": "MuiChip-label",
+              "labelSmall": "MuiChip-labelSmall",
+              "outlined": "MuiChip-outlined",
+              "outlinedPrimary": "MuiChip-outlinedPrimary",
+              "outlinedSecondary": "MuiChip-outlinedSecondary",
+              "root": "MuiChip-root",
+              "sizeSmall": "MuiChip-sizeSmall",
+            }
+          }
+          label="COD"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              COD
+            </span>
+          </div>
+        </ForwardRef(Chip)>
+      </WithStyles(ForwardRef(Chip))>
+      <WithStyles(ForwardRef(Chip))
+        key="eventFilterTag/PS4"
+        label="PS4"
+      >
+        <ForwardRef(Chip)
+          classes={
+            Object {
+              "avatar": "MuiChip-avatar",
+              "avatarColorPrimary": "MuiChip-avatarColorPrimary",
+              "avatarColorSecondary": "MuiChip-avatarColorSecondary",
+              "avatarSmall": "MuiChip-avatarSmall",
+              "clickable": "MuiChip-clickable",
+              "clickableColorPrimary": "MuiChip-clickableColorPrimary",
+              "clickableColorSecondary": "MuiChip-clickableColorSecondary",
+              "colorPrimary": "MuiChip-colorPrimary",
+              "colorSecondary": "MuiChip-colorSecondary",
+              "deletable": "MuiChip-deletable",
+              "deletableColorPrimary": "MuiChip-deletableColorPrimary",
+              "deletableColorSecondary": "MuiChip-deletableColorSecondary",
+              "deleteIcon": "MuiChip-deleteIcon",
+              "deleteIconColorPrimary": "MuiChip-deleteIconColorPrimary",
+              "deleteIconColorSecondary": "MuiChip-deleteIconColorSecondary",
+              "deleteIconOutlinedColorPrimary": "MuiChip-deleteIconOutlinedColorPrimary",
+              "deleteIconOutlinedColorSecondary": "MuiChip-deleteIconOutlinedColorSecondary",
+              "deleteIconSmall": "MuiChip-deleteIconSmall",
+              "disabled": "Mui-disabled",
+              "icon": "MuiChip-icon",
+              "iconColorPrimary": "MuiChip-iconColorPrimary",
+              "iconColorSecondary": "MuiChip-iconColorSecondary",
+              "iconSmall": "MuiChip-iconSmall",
+              "label": "MuiChip-label",
+              "labelSmall": "MuiChip-labelSmall",
+              "outlined": "MuiChip-outlined",
+              "outlinedPrimary": "MuiChip-outlinedPrimary",
+              "outlinedSecondary": "MuiChip-outlinedSecondary",
+              "root": "MuiChip-root",
+              "sizeSmall": "MuiChip-sizeSmall",
+            }
+          }
+          label="PS4"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              PS4
+            </span>
+          </div>
+        </ForwardRef(Chip)>
+      </WithStyles(ForwardRef(Chip))>
+      <WithStyles(ForwardRef(Chip))
+        key="eventFilterTag/XB1"
+        label="XB1"
+      >
+        <ForwardRef(Chip)
+          classes={
+            Object {
+              "avatar": "MuiChip-avatar",
+              "avatarColorPrimary": "MuiChip-avatarColorPrimary",
+              "avatarColorSecondary": "MuiChip-avatarColorSecondary",
+              "avatarSmall": "MuiChip-avatarSmall",
+              "clickable": "MuiChip-clickable",
+              "clickableColorPrimary": "MuiChip-clickableColorPrimary",
+              "clickableColorSecondary": "MuiChip-clickableColorSecondary",
+              "colorPrimary": "MuiChip-colorPrimary",
+              "colorSecondary": "MuiChip-colorSecondary",
+              "deletable": "MuiChip-deletable",
+              "deletableColorPrimary": "MuiChip-deletableColorPrimary",
+              "deletableColorSecondary": "MuiChip-deletableColorSecondary",
+              "deleteIcon": "MuiChip-deleteIcon",
+              "deleteIconColorPrimary": "MuiChip-deleteIconColorPrimary",
+              "deleteIconColorSecondary": "MuiChip-deleteIconColorSecondary",
+              "deleteIconOutlinedColorPrimary": "MuiChip-deleteIconOutlinedColorPrimary",
+              "deleteIconOutlinedColorSecondary": "MuiChip-deleteIconOutlinedColorSecondary",
+              "deleteIconSmall": "MuiChip-deleteIconSmall",
+              "disabled": "Mui-disabled",
+              "icon": "MuiChip-icon",
+              "iconColorPrimary": "MuiChip-iconColorPrimary",
+              "iconColorSecondary": "MuiChip-iconColorSecondary",
+              "iconSmall": "MuiChip-iconSmall",
+              "label": "MuiChip-label",
+              "labelSmall": "MuiChip-labelSmall",
+              "outlined": "MuiChip-outlined",
+              "outlinedPrimary": "MuiChip-outlinedPrimary",
+              "outlinedSecondary": "MuiChip-outlinedSecondary",
+              "root": "MuiChip-root",
+              "sizeSmall": "MuiChip-sizeSmall",
+            }
+          }
+          label="XB1"
+        >
+          <div
+            className="MuiChip-root"
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <span
+              className="MuiChip-label"
+            >
+              XB1
+            </span>
+          </div>
+        </ForwardRef(Chip)>
+      </WithStyles(ForwardRef(Chip))>
+    </div>
+  </div>
+</CustomTagCell>
+`;

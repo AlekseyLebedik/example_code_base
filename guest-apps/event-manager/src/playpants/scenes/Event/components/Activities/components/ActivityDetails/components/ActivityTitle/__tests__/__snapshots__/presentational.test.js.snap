@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActivityTitlePresentational always renders TitleSelector 1`] = `
+<TitleSelector
+  allowMultiTitles={true}
+  disabled={true}
+  onTitlesChange={[MockFunction]}
+  selectedActivity={Object {}}
+  titles={Array []}
+/>
+`;
+
+exports[`ActivityTitlePresentational renders Duplicate if there are left over titles 1`] = `null`;
+
+exports[`ActivityTitlePresentational renders MultiSelectButton if multiple titles is allowed 1`] = `null`;
+
+exports[`ActivityTitlePresentational renders Revert correctly if allowed 1`] = `null`;
+
+exports[`ActivityTitlePresentational renders correctly when multiple titles and duplication is allowed 1`] = `
+<div
+  className="activityTitleContainer"
+>
+  <ActivityName
+    disabled={true}
+    onNameChange={[MockFunction]}
+    selectedActivity={Object {}}
+  />
+  <div
+    className="titleOptionsRow"
+  >
+    <TitleSelector
+      allowMultiTitles={true}
+      disabled={true}
+      onTitlesChange={[MockFunction]}
+      selectedActivity={Object {}}
+      titles={Array []}
+    />
+  </div>
+  <div
+    className="customComponent"
+  >
+    <Component />
+  </div>
+</div>
+`;

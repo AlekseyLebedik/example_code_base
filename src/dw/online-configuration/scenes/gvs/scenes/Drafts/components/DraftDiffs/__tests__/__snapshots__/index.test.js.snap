@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DraftDiff renders DraftDiff component 1`] = `
+<DiffBase
+  diffs={Array []}
+  includeScope={true}
+  itemId="1234567890"
+  loading={true}
+/>
+`;
+
+exports[`DraftDiff renders empty component 1`] = `
+<EmptyComponent
+  classes={Object {}}
+  emptyText="No data to display"
+>
+  Select draft for details
+</EmptyComponent>
+`;

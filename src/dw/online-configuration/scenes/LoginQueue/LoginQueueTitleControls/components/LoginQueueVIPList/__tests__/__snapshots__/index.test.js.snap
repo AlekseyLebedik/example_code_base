@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginQueueVIPList displays VIP loading 1`] = `
+<div
+  className="loginQueueVIPList"
+>
+  <div
+    className="loginQueueVIPListActions"
+  >
+    <SearchComponent
+      advancedSearchFields={Array []}
+      className="loginQueueVIPListSearch"
+      defaultSearchField={Object {}}
+      iconClassName="iconClassName"
+      initialValue=""
+      onSearch={[Function]}
+      placeholder="Search Whitelisted VIP Gamertags"
+      searchOnChange={true}
+    />
+    <div
+      className="loginQueueVIPListButtons"
+    />
+  </div>
+  <LoginQueueVIPListSkeleton />
+</div>
+`;
+
+exports[`LoginQueueVIPList displays VIPs 1`] = `
+<div
+  className="loginQueueVIPList"
+>
+  <div
+    className="loginQueueVIPListActions"
+  >
+    <SearchComponent
+      advancedSearchFields={Array []}
+      className="loginQueueVIPListSearch"
+      defaultSearchField={Object {}}
+      iconClassName="iconClassName"
+      initialValue=""
+      onSearch={[Function]}
+      placeholder="Search Whitelisted VIP Gamertags"
+      searchOnChange={true}
+    />
+    <div
+      className="loginQueueVIPListButtons"
+    />
+  </div>
+  <AGGrid
+    async={false}
+    asyncGridProps={Object {}}
+    autoSizeColumns={false}
+    autoSizeMaxWidth={2500}
+    className="loginQueueVIPListGrid"
+    columnDefs={
+      Array [
+        Object {
+          "checkboxSelection": true,
+          "field": "firstPartyGamertag",
+          "headerName": "Gamertag",
+          "maxWidth": 1500,
+          "minWidth": 250,
+        },
+      ]
+    }
+    context={Object {}}
+    gridOptions={
+      Object {
+        "defaultColDef": Object {
+          "filter": true,
+          "flex": 1,
+          "sortable": true,
+        },
+      }
+    }
+    onCellClicked={[Function]}
+    onColumnResized={[Function]}
+    onColumnVisible={[Function]}
+    onFirstDataRendered={[Function]}
+    onGridReady={[Function]}
+    onGridSizeChanged={[Function]}
+    onRowSelected={[Function]}
+    rowData={
+      Array [
+        Object {
+          "firstPartyGamertag": Object {
+            "firstPartyGamertag": "devzone-test-aaaa",
+          },
+        },
+        Object {
+          "firstPartyGamertag": Object {
+            "firstPartyGamertag": "devzone-test-bbbb",
+          },
+        },
+        Object {
+          "firstPartyGamertag": Object {
+            "firstPartyGamertag": "devzone-test-cccc",
+          },
+        },
+      ]
+    }
+    suppressRowClickSelection={true}
+  />
+</div>
+`;
+
+exports[`LoginQueueVIPList displays skeleton on loading for VIPs 1`] = `
+<div
+  className="loginQueueVIPList"
+>
+  <div
+    className="loginQueueVIPListActions"
+  >
+    <SearchComponent
+      advancedSearchFields={Array []}
+      className="loginQueueVIPListSearch"
+      defaultSearchField={Object {}}
+      iconClassName="iconClassName"
+      initialValue=""
+      onSearch={[Function]}
+      placeholder="Search Whitelisted VIP Gamertags"
+      searchOnChange={true}
+    />
+    <div
+      className="loginQueueVIPListButtons"
+    />
+  </div>
+  <LoginQueueVIPListSkeleton />
+</div>
+`;
+
+exports[`LoginQueueVIPList displays skeleton on updating 1`] = `
+<div
+  className="loginQueueVIPList"
+>
+  <div
+    className="loginQueueVIPListActions"
+  >
+    <SearchComponent
+      advancedSearchFields={Array []}
+      className="loginQueueVIPListSearch"
+      defaultSearchField={Object {}}
+      iconClassName="iconClassName"
+      initialValue=""
+      onSearch={[Function]}
+      placeholder="Search Whitelisted VIP Gamertags"
+      searchOnChange={true}
+    />
+    <div
+      className="loginQueueVIPListButtons"
+    />
+  </div>
+  <LoginQueueVIPListSkeleton />
+</div>
+`;
